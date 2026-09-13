@@ -1,0 +1,165 @@
+{
+  "subject": "Physiotherapy in Community Health",
+  "questions": [
+    {
+      "id": "comm-1",
+      "topic": "Epidemiology",
+      "subtopic": "Measurements in Epidemiology",
+      "difficulty": "Easy",
+      "question": "Which of the following is NOT listed among the basic measurements used in epidemiology?",
+      "options": { "A": "Measurement of mortality", "B": "Measurement of morbidity", "C": "Measurement of natality", "D": "Measurement of a patient's personal income" },
+      "correctAnswer": "D",
+      "explanation": "Basic epidemiological measurements include mortality, morbidity, disability, natality, presence/absence/distribution of disease characteristics, medical needs and health service utilisation, environmental factors, and demographic variables — personal income is not one of the standard categories listed, though socioeconomic status may be studied as a demographic variable.",
+      "sourceBook": "Park's Textbook of Preventive and Social Medicine",
+      "sourceChapter": "Principles of Epidemiology and Epidemiologic Methods — Basic Measurements in Epidemiology",
+      "sourcePage": "55"
+    },
+    {
+      "id": "comm-2",
+      "topic": "Epidemiology",
+      "subtopic": "Comparability",
+      "difficulty": "Medium",
+      "question": "In epidemiological studies, 'comparability' between study and control groups is best ensured by:",
+      "options": {
+        "A": "Choosing groups of very different ages and backgrounds to maximise contrast",
+        "B": "Randomization or random allocation, or 'matching' for selected characteristics when random allocation is not possible (e.g. case-control/cohort studies)",
+        "C": "Always excluding any consideration of age or sex",
+        "D": "Comparability is not actually necessary for valid epidemiological conclusions"
+      },
+      "correctAnswer": "B",
+      "explanation": "Comparability ('like being compared with like') between study and control groups is best ensured by randomization or random allocation. Where this is not possible, such as in case-control or cohort studies, 'matching' for selected characteristics is used instead, and standardization can address a limited number of characteristics like age, sex, and parity.",
+      "sourceBook": "Park's Textbook of Preventive and Social Medicine",
+      "sourceChapter": "Principles of Epidemiology and Epidemiologic Methods — Making Comparisons",
+      "sourcePage": "54"
+    },
+    {
+      "id": "comm-3",
+      "topic": "Epidemiology",
+      "subtopic": "Variate and Circumstance",
+      "difficulty": "Hard",
+      "question": "In epidemiological terminology, a 'variate' that can only be present or absent (e.g. lung cancer, a broken leg) is described as:",
+      "options": { "A": "Continuously distributed", "B": "Discrete", "C": "A circumstance, not a variate", "D": "Non-measurable and therefore not usable in epidemiology" },
+      "correctAnswer": "B",
+      "explanation": "A variate (any piece of information about a patient or their disease) can be discrete — present or absent, like lung cancer or a broken leg — or continuously distributed, like blood pressure, serum cholesterol, or height. A 'circumstance' is a distinct concept: any environmental factor suspected of causing a disease, such as air pollution.",
+      "sourceBook": "Park's Textbook of Preventive and Social Medicine",
+      "sourceChapter": "Principles of Epidemiology and Epidemiologic Methods — Basic Measurements in Epidemiology",
+      "sourcePage": "60"
+    },
+    {
+      "id": "comm-4",
+      "topic": "Epidemiology",
+      "subtopic": "Death Certificate",
+      "difficulty": "Medium",
+      "question": "On the International Death Certificate, the 'underlying cause of death' is recorded in Part I, and is defined as:",
+      "options": {
+        "A": "The immediate mode of dying, such as 'heart failure' or 'asthenia'",
+        "B": "The disease or injury that initiated the chain of morbid events leading directly to death, or the circumstances of the accident/violence that produced the fatal injury",
+        "C": "Any condition present at death regardless of its role in causing it",
+        "D": "Only conditions diagnosed after an autopsy"
+      },
+      "correctAnswer": "B",
+      "explanation": "The underlying cause of death is the disease or injury that initiated the train of morbid events leading directly to death, or the circumstances of the accident/violence producing the fatal injury — the certificate explicitly notes this does NOT mean the immediate mode of dying (e.g. 'heart failure' or 'asthenia' are not acceptable as the underlying cause).",
+      "sourceBook": "Park's Textbook of Preventive and Social Medicine",
+      "sourceChapter": "Measurement of Mortality — International Death Certificate",
+      "sourcePage": "56"
+    },
+    {
+      "id": "comm-5",
+      "topic": "Epidemiology",
+      "subtopic": "Death Certificate Structure",
+      "difficulty": "Hard",
+      "question": "On the International Death Certificate, Part II records:",
+      "options": {
+        "A": "The direct/immediate cause of death only",
+        "B": "Other significant conditions that contributed to the death but were not directly related to the disease or condition causing it",
+        "C": "The patient's full medical history",
+        "D": "Only conditions unrelated to the patient's death in any way"
+      },
+      "correctAnswer": "B",
+      "explanation": "Part II of the death certificate records other significant associated conditions that contributed to the death but did not directly lead to it (e.g. diabetes as a contributing but non-causal condition), distinct from Part I, which records the direct cause and the underlying/antecedent causes forming the direct chain to death.",
+      "sourceBook": "Park's Textbook of Preventive and Social Medicine",
+      "sourceChapter": "Measurement of Mortality — International Death Certificate",
+      "sourcePage": "56"
+    },
+    {
+      "id": "comm-6",
+      "topic": "Epidemiology",
+      "subtopic": "Limitations of Mortality Data",
+      "difficulty": "Medium",
+      "question": "Mortality statistics are described as 'virtually useless' for studying which category of disease?",
+      "options": { "A": "Diseases with very high fatality rates", "B": "Diseases with low fatality, such as mental diseases or arthritis", "C": "All infectious diseases without exception", "D": "Only diseases affecting children" },
+      "correctAnswer": "B",
+      "explanation": "Mortality data are virtually useless for studying diseases associated with low fatality, such as mental diseases or arthritis, since these conditions rarely appear as a cause of death even though they cause significant morbidity — morbidity data are needed instead for such conditions.",
+      "sourceBook": "Park's Textbook of Preventive and Social Medicine",
+      "sourceChapter": "Measurement of Mortality — Limitations of Mortality Data",
+      "sourcePage": "56"
+    },
+    {
+      "id": "comm-7",
+      "topic": "Epidemiology",
+      "subtopic": "Limitations of Mortality Data",
+      "difficulty": "Hard",
+      "question": "Which of the following is cited as a genuine limitation of mortality data, particularly relevant to developing countries like India?",
+      "options": {
+        "A": "Incomplete reporting of deaths and lack of accuracy in recording age/cause of death",
+        "B": "Mortality data is always 100% complete and accurate worldwide",
+        "C": "Death certificates do not exist in any country",
+        "D": "Mortality data cannot be tabulated by any coding system"
+      },
+      "correctAnswer": "A",
+      "explanation": "Incomplete reporting of deaths is not usually a problem in developed countries, but can be considerable in India and other developing countries. Combined with inaccuracies in age/cause recording (often due to lack of diagnostic evidence, inexperienced certifying doctors, or absence of postmortem examination), this is a genuine limitation of mortality data quality.",
+      "sourceBook": "Park's Textbook of Preventive and Social Medicine",
+      "sourceChapter": "Measurement of Mortality — Limitations of Mortality Data",
+      "sourcePage": "56"
+    },
+    {
+      "id": "comm-8",
+      "topic": "Epidemiology",
+      "subtopic": "Denominators",
+      "difficulty": "Hard",
+      "question": "In studying road traffic accidents, why might 'accidents per 1000 vehicles' or 'per million vehicle-miles' be a more useful denominator than total population?",
+      "options": {
+        "A": "Total population is always the best denominator regardless of context",
+        "B": "Because many people in the total population do not own or use vehicles, so vehicle-based denominators better reflect actual exposure/risk",
+        "C": "Vehicle-based denominators are only used for aesthetic reasons with no analytical value",
+        "D": "Total population data is impossible to obtain in any country"
+      },
+      "correctAnswer": "B",
+      "explanation": "When the denominator is more closely related to actual exposure to risk (like the number of vehicles or vehicle-miles travelled) rather than the whole population — many of whom may not drive or use vehicles at all — the resulting rate more accurately reflects the true risk of the event being measured.",
+      "sourceBook": "Park's Textbook of Preventive and Social Medicine",
+      "sourceChapter": "Principles of Epidemiology and Epidemiologic Methods — Rates Related to Total Events",
+      "sourcePage": "55"
+    },
+    {
+      "id": "comm-9",
+      "topic": "Epidemiology",
+      "subtopic": "Epidemiological Questions",
+      "difficulty": "Easy",
+      "question": "According to the framework for 'asking questions' in epidemiology, which of the following is a question 'related to health action' rather than 'related to health events'?",
+      "options": {
+        "A": "What is the event (the problem)?",
+        "B": "What resources are required, and how are activities to be organized?",
+        "C": "Where did it happen?",
+        "D": "Who is affected?"
+      },
+      "correctAnswer": "B",
+      "explanation": "Questions like 'what is the event', 'where/when did it happen', and 'who is affected' are related to health events. Questions about what resources are required and how activities should be organized fall under questions related to health action — what should be done about the problem.",
+      "sourceBook": "Park's Textbook of Preventive and Social Medicine",
+      "sourceChapter": "Principles of Epidemiology and Epidemiologic Methods — Asking Questions",
+      "sourcePage": "54"
+    },
+    {
+      "id": "comm-10",
+      "topic": "Epidemiology",
+      "subtopic": "Basic Requirements of Measurement",
+      "difficulty": "Medium",
+      "question": "The basic requirements of good epidemiological measurement include validity, reliability, accuracy, sensitivity, and:",
+      "options": { "A": "Specificity", "B": "Profitability", "C": "Popularity among clinicians", "D": "Simplicity above all else, regardless of accuracy" },
+      "correctAnswer": "A",
+      "explanation": "The basic requirements of measurement in epidemiology are validity, reliability, accuracy, sensitivity, and specificity — these properties determine how trustworthy and useful a given measurement or test is for epidemiological purposes.",
+      "sourceBook": "Park's Textbook of Preventive and Social Medicine",
+      "sourceChapter": "Principles of Epidemiology and Epidemiologic Methods — Basic Measurements in Epidemiology",
+      "sourcePage": "55"
+    }
+  ]
+}
