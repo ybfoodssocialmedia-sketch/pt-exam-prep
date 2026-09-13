@@ -1,0 +1,149 @@
+{
+  "subject": "Physiology",
+  "questions": [
+    {
+      "id": "physio-1",
+      "topic": "Membrane Potentials",
+      "subtopic": "Membrane Permeability",
+      "difficulty": "Easy",
+      "question": "At rest, the cell membrane is:",
+      "options": {
+        "A": "Freely permeable to Na+ but impermeable to K+",
+        "B": "Effectively impermeable (or only moderately permeable) to Na+, but freely permeable to K+ and Cl-",
+        "C": "Equally permeable to Na+ and K+",
+        "D": "Impermeable to all ions including K+ and Cl-"
+      },
+      "correctAnswer": "B",
+      "explanation": "At rest, the cell membrane is effectively impermeable (or only moderately permeable) to Na+, while being freely permeable to K+ and Cl- — K+ permeability is roughly 50-100 times greater than Na+ permeability, which is fundamental to the genesis of the resting membrane potential.",
+      "sourceBook": "AK Jain, Physiology",
+      "sourceChapter": "The Membrane Potentials — Introduction",
+      "sourcePage": null
+    },
+    {
+      "id": "physio-2",
+      "topic": "Membrane Potentials",
+      "subtopic": "Gibbs-Donnan Equilibrium",
+      "difficulty": "Hard",
+      "question": "The Gibbs-Donnan membrane equilibrium describes what happens when a membrane permeable to some ions separates two solutions, one of which also contains a non-diffusible (non-penetrating) ion such as a protein anion. What is the key consequence?",
+      "options": {
+        "A": "All ions distribute exactly equally on both sides regardless of the non-diffusible ion",
+        "B": "The diffusible ions distribute asymmetrically at equilibrium — the diffusible cation concentration is higher on the side containing the non-penetrating anion",
+        "C": "The non-diffusible ion eventually crosses the membrane too, given enough time",
+        "D": "No electrical potential difference develops across the membrane"
+      },
+      "correctAnswer": "B",
+      "explanation": "When a non-diffusible anion (like a protein) is confined to one side, the freely diffusible ions (like K+ and Cl-) redistribute asymmetrically at equilibrium to maintain electrical neutrality and equal ion products on both sides — the diffusible cation ends up more concentrated on the side with the trapped anion. This asymmetry is the Gibbs-Donnan equilibrium and contributes to the resting membrane potential.",
+      "sourceBook": "AK Jain, Physiology",
+      "sourceChapter": "The Membrane Potentials — Gibbs-Donnan Membrane Equilibrium",
+      "sourcePage": null
+    },
+    {
+      "id": "physio-3",
+      "topic": "Membrane Potentials",
+      "subtopic": "Na+-K+ Pump",
+      "difficulty": "Medium",
+      "question": "Why does ischaemia (reduced blood/oxygen supply) lead to cell swelling and damage?",
+      "options": {
+        "A": "Ischaemia has no effect on the Na+-K+ pump",
+        "B": "Ischaemia decreases Na+-K+ pump activity, disrupting osmotic equilibrium and allowing the cell to swell",
+        "C": "Ischaemia directly ruptures the cell membrane through mechanical force",
+        "D": "Ischaemia only affects extracellular fluid, never intracellular volume"
+      },
+      "correctAnswer": "B",
+      "explanation": "The Na+-K+ pump normally keeps osmotic equilibrium by moving positive charge (and effectively solute) out of the cell, counteracting the tendency of intracellular protein anions and other molecules to draw water in and cause swelling. Ischaemia reduces the ATP-dependent pump's activity, disrupting this balance — which is why prolonged cerebral ischaemia, causing cell swelling and damage, is often fatal.",
+      "sourceBook": "AK Jain, Physiology",
+      "sourceChapter": "The Membrane Potentials — Gibbs-Donnan Effect",
+      "sourcePage": null
+    },
+    {
+      "id": "physio-4",
+      "topic": "Membrane Potentials",
+      "subtopic": "Resting Membrane Potential",
+      "difficulty": "Easy",
+      "question": "The resting membrane potential is conventionally written with a minus sign because:",
+      "options": {
+        "A": "It signifies the inside of the cell is negative relative to the outside",
+        "B": "It signifies the outside of the cell is negative relative to the inside",
+        "C": "The sign is arbitrary and carries no physiological meaning",
+        "D": "It indicates the cell is in the process of depolarising"
+      },
+      "correctAnswer": "A",
+      "explanation": "The resting membrane potential is written with a minus sign to indicate that, at rest, the interior of the cell is electrically negative relative to the exterior — its magnitude varies by tissue, typically ranging from about -10 mV to -100 mV.",
+      "sourceBook": "AK Jain, Physiology",
+      "sourceChapter": "The Membrane Potentials — Resting Membrane Potential",
+      "sourcePage": null
+    },
+    {
+      "id": "physio-5",
+      "topic": "Membrane Potentials",
+      "subtopic": "Na+-K+ Pump Electrogenicity",
+      "difficulty": "Hard",
+      "question": "The Na+-K+ pump is described as 'electrogenic at rest' because it operates with a coupling ratio of 3 Na+ out for every 2 K+ in. What would happen to its contribution to the membrane potential if the coupling ratio were instead 1:1?",
+      "options": {
+        "A": "It would generate an even larger membrane potential",
+        "B": "It would not directly generate any membrane potential itself, though it would still maintain the concentration gradients the potential depends on",
+        "C": "The cell would immediately depolarise completely and stay depolarised",
+        "D": "The pump would stop functioning altogether"
+      },
+      "correctAnswer": "B",
+      "explanation": "At a 3:2 coupling ratio, the Na+-K+ pump moves net positive charge out of the cell with each cycle, directly contributing a small electrogenic component to the membrane potential. If the ratio were 1:1 (equal charge moved each way), the pump itself would not generate any net potential directly — though it would still be essential for maintaining the ionic concentration gradients that the resting membrane potential fundamentally depends on.",
+      "sourceBook": "AK Jain, Physiology",
+      "sourceChapter": "The Membrane Potentials — Genesis of Resting Membrane Potential",
+      "sourcePage": null
+    },
+    {
+      "id": "physio-6",
+      "topic": "Membrane Potentials",
+      "subtopic": "Ion Size",
+      "difficulty": "Medium",
+      "question": "Although sodium's atomic weight (23) is lower than potassium's (39), Na+ moves through the resting cell membrane with greater difficulty than K+. Why?",
+      "options": {
+        "A": "Sodium ions carry a different electrical charge than potassium",
+        "B": "Ions in body fluids are hydrated, and the hydrated Na+ ion is actually larger in radius than the hydrated K+ ion",
+        "C": "Sodium is chemically unable to pass through any biological membrane",
+        "D": "Potassium is not actually present in body fluids at rest"
+      },
+      "correctAnswer": "B",
+      "explanation": "Ions in solution are hydrated (surrounded by a shell of water molecules). Despite its lower atomic weight, hydrated Na+ has a larger effective radius than hydrated K+, which is a key reason Na+ crosses the resting membrane with more difficulty than K+.",
+      "sourceBook": "AK Jain, Physiology",
+      "sourceChapter": "The Membrane Potentials — Introduction, Size of Hydrated Ions",
+      "sourcePage": null
+    },
+    {
+      "id": "physio-7",
+      "topic": "Membrane Potentials",
+      "subtopic": "Equilibrium Potential",
+      "difficulty": "Hard",
+      "question": "The Nernst equation is used in physiology to calculate:",
+      "options": {
+        "A": "The equilibrium potential for a specific ion, based on its concentration gradient across the membrane",
+        "B": "The total resting metabolic rate of a cell",
+        "C": "The rate of action potential propagation along an axon",
+        "D": "The molecular weight of an ion"
+      },
+      "correctAnswer": "A",
+      "explanation": "The Nernst equation calculates the equilibrium potential for a given ion — the membrane potential at which the electrical force on that ion exactly balances its concentration gradient, so there is no net movement of that ion across the membrane.",
+      "sourceBook": "AK Jain, Physiology",
+      "sourceChapter": "The Membrane Potentials — The Equilibrium Potential",
+      "sourcePage": null
+    },
+    {
+      "id": "physio-8",
+      "topic": "Membrane Potentials",
+      "subtopic": "Resting Potential Genesis",
+      "difficulty": "Medium",
+      "question": "A key reason K+ efflux is not fully compensated by Na+ influx at rest (helping maintain the resting membrane potential) is that:",
+      "options": {
+        "A": "The resting membrane is much less permeable to Na+ than to K+",
+        "B": "There is no Na+ present in the extracellular fluid at rest",
+        "C": "K+ cannot actually cross the membrane at rest",
+        "D": "Na+ and K+ have identical permeabilities at rest"
+      },
+      "correctAnswer": "A",
+      "explanation": "Because the resting membrane is much less permeable to Na+ than to K+, the modest inward leak of Na+ does not offset the outward diffusion of K+ down its concentration gradient — contributing to the net negative charge that develops inside the cell at rest.",
+      "sourceBook": "AK Jain, Physiology",
+      "sourceChapter": "The Membrane Potentials — Genesis of Resting Membrane Potential",
+      "sourcePage": null
+    }
+  ]
+}
