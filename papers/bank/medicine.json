@@ -1,0 +1,201 @@
+{
+  "subject": "Medicine",
+  "questions": [
+    {
+      "id": "med-1",
+      "topic": "Clinical Decision Making",
+      "subtopic": "Type 1 and Type 2 Thinking",
+      "difficulty": "Medium",
+      "question": "In the 'dual process theory' of clinical reasoning, 'Type 1' thinking is best described as:",
+      "options": {
+        "A": "Slow, deliberate, and highly analytical",
+        "B": "Intuitive, fast, automatic, and pattern-recognition based, but more vulnerable to error",
+        "C": "Used exclusively by inexperienced clinicians",
+        "D": "A thinking style with no relevance to medical practice"
+      },
+      "correctAnswer": "B",
+      "explanation": "Type 1 thinking is intuitive, heuristic, automatic, fast, and effortless — highly efficient (used in roughly 95% of daily decisions) but more vulnerable to error and more affected by context than Type 2 thinking, which is slow, deliberate, and analytical.",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Clinical Decision Making — Type 1 and Type 2 Thinking",
+      "sourcePage": null
+    },
+    {
+      "id": "med-2",
+      "topic": "Clinical Decision Making",
+      "subtopic": "Cognitive Biases",
+      "difficulty": "Hard",
+      "question": "A clinician decides to keep a patient in hospital 'just in case', despite evidence-based guidelines and a completed systematic assessment supporting discharge, because they recently encountered a similar rare case. This is an example of which cognitive bias?",
+      "options": { "A": "Overconfidence bias", "B": "Availability bias", "C": "Commission bias only, unrelated to availability", "D": "The framing effect exclusively" },
+      "correctAnswer": "B",
+      "explanation": "Availability bias occurs when a recent or memorable case distorts a clinician's estimate of probability, making a rare condition seem more likely simply because it is 'at the forefront of the mind' — exactly as described, overriding a systematic (Type 2) assessment with an irrational intuitive override.",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Clinical Decision Making — Common Cognitive Biases",
+      "sourcePage": null
+    },
+    {
+      "id": "med-3",
+      "topic": "Clinical Decision Making",
+      "subtopic": "Cognitive Biases",
+      "difficulty": "Medium",
+      "question": "'Overconfidence bias' in clinical decision-making refers to:",
+      "options": {
+        "A": "The tendency to always order more diagnostic tests than necessary",
+        "B": "The tendency to believe one knows more than one actually does, placing too much faith in opinion over gathered evidence",
+        "C": "A bias that only affects junior doctors, never senior clinicians",
+        "D": "Excessive reliance on clinical prediction rules"
+      },
+      "correctAnswer": "B",
+      "explanation": "Overconfidence bias is the tendency to place too much faith in one's own opinion rather than the gathered evidence, sometimes compounded further by availability bias and commission bias (a tendency to act rather than not act), occasionally with serious consequences.",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Clinical Decision Making — Common Cognitive Biases",
+      "sourcePage": null
+    },
+    {
+      "id": "med-4",
+      "topic": "Clinical Decision Making",
+      "subtopic": "Human Factors",
+      "difficulty": "Hard",
+      "question": "Under conditions of fatigue or cognitive overload, the brain tends to:",
+      "options": {
+        "A": "Shift towards more careful, deliberate Type 2 thinking",
+        "B": "Revert to Type 1 (fast, intuitive) processing to conserve cognitive energy, increasing the risk of bias-driven error",
+        "C": "Stop making decisions altogether",
+        "D": "Show no measurable change in decision-making style"
+      },
+      "correctAnswer": "B",
+      "explanation": "The brain regions required for effortful Type 2 processing are most affected by fatigue and cognitive overload; under these conditions the brain reverts to faster, less effortful Type 1 processing to conserve energy — which is exactly when cognitive biases are more likely to lead to error.",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Clinical Decision Making — Human Factors",
+      "sourcePage": null
+    },
+    {
+      "id": "med-5",
+      "topic": "Clinical Decision Making",
+      "subtopic": "Reducing Errors",
+      "difficulty": "Medium",
+      "question": "The 'unpacking principle' in clinical reasoning refers to the risk that:",
+      "options": {
+        "A": "A failure to fully take the history and examine the patient means important information can be missed, leading to error",
+        "B": "Patients should always be admitted for observation regardless of findings",
+        "C": "Clinical prediction rules should never be used",
+        "D": "Diagnostic tests are always more reliable than clinical examination"
+      },
+      "correctAnswer": "A",
+      "explanation": "The unpacking principle highlights that history-taking and physical examination, though seemingly obvious steps, are sometimes performed inadequately — and this failure to 'unpack' all the available information can cause important findings to be missed.",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Clinical Decision Making — Reducing Errors, Cognitive Debiasing Strategies",
+      "sourcePage": null
+    },
+    {
+      "id": "med-6",
+      "topic": "Clinical Decision Making",
+      "subtopic": "Checklists",
+      "difficulty": "Easy",
+      "question": "The ABCDE approach (Airway, Breathing, Circulation, Disability, Exposure) used in critically ill patients is an example of which error-reduction strategy?",
+      "options": { "A": "A clinical prediction rule", "B": "A mnemonic/checklist", "C": "The SBAR communication system", "D": "A cognitive debiasing interview technique" },
+      "correctAnswer": "B",
+      "explanation": "ABCDE is probably the most widely used mnemonic/checklist in medicine, reducing reliance on fallible memory and ensuring important issues are considered systematically, especially under stress, complexity, or fatigue.",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Clinical Decision Making — Mnemonics and Checklists",
+      "sourcePage": null
+    },
+    {
+      "id": "med-7",
+      "topic": "Clinical Decision Making",
+      "subtopic": "Red Flags",
+      "difficulty": "Medium",
+      "question": "'ROWS' (Rule Out Worst-case Scenario) as a clinical strategy is best illustrated by which example?",
+      "options": {
+        "A": "Assuming pleuritic chest pain and breathlessness is always a pulled muscle",
+        "B": "Actively investigating for pulmonary embolism in a patient presenting with pleuritic chest pain and breathlessness, because missing it could be fatal",
+        "C": "Ignoring red flag symptoms in back pain to save time",
+        "D": "Only used for patients over 65 years old"
+      },
+      "correctAnswer": "B",
+      "explanation": "ROWS forces clinicians to actively consider and rule out serious, potentially fatal diagnoses that can present with common symptoms — the classic textbook example is investigating for pulmonary embolism in a patient with pleuritic chest pain and breathlessness.",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Clinical Decision Making — Red Flags and ROWS",
+      "sourcePage": null
+    },
+    {
+      "id": "med-8",
+      "topic": "Clinical Decision Making",
+      "subtopic": "Team Communication",
+      "difficulty": "Easy",
+      "question": "SBAR, a structured communication tool used for handovers and referrals, stands for:",
+      "options": { "A": "Situation, Background, Assessment, Recommendation", "B": "Symptoms, Blood tests, Allergies, Review", "C": "Signs, Basic observations, Analysis, Report", "D": "Screening, Baseline, Action, Record" },
+      "correctAnswer": "A",
+      "explanation": "SBAR (Situation, Background, Assessment, Recommendation) is a structured communication framework recommended for handovers and referrals, increasing the amount of relevant clinical information communicated in a short time.",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Clinical Decision Making — Effective Team Communication",
+      "sourcePage": null
+    },
+    {
+      "id": "med-9",
+      "topic": "Clinical Decision Making",
+      "subtopic": "Clinical Prediction Rules",
+      "difficulty": "Hard",
+      "question": "The (modified) Wells score is a clinical prediction rule used to estimate pre-test probability for which condition?",
+      "options": { "A": "Acute coronary syndrome", "B": "Pulmonary embolism / deep vein thrombosis", "C": "Community-acquired pneumonia severity", "D": "Stroke risk in atrial fibrillation" },
+      "correctAnswer": "B",
+      "explanation": "The Wells score is a clinical prediction rule used to estimate the pre-test probability of pulmonary embolism (and, in another version, deep vein thrombosis), helping guide which further tests (e.g. D-dimer, CT pulmonary angiogram) are appropriate.",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Clinical Decision Making — Clinical Prediction Rules",
+      "sourcePage": null
+    },
+    {
+      "id": "med-10",
+      "topic": "Clinical Decision Making",
+      "subtopic": "Diagnostic Test Interpretation",
+      "difficulty": "Hard",
+      "question": "The D-dimer test has high sensitivity but low specificity for pulmonary embolism. What does this mean in practice?",
+      "options": {
+        "A": "A positive D-dimer confirms pulmonary embolism definitively",
+        "B": "A negative D-dimer helps rule out pulmonary embolism, but a positive result does not confirm it — it only means the disease has not been excluded",
+        "C": "The D-dimer test is useless in clinical practice",
+        "D": "High sensitivity and low specificity mean the test is always accurate regardless of result"
+      },
+      "correctAnswer": "B",
+      "explanation": "A highly sensitive test detects most true disease (few false negatives), so a negative result is reassuring and helps exclude the disease. But low specificity means many people without the disease will still test positive (false positives) — so a raised D-dimer does not confirm pulmonary embolism, it simply means it cannot yet be excluded, prompting further imaging.",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Clinical Decision Making — Interpreting Test Results",
+      "sourcePage": null
+    },
+    {
+      "id": "med-11",
+      "topic": "Clinical Decision Making",
+      "subtopic": "Treatment Threshold",
+      "difficulty": "Medium",
+      "question": "The concept of a 'treatment threshold' in clinical decision-making primarily balances:",
+      "options": {
+        "A": "The doctor's personal preference against the hospital's budget",
+        "B": "The risks of testing/waiting against the risks and benefits of starting treatment now",
+        "C": "Only the cost of the test, with no consideration of patient risk",
+        "D": "Nothing — treatment thresholds do not exist in evidence-based medicine"
+      },
+      "correctAnswer": "B",
+      "explanation": "The treatment threshold combines the risks of a test, and the risks versus benefits of treatment, to decide the point at which it makes sense to act. For a low-risk, effective intervention (e.g. antibiotics for a likely UTI), the threshold to act is lower; for a high-risk intervention, more diagnostic certainty is required first.",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Clinical Decision Making — Dealing with Uncertainty",
+      "sourcePage": null
+    },
+    {
+      "id": "med-12",
+      "topic": "Clinical Decision Making",
+      "subtopic": "Patient-Centred Medicine",
+      "difficulty": "Medium",
+      "question": "'Patient-centred evidence-based medicine' is best defined as:",
+      "options": {
+        "A": "Applying research evidence strictly, ignoring the patient's individual circumstances and wishes",
+        "B": "Applying best-available research evidence while taking individual patient factors (clinical and non-clinical, including values and wishes) into account",
+        "C": "A model where patients make all treatment decisions with no clinical input",
+        "D": "Applying guidelines only to patients under 65 years old"
+      },
+      "correctAnswer": "B",
+      "explanation": "Patient-centred evidence-based medicine combines the best available research evidence with individual patient factors — both clinical (comorbidities, prognosis) and non-clinical (social circumstances, personal values and wishes) — rather than applying guidelines mechanically to every patient.",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Clinical Decision Making — Patient-Centred Evidence-Based Medicine",
+      "sourcePage": null
+    }
+  ]
+}
