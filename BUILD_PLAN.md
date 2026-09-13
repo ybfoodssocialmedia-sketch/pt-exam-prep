@@ -17,10 +17,11 @@
 
 ## Status as of this checkpoint (2026-09-15, session resumed after usage-limit reset)
 
-- **211 real, book-sourced bank questions** across 18 subjects (see table below for per-subject counts).
+- **226 real, book-sourced bank questions** across 18 subjects (see table below for per-subject counts).
+- ✅ **Flagship deliverable DONE**: `mock-exam-1.json` — the real 100-question Mock Exam matching official PGP-CET 2025 topic weightage exactly, assembled via `tools/compose_mock_exam.py`, verified end-to-end in-browser (Exam Mode start → 100 answers → submit → scoring → topic breakdown all correct).
 - Composer run: **10 of 60 target Practice Sets are live** (2 Easy, 4 Medium, 4 Hard), all fully disjoint (0% overlap), verified working in-browser.
 - Remaining: ~50 more Practice Sets need roughly 800-1000 more bank questions (at current ~1:1 pace of question:paper-slot with disjoint composition). This is a multi-session effort — continuing to add batches per subject and re-running `compose_papers.py` periodically to publish more sets as the bank grows.
-- The flagship real 100-question weighted Mock Exam (matching actual PGP-CET topic weightage) has NOT been started yet — next priority once a further round of subject batches lands, since several topics (Anatomy 4, Physiology 4, Biochemistry 2, etc.) already have enough bank material to draw their exact real-weightage share.
+- Next: keep adding bank batches (second/third passes per subject, new chapters), re-run both composer scripts periodically. Once the bank has grown enough, consider a `mock-exam-2` with a different random seed for variety.
 
 ## Progress tracker (update after every batch)
 
