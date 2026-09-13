@@ -1,0 +1,261 @@
+{
+  "paperId": "validation-batch-1",
+  "paperName": "Validation Batch 1 (Review Copy)",
+  "subject": "Physical Diagnosis & Manipulative Skills + Fundamentals of Exercise Therapy",
+  "description": "First real, book-sourced batch for you to review before the full 100-question mixed paper is built. 8 questions from Daniels & Worthingham (Manual Muscle Testing) + 6 from Kisner & Colby (Range of Motion / Stretching). Not the final exam paper.",
+  "durationMinutes": 90,
+  "scoring": { "correct": 1, "incorrect": 0, "unanswered": 0, "negativeMarkingEnabled": false },
+  "questions": [
+    {
+      "id": 1,
+      "subject": "Physical Diagnosis & Manipulative Skills",
+      "topic": "Manual Muscle Testing",
+      "subtopic": "Grading Criteria",
+      "difficulty": "Easy",
+      "question": "On manual muscle testing (MMT), a muscle completes the full available range of motion against gravity alone, but the motion breaks as soon as any additional manual resistance is applied, however mild. What grade should this muscle receive?",
+      "options": { "A": "Grade 5 (Normal)", "B": "Grade 4 (Good)", "C": "Grade 3 (Fair)", "D": "Grade 2 (Poor)" },
+      "correctAnswer": "C",
+      "explanation": "Grade 3 (Fair) is an objective grade: the muscle can complete full range of motion against gravity, but cannot tolerate any added resistance without breaking. Grade 4 requires the muscle to also withstand considerable, though submaximal, resistance.",
+      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+      "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+      "sourcePage": "4"
+    },
+    {
+      "id": 2,
+      "subject": "Physical Diagnosis & Manipulative Skills",
+      "topic": "Manual Muscle Testing",
+      "subtopic": "Test Procedure",
+      "difficulty": "Medium",
+      "question": "In manual muscle testing, the 'break test' is best described as:",
+      "options": {
+        "A": "Applying resistance throughout an actively moving joint to see when motion ceases",
+        "B": "Bringing the part to the end of its available range and asking the patient to hold that position while the therapist tries to force ('break') it out of position",
+        "C": "Passively moving a joint until tissue resistance is felt",
+        "D": "Timing how long a muscle can sustain a maximal isometric hold"
+      },
+      "correctAnswer": "B",
+      "explanation": "The break test — the most commonly used MMT procedure — has the patient hold the end-range test position while the therapist applies gradually increasing resistance, attempting to 'break' the hold. The alternative 'active resistance test' (resisting throughout the motion) requires more skill and is not generally recommended because results are often equivocal.",
+      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+      "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+      "sourcePage": "2"
+    },
+    {
+      "id": 3,
+      "subject": "Physical Diagnosis & Manipulative Skills",
+      "topic": "Manual Muscle Testing",
+      "subtopic": "Test Procedure",
+      "difficulty": "Medium",
+      "question": "Two-joint muscles such as the hamstrings and gastrocnemius are typically tested in mid-range rather than at full end-range during manual muscle testing. Why?",
+      "options": {
+        "A": "To avoid provoking a stretch reflex",
+        "B": "Mid-range gives these muscles a more mechanically favorable length-tension relationship for the test",
+        "C": "Two-joint muscles cannot generate any force at end range",
+        "D": "It standardizes the time taken for every muscle test"
+      },
+      "correctAnswer": "B",
+      "explanation": "One-joint muscles are tested at end range for consistency, but two-joint muscles are tested in mid-range, where their length-tension relationship is more favorable — testing them at a mechanical disadvantage would make it hard to distinguish a true Grade 5 from a Grade 4.",
+      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+      "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+      "sourcePage": "2"
+    },
+    {
+      "id": 4,
+      "subject": "Physical Diagnosis & Manipulative Skills",
+      "topic": "Manual Muscle Testing",
+      "subtopic": "Exceptions to Standard Technique",
+      "difficulty": "Hard",
+      "question": "When testing hip abductor strength in a patient with an unstable knee, resistance is applied at the distal femur (just above the knee) instead of at the ankle. Using this shorter lever, what is the highest grade that can be assigned, even if the patient tolerates maximal resistance?",
+      "options": { "A": "Grade 5", "B": "Grade 4", "C": "Grade 3", "D": "Grade 2" },
+      "correctAnswer": "B",
+      "explanation": "A shorter lever (resistance near the knee rather than at the ankle) makes the test mechanically easier, so a patient who takes maximal resistance in this position can still only be graded a 4 — the longer lever at the ankle is needed to truly demonstrate Grade 5 strength, since it better reflects the functional demand of gait.",
+      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+      "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+      "sourcePage": "3"
+    },
+    {
+      "id": 5,
+      "subject": "Physical Diagnosis & Manipulative Skills",
+      "topic": "Manual Muscle Testing",
+      "subtopic": "Evidence Base for Grading",
+      "difficulty": "Hard",
+      "question": "Sharrard's postmortem motor neuron counts in poliomyelitis patients, cited in Daniels and Worthingham, found that by the time a muscle's MMT grade had fallen to 4 (Good), approximately what proportion of its motor neurons were already lost?",
+      "options": { "A": "Less than 10%", "B": "About 25%", "C": "More than 50%", "D": "Nearly 100%" },
+      "correctAnswer": "C",
+      "explanation": "Sharrard's data showed that more than half of a muscle's motor neurons were already gone by the time its MMT grade dropped to 4, which is why the text emphasizes that a 'Good' muscle already represents real, clinically significant weakness.",
+      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+      "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+      "sourcePage": "3"
+    },
+    {
+      "id": 6,
+      "subject": "Physical Diagnosis & Manipulative Skills",
+      "topic": "Manual Muscle Testing",
+      "subtopic": "Exceptions to Standard Technique",
+      "difficulty": "Medium",
+      "question": "For the vertebroscapular muscles (e.g., the rhomboids), resistance is preferably applied on the arm rather than directly on the scapula, their true point of insertion. Why?",
+      "options": {
+        "A": "It is simply easier for the therapist to grip the arm",
+        "B": "The longer lever at the arm better reflects the functional demand of controlling the weight of the whole upper limb",
+        "C": "The scapula moves too unpredictably to resist against",
+        "D": "Resistance at the scapula risks skin breakdown"
+      },
+      "correctAnswer": "B",
+      "explanation": "Applying resistance on the arm uses a longer lever that more closely reflects the functional load these muscles must control (the weight of the arm), rather than testing at their literal anatomical insertion.",
+      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+      "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+      "sourcePage": "3"
+    },
+    {
+      "id": 7,
+      "subject": "Physical Diagnosis & Manipulative Skills",
+      "topic": "Manual Muscle Testing",
+      "subtopic": "Functional Correlation",
+      "difficulty": "Medium",
+      "question": "A patient's gluteus medius is graded 4 (Good) on manual muscle testing. Which functional finding is consistent with this grade, per Daniels and Worthingham's discussion of why 'Good' is not always good enough?",
+      "options": {
+        "A": "Completely normal, symmetric gait with no compensation",
+        "B": "A positive Trendelenburg sign during single-leg stance",
+        "C": "Complete inability to abduct the hip against gravity",
+        "D": "No palpable or visible muscle contraction at all"
+      },
+      "correctAnswer": "B",
+      "explanation": "Even a 'Good' (Grade 4) gluteus medius can be functionally inadequate — a positive Trendelenburg sign (contralateral pelvic drop in single-leg stance) can still appear, illustrating the gap between a manual muscle grade and real functional performance.",
+      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+      "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+      "sourcePage": "5"
+    },
+    {
+      "id": 8,
+      "subject": "Physical Diagnosis & Manipulative Skills",
+      "topic": "Manual Muscle Testing",
+      "subtopic": "Limitations of MMT",
+      "difficulty": "Hard",
+      "question": "The 'ceiling effect' of manual muscle testing refers to which limitation of the technique?",
+      "options": {
+        "A": "It cannot detect any degree of weakness whatsoever",
+        "B": "A wide range of actual muscle force can all be labeled Grade 5 (Normal), masking real strength differences among people graded 'normal'",
+        "C": "It systematically overestimates weakness in older adults",
+        "D": "It is not valid for testing lower-extremity muscles"
+      },
+      "correctAnswer": "B",
+      "explanation": "Studies comparing MMT to hand-held dynamometry found knee extension forces ranging roughly from 85 to over 800 Newtons all classified as Grade 5 (Normal) by break testing. This 'ceiling effect' means MMT loses the ability to distinguish real strength differences once a muscle is already strong, so it is not recommended as a measure of progress above Grade 3.",
+      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+      "sourceChapter": "Chapter 2: Relevance and Limitations of Manual Muscle Testing",
+      "sourcePage": "17"
+    },
+    {
+      "id": 9,
+      "subject": "Fundamentals of Exercise Therapy",
+      "topic": "Range of Motion",
+      "subtopic": "Continuous Passive Motion",
+      "difficulty": "Easy",
+      "question": "Continuous Passive Motion (CPM) is best described as:",
+      "options": {
+        "A": "An exercise in which the patient actively moves a joint against resistance",
+        "B": "A mechanical device that moves a joint slowly and continuously through a controlled range of motion, without effort from the patient",
+        "C": "A manual stretching technique applied by the therapist at end-range",
+        "D": "A functional movement pattern combining several joints at once"
+      },
+      "correctAnswer": "B",
+      "explanation": "CPM refers specifically to a mechanical device that passively and continuously moves a joint through a set arc of motion, developed following Robert Salter's research into the healing benefits of continual passive movement on joint tissue.",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 3: Range of Motion — Continuous Passive Motion",
+      "sourcePage": null
+    },
+    {
+      "id": 10,
+      "subject": "Fundamentals of Exercise Therapy",
+      "topic": "Range of Motion",
+      "subtopic": "Continuous Passive Motion",
+      "difficulty": "Medium",
+      "question": "Which of the following is a documented benefit of Continuous Passive Motion (CPM) following joint surgery?",
+      "options": {
+        "A": "A permanent increase in muscle strength",
+        "B": "Increased synovial fluid lubrication and a stimulating effect on healing of cartilage, tendons, and ligaments",
+        "C": "It removes the need for any active exercise afterward",
+        "D": "Guaranteed prevention of postoperative infection"
+      },
+      "correctAnswer": "B",
+      "explanation": "Documented benefits of CPM include increased synovial fluid lubrication (supporting cartilage healing), a stimulating effect on tendon and ligament healing, prevention of adhesions/contractures, and typically a quicker return of range of motion with less postoperative pain — but it does not replace active exercise or strength training.",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 3: Range of Motion — Continuous Passive Motion",
+      "sourcePage": null
+    },
+    {
+      "id": 11,
+      "subject": "Fundamentals of Exercise Therapy",
+      "topic": "Range of Motion",
+      "subtopic": "Two-Joint Muscles",
+      "difficulty": "Medium",
+      "question": "To achieve full passive range of hip flexion, the knee must also be allowed to flex. Why?",
+      "options": {
+        "A": "It relaxes tension on the two-joint hamstring muscle group, which would otherwise restrict hip flexion",
+        "B": "It reduces pain in the lumbar spine",
+        "C": "It is required purely to stabilize the pelvis",
+        "D": "Knee position has no real effect on hip flexion range"
+      },
+      "correctAnswer": "A",
+      "explanation": "The hamstrings cross both the hip and knee. Keeping the knee extended while flexing the hip stretches the hamstrings and limits how far the hip can flex; flexing the knee releases that tension, allowing full hip flexion range to be reached.",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 3: Range of Motion — Combined Hip and Knee Motion",
+      "sourcePage": null
+    },
+    {
+      "id": 12,
+      "subject": "Fundamentals of Exercise Therapy",
+      "topic": "Stretching",
+      "subtopic": "Definitions of Flexibility",
+      "difficulty": "Medium",
+      "question": "'Passive flexibility' (passive range of motion) is best described as:",
+      "options": {
+        "A": "The degree to which an active muscle contraction moves a joint through its available range",
+        "B": "The degree to which a body segment can be moved through its available range by an external force, without the patient contracting the muscle themselves",
+        "C": "The absolute maximum range any joint could reach under general anesthesia",
+        "D": "A measure of muscular endurance during repeated contractions"
+      },
+      "correctAnswer": "B",
+      "explanation": "Passive flexibility depends on the extensibility of the muscles and connective tissues crossing a joint. It is a prerequisite for, but does not guarantee, dynamic (active) flexibility — which instead depends on the patient's own active muscle contraction moving the segment.",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 4: Stretching for Impaired Mobility — Definition of Terms",
+      "sourcePage": null
+    },
+    {
+      "id": 13,
+      "subject": "Fundamentals of Exercise Therapy",
+      "topic": "Stretching",
+      "subtopic": "Contracture",
+      "difficulty": "Hard",
+      "question": "A 'pseudomyostatic' (apparent) contracture, as distinguished from a true myostatic contracture, is primarily caused by:",
+      "options": {
+        "A": "An actual reduction in the number of sarcomeres arranged in series within the muscle",
+        "B": "Hypertonicity such as spasticity or rigidity following a CNS lesion, which can be temporarily reduced with neuromuscular inhibition techniques",
+        "C": "Intra-articular adhesions and joint effusion",
+        "D": "Replacement of normal muscle tissue with fibrotic scar tissue"
+      },
+      "correctAnswer": "B",
+      "explanation": "Unlike a true myostatic contracture (adaptive shortening of the muscle-tendon unit itself with no specific muscle pathology), a pseudomyostatic contracture results from ongoing hypertonicity, muscle spasm, or pain — the muscle only appears shortened, and full passive elongation becomes possible again once inhibition techniques temporarily reduce that muscle tension.",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 4: Stretching for Impaired Mobility — Types of Contracture",
+      "sourcePage": null
+    },
+    {
+      "id": 14,
+      "subject": "Fundamentals of Exercise Therapy",
+      "topic": "Stretching",
+      "subtopic": "Selective Stretching",
+      "difficulty": "Hard",
+      "question": "In a patient with a spinal cord injury who lacks active control of the back extensors, why might a therapist deliberately allow mild hypomobility to develop in the low back extensors while still fully stretching the hamstrings?",
+      "options": {
+        "A": "To create a stable, slightly shortened structure the patient can lean into for trunk support during long-term sitting",
+        "B": "Because the back extensors cannot physically be stretched",
+        "C": "To prevent contractures developing in the hamstrings only",
+        "D": "Because stretching the trunk has no clinical value in this population"
+      },
+      "correctAnswer": "A",
+      "explanation": "This illustrates 'selective stretching': deliberately allowing some hypomobility in muscles the patient cannot actively control (like the back extensors after a thoracic/cervical spinal cord injury) gives them a stable structure to lean into for trunk stability while sitting, while the hamstrings are kept flexible enough for dressing and transfers.",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 4: Stretching for Impaired Mobility — Selective Stretching",
+      "sourcePage": null
+    }
+  ]
+}
