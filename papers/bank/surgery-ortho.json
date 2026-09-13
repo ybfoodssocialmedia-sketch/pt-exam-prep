@@ -171,6 +171,112 @@
       "sourceBook": "Bailey & Love's Short Practice of Surgery",
       "sourceChapter": "Principles of Paediatric Surgery — Genital Development",
       "sourcePage": null
+    },
+    {
+      "id": "surg-13",
+      "topic": "Nutrition and Fluid Therapy",
+      "subtopic": "Metabolic Response to Starvation",
+      "difficulty": "Medium",
+      "question": "In prolonged fasting (beyond 48-72 hours), the central nervous system adapts to using which fuel source as primary, reducing the need for muscle protein breakdown?",
+      "options": { "A": "Ketone bodies", "B": "Dietary fibre", "C": "Lactic acid exclusively", "D": "Bile acids" },
+      "correctAnswer": "A",
+      "explanation": "After 48-72 hours of fasting, the CNS adapts to using ketone bodies (produced by hepatic ketogenesis from fatty acids, facilitated by low insulin) as its primary fuel source — this 'fat fuel economy' shift reduces the need for muscle breakdown by up to 55 g per day compared to simple short-term starvation.",
+      "sourceBook": "Bailey & Love's Short Practice of Surgery",
+      "sourceChapter": "Nutrition and Fluid Therapy — Metabolic Response to Starvation",
+      "sourcePage": null
+    },
+    {
+      "id": "surg-14",
+      "topic": "Nutrition and Fluid Therapy",
+      "subtopic": "Trauma vs Starvation",
+      "difficulty": "Hard",
+      "question": "How does the metabolic response to trauma/sepsis differ from simple starvation regarding ketone formation?",
+      "options": {
+        "A": "Both produce identical, unimpaired ketone formation",
+        "B": "In trauma/sepsis, ketone formation is impaired, and glucose-generating protein breakdown cannot be entirely prevented even by giving glucose",
+        "C": "Trauma always increases ketone formation far beyond that seen in starvation",
+        "D": "Ketone formation is irrelevant to both conditions"
+      },
+      "correctAnswer": "B",
+      "explanation": "Unlike simple starvation (where glucose administration can readily reverse protein catabolism), trauma and sepsis patients have impaired ketone formation, and gluconeogenesis (protein breakdown to make glucose) cannot be entirely prevented by giving exogenous glucose — a key nutritional distinction between the two states.",
+      "sourceBook": "Bailey & Love's Short Practice of Surgery",
+      "sourceChapter": "Nutrition and Fluid Therapy — Metabolic Response to Trauma and Sepsis",
+      "sourcePage": null
+    },
+    {
+      "id": "surg-15",
+      "topic": "Nutrition and Fluid Therapy",
+      "subtopic": "Nutritional Assessment",
+      "difficulty": "Medium",
+      "question": "Why is serum albumin considered an unreliable direct measure of a patient's nutritional status, especially in the acute setting?",
+      "options": {
+        "A": "Albumin levels never change regardless of nutrition or illness",
+        "B": "Hypoalbuminaemia often results from altered body fluid composition and increased capillary permeability related to sepsis, not nutrition alone",
+        "C": "Albumin can only be measured once per year",
+        "D": "Albumin is only produced by the kidneys, unrelated to nutrition"
+      },
+      "correctAnswer": "B",
+      "explanation": "Although a low serum albumin (<30 g/L) is a poor prognostic indicator, hypoalbuminaemia is frequently driven by alterations in body fluid composition and increased capillary permeability from ongoing sepsis or illness — not purely by nutritional intake — so albumin is not a reliable direct marker of nutritional status, particularly acutely.",
+      "sourceBook": "Bailey & Love's Short Practice of Surgery",
+      "sourceChapter": "Nutritional Assessment — Laboratory Techniques",
+      "sourcePage": null
+    },
+    {
+      "id": "surg-16",
+      "topic": "Nutrition and Fluid Therapy",
+      "subtopic": "Body Mass Index",
+      "difficulty": "Medium",
+      "question": "A BMI below which threshold is associated with significant hospital mortality risk?",
+      "options": { "A": "25", "B": "20", "C": "15", "D": "30" },
+      "correctAnswer": "C",
+      "explanation": "A BMI of less than 18.5 indicates nutritional impairment, but a BMI below 15 specifically is associated with significant hospital mortality risk.",
+      "sourceBook": "Bailey & Love's Short Practice of Surgery",
+      "sourceChapter": "Nutritional Assessment — Body Weight and Anthropometry",
+      "sourcePage": null
+    },
+    {
+      "id": "surg-17",
+      "topic": "Nutrition and Fluid Therapy",
+      "subtopic": "Nutritional Assessment",
+      "difficulty": "Easy",
+      "question": "Unintentional weight loss of more than what percentage of body weight over the preceding 6 months is considered a good indicator of poor prognosis?",
+      "options": { "A": "1%", "B": "10%", "C": "50%", "D": "Weight loss is never prognostically significant" },
+      "correctAnswer": "B",
+      "explanation": "Unintentional weight loss of more than 10% of a patient's body weight over the preceding 6 months is considered a good prognostic indicator of poor outcome.",
+      "sourceBook": "Bailey & Love's Short Practice of Surgery",
+      "sourceChapter": "Nutritional Assessment — Body Weight and Anthropometry",
+      "sourcePage": null
+    },
+    {
+      "id": "surg-18",
+      "topic": "Nutrition and Fluid Therapy",
+      "subtopic": "Fluid Balance",
+      "difficulty": "Hard",
+      "question": "What is the minimum daily urine output generally required to adequately excrete the end products of protein metabolism?",
+      "options": { "A": "50 mL/day", "B": "400 mL/day", "C": "5000 mL/day", "D": "There is no minimum requirement" },
+      "correctAnswer": "B",
+      "explanation": "A minimum urine output of approximately 400 mL/day is required to excrete the nitrogenous end products of protein metabolism, even though average daily urine output in a healthy adult is around 1500 mL/day.",
+      "sourceBook": "Bailey & Love's Short Practice of Surgery",
+      "sourceChapter": "Fluid and Electrolytes",
+      "sourcePage": null
+    },
+    {
+      "id": "surg-19",
+      "topic": "Nutrition and Fluid Therapy",
+      "subtopic": "MUST Screening Tool",
+      "difficulty": "Medium",
+      "question": "The Malnutrition Universal Screening Tool (MUST) uses which three components to calculate overall risk of undernutrition?",
+      "options": {
+        "A": "BMI, recent weight loss, and the acute disease effect (likely absence of nutritional intake)",
+        "B": "Blood pressure, heart rate, and temperature only",
+        "C": "Age, gender, and occupation",
+        "D": "Serum albumin alone"
+      },
+      "correctAnswer": "A",
+      "explanation": "The MUST tool combines three scored components — BMI, percentage weight loss over 3-6 months, and the acute disease effect (adding points if there has been or will likely be little/no nutritional intake for 5+ days) — to classify overall undernutrition risk as low, medium, or high.",
+      "sourceBook": "Bailey & Love's Short Practice of Surgery",
+      "sourceChapter": "Nutritional Assessment — Clinical, The MUST Tool",
+      "sourcePage": null
     }
   ]
 }
