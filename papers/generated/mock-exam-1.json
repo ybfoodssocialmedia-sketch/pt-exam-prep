@@ -1,0 +1,1815 @@
+{
+  "paperId": "mock-exam-1",
+  "paperName": "PGP-CET Mixed Mock Exam 1",
+  "subject": "Mixed (Real Weightage)",
+  "description": "Full 100-question mock exam following the REAL PGP-CET 2025 topic weightage (per the official exam brochure), sourced entirely from uploaded reference books with citations.",
+  "durationMinutes": 90,
+  "scoring": {
+    "correct": 1,
+    "incorrect": 0,
+    "unanswered": 0,
+    "negativeMarkingEnabled": false
+  },
+  "questions": [
+    {
+      "id": 1,
+      "topic": "Upper Limb",
+      "subtopic": "Bone Deformity",
+      "difficulty": "Medium",
+      "question": "Madelung's deformity results from retarded growth of which structure?",
+      "options": {
+        "A": "The lower end of the radius",
+        "B": "The upper end of the humerus",
+        "C": "The olecranon process of the ulna",
+        "D": "The scaphoid tubercle"
+      },
+      "correctAnswer": "A",
+      "explanation": "Madelung's deformity is a dorsal subluxation (displacement) of the lower end of the ulna, caused by retarded growth of the lower end of the radius.",
+      "sourceBook": "BD Chaurasia's Human Anatomy — Upper Limb",
+      "sourceChapter": "Bones of the Upper Limb — Clinical Anatomy",
+      "sourcePage": null
+    },
+    {
+      "id": 2,
+      "topic": "Upper Limb",
+      "subtopic": "Forearm Bones — Clinical",
+      "difficulty": "Hard",
+      "question": "After a fracture of both the radius and ulna shafts, why must cross-union (bony union between the two bones) be specifically prevented during healing?",
+      "options": {
+        "A": "Cross-union has no functional consequence",
+        "B": "Cross-union would permanently fuse the radius and ulna together, abolishing pronation and supination of the hand",
+        "C": "Cross-union only affects elbow flexion, not the hand",
+        "D": "It increases the risk of scaphoid fracture"
+      },
+      "correctAnswer": "B",
+      "explanation": "Pronation and supination depend on the radius being able to rotate around a stable ulna. If the two bones heal fused together (cross-union), that rotation becomes impossible, so surgeons take specific care during fixation of combined radius-ulna shaft fractures to prevent it.",
+      "sourceBook": "BD Chaurasia's Human Anatomy — Upper Limb",
+      "sourceChapter": "Bones of the Upper Limb — Clinical Anatomy",
+      "sourcePage": null
+    },
+    {
+      "id": 3,
+      "topic": "Upper Limb",
+      "subtopic": "Carpal Bones",
+      "difficulty": "Medium",
+      "question": "The lateral surface of the pisiform bone is grooved by which structure?",
+      "options": {
+        "A": "The radial artery",
+        "B": "The median nerve",
+        "C": "The ulnar nerve",
+        "D": "The tendon of flexor carpi radialis"
+      },
+      "correctAnswer": "C",
+      "explanation": "The lateral surface of the pisiform is grooved by the ulnar nerve as it passes into the hand through Guyon's canal, alongside the ulnar artery.",
+      "sourceBook": "BD Chaurasia's Human Anatomy — Upper Limb",
+      "sourceChapter": "Bones of the Upper Limb — Carpal Bones",
+      "sourcePage": null
+    },
+    {
+      "id": 4,
+      "topic": "Upper Limb",
+      "subtopic": "Forearm Bones",
+      "difficulty": "Medium",
+      "question": "The ulna is often described as the 'stabilising bone' of the forearm because:",
+      "options": {
+        "A": "Its trochlear notch grips the lower end of the humerus, giving the radius a stable foundation from which to pronate and supinate",
+        "B": "It is the only bone that moves during pronation/supination",
+        "C": "It bears the entire weight of the upper limb at the wrist joint",
+        "D": "It has no muscular attachments, unlike the radius"
+      },
+      "correctAnswer": "A",
+      "explanation": "The ulna's trochlear notch grips the lower end of the humerus at the elbow, forming a stable hinge. This gives the radius the fixed foundation it needs to rotate around the ulna for efficient pronation and supination of the hand.",
+      "sourceBook": "BD Chaurasia's Human Anatomy — Upper Limb",
+      "sourceChapter": "Bones of the Upper Limb — Clinical Anatomy",
+      "sourcePage": null
+    },
+    {
+      "id": 5,
+      "topic": "Membrane Potentials",
+      "subtopic": "Gibbs-Donnan Equilibrium",
+      "difficulty": "Hard",
+      "question": "The Gibbs-Donnan membrane equilibrium describes what happens when a membrane permeable to some ions separates two solutions, one of which also contains a non-diffusible (non-penetrating) ion such as a protein anion. What is the key consequence?",
+      "options": {
+        "A": "All ions distribute exactly equally on both sides regardless of the non-diffusible ion",
+        "B": "The diffusible ions distribute asymmetrically at equilibrium — the diffusible cation concentration is higher on the side containing the non-penetrating anion",
+        "C": "The non-diffusible ion eventually crosses the membrane too, given enough time",
+        "D": "No electrical potential difference develops across the membrane"
+      },
+      "correctAnswer": "B",
+      "explanation": "When a non-diffusible anion (like a protein) is confined to one side, the freely diffusible ions (like K+ and Cl-) redistribute asymmetrically at equilibrium to maintain electrical neutrality and equal ion products on both sides — the diffusible cation ends up more concentrated on the side with the trapped anion. This asymmetry is the Gibbs-Donnan equilibrium and contributes to the resting membrane potential.",
+      "sourceBook": "AK Jain, Physiology",
+      "sourceChapter": "The Membrane Potentials — Gibbs-Donnan Membrane Equilibrium",
+      "sourcePage": null
+    },
+    {
+      "id": 6,
+      "topic": "Membrane Potentials",
+      "subtopic": "Na+-K+ Pump",
+      "difficulty": "Medium",
+      "question": "Why does ischaemia (reduced blood/oxygen supply) lead to cell swelling and damage?",
+      "options": {
+        "A": "Ischaemia has no effect on the Na+-K+ pump",
+        "B": "Ischaemia decreases Na+-K+ pump activity, disrupting osmotic equilibrium and allowing the cell to swell",
+        "C": "Ischaemia directly ruptures the cell membrane through mechanical force",
+        "D": "Ischaemia only affects extracellular fluid, never intracellular volume"
+      },
+      "correctAnswer": "B",
+      "explanation": "The Na+-K+ pump normally keeps osmotic equilibrium by moving positive charge (and effectively solute) out of the cell, counteracting the tendency of intracellular protein anions and other molecules to draw water in and cause swelling. Ischaemia reduces the ATP-dependent pump's activity, disrupting this balance — which is why prolonged cerebral ischaemia, causing cell swelling and damage, is often fatal.",
+      "sourceBook": "AK Jain, Physiology",
+      "sourceChapter": "The Membrane Potentials — Gibbs-Donnan Effect",
+      "sourcePage": null
+    },
+    {
+      "id": 7,
+      "topic": "Membrane Potentials",
+      "subtopic": "Ion Size",
+      "difficulty": "Medium",
+      "question": "Although sodium's atomic weight (23) is lower than potassium's (39), Na+ moves through the resting cell membrane with greater difficulty than K+. Why?",
+      "options": {
+        "A": "Sodium ions carry a different electrical charge than potassium",
+        "B": "Ions in body fluids are hydrated, and the hydrated Na+ ion is actually larger in radius than the hydrated K+ ion",
+        "C": "Sodium is chemically unable to pass through any biological membrane",
+        "D": "Potassium is not actually present in body fluids at rest"
+      },
+      "correctAnswer": "B",
+      "explanation": "Ions in solution are hydrated (surrounded by a shell of water molecules). Despite its lower atomic weight, hydrated Na+ has a larger effective radius than hydrated K+, which is a key reason Na+ crosses the resting membrane with more difficulty than K+.",
+      "sourceBook": "AK Jain, Physiology",
+      "sourceChapter": "The Membrane Potentials — Introduction, Size of Hydrated Ions",
+      "sourcePage": null
+    },
+    {
+      "id": 8,
+      "topic": "Membrane Potentials",
+      "subtopic": "Na+-K+ Pump Electrogenicity",
+      "difficulty": "Hard",
+      "question": "The Na+-K+ pump is described as 'electrogenic at rest' because it operates with a coupling ratio of 3 Na+ out for every 2 K+ in. What would happen to its contribution to the membrane potential if the coupling ratio were instead 1:1?",
+      "options": {
+        "A": "It would generate an even larger membrane potential",
+        "B": "It would not directly generate any membrane potential itself, though it would still maintain the concentration gradients the potential depends on",
+        "C": "The cell would immediately depolarise completely and stay depolarised",
+        "D": "The pump would stop functioning altogether"
+      },
+      "correctAnswer": "B",
+      "explanation": "At a 3:2 coupling ratio, the Na+-K+ pump moves net positive charge out of the cell with each cycle, directly contributing a small electrogenic component to the membrane potential. If the ratio were 1:1 (equal charge moved each way), the pump itself would not generate any net potential directly — though it would still be essential for maintaining the ionic concentration gradients that the resting membrane potential fundamentally depends on.",
+      "sourceBook": "AK Jain, Physiology",
+      "sourceChapter": "The Membrane Potentials — Genesis of Resting Membrane Potential",
+      "sourcePage": null
+    },
+    {
+      "id": 9,
+      "topic": "Proteins and Amino Acids",
+      "subtopic": "Peptide Bond Counting",
+      "difficulty": "Easy",
+      "question": "A dipeptide, formed from two amino acids, contains how many peptide bonds?",
+      "options": {
+        "A": "Zero",
+        "B": "One",
+        "C": "Two",
+        "D": "Three"
+      },
+      "correctAnswer": "B",
+      "explanation": "A dipeptide has two amino acids joined by exactly one peptide bond — a common point of confusion, since it's easy to assume 'two amino acids' implies 'two bonds.'",
+      "sourceBook": "Satyanarayana, Biochemistry",
+      "sourceChapter": "Proteins and Amino Acids — Peptide Bond",
+      "sourcePage": null
+    },
+    {
+      "id": 10,
+      "topic": "Proteins and Amino Acids",
+      "subtopic": "Sequencing Reagents",
+      "difficulty": "Medium",
+      "question": "What is the key limitation of Sanger's reagent (1-fluoro-2,4-dinitrobenzene) compared to Edman's reagent for determining a protein's amino acid sequence?",
+      "options": {
+        "A": "It only works on carbohydrates, not proteins",
+        "B": "After labelling the N-terminal residue, the protein must be fully hydrolysed to identify it — destroying the polypeptide and preventing repeated sequencing cycles",
+        "C": "It cannot label any amino acid at all",
+        "D": "It is more expensive but otherwise functionally identical to Edman's reagent"
+      },
+      "correctAnswer": "B",
+      "explanation": "Sanger's reagent labels the free N-terminal amino group, but identifying that labelled residue requires complete hydrolysis of the protein — destroying it in the process. This makes it useful only for identifying the N-terminal residue once, unlike Edman degradation which can be repeated.",
+      "sourceBook": "Satyanarayana, Biochemistry",
+      "sourceChapter": "Proteins and Amino Acids — Determination of Primary Structure",
+      "sourcePage": null
+    },
+    {
+      "id": 11,
+      "topic": "Range of Motion",
+      "subtopic": "Continuous Passive Motion",
+      "difficulty": "Medium",
+      "question": "Which of the following is a documented benefit of Continuous Passive Motion (CPM) following joint surgery?",
+      "options": {
+        "A": "A permanent increase in muscle strength",
+        "B": "Increased synovial fluid lubrication and a stimulating effect on healing of cartilage, tendons, and ligaments",
+        "C": "It removes the need for any active exercise afterward",
+        "D": "Guaranteed prevention of postoperative infection"
+      },
+      "correctAnswer": "B",
+      "explanation": "Documented benefits of CPM include increased synovial fluid lubrication (supporting cartilage healing), a stimulating effect on tendon and ligament healing, prevention of adhesions/contractures, and typically a quicker return of range of motion with less postoperative pain — but it does not replace active exercise or strength training.",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 3: Range of Motion — Continuous Passive Motion",
+      "sourcePage": null
+    },
+    {
+      "id": 12,
+      "topic": "Range of Motion",
+      "subtopic": "Two-Joint Muscles",
+      "difficulty": "Medium",
+      "question": "To achieve full passive range of hip flexion, the knee must also be allowed to flex. Why?",
+      "options": {
+        "A": "It relaxes tension on the two-joint hamstring muscle group, which would otherwise restrict hip flexion",
+        "B": "It reduces pain in the lumbar spine",
+        "C": "It is required purely to stabilize the pelvis",
+        "D": "Knee position has no real effect on hip flexion range"
+      },
+      "correctAnswer": "A",
+      "explanation": "The hamstrings cross both the hip and knee. Keeping the knee extended while flexing the hip stretches the hamstrings and limits how far the hip can flex; flexing the knee releases that tension, allowing full hip flexion range to be reached.",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 3: Range of Motion — Combined Hip and Knee Motion",
+      "sourcePage": null
+    },
+    {
+      "id": 13,
+      "topic": "Range of Motion",
+      "subtopic": "Continuous Passive Motion",
+      "difficulty": "Easy",
+      "question": "Continuous Passive Motion (CPM) is best described as:",
+      "options": {
+        "A": "An exercise in which the patient actively moves a joint against resistance",
+        "B": "A mechanical device that moves a joint slowly and continuously through a controlled range of motion, without effort from the patient",
+        "C": "A manual stretching technique applied by the therapist at end-range",
+        "D": "A functional movement pattern combining several joints at once"
+      },
+      "correctAnswer": "B",
+      "explanation": "CPM refers specifically to a mechanical device that passively and continuously moves a joint through a set arc of motion, developed following Robert Salter's research into the healing benefits of continual passive movement on joint tissue.",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 3: Range of Motion — Continuous Passive Motion",
+      "sourcePage": null
+    },
+    {
+      "id": 14,
+      "topic": "Stretching",
+      "subtopic": "Definitions of Flexibility",
+      "difficulty": "Medium",
+      "question": "'Passive flexibility' (passive range of motion) is best described as:",
+      "options": {
+        "A": "The degree to which an active muscle contraction moves a joint through its available range",
+        "B": "The degree to which a body segment can be moved through its available range by an external force, without the patient contracting the muscle themselves",
+        "C": "The absolute maximum range any joint could reach under general anesthesia",
+        "D": "A measure of muscular endurance during repeated contractions"
+      },
+      "correctAnswer": "B",
+      "explanation": "Passive flexibility depends on the extensibility of the muscles and connective tissues crossing a joint. It is a prerequisite for, but does not guarantee, dynamic (active) flexibility — which instead depends on the patient's own active muscle contraction moving the segment.",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 4: Stretching for Impaired Mobility — Definition of Terms",
+      "sourcePage": null
+    },
+    {
+      "id": 15,
+      "topic": "Stretching",
+      "subtopic": "Selective Stretching",
+      "difficulty": "Hard",
+      "question": "In a patient with a spinal cord injury who lacks active control of the back extensors, why might a therapist deliberately allow mild hypomobility to develop in the low back extensors while still fully stretching the hamstrings?",
+      "options": {
+        "A": "To create a stable, slightly shortened structure the patient can lean into for trunk support during long-term sitting",
+        "B": "Because the back extensors cannot physically be stretched",
+        "C": "To prevent contractures developing in the hamstrings only",
+        "D": "Because stretching the trunk has no clinical value in this population"
+      },
+      "correctAnswer": "A",
+      "explanation": "This illustrates 'selective stretching': deliberately allowing some hypomobility in muscles the patient cannot actively control (like the back extensors after a thoracic/cervical spinal cord injury) gives them a stable structure to lean into for trunk stability while sitting, while the hamstrings are kept flexible enough for dressing and transfers.",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 4: Stretching for Impaired Mobility — Selective Stretching",
+      "sourcePage": null
+    },
+    {
+      "id": 16,
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Modified (Surged) Faradic Currents",
+      "difficulty": "Medium",
+      "question": "Faradic-type currents are typically 'surged' for treatment purposes. What is the purpose of surging the current?",
+      "options": {
+        "A": "To reduce the total treatment time",
+        "B": "To produce a near-normal tetanic-like contraction and relaxation of the muscle, by gradually increasing then decreasing the intensity of successive impulses",
+        "C": "To eliminate the need for any electrodes",
+        "D": "To convert the current into direct current permanently"
+      },
+      "correctAnswer": "B",
+      "explanation": "Surging gradually increases the intensity of successive impulses to a peak, then lets it fall (suddenly or gradually), mimicking a more natural, near-normal tetanic muscle contraction and relaxation cycle rather than an abrupt on/off stimulus.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Modified Faradic Currents",
+      "sourcePage": "41"
+    },
+    {
+      "id": 17,
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Cathode vs Anode",
+      "difficulty": "Hard",
+      "question": "For a RISING (increasing) current applied over a superficial nerve, which electrode is more effective at initiating a nerve impulse, and why is the active electrode typically connected to it?",
+      "options": {
+        "A": "The anode, because it requires less current overall",
+        "B": "The cathode, because it produces contraction of innervated muscle with less current than is required at the anode",
+        "C": "Neither electrode has any different effect",
+        "D": "The anode always requires less current than the cathode"
+      },
+      "correctAnswer": "B",
+      "explanation": "For a rising current, the cathode is more effective at initiating a nerve impulse than the anode. This is why the active electrode is conventionally connected to the cathode — it produces contraction of innervated muscle using less current than would be needed if the anode were used as the active electrode.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Mechanism of Nerve Stimulation",
+      "sourcePage": "45"
+    },
+    {
+      "id": 18,
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Motor Points",
+      "difficulty": "Medium",
+      "question": "When faradic-type current is applied directly over an innervated muscle, maximum contraction response is generally obtained by stimulating at the:",
+      "options": {
+        "A": "Tendon of insertion exclusively",
+        "B": "Motor point — where the main nerve enters the muscle (or, for deep muscles, where it emerges from under more superficial muscles)",
+        "C": "Muscle belly midpoint, regardless of nerve entry",
+        "D": "Origin of the muscle only"
+      },
+      "correctAnswer": "B",
+      "explanation": "The motor point — the point at which the main nerve supply enters the muscle, or for deeply placed muscles, the point where the nerve emerges from under overlying superficial muscles — is where maximum contraction response is typically obtained with electrical stimulation.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Effects of Nerve Stimulation",
+      "sourcePage": "46"
+    },
+    {
+      "id": 19,
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Accommodation",
+      "difficulty": "Hard",
+      "question": "Because of accommodation, which type of current change is MORE effective at initiating a nerve impulse: a sudden change, or a gradual one?",
+      "options": {
+        "A": "A sudden change in current is more effective than a gradual one",
+        "B": "A gradual change is always more effective",
+        "C": "Both are exactly equally effective in all cases",
+        "D": "Neither a sudden nor gradual change can ever initiate an impulse"
+      },
+      "correctAnswer": "A",
+      "explanation": "Because the nerve accommodates (adapts) to slowly changing conditions, a current that rises or falls suddenly is more effective at initiating an impulse than one that changes gradually, since gradual change gives the nerve time to accommodate before the threshold is reached.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Accommodation",
+      "sourcePage": "45"
+    },
+    {
+      "id": 20,
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Practical Application",
+      "difficulty": "Easy",
+      "question": "When beginning faradic stimulation of a muscle group, what is the recommended approach to intensity?",
+      "options": {
+        "A": "Start immediately at maximal tolerable intensity",
+        "B": "Give several gentle contractions first to allow the patient to become accustomed to the current, then gradually increase intensity",
+        "C": "Intensity should never be increased throughout the treatment",
+        "D": "Intensity is irrelevant to the treatment outcome"
+      },
+      "correctAnswer": "B",
+      "explanation": "The recommended approach is to give the patient several gentle contractions first to allow them to become accustomed to the current, then gradually increase the intensity until a strong contraction is achieved — not starting at a high, potentially uncomfortable intensity immediately.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Stimulation of Muscle Groups — Quadriceps",
+      "sourcePage": "60"
+    },
+    {
+      "id": 21,
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Practical Application",
+      "difficulty": "Medium",
+      "question": "In a practical setup for stimulating the quadriceps with a faradic-type current, where is the indifferent (larger) electrode typically placed, per Clayton's described technique?",
+      "options": {
+        "A": "Over the femoral nerve in the femoral triangle",
+        "B": "Directly over the motor points of the quadriceps only, with no separate indifferent electrode",
+        "C": "On the opposite limb entirely",
+        "D": "Over the lumbar spine"
+      },
+      "correctAnswer": "A",
+      "explanation": "In the classic technique for faradic stimulation of the quadriceps, one electrode and pad is placed over the femoral nerve in the femoral triangle and secured with a sandbag or bandage, while the other (active) electrode pad is placed across the motor points of the quadriceps.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Stimulation of Muscle Groups — Quadriceps",
+      "sourcePage": "60"
+    },
+    {
+      "id": 22,
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Effects of Frequency of Stimulation",
+      "difficulty": "Medium",
+      "question": "As the frequency of repeated electrical stimuli to a motor nerve increases beyond about 20 Hz, what happens to the muscle's contraction pattern?",
+      "options": {
+        "A": "The muscle stops contracting altogether",
+        "B": "There is no longer time for complete relaxation between contractions, producing partial tetany",
+        "C": "Contraction strength decreases progressively to zero",
+        "D": "The muscle contracts only once regardless of how many stimuli are given"
+      },
+      "correctAnswer": "B",
+      "explanation": "At low stimulation frequencies (e.g. 1 per second), each stimulus produces an isolated twitch with complete relaxation between contractions. As frequency increases, the relaxation period shortens; beyond about 20 Hz there is no longer time for complete relaxation between contractions, producing partial tetany.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Effects of Frequency of Stimulation",
+      "sourcePage": "46"
+    },
+    {
+      "id": 23,
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Impulse Duration Classification",
+      "difficulty": "Medium",
+      "question": "Impulses with a duration of MORE than 10 ms, often termed interrupted (or modified) direct current, are specifically used to stimulate:",
+      "options": {
+        "A": "Normal, innervated muscle via the motor nerve",
+        "B": "Denervated muscle, where the muscle fibres must be stimulated directly (no functioning motor nerve)",
+        "C": "Cardiac muscle exclusively",
+        "D": "Smooth muscle only"
+      },
+      "correctAnswer": "B",
+      "explanation": "Long-duration impulses (>10 ms), termed interrupted or modified direct current, are used for denervated muscles — since there is no functioning motor nerve, the muscle fibres must be stimulated directly, and these impulses are repeated far less frequently than faradic-type currents (e.g. a 100 ms impulse might be repeated only about 30 times per minute).",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle",
+      "sourcePage": "40"
+    },
+    {
+      "id": 24,
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Motor vs Sensory Nerve Stimulation",
+      "difficulty": "Hard",
+      "question": "When a MOTOR nerve is electrically stimulated, why does only the downward-travelling (efferent) impulse produce a muscle contraction, while the upward-travelling impulse has no motor effect?",
+      "options": {
+        "A": "The upward-travelling impulse is unable to pass the first synapse, since it is travelling in the wrong (antidromic) direction",
+        "B": "The upward-travelling impulse travels faster and arrives too early to have any effect",
+        "C": "Motor nerves cannot conduct impulses in more than one direction under any circumstance",
+        "D": "Only the upward-travelling impulse reaches the muscle"
+      },
+      "correctAnswer": "A",
+      "explanation": "Stimulating a nerve fibre initiates impulses travelling simultaneously in both directions from the stimulation point. For a motor nerve, the upward (antidromic) impulse cannot pass the first synapse it encounters travelling the 'wrong' way, so it has no effect, while the downward (orthodromic) impulse reaches the muscle normally and causes contraction.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Effects of Nerve Stimulation",
+      "sourcePage": "46"
+    },
+    {
+      "id": 25,
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Effects of Frequency of Stimulation",
+      "difficulty": "Medium",
+      "question": "At what approximate stimulation frequency does a muscle contraction become fully tetanic, with no perceptible relaxation between successive contractions?",
+      "options": {
+        "A": "Over 60 Hz",
+        "B": "Under 1 Hz",
+        "C": "Exactly 10 Hz",
+        "D": "Frequency has no relationship to tetany"
+      },
+      "correctAnswer": "A",
+      "explanation": "As stimulation frequency increases beyond 20 Hz, partial tetany develops; further increases progressively reduce relaxation until, at frequencies over 60 Hz, there is no perceptible relaxation between contractions and the response is fully tetanic.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Effects of Frequency of Stimulation",
+      "sourcePage": "46"
+    },
+    {
+      "id": 26,
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Accommodation",
+      "difficulty": "Hard",
+      "question": "'Accommodation' in nerve physiology refers to the phenomenon whereby:",
+      "options": {
+        "A": "A nerve becomes permanently unresponsive after any stimulation",
+        "B": "The nerve adapts to a constant current over time, so that an unvarying (unchanging) current becomes ineffective at initiating an impulse",
+        "C": "Muscle fibres physically move position to avoid the electrode",
+        "D": "Only denervated muscle can show accommodation"
+      },
+      "correctAnswer": "B",
+      "explanation": "Accommodation is the nerve's adaptation to a constant, unvarying current flow through a mechanism not fully understood — as a result, a current that does not change is not effective at initiating a nerve impulse, which is why intermittent or varying currents are needed for electrical stimulation.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Accommodation",
+      "sourcePage": "45"
+    },
+    {
+      "id": 27,
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Nerve Stimulation Mechanism",
+      "difficulty": "Hard",
+      "question": "When an electrical current stimulates a nerve fibre, the surface of the plasma membrane nearer the cathode becomes:",
+      "options": {
+        "A": "More positive, reducing excitability",
+        "B": "More negative relative to the opposite surface, which can reduce the resting potential difference across the membrane on the cathode side and initiate an impulse if it falls enough for sodium permeability to increase",
+        "C": "Completely unaffected by the current",
+        "D": "Permanently depolarised with no possibility of returning to rest"
+      },
+      "correctAnswer": "B",
+      "explanation": "The membrane surface nearer the cathode becomes more negative. On the side of the nerve nearer the cathode, this additional charge is of opposite polarity to the resting membrane potential, reducing the potential difference (PD) across it — if the PD falls enough for the membrane to become permeable to sodium ions, an impulse is initiated.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Mechanism of Nerve Stimulation",
+      "sourcePage": "44"
+    },
+    {
+      "id": 28,
+      "topic": "Receptor Pharmacology",
+      "subtopic": "Enzyme Inhibition",
+      "difficulty": "Hard",
+      "question": "A drug that reacts with an enzyme's catalytic site so strongly (via a covalent bond or very high affinity) that the normal substrate cannot displace it produces which kinetic pattern?",
+      "options": {
+        "A": "kM unchanged, Vmax unchanged (no real inhibition)",
+        "B": "kM decreased, Vmax increased",
+        "C": "kM increased and Vmax reduced — a non-equilibrium type of competitive inhibition",
+        "D": "Only Vmax changes while kM decreases proportionally"
+      },
+      "correctAnswer": "C",
+      "explanation": "Classical competitive inhibition (equilibrium type) raises kM but leaves Vmax unchanged, since enough substrate can still out-compete the inhibitor. But when the inhibitor binds essentially irreversibly at the same catalytic site (e.g. organophosphates on cholinesterase, or methotrexate's very high affinity for dihydrofolate reductase), substrate can no longer displace it — this non-equilibrium type raises kM AND reduces Vmax.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
+      "sourcePage": null
+    },
+    {
+      "id": 29,
+      "topic": "Receptor Pharmacology",
+      "subtopic": "Ligand-Gated Ion Channels",
+      "difficulty": "Easy",
+      "question": "Which class of receptors produces the fastest onset of response, typically within milliseconds?",
+      "options": {
+        "A": "G-protein coupled receptors",
+        "B": "Ligand-gated ion channel receptors",
+        "C": "Transmembrane enzyme-linked receptors",
+        "D": "Nuclear (gene-regulating) receptors"
+      },
+      "correctAnswer": "B",
+      "explanation": "Ligand-gated ion channel receptors (e.g. nicotinic cholinergic, GABA-A) have the ion channel built directly into the receptor molecule, so agonist binding opens the channel immediately with no intermediate second messenger — giving the fastest response of all receptor types, in milliseconds.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
+      "sourcePage": null
+    },
+    {
+      "id": 30,
+      "topic": "Infectious and Parasitic Diseases",
+      "subtopic": "TORCH Complex",
+      "difficulty": "Hard",
+      "question": "Among the TORCH agents, which one is most harmful to the fetus specifically when acquired during the first 10 weeks of pregnancy?",
+      "options": {
+        "A": "Cytomegalovirus",
+        "B": "Toxoplasma",
+        "C": "Rubella",
+        "D": "Herpes simplex virus"
+      },
+      "correctAnswer": "C",
+      "explanation": "Rubella (German measles) is teratogenic, and infection during the acute stage of the first 10 weeks of pregnancy is far more harmful to the fetus than infection later in gestation, producing the classic congenital rubella syndrome (ocular defects, cardiac defects, CNS manifestations, sensorineural deafness).",
+      "sourceBook": "Harsh Mohan, Textbook of Pathology",
+      "sourceChapter": "Infectious and Parasitic Diseases — TORCH Complex",
+      "sourcePage": null
+    },
+    {
+      "id": 31,
+      "topic": "Neoplasia",
+      "subtopic": "Special Tumour Categories",
+      "difficulty": "Medium",
+      "question": "Blastomas (embryomas) such as neuroblastoma, nephroblastoma (Wilms' tumour), and retinoblastoma are notable because they:",
+      "options": {
+        "A": "Occur almost exclusively in adults over 60",
+        "B": "Arise from embryonal/partially differentiated cells and occur more frequently in infants and children under 5",
+        "C": "Are always benign despite the '-oma' name",
+        "D": "Only occur in the gonads"
+      },
+      "correctAnswer": "B",
+      "explanation": "Blastomas arise from embryonal or partially differentiated cells that would normally form the blastema of organs/tissues during embryogenesis, and occur more frequently in infants and children under 5 years of age.",
+      "sourceBook": "Harsh Mohan, Textbook of Pathology",
+      "sourceChapter": "Neoplasia — Special Categories of Tumours",
+      "sourcePage": null
+    },
+    {
+      "id": 32,
+      "topic": "Infectious and Parasitic Diseases",
+      "subtopic": "Malaria",
+      "difficulty": "Hard",
+      "question": "Plasmodium falciparum causes markedly more severe (malignant) malaria than the other three plasmodial species mainly because:",
+      "options": {
+        "A": "It has an exo-erythrocytic stage that the others lack",
+        "B": "It only infects the liver, never red blood cells",
+        "C": "It parasitises red cells of any age, can infect a single red cell multiple times, and makes parasitised red cells sticky, causing capillary obstruction in deep organs",
+        "D": "It is transmitted by a different mosquito genus entirely"
+      },
+      "correctAnswer": "C",
+      "explanation": "Unlike the other plasmodial species (which parasitise only juvenile red cells and lack these features), P. falciparum parasitises red cells of any age, can infect a single red cell with more than one parasite, and makes infected red cells sticky — causing capillary obstruction (e.g. in the brain, producing cerebral malaria) that accounts for its exceptional virulence. It also notably lacks an exo-erythrocytic stage, but that is not the source of its severity.",
+      "sourceBook": "Harsh Mohan, Textbook of Pathology",
+      "sourceChapter": "Infectious and Parasitic Diseases — Malaria",
+      "sourcePage": null
+    },
+    {
+      "id": 33,
+      "topic": "Neoplasia",
+      "subtopic": "Tumour Structure",
+      "difficulty": "Easy",
+      "question": "The two basic components present in every tumour (benign or malignant) are the parenchyma and the:",
+      "options": {
+        "A": "Supportive stroma",
+        "B": "Basement membrane only",
+        "C": "Necrotic core",
+        "D": "Capsule"
+      },
+      "correctAnswer": "A",
+      "explanation": "Every tumour has parenchyma (the proliferating tumour cells themselves, which determine the tumour's nature and behaviour) and a supportive stroma (fibrous connective tissue and blood vessels that provide the structural framework for the parenchymal cells to grow on).",
+      "sourceBook": "Harsh Mohan, Textbook of Pathology",
+      "sourceChapter": "Neoplasia — Nomenclature and Classification",
+      "sourcePage": null
+    },
+    {
+      "id": 34,
+      "topic": "Biology of Behavior",
+      "subtopic": "Parietal Lobe Damage",
+      "difficulty": "Hard",
+      "question": "A patient with damage to the RIGHT parietal association cortex draws a clock face but only completes the right half, leaving the left side blank, and is unaware anything is missing. This phenomenon is known as:",
+      "options": {
+        "A": "Wernicke's aphasia",
+        "B": "Contralateral neglect",
+        "C": "Prosopagnosia",
+        "D": "Broca's aphasia"
+      },
+      "correctAnswer": "B",
+      "explanation": "Contralateral neglect is a classic sign of right parietal association cortex damage: patients ignore the left side of space and their own body (the side opposite/contralateral to the damaged hemisphere), often while denying anything is wrong.",
+      "sourceBook": "Morgan & King, Introduction to Psychology",
+      "sourceChapter": "Biology of Behavior — Parietal-Lobe Association Cortex",
+      "sourcePage": null
+    },
+    {
+      "id": 35,
+      "topic": "Obsessive-Compulsive Disorder",
+      "subtopic": "Rating Scales",
+      "difficulty": "Hard",
+      "question": "The Y-BOCS, a widely used clinical scale for OCD, stands for and is used to:",
+      "options": {
+        "A": "Yale-Brown Obsessive Compulsive Scale — elicit symptoms and rate severity of OCD",
+        "B": "Young-Beck Obsessive Cognition Scale — diagnose depression only",
+        "C": "Yale Behavioural Outcome Classification System — used only in research, never clinically",
+        "D": "A scale exclusively for measuring anxiety, unrelated to OCD"
+      },
+      "correctAnswer": "A",
+      "explanation": "Y-BOCS stands for the Yale-Brown Obsessive Compulsive Scale, one of the most useful clinical tools for eliciting the range of obsessive and compulsive symptoms present and rating the overall severity of OCD.",
+      "sourceBook": "Ahuja, A Short Textbook of Psychiatry",
+      "sourceChapter": "Obsessive-Compulsive Disorder — Clinical Syndromes",
+      "sourcePage": null
+    },
+    {
+      "id": 36,
+      "topic": "Resistance Exercise",
+      "subtopic": "Types of Muscle Contraction",
+      "difficulty": "Easy",
+      "question": "When the velocity of a limb movement is held constant by a rate-controlling device during exercise, this is referred to as:",
+      "options": {
+        "A": "Isometric contraction",
+        "B": "Isokinetic contraction",
+        "C": "Isotonic contraction only",
+        "D": "Passive contraction"
+      },
+      "correctAnswer": "B",
+      "explanation": "An isokinetic contraction is one where the velocity of limb movement is held constant by a rate-controlling device (an isokinetic dynamometer), distinguishing it from standard dynamic (isotonic) exercise where velocity is not controlled.",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 6: Resistance Exercise — Type of Muscle Contraction",
+      "sourcePage": null
+    },
+    {
+      "id": 37,
+      "topic": "Resistance Exercise",
+      "subtopic": "Open vs Closed Chain",
+      "difficulty": "Medium",
+      "question": "Closed-chain exercise is best described as exercise performed:",
+      "options": {
+        "A": "In a nonweight-bearing position with the distal segment moving freely",
+        "B": "In a weight-bearing position where the body moves over a fixed distal segment",
+        "C": "Only using free weights, never body weight",
+        "D": "Exclusively with the upper extremity"
+      },
+      "correctAnswer": "B",
+      "explanation": "Closed-chain exercise is performed in a weight-bearing position, where the body moves over a relatively fixed distal segment (e.g. the foot on the ground during a squat). Open-chain exercise, by contrast, is performed nonweight-bearing, with the distal segment (hand or foot) moving freely.",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 6: Resistance Exercise — Position for Exercise",
+      "sourcePage": null
+    },
+    {
+      "id": 38,
+      "topic": "Resistance Exercise",
+      "subtopic": "Exercise Order",
+      "difficulty": "Medium",
+      "question": "When multiple muscle groups are exercised in a single session, the recommended order is generally:",
+      "options": {
+        "A": "Small muscle groups before large muscle groups, single-joint before multi-joint exercises",
+        "B": "Large muscle groups before small muscle groups, and multi-joint exercises before single-joint exercises",
+        "C": "Order makes no difference to fatigue or training effect",
+        "D": "Lower intensity exercises should always precede higher intensity ones, regardless of warm-up"
+      },
+      "correctAnswer": "B",
+      "explanation": "The recommended exercise order is large muscle groups before small muscle groups, and multi-joint exercises before single-joint exercises, with higher-intensity exercises performed before lower-intensity ones after an appropriate warm-up.",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 6: Resistance Exercise — Exercise Order",
+      "sourcePage": null
+    },
+    {
+      "id": 39,
+      "topic": "Resistance Exercise",
+      "subtopic": "Training Zone",
+      "difficulty": "Medium",
+      "question": "For a typical healthy but untrained adult beginning a resistance training program, the recommended training zone (percentage of baseline RM) generally falls between:",
+      "options": {
+        "A": "5% and 10%",
+        "B": "40% and 70%",
+        "C": "95% and 100%",
+        "D": "There is no established range"
+      },
+      "correctAnswer": "B",
+      "explanation": "For healthy but untrained adults, a typical training zone falls between 40% and 70% of the baseline RM, with the lower end of the range safer at the start of a program to focus on correct form before progressing intensity.",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 6: Resistance Exercise — Training Zone",
+      "sourcePage": null
+    },
+    {
+      "id": 40,
+      "topic": "Resistance Exercise",
+      "subtopic": "Volume and Intensity",
+      "difficulty": "Medium",
+      "question": "What is the general relationship between the intensity (load) of resistance exercise and the number of repetitions/sets possible?",
+      "options": {
+        "A": "There is no relationship — repetitions are independent of load",
+        "B": "An inverse relationship: higher intensity/load permits fewer repetitions and sets, and lower load permits more",
+        "C": "A direct relationship: higher load always allows more repetitions",
+        "D": "Repetitions only depend on the patient's age, never on the load used"
+      },
+      "correctAnswer": "B",
+      "explanation": "There is an inverse relationship between exercise intensity (load) and the number of repetitions/sets possible — the higher the load, the fewer repetitions and sets that can be performed, and vice versa.",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 6: Resistance Exercise — Volume",
+      "sourcePage": null
+    },
+    {
+      "id": 41,
+      "topic": "Resistance Exercise",
+      "subtopic": "Duration for Muscle Change",
+      "difficulty": "Hard",
+      "question": "Early strength gains observed in the first 2-3 weeks of a resistance training program are primarily attributed to:",
+      "options": {
+        "A": "Actual muscle fiber hypertrophy",
+        "B": "Neural adaptation, since significant hypertrophy/vascularization changes typically require at least 6-12 weeks",
+        "C": "An increase in the total number of muscle fibers (hyperplasia)",
+        "D": "A change in bone density"
+      },
+      "correctAnswer": "B",
+      "explanation": "Strength gains in the first 2-3 weeks of resistance training are mainly the result of neural adaptation (improved motor unit recruitment and coordination), not muscle tissue change. Significant hypertrophy or increased vascularization typically requires at least 6-12 weeks of consistent training.",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 6: Resistance Exercise — Duration",
+      "sourcePage": null
+    },
+    {
+      "id": 42,
+      "topic": "Resistance Exercise",
+      "subtopic": "Muscle Fiber Atrophy",
+      "difficulty": "Hard",
+      "question": "When a muscle is immobilized after injury, which muscle fiber type atrophies at a FASTER rate, and what is the clinical implication?",
+      "options": {
+        "A": "Type II (fast twitch) fibers atrophy faster, so power training should be prioritized immediately",
+        "B": "Type I (slow twitch) fibers atrophy faster, contributing to faster atrophy of antigravity muscles and underscoring the need for early endurance training",
+        "C": "Both fiber types atrophy at exactly the same rate with immobilization",
+        "D": "Immobilization has no effect on muscle fiber composition"
+      },
+      "correctAnswer": "B",
+      "explanation": "With immobilization, Type I (slow twitch) fibers atrophy faster than Type II (fast twitch) fibers, and there is also a slow-to-fast fiber type conversion with disuse. Since antigravity (postural) muscles rely heavily on Type I fibers, this contributes to their faster rate of atrophy compared to their antagonists — supporting early initiation of endurance-type training after injury or surgery.",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 6: Resistance Exercise — Muscle Fiber Atrophy",
+      "sourcePage": null
+    },
+    {
+      "id": 43,
+      "topic": "Paediatric Surgery",
+      "subtopic": "Hypospadias",
+      "difficulty": "Medium",
+      "question": "In hypospadias, why is ritual/routine circumcision specifically contraindicated in the newborn period?",
+      "options": {
+        "A": "Circumcision is never contraindicated in any condition",
+        "B": "The foreskin is often needed later for the surgical reconstruction of the hypospadias",
+        "C": "Hypospadias makes circumcision technically impossible",
+        "D": "It has no bearing on hypospadias management at all"
+      },
+      "correctAnswer": "B",
+      "explanation": "In hypospadias, the deficient ventral foreskin tissue is often required for the surgical reconstruction of the urethra later on, so removing it via routine circumcision in infancy would compromise the corrective surgery.",
+      "sourceBook": "Bailey & Love's Short Practice of Surgery",
+      "sourceChapter": "Principles of Paediatric Surgery — Hypospadias",
+      "sourcePage": null
+    },
+    {
+      "id": 44,
+      "topic": "Paediatric Surgery",
+      "subtopic": "Undescended Testis",
+      "difficulty": "Hard",
+      "question": "A 'retractile' testis is distinguished from a true undescended testis by the fact that:",
+      "options": {
+        "A": "A retractile testis can be manipulated without tension into the base of the scrotum, though it is pulled back up by the cremaster muscle",
+        "B": "A retractile testis is always impalpable",
+        "C": "A retractile testis requires orchidopexy immediately",
+        "D": "There is no meaningful difference between the two"
+      },
+      "correctAnswer": "A",
+      "explanation": "A retractile testis can be brought down to the base of the scrotum without tension, but is then pulled back up by an overactive cremaster reflex — over time it usually resides permanently in the scrotum, though follow-up is still advised as it can rarely re-ascend and require orchidopexy.",
+      "sourceBook": "Bailey & Love's Short Practice of Surgery",
+      "sourceChapter": "Principles of Paediatric Surgery — Undescended Testes",
+      "sourcePage": null
+    },
+    {
+      "id": 45,
+      "topic": "Paediatric Surgery",
+      "subtopic": "Midline Hernias",
+      "difficulty": "Easy",
+      "question": "An umbilical hernia in an infant, caused by incomplete closure of the umbilical ring, most commonly:",
+      "options": {
+        "A": "Requires emergency surgery at diagnosis",
+        "B": "Resolves spontaneously by around 4 years of age",
+        "C": "Always requires surgical repair within the first month of life",
+        "D": "Is a surgical emergency due to a very high incarceration rate"
+      },
+      "correctAnswer": "B",
+      "explanation": "Umbilical hernias are common in infants and most resolve spontaneously by around 4 years of age, with incarceration being very rare — unlike supraumbilical hernias, which do not close on their own and are repaired around the same age.",
+      "sourceBook": "Bailey & Love's Short Practice of Surgery",
+      "sourceChapter": "Principles of Paediatric Surgery — Midline Hernias",
+      "sourcePage": null
+    },
+    {
+      "id": 46,
+      "topic": "Paediatric Surgery",
+      "subtopic": "Undescended Testis — Timing",
+      "difficulty": "Medium",
+      "question": "Orchidopexy for a palpable undescended testis is ideally performed at what age, to optimise fertility outcomes?",
+      "options": {
+        "A": "Immediately at birth",
+        "B": "Between 6 and 12 months of age",
+        "C": "Only after puberty",
+        "D": "Age has no bearing on fertility outcomes"
+      },
+      "correctAnswer": "B",
+      "explanation": "Orchidopexy is ideally performed as a day-case procedure between 6 and 12 months of age. Bringing the testis into the scrotum (below core body temperature) at a young age optimises spermatogenesis and fertility outcomes.",
+      "sourceBook": "Bailey & Love's Short Practice of Surgery",
+      "sourceChapter": "Principles of Paediatric Surgery — Undescended Testes",
+      "sourcePage": null
+    },
+    {
+      "id": 47,
+      "topic": "Paediatric Trauma",
+      "subtopic": "Patterns of Injury",
+      "difficulty": "Medium",
+      "question": "A child injured by a bicycle handlebar to the abdomen is classically at risk of injury to which structures?",
+      "options": {
+        "A": "The urethra and pelvis",
+        "B": "Pancreatic, duodenal, mesenteric, or liver trauma",
+        "C": "The small intestine or lumbar spine only",
+        "D": "Severe crush injury to the chest exclusively"
+      },
+      "correctAnswer": "B",
+      "explanation": "Handlebar injuries classically cause focal, high-pressure blunt trauma to the upper abdomen, putting the pancreas, duodenum, mesentery, or liver at risk — distinct from lap belt injuries (small intestine/lumbar spine) or straddle injuries (urethra/pelvis).",
+      "sourceBook": "Bailey & Love's Short Practice of Surgery",
+      "sourceChapter": "Principles of Paediatric Surgery — Paediatric Trauma, Patterns of Injury",
+      "sourcePage": null
+    },
+    {
+      "id": 48,
+      "topic": "Paediatric Surgery",
+      "subtopic": "Acute Scrotum",
+      "difficulty": "Hard",
+      "question": "In a child presenting with acute scrotal pain, testicular torsion must be relieved within approximately what time window from symptom onset for a good chance of testicular salvage?",
+      "options": {
+        "A": "6-8 hours",
+        "B": "48 hours",
+        "C": "1 week",
+        "D": "There is no time limit"
+      },
+      "correctAnswer": "A",
+      "explanation": "Testicular torsion must be relieved within 6-8 hours of symptom onset for a good chance of salvaging the testis — this is why any acute scrotum where torsion cannot be confidently excluded requires urgent surgical exploration.",
+      "sourceBook": "Bailey & Love's Short Practice of Surgery",
+      "sourceChapter": "Principles of Paediatric Surgery — The Acute Scrotum",
+      "sourcePage": null
+    },
+    {
+      "id": 49,
+      "topic": "Clinical Decision Making",
+      "subtopic": "Patient-Centred Medicine",
+      "difficulty": "Medium",
+      "question": "'Patient-centred evidence-based medicine' is best defined as:",
+      "options": {
+        "A": "Applying research evidence strictly, ignoring the patient's individual circumstances and wishes",
+        "B": "Applying best-available research evidence while taking individual patient factors (clinical and non-clinical, including values and wishes) into account",
+        "C": "A model where patients make all treatment decisions with no clinical input",
+        "D": "Applying guidelines only to patients under 65 years old"
+      },
+      "correctAnswer": "B",
+      "explanation": "Patient-centred evidence-based medicine combines the best available research evidence with individual patient factors — both clinical (comorbidities, prognosis) and non-clinical (social circumstances, personal values and wishes) — rather than applying guidelines mechanically to every patient.",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Clinical Decision Making — Patient-Centred Evidence-Based Medicine",
+      "sourcePage": null
+    },
+    {
+      "id": 50,
+      "topic": "Clinical Decision Making",
+      "subtopic": "Treatment Threshold",
+      "difficulty": "Medium",
+      "question": "The concept of a 'treatment threshold' in clinical decision-making primarily balances:",
+      "options": {
+        "A": "The doctor's personal preference against the hospital's budget",
+        "B": "The risks of testing/waiting against the risks and benefits of starting treatment now",
+        "C": "Only the cost of the test, with no consideration of patient risk",
+        "D": "Nothing — treatment thresholds do not exist in evidence-based medicine"
+      },
+      "correctAnswer": "B",
+      "explanation": "The treatment threshold combines the risks of a test, and the risks versus benefits of treatment, to decide the point at which it makes sense to act. For a low-risk, effective intervention (e.g. antibiotics for a likely UTI), the threshold to act is lower; for a high-risk intervention, more diagnostic certainty is required first.",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Clinical Decision Making — Dealing with Uncertainty",
+      "sourcePage": null
+    },
+    {
+      "id": 51,
+      "topic": "Clinical Decision Making",
+      "subtopic": "Checklists",
+      "difficulty": "Easy",
+      "question": "The ABCDE approach (Airway, Breathing, Circulation, Disability, Exposure) used in critically ill patients is an example of which error-reduction strategy?",
+      "options": {
+        "A": "A clinical prediction rule",
+        "B": "A mnemonic/checklist",
+        "C": "The SBAR communication system",
+        "D": "A cognitive debiasing interview technique"
+      },
+      "correctAnswer": "B",
+      "explanation": "ABCDE is probably the most widely used mnemonic/checklist in medicine, reducing reliance on fallible memory and ensuring important issues are considered systematically, especially under stress, complexity, or fatigue.",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Clinical Decision Making — Mnemonics and Checklists",
+      "sourcePage": null
+    },
+    {
+      "id": 52,
+      "topic": "Clinical Decision Making",
+      "subtopic": "Cognitive Biases",
+      "difficulty": "Hard",
+      "question": "A clinician decides to keep a patient in hospital 'just in case', despite evidence-based guidelines and a completed systematic assessment supporting discharge, because they recently encountered a similar rare case. This is an example of which cognitive bias?",
+      "options": {
+        "A": "Overconfidence bias",
+        "B": "Availability bias",
+        "C": "Commission bias only, unrelated to availability",
+        "D": "The framing effect exclusively"
+      },
+      "correctAnswer": "B",
+      "explanation": "Availability bias occurs when a recent or memorable case distorts a clinician's estimate of probability, making a rare condition seem more likely simply because it is 'at the forefront of the mind' — exactly as described, overriding a systematic (Type 2) assessment with an irrational intuitive override.",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Clinical Decision Making — Common Cognitive Biases",
+      "sourcePage": null
+    },
+    {
+      "id": 53,
+      "topic": "Clinical Decision Making",
+      "subtopic": "Type 1 and Type 2 Thinking",
+      "difficulty": "Medium",
+      "question": "In the 'dual process theory' of clinical reasoning, 'Type 1' thinking is best described as:",
+      "options": {
+        "A": "Slow, deliberate, and highly analytical",
+        "B": "Intuitive, fast, automatic, and pattern-recognition based, but more vulnerable to error",
+        "C": "Used exclusively by inexperienced clinicians",
+        "D": "A thinking style with no relevance to medical practice"
+      },
+      "correctAnswer": "B",
+      "explanation": "Type 1 thinking is intuitive, heuristic, automatic, fast, and effortless — highly efficient (used in roughly 95% of daily decisions) but more vulnerable to error and more affected by context than Type 2 thinking, which is slow, deliberate, and analytical.",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Clinical Decision Making — Type 1 and Type 2 Thinking",
+      "sourcePage": null
+    },
+    {
+      "id": 54,
+      "topic": "Clinical Decision Making",
+      "subtopic": "Diagnostic Test Interpretation",
+      "difficulty": "Hard",
+      "question": "The D-dimer test has high sensitivity but low specificity for pulmonary embolism. What does this mean in practice?",
+      "options": {
+        "A": "A positive D-dimer confirms pulmonary embolism definitively",
+        "B": "A negative D-dimer helps rule out pulmonary embolism, but a positive result does not confirm it — it only means the disease has not been excluded",
+        "C": "The D-dimer test is useless in clinical practice",
+        "D": "High sensitivity and low specificity mean the test is always accurate regardless of result"
+      },
+      "correctAnswer": "B",
+      "explanation": "A highly sensitive test detects most true disease (few false negatives), so a negative result is reassuring and helps exclude the disease. But low specificity means many people without the disease will still test positive (false positives) — so a raised D-dimer does not confirm pulmonary embolism, it simply means it cannot yet be excluded, prompting further imaging.",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Clinical Decision Making — Interpreting Test Results",
+      "sourcePage": null
+    },
+    {
+      "id": 55,
+      "topic": "Normal Puerperium",
+      "subtopic": "Lochia",
+      "difficulty": "Easy",
+      "question": "The reddish vaginal discharge seen in the first 1-4 days after delivery is called:",
+      "options": {
+        "A": "Lochia alba",
+        "B": "Lochia serosa",
+        "C": "Lochia rubra",
+        "D": "Leukorrhea"
+      },
+      "correctAnswer": "C",
+      "explanation": "Lochia progresses through three stages by colour: lochia rubra (red, days 1-4), lochia serosa (yellowish/pink/pale brownish, days 5-9), and lochia alba (pale white, days 10-15).",
+      "sourceBook": "Dutta's Textbook of Obstetrics",
+      "sourceChapter": "Normal Puerperium — Lochia",
+      "sourcePage": null
+    },
+    {
+      "id": 56,
+      "topic": "Normal Puerperium",
+      "subtopic": "Involution Terminology",
+      "difficulty": "Hard",
+      "question": "'Subinvolution' and 'superinvolution' of the uterus refer respectively to:",
+      "options": {
+        "A": "Delayed/incomplete involution, and a smaller-than-normal uterus sometimes seen with continued lactation",
+        "B": "Two names for exactly the same clinical finding",
+        "C": "Involution occurring only in the cervix versus only in the vagina",
+        "D": "Terms with no real clinical distinction from normal involution"
+      },
+      "correctAnswer": "A",
+      "explanation": "Subinvolution refers to involution proceeding more slowly or incompletely than expected. Superinvolution, by contrast, describes a uterus that becomes smaller than normal, sometimes seen in lactating women — a change that reverses if lactation is withheld.",
+      "sourceBook": "Dutta's Textbook of Obstetrics",
+      "sourceChapter": "Normal Puerperium — Clinical Assessment of Involution",
+      "sourcePage": null
+    },
+    {
+      "id": 57,
+      "topic": "Normal Puerperium",
+      "subtopic": "Uterine Involution",
+      "difficulty": "Medium",
+      "question": "Immediately following delivery, the uterine fundus is about 13.5 cm above the symphysis pubis. Over the following days, it decreases in height at approximately what rate, becoming a pelvic organ by the end of the second week?",
+      "options": {
+        "A": "0.25 cm every 24 hours",
+        "B": "1.25 cm every 24 hours",
+        "C": "5 cm every 24 hours",
+        "D": "It does not decrease until 6 weeks postpartum"
+      },
+      "correctAnswer": "B",
+      "explanation": "After remaining constant for the first 24 hours, the fundal height decreases by about 1.25 cm every 24 hours, so that the uterus becomes a pelvic organ (no longer palpable abdominally) by the end of the second week postpartum, with involution slowing thereafter until the uterus is near-normal size by 6 weeks.",
+      "sourceBook": "Dutta's Textbook of Obstetrics",
+      "sourceChapter": "Normal Puerperium — Clinical Assessment of Involution",
+      "sourcePage": null
+    },
+    {
+      "id": 58,
+      "topic": "Manual Muscle Testing",
+      "subtopic": "Test Procedure",
+      "difficulty": "Medium",
+      "question": "Two-joint muscles such as the hamstrings and gastrocnemius are typically tested in mid-range rather than at full end-range during manual muscle testing. Why?",
+      "options": {
+        "A": "To avoid provoking a stretch reflex",
+        "B": "Mid-range gives these muscles a more mechanically favorable length-tension relationship for the test",
+        "C": "Two-joint muscles cannot generate any force at end range",
+        "D": "It standardizes the time taken for every muscle test"
+      },
+      "correctAnswer": "B",
+      "explanation": "One-joint muscles are tested at end range for consistency, but two-joint muscles are tested in mid-range, where their length-tension relationship is more favorable — testing them at a mechanical disadvantage would make it hard to distinguish a true Grade 5 from a Grade 4.",
+      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+      "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+      "sourcePage": "2"
+    },
+    {
+      "id": 59,
+      "topic": "Manual Muscle Testing",
+      "subtopic": "Exceptions to Standard Technique",
+      "difficulty": "Hard",
+      "question": "When testing hip abductor strength in a patient with an unstable knee, resistance is applied at the distal femur (just above the knee) instead of at the ankle. Using this shorter lever, what is the highest grade that can be assigned, even if the patient tolerates maximal resistance?",
+      "options": {
+        "A": "Grade 5",
+        "B": "Grade 4",
+        "C": "Grade 3",
+        "D": "Grade 2"
+      },
+      "correctAnswer": "B",
+      "explanation": "A shorter lever (resistance near the knee rather than at the ankle) makes the test mechanically easier, so a patient who takes maximal resistance in this position can still only be graded a 4 — the longer lever at the ankle is needed to truly demonstrate Grade 5 strength, since it better reflects the functional demand of gait.",
+      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+      "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+      "sourcePage": "3"
+    },
+    {
+      "id": 60,
+      "topic": "Manual Muscle Testing",
+      "subtopic": "Grading Criteria",
+      "difficulty": "Easy",
+      "question": "On manual muscle testing (MMT), a muscle completes the full available range of motion against gravity alone, but the motion breaks as soon as any additional manual resistance is applied, however mild. What grade should this muscle receive?",
+      "options": {
+        "A": "Grade 5 (Normal)",
+        "B": "Grade 4 (Good)",
+        "C": "Grade 3 (Fair)",
+        "D": "Grade 2 (Poor)"
+      },
+      "correctAnswer": "C",
+      "explanation": "Grade 3 (Fair) is an objective grade: the muscle can complete full range of motion against gravity, but cannot tolerate any added resistance without breaking. Grade 4 requires the muscle to also withstand considerable, though submaximal, resistance.",
+      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+      "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+      "sourcePage": "4"
+    },
+    {
+      "id": 61,
+      "topic": "Manual Muscle Testing",
+      "subtopic": "Evidence Base for Grading",
+      "difficulty": "Hard",
+      "question": "Sharrard's postmortem motor neuron counts in poliomyelitis patients, cited in Daniels and Worthingham, found that by the time a muscle's MMT grade had fallen to 4 (Good), approximately what proportion of its motor neurons were already lost?",
+      "options": {
+        "A": "Less than 10%",
+        "B": "About 25%",
+        "C": "More than 50%",
+        "D": "Nearly 100%"
+      },
+      "correctAnswer": "C",
+      "explanation": "Sharrard's data showed that more than half of a muscle's motor neurons were already gone by the time its MMT grade dropped to 4, which is why the text emphasizes that a 'Good' muscle already represents real, clinically significant weakness.",
+      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+      "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+      "sourcePage": "3"
+    },
+    {
+      "id": 62,
+      "topic": "Manual Muscle Testing",
+      "subtopic": "Exceptions to Standard Technique",
+      "difficulty": "Medium",
+      "question": "For the vertebroscapular muscles (e.g., the rhomboids), resistance is preferably applied on the arm rather than directly on the scapula, their true point of insertion. Why?",
+      "options": {
+        "A": "It is simply easier for the therapist to grip the arm",
+        "B": "The longer lever at the arm better reflects the functional demand of controlling the weight of the whole upper limb",
+        "C": "The scapula moves too unpredictably to resist against",
+        "D": "Resistance at the scapula risks skin breakdown"
+      },
+      "correctAnswer": "B",
+      "explanation": "Applying resistance on the arm uses a longer lever that more closely reflects the functional load these muscles must control (the weight of the arm), rather than testing at their literal anatomical insertion.",
+      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+      "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+      "sourcePage": "3"
+    },
+    {
+      "id": 63,
+      "topic": "Manual Muscle Testing",
+      "subtopic": "Functional Correlation",
+      "difficulty": "Medium",
+      "question": "A patient's gluteus medius is graded 4 (Good) on manual muscle testing. Which functional finding is consistent with this grade, per Daniels and Worthingham's discussion of why 'Good' is not always good enough?",
+      "options": {
+        "A": "Completely normal, symmetric gait with no compensation",
+        "B": "A positive Trendelenburg sign during single-leg stance",
+        "C": "Complete inability to abduct the hip against gravity",
+        "D": "No palpable or visible muscle contraction at all"
+      },
+      "correctAnswer": "B",
+      "explanation": "Even a 'Good' (Grade 4) gluteus medius can be functionally inadequate — a positive Trendelenburg sign (contralateral pelvic drop in single-leg stance) can still appear, illustrating the gap between a manual muscle grade and real functional performance.",
+      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+      "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+      "sourcePage": "5"
+    },
+    {
+      "id": 64,
+      "topic": "Manual Muscle Testing",
+      "subtopic": "Limitations of MMT",
+      "difficulty": "Hard",
+      "question": "The 'ceiling effect' of manual muscle testing refers to which limitation of the technique?",
+      "options": {
+        "A": "It cannot detect any degree of weakness whatsoever",
+        "B": "A wide range of actual muscle force can all be labeled Grade 5 (Normal), masking real strength differences among people graded 'normal'",
+        "C": "It systematically overestimates weakness in older adults",
+        "D": "It is not valid for testing lower-extremity muscles"
+      },
+      "correctAnswer": "B",
+      "explanation": "Studies comparing MMT to hand-held dynamometry found knee extension forces ranging roughly from 85 to over 800 Newtons all classified as Grade 5 (Normal) by break testing. This 'ceiling effect' means MMT loses the ability to distinguish real strength differences once a muscle is already strong, so it is not recommended as a measure of progress above Grade 3.",
+      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+      "sourceChapter": "Chapter 2: Relevance and Limitations of Manual Muscle Testing",
+      "sourcePage": "17"
+    },
+    {
+      "id": 65,
+      "topic": "Manual Muscle Testing",
+      "subtopic": "Test Procedure",
+      "difficulty": "Medium",
+      "question": "In manual muscle testing, the 'break test' is best described as:",
+      "options": {
+        "A": "Applying resistance throughout an actively moving joint to see when motion ceases",
+        "B": "Bringing the part to the end of its available range and asking the patient to hold that position while the therapist tries to force ('break') it out of position",
+        "C": "Passively moving a joint until tissue resistance is felt",
+        "D": "Timing how long a muscle can sustain a maximal isometric hold"
+      },
+      "correctAnswer": "B",
+      "explanation": "The break test — the most commonly used MMT procedure — has the patient hold the end-range test position while the therapist applies gradually increasing resistance, attempting to 'break' the hold. The alternative 'active resistance test' (resisting throughout the motion) requires more skill and is not generally recommended because results are often equivocal.",
+      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+      "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+      "sourcePage": "2"
+    },
+    {
+      "id": 66,
+      "topic": "Knee Assessment",
+      "subtopic": "Special Tests",
+      "difficulty": "Medium",
+      "question": "The Noble compression test is used to assess for which condition?",
+      "options": {
+        "A": "Iliotibial band friction syndrome",
+        "B": "Meniscal tear",
+        "C": "Patellofemoral syndrome",
+        "D": "Osteochondritis dissecans"
+      },
+      "correctAnswer": "A",
+      "explanation": "The Noble compression test is used to assess for iliotibial band friction syndrome, a common cause of lateral knee pain particularly in runners.",
+      "sourceBook": "Magee, Orthopedic Physical Assessment",
+      "sourceChapter": "Chapter 12: Knee — Special Tests Commonly Performed on the Knee",
+      "sourcePage": null
+    },
+    {
+      "id": 67,
+      "topic": "Knee Assessment",
+      "subtopic": "Special Tests — Patellofemoral",
+      "difficulty": "Medium",
+      "question": "Which special test is specifically associated with assessing patellofemoral (patellar) instability?",
+      "options": {
+        "A": "The apprehension test",
+        "B": "McMurray test",
+        "C": "Hughston's plica test",
+        "D": "The bounce home test"
+      },
+      "correctAnswer": "A",
+      "explanation": "The apprehension test is used to assess for patellar instability — the examiner laterally displaces the patella and observes for a look or feeling of apprehension from the patient, who fears the patella is about to dislocate.",
+      "sourceBook": "Magee, Orthopedic Physical Assessment",
+      "sourceChapter": "Chapter 12: Knee — Special Tests Commonly Performed on the Knee",
+      "sourcePage": null
+    },
+    {
+      "id": 68,
+      "topic": "Knee Assessment",
+      "subtopic": "Special Tests — Meniscus",
+      "difficulty": "Hard",
+      "question": "Why can a meniscal injury sometimes present with little or no pain or swelling, making diagnosis more difficult?",
+      "options": {
+        "A": "The menisci are avascular and have no nerve supply on their inner two-thirds",
+        "B": "The menisci are the most richly innervated structures in the knee",
+        "C": "Meniscal tears always occur alongside complete ACL rupture, masking symptoms",
+        "D": "Meniscal tissue regenerates immediately after injury"
+      },
+      "correctAnswer": "A",
+      "explanation": "The menisci are avascular and lack nerve supply on their inner two-thirds, meaning an injury confined to this region can produce little or no pain or swelling — one reason meniscal injury can be difficult to diagnose confidently without a thorough history and examination.",
+      "sourceBook": "Magee, Orthopedic Physical Assessment",
+      "sourceChapter": "Chapter 12: Knee — Tests for Meniscus Injury",
+      "sourcePage": null
+    },
+    {
+      "id": 69,
+      "topic": "Knee Assessment",
+      "subtopic": "External Rotation Recurvatum Test",
+      "difficulty": "Hard",
+      "question": "The External Rotation Recurvatum Test, in which the examiner lifts both of the patient's big toes off the table and observes for relative hyperextension and lateral tibial rotation on the affected side, is a test for:",
+      "options": {
+        "A": "Posterolateral rotary instability in extension",
+        "B": "Meniscal tear",
+        "C": "Patellofemoral pain syndrome",
+        "D": "Iliotibial band tightness"
+      },
+      "correctAnswer": "A",
+      "explanation": "The External Rotation Recurvatum Test assesses for posterolateral rotary instability in extension — a positive test shows the affected knee falling into relative hyperextension (genu varum appearance) with lateral tibial rotation due to gravity, when both legs are lifted by the toes.",
+      "sourceBook": "Magee, Orthopedic Physical Assessment",
+      "sourceChapter": "Chapter 12: Knee — External Rotation Recurvatum Test",
+      "sourcePage": null
+    },
+    {
+      "id": 70,
+      "topic": "Knee Assessment",
+      "subtopic": "Special Tests — Patellofemoral",
+      "difficulty": "Hard",
+      "question": "Clarke's sign and the McConnell test are both special tests associated with which condition?",
+      "options": {
+        "A": "Patellofemoral syndrome",
+        "B": "Iliotibial band friction syndrome",
+        "C": "Meniscus lesions",
+        "D": "Leg length discrepancy"
+      },
+      "correctAnswer": "A",
+      "explanation": "Clarke's sign and the McConnell test are both used in the assessment of patellofemoral syndrome (anterior knee pain related to patellar tracking/compression issues).",
+      "sourceBook": "Magee, Orthopedic Physical Assessment",
+      "sourceChapter": "Chapter 12: Knee — Special Tests Commonly Performed on the Knee",
+      "sourcePage": null
+    },
+    {
+      "id": 71,
+      "topic": "Knee Assessment",
+      "subtopic": "Ligament Testing Devices",
+      "difficulty": "Hard",
+      "question": "Using the KT-1000 arthrometer, a difference of more than 3 mm in anterior displacement between the injured and uninjured knee is generally considered:",
+      "options": {
+        "A": "A normal finding requiring no further action",
+        "B": "Diagnostic for injury to the anterior or posterior cruciate ligament",
+        "C": "Evidence of a meniscal tear specifically, never a ligament injury",
+        "D": "Only relevant in paediatric patients"
+      },
+      "correctAnswer": "B",
+      "explanation": "A side-to-side difference of more than 3 mm in anterior displacement on KT-1000 arthrometer testing is generally considered diagnostic for injury to the anterior cruciate ligament or posterior cruciate ligament.",
+      "sourceBook": "Magee, Orthopedic Physical Assessment",
+      "sourceChapter": "Chapter 12: Knee — Ligament Testing Devices",
+      "sourcePage": null
+    },
+    {
+      "id": 72,
+      "topic": "Knee Assessment",
+      "subtopic": "Ligament Testing",
+      "difficulty": "Hard",
+      "question": "The Jakob test (reverse pivot shift maneuver) is used to assess for which type of knee instability?",
+      "options": {
+        "A": "Anterolateral rotary instability",
+        "B": "Posterolateral rotary instability",
+        "C": "Isolated medial collateral ligament sprain only",
+        "D": "Patellofemoral instability"
+      },
+      "correctAnswer": "B",
+      "explanation": "The Jakob test (reverse pivot shift maneuver) tests for posterolateral rotary instability — a positive test (jerk in the knee, or posterior tibial shift with a 'giving way' sensation) indicates injury to the lateral collateral ligament, arcuate-popliteus complex, and mid-third of the lateral capsule.",
+      "sourceBook": "Magee, Orthopedic Physical Assessment",
+      "sourceChapter": "Chapter 12: Knee — Tests for Posterolateral Rotary Instability",
+      "sourcePage": null
+    },
+    {
+      "id": 73,
+      "topic": "Knee Assessment",
+      "subtopic": "Ligament Testing",
+      "difficulty": "Medium",
+      "question": "Hughston's posteromedial drawer sign is performed with the patient supine, knee flexed 80-90°, hip flexed 45°, and the foot slightly medially rotated. A positive test (excessive posterior movement/rotation of the medial tibia) is most indicative of injury to which primary structure?",
+      "options": {
+        "A": "Anterior cruciate ligament in isolation",
+        "B": "Posterior cruciate ligament (along with posteromedial supporting structures)",
+        "C": "Lateral collateral ligament only",
+        "D": "Iliotibial band"
+      },
+      "correctAnswer": "B",
+      "explanation": "A positive Hughston's posteromedial drawer sign indicates injury to the posterior cruciate ligament, along with possible involvement of the posterior oblique ligament, medial collateral ligament, semimembranosus, and posteromedial capsule — it tests for posteromedial rotary instability of the knee.",
+      "sourceBook": "Magee, Orthopedic Physical Assessment",
+      "sourceChapter": "Chapter 12: Knee — Ligament Stability, Posteromedial and Posterolateral Drawer Sign",
+      "sourcePage": null
+    },
+    {
+      "id": 74,
+      "topic": "Knee Assessment",
+      "subtopic": "Quadriceps Active Test",
+      "difficulty": "Hard",
+      "question": "In arthrometer testing, the 'quadriceps active position' refers to the knee angle at which:",
+      "options": {
+        "A": "The tibia shows no forward movement when the quadriceps contracts, typically around 70° of flexion",
+        "B": "The knee is fully extended at 0°",
+        "C": "The patient is asked to relax completely with no muscle contraction",
+        "D": "The hamstrings are maximally contracted instead of the quadriceps"
+      },
+      "correctAnswer": "A",
+      "explanation": "The quadriceps neutral (active) angle is the knee flexion angle — typically around 70° — at which an isolated quadriceps contraction produces no anterior tibial translation in a normal knee; this position is used as a reference when testing the injured knee for abnormal anterior displacement (suggestive of PCL injury).",
+      "sourceBook": "Magee, Orthopedic Physical Assessment",
+      "sourceChapter": "Chapter 12: Knee — Quadriceps Neutral Test",
+      "sourcePage": null
+    },
+    {
+      "id": 75,
+      "topic": "Knee Assessment",
+      "subtopic": "Special Tests — Meniscus",
+      "difficulty": "Easy",
+      "question": "Which two special tests are classically used to assess for a meniscal injury of the knee?",
+      "options": {
+        "A": "McMurray test and Apley's test",
+        "B": "Lachman test and pivot shift test",
+        "C": "Clarke's sign and the Q-angle measurement",
+        "D": "Noble compression test and Ober's test"
+      },
+      "correctAnswer": "A",
+      "explanation": "The McMurray test and Apley's (compression/distraction) test are the classic special tests for meniscal injury of the knee, alongside the 'bounce home' test.",
+      "sourceBook": "Magee, Orthopedic Physical Assessment",
+      "sourceChapter": "Chapter 12: Knee — Special Tests Commonly Performed on the Knee",
+      "sourcePage": null
+    },
+    {
+      "id": 76,
+      "topic": "Stroke",
+      "subtopic": "Vascular Syndromes",
+      "difficulty": "Medium",
+      "question": "Middle Cerebral Artery (MCA) syndrome, the most common site of occlusion in stroke, classically produces contralateral weakness and sensory loss most affecting:",
+      "options": {
+        "A": "The lower extremity, sparing the face and upper extremity",
+        "B": "The face and upper extremity, with relative sparing of the lower extremity",
+        "C": "Only the trunk musculature",
+        "D": "Bilateral lower extremities equally"
+      },
+      "correctAnswer": "B",
+      "explanation": "MCA syndrome classically produces contralateral spastic hemiparesis and sensory loss of the face, upper extremity, and lower extremity, with the face and upper extremity more affected than the lower extremity — the MCA is also the most common site of stroke occlusion overall.",
+      "sourceBook": "O'Sullivan, Physical Rehabilitation",
+      "sourceChapter": "Chapter 15: Stroke — Middle Cerebral Artery Syndrome",
+      "sourcePage": null
+    },
+    {
+      "id": 77,
+      "topic": "Stroke",
+      "subtopic": "Hemorrhagic Stroke",
+      "difficulty": "Medium",
+      "question": "Subarachnoid hemorrhage (SH) typically results from rupture of which type of vascular lesion?",
+      "options": {
+        "A": "A saccular (berry) aneurysm affecting large blood vessels",
+        "B": "Small penetrating vessel disease (lacunar disease)",
+        "C": "Atherosclerotic plaque in the carotid artery only",
+        "D": "Venous thrombosis in the dural sinuses exclusively"
+      },
+      "correctAnswer": "A",
+      "explanation": "Subarachnoid hemorrhage typically occurs from bleeding into the subarachnoid space, most often from rupture of a saccular (berry) aneurysm affecting the larger cerebral blood vessels, often related to congenital weakness in the vessel wall.",
+      "sourceBook": "O'Sullivan, Physical Rehabilitation",
+      "sourceChapter": "Chapter 15: Stroke — Pathophysiology",
+      "sourcePage": null
+    },
+    {
+      "id": 78,
+      "topic": "Stroke",
+      "subtopic": "Transient Ischemic Attack",
+      "difficulty": "Medium",
+      "question": "By definition, a transient ischemic attack (TIA) produces focal neurological deficits that:",
+      "options": {
+        "A": "Last longer than 24 hours with permanent residual damage",
+        "B": "Do not last longer than 24 hours, with no evidence of residual brain damage afterward",
+        "C": "Always progress to a completed stroke within 24 hours",
+        "D": "Only ever affect vision, never motor function"
+      },
+      "correctAnswer": "B",
+      "explanation": "A TIA is a temporary interruption of blood supply producing focal neurological deficits lasting minutes to hours but, by definition, not longer than 24 hours, with no evidence of residual damage afterward. However, TIA is clinically significant as a warning sign — about 15% of strokes are preceded by a TIA, with the highest risk in the following 90 days.",
+      "sourceBook": "O'Sullivan, Physical Rehabilitation",
+      "sourceChapter": "Chapter 15: Stroke — Management Categories",
+      "sourcePage": null
+    },
+    {
+      "id": 79,
+      "topic": "Stroke",
+      "subtopic": "Cerebral Circulation",
+      "difficulty": "Medium",
+      "question": "The circle of Willis is clinically important in stroke because it:",
+      "options": {
+        "A": "Has no role in cerebral perfusion at all",
+        "B": "Provides a collateral circulatory network that can help maintain blood flow if one contributing artery is occluded proximally",
+        "C": "Is located exclusively in the spinal cord",
+        "D": "Only supplies the cerebellum"
+      },
+      "correctAnswer": "B",
+      "explanation": "The circle of Willis connects the anterior and posterior cerebral circulations via communicating arteries, providing collateral blood flow. This is why occlusion proximal to the anterior or posterior communicating arteries often produces relatively minimal deficits — perfusion can be partly maintained from the other side.",
+      "sourceBook": "O'Sullivan, Physical Rehabilitation",
+      "sourceChapter": "Chapter 15: Stroke — Vascular Syndromes",
+      "sourcePage": null
+    },
+    {
+      "id": 80,
+      "topic": "Stroke",
+      "subtopic": "Aphasia",
+      "difficulty": "Hard",
+      "question": "A stroke patient has nonfluent, slow, hesitant speech with a limited vocabulary, but relatively preserved auditory comprehension. This is classically associated with a lesion of:",
+      "options": {
+        "A": "Wernicke's area, in the posterior temporal gyrus",
+        "B": "Broca's area, in the third frontal convolution of the dominant hemisphere",
+        "C": "The primary visual cortex",
+        "D": "The cerebellum"
+      },
+      "correctAnswer": "B",
+      "explanation": "This is classic Broca's (nonfluent, expressive) aphasia — slow, effortful, nonfluent speech with a limited vocabulary but relatively preserved comprehension — caused by a lesion of Broca's area in the dominant (typically left) frontal lobe. Wernicke's (fluent, receptive) aphasia, by contrast, produces fluent but often meaningless speech with impaired comprehension.",
+      "sourceBook": "O'Sullivan, Physical Rehabilitation",
+      "sourceChapter": "Chapter 15: Stroke — Middle Cerebral Artery Syndrome",
+      "sourcePage": null
+    },
+    {
+      "id": 81,
+      "topic": "Stroke",
+      "subtopic": "Cerebral Edema",
+      "difficulty": "Hard",
+      "question": "Cerebral edema following ischemic stroke typically reaches its maximum at approximately what time point, and is the most frequent cause of death in acute stroke?",
+      "options": {
+        "A": "Within the first hour",
+        "B": "3 to 4 days",
+        "C": "6 months",
+        "D": "It never resolves"
+      },
+      "correctAnswer": "B",
+      "explanation": "Cerebral edema begins within minutes of the ischemic insult and reaches its maximum by 3 to 4 days, gradually subsiding by 2 to 3 weeks. Significant edema, particularly with large MCA/ICA infarcts, is the most frequent cause of death in acute stroke due to raised intracranial pressure and brainstem herniation.",
+      "sourceBook": "O'Sullivan, Physical Rehabilitation",
+      "sourceChapter": "Chapter 15: Stroke — Pathophysiology",
+      "sourcePage": null
+    },
+    {
+      "id": 82,
+      "topic": "Stroke",
+      "subtopic": "Vascular Syndromes",
+      "difficulty": "Medium",
+      "question": "Anterior Cerebral Artery (ACA) syndrome classically produces contralateral hemiparesis and sensory loss that is:",
+      "options": {
+        "A": "Greater in the lower extremity than the upper extremity",
+        "B": "Greater in the upper extremity and face than the lower extremity",
+        "C": "Equal throughout the whole body with no distinguishing pattern",
+        "D": "Limited exclusively to the face"
+      },
+      "correctAnswer": "A",
+      "explanation": "Because the ACA supplies the medial aspect of the cerebral hemisphere where the lower extremity is somatotopically represented, ACA syndrome classically produces contralateral hemiparesis and sensory loss with greater involvement of the lower extremity than the upper extremity — the opposite pattern to MCA syndrome.",
+      "sourceBook": "O'Sullivan, Physical Rehabilitation",
+      "sourceChapter": "Chapter 15: Stroke — Anterior Cerebral Artery Syndrome",
+      "sourcePage": null
+    },
+    {
+      "id": 83,
+      "topic": "Stroke",
+      "subtopic": "Vascular Syndromes",
+      "difficulty": "Hard",
+      "question": "Lesions of the parietal lobe of the NONDOMINANT (typically right) hemisphere in MCA syndrome typically produce which type of deficit?",
+      "options": {
+        "A": "Aphasia (language impairment)",
+        "B": "Perceptual deficits such as unilateral neglect, anosognosia, and spatial disorganization",
+        "C": "Complete loss of hearing",
+        "D": "Loss of the sense of smell only"
+      },
+      "correctAnswer": "B",
+      "explanation": "While dominant (usually left) hemisphere parieto-occipital lesions typically produce aphasia, lesions of the nondominant (usually right) parietal lobe typically produce perceptual deficits: unilateral neglect, anosognosia (denial of deficit), apraxia, and spatial disorganization.",
+      "sourceBook": "O'Sullivan, Physical Rehabilitation",
+      "sourceChapter": "Chapter 15: Stroke — Middle Cerebral Artery Syndrome",
+      "sourcePage": null
+    },
+    {
+      "id": 84,
+      "topic": "Stroke",
+      "subtopic": "Vascular Syndromes",
+      "difficulty": "Medium",
+      "question": "Occlusion of a posterior cerebral artery (PCA), affecting the occipital lobe, characteristically produces:",
+      "options": {
+        "A": "Contralateral homonymous hemianopsia",
+        "B": "Complete bilateral blindness in every case",
+        "C": "Isolated hearing loss",
+        "D": "Pure motor weakness with no sensory or visual involvement"
+      },
+      "correctAnswer": "A",
+      "explanation": "The PCA supplies the occipital lobe (primary visual cortex); occlusion produces contralateral homonymous hemianopsia. Bilateral PCA occlusion can cause cortical blindness, but this is not the typical single-vessel presentation.",
+      "sourceBook": "O'Sullivan, Physical Rehabilitation",
+      "sourceChapter": "Chapter 15: Stroke — Posterior Cerebral Artery Syndrome",
+      "sourcePage": null
+    },
+    {
+      "id": 85,
+      "topic": "Stroke",
+      "subtopic": "Classification",
+      "difficulty": "Easy",
+      "question": "Strokes are broadly classified into two main categories based on underlying pathology:",
+      "options": {
+        "A": "Ischemic and hemorrhagic",
+        "B": "Acute and chronic only",
+        "C": "Left-sided and right-sided",
+        "D": "Cortical and subcortical only"
+      },
+      "correctAnswer": "A",
+      "explanation": "Strokes are broadly classified as ischemic (from thrombus, embolism, or low systemic perfusion depriving brain tissue of blood flow) or hemorrhagic (from rupture of a cerebral vessel causing bleeding into or around the brain).",
+      "sourceBook": "O'Sullivan, Physical Rehabilitation",
+      "sourceChapter": "Chapter 15: Stroke — Pathophysiology",
+      "sourcePage": null
+    },
+    {
+      "id": 86,
+      "topic": "Cardiopulmonary Assessment",
+      "subtopic": "Wheeze vs Stridor",
+      "difficulty": "Medium",
+      "question": "Stridor is often mistakenly called 'wheeze' by patients, but it actually indicates:",
+      "options": {
+        "A": "Upper airway obstruction",
+        "B": "Pleural effusion",
+        "C": "Normal breath sounds",
+        "D": "Lower lobe consolidation only"
+      },
+      "correctAnswer": "A",
+      "explanation": "Stridor is the sound produced by upper airway obstruction and is often mistakenly labelled 'wheeze' by patients, though true wheeze arises from turbulent airflow through narrowed lower airways — an important clinical distinction.",
+      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+      "sourceChapter": "Assessment — Wheeze",
+      "sourcePage": null
+    },
+    {
+      "id": 87,
+      "topic": "Cardiopulmonary Assessment",
+      "subtopic": "Chest Pain",
+      "difficulty": "Medium",
+      "question": "Pleuritic chest pain is best described as:",
+      "options": {
+        "A": "A dull, central, band-like pain radiating to the jaw",
+        "B": "A severe, sharp, stabbing pain, worse on inspiration, and not reproduced by palpation",
+        "C": "A burning retrosternal pain worse when lying flat or bending forward",
+        "D": "Pain that is only ever felt during exercise and never at rest"
+      },
+      "correctAnswer": "B",
+      "explanation": "Pleuritic chest pain, from inflammation of the parietal pleura, is classically a severe, sharp, stabbing pain that worsens on inspiration and is NOT reproduced by palpation — distinguishing it from musculoskeletal chest wall pain, which IS reproduced by palpation.",
+      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+      "sourceChapter": "Assessment — Chest Pain",
+      "sourcePage": null
+    },
+    {
+      "id": 88,
+      "topic": "Cardiopulmonary Assessment",
+      "subtopic": "Peripheral Oedema",
+      "difficulty": "Hard",
+      "question": "Peripheral oedema in a respiratory patient most commonly suggests which underlying process?",
+      "options": {
+        "A": "Right heart failure, potentially due to cor pulmonale (right ventricular failure secondary to hypoxic pulmonary vasoconstriction)",
+        "B": "Left ventricular failure exclusively",
+        "C": "Normal ageing with no pathological significance",
+        "D": "Acute asthma exacerbation"
+      },
+      "correctAnswer": "A",
+      "explanation": "Peripheral oedema in a respiratory patient suggests right heart failure, which may result from cor pulmonale — right ventricular failure secondary to hypoxic pulmonary vasoconstriction from underlying chronic lung disease. It can also occur from salt/water retention with high-dose corticosteroid use.",
+      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+      "sourceChapter": "Assessment — Other Symptoms",
+      "sourcePage": null
+    },
+    {
+      "id": 89,
+      "topic": "Cardiopulmonary Assessment",
+      "subtopic": "Haemoptysis",
+      "difficulty": "Hard",
+      "question": "Isolated haemoptysis (coughing up blood), even when the chest radiograph appears normal, may be the first sign of which condition?",
+      "options": {
+        "A": "Bronchogenic carcinoma",
+        "B": "Simple viral upper respiratory tract infection",
+        "C": "Asthma exclusively",
+        "D": "Hyperventilation syndrome"
+      },
+      "correctAnswer": "A",
+      "explanation": "Isolated haemoptysis can be the first sign of bronchogenic carcinoma even when the chest X-ray is normal, which is why it should always be taken seriously and investigated further rather than dismissed.",
+      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+      "sourceChapter": "Assessment — Sputum, Haemoptysis",
+      "sourcePage": null
+    },
+    {
+      "id": 90,
+      "topic": "Cardiopulmonary Assessment",
+      "subtopic": "Morning Headache",
+      "difficulty": "Hard",
+      "question": "Morning headaches in a patient with severe respiratory failure may signify:",
+      "options": {
+        "A": "Nocturnal carbon dioxide retention",
+        "B": "Simple dehydration only",
+        "C": "Normal sleep patterns with no pathology",
+        "D": "Acute pulmonary embolism specifically"
+      },
+      "correctAnswer": "A",
+      "explanation": "Morning headaches in patients with severe respiratory failure may signify nocturnal carbon dioxide retention (hypercapnia during sleep), which can be confirmed with early morning arterial blood gases or nocturnal transcutaneous CO2 monitoring.",
+      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+      "sourceChapter": "Assessment — Other Symptoms",
+      "sourcePage": null
+    },
+    {
+      "id": 91,
+      "topic": "Cardiopulmonary Assessment",
+      "subtopic": "Sputum",
+      "difficulty": "Medium",
+      "question": "'Rusty' coloured sputum is classically associated with infection by which organism?",
+      "options": {
+        "A": "Pseudomonas",
+        "B": "Pneumococcus",
+        "C": "Haemophilus",
+        "D": "Klebsiella"
+      },
+      "correctAnswer": "B",
+      "explanation": "Rusty-coloured sputum is a classic finding associated with pneumococcal infection (typical lobar pneumonia), whereas dark green/brown sputum suggests Pseudomonas, and 'red-currant jelly' sputum suggests Klebsiella.",
+      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+      "sourceChapter": "Assessment — Sputum",
+      "sourcePage": null
+    },
+    {
+      "id": 92,
+      "topic": "Cardiopulmonary Assessment",
+      "subtopic": "Angina",
+      "difficulty": "Medium",
+      "question": "Angina pectoris from myocardial ischaemia is classically described as:",
+      "options": {
+        "A": "A sharp, localized pain that worsens specifically on inspiration",
+        "B": "A dull, central, retrosternal gripping or band-like sensation that may radiate to the arm, neck, or jaw",
+        "C": "A superficial pain reproduced by chest wall palpation",
+        "D": "A pain confined strictly to the left shoulder with no central component"
+      },
+      "correctAnswer": "B",
+      "explanation": "Angina pectoris characteristically produces a dull, central, retrosternal gripping or band-like sensation, which may radiate to either arm, the neck, or the jaw — quite distinct from the sharp, localized, movement/palpation-related pain of musculoskeletal chest pain.",
+      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+      "sourceChapter": "Assessment — Chest Pain",
+      "sourcePage": null
+    },
+    {
+      "id": 93,
+      "topic": "Cardiopulmonary Assessment",
+      "subtopic": "Glasgow Coma Scale",
+      "difficulty": "Easy",
+      "question": "On the Glasgow Coma Scale, what is the maximum total score, and what does it represent?",
+      "options": {
+        "A": "10, representing moderate impairment",
+        "B": "15, representing a fully alert, orientated patient",
+        "C": "3, the best possible score",
+        "D": "100, on a percentage-based scale"
+      },
+      "correctAnswer": "B",
+      "explanation": "The Glasgow Coma Scale has a maximum total score of 15 (best possible — eye opening 4, verbal response 5, motor response 6), representing full alertness, and a minimum score of 3, representing the deepest level of unresponsiveness.",
+      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+      "sourceChapter": "Assessment — Objective Assessment, Coma Scale",
+      "sourcePage": null
+    },
+    {
+      "id": 94,
+      "topic": "Cardiopulmonary Assessment",
+      "subtopic": "Cough",
+      "difficulty": "Medium",
+      "question": "A daily, chronic productive cough is described as a fundamental feature of which conditions?",
+      "options": {
+        "A": "Interstitial lung disease",
+        "B": "Chronic bronchitis and bronchiectasis",
+        "C": "Pulmonary embolism",
+        "D": "Asthma exclusively"
+      },
+      "correctAnswer": "B",
+      "explanation": "A chronic productive cough occurring every day is a fundamental feature of chronic bronchitis and bronchiectasis, whereas interstitial lung disease is characteristically associated with a persistent DRY cough.",
+      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+      "sourceChapter": "Assessment — Cough",
+      "sourcePage": null
+    },
+    {
+      "id": 95,
+      "topic": "Cardiopulmonary Assessment",
+      "subtopic": "Chest Pain",
+      "difficulty": "Hard",
+      "question": "How is musculoskeletal (chest wall) pain typically distinguished from pleuritic pain on physical examination?",
+      "options": {
+        "A": "Musculoskeletal pain is reproduced by palpation, while pleuritic pain is not",
+        "B": "Both are always identical and cannot be distinguished clinically",
+        "C": "Pleuritic pain is always reproduced by palpation, musculoskeletal pain never is",
+        "D": "Musculoskeletal pain never worsens with movement"
+      },
+      "correctAnswer": "A",
+      "explanation": "Musculoskeletal (chest wall) pain is usually well localized and its reproduction on palpation is a key distinguishing clinical feature — pleuritic pain, by contrast, is not reproduced by palpation.",
+      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+      "sourceChapter": "Assessment — Chest Pain",
+      "sourcePage": null
+    },
+    {
+      "id": 96,
+      "topic": "Epidemiology",
+      "subtopic": "Limitations of Mortality Data",
+      "difficulty": "Hard",
+      "question": "Which of the following is cited as a genuine limitation of mortality data, particularly relevant to developing countries like India?",
+      "options": {
+        "A": "Incomplete reporting of deaths and lack of accuracy in recording age/cause of death",
+        "B": "Mortality data is always 100% complete and accurate worldwide",
+        "C": "Death certificates do not exist in any country",
+        "D": "Mortality data cannot be tabulated by any coding system"
+      },
+      "correctAnswer": "A",
+      "explanation": "Incomplete reporting of deaths is not usually a problem in developed countries, but can be considerable in India and other developing countries. Combined with inaccuracies in age/cause recording (often due to lack of diagnostic evidence, inexperienced certifying doctors, or absence of postmortem examination), this is a genuine limitation of mortality data quality.",
+      "sourceBook": "Park's Textbook of Preventive and Social Medicine",
+      "sourceChapter": "Measurement of Mortality — Limitations of Mortality Data",
+      "sourcePage": "56"
+    },
+    {
+      "id": 97,
+      "topic": "Epidemiology",
+      "subtopic": "Death Certificate",
+      "difficulty": "Medium",
+      "question": "On the International Death Certificate, the 'underlying cause of death' is recorded in Part I, and is defined as:",
+      "options": {
+        "A": "The immediate mode of dying, such as 'heart failure' or 'asthenia'",
+        "B": "The disease or injury that initiated the chain of morbid events leading directly to death, or the circumstances of the accident/violence that produced the fatal injury",
+        "C": "Any condition present at death regardless of its role in causing it",
+        "D": "Only conditions diagnosed after an autopsy"
+      },
+      "correctAnswer": "B",
+      "explanation": "The underlying cause of death is the disease or injury that initiated the train of morbid events leading directly to death, or the circumstances of the accident/violence producing the fatal injury — the certificate explicitly notes this does NOT mean the immediate mode of dying (e.g. 'heart failure' or 'asthenia' are not acceptable as the underlying cause).",
+      "sourceBook": "Park's Textbook of Preventive and Social Medicine",
+      "sourceChapter": "Measurement of Mortality — International Death Certificate",
+      "sourcePage": "56"
+    },
+    {
+      "id": 98,
+      "topic": "Epidemiology",
+      "subtopic": "Variate and Circumstance",
+      "difficulty": "Hard",
+      "question": "In epidemiological terminology, a 'variate' that can only be present or absent (e.g. lung cancer, a broken leg) is described as:",
+      "options": {
+        "A": "Continuously distributed",
+        "B": "Discrete",
+        "C": "A circumstance, not a variate",
+        "D": "Non-measurable and therefore not usable in epidemiology"
+      },
+      "correctAnswer": "B",
+      "explanation": "A variate (any piece of information about a patient or their disease) can be discrete — present or absent, like lung cancer or a broken leg — or continuously distributed, like blood pressure, serum cholesterol, or height. A 'circumstance' is a distinct concept: any environmental factor suspected of causing a disease, such as air pollution.",
+      "sourceBook": "Park's Textbook of Preventive and Social Medicine",
+      "sourceChapter": "Principles of Epidemiology and Epidemiologic Methods — Basic Measurements in Epidemiology",
+      "sourcePage": "60"
+    },
+    {
+      "id": 99,
+      "topic": "Epidemiology",
+      "subtopic": "Basic Requirements of Measurement",
+      "difficulty": "Medium",
+      "question": "The basic requirements of good epidemiological measurement include validity, reliability, accuracy, sensitivity, and:",
+      "options": {
+        "A": "Specificity",
+        "B": "Profitability",
+        "C": "Popularity among clinicians",
+        "D": "Simplicity above all else, regardless of accuracy"
+      },
+      "correctAnswer": "A",
+      "explanation": "The basic requirements of measurement in epidemiology are validity, reliability, accuracy, sensitivity, and specificity — these properties determine how trustworthy and useful a given measurement or test is for epidemiological purposes.",
+      "sourceBook": "Park's Textbook of Preventive and Social Medicine",
+      "sourceChapter": "Principles of Epidemiology and Epidemiologic Methods — Basic Measurements in Epidemiology",
+      "sourcePage": "55"
+    },
+    {
+      "id": 100,
+      "topic": "Epidemiology",
+      "subtopic": "Denominators",
+      "difficulty": "Hard",
+      "question": "In studying road traffic accidents, why might 'accidents per 1000 vehicles' or 'per million vehicle-miles' be a more useful denominator than total population?",
+      "options": {
+        "A": "Total population is always the best denominator regardless of context",
+        "B": "Because many people in the total population do not own or use vehicles, so vehicle-based denominators better reflect actual exposure/risk",
+        "C": "Vehicle-based denominators are only used for aesthetic reasons with no analytical value",
+        "D": "Total population data is impossible to obtain in any country"
+      },
+      "correctAnswer": "B",
+      "explanation": "When the denominator is more closely related to actual exposure to risk (like the number of vehicles or vehicle-miles travelled) rather than the whole population — many of whom may not drive or use vehicles at all — the resulting rate more accurately reflects the true risk of the event being measured.",
+      "sourceBook": "Park's Textbook of Preventive and Social Medicine",
+      "sourceChapter": "Principles of Epidemiology and Epidemiologic Methods — Rates Related to Total Events",
+      "sourcePage": "55"
+    }
+  ]
+}
