@@ -196,6 +196,112 @@
       "sourceBook": "Davidson's Principles and Practice of Medicine",
       "sourceChapter": "Clinical Decision Making — Patient-Centred Evidence-Based Medicine",
       "sourcePage": null
+    },
+    {
+      "id": "med-13",
+      "topic": "Infectious Disease Epidemiology",
+      "subtopic": "Definitions",
+      "difficulty": "Medium",
+      "question": "The World Health Organization defines a 'zoonosis' as:",
+      "options": {
+        "A": "Any infection that only ever affects animals, never humans",
+        "B": "A disease or infection that is naturally transmissible from vertebrate animals to humans",
+        "C": "An infection transmitted exclusively via insect vectors",
+        "D": "A disease found only in tropical climates"
+      },
+      "correctAnswer": "B",
+      "explanation": "The WHO defines a zoonosis as a disease or infection naturally transmissible from vertebrate animals to humans. Infected animals may be asymptomatic, and some zoonoses (e.g. Q fever, Ebola) can then spread onward between humans, causing secondary disease.",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Epidemiology of Infection — Reservoirs of Infection",
+      "sourcePage": null
+    },
+    {
+      "id": "med-14",
+      "topic": "Infectious Disease Epidemiology",
+      "subtopic": "Emerging Disease",
+      "difficulty": "Medium",
+      "question": "A disease that was previously known and thought to have been controlled or eradicated, but has now reappeared, is termed:",
+      "options": { "A": "An emerging disease", "B": "A re-emerging disease", "C": "An endemic disease", "D": "A pseudo-outbreak" },
+      "correctAnswer": "B",
+      "explanation": "An emerging infectious disease is one newly appearing in a population or increasing in incidence/range. If the disease was previously known and thought controlled or eradicated but reappears, it is specifically termed re-emerging.",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Epidemiology of Infection — Emerging and Re-emerging Disease",
+      "sourcePage": null
+    },
+    {
+      "id": "med-15",
+      "topic": "Infectious Disease Epidemiology",
+      "subtopic": "Transmission Routes",
+      "difficulty": "Easy",
+      "question": "Inanimate objects such as door handles, water taps, and ultrasound probes that bridge transmission of infection between hosts are called:",
+      "options": { "A": "Vectors", "B": "Fomites", "C": "Reservoirs", "D": "Zoonotic agents" },
+      "correctAnswer": "B",
+      "explanation": "Fomites are inanimate objects (door handles, water taps, medical equipment) that can bridge transmission of infection between an infected source and a susceptible host, and are particularly associated with health care-associated infection. Vectors, by contrast, are animate carriers (e.g. mosquitoes, fleas).",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Epidemiology of Infection — Transmission of Infection",
+      "sourcePage": null
+    },
+    {
+      "id": "med-16",
+      "topic": "Infectious Disease Epidemiology",
+      "subtopic": "Definitions",
+      "difficulty": "Medium",
+      "question": "The 'incubation period' of an infectious disease is defined as:",
+      "options": {
+        "A": "The time between exposure to a pathogen and the development of symptoms",
+        "B": "The total duration of the illness from start to full recovery",
+        "C": "The time a patient spends in hospital",
+        "D": "The period during which a vaccine remains effective"
+      },
+      "correctAnswer": "A",
+      "explanation": "The incubation period is the time between exposure to a pathogen and the development of symptoms — distinct from the 'period of infectivity', which is the time after exposure during which the patient can transmit the infection to others.",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Epidemiology of Infection — Transmission of Infection",
+      "sourcePage": null
+    },
+    {
+      "id": "med-17",
+      "topic": "Infection Prevention and Control",
+      "subtopic": "Hand Hygiene",
+      "difficulty": "Hard",
+      "question": "In a setting with a high local prevalence of C. difficile, why is alcohol gel decontamination between patient contacts considered inadequate?",
+      "options": {
+        "A": "Alcohol gel is more effective than hand-washing against C. difficile spores",
+        "B": "Alcohol gel does not kill C. difficile spores, so hands must be washed with soap and water instead",
+        "C": "C. difficile cannot be transmitted via hands under any circumstances",
+        "D": "Alcohol gel damages skin more than soap and water"
+      },
+      "correctAnswer": "B",
+      "explanation": "Alcohol gel decontamination is usually adequate for routine hand hygiene, but it does not kill C. difficile spores. In situations of high C. difficile prevalence (e.g. a local outbreak), hands must be washed with soap and water instead, since spores survive alcohol-based decontamination.",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Infection Prevention and Control — Health Care-Associated Infection",
+      "sourcePage": null
+    },
+    {
+      "id": "med-18",
+      "topic": "Infectious Disease Epidemiology",
+      "subtopic": "Outbreak Investigation",
+      "difficulty": "Hard",
+      "question": "When an apparent outbreak of infection is investigated and 'typing' shows the causal organisms do NOT share identical phenotypic/genotypic characteristics, the event is instead termed a:",
+      "options": { "A": "True outbreak", "B": "Pseudo-outbreak", "C": "Endemic pattern", "D": "Case-control study" },
+      "correctAnswer": "B",
+      "explanation": "Confirmation of a genuine infectious disease outbreak usually requires typing evidence that the causal organisms share identical phenotypic and/or genotypic characteristics. If this is not the case, the apparent cluster is termed a pseudo-outbreak rather than a true outbreak.",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Epidemiology of Infection — Outbreaks of Infection",
+      "sourcePage": null
+    },
+    {
+      "id": "med-19",
+      "topic": "Infectious Disease Epidemiology",
+      "subtopic": "Outbreak Investigation",
+      "difficulty": "Medium",
+      "question": "In outbreak investigation, a study comparing the recent activities (potential exposures) of affected 'cases' against unaffected 'controls' is called a:",
+      "options": { "A": "Case-control study", "B": "Randomised controlled trial", "C": "Cross-sectional census", "D": "Meta-analysis" },
+      "correctAnswer": "A",
+      "explanation": "A case-control study compares the recent activities and potential exposures of affected 'cases' to those of unaffected 'controls', helping to identify the likely source of an outbreak.",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Epidemiology of Infection — Outbreaks of Infection",
+      "sourcePage": null
     }
   ]
 }
