@@ -1,0 +1,134 @@
+{
+  "subject": "Physical Diagnosis & Manipulative Skills",
+  "questions": [
+    {
+      "id": "mmt-1",
+      "topic": "Manual Muscle Testing",
+      "subtopic": "Grading Criteria",
+      "difficulty": "Easy",
+      "question": "On manual muscle testing (MMT), a muscle completes the full available range of motion against gravity alone, but the motion breaks as soon as any additional manual resistance is applied, however mild. What grade should this muscle receive?",
+      "options": { "A": "Grade 5 (Normal)", "B": "Grade 4 (Good)", "C": "Grade 3 (Fair)", "D": "Grade 2 (Poor)" },
+      "correctAnswer": "C",
+      "explanation": "Grade 3 (Fair) is an objective grade: the muscle can complete full range of motion against gravity, but cannot tolerate any added resistance without breaking. Grade 4 requires the muscle to also withstand considerable, though submaximal, resistance.",
+      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+      "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+      "sourcePage": "4"
+    },
+    {
+      "id": "mmt-2",
+      "topic": "Manual Muscle Testing",
+      "subtopic": "Test Procedure",
+      "difficulty": "Medium",
+      "question": "In manual muscle testing, the 'break test' is best described as:",
+      "options": {
+        "A": "Applying resistance throughout an actively moving joint to see when motion ceases",
+        "B": "Bringing the part to the end of its available range and asking the patient to hold that position while the therapist tries to force ('break') it out of position",
+        "C": "Passively moving a joint until tissue resistance is felt",
+        "D": "Timing how long a muscle can sustain a maximal isometric hold"
+      },
+      "correctAnswer": "B",
+      "explanation": "The break test — the most commonly used MMT procedure — has the patient hold the end-range test position while the therapist applies gradually increasing resistance, attempting to 'break' the hold. The alternative 'active resistance test' (resisting throughout the motion) requires more skill and is not generally recommended because results are often equivocal.",
+      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+      "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+      "sourcePage": "2"
+    },
+    {
+      "id": "mmt-3",
+      "topic": "Manual Muscle Testing",
+      "subtopic": "Test Procedure",
+      "difficulty": "Medium",
+      "question": "Two-joint muscles such as the hamstrings and gastrocnemius are typically tested in mid-range rather than at full end-range during manual muscle testing. Why?",
+      "options": {
+        "A": "To avoid provoking a stretch reflex",
+        "B": "Mid-range gives these muscles a more mechanically favorable length-tension relationship for the test",
+        "C": "Two-joint muscles cannot generate any force at end range",
+        "D": "It standardizes the time taken for every muscle test"
+      },
+      "correctAnswer": "B",
+      "explanation": "One-joint muscles are tested at end range for consistency, but two-joint muscles are tested in mid-range, where their length-tension relationship is more favorable — testing them at a mechanical disadvantage would make it hard to distinguish a true Grade 5 from a Grade 4.",
+      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+      "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+      "sourcePage": "2"
+    },
+    {
+      "id": "mmt-4",
+      "topic": "Manual Muscle Testing",
+      "subtopic": "Exceptions to Standard Technique",
+      "difficulty": "Hard",
+      "question": "When testing hip abductor strength in a patient with an unstable knee, resistance is applied at the distal femur (just above the knee) instead of at the ankle. Using this shorter lever, what is the highest grade that can be assigned, even if the patient tolerates maximal resistance?",
+      "options": { "A": "Grade 5", "B": "Grade 4", "C": "Grade 3", "D": "Grade 2" },
+      "correctAnswer": "B",
+      "explanation": "A shorter lever (resistance near the knee rather than at the ankle) makes the test mechanically easier, so a patient who takes maximal resistance in this position can still only be graded a 4 — the longer lever at the ankle is needed to truly demonstrate Grade 5 strength, since it better reflects the functional demand of gait.",
+      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+      "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+      "sourcePage": "3"
+    },
+    {
+      "id": "mmt-5",
+      "topic": "Manual Muscle Testing",
+      "subtopic": "Evidence Base for Grading",
+      "difficulty": "Hard",
+      "question": "Sharrard's postmortem motor neuron counts in poliomyelitis patients, cited in Daniels and Worthingham, found that by the time a muscle's MMT grade had fallen to 4 (Good), approximately what proportion of its motor neurons were already lost?",
+      "options": { "A": "Less than 10%", "B": "About 25%", "C": "More than 50%", "D": "Nearly 100%" },
+      "correctAnswer": "C",
+      "explanation": "Sharrard's data showed that more than half of a muscle's motor neurons were already gone by the time its MMT grade dropped to 4, which is why the text emphasizes that a 'Good' muscle already represents real, clinically significant weakness.",
+      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+      "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+      "sourcePage": "3"
+    },
+    {
+      "id": "mmt-6",
+      "topic": "Manual Muscle Testing",
+      "subtopic": "Exceptions to Standard Technique",
+      "difficulty": "Medium",
+      "question": "For the vertebroscapular muscles (e.g., the rhomboids), resistance is preferably applied on the arm rather than directly on the scapula, their true point of insertion. Why?",
+      "options": {
+        "A": "It is simply easier for the therapist to grip the arm",
+        "B": "The longer lever at the arm better reflects the functional demand of controlling the weight of the whole upper limb",
+        "C": "The scapula moves too unpredictably to resist against",
+        "D": "Resistance at the scapula risks skin breakdown"
+      },
+      "correctAnswer": "B",
+      "explanation": "Applying resistance on the arm uses a longer lever that more closely reflects the functional load these muscles must control (the weight of the arm), rather than testing at their literal anatomical insertion.",
+      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+      "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+      "sourcePage": "3"
+    },
+    {
+      "id": "mmt-7",
+      "topic": "Manual Muscle Testing",
+      "subtopic": "Functional Correlation",
+      "difficulty": "Medium",
+      "question": "A patient's gluteus medius is graded 4 (Good) on manual muscle testing. Which functional finding is consistent with this grade, per Daniels and Worthingham's discussion of why 'Good' is not always good enough?",
+      "options": {
+        "A": "Completely normal, symmetric gait with no compensation",
+        "B": "A positive Trendelenburg sign during single-leg stance",
+        "C": "Complete inability to abduct the hip against gravity",
+        "D": "No palpable or visible muscle contraction at all"
+      },
+      "correctAnswer": "B",
+      "explanation": "Even a 'Good' (Grade 4) gluteus medius can be functionally inadequate — a positive Trendelenburg sign (contralateral pelvic drop in single-leg stance) can still appear, illustrating the gap between a manual muscle grade and real functional performance.",
+      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+      "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+      "sourcePage": "5"
+    },
+    {
+      "id": "mmt-8",
+      "topic": "Manual Muscle Testing",
+      "subtopic": "Limitations of MMT",
+      "difficulty": "Hard",
+      "question": "The 'ceiling effect' of manual muscle testing refers to which limitation of the technique?",
+      "options": {
+        "A": "It cannot detect any degree of weakness whatsoever",
+        "B": "A wide range of actual muscle force can all be labeled Grade 5 (Normal), masking real strength differences among people graded 'normal'",
+        "C": "It systematically overestimates weakness in older adults",
+        "D": "It is not valid for testing lower-extremity muscles"
+      },
+      "correctAnswer": "B",
+      "explanation": "Studies comparing MMT to hand-held dynamometry found knee extension forces ranging roughly from 85 to over 800 Newtons all classified as Grade 5 (Normal) by break testing. This 'ceiling effect' means MMT loses the ability to distinguish real strength differences once a muscle is already strong, so it is not recommended as a measure of progress above Grade 3.",
+      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+      "sourceChapter": "Chapter 2: Relevance and Limitations of Manual Muscle Testing",
+      "sourcePage": "17"
+    }
+  ]
+}

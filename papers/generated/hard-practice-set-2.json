@@ -1,0 +1,395 @@
+{
+  "paperId": "hard-practice-set-2",
+  "paperName": "Hard Practice Set 2",
+  "subject": "Mixed",
+  "description": "Hard-difficulty practice set (20 questions) covering: Anatomy, Biochemistry, Fundamentals of Electro Therapy, General Surgery & Orthopedics, Kinesio Therapeutics, Medicine, OBGY, Pathology & Microbiology, Pharmacology, Physiotherapy in Community Health, Physiotherapy in General Medical & Surgical Condition, Psychiatry, Psychology.",
+  "durationMinutes": 90,
+  "scoring": {
+    "correct": 1,
+    "incorrect": 0,
+    "unanswered": 0,
+    "negativeMarkingEnabled": false
+  },
+  "questions": [
+    {
+      "id": 1,
+      "topic": "Resistance Exercise",
+      "subtopic": "Duration for Muscle Change",
+      "difficulty": "Hard",
+      "question": "Early strength gains observed in the first 2-3 weeks of a resistance training program are primarily attributed to:",
+      "options": {
+        "A": "Actual muscle fiber hypertrophy",
+        "B": "Neural adaptation, since significant hypertrophy/vascularization changes typically require at least 6-12 weeks",
+        "C": "An increase in the total number of muscle fibers (hyperplasia)",
+        "D": "A change in bone density"
+      },
+      "correctAnswer": "B",
+      "explanation": "Strength gains in the first 2-3 weeks of resistance training are mainly the result of neural adaptation (improved motor unit recruitment and coordination), not muscle tissue change. Significant hypertrophy or increased vascularization typically requires at least 6-12 weeks of consistent training.",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 6: Resistance Exercise — Duration",
+      "sourcePage": null,
+      "subject": "Kinesio Therapeutics"
+    },
+    {
+      "id": 2,
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Cathode vs Anode",
+      "difficulty": "Hard",
+      "question": "For a RISING (increasing) current applied over a superficial nerve, which electrode is more effective at initiating a nerve impulse, and why is the active electrode typically connected to it?",
+      "options": {
+        "A": "The anode, because it requires less current overall",
+        "B": "The cathode, because it produces contraction of innervated muscle with less current than is required at the anode",
+        "C": "Neither electrode has any different effect",
+        "D": "The anode always requires less current than the cathode"
+      },
+      "correctAnswer": "B",
+      "explanation": "For a rising current, the cathode is more effective at initiating a nerve impulse than the anode. This is why the active electrode is conventionally connected to the cathode — it produces contraction of innervated muscle using less current than would be needed if the anode were used as the active electrode.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Mechanism of Nerve Stimulation",
+      "sourcePage": "45",
+      "subject": "Fundamentals of Electro Therapy"
+    },
+    {
+      "id": 3,
+      "topic": "Biology of Behavior",
+      "subtopic": "Prefrontal Cortex",
+      "difficulty": "Hard",
+      "question": "A hallmark intellectual deficit seen after prefrontal-lobe damage, distinct from a general drop in IQ (which is often unaffected), is:",
+      "options": {
+        "A": "Complete loss of the ability to speak",
+        "B": "Difficulty planning and sequencing actions, plus perseveration (continuing a behaviour even when the situation demands a new response)",
+        "C": "Total inability to recognize faces",
+        "D": "Immediate loss of all long-term memories formed before the injury"
+      },
+      "correctAnswer": "B",
+      "explanation": "While standard IQ tests are often little affected by prefrontal damage, patients show subtle but characteristic deficits: difficulty planning a sequence of actions, and perseveration — a tendency to keep behaving the same way even when circumstances call for a different response.",
+      "sourceBook": "Morgan & King, Introduction to Psychology",
+      "sourceChapter": "Biology of Behavior — Frontal-Lobe Association Cortex",
+      "sourcePage": null,
+      "subject": "Psychology"
+    },
+    {
+      "id": 4,
+      "topic": "Normal Puerperium",
+      "subtopic": "Blood Changes",
+      "difficulty": "Hard",
+      "question": "In the first week postpartum, there is a secondary increase in fibrinogen, factor VIII, and platelets. What clinical risk does this hypercoagulable state primarily raise?",
+      "options": {
+        "A": "Risk of thrombosis",
+        "B": "Risk of spontaneous bleeding",
+        "C": "Risk of anaemia only",
+        "D": "No clinical significance"
+      },
+      "correctAnswer": "A",
+      "explanation": "The secondary rise in fibrinogen, factor VIII, and platelet count (with increased platelet adhesiveness) during the first postpartum week increases the risk of thrombosis — one reason early ambulation and postpartum exercise are actively encouraged, since enhanced fibrinolytic activity in the first few days acts as a partial protective counter-mechanism.",
+      "sourceBook": "Dutta's Textbook of Obstetrics",
+      "sourceChapter": "Normal Puerperium — Blood Values",
+      "sourcePage": null,
+      "subject": "OBGY"
+    },
+    {
+      "id": 5,
+      "topic": "Receptor Pharmacology",
+      "subtopic": "Two-State Receptor Model",
+      "difficulty": "Hard",
+      "question": "In the two-state receptor model (Ra = active, Ri = inactive conformation), an inverse agonist is one that:",
+      "options": {
+        "A": "Binds Ra and Ri with exactly equal affinity, producing no net change",
+        "B": "Has high affinity for the Ri (inactive) state, shifting equilibrium away from Ra and producing an effect opposite to the agonist",
+        "C": "Cannot bind the receptor at all in either state",
+        "D": "Only functions on receptors with no baseline (constitutive) activity"
+      },
+      "correctAnswer": "B",
+      "explanation": "An inverse agonist preferentially binds and stabilizes the inactive (Ri) receptor conformation. This only produces an observable opposite effect on receptors that show constitutive activation (some baseline Ra signal even without agonist) — by pulling the equilibrium further toward Ri, it reduces signalling below the unstimulated baseline.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
+      "sourcePage": null,
+      "subject": "Pharmacology"
+    },
+    {
+      "id": 6,
+      "topic": "Clinical Decision Making",
+      "subtopic": "Cognitive Biases",
+      "difficulty": "Hard",
+      "question": "A clinician decides to keep a patient in hospital 'just in case', despite evidence-based guidelines and a completed systematic assessment supporting discharge, because they recently encountered a similar rare case. This is an example of which cognitive bias?",
+      "options": {
+        "A": "Overconfidence bias",
+        "B": "Availability bias",
+        "C": "Commission bias only, unrelated to availability",
+        "D": "The framing effect exclusively"
+      },
+      "correctAnswer": "B",
+      "explanation": "Availability bias occurs when a recent or memorable case distorts a clinician's estimate of probability, making a rare condition seem more likely simply because it is 'at the forefront of the mind' — exactly as described, overriding a systematic (Type 2) assessment with an irrational intuitive override.",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Clinical Decision Making — Common Cognitive Biases",
+      "sourcePage": null,
+      "subject": "Medicine"
+    },
+    {
+      "id": 7,
+      "topic": "Normal Puerperium",
+      "subtopic": "Involution Terminology",
+      "difficulty": "Hard",
+      "question": "'Subinvolution' and 'superinvolution' of the uterus refer respectively to:",
+      "options": {
+        "A": "Delayed/incomplete involution, and a smaller-than-normal uterus sometimes seen with continued lactation",
+        "B": "Two names for exactly the same clinical finding",
+        "C": "Involution occurring only in the cervix versus only in the vagina",
+        "D": "Terms with no real clinical distinction from normal involution"
+      },
+      "correctAnswer": "A",
+      "explanation": "Subinvolution refers to involution proceeding more slowly or incompletely than expected. Superinvolution, by contrast, describes a uterus that becomes smaller than normal, sometimes seen in lactating women — a change that reverses if lactation is withheld.",
+      "sourceBook": "Dutta's Textbook of Obstetrics",
+      "sourceChapter": "Normal Puerperium — Clinical Assessment of Involution",
+      "sourcePage": null,
+      "subject": "OBGY"
+    },
+    {
+      "id": 8,
+      "topic": "Cardiopulmonary Assessment",
+      "subtopic": "Cough — Complications",
+      "difficulty": "Hard",
+      "question": "Which of the following is a recognised physical complication of a severe, chronic cough?",
+      "options": {
+        "A": "Cough fractures (fractured ribs) and hernias",
+        "B": "Permanent hearing loss",
+        "C": "Cataracts",
+        "D": "Osteoarthritis of the knee"
+      },
+      "correctAnswer": "A",
+      "explanation": "Chronic, forceful coughing can cause 'cough fractures' of the ribs and hernias, due to the repeated high intra-thoracic and intra-abdominal pressures generated. Stress urinary incontinence is another common, often under-reported complication, especially in women.",
+      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+      "sourceChapter": "Assessment — Cough",
+      "sourcePage": null,
+      "subject": "Physiotherapy in General Medical & Surgical Condition"
+    },
+    {
+      "id": 9,
+      "topic": "Infectious and Parasitic Diseases",
+      "subtopic": "Malaria",
+      "difficulty": "Hard",
+      "question": "Plasmodium falciparum causes markedly more severe (malignant) malaria than the other three plasmodial species mainly because:",
+      "options": {
+        "A": "It has an exo-erythrocytic stage that the others lack",
+        "B": "It only infects the liver, never red blood cells",
+        "C": "It parasitises red cells of any age, can infect a single red cell multiple times, and makes parasitised red cells sticky, causing capillary obstruction in deep organs",
+        "D": "It is transmitted by a different mosquito genus entirely"
+      },
+      "correctAnswer": "C",
+      "explanation": "Unlike the other plasmodial species (which parasitise only juvenile red cells and lack these features), P. falciparum parasitises red cells of any age, can infect a single red cell with more than one parasite, and makes infected red cells sticky — causing capillary obstruction (e.g. in the brain, producing cerebral malaria) that accounts for its exceptional virulence. It also notably lacks an exo-erythrocytic stage, but that is not the source of its severity.",
+      "sourceBook": "Harsh Mohan, Textbook of Pathology",
+      "sourceChapter": "Infectious and Parasitic Diseases — Malaria",
+      "sourcePage": null,
+      "subject": "Pathology & Microbiology"
+    },
+    {
+      "id": 10,
+      "topic": "Resistance Exercise",
+      "subtopic": "Periodization",
+      "difficulty": "Hard",
+      "question": "In periodized training, the 'competition' phase is generally characterized by:",
+      "options": {
+        "A": "Lower loads and the highest number of repetitions and sets",
+        "B": "Higher loads (peaking just prior to competition), with fewer exercises per session and reduced volume compared to the preparation phase",
+        "C": "Complete rest with no exercise",
+        "D": "Only aerobic exercise, no resistance training"
+      },
+      "correctAnswer": "B",
+      "explanation": "In periodized training, the competition phase uses higher loads peaking just before competition, along with fewer exercises per session and decreased repetitions/sets compared to the earlier preparation phase, which uses lower loads and higher volume.",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 6: Resistance Exercise — Periodization and Variation of Training",
+      "sourcePage": null,
+      "subject": "Kinesio Therapeutics"
+    },
+    {
+      "id": 11,
+      "topic": "Clinical Decision Making",
+      "subtopic": "Diagnostic Test Interpretation",
+      "difficulty": "Hard",
+      "question": "The D-dimer test has high sensitivity but low specificity for pulmonary embolism. What does this mean in practice?",
+      "options": {
+        "A": "A positive D-dimer confirms pulmonary embolism definitively",
+        "B": "A negative D-dimer helps rule out pulmonary embolism, but a positive result does not confirm it — it only means the disease has not been excluded",
+        "C": "The D-dimer test is useless in clinical practice",
+        "D": "High sensitivity and low specificity mean the test is always accurate regardless of result"
+      },
+      "correctAnswer": "B",
+      "explanation": "A highly sensitive test detects most true disease (few false negatives), so a negative result is reassuring and helps exclude the disease. But low specificity means many people without the disease will still test positive (false positives) — so a raised D-dimer does not confirm pulmonary embolism, it simply means it cannot yet be excluded, prompting further imaging.",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Clinical Decision Making — Interpreting Test Results",
+      "sourcePage": null,
+      "subject": "Medicine"
+    },
+    {
+      "id": 12,
+      "topic": "Proteins and Amino Acids",
+      "subtopic": "Sequencing Reagents",
+      "difficulty": "Hard",
+      "question": "Edman's reagent (phenylisothiocyanate) is used in protein sequencing chiefly because it allows:",
+      "options": {
+        "A": "Complete hydrolysis of the protein into free amino acids only",
+        "B": "Selective labelling and removal of the N-terminal amino acid as a PTH-derivative, leaving the rest of the polypeptide intact for repeated cycles",
+        "C": "Cleavage of the protein only at cysteine residues",
+        "D": "Permanent, irreversible denaturation of all peptide bonds"
+      },
+      "correctAnswer": "B",
+      "explanation": "Unlike Sanger's reagent (which labels and then requires full hydrolysis, destroying the polypeptide), Edman's reagent selectively removes and identifies the N-terminal amino acid as a phenylthiohydantoin (PTH) derivative while leaving the remaining polypeptide intact — allowing the process to be repeated cycle after cycle to read the sequence progressively.",
+      "sourceBook": "Satyanarayana, Biochemistry",
+      "sourceChapter": "Proteins and Amino Acids — Determination of Primary Structure",
+      "sourcePage": null,
+      "subject": "Biochemistry"
+    },
+    {
+      "id": 13,
+      "topic": "Anxiety Disorders",
+      "subtopic": "Biological Theory",
+      "difficulty": "Hard",
+      "question": "Which neurotransmitter system is most strongly implicated in the GABA-benzodiazepine receptor theory of anxiety, given that drugs facilitating its transmission relieve anxiety while antagonists provoke it?",
+      "options": {
+        "A": "Dopamine",
+        "B": "GABA (gamma-amino butyric acid)",
+        "C": "Acetylcholine",
+        "D": "Histamine"
+      },
+      "correctAnswer": "B",
+      "explanation": "GABA is the most prevalent inhibitory neurotransmitter in the CNS. Benzodiazepines facilitate GABA transmission and relieve anxiety, while benzodiazepine antagonists (e.g. flumazenil) and inverse agonists (e.g. beta-carbolines) provoke anxiety — strong evidence linking altered GABA function to the biological basis of anxiety disorders.",
+      "sourceBook": "Ahuja, A Short Textbook of Psychiatry",
+      "sourceChapter": "Neurotic, Stress-related and Somatoform Disorders — Anxiety Disorder, Aetiology",
+      "sourcePage": null,
+      "subject": "Psychiatry"
+    },
+    {
+      "id": 14,
+      "topic": "Biology of Behavior",
+      "subtopic": "Parietal Lobe Damage",
+      "difficulty": "Hard",
+      "question": "A patient with damage to the RIGHT parietal association cortex draws a clock face but only completes the right half, leaving the left side blank, and is unaware anything is missing. This phenomenon is known as:",
+      "options": {
+        "A": "Wernicke's aphasia",
+        "B": "Contralateral neglect",
+        "C": "Prosopagnosia",
+        "D": "Broca's aphasia"
+      },
+      "correctAnswer": "B",
+      "explanation": "Contralateral neglect is a classic sign of right parietal association cortex damage: patients ignore the left side of space and their own body (the side opposite/contralateral to the damaged hemisphere), often while denying anything is wrong.",
+      "sourceBook": "Morgan & King, Introduction to Psychology",
+      "sourceChapter": "Biology of Behavior — Parietal-Lobe Association Cortex",
+      "sourcePage": null,
+      "subject": "Psychology"
+    },
+    {
+      "id": 15,
+      "topic": "Proteins and Amino Acids",
+      "subtopic": "Proteolytic Enzymes",
+      "difficulty": "Hard",
+      "question": "Pronase is distinct from enzymes like trypsin or chymotrypsin in protein chemistry because it:",
+      "options": {
+        "A": "Is a single enzyme with very narrow specificity for one bond",
+        "B": "Is a mixture of non-specific proteolytic enzymes that causes complete hydrolysis of a protein down to free amino acids",
+        "C": "Only cleaves carbohydrate-protein bonds in glycoproteins",
+        "D": "Cannot hydrolyse peptide bonds at all"
+      },
+      "correctAnswer": "B",
+      "explanation": "Pronase is a mixture of non-specific proteolytic enzymes that, unlike the more selective trypsin/chymotrypsin/pepsin/elastase, causes complete hydrolysis of a protein all the way down to its free amino acids — useful for determining total amino acid composition rather than sequence.",
+      "sourceBook": "Satyanarayana, Biochemistry",
+      "sourceChapter": "Proteins and Amino Acids — Determination of Primary Structure",
+      "sourcePage": null,
+      "subject": "Biochemistry"
+    },
+    {
+      "id": 16,
+      "topic": "Paediatric Surgery",
+      "subtopic": "Testicular Descent — Physiology",
+      "difficulty": "Hard",
+      "question": "The final descent of the testis into the scrotum during fetal development is mediated primarily by:",
+      "options": {
+        "A": "Oestrogen from the placenta",
+        "B": "Testosterone from the fetal testis",
+        "C": "Growth hormone from the fetal pituitary",
+        "D": "Prolactin from the maternal circulation"
+      },
+      "correctAnswer": "B",
+      "explanation": "While gonadal induction (forming a testis in the first place) is driven by genes on the Y chromosome and initial abdominal migration is guided by the gubernaculum, the final descent of the testis into the scrotum is mediated by testosterone produced by the fetal testis itself.",
+      "sourceBook": "Bailey & Love's Short Practice of Surgery",
+      "sourceChapter": "Principles of Paediatric Surgery — Genital Development",
+      "sourcePage": null,
+      "subject": "General Surgery & Orthopedics"
+    },
+    {
+      "id": 17,
+      "topic": "Upper Limb",
+      "subtopic": "Forearm Bones — Clinical",
+      "difficulty": "Hard",
+      "question": "After a fracture of both the radius and ulna shafts, why must cross-union (bony union between the two bones) be specifically prevented during healing?",
+      "options": {
+        "A": "Cross-union has no functional consequence",
+        "B": "Cross-union would permanently fuse the radius and ulna together, abolishing pronation and supination of the hand",
+        "C": "Cross-union only affects elbow flexion, not the hand",
+        "D": "It increases the risk of scaphoid fracture"
+      },
+      "correctAnswer": "B",
+      "explanation": "Pronation and supination depend on the radius being able to rotate around a stable ulna. If the two bones heal fused together (cross-union), that rotation becomes impossible, so surgeons take specific care during fixation of combined radius-ulna shaft fractures to prevent it.",
+      "sourceBook": "BD Chaurasia's Human Anatomy — Upper Limb",
+      "sourceChapter": "Bones of the Upper Limb — Clinical Anatomy",
+      "sourcePage": null,
+      "subject": "Anatomy"
+    },
+    {
+      "id": 18,
+      "topic": "Resistance Exercise",
+      "subtopic": "Force-Velocity Relationship",
+      "difficulty": "Hard",
+      "question": "During a maximum-effort CONCENTRIC muscle contraction, what happens to the force a muscle can generate as the velocity of shortening increases?",
+      "options": {
+        "A": "Force increases continuously with velocity",
+        "B": "Force decreases as the velocity of muscle shortening increases",
+        "C": "Force remains completely constant regardless of velocity",
+        "D": "Force becomes unmeasurable at any velocity above zero"
+      },
+      "correctAnswer": "B",
+      "explanation": "For a maximal concentric contraction, force output decreases as the velocity of muscle shortening increases — the muscle has less time to develop peak tension at higher shortening velocities. This is opposite to the pattern often seen with eccentric contractions, where force initially rises with velocity before leveling off.",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 6: Resistance Exercise — Force-Velocity Relationship",
+      "sourcePage": null,
+      "subject": "Kinesio Therapeutics"
+    },
+    {
+      "id": 19,
+      "topic": "Cardiopulmonary Assessment",
+      "subtopic": "Peripheral Oedema",
+      "difficulty": "Hard",
+      "question": "Peripheral oedema in a respiratory patient most commonly suggests which underlying process?",
+      "options": {
+        "A": "Right heart failure, potentially due to cor pulmonale (right ventricular failure secondary to hypoxic pulmonary vasoconstriction)",
+        "B": "Left ventricular failure exclusively",
+        "C": "Normal ageing with no pathological significance",
+        "D": "Acute asthma exacerbation"
+      },
+      "correctAnswer": "A",
+      "explanation": "Peripheral oedema in a respiratory patient suggests right heart failure, which may result from cor pulmonale — right ventricular failure secondary to hypoxic pulmonary vasoconstriction from underlying chronic lung disease. It can also occur from salt/water retention with high-dose corticosteroid use.",
+      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+      "sourceChapter": "Assessment — Other Symptoms",
+      "sourcePage": null,
+      "subject": "Physiotherapy in General Medical & Surgical Condition"
+    },
+    {
+      "id": 20,
+      "topic": "Epidemiology",
+      "subtopic": "Variate and Circumstance",
+      "difficulty": "Hard",
+      "question": "In epidemiological terminology, a 'variate' that can only be present or absent (e.g. lung cancer, a broken leg) is described as:",
+      "options": {
+        "A": "Continuously distributed",
+        "B": "Discrete",
+        "C": "A circumstance, not a variate",
+        "D": "Non-measurable and therefore not usable in epidemiology"
+      },
+      "correctAnswer": "B",
+      "explanation": "A variate (any piece of information about a patient or their disease) can be discrete — present or absent, like lung cancer or a broken leg — or continuously distributed, like blood pressure, serum cholesterol, or height. A 'circumstance' is a distinct concept: any environmental factor suspected of causing a disease, such as air pollution.",
+      "sourceBook": "Park's Textbook of Preventive and Social Medicine",
+      "sourceChapter": "Principles of Epidemiology and Epidemiologic Methods — Basic Measurements in Epidemiology",
+      "sourcePage": "60",
+      "subject": "Physiotherapy in Community Health"
+    }
+  ]
+}
