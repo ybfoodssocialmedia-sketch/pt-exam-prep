@@ -1,0 +1,191 @@
+{
+  "subject": "Pharmacology",
+  "questions": [
+    {
+      "id": "pharm-1",
+      "topic": "Receptor Pharmacology",
+      "subtopic": "Agonists and Antagonists",
+      "difficulty": "Easy",
+      "question": "In pharmacology, a drug that activates a receptor to produce an effect similar to the physiological signal molecule is called a/an:",
+      "options": { "A": "Antagonist", "B": "Agonist", "C": "Partial agonist", "D": "Inverse agonist" },
+      "correctAnswer": "B",
+      "explanation": "An agonist activates a receptor to produce an effect similar to that of the natural (physiological) signal molecule. An antagonist, by contrast, prevents an agonist's action without producing an effect of its own.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm-2",
+      "topic": "Receptor Pharmacology",
+      "subtopic": "Agonists and Antagonists",
+      "difficulty": "Easy",
+      "question": "A 'partial agonist' is best described as a drug that:",
+      "options": {
+        "A": "Blocks a receptor completely with no effect of its own",
+        "B": "Activates a receptor to produce a submaximal effect, and can also antagonize a full agonist",
+        "C": "Produces an effect opposite to that of the natural agonist",
+        "D": "Binds only to enzymes, never to receptors"
+      },
+      "correctAnswer": "B",
+      "explanation": "A partial agonist has affinity for the receptor and submaximal intrinsic activity (between 0 and 1) — it produces a weaker effect than a full agonist, and because it occupies the receptor, it can also blunt (antagonize) the effect of a full agonist present at the same time.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm-3",
+      "topic": "Receptor Pharmacology",
+      "subtopic": "Ligand-Gated Ion Channels",
+      "difficulty": "Easy",
+      "question": "Which class of receptors produces the fastest onset of response, typically within milliseconds?",
+      "options": { "A": "G-protein coupled receptors", "B": "Ligand-gated ion channel receptors", "C": "Transmembrane enzyme-linked receptors", "D": "Nuclear (gene-regulating) receptors" },
+      "correctAnswer": "B",
+      "explanation": "Ligand-gated ion channel receptors (e.g. nicotinic cholinergic, GABA-A) have the ion channel built directly into the receptor molecule, so agonist binding opens the channel immediately with no intermediate second messenger — giving the fastest response of all receptor types, in milliseconds.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm-4",
+      "topic": "Receptor Pharmacology",
+      "subtopic": "G-Protein Coupled Receptors",
+      "difficulty": "Medium",
+      "question": "The structural hallmark of a G-protein coupled receptor (GPCR) is:",
+      "options": {
+        "A": "A single transmembrane helix linked to an intracellular tyrosine kinase domain",
+        "B": "Seven membrane-spanning helical segments with the agonist binding site on the extracellular face",
+        "C": "A pentameric ring of subunits directly enclosing an ion channel",
+        "D": "A soluble intracellular protein that binds directly to DNA"
+      },
+      "correctAnswer": "B",
+      "explanation": "GPCRs share a common structural motif: 7 alpha-helical membrane-spanning segments forming 3 extracellular and 3 intracellular loops, with the agonist binding site located between the helices on the extracellular face and the G-protein binding site on the cytosolic side.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm-5",
+      "topic": "Receptor Pharmacology",
+      "subtopic": "G-Protein Signalling",
+      "difficulty": "Medium",
+      "question": "Activation of a Gi-coupled receptor typically has which effect on adenylyl cyclase and cAMP?",
+      "options": { "A": "Activates adenylyl cyclase, increasing cAMP", "B": "Inhibits adenylyl cyclase, decreasing cAMP", "C": "Has no effect on adenylyl cyclase, acts only on phospholipase C", "D": "Directly opens ligand-gated Na+ channels" },
+      "correctAnswer": "B",
+      "explanation": "Gi (inhibitory G-protein) inhibits adenylyl cyclase, lowering intracellular cAMP — the opposite of Gs, which activates adenylyl cyclase and raises cAMP. This is why, for example, muscarinic M2 receptor stimulation (Gi-coupled) in the heart opposes the effect of beta-adrenergic (Gs-coupled) stimulation.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm-6",
+      "topic": "Receptor Pharmacology",
+      "subtopic": "Two-State Receptor Model",
+      "difficulty": "Hard",
+      "question": "In the two-state receptor model (Ra = active, Ri = inactive conformation), an inverse agonist is one that:",
+      "options": {
+        "A": "Binds Ra and Ri with exactly equal affinity, producing no net change",
+        "B": "Has high affinity for the Ri (inactive) state, shifting equilibrium away from Ra and producing an effect opposite to the agonist",
+        "C": "Cannot bind the receptor at all in either state",
+        "D": "Only functions on receptors with no baseline (constitutive) activity"
+      },
+      "correctAnswer": "B",
+      "explanation": "An inverse agonist preferentially binds and stabilizes the inactive (Ri) receptor conformation. This only produces an observable opposite effect on receptors that show constitutive activation (some baseline Ra signal even without agonist) — by pulling the equilibrium further toward Ri, it reduces signalling below the unstimulated baseline.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm-7",
+      "topic": "Receptor Pharmacology",
+      "subtopic": "Enzyme Inhibition",
+      "difficulty": "Medium",
+      "question": "Allopurinol reduces uric acid production by acting as a competitive inhibitor of which enzyme?",
+      "options": { "A": "Angiotensin converting enzyme (ACE)", "B": "Xanthine oxidase", "C": "Cholinesterase", "D": "Dopa decarboxylase" },
+      "correctAnswer": "B",
+      "explanation": "Allopurinol competitively inhibits xanthine oxidase, the enzyme that converts hypoxanthine to uric acid, which is why it is used to lower uric acid levels (e.g. in gout).",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm-8",
+      "topic": "Receptor Pharmacology",
+      "subtopic": "Enzyme Inhibition",
+      "difficulty": "Hard",
+      "question": "A drug that reacts with an enzyme's catalytic site so strongly (via a covalent bond or very high affinity) that the normal substrate cannot displace it produces which kinetic pattern?",
+      "options": {
+        "A": "kM unchanged, Vmax unchanged (no real inhibition)",
+        "B": "kM decreased, Vmax increased",
+        "C": "kM increased and Vmax reduced — a non-equilibrium type of competitive inhibition",
+        "D": "Only Vmax changes while kM decreases proportionally"
+      },
+      "correctAnswer": "C",
+      "explanation": "Classical competitive inhibition (equilibrium type) raises kM but leaves Vmax unchanged, since enough substrate can still out-compete the inhibitor. But when the inhibitor binds essentially irreversibly at the same catalytic site (e.g. organophosphates on cholinesterase, or methotrexate's very high affinity for dihydrofolate reductase), substrate can no longer displace it — this non-equilibrium type raises kM AND reduces Vmax.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm-9",
+      "topic": "Receptor Pharmacology",
+      "subtopic": "Receptor Reserve",
+      "difficulty": "Hard",
+      "question": "The existence of 'spare receptors' (receptor reserve) explains which observed phenomenon?",
+      "options": {
+        "A": "Some full agonists can produce a maximal response while occupying less than 1% of available receptors",
+        "B": "All antagonists eventually become agonists at high enough doses",
+        "C": "Receptor numbers never change regardless of chronic drug exposure",
+        "D": "Enzymes and receptors are functionally identical structures"
+      },
+      "correctAnswer": "A",
+      "explanation": "When a tissue has a large receptor reserve, a full agonist can produce its maximal biological response by occupying only a small fraction of the total available receptors — occupying more receptors beyond that doesn't increase the effect further, since the response has already plateaued.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm-10",
+      "topic": "Receptor Pharmacology",
+      "subtopic": "Transmembrane Enzyme-Linked Receptors",
+      "difficulty": "Medium",
+      "question": "Insulin and epidermal growth factor (EGF) act through which type of receptor?",
+      "options": { "A": "G-protein coupled receptors", "B": "Ligand-gated ion channels", "C": "Receptor tyrosine kinases (transmembrane enzyme-linked receptors)", "D": "Cytoplasmic nuclear receptors" },
+      "correctAnswer": "C",
+      "explanation": "Insulin, EGF, and many other growth factors act through receptor tyrosine kinases: hormone binding causes receptor dimerization, activating an intracellular tyrosine kinase domain that autophosphorylates and triggers downstream signalling — a process that plays out over minutes to hours, much slower than ion-channel receptors.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm-11",
+      "topic": "Receptor Pharmacology",
+      "subtopic": "Nuclear Receptors",
+      "difficulty": "Hard",
+      "question": "Glucocorticoid receptors are unique among the major receptor families in that they:",
+      "options": {
+        "A": "Are located on the cell surface and open ion channels directly",
+        "B": "Are intracellular soluble proteins that, once liganded, dimerize and bind DNA to regulate gene transcription",
+        "C": "Signal exclusively through cyclic AMP",
+        "D": "Have no known endogenous ligand (are 'orphan receptors')"
+      },
+      "correctAnswer": "B",
+      "explanation": "Glucocorticoid receptors sit in the cytoplasm bound to HSP-90 and other inhibitory proteins. When the lipid-soluble steroid penetrates the cell and binds the receptor, HSP-90 is released, the receptor dimerizes, and the complex moves to the nucleus to bind glucocorticoid-responsive elements (GREs) on DNA, altering gene transcription — a fundamentally different, much slower mechanism than membrane receptors.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm-12",
+      "topic": "Receptor Pharmacology",
+      "subtopic": "Silent Receptors",
+      "difficulty": "Easy",
+      "question": "A binding site that attaches a drug but produces no pharmacological response at all (e.g. many plasma protein binding sites) is best termed a:",
+      "options": { "A": "Full agonist site", "B": "Silent receptor (or drug acceptor / site of loss)", "C": "Orphan receptor", "D": "Allosteric activator" },
+      "correctAnswer": "B",
+      "explanation": "Sites that bind a drug without producing any response are called silent receptors, or more accurately drug acceptors / sites of loss — the term 'receptor' is best reserved for binding sites capable of generating an actual biological response.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
+      "sourcePage": null
+    }
+  ]
+}
