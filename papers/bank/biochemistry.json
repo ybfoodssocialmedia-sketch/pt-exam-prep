@@ -1,0 +1,168 @@
+{
+  "subject": "Biochemistry",
+  "questions": [
+    {
+      "id": "biochem-1",
+      "topic": "Proteins and Amino Acids",
+      "subtopic": "Protein Structure",
+      "difficulty": "Easy",
+      "question": "The unique sequence of amino acids in a protein, determined by the genes in DNA, is called its:",
+      "options": { "A": "Secondary structure", "B": "Primary structure", "C": "Tertiary structure", "D": "Quaternary structure" },
+      "correctAnswer": "B",
+      "explanation": "The primary structure of a protein is its specific linear sequence of amino acids, determined by the genetic code. It is largely responsible for the protein's function, and a large number of genetic diseases arise from abnormalities in this amino acid sequence.",
+      "sourceBook": "Satyanarayana, Biochemistry",
+      "sourceChapter": "Proteins and Amino Acids — Primary Structure",
+      "sourcePage": null
+    },
+    {
+      "id": "biochem-2",
+      "topic": "Proteins and Amino Acids",
+      "subtopic": "Peptide Bond",
+      "difficulty": "Medium",
+      "question": "Which of the following is a correct characteristic of the peptide bond?",
+      "options": {
+        "A": "It is highly flexible and freely rotates",
+        "B": "It is rigid and planar, with partial double-bond character, generally existing in the trans configuration",
+        "C": "It cannot participate in hydrogen bonding",
+        "D": "It only forms between two acidic amino acids"
+      },
+      "correctAnswer": "B",
+      "explanation": "The peptide bond (C=O to N-H) has partial double-bond character, which makes it rigid and planar rather than freely rotating, and it generally exists in the trans configuration. Both the C=O and N-H groups are polar and participate in hydrogen bond formation, which is important for secondary structure.",
+      "sourceBook": "Satyanarayana, Biochemistry",
+      "sourceChapter": "Proteins and Amino Acids — Peptide Bond",
+      "sourcePage": null
+    },
+    {
+      "id": "biochem-3",
+      "topic": "Proteins and Amino Acids",
+      "subtopic": "Peptide Nomenclature",
+      "difficulty": "Easy",
+      "question": "By convention, when writing a peptide chain, which end is placed on the left?",
+      "options": { "A": "The C-terminal (free carboxyl) end", "B": "The N-terminal (free amino) end", "C": "Whichever end is larger", "D": "There is no fixed convention" },
+      "correctAnswer": "B",
+      "explanation": "Peptide chains are conventionally written with the N-terminal residue (free amino end) on the left and the C-terminal residue (free carboxyl end) on the right; the sequence is read from N-terminal to C-terminal, matching the direction protein biosynthesis proceeds in.",
+      "sourceBook": "Satyanarayana, Biochemistry",
+      "sourceChapter": "Proteins and Amino Acids — Peptide Bond",
+      "sourcePage": null
+    },
+    {
+      "id": "biochem-4",
+      "topic": "Proteins and Amino Acids",
+      "subtopic": "Peptide Bond Counting",
+      "difficulty": "Easy",
+      "question": "A dipeptide, formed from two amino acids, contains how many peptide bonds?",
+      "options": { "A": "Zero", "B": "One", "C": "Two", "D": "Three" },
+      "correctAnswer": "B",
+      "explanation": "A dipeptide has two amino acids joined by exactly one peptide bond — a common point of confusion, since it's easy to assume 'two amino acids' implies 'two bonds.'",
+      "sourceBook": "Satyanarayana, Biochemistry",
+      "sourceChapter": "Proteins and Amino Acids — Peptide Bond",
+      "sourcePage": null
+    },
+    {
+      "id": "biochem-5",
+      "topic": "Proteins and Amino Acids",
+      "subtopic": "Sequencing Reagents",
+      "difficulty": "Hard",
+      "question": "Edman's reagent (phenylisothiocyanate) is used in protein sequencing chiefly because it allows:",
+      "options": {
+        "A": "Complete hydrolysis of the protein into free amino acids only",
+        "B": "Selective labelling and removal of the N-terminal amino acid as a PTH-derivative, leaving the rest of the polypeptide intact for repeated cycles",
+        "C": "Cleavage of the protein only at cysteine residues",
+        "D": "Permanent, irreversible denaturation of all peptide bonds"
+      },
+      "correctAnswer": "B",
+      "explanation": "Unlike Sanger's reagent (which labels and then requires full hydrolysis, destroying the polypeptide), Edman's reagent selectively removes and identifies the N-terminal amino acid as a phenylthiohydantoin (PTH) derivative while leaving the remaining polypeptide intact — allowing the process to be repeated cycle after cycle to read the sequence progressively.",
+      "sourceBook": "Satyanarayana, Biochemistry",
+      "sourceChapter": "Proteins and Amino Acids — Determination of Primary Structure",
+      "sourcePage": null
+    },
+    {
+      "id": "biochem-6",
+      "topic": "Proteins and Amino Acids",
+      "subtopic": "Sequencing Reagents",
+      "difficulty": "Medium",
+      "question": "What is the key limitation of Sanger's reagent (1-fluoro-2,4-dinitrobenzene) compared to Edman's reagent for determining a protein's amino acid sequence?",
+      "options": {
+        "A": "It only works on carbohydrates, not proteins",
+        "B": "After labelling the N-terminal residue, the protein must be fully hydrolysed to identify it — destroying the polypeptide and preventing repeated sequencing cycles",
+        "C": "It cannot label any amino acid at all",
+        "D": "It is more expensive but otherwise functionally identical to Edman's reagent"
+      },
+      "correctAnswer": "B",
+      "explanation": "Sanger's reagent labels the free N-terminal amino group, but identifying that labelled residue requires complete hydrolysis of the protein — destroying it in the process. This makes it useful only for identifying the N-terminal residue once, unlike Edman degradation which can be repeated.",
+      "sourceBook": "Satyanarayana, Biochemistry",
+      "sourceChapter": "Proteins and Amino Acids — Determination of Primary Structure",
+      "sourcePage": null
+    },
+    {
+      "id": "biochem-7",
+      "topic": "Proteins and Amino Acids",
+      "subtopic": "Proteolytic Enzymes",
+      "difficulty": "Medium",
+      "question": "Which enzyme is most commonly used to cleave polypeptides into smaller fragments during sequence determination, due to its well-characterised cleavage specificity?",
+      "options": { "A": "Pronase", "B": "Trypsin", "C": "Amylase", "D": "Lipase" },
+      "correctAnswer": "B",
+      "explanation": "Among the proteolytic enzymes with defined specificity for particular peptide bonds (trypsin, chymotrypsin, pepsin, elastase), trypsin is the most commonly used for generating predictable peptide fragments during sequence analysis.",
+      "sourceBook": "Satyanarayana, Biochemistry",
+      "sourceChapter": "Proteins and Amino Acids — Determination of Primary Structure",
+      "sourcePage": null
+    },
+    {
+      "id": "biochem-8",
+      "topic": "Proteins and Amino Acids",
+      "subtopic": "Proteolytic Enzymes",
+      "difficulty": "Hard",
+      "question": "Pronase is distinct from enzymes like trypsin or chymotrypsin in protein chemistry because it:",
+      "options": {
+        "A": "Is a single enzyme with very narrow specificity for one bond",
+        "B": "Is a mixture of non-specific proteolytic enzymes that causes complete hydrolysis of a protein down to free amino acids",
+        "C": "Only cleaves carbohydrate-protein bonds in glycoproteins",
+        "D": "Cannot hydrolyse peptide bonds at all"
+      },
+      "correctAnswer": "B",
+      "explanation": "Pronase is a mixture of non-specific proteolytic enzymes that, unlike the more selective trypsin/chymotrypsin/pepsin/elastase, causes complete hydrolysis of a protein all the way down to its free amino acids — useful for determining total amino acid composition rather than sequence.",
+      "sourceBook": "Satyanarayana, Biochemistry",
+      "sourceChapter": "Proteins and Amino Acids — Determination of Primary Structure",
+      "sourcePage": null
+    },
+    {
+      "id": "biochem-9",
+      "topic": "Proteins and Amino Acids",
+      "subtopic": "Determining Amino Acid Composition",
+      "difficulty": "Medium",
+      "question": "To determine the amino acid composition of a protein, it is first completely hydrolysed. Which method of hydrolysis tends to yield smaller peptides rather than fully free amino acids?",
+      "options": { "A": "Acid hydrolysis", "B": "Alkali hydrolysis", "C": "Enzymatic hydrolysis", "D": "All three yield identical results" },
+      "correctAnswer": "C",
+      "explanation": "While acid or alkali treatment can fully hydrolyse a protein down to free amino acids, treatment with enzymes typically results in smaller peptides rather than complete breakdown to individual amino acids, since most proteolytic enzymes have some bond specificity.",
+      "sourceBook": "Satyanarayana, Biochemistry",
+      "sourceChapter": "Proteins and Amino Acids — Determination of Primary Structure",
+      "sourcePage": null
+    },
+    {
+      "id": "biochem-10",
+      "topic": "Proteins and Amino Acids",
+      "subtopic": "Peptide Naming",
+      "difficulty": "Hard",
+      "question": "When naming a peptide, the amino acid suffixes (e.g. '-ine' in glycine) are changed to '-yl' for every residue EXCEPT which one?",
+      "options": { "A": "The N-terminal residue", "B": "The C-terminal residue", "C": "Any residue in the middle of the chain", "D": "Cysteine specifically, regardless of position" },
+      "correctAnswer": "B",
+      "explanation": "In peptide nomenclature, every amino acid's suffix is changed to '-yl' except the C-terminal residue, which keeps its normal name. For example, a tripeptide of glutamate-cysteine-glycine (glycine being C-terminal) is named glutamyl-cysteinyl-glycine.",
+      "sourceBook": "Satyanarayana, Biochemistry",
+      "sourceChapter": "Proteins and Amino Acids — Peptide Bond",
+      "sourcePage": null
+    },
+    {
+      "id": "biochem-11",
+      "topic": "Proteins and Amino Acids",
+      "subtopic": "Polypeptide Definition",
+      "difficulty": "Easy",
+      "question": "A peptide containing more than 10 amino acids is generally referred to as a:",
+      "options": { "A": "Dipeptide", "B": "Tripeptide", "C": "Polypeptide", "D": "Monopeptide" },
+      "correctAnswer": "C",
+      "explanation": "Peptides containing more than 10 amino acids (starting around the decapeptide range) are generally referred to as polypeptides.",
+      "sourceBook": "Satyanarayana, Biochemistry",
+      "sourceChapter": "Proteins and Amino Acids — Peptide Bond",
+      "sourcePage": null
+    }
+  ]
+}
