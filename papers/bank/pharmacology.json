@@ -186,6 +186,138 @@
       "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
       "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
       "sourcePage": null
+    },
+    {
+      "id": "pharm-13",
+      "topic": "Adverse Drug Effects",
+      "subtopic": "Classification",
+      "difficulty": "Easy",
+      "question": "Unwanted but often unavoidable pharmacodynamic effects that occur at normal therapeutic doses, and are generally predictable from a drug's known pharmacological profile, are classified as:",
+      "options": { "A": "Idiosyncratic reactions", "B": "Side effects", "C": "Drug allergy", "D": "Teratogenic effects" },
+      "correctAnswer": "B",
+      "explanation": "Side effects are unwanted but often unavoidable pharmacodynamic effects occurring at therapeutic doses — generally not serious, predictable from the drug's pharmacological profile, and often improved by reducing the dose (e.g. dry mouth from atropine's antisecretory action).",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Adverse Drug Effects — Classification",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm-14",
+      "topic": "Adverse Drug Effects",
+      "subtopic": "Classification",
+      "difficulty": "Medium",
+      "question": "Corticosteroid use weakening host defence mechanisms and allowing reactivation of latent tuberculosis is an example of which category of adverse drug effect?",
+      "options": { "A": "A side effect", "B": "A secondary effect (an indirect consequence of the drug's primary action)", "C": "Drug idiosyncrasy", "D": "A Type I hypersensitivity reaction" },
+      "correctAnswer": "B",
+      "explanation": "Secondary effects are indirect consequences of a drug's primary action — corticosteroids' primary immunosuppressive action indirectly allows latent infections like tuberculosis to reactivate, and similarly, tetracyclines suppressing normal bacterial flora can indirectly permit superinfections.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Adverse Drug Effects — Classification",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm-15",
+      "topic": "Adverse Drug Effects",
+      "subtopic": "Idiosyncrasy",
+      "difficulty": "Hard",
+      "question": "'Idiosyncrasy' as an adverse drug reaction is best defined as:",
+      "options": {
+        "A": "A predictable, dose-related toxic effect seen in all patients given a high enough dose",
+        "B": "A genetically determined, abnormal reactivity to a drug, restricted to individuals with a particular (often unique) genetic makeup",
+        "C": "An immunologically mediated reaction requiring prior sensitization",
+        "D": "The normal, expected therapeutic effect of the drug"
+      },
+      "correctAnswer": "B",
+      "explanation": "Idiosyncrasy is a genetically determined abnormal reactivity to a drug — the drug interacts with some unique feature of the individual not found in most people, producing an uncharacteristic reaction restricted to individuals with a particular genotype (e.g. chloramphenicol producing aplastic anaemia in rare individuals).",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Adverse Drug Effects — Idiosyncrasy",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm-16",
+      "topic": "Adverse Drug Effects",
+      "subtopic": "Drug Allergy",
+      "difficulty": "Hard",
+      "question": "A Type I (anaphylactic) drug allergy reaction is mediated by which antibody, fixed to mast cells?",
+      "options": { "A": "IgE", "B": "IgG only", "C": "IgM exclusively", "D": "No antibody is involved — it is purely T-cell mediated" },
+      "correctAnswer": "A",
+      "explanation": "Type I (anaphylactic) reactions are mediated by IgE (reaginic) antibodies fixed to mast cells; on re-exposure to the drug, the antigen-antibody reaction on the mast cell surface releases histamine and other mediators, producing urticaria, bronchospasm, or anaphylactic shock — a rapid-onset 'immediate hypersensitivity' reaction.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Adverse Drug Effects — Drug Allergy, Mechanisms",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm-17",
+      "topic": "Adverse Drug Effects",
+      "subtopic": "Drug Allergy Treatment",
+      "difficulty": "Hard",
+      "question": "In anaphylactic shock from drug hypersensitivity, what is described as the only truly life-saving measure?",
+      "options": { "A": "Oral antihistamines", "B": "Intramuscular adrenaline (epinephrine)", "C": "Oral prednisolone alone", "D": "Waiting for spontaneous resolution" },
+      "correctAnswer": "B",
+      "explanation": "Intramuscular adrenaline is the only life-saving measure in anaphylactic shock or laryngeal angioedema, repeated every 5-10 minutes if needed. Antihistamines and glucocorticoids have adjuvant value (glucocorticoids act slowly but help with prolonged/severe reactions) but are not substitutes for adrenaline.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Adverse Drug Effects — Treatment of Drug Allergy",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm-18",
+      "topic": "Adverse Drug Effects",
+      "subtopic": "Teratogenicity",
+      "difficulty": "Medium",
+      "question": "Which historical event brought major attention to drug teratogenicity, resulting in thousands of infants born with phocomelia (seal-like limbs)?",
+      "options": { "A": "The thalidomide disaster (1958-61)", "B": "The discovery of penicillin", "C": "The introduction of aspirin", "D": "The polio vaccine trials" },
+      "correctAnswer": "A",
+      "explanation": "The thalidomide disaster (1958-61) resulted in thousands of babies born with phocomelia and other defects after the drug was used by pregnant women, and is the landmark event that focused medical attention on drug teratogenicity.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Adverse Drug Effects — Teratogenicity",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm-19",
+      "topic": "Adverse Drug Effects",
+      "subtopic": "Teratogenicity",
+      "difficulty": "Hard",
+      "question": "During fetal development, which period (18-55 days of gestation) is considered the MOST vulnerable to drug-induced structural deformities?",
+      "options": { "A": "Fertilization and implantation", "B": "Organogenesis", "C": "Growth and development (56 days onward)", "D": "The period immediately after birth" },
+      "correctAnswer": "B",
+      "explanation": "Organogenesis (roughly 18-55 days of gestation) is the most vulnerable period for teratogen-induced structural deformities, since organs are actively forming during this window. Exposure during fertilization/implantation more often causes early pregnancy failure, while exposure during growth and development (56 days onward) tends to cause functional rather than structural abnormalities.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Adverse Drug Effects — Teratogenicity",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm-20",
+      "topic": "Adverse Drug Effects",
+      "subtopic": "Drug Dependence Terminology",
+      "difficulty": "Hard",
+      "question": "'Physical dependence' on a drug is best defined as:",
+      "options": {
+        "A": "Simply enjoying the effects of a drug with no physiological consequence of stopping it",
+        "B": "An altered physiological state (neuroadaptation) requiring the continued presence of the drug to maintain equilibrium, such that stopping it produces a characteristic withdrawal syndrome",
+        "C": "A purely psychological craving with no biological basis whatsoever",
+        "D": "A condition seen only with stimulant drugs like cocaine and amphetamines"
+      },
+      "correctAnswer": "B",
+      "explanation": "Physical dependence is an altered physiological state produced by repeated drug administration, requiring the drug's continued presence to maintain equilibrium ('neuroadaptation'); stopping the drug produces a characteristic withdrawal syndrome. Drugs like opioids, barbiturates, alcohol, and benzodiazepines produce physical dependence, while stimulants like amphetamines and cocaine produce little or none, despite being highly reinforcing.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Adverse Drug Effects — Drug Dependence",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm-21",
+      "topic": "Adverse Drug Effects",
+      "subtopic": "Causality Assessment",
+      "difficulty": "Hard",
+      "question": "In assessing whether an adverse event is caused by a drug, 'dechallenge' refers to:",
+      "options": {
+        "A": "Giving the drug for the first time to a new patient",
+        "B": "Observing whether the adverse event subsides when the drug is stopped",
+        "C": "Increasing the dose to see if the reaction worsens",
+        "D": "A statistical technique unrelated to individual patient observation"
+      },
+      "correctAnswer": "B",
+      "explanation": "Dechallenge is observing whether the adverse event subsides when the suspected drug is withdrawn — a positive dechallenge (event resolves on stopping the drug) supports a causal relationship, alongside rechallenge (event reappears if the drug is restarted), though rechallenge is often unethical or dangerous to perform deliberately.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Adverse Drug Effects — Causality Assessment",
+      "sourcePage": null
     }
   ]
 }
