@@ -2,7 +2,7 @@
   "paperId": "medium-practice-set-1",
   "paperName": "Medium Practice Set 1",
   "subject": "Mixed",
-  "description": "Medium-difficulty practice set (20 questions) covering: Anatomy, Biochemistry, Fundamentals of Electro Therapy, Kinesio Therapeutics, Medicine, Physical Diagnosis & Manipulative Skills, Physiology, Physiotherapy in General Medical & Surgical Condition, Physiotherapy in Musculoskeletal Condition, Psychiatry, Psychology.",
+  "description": "Medium-difficulty practice set (20 questions) covering: Anatomy, Biochemistry, Fundamentals of Electro Therapy, Fundamentals of Exercise Therapy, General Surgery & Orthopedics, Medicine, OBGY, Pathology & Microbiology, Pharmacology, Physical Diagnosis & Manipulative Skills, Physiology, Psychology.",
   "durationMinutes": 90,
   "scoring": {
     "correct": 1,
@@ -13,193 +13,193 @@
   "questions": [
     {
       "id": 1,
+      "topic": "Upper Limb",
+      "subtopic": "Bone Growth",
+      "difficulty": "Medium",
+      "question": "In the long bones of the upper limb, the 'growing ends' (which fuse with the shaft latest) are located at which joints?",
+      "options": {
+        "A": "Elbow joint only",
+        "B": "Shoulder and wrist joints",
+        "C": "Only the wrist joint",
+        "D": "All joints fuse at exactly the same time"
+      },
+      "correctAnswer": "B",
+      "explanation": "By the law of ossification, the epiphysis that appears first at a given end fuses last. In the upper limb this means the upper end of the humerus and the lower ends of both the radius and ulna are the 'growing ends' — they fuse with their shafts later than the corresponding opposite ends.",
+      "sourceBook": "BD Chaurasia's Human Anatomy — Upper Limb",
+      "sourceChapter": "Bones of the Upper Limb — Ossification",
+      "sourcePage": null,
+      "subject": "Anatomy"
+    },
+    {
+      "id": 2,
+      "topic": "Cell Injury and Necrosis",
+      "subtopic": "Apoptosis in Physiology",
+      "difficulty": "Medium",
+      "question": "Which of the following is a NORMAL, physiological example of apoptosis rather than a pathological one?",
+      "options": {
+        "A": "Cell death in tumours exposed to chemotherapy",
+        "B": "Regression of the lactating breast after breastfeeding is withdrawn",
+        "C": "Necrosis following myocardial infarction",
+        "D": "Cell death from severe hypoxia"
+      },
+      "correctAnswer": "B",
+      "explanation": "Physiologic apoptosis includes organised tissue sculpting during embryonic development, hormone-dependent tissue involution (such as regression of the lactating breast after weaning, or endometrial shedding), and normal replacement proliferation in tissues like intestinal epithelium — distinct from pathological apoptosis, such as chemotherapy-induced tumour cell death.",
+      "sourceBook": "Harsh Mohan, Textbook of Pathology",
+      "sourceChapter": "Cell Injury, Cellular Adaptations and Cellular Ageing — Apoptosis in Biologic Processes",
+      "sourcePage": null,
+      "subject": "Pathology & Microbiology"
+    },
+    {
+      "id": 3,
+      "topic": "Vitamins",
+      "subtopic": "Vitamin B6 Coenzyme",
+      "difficulty": "Medium",
+      "question": "The active coenzyme form of Vitamin B6, closely associated with amino acid metabolism, is:",
+      "options": {
+        "A": "Pyridoxal phosphate (PLP)",
+        "B": "Thiamine pyrophosphate",
+        "C": "FAD (flavin adenine dinucleotide)",
+        "D": "Coenzyme A"
+      },
+      "correctAnswer": "A",
+      "explanation": "Pyridoxal phosphate (PLP) is the active coenzyme form of vitamin B6, found attached to the epsilon-amino group of lysine in enzymes, and is closely associated with amino acid metabolism — participating in transamination, decarboxylation, deamination, and transsulfuration reactions.",
+      "sourceBook": "Satyanarayana, Biochemistry",
+      "sourceChapter": "Vitamins — Vitamin B6, Biochemical Functions",
+      "sourcePage": null,
+      "subject": "Biochemistry"
+    },
+    {
+      "id": 4,
+      "topic": "Neoplasia",
+      "subtopic": "Nomenclature Exceptions",
+      "difficulty": "Medium",
+      "question": "Which of the following tumour names is a notable EXCEPTION to standard nomenclature, since despite ending in '-oma' (usually implying benign), it actually refers to a malignant tumour?",
+      "options": {
+        "A": "Lipoma",
+        "B": "Fibroma",
+        "C": "Melanoma",
+        "D": "Adenoma"
+      },
+      "correctAnswer": "C",
+      "explanation": "Although the suffix '-oma' generally denotes a benign tumour, several names break this rule: melanoma (malignant tumour of melanocytes), hepatoma (a term sometimes used for hepatocellular carcinoma), lymphoma (malignant tumour of lymphoid tissue), and seminoma (malignant testicular tumour) are all malignant despite the '-oma' ending.",
+      "sourceBook": "Harsh Mohan, Textbook of Pathology",
+      "sourceChapter": "Neoplasia — Nomenclature and Classification",
+      "sourcePage": null,
+      "subject": "Pathology & Microbiology"
+    },
+    {
+      "id": 5,
+      "topic": "Sensory Processes and Perception",
+      "subtopic": "Depth Perception",
+      "difficulty": "Medium",
+      "question": "Monocular cues for depth perception are cues that:",
+      "options": {
+        "A": "Require both eyes working together simultaneously",
+        "B": "Can operate when only one eye is looking (used, for example, by painters to create a 3D effect in a flat painting)",
+        "C": "Only function in complete darkness",
+        "D": "Are entirely unrelated to how artists create depth in paintings"
+      },
+      "correctAnswer": "B",
+      "explanation": "Monocular ('one-eyed') cues for depth perception can operate with only one eye looking — these are the cues artists use to create a convincing three-dimensional impression from a flat, two-dimensional painting.",
+      "sourceBook": "Morgan & King, Introduction to Psychology",
+      "sourceChapter": "Sensory Processes and Perception — Monocular Cues for Depth Perception",
+      "sourcePage": null,
+      "subject": "Psychology"
+    },
+    {
+      "id": 6,
       "topic": "Manual Muscle Testing",
       "subtopic": "Test Procedure",
       "difficulty": "Medium",
-      "question": "In manual muscle testing, the 'break test' is best described as:",
+      "question": "Two-joint muscles such as the hamstrings and gastrocnemius are typically tested in mid-range rather than at full end-range during manual muscle testing. Why?",
       "options": {
-        "A": "Applying resistance throughout an actively moving joint to see when motion ceases",
-        "B": "Bringing the part to the end of its available range and asking the patient to hold that position while the therapist tries to force ('break') it out of position",
-        "C": "Passively moving a joint until tissue resistance is felt",
-        "D": "Timing how long a muscle can sustain a maximal isometric hold"
+        "A": "To avoid provoking a stretch reflex",
+        "B": "Mid-range gives these muscles a more mechanically favorable length-tension relationship for the test",
+        "C": "Two-joint muscles cannot generate any force at end range",
+        "D": "It standardizes the time taken for every muscle test"
       },
       "correctAnswer": "B",
-      "explanation": "The break test — the most commonly used MMT procedure — has the patient hold the end-range test position while the therapist applies gradually increasing resistance, attempting to 'break' the hold. The alternative 'active resistance test' (resisting throughout the motion) requires more skill and is not generally recommended because results are often equivocal.",
+      "explanation": "One-joint muscles are tested at end range for consistency, but two-joint muscles are tested in mid-range, where their length-tension relationship is more favorable — testing them at a mechanical disadvantage would make it hard to distinguish a true Grade 5 from a Grade 4.",
       "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
       "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
       "sourcePage": "2",
       "subject": "Physical Diagnosis & Manipulative Skills"
     },
     {
-      "id": 2,
-      "topic": "Cardiopulmonary Assessment",
-      "subtopic": "Breathlessness Classification",
-      "difficulty": "Medium",
-      "question": "According to the New York Heart Association (NYHA) classification of breathlessness, a patient who becomes symptomatic with mild exertion such as bathing or dressing falls into which class?",
-      "options": {
-        "A": "Class I",
-        "B": "Class II",
-        "C": "Class III",
-        "D": "Class IV"
-      },
-      "correctAnswer": "C",
-      "explanation": "NYHA Class III describes symptoms occurring with mild exertion (e.g. bathing, showering, dressing). Class I is asymptomatic except with severe exertion, Class II is symptomatic with ordinary activity (e.g. walking upstairs), and Class IV is symptomatic even at rest.",
-      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
-      "sourceChapter": "Assessment — Breathlessness Classification",
-      "sourcePage": null,
-      "subject": "Physiotherapy in General Medical & Surgical Condition"
-    },
-    {
-      "id": 3,
-      "topic": "Proteins and Amino Acids",
-      "subtopic": "Sequencing Reagents",
-      "difficulty": "Medium",
-      "question": "What is the key limitation of Sanger's reagent (1-fluoro-2,4-dinitrobenzene) compared to Edman's reagent for determining a protein's amino acid sequence?",
-      "options": {
-        "A": "It only works on carbohydrates, not proteins",
-        "B": "After labelling the N-terminal residue, the protein must be fully hydrolysed to identify it — destroying the polypeptide and preventing repeated sequencing cycles",
-        "C": "It cannot label any amino acid at all",
-        "D": "It is more expensive but otherwise functionally identical to Edman's reagent"
-      },
-      "correctAnswer": "B",
-      "explanation": "Sanger's reagent labels the free N-terminal amino group, but identifying that labelled residue requires complete hydrolysis of the protein — destroying it in the process. This makes it useful only for identifying the N-terminal residue once, unlike Edman degradation which can be repeated.",
-      "sourceBook": "Satyanarayana, Biochemistry",
-      "sourceChapter": "Proteins and Amino Acids — Determination of Primary Structure",
-      "sourcePage": null,
-      "subject": "Biochemistry"
-    },
-    {
-      "id": 4,
-      "topic": "Electrical Stimulation of Nerve and Muscle",
-      "subtopic": "Impulse Duration Classification",
-      "difficulty": "Medium",
-      "question": "Impulses with a duration of less than 10 ms, used for stimulating normal (innervated) muscle, are classified as having:",
-      "options": {
-        "A": "A long duration, termed interrupted direct current",
-        "B": "A short duration, of the faradic type",
-        "C": "No classification exists for pulse duration",
-        "D": "A duration only used for denervated muscle"
-      },
-      "correctAnswer": "B",
-      "explanation": "Impulses of less than 10 ms duration are classed as short duration and are of the faradic type, used to stimulate normal innervated muscle via its motor nerve, typically repeated at a high rate of 50-100 per second.",
-      "sourceBook": "Clayton's Electrotherapy",
-      "sourceChapter": "Electrical Stimulation of Nerve and Muscle",
-      "sourcePage": "40",
-      "subject": "Fundamentals of Electro Therapy"
-    },
-    {
-      "id": 5,
-      "topic": "Manual Muscle Testing",
-      "subtopic": "Functional Correlation",
-      "difficulty": "Medium",
-      "question": "A patient's gluteus medius is graded 4 (Good) on manual muscle testing. Which functional finding is consistent with this grade, per Daniels and Worthingham's discussion of why 'Good' is not always good enough?",
-      "options": {
-        "A": "Completely normal, symmetric gait with no compensation",
-        "B": "A positive Trendelenburg sign during single-leg stance",
-        "C": "Complete inability to abduct the hip against gravity",
-        "D": "No palpable or visible muscle contraction at all"
-      },
-      "correctAnswer": "B",
-      "explanation": "Even a 'Good' (Grade 4) gluteus medius can be functionally inadequate — a positive Trendelenburg sign (contralateral pelvic drop in single-leg stance) can still appear, illustrating the gap between a manual muscle grade and real functional performance.",
-      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
-      "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
-      "sourcePage": "5",
-      "subject": "Physical Diagnosis & Manipulative Skills"
-    },
-    {
-      "id": 6,
-      "topic": "Resistance Exercise",
-      "subtopic": "1-RM Precautions",
-      "difficulty": "Medium",
-      "question": "Why is establishing a 1-RM (single maximum effort) considered inappropriate for certain patient populations, such as those with osteoporosis or cardiovascular pathology?",
-      "options": {
-        "A": "It takes too long to administer in a clinical setting",
-        "B": "It requires a single maximal effort, which carries risk for patients with joint impairments, healing soft tissue, osteoporosis, or cardiovascular pathology",
-        "C": "It is only valid for measuring endurance, not strength",
-        "D": "It cannot be performed using free weights"
-      },
-      "correctAnswer": "B",
-      "explanation": "A 1-RM test requires the patient to exert one true maximal effort, which is unsafe for patients with joint impairments, those recovering from or at risk of soft tissue injury, or those with osteoporosis or cardiovascular pathology — alternative methods (e.g. multiple-RM formulas, dynamometry, percentage of body weight) are used instead for these patients.",
-      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
-      "sourceChapter": "Chapter 6: Resistance Exercise — Repetition Maximum, Precautions",
-      "sourcePage": null,
-      "subject": "Kinesio Therapeutics"
-    },
-    {
       "id": 7,
-      "topic": "Knee Assessment",
-      "subtopic": "Ligament Testing",
+      "topic": "Range of Motion",
+      "subtopic": "Two-Joint Muscles",
       "difficulty": "Medium",
-      "question": "Hughston's posteromedial drawer sign is performed with the patient supine, knee flexed 80-90°, hip flexed 45°, and the foot slightly medially rotated. A positive test (excessive posterior movement/rotation of the medial tibia) is most indicative of injury to which primary structure?",
+      "question": "To achieve full passive range of hip flexion, the knee must also be allowed to flex. Why?",
       "options": {
-        "A": "Anterior cruciate ligament in isolation",
-        "B": "Posterior cruciate ligament (along with posteromedial supporting structures)",
-        "C": "Lateral collateral ligament only",
-        "D": "Iliotibial band"
+        "A": "It relaxes tension on the two-joint hamstring muscle group, which would otherwise restrict hip flexion",
+        "B": "It reduces pain in the lumbar spine",
+        "C": "It is required purely to stabilize the pelvis",
+        "D": "Knee position has no real effect on hip flexion range"
       },
-      "correctAnswer": "B",
-      "explanation": "A positive Hughston's posteromedial drawer sign indicates injury to the posterior cruciate ligament, along with possible involvement of the posterior oblique ligament, medial collateral ligament, semimembranosus, and posteromedial capsule — it tests for posteromedial rotary instability of the knee.",
-      "sourceBook": "Magee, Orthopedic Physical Assessment",
-      "sourceChapter": "Chapter 12: Knee — Ligament Stability, Posteromedial and Posterolateral Drawer Sign",
+      "correctAnswer": "A",
+      "explanation": "The hamstrings cross both the hip and knee. Keeping the knee extended while flexing the hip stretches the hamstrings and limits how far the hip can flex; flexing the knee releases that tension, allowing full hip flexion range to be reached.",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 3: Range of Motion — Combined Hip and Knee Motion",
       "sourcePage": null,
-      "subject": "Physiotherapy in Musculoskeletal Condition"
+      "subject": "Fundamentals of Exercise Therapy"
     },
     {
       "id": 8,
-      "topic": "Clinical Decision Making",
-      "subtopic": "Type 1 and Type 2 Thinking",
+      "topic": "Receptor Pharmacology",
+      "subtopic": "G-Protein Signalling",
       "difficulty": "Medium",
-      "question": "In the 'dual process theory' of clinical reasoning, 'Type 1' thinking is best described as:",
+      "question": "Activation of a Gi-coupled receptor typically has which effect on adenylyl cyclase and cAMP?",
       "options": {
-        "A": "Slow, deliberate, and highly analytical",
-        "B": "Intuitive, fast, automatic, and pattern-recognition based, but more vulnerable to error",
-        "C": "Used exclusively by inexperienced clinicians",
-        "D": "A thinking style with no relevance to medical practice"
+        "A": "Activates adenylyl cyclase, increasing cAMP",
+        "B": "Inhibits adenylyl cyclase, decreasing cAMP",
+        "C": "Has no effect on adenylyl cyclase, acts only on phospholipase C",
+        "D": "Directly opens ligand-gated Na+ channels"
       },
       "correctAnswer": "B",
-      "explanation": "Type 1 thinking is intuitive, heuristic, automatic, fast, and effortless — highly efficient (used in roughly 95% of daily decisions) but more vulnerable to error and more affected by context than Type 2 thinking, which is slow, deliberate, and analytical.",
-      "sourceBook": "Davidson's Principles and Practice of Medicine",
-      "sourceChapter": "Clinical Decision Making — Type 1 and Type 2 Thinking",
+      "explanation": "Gi (inhibitory G-protein) inhibits adenylyl cyclase, lowering intracellular cAMP — the opposite of Gs, which activates adenylyl cyclase and raises cAMP. This is why, for example, muscarinic M2 receptor stimulation (Gi-coupled) in the heart opposes the effect of beta-adrenergic (Gs-coupled) stimulation.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
       "sourcePage": null,
-      "subject": "Medicine"
+      "subject": "Pharmacology"
     },
     {
       "id": 9,
-      "topic": "Membrane Potentials",
-      "subtopic": "Na+-K+ Pump",
+      "topic": "Normal Puerperium",
+      "subtopic": "Colostrum",
       "difficulty": "Medium",
-      "question": "Why does ischaemia (reduced blood/oxygen supply) lead to cell swelling and damage?",
+      "question": "Compared to mature breast milk, colostrum has:",
       "options": {
-        "A": "Ischaemia has no effect on the Na+-K+ pump",
-        "B": "Ischaemia decreases Na+-K+ pump activity, disrupting osmotic equilibrium and allowing the cell to swell",
-        "C": "Ischaemia directly ruptures the cell membrane through mechanical force",
-        "D": "Ischaemia only affects extracellular fluid, never intracellular volume"
+        "A": "Lower protein but higher fat and carbohydrate content",
+        "B": "Higher protein content but lower fat and carbohydrate content",
+        "C": "Identical composition to mature milk in every respect",
+        "D": "No immunological components at all"
       },
       "correctAnswer": "B",
-      "explanation": "The Na+-K+ pump normally keeps osmotic equilibrium by moving positive charge (and effectively solute) out of the cell, counteracting the tendency of intracellular protein anions and other molecules to draw water in and cause swelling. Ischaemia reduces the ATP-dependent pump's activity, disrupting this balance — which is why prolonged cerebral ischaemia, causing cell swelling and damage, is often fatal.",
-      "sourceBook": "AK Jain, Physiology",
-      "sourceChapter": "The Membrane Potentials — Gibbs-Donnan Effect",
+      "explanation": "Colostrum has a notably higher protein content than mature breast milk, but lower fat and carbohydrate content. It also contains locally-produced antibody (IgA), providing important early immunological protection to the newborn.",
+      "sourceBook": "Dutta's Textbook of Obstetrics",
+      "sourceChapter": "Normal Puerperium — Lactation, Composition of Colostrum",
       "sourcePage": null,
-      "subject": "Physiology"
+      "subject": "OBGY"
     },
     {
       "id": 10,
-      "topic": "Upper Limb",
-      "subtopic": "Carpal Bones — Clinical",
+      "topic": "Vitamins",
+      "subtopic": "Vitamin B6 and Transamination",
       "difficulty": "Medium",
-      "question": "A fall on the outstretched hand causing tenderness in the anatomical snuff box most classically suggests a fracture of which carpal bone?",
+      "question": "Pyridoxal phosphate's role in transamination reactions (converting amino acids to keto acids) means vitamin B6 helps integrate which two areas of metabolism?",
       "options": {
-        "A": "Lunate",
-        "B": "Pisiform",
-        "C": "Scaphoid",
-        "D": "Hamate"
+        "A": "Carbohydrate and amino acid metabolism",
+        "B": "Lipid and nucleic acid metabolism only",
+        "C": "Vitamin D and calcium metabolism",
+        "D": "Water and electrolyte balance"
       },
-      "correctAnswer": "C",
-      "explanation": "Scaphoid fracture is common after a fall on the outstretched hand and classically presents with tenderness and swelling in the anatomical snuff box, plus pain on longitudinal percussion of the thumb and index finger.",
-      "sourceBook": "BD Chaurasia's Human Anatomy — Upper Limb",
-      "sourceChapter": "Bones of the Upper Limb — Carpal Bones, Clinical Anatomy",
+      "correctAnswer": "A",
+      "explanation": "Through transamination, PLP converts amino acids to keto acids (e.g. alanine to pyruvate, aspartate to oxaloacetate), which then enter the citric acid cycle for energy generation — this integrates carbohydrate and amino acid metabolism, making B6 an 'energy releasing' vitamin in this sense.",
+      "sourceBook": "Satyanarayana, Biochemistry",
+      "sourceChapter": "Vitamins — Vitamin B6, Transamination",
       "sourcePage": null,
-      "subject": "Anatomy"
+      "subject": "Biochemistry"
     },
     {
       "id": 11,
@@ -222,174 +222,174 @@
     },
     {
       "id": 12,
-      "topic": "Resistance Exercise",
-      "subtopic": "Open vs Closed Chain",
-      "difficulty": "Medium",
-      "question": "Closed-chain exercise is best described as exercise performed:",
-      "options": {
-        "A": "In a nonweight-bearing position with the distal segment moving freely",
-        "B": "In a weight-bearing position where the body moves over a fixed distal segment",
-        "C": "Only using free weights, never body weight",
-        "D": "Exclusively with the upper extremity"
-      },
-      "correctAnswer": "B",
-      "explanation": "Closed-chain exercise is performed in a weight-bearing position, where the body moves over a relatively fixed distal segment (e.g. the foot on the ground during a squat). Open-chain exercise, by contrast, is performed nonweight-bearing, with the distal segment (hand or foot) moving freely.",
-      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
-      "sourceChapter": "Chapter 6: Resistance Exercise — Position for Exercise",
-      "sourcePage": null,
-      "subject": "Kinesio Therapeutics"
-    },
-    {
-      "id": 13,
-      "topic": "Resistance Exercise",
-      "subtopic": "Muscle Endurance Training",
-      "difficulty": "Medium",
-      "question": "Training to improve muscular (local) endurance typically involves:",
-      "options": {
-        "A": "A very heavy load for only 1-2 repetitions",
-        "B": "Many repetitions (e.g. 3-5 sets of 40-50 reps) against a low, submaximal load",
-        "C": "A single maximal isometric contraction held for 1 second",
-        "D": "Complete rest with no muscular activity"
-      },
-      "correctAnswer": "B",
-      "explanation": "Muscle endurance training involves performing many repetitions against a submaximal load — for example, as many as three to five sets of 40 to 50 repetitions against a low resistance — and can be safely initiated early in rehabilitation since the load involved is low.",
-      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
-      "sourceChapter": "Chapter 6: Resistance Exercise — To Improve Muscle Endurance",
-      "sourcePage": null,
-      "subject": "Kinesio Therapeutics"
-    },
-    {
-      "id": 14,
-      "topic": "Phobic Disorders",
-      "subtopic": "Social Phobia",
-      "difficulty": "Medium",
-      "question": "Social phobia is characterised primarily by fear of:",
-      "options": {
-        "A": "Open or crowded spaces",
-        "B": "One's own actions being critically viewed by others, leading to embarrassment or humiliation",
-        "C": "A single specific, well-circumscribed object like spiders or heights",
-        "D": "Contamination by dirt or germs"
-      },
-      "correctAnswer": "B",
-      "explanation": "Social phobia is an irrational fear of performing activities in front of others or interacting socially, driven by fear that one's own actions will be judged critically, leading to embarrassment (examples include fear of public speaking, blushing, or eating in front of others).",
-      "sourceBook": "Ahuja, A Short Textbook of Psychiatry",
-      "sourceChapter": "Neurotic, Stress-related and Somatoform Disorders — Phobic Disorder",
-      "sourcePage": null,
-      "subject": "Psychiatry"
-    },
-    {
-      "id": 15,
-      "topic": "Biology of Behavior",
-      "subtopic": "Case Study — Patient H.M.",
-      "difficulty": "Medium",
-      "question": "Despite his severe memory problems, patient H.M. had relatively normal short-term memory (e.g. could repeat six numbers forward after hearing them once) and intact memories from before his operation. What was specifically impaired?",
-      "options": {
-        "A": "His ability to form new long-term memories",
-        "B": "His personality and IQ, both of which dropped sharply",
-        "C": "His sense of touch and vision",
-        "D": "His ability to speak or understand language"
-      },
-      "correctAnswer": "A",
-      "explanation": "H.M.'s deficit was specifically in forming new long-term memories (anterograde amnesia) — his immediate/short-term memory and his remote memories from before the surgery were largely preserved, illustrating that short-term and long-term memory, and the process of consolidating one into the other, are at least partly separable.",
-      "sourceBook": "Morgan & King, Introduction to Psychology",
-      "sourceChapter": "Biology of Behavior — Temporal-Lobe Association Cortex, Memory Functions",
-      "sourcePage": null,
-      "subject": "Psychology"
-    },
-    {
-      "id": 16,
       "topic": "Electrical Stimulation of Nerve and Muscle",
-      "subtopic": "Modified (Surged) Faradic Currents",
+      "subtopic": "Impulse Duration Classification",
       "difficulty": "Medium",
-      "question": "Faradic-type currents are typically 'surged' for treatment purposes. What is the purpose of surging the current?",
+      "question": "Impulses with a duration of MORE than 10 ms, often termed interrupted (or modified) direct current, are specifically used to stimulate:",
       "options": {
-        "A": "To reduce the total treatment time",
-        "B": "To produce a near-normal tetanic-like contraction and relaxation of the muscle, by gradually increasing then decreasing the intensity of successive impulses",
-        "C": "To eliminate the need for any electrodes",
-        "D": "To convert the current into direct current permanently"
+        "A": "Normal, innervated muscle via the motor nerve",
+        "B": "Denervated muscle, where the muscle fibres must be stimulated directly (no functioning motor nerve)",
+        "C": "Cardiac muscle exclusively",
+        "D": "Smooth muscle only"
       },
       "correctAnswer": "B",
-      "explanation": "Surging gradually increases the intensity of successive impulses to a peak, then lets it fall (suddenly or gradually), mimicking a more natural, near-normal tetanic muscle contraction and relaxation cycle rather than an abrupt on/off stimulus.",
+      "explanation": "Long-duration impulses (>10 ms), termed interrupted or modified direct current, are used for denervated muscles — since there is no functioning motor nerve, the muscle fibres must be stimulated directly, and these impulses are repeated far less frequently than faradic-type currents (e.g. a 100 ms impulse might be repeated only about 30 times per minute).",
       "sourceBook": "Clayton's Electrotherapy",
-      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Modified Faradic Currents",
-      "sourcePage": "41",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle",
+      "sourcePage": "40",
       "subject": "Fundamentals of Electro Therapy"
     },
     {
-      "id": 17,
+      "id": 13,
       "topic": "Clinical Decision Making",
-      "subtopic": "Cognitive Biases",
+      "subtopic": "Type 1 and Type 2 Thinking",
       "difficulty": "Medium",
-      "question": "'Overconfidence bias' in clinical decision-making refers to:",
+      "question": "In the 'dual process theory' of clinical reasoning, 'Type 1' thinking is best described as:",
       "options": {
-        "A": "The tendency to always order more diagnostic tests than necessary",
-        "B": "The tendency to believe one knows more than one actually does, placing too much faith in opinion over gathered evidence",
-        "C": "A bias that only affects junior doctors, never senior clinicians",
-        "D": "Excessive reliance on clinical prediction rules"
+        "A": "Slow, deliberate, and highly analytical",
+        "B": "Intuitive, fast, automatic, and pattern-recognition based, but more vulnerable to error",
+        "C": "Used exclusively by inexperienced clinicians",
+        "D": "A thinking style with no relevance to medical practice"
       },
       "correctAnswer": "B",
-      "explanation": "Overconfidence bias is the tendency to place too much faith in one's own opinion rather than the gathered evidence, sometimes compounded further by availability bias and commission bias (a tendency to act rather than not act), occasionally with serious consequences.",
+      "explanation": "Type 1 thinking is intuitive, heuristic, automatic, fast, and effortless — highly efficient (used in roughly 95% of daily decisions) but more vulnerable to error and more affected by context than Type 2 thinking, which is slow, deliberate, and analytical.",
       "sourceBook": "Davidson's Principles and Practice of Medicine",
-      "sourceChapter": "Clinical Decision Making — Common Cognitive Biases",
+      "sourceChapter": "Clinical Decision Making — Type 1 and Type 2 Thinking",
       "sourcePage": null,
       "subject": "Medicine"
     },
     {
-      "id": 18,
-      "topic": "Clinical Decision Making",
-      "subtopic": "Treatment Threshold",
+      "id": 14,
+      "topic": "Normal Puerperium",
+      "subtopic": "Ambulation",
       "difficulty": "Medium",
-      "question": "The concept of a 'treatment threshold' in clinical decision-making primarily balances:",
+      "question": "Early ambulation after an uncomplicated vaginal delivery is encouraged mainly because it:",
       "options": {
-        "A": "The doctor's personal preference against the hospital's budget",
-        "B": "The risks of testing/waiting against the risks and benefits of starting treatment now",
-        "C": "Only the cost of the test, with no consideration of patient risk",
-        "D": "Nothing — treatment thresholds do not exist in evidence-based medicine"
+        "A": "Has no measurable benefit but is traditional practice",
+        "B": "Reduces bladder complications and constipation, facilitates uterine drainage, and lessens the risk of puerperal venous thrombosis and embolism",
+        "C": "Is required to stop lactation",
+        "D": "Prevents postpartum haemorrhage entirely on its own"
       },
       "correctAnswer": "B",
-      "explanation": "The treatment threshold combines the risks of a test, and the risks versus benefits of treatment, to decide the point at which it makes sense to act. For a low-risk, effective intervention (e.g. antibiotics for a likely UTI), the threshold to act is lower; for a high-risk intervention, more diagnostic certainty is required first.",
+      "explanation": "Early ambulation after delivery provides a sense of well-being, reduces bladder complications and constipation, facilitates uterine drainage (hastening involution), and importantly lessens the risk of puerperal venous thrombosis and embolism.",
+      "sourceBook": "Dutta's Textbook of Obstetrics",
+      "sourceChapter": "Normal Puerperium — Management, Rest and Ambulation",
+      "sourcePage": null,
+      "subject": "OBGY"
+    },
+    {
+      "id": 15,
+      "topic": "Paediatric Surgery",
+      "subtopic": "Inguinal Hernia vs Hydrocoele",
+      "difficulty": "Medium",
+      "question": "A patent processus vaginalis that allows peritoneal fluid (but no bowel) to track down into the scrotum results in:",
+      "options": {
+        "A": "An inguinal hernia",
+        "B": "A hydrocoele",
+        "C": "A varicocele",
+        "D": "Testicular torsion"
+      },
+      "correctAnswer": "B",
+      "explanation": "When a patent processus vaginalis allows only peritoneal fluid (not bowel) to track into the scrotum, the result is a hydrocoele — typically a non-tender, transilluminating scrotal swelling, distinct from an inguinal hernia where bowel or other abdominal content is present.",
+      "sourceBook": "Bailey & Love's Short Practice of Surgery",
+      "sourceChapter": "Principles of Paediatric Surgery — Hydrocoeles",
+      "sourcePage": null,
+      "subject": "General Surgery & Orthopedics"
+    },
+    {
+      "id": 16,
+      "topic": "Clinical Decision Making",
+      "subtopic": "Patient-Centred Medicine",
+      "difficulty": "Medium",
+      "question": "'Patient-centred evidence-based medicine' is best defined as:",
+      "options": {
+        "A": "Applying research evidence strictly, ignoring the patient's individual circumstances and wishes",
+        "B": "Applying best-available research evidence while taking individual patient factors (clinical and non-clinical, including values and wishes) into account",
+        "C": "A model where patients make all treatment decisions with no clinical input",
+        "D": "Applying guidelines only to patients under 65 years old"
+      },
+      "correctAnswer": "B",
+      "explanation": "Patient-centred evidence-based medicine combines the best available research evidence with individual patient factors — both clinical (comorbidities, prognosis) and non-clinical (social circumstances, personal values and wishes) — rather than applying guidelines mechanically to every patient.",
       "sourceBook": "Davidson's Principles and Practice of Medicine",
-      "sourceChapter": "Clinical Decision Making — Dealing with Uncertainty",
+      "sourceChapter": "Clinical Decision Making — Patient-Centred Evidence-Based Medicine",
+      "sourcePage": null,
+      "subject": "Medicine"
+    },
+    {
+      "id": 17,
+      "topic": "Stretching",
+      "subtopic": "Definitions of Flexibility",
+      "difficulty": "Medium",
+      "question": "'Passive flexibility' (passive range of motion) is best described as:",
+      "options": {
+        "A": "The degree to which an active muscle contraction moves a joint through its available range",
+        "B": "The degree to which a body segment can be moved through its available range by an external force, without the patient contracting the muscle themselves",
+        "C": "The absolute maximum range any joint could reach under general anesthesia",
+        "D": "A measure of muscular endurance during repeated contractions"
+      },
+      "correctAnswer": "B",
+      "explanation": "Passive flexibility depends on the extensibility of the muscles and connective tissues crossing a joint. It is a prerequisite for, but does not guarantee, dynamic (active) flexibility — which instead depends on the patient's own active muscle contraction moving the segment.",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 4: Stretching for Impaired Mobility — Definition of Terms",
+      "sourcePage": null,
+      "subject": "Fundamentals of Exercise Therapy"
+    },
+    {
+      "id": 18,
+      "topic": "Clinical Decision Making",
+      "subtopic": "Red Flags",
+      "difficulty": "Medium",
+      "question": "'ROWS' (Rule Out Worst-case Scenario) as a clinical strategy is best illustrated by which example?",
+      "options": {
+        "A": "Assuming pleuritic chest pain and breathlessness is always a pulled muscle",
+        "B": "Actively investigating for pulmonary embolism in a patient presenting with pleuritic chest pain and breathlessness, because missing it could be fatal",
+        "C": "Ignoring red flag symptoms in back pain to save time",
+        "D": "Only used for patients over 65 years old"
+      },
+      "correctAnswer": "B",
+      "explanation": "ROWS forces clinicians to actively consider and rule out serious, potentially fatal diagnoses that can present with common symptoms — the classic textbook example is investigating for pulmonary embolism in a patient with pleuritic chest pain and breathlessness.",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Clinical Decision Making — Red Flags and ROWS",
       "sourcePage": null,
       "subject": "Medicine"
     },
     {
       "id": 19,
-      "topic": "Resistance Exercise",
-      "subtopic": "Volume and Intensity",
+      "topic": "Lower Limb",
+      "subtopic": "Femoral Triangle",
       "difficulty": "Medium",
-      "question": "What is the general relationship between the intensity (load) of resistance exercise and the number of repetitions/sets possible?",
+      "question": "The femoral triangle is bounded laterally by the medial border of the sartorius and medially by the medial border of the:",
       "options": {
-        "A": "There is no relationship — repetitions are independent of load",
-        "B": "An inverse relationship: higher intensity/load permits fewer repetitions and sets, and lower load permits more",
-        "C": "A direct relationship: higher load always allows more repetitions",
-        "D": "Repetitions only depend on the patient's age, never on the load used"
+        "A": "Adductor longus",
+        "B": "Gracilis",
+        "C": "Rectus femoris",
+        "D": "Tensor fasciae latae"
       },
-      "correctAnswer": "B",
-      "explanation": "There is an inverse relationship between exercise intensity (load) and the number of repetitions/sets possible — the higher the load, the fewer repetitions and sets that can be performed, and vice versa.",
-      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
-      "sourceChapter": "Chapter 6: Resistance Exercise — Volume",
+      "correctAnswer": "A",
+      "explanation": "The femoral triangle is bounded laterally by the medial border of sartorius and medially by the medial border of adductor longus, with its base formed by the inguinal ligament and its apex (directed downward) continuous with the adductor canal.",
+      "sourceBook": "BD Chaurasia's Human Anatomy — Lower Limb",
+      "sourceChapter": "Front of Thigh — Femoral Triangle",
       "sourcePage": null,
-      "subject": "Kinesio Therapeutics"
+      "subject": "Anatomy"
     },
     {
       "id": 20,
-      "topic": "Biology of Behavior",
-      "subtopic": "Hormones and the Hypothalamus",
+      "topic": "Membrane Potentials",
+      "subtopic": "Resting Potential Genesis",
       "difficulty": "Medium",
-      "question": "The hypothalamus regulates the body's internal environment (temperature, blood salt concentration, hormone levels) chiefly by controlling secretions from which gland?",
+      "question": "A key reason K+ efflux is not fully compensated by Na+ influx at rest (helping maintain the resting membrane potential) is that:",
       "options": {
-        "A": "The thyroid gland",
-        "B": "The pituitary gland",
-        "C": "The adrenal gland directly, bypassing the pituitary entirely",
-        "D": "The pancreas"
+        "A": "The resting membrane is much less permeable to Na+ than to K+",
+        "B": "There is no Na+ present in the extracellular fluid at rest",
+        "C": "K+ cannot actually cross the membrane at rest",
+        "D": "Na+ and K+ have identical permeabilities at rest"
       },
-      "correctAnswer": "B",
-      "explanation": "The hypothalamus is connected to the pituitary gland and controls its hormone secretion into the bloodstream, either through nerve impulses or chemical releasing factors — linking the nervous system to the body's broader glandular (endocrine) system.",
-      "sourceBook": "Morgan & King, Introduction to Psychology",
-      "sourceChapter": "Biology of Behavior — Forebrain: Hypothalamus and Pituitary",
+      "correctAnswer": "A",
+      "explanation": "Because the resting membrane is much less permeable to Na+ than to K+, the modest inward leak of Na+ does not offset the outward diffusion of K+ down its concentration gradient — contributing to the net negative charge that develops inside the cell at rest.",
+      "sourceBook": "AK Jain, Physiology",
+      "sourceChapter": "The Membrane Potentials — Genesis of Resting Membrane Potential",
       "sourcePage": null,
-      "subject": "Psychology"
+      "subject": "Physiology"
     }
   ]
 }

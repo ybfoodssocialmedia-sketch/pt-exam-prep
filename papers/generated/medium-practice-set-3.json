@@ -2,7 +2,7 @@
   "paperId": "medium-practice-set-3",
   "paperName": "Medium Practice Set 3",
   "subject": "Mixed",
-  "description": "Medium-difficulty practice set (20 questions) covering: Anatomy, Fundamentals of Exercise Therapy, General Surgery & Orthopedics, OBGY, Pathology & Microbiology, Physiotherapy in Community Health, Physiotherapy in General Medical & Surgical Condition, Psychiatry, Psychology.",
+  "description": "Medium-difficulty practice set (20 questions) covering: Anatomy, Fundamentals of Electro Therapy, General Surgery & Orthopedics, Kinesio Therapeutics, Medicine, OBGY, Pharmacology, Physical Diagnosis & Manipulative Skills, Physiotherapy in General Medical & Surgical Condition, Physiotherapy in Musculoskeletal Condition, Physiotherapy in Neurosciences, Psychiatry, Psychology.",
   "durationMinutes": 90,
   "scoring": {
     "correct": 1,
@@ -13,253 +13,6 @@
   "questions": [
     {
       "id": 1,
-      "topic": "Upper Limb",
-      "subtopic": "Bone Deformity",
-      "difficulty": "Medium",
-      "question": "Madelung's deformity results from retarded growth of which structure?",
-      "options": {
-        "A": "The lower end of the radius",
-        "B": "The upper end of the humerus",
-        "C": "The olecranon process of the ulna",
-        "D": "The scaphoid tubercle"
-      },
-      "correctAnswer": "A",
-      "explanation": "Madelung's deformity is a dorsal subluxation (displacement) of the lower end of the ulna, caused by retarded growth of the lower end of the radius.",
-      "sourceBook": "BD Chaurasia's Human Anatomy — Upper Limb",
-      "sourceChapter": "Bones of the Upper Limb — Clinical Anatomy",
-      "sourcePage": null,
-      "subject": "Anatomy"
-    },
-    {
-      "id": 2,
-      "topic": "Epidemiology",
-      "subtopic": "Comparability",
-      "difficulty": "Medium",
-      "question": "In epidemiological studies, 'comparability' between study and control groups is best ensured by:",
-      "options": {
-        "A": "Choosing groups of very different ages and backgrounds to maximise contrast",
-        "B": "Randomization or random allocation, or 'matching' for selected characteristics when random allocation is not possible (e.g. case-control/cohort studies)",
-        "C": "Always excluding any consideration of age or sex",
-        "D": "Comparability is not actually necessary for valid epidemiological conclusions"
-      },
-      "correctAnswer": "B",
-      "explanation": "Comparability ('like being compared with like') between study and control groups is best ensured by randomization or random allocation. Where this is not possible, such as in case-control or cohort studies, 'matching' for selected characteristics is used instead, and standardization can address a limited number of characteristics like age, sex, and parity.",
-      "sourceBook": "Park's Textbook of Preventive and Social Medicine",
-      "sourceChapter": "Principles of Epidemiology and Epidemiologic Methods — Making Comparisons",
-      "sourcePage": "54",
-      "subject": "Physiotherapy in Community Health"
-    },
-    {
-      "id": 3,
-      "topic": "Range of Motion",
-      "subtopic": "Two-Joint Muscles",
-      "difficulty": "Medium",
-      "question": "To achieve full passive range of hip flexion, the knee must also be allowed to flex. Why?",
-      "options": {
-        "A": "It relaxes tension on the two-joint hamstring muscle group, which would otherwise restrict hip flexion",
-        "B": "It reduces pain in the lumbar spine",
-        "C": "It is required purely to stabilize the pelvis",
-        "D": "Knee position has no real effect on hip flexion range"
-      },
-      "correctAnswer": "A",
-      "explanation": "The hamstrings cross both the hip and knee. Keeping the knee extended while flexing the hip stretches the hamstrings and limits how far the hip can flex; flexing the knee releases that tension, allowing full hip flexion range to be reached.",
-      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
-      "sourceChapter": "Chapter 3: Range of Motion — Combined Hip and Knee Motion",
-      "sourcePage": null,
-      "subject": "Fundamentals of Exercise Therapy"
-    },
-    {
-      "id": 4,
-      "topic": "Paediatric Surgery",
-      "subtopic": "Undescended Testis — Timing",
-      "difficulty": "Medium",
-      "question": "Orchidopexy for a palpable undescended testis is ideally performed at what age, to optimise fertility outcomes?",
-      "options": {
-        "A": "Immediately at birth",
-        "B": "Between 6 and 12 months of age",
-        "C": "Only after puberty",
-        "D": "Age has no bearing on fertility outcomes"
-      },
-      "correctAnswer": "B",
-      "explanation": "Orchidopexy is ideally performed as a day-case procedure between 6 and 12 months of age. Bringing the testis into the scrotum (below core body temperature) at a young age optimises spermatogenesis and fertility outcomes.",
-      "sourceBook": "Bailey & Love's Short Practice of Surgery",
-      "sourceChapter": "Principles of Paediatric Surgery — Undescended Testes",
-      "sourcePage": null,
-      "subject": "General Surgery & Orthopedics"
-    },
-    {
-      "id": 5,
-      "topic": "Biology of Behavior",
-      "subtopic": "Motor Cortex",
-      "difficulty": "Medium",
-      "question": "Damage to the motor cortex on the LEFT side of the brain will typically produce movement weakness on which side of the body?",
-      "options": {
-        "A": "The left side (same side)",
-        "B": "The right side (opposite side), because motor fibers cross to the other side below the head",
-        "C": "Both sides equally",
-        "D": "Neither side — motor cortex damage never affects limb movement"
-      },
-      "correctAnswer": "B",
-      "explanation": "Fibers from the motor cortex on one side of the brain cross to the opposite side of the body on their way down to the spinal cord. So damage to the left motor cortex produces weakness, loss of dexterity, or spastic paralysis on the right side of the body below the head.",
-      "sourceBook": "Morgan & King, Introduction to Psychology",
-      "sourceChapter": "Biology of Behavior — Sensory and Motor Functions",
-      "sourcePage": null,
-      "subject": "Psychology"
-    },
-    {
-      "id": 6,
-      "topic": "Anxiety Disorders",
-      "subtopic": "Treatment",
-      "difficulty": "Medium",
-      "question": "Beta-blockers such as propranolol are particularly useful for which type of anxiety?",
-      "options": {
-        "A": "Generalised anxiety disorder as first-line, long-term therapy",
-        "B": "Anticipatory anxiety (e.g. before public speaking or examinations)",
-        "C": "Anxiety secondary to hypothyroidism only",
-        "D": "Obsessive-compulsive disorder"
-      },
-      "correctAnswer": "B",
-      "explanation": "Beta-blockers like propranolol and atenolol are particularly useful in managing anticipatory anxiety (such as anxiety before going on stage or sitting an exam), by controlling the physical/autonomic symptoms of anxiety, though care is needed in patients with asthma, bradycardia, or heart block.",
-      "sourceBook": "Ahuja, A Short Textbook of Psychiatry",
-      "sourceChapter": "Neurotic, Stress-related and Somatoform Disorders — Anxiety Disorder, Treatment",
-      "sourcePage": null,
-      "subject": "Psychiatry"
-    },
-    {
-      "id": 7,
-      "topic": "Biology of Behavior",
-      "subtopic": "Limbic System",
-      "difficulty": "Medium",
-      "question": "Which two limbic system structures are most strongly implicated in the formation of new memories?",
-      "options": {
-        "A": "The olfactory bulb and septal nuclei",
-        "B": "The hippocampus and the amygdala",
-        "C": "The cingulate gyrus and corpus callosum",
-        "D": "The thalamus and cerebellum"
-      },
-      "correctAnswer": "B",
-      "explanation": "Among the limbic system structures (olfactory bulb, septal nuclei, hippocampus, amygdala, cingulate gyrus), the hippocampus and amygdala in particular play a key role in the formation of new memories — as dramatically illustrated by the case of patient H.M., whose bilateral removal of these structures left him unable to form new long-term memories.",
-      "sourceBook": "Morgan & King, Introduction to Psychology",
-      "sourceChapter": "Biology of Behavior — Forebrain: Limbic System",
-      "sourcePage": null,
-      "subject": "Psychology"
-    },
-    {
-      "id": 8,
-      "topic": "Paediatric Trauma",
-      "subtopic": "Solid Organ Injury",
-      "difficulty": "Medium",
-      "question": "Isolated blunt liver or splenic injury in a haemodynamically stable child is generally best managed by:",
-      "options": {
-        "A": "Immediate laparotomy in every case",
-        "B": "Non-operative management with observation",
-        "C": "Immediate splenectomy regardless of severity",
-        "D": "Discharge home with no follow-up"
-      },
-      "correctAnswer": "B",
-      "explanation": "Isolated liver or splenic injury in a stable child can usually be managed non-operatively, with laparotomy reserved for ongoing intra-abdominal bleeding; uncomplicated cases can often be discharged after 5-7 days with a period of restricted activity.",
-      "sourceBook": "Bailey & Love's Short Practice of Surgery",
-      "sourceChapter": "Principles of Paediatric Surgery — Paediatric Trauma",
-      "sourcePage": null,
-      "subject": "General Surgery & Orthopedics"
-    },
-    {
-      "id": 9,
-      "topic": "Cardiopulmonary Assessment",
-      "subtopic": "Sputum",
-      "difficulty": "Medium",
-      "question": "'Rusty' coloured sputum is classically associated with infection by which organism?",
-      "options": {
-        "A": "Pseudomonas",
-        "B": "Pneumococcus",
-        "C": "Haemophilus",
-        "D": "Klebsiella"
-      },
-      "correctAnswer": "B",
-      "explanation": "Rusty-coloured sputum is a classic finding associated with pneumococcal infection (typical lobar pneumonia), whereas dark green/brown sputum suggests Pseudomonas, and 'red-currant jelly' sputum suggests Klebsiella.",
-      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
-      "sourceChapter": "Assessment — Sputum",
-      "sourcePage": null,
-      "subject": "Physiotherapy in General Medical & Surgical Condition"
-    },
-    {
-      "id": 10,
-      "topic": "Anxiety Disorders",
-      "subtopic": "Panic Disorder",
-      "difficulty": "Medium",
-      "question": "Which of these is a classic feature of a panic attack, as distinguished from generalised anxiety?",
-      "options": {
-        "A": "Gradual worsening of mild anxiety over several months",
-        "B": "A sudden, discrete episode of severe anxiety, often beginning unexpectedly 'out of the blue' and lasting only a few minutes",
-        "C": "Anxiety present continuously for years without any discrete episodes",
-        "D": "Anxiety that only occurs during sleep"
-      },
-      "correctAnswer": "B",
-      "explanation": "Panic disorder is characterised by discrete episodes of acute, severe anxiety that begin suddenly, often 'out of the blue' with no apparent precipitant, and last for a few minutes — quite different from the more continuous, lower-grade anxiety of generalised anxiety disorder.",
-      "sourceBook": "Ahuja, A Short Textbook of Psychiatry",
-      "sourceChapter": "Neurotic, Stress-related and Somatoform Disorders — Anxiety Disorder",
-      "sourcePage": null,
-      "subject": "Psychiatry"
-    },
-    {
-      "id": 11,
-      "topic": "Paediatric Surgery",
-      "subtopic": "Inguinal Hernia vs Hydrocoele",
-      "difficulty": "Medium",
-      "question": "A patent processus vaginalis that allows peritoneal fluid (but no bowel) to track down into the scrotum results in:",
-      "options": {
-        "A": "An inguinal hernia",
-        "B": "A hydrocoele",
-        "C": "A varicocele",
-        "D": "Testicular torsion"
-      },
-      "correctAnswer": "B",
-      "explanation": "When a patent processus vaginalis allows only peritoneal fluid (not bowel) to track into the scrotum, the result is a hydrocoele — typically a non-tender, transilluminating scrotal swelling, distinct from an inguinal hernia where bowel or other abdominal content is present.",
-      "sourceBook": "Bailey & Love's Short Practice of Surgery",
-      "sourceChapter": "Principles of Paediatric Surgery — Hydrocoeles",
-      "sourcePage": null,
-      "subject": "General Surgery & Orthopedics"
-    },
-    {
-      "id": 12,
-      "topic": "Epidemiology",
-      "subtopic": "Death Certificate",
-      "difficulty": "Medium",
-      "question": "On the International Death Certificate, the 'underlying cause of death' is recorded in Part I, and is defined as:",
-      "options": {
-        "A": "The immediate mode of dying, such as 'heart failure' or 'asthenia'",
-        "B": "The disease or injury that initiated the chain of morbid events leading directly to death, or the circumstances of the accident/violence that produced the fatal injury",
-        "C": "Any condition present at death regardless of its role in causing it",
-        "D": "Only conditions diagnosed after an autopsy"
-      },
-      "correctAnswer": "B",
-      "explanation": "The underlying cause of death is the disease or injury that initiated the train of morbid events leading directly to death, or the circumstances of the accident/violence producing the fatal injury — the certificate explicitly notes this does NOT mean the immediate mode of dying (e.g. 'heart failure' or 'asthenia' are not acceptable as the underlying cause).",
-      "sourceBook": "Park's Textbook of Preventive and Social Medicine",
-      "sourceChapter": "Measurement of Mortality — International Death Certificate",
-      "sourcePage": "56",
-      "subject": "Physiotherapy in Community Health"
-    },
-    {
-      "id": 13,
-      "topic": "Normal Puerperium",
-      "subtopic": "Lactation Physiology",
-      "difficulty": "Medium",
-      "question": "Which hormone is chiefly responsible for the 'milk ejection' or 'let-down' reflex during breastfeeding?",
-      "options": {
-        "A": "Prolactin",
-        "B": "Oxytocin",
-        "C": "Progesterone",
-        "D": "Follicle-stimulating hormone (FSH)"
-      },
-      "correctAnswer": "B",
-      "explanation": "Oxytocin is the major galactokinetic hormone: suckling triggers a neural reflex arc to the hypothalamus, causing oxytocin release from the posterior pituitary, which contracts the myoepithelial cells around the alveoli and ducts, forcing milk down into the lactiferous ducts (the 'let-down' reflex). Prolactin, by contrast, drives milk secretion itself (lactogenesis/galactopoiesis), not its ejection.",
-      "sourceBook": "Dutta's Textbook of Obstetrics",
-      "sourceChapter": "Normal Puerperium — Physiology of Lactation, Galactokinesis",
-      "sourcePage": null,
-      "subject": "OBGY"
-    },
-    {
-      "id": 14,
       "topic": "Cardiopulmonary Assessment",
       "subtopic": "Chest Pain",
       "difficulty": "Medium",
@@ -278,118 +31,365 @@
       "subject": "Physiotherapy in General Medical & Surgical Condition"
     },
     {
-      "id": 15,
-      "topic": "Infectious and Parasitic Diseases",
-      "subtopic": "Malaria",
+      "id": 2,
+      "topic": "Biology of Behavior",
+      "subtopic": "Case Study — Patient H.M.",
       "difficulty": "Medium",
-      "question": "Massive haemoglobin absorption by the renal tubules in severe falciparum malaria produces which complication?",
+      "question": "Despite his severe memory problems, patient H.M. had relatively normal short-term memory (e.g. could repeat six numbers forward after hearing them once) and intact memories from before his operation. What was specifically impaired?",
       "options": {
-        "A": "Blackwater fever (haemoglobinuric nephrosis)",
-        "B": "Cerebral malaria",
-        "C": "Splenic rupture",
-        "D": "Hepatosplenomegaly"
+        "A": "His ability to form new long-term memories",
+        "B": "His personality and IQ, both of which dropped sharply",
+        "C": "His sense of touch and vision",
+        "D": "His ability to speak or understand language"
       },
       "correctAnswer": "A",
-      "explanation": "In falciparum malaria, massive absorption of haemoglobin (released by destroyed red cells) by the renal tubules produces blackwater fever, also called haemoglobinuric nephrosis.",
-      "sourceBook": "Harsh Mohan, Textbook of Pathology",
-      "sourceChapter": "Infectious and Parasitic Diseases — Malaria",
+      "explanation": "H.M.'s deficit was specifically in forming new long-term memories (anterograde amnesia) — his immediate/short-term memory and his remote memories from before the surgery were largely preserved, illustrating that short-term and long-term memory, and the process of consolidating one into the other, are at least partly separable.",
+      "sourceBook": "Morgan & King, Introduction to Psychology",
+      "sourceChapter": "Biology of Behavior — Temporal-Lobe Association Cortex, Memory Functions",
       "sourcePage": null,
-      "subject": "Pathology & Microbiology"
+      "subject": "Psychology"
     },
     {
-      "id": 16,
-      "topic": "Normal Puerperium",
-      "subtopic": "Postnatal Backache",
+      "id": 3,
+      "topic": "Paediatric Surgery",
+      "subtopic": "Hypospadias",
       "difficulty": "Medium",
-      "question": "A postnatal patient reports backache localized specifically over the lumbar region (rather than the sacrum). This location most likely points to:",
+      "question": "In hypospadias, why is ritual/routine circumcision specifically contraindicated in the newborn period?",
       "options": {
-        "A": "Pelvic pathology exclusively",
-        "B": "An orthopedic condition, which is often relieved by physiotherapy",
-        "C": "It always indicates retained products of conception",
-        "D": "It is never a genuine finding after delivery"
+        "A": "Circumcision is never contraindicated in any condition",
+        "B": "The foreskin is often needed later for the surgical reconstruction of the hypospadias",
+        "C": "Hypospadias makes circumcision technically impossible",
+        "D": "It has no bearing on hypospadias management at all"
       },
       "correctAnswer": "B",
-      "explanation": "Postnatal backache over the sacrum is more likely due to pelvic pathology, while backache over the lumbar region is more likely due to an orthopedic cause, and is often relieved by physiotherapy.",
-      "sourceBook": "Dutta's Textbook of Obstetrics",
-      "sourceChapter": "Normal Puerperium — Postnatal Care, Management of Ailments",
+      "explanation": "In hypospadias, the deficient ventral foreskin tissue is often required for the surgical reconstruction of the urethra later on, so removing it via routine circumcision in infancy would compromise the corrective surgery.",
+      "sourceBook": "Bailey & Love's Short Practice of Surgery",
+      "sourceChapter": "Principles of Paediatric Surgery — Hypospadias",
       "sourcePage": null,
-      "subject": "OBGY"
+      "subject": "General Surgery & Orthopedics"
     },
     {
-      "id": 17,
-      "topic": "Upper Limb",
-      "subtopic": "Forearm Bones",
+      "id": 4,
+      "topic": "Knee Assessment",
+      "subtopic": "Special Tests — Patellofemoral",
       "difficulty": "Medium",
-      "question": "The ulna is often described as the 'stabilising bone' of the forearm because:",
+      "question": "Which special test is specifically associated with assessing patellofemoral (patellar) instability?",
       "options": {
-        "A": "Its trochlear notch grips the lower end of the humerus, giving the radius a stable foundation from which to pronate and supinate",
-        "B": "It is the only bone that moves during pronation/supination",
-        "C": "It bears the entire weight of the upper limb at the wrist joint",
-        "D": "It has no muscular attachments, unlike the radius"
+        "A": "The apprehension test",
+        "B": "McMurray test",
+        "C": "Hughston's plica test",
+        "D": "The bounce home test"
       },
       "correctAnswer": "A",
-      "explanation": "The ulna's trochlear notch grips the lower end of the humerus at the elbow, forming a stable hinge. This gives the radius the fixed foundation it needs to rotate around the ulna for efficient pronation and supination of the hand.",
+      "explanation": "The apprehension test is used to assess for patellar instability — the examiner laterally displaces the patella and observes for a look or feeling of apprehension from the patient, who fears the patella is about to dislocate.",
+      "sourceBook": "Magee, Orthopedic Physical Assessment",
+      "sourceChapter": "Chapter 12: Knee — Special Tests Commonly Performed on the Knee",
+      "sourcePage": null,
+      "subject": "Physiotherapy in Musculoskeletal Condition"
+    },
+    {
+      "id": 5,
+      "topic": "Receptor Pharmacology",
+      "subtopic": "Enzyme Inhibition",
+      "difficulty": "Medium",
+      "question": "Allopurinol reduces uric acid production by acting as a competitive inhibitor of which enzyme?",
+      "options": {
+        "A": "Angiotensin converting enzyme (ACE)",
+        "B": "Xanthine oxidase",
+        "C": "Cholinesterase",
+        "D": "Dopa decarboxylase"
+      },
+      "correctAnswer": "B",
+      "explanation": "Allopurinol competitively inhibits xanthine oxidase, the enzyme that converts hypoxanthine to uric acid, which is why it is used to lower uric acid levels (e.g. in gout).",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
+      "sourcePage": null,
+      "subject": "Pharmacology"
+    },
+    {
+      "id": 6,
+      "topic": "Biology of Behavior",
+      "subtopic": "Language Areas",
+      "difficulty": "Medium",
+      "question": "Damage to Wernicke's area, located in the left temporal lobe, characteristically produces speech that is:",
+      "options": {
+        "A": "Completely absent — the patient cannot make any sound",
+        "B": "Fluent in output but conveying little actual meaning, with impaired understanding of speech and written language",
+        "C": "Slow and effortful but perfectly meaningful",
+        "D": "Normal in every respect except pitch"
+      },
+      "correctAnswer": "B",
+      "explanation": "Wernicke's area damage markedly impairs comprehension of spoken and written language. Characteristically, the patient's own speech remains fluent in its flow and rhythm but conveys little coherent meaning.",
+      "sourceBook": "Morgan & King, Introduction to Psychology",
+      "sourceChapter": "Biology of Behavior — Temporal-Lobe Association Cortex, Language Functions",
+      "sourcePage": null,
+      "subject": "Psychology"
+    },
+    {
+      "id": 7,
+      "topic": "Anxiety Disorders",
+      "subtopic": "Generalised Anxiety Disorder",
+      "difficulty": "Medium",
+      "question": "For a diagnosis of Generalised Anxiety Disorder (GAD), the symptoms of anxiety should have persisted for at least:",
+      "options": {
+        "A": "1 week",
+        "B": "1 month",
+        "C": "6 months",
+        "D": "2 years"
+      },
+      "correctAnswer": "C",
+      "explanation": "Generalised Anxiety Disorder requires anxiety symptoms to have lasted for at least 6 months, with an insidious onset typically in the third decade and a stable, usually chronic course.",
+      "sourceBook": "Ahuja, A Short Textbook of Psychiatry",
+      "sourceChapter": "Neurotic, Stress-related and Somatoform Disorders — Anxiety Disorder",
+      "sourcePage": null,
+      "subject": "Psychiatry"
+    },
+    {
+      "id": 8,
+      "topic": "Upper Limb",
+      "subtopic": "Carpal Bones — Clinical",
+      "difficulty": "Medium",
+      "question": "A fall on the outstretched hand causing tenderness in the anatomical snuff box most classically suggests a fracture of which carpal bone?",
+      "options": {
+        "A": "Lunate",
+        "B": "Pisiform",
+        "C": "Scaphoid",
+        "D": "Hamate"
+      },
+      "correctAnswer": "C",
+      "explanation": "Scaphoid fracture is common after a fall on the outstretched hand and classically presents with tenderness and swelling in the anatomical snuff box, plus pain on longitudinal percussion of the thumb and index finger.",
       "sourceBook": "BD Chaurasia's Human Anatomy — Upper Limb",
-      "sourceChapter": "Bones of the Upper Limb — Clinical Anatomy",
+      "sourceChapter": "Bones of the Upper Limb — Carpal Bones, Clinical Anatomy",
       "sourcePage": null,
       "subject": "Anatomy"
     },
     {
-      "id": 18,
-      "topic": "Infectious and Parasitic Diseases",
-      "subtopic": "Filariasis",
+      "id": 9,
+      "topic": "Stroke",
+      "subtopic": "Hemorrhagic Stroke",
       "difficulty": "Medium",
-      "question": "The chronic form of filariasis, characterised by lymphoedema and gross thickening of the skin of the legs/scrotum, is known as:",
+      "question": "Subarachnoid hemorrhage (SH) typically results from rupture of which type of vascular lesion?",
       "options": {
-        "A": "Elephantiasis",
-        "B": "Cysticercosis",
-        "C": "Amoeboma",
-        "D": "Blackwater fever"
+        "A": "A saccular (berry) aneurysm affecting large blood vessels",
+        "B": "Small penetrating vessel disease (lacunar disease)",
+        "C": "Atherosclerotic plaque in the carotid artery only",
+        "D": "Venous thrombosis in the dural sinuses exclusively"
       },
       "correctAnswer": "A",
-      "explanation": "Chronic filariasis (caused by Wuchereria bancrofti or Brugia malayi) produces lymphadenopathy, lymphoedema, hydrocele, and elephantiasis — enormous thickening and induration of the skin, resembling the hide of an elephant, due to chronic lymphatic obstruction.",
-      "sourceBook": "Harsh Mohan, Textbook of Pathology",
-      "sourceChapter": "Infectious and Parasitic Diseases — Filariasis",
+      "explanation": "Subarachnoid hemorrhage typically occurs from bleeding into the subarachnoid space, most often from rupture of a saccular (berry) aneurysm affecting the larger cerebral blood vessels, often related to congenital weakness in the vessel wall.",
+      "sourceBook": "O'Sullivan, Physical Rehabilitation",
+      "sourceChapter": "Chapter 15: Stroke — Pathophysiology",
       "sourcePage": null,
-      "subject": "Pathology & Microbiology"
+      "subject": "Physiotherapy in Neurosciences"
+    },
+    {
+      "id": 10,
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Modified (Surged) Faradic Currents",
+      "difficulty": "Medium",
+      "question": "Faradic-type currents are typically 'surged' for treatment purposes. What is the purpose of surging the current?",
+      "options": {
+        "A": "To reduce the total treatment time",
+        "B": "To produce a near-normal tetanic-like contraction and relaxation of the muscle, by gradually increasing then decreasing the intensity of successive impulses",
+        "C": "To eliminate the need for any electrodes",
+        "D": "To convert the current into direct current permanently"
+      },
+      "correctAnswer": "B",
+      "explanation": "Surging gradually increases the intensity of successive impulses to a peak, then lets it fall (suddenly or gradually), mimicking a more natural, near-normal tetanic muscle contraction and relaxation cycle rather than an abrupt on/off stimulus.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Modified Faradic Currents",
+      "sourcePage": "41",
+      "subject": "Fundamentals of Electro Therapy"
+    },
+    {
+      "id": 11,
+      "topic": "Adverse Drug Effects",
+      "subtopic": "Teratogenicity",
+      "difficulty": "Medium",
+      "question": "Which historical event brought major attention to drug teratogenicity, resulting in thousands of infants born with phocomelia (seal-like limbs)?",
+      "options": {
+        "A": "The thalidomide disaster (1958-61)",
+        "B": "The discovery of penicillin",
+        "C": "The introduction of aspirin",
+        "D": "The polio vaccine trials"
+      },
+      "correctAnswer": "A",
+      "explanation": "The thalidomide disaster (1958-61) resulted in thousands of babies born with phocomelia and other defects after the drug was used by pregnant women, and is the landmark event that focused medical attention on drug teratogenicity.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Adverse Drug Effects — Teratogenicity",
+      "sourcePage": null,
+      "subject": "Pharmacology"
+    },
+    {
+      "id": 12,
+      "topic": "Stroke",
+      "subtopic": "Risk Factors",
+      "difficulty": "Medium",
+      "question": "Which of the following is described as a powerful, independent risk factor for stroke, associated with roughly a fivefold increase in risk?",
+      "options": {
+        "A": "Atrial fibrillation",
+        "B": "Seasonal allergies",
+        "C": "Mild anaemia",
+        "D": "Occasional caffeine intake"
+      },
+      "correctAnswer": "A",
+      "explanation": "Atrial fibrillation is described as a powerful risk factor for stroke, associated with approximately a fivefold increase in stroke risk, due to its potential to generate cardiac emboli.",
+      "sourceBook": "O'Sullivan, Physical Rehabilitation",
+      "sourceChapter": "Chapter 15: Stroke — Risk Factors and Stroke Prevention",
+      "sourcePage": null,
+      "subject": "Physiotherapy in Neurosciences"
+    },
+    {
+      "id": 13,
+      "topic": "Antenatal Care",
+      "subtopic": "Timing of First Visit",
+      "difficulty": "Medium",
+      "question": "According to standard antenatal care guidance, the first antenatal visit should not be deferred beyond:",
+      "options": {
+        "A": "The second missed period",
+        "B": "The 20th week of pregnancy",
+        "C": "The onset of labor",
+        "D": "There is no recommended timing"
+      },
+      "correctAnswer": "A",
+      "explanation": "The first antenatal visit should not be deferred beyond the second missed menstrual period — it may occur even earlier if the patient is considering termination of the pregnancy.",
+      "sourceBook": "Dutta's Textbook of Obstetrics",
+      "sourceChapter": "Antenatal Care — Procedure at the First Visit",
+      "sourcePage": null,
+      "subject": "OBGY"
+    },
+    {
+      "id": 14,
+      "topic": "Sleep Disorders",
+      "subtopic": "Narcolepsy",
+      "difficulty": "Medium",
+      "question": "Cataplexy, a feature of the classical narcolepsy tetrad, is characterised by:",
+      "options": {
+        "A": "Vivid dream-like hallucinations at sleep onset",
+        "B": "A sudden loss of muscle tone (e.g. jaw drop or a fall), often precipitated by sudden emotion, with clear consciousness maintained",
+        "C": "Complete loss of consciousness resembling a seizure",
+        "D": "An inability to fall asleep at all"
+      },
+      "correctAnswer": "B",
+      "explanation": "Cataplexy is a sudden loss of muscle tone in various body parts (jaw drop, or paresis of skeletal muscles causing a fall), often precipitated by sudden emotion — importantly, consciousness remains clear and memory is normal during the episode (unless a sleep attack follows).",
+      "sourceBook": "Ahuja, A Short Textbook of Psychiatry",
+      "sourceChapter": "Sleep Disorders — Narcolepsy",
+      "sourcePage": null,
+      "subject": "Psychiatry"
+    },
+    {
+      "id": 15,
+      "topic": "Resistance Exercise",
+      "subtopic": "1-RM Precautions",
+      "difficulty": "Medium",
+      "question": "Why is establishing a 1-RM (single maximum effort) considered inappropriate for certain patient populations, such as those with osteoporosis or cardiovascular pathology?",
+      "options": {
+        "A": "It takes too long to administer in a clinical setting",
+        "B": "It requires a single maximal effort, which carries risk for patients with joint impairments, healing soft tissue, osteoporosis, or cardiovascular pathology",
+        "C": "It is only valid for measuring endurance, not strength",
+        "D": "It cannot be performed using free weights"
+      },
+      "correctAnswer": "B",
+      "explanation": "A 1-RM test requires the patient to exert one true maximal effort, which is unsafe for patients with joint impairments, those recovering from or at risk of soft tissue injury, or those with osteoporosis or cardiovascular pathology — alternative methods (e.g. multiple-RM formulas, dynamometry, percentage of body weight) are used instead for these patients.",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 6: Resistance Exercise — Repetition Maximum, Precautions",
+      "sourcePage": null,
+      "subject": "Kinesio Therapeutics"
+    },
+    {
+      "id": 16,
+      "topic": "Nutrition and Fluid Therapy",
+      "subtopic": "Body Mass Index",
+      "difficulty": "Medium",
+      "question": "A BMI below which threshold is associated with significant hospital mortality risk?",
+      "options": {
+        "A": "25",
+        "B": "20",
+        "C": "15",
+        "D": "30"
+      },
+      "correctAnswer": "C",
+      "explanation": "A BMI of less than 18.5 indicates nutritional impairment, but a BMI below 15 specifically is associated with significant hospital mortality risk.",
+      "sourceBook": "Bailey & Love's Short Practice of Surgery",
+      "sourceChapter": "Nutritional Assessment — Body Weight and Anthropometry",
+      "sourcePage": null,
+      "subject": "General Surgery & Orthopedics"
+    },
+    {
+      "id": 17,
+      "topic": "Manual Muscle Testing",
+      "subtopic": "Functional Correlation",
+      "difficulty": "Medium",
+      "question": "A patient's gluteus medius is graded 4 (Good) on manual muscle testing. Which functional finding is consistent with this grade, per Daniels and Worthingham's discussion of why 'Good' is not always good enough?",
+      "options": {
+        "A": "Completely normal, symmetric gait with no compensation",
+        "B": "A positive Trendelenburg sign during single-leg stance",
+        "C": "Complete inability to abduct the hip against gravity",
+        "D": "No palpable or visible muscle contraction at all"
+      },
+      "correctAnswer": "B",
+      "explanation": "Even a 'Good' (Grade 4) gluteus medius can be functionally inadequate — a positive Trendelenburg sign (contralateral pelvic drop in single-leg stance) can still appear, illustrating the gap between a manual muscle grade and real functional performance.",
+      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+      "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+      "sourcePage": "5",
+      "subject": "Physical Diagnosis & Manipulative Skills"
+    },
+    {
+      "id": 18,
+      "topic": "Obsessive-Compulsive Disorder",
+      "subtopic": "Definitions",
+      "difficulty": "Medium",
+      "question": "What key feature distinguishes an obsession from a delusion?",
+      "options": {
+        "A": "An obsession is recognised as irrational and ego-alien, and the patient tries to resist it; a delusion is firmly believed and not resisted",
+        "B": "A delusion always involves washing rituals while an obsession never does",
+        "C": "Obsessions only occur in schizophrenia",
+        "D": "There is no meaningful difference between the two"
+      },
+      "correctAnswer": "A",
+      "explanation": "An obsession is recognised by the patient as their own thought, but perceived as foreign (ego-alien), irrational, and something they try (unsuccessfully) to resist — insight is present. A delusion, by contrast, is a fixed false belief that the patient does not recognise as irrational and does not resist, because they genuinely believe it.",
+      "sourceBook": "Ahuja, A Short Textbook of Psychiatry",
+      "sourceChapter": "Obsessive-Compulsive Disorder — Definitions",
+      "sourcePage": null,
+      "subject": "Psychiatry"
     },
     {
       "id": 19,
-      "topic": "Neoplasia",
-      "subtopic": "Nomenclature Exceptions",
+      "topic": "Clinical Decision Making",
+      "subtopic": "Treatment Threshold",
       "difficulty": "Medium",
-      "question": "Which of the following tumour names is a notable EXCEPTION to standard nomenclature, since despite ending in '-oma' (usually implying benign), it actually refers to a malignant tumour?",
+      "question": "The concept of a 'treatment threshold' in clinical decision-making primarily balances:",
       "options": {
-        "A": "Lipoma",
-        "B": "Fibroma",
-        "C": "Melanoma",
-        "D": "Adenoma"
+        "A": "The doctor's personal preference against the hospital's budget",
+        "B": "The risks of testing/waiting against the risks and benefits of starting treatment now",
+        "C": "Only the cost of the test, with no consideration of patient risk",
+        "D": "Nothing — treatment thresholds do not exist in evidence-based medicine"
       },
-      "correctAnswer": "C",
-      "explanation": "Although the suffix '-oma' generally denotes a benign tumour, several names break this rule: melanoma (malignant tumour of melanocytes), hepatoma (a term sometimes used for hepatocellular carcinoma), lymphoma (malignant tumour of lymphoid tissue), and seminoma (malignant testicular tumour) are all malignant despite the '-oma' ending.",
-      "sourceBook": "Harsh Mohan, Textbook of Pathology",
-      "sourceChapter": "Neoplasia — Nomenclature and Classification",
+      "correctAnswer": "B",
+      "explanation": "The treatment threshold combines the risks of a test, and the risks versus benefits of treatment, to decide the point at which it makes sense to act. For a low-risk, effective intervention (e.g. antibiotics for a likely UTI), the threshold to act is lower; for a high-risk intervention, more diagnostic certainty is required first.",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Clinical Decision Making — Dealing with Uncertainty",
       "sourcePage": null,
-      "subject": "Pathology & Microbiology"
+      "subject": "Medicine"
     },
     {
       "id": 20,
-      "topic": "Neoplasia",
-      "subtopic": "Special Tumour Categories",
+      "topic": "Sensory Processes and Perception",
+      "subtopic": "Depth Perception",
       "difficulty": "Medium",
-      "question": "Blastomas (embryomas) such as neuroblastoma, nephroblastoma (Wilms' tumour), and retinoblastoma are notable because they:",
+      "question": "When one object partially blocks our view of another, we perceive the unobstructed object as nearer. This monocular depth cue is called:",
       "options": {
-        "A": "Occur almost exclusively in adults over 60",
-        "B": "Arise from embryonal/partially differentiated cells and occur more frequently in infants and children under 5",
-        "C": "Are always benign despite the '-oma' name",
-        "D": "Only occur in the gonads"
+        "A": "Interposition",
+        "B": "Linear perspective",
+        "C": "Texture gradient",
+        "D": "Binocular disparity"
       },
-      "correctAnswer": "B",
-      "explanation": "Blastomas arise from embryonal or partially differentiated cells that would normally form the blastema of organs/tissues during embryogenesis, and occur more frequently in infants and children under 5 years of age.",
-      "sourceBook": "Harsh Mohan, Textbook of Pathology",
-      "sourceChapter": "Neoplasia — Special Categories of Tumours",
+      "correctAnswer": "A",
+      "explanation": "Interposition is the monocular cue where one object obstructing our view of another causes the fully visible object to be perceived as nearer, and the partially hidden object as farther away.",
+      "sourceBook": "Morgan & King, Introduction to Psychology",
+      "sourceChapter": "Sensory Processes and Perception — Monocular Cues for Depth Perception",
       "sourcePage": null,
-      "subject": "Pathology & Microbiology"
+      "subject": "Psychology"
     }
   ]
 }

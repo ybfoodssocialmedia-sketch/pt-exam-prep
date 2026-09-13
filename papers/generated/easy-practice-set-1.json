@@ -2,7 +2,7 @@
   "paperId": "easy-practice-set-1",
   "paperName": "Easy Practice Set 1",
   "subject": "Mixed",
-  "description": "Easy-difficulty practice set (20 questions) covering: Biochemistry, Fundamentals of Exercise Therapy, Kinesio Therapeutics, Medicine, Pathology & Microbiology, Pharmacology, Physical Diagnosis & Manipulative Skills, Physiology, Physiotherapy in Community Health, Physiotherapy in General Medical & Surgical Condition, Psychiatry, Psychology.",
+  "description": "Easy-difficulty practice set (20 questions) covering: Anatomy, Biochemistry, Fundamentals of Electro Therapy, Fundamentals of Exercise Therapy, Medicine, OBGY, Pathology & Microbiology, Pharmacology, Physiology, Physiotherapy in Community Health, Physiotherapy in General Medical & Surgical Condition, Psychiatry, Psychology.",
   "durationMinutes": 90,
   "scoring": {
     "correct": 1,
@@ -13,253 +13,25 @@
   "questions": [
     {
       "id": 1,
-      "topic": "Range of Motion",
-      "subtopic": "Continuous Passive Motion",
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Faradic-Type Current",
       "difficulty": "Easy",
-      "question": "Continuous Passive Motion (CPM) is best described as:",
+      "question": "A faradic-type current is best defined as:",
       "options": {
-        "A": "An exercise in which the patient actively moves a joint against resistance",
-        "B": "A mechanical device that moves a joint slowly and continuously through a controlled range of motion, without effort from the patient",
-        "C": "A manual stretching technique applied by the therapist at end-range",
-        "D": "A functional movement pattern combining several joints at once"
+        "A": "A continuous, unvarying direct current",
+        "B": "A short-duration interrupted direct current with a pulse duration of 0.1-1 ms and a frequency of 50-100 Hz",
+        "C": "A current only used for denervated muscle",
+        "D": "A current with pulse durations always exceeding 100 ms"
       },
       "correctAnswer": "B",
-      "explanation": "CPM refers specifically to a mechanical device that passively and continuously moves a joint through a set arc of motion, developed following Robert Salter's research into the healing benefits of continual passive movement on joint tissue.",
-      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
-      "sourceChapter": "Chapter 3: Range of Motion — Continuous Passive Motion",
-      "sourcePage": null,
-      "subject": "Fundamentals of Exercise Therapy"
+      "explanation": "A faradic-type current is a short-duration interrupted direct current with a pulse duration of 0.1-1 ms and a frequency of 50-100 Hz — modern electronic stimulators reproduce the same physiological effects as the original faradic coil, just via a different circuit mechanism.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Faradic-Type Current",
+      "sourcePage": "40",
+      "subject": "Fundamentals of Electro Therapy"
     },
     {
       "id": 2,
-      "topic": "Proteins and Amino Acids",
-      "subtopic": "Protein Structure",
-      "difficulty": "Easy",
-      "question": "The unique sequence of amino acids in a protein, determined by the genes in DNA, is called its:",
-      "options": {
-        "A": "Secondary structure",
-        "B": "Primary structure",
-        "C": "Tertiary structure",
-        "D": "Quaternary structure"
-      },
-      "correctAnswer": "B",
-      "explanation": "The primary structure of a protein is its specific linear sequence of amino acids, determined by the genetic code. It is largely responsible for the protein's function, and a large number of genetic diseases arise from abnormalities in this amino acid sequence.",
-      "sourceBook": "Satyanarayana, Biochemistry",
-      "sourceChapter": "Proteins and Amino Acids — Primary Structure",
-      "sourcePage": null,
-      "subject": "Biochemistry"
-    },
-    {
-      "id": 3,
-      "topic": "Resistance Exercise",
-      "subtopic": "Repetition Maximum",
-      "difficulty": "Easy",
-      "question": "A 'repetition maximum' (RM), as first described by DeLorme, is defined as:",
-      "options": {
-        "A": "The greatest amount of weight a muscle can move through full available ROM a specific number of times before fatiguing",
-        "B": "The maximum number of exercise sessions a patient can complete in a week",
-        "C": "The total duration in months of a resistance training program",
-        "D": "A measure of joint range of motion only"
-      },
-      "correctAnswer": "A",
-      "explanation": "A repetition maximum (RM) is the greatest amount of weight (load) a muscle can move through the full available range of motion, with control, a specific number of times before fatiguing — e.g. a '10-RM' is the maximum weight that can be lifted through 10 repetitions.",
-      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
-      "sourceChapter": "Chapter 6: Resistance Exercise — Repetition Maximum",
-      "sourcePage": null,
-      "subject": "Kinesio Therapeutics"
-    },
-    {
-      "id": 4,
-      "topic": "Cardiopulmonary Assessment",
-      "subtopic": "Glasgow Coma Scale",
-      "difficulty": "Easy",
-      "question": "On the Glasgow Coma Scale, what is the maximum total score, and what does it represent?",
-      "options": {
-        "A": "10, representing moderate impairment",
-        "B": "15, representing a fully alert, orientated patient",
-        "C": "3, the best possible score",
-        "D": "100, on a percentage-based scale"
-      },
-      "correctAnswer": "B",
-      "explanation": "The Glasgow Coma Scale has a maximum total score of 15 (best possible — eye opening 4, verbal response 5, motor response 6), representing full alertness, and a minimum score of 3, representing the deepest level of unresponsiveness.",
-      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
-      "sourceChapter": "Assessment — Objective Assessment, Coma Scale",
-      "sourcePage": null,
-      "subject": "Physiotherapy in General Medical & Surgical Condition"
-    },
-    {
-      "id": 5,
-      "topic": "Membrane Potentials",
-      "subtopic": "Resting Membrane Potential",
-      "difficulty": "Easy",
-      "question": "The resting membrane potential is conventionally written with a minus sign because:",
-      "options": {
-        "A": "It signifies the inside of the cell is negative relative to the outside",
-        "B": "It signifies the outside of the cell is negative relative to the inside",
-        "C": "The sign is arbitrary and carries no physiological meaning",
-        "D": "It indicates the cell is in the process of depolarising"
-      },
-      "correctAnswer": "A",
-      "explanation": "The resting membrane potential is written with a minus sign to indicate that, at rest, the interior of the cell is electrically negative relative to the exterior — its magnitude varies by tissue, typically ranging from about -10 mV to -100 mV.",
-      "sourceBook": "AK Jain, Physiology",
-      "sourceChapter": "The Membrane Potentials — Resting Membrane Potential",
-      "sourcePage": null,
-      "subject": "Physiology"
-    },
-    {
-      "id": 6,
-      "topic": "Membrane Potentials",
-      "subtopic": "Membrane Permeability",
-      "difficulty": "Easy",
-      "question": "At rest, the cell membrane is:",
-      "options": {
-        "A": "Freely permeable to Na+ but impermeable to K+",
-        "B": "Effectively impermeable (or only moderately permeable) to Na+, but freely permeable to K+ and Cl-",
-        "C": "Equally permeable to Na+ and K+",
-        "D": "Impermeable to all ions including K+ and Cl-"
-      },
-      "correctAnswer": "B",
-      "explanation": "At rest, the cell membrane is effectively impermeable (or only moderately permeable) to Na+, while being freely permeable to K+ and Cl- — K+ permeability is roughly 50-100 times greater than Na+ permeability, which is fundamental to the genesis of the resting membrane potential.",
-      "sourceBook": "AK Jain, Physiology",
-      "sourceChapter": "The Membrane Potentials — Introduction",
-      "sourcePage": null,
-      "subject": "Physiology"
-    },
-    {
-      "id": 7,
-      "topic": "Biology of Behavior",
-      "subtopic": "Cerebral Lobes",
-      "difficulty": "Easy",
-      "question": "Visual input from the eyes is primarily processed in which lobe of the cerebral cortex?",
-      "options": {
-        "A": "Frontal lobe",
-        "B": "Parietal lobe",
-        "C": "Temporal lobe",
-        "D": "Occipital lobe"
-      },
-      "correctAnswer": "D",
-      "explanation": "Visual input travels to the primary visual sensory area located in the occipital lobe, at the back of the cerebrum, where it is initially processed before being passed to visual association areas.",
-      "sourceBook": "Morgan & King, Introduction to Psychology",
-      "sourceChapter": "Biology of Behavior — Forebrain: Cerebrum, Sensory and Motor Functions",
-      "sourcePage": null,
-      "subject": "Psychology"
-    },
-    {
-      "id": 8,
-      "topic": "Resistance Exercise",
-      "subtopic": "Types of Muscle Contraction",
-      "difficulty": "Easy",
-      "question": "When the velocity of a limb movement is held constant by a rate-controlling device during exercise, this is referred to as:",
-      "options": {
-        "A": "Isometric contraction",
-        "B": "Isokinetic contraction",
-        "C": "Isotonic contraction only",
-        "D": "Passive contraction"
-      },
-      "correctAnswer": "B",
-      "explanation": "An isokinetic contraction is one where the velocity of limb movement is held constant by a rate-controlling device (an isokinetic dynamometer), distinguishing it from standard dynamic (isotonic) exercise where velocity is not controlled.",
-      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
-      "sourceChapter": "Chapter 6: Resistance Exercise — Type of Muscle Contraction",
-      "sourcePage": null,
-      "subject": "Kinesio Therapeutics"
-    },
-    {
-      "id": 9,
-      "topic": "Proteins and Amino Acids",
-      "subtopic": "Peptide Nomenclature",
-      "difficulty": "Easy",
-      "question": "By convention, when writing a peptide chain, which end is placed on the left?",
-      "options": {
-        "A": "The C-terminal (free carboxyl) end",
-        "B": "The N-terminal (free amino) end",
-        "C": "Whichever end is larger",
-        "D": "There is no fixed convention"
-      },
-      "correctAnswer": "B",
-      "explanation": "Peptide chains are conventionally written with the N-terminal residue (free amino end) on the left and the C-terminal residue (free carboxyl end) on the right; the sequence is read from N-terminal to C-terminal, matching the direction protein biosynthesis proceeds in.",
-      "sourceBook": "Satyanarayana, Biochemistry",
-      "sourceChapter": "Proteins and Amino Acids — Peptide Bond",
-      "sourcePage": null,
-      "subject": "Biochemistry"
-    },
-    {
-      "id": 10,
-      "topic": "Biology of Behavior",
-      "subtopic": "Cerebral Cortex Structure",
-      "difficulty": "Easy",
-      "question": "The corpus callosum's main function is to:",
-      "options": {
-        "A": "Produce hormones for the endocrine system",
-        "B": "Connect corresponding areas of the cortex in one cerebral hemisphere with the other hemisphere",
-        "C": "Carry sound information from the ear to the temporal lobe",
-        "D": "Regulate body temperature directly"
-      },
-      "correctAnswer": "B",
-      "explanation": "The corpus callosum is a large bundle of nerve fibers that connects corresponding areas of the cortex in the left and right cerebral hemispheres, allowing communication and integration between the two sides of the brain.",
-      "sourceBook": "Morgan & King, Introduction to Psychology",
-      "sourceChapter": "Biology of Behavior — Forebrain: Cerebrum, Structure",
-      "sourcePage": null,
-      "subject": "Psychology"
-    },
-    {
-      "id": 11,
-      "topic": "Receptor Pharmacology",
-      "subtopic": "Agonists and Antagonists",
-      "difficulty": "Easy",
-      "question": "A 'partial agonist' is best described as a drug that:",
-      "options": {
-        "A": "Blocks a receptor completely with no effect of its own",
-        "B": "Activates a receptor to produce a submaximal effect, and can also antagonize a full agonist",
-        "C": "Produces an effect opposite to that of the natural agonist",
-        "D": "Binds only to enzymes, never to receptors"
-      },
-      "correctAnswer": "B",
-      "explanation": "A partial agonist has affinity for the receptor and submaximal intrinsic activity (between 0 and 1) — it produces a weaker effect than a full agonist, and because it occupies the receptor, it can also blunt (antagonize) the effect of a full agonist present at the same time.",
-      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
-      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
-      "sourcePage": null,
-      "subject": "Pharmacology"
-    },
-    {
-      "id": 12,
-      "topic": "Obsessive-Compulsive Disorder",
-      "subtopic": "Clinical Syndromes",
-      "difficulty": "Easy",
-      "question": "Which clinical subtype of OCD, involving obsessions about contamination with dirt or germs and repeated hand/body washing, is described as the commonest type?",
-      "options": {
-        "A": "Checkers",
-        "B": "Washers",
-        "C": "Pure obsessions",
-        "D": "Primary obsessive slowness"
-      },
-      "correctAnswer": "B",
-      "explanation": "'Washers' is the most common OCD syndrome, involving obsessions of contamination (dirt, germs, body excretions) with compensatory compulsive washing of hands, body, clothes, or surroundings that gradually spreads to more and more objects/situations.",
-      "sourceBook": "Ahuja, A Short Textbook of Psychiatry",
-      "sourceChapter": "Obsessive-Compulsive Disorder — Clinical Syndromes",
-      "sourcePage": null,
-      "subject": "Psychiatry"
-    },
-    {
-      "id": 13,
-      "topic": "Receptor Pharmacology",
-      "subtopic": "Silent Receptors",
-      "difficulty": "Easy",
-      "question": "A binding site that attaches a drug but produces no pharmacological response at all (e.g. many plasma protein binding sites) is best termed a:",
-      "options": {
-        "A": "Full agonist site",
-        "B": "Silent receptor (or drug acceptor / site of loss)",
-        "C": "Orphan receptor",
-        "D": "Allosteric activator"
-      },
-      "correctAnswer": "B",
-      "explanation": "Sites that bind a drug without producing any response are called silent receptors, or more accurately drug acceptors / sites of loss — the term 'receptor' is best reserved for binding sites capable of generating an actual biological response.",
-      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
-      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
-      "sourcePage": null,
-      "subject": "Pharmacology"
-    },
-    {
-      "id": 14,
       "topic": "Neoplasia",
       "subtopic": "Nomenclature",
       "difficulty": "Easy",
@@ -278,102 +50,216 @@
       "subject": "Pathology & Microbiology"
     },
     {
-      "id": 15,
-      "topic": "Manual Muscle Testing",
-      "subtopic": "Grading Criteria",
+      "id": 3,
+      "topic": "Cell Injury and Necrosis",
+      "subtopic": "Types of Necrosis",
       "difficulty": "Easy",
-      "question": "On manual muscle testing (MMT), a muscle completes the full available range of motion against gravity alone, but the motion breaks as soon as any additional manual resistance is applied, however mild. What grade should this muscle receive?",
+      "question": "Caseous necrosis, with its characteristic 'cheese-like' gross appearance, is classically found in the centre of which type of lesion?",
       "options": {
-        "A": "Grade 5 (Normal)",
-        "B": "Grade 4 (Good)",
-        "C": "Grade 3 (Fair)",
-        "D": "Grade 2 (Poor)"
-      },
-      "correctAnswer": "C",
-      "explanation": "Grade 3 (Fair) is an objective grade: the muscle can complete full range of motion against gravity, but cannot tolerate any added resistance without breaking. Grade 4 requires the muscle to also withstand considerable, though submaximal, resistance.",
-      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
-      "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
-      "sourcePage": "4",
-      "subject": "Physical Diagnosis & Manipulative Skills"
-    },
-    {
-      "id": 16,
-      "topic": "Epidemiology",
-      "subtopic": "Epidemiological Questions",
-      "difficulty": "Easy",
-      "question": "According to the framework for 'asking questions' in epidemiology, which of the following is a question 'related to health action' rather than 'related to health events'?",
-      "options": {
-        "A": "What is the event (the problem)?",
-        "B": "What resources are required, and how are activities to be organized?",
-        "C": "Where did it happen?",
-        "D": "Who is affected?"
-      },
-      "correctAnswer": "B",
-      "explanation": "Questions like 'what is the event', 'where/when did it happen', and 'who is affected' are related to health events. Questions about what resources are required and how activities should be organized fall under questions related to health action — what should be done about the problem.",
-      "sourceBook": "Park's Textbook of Preventive and Social Medicine",
-      "sourceChapter": "Principles of Epidemiology and Epidemiologic Methods — Asking Questions",
-      "sourcePage": "54",
-      "subject": "Physiotherapy in Community Health"
-    },
-    {
-      "id": 17,
-      "topic": "Cardiopulmonary Assessment",
-      "subtopic": "Patterns of Breathlessness",
-      "difficulty": "Easy",
-      "question": "Breathlessness specifically occurring when a patient lies flat is termed:",
-      "options": {
-        "A": "Orthopnoea",
-        "B": "Paroxysmal nocturnal dyspnoea",
-        "C": "Tachypnoea",
-        "D": "Hyperventilation syndrome"
+        "A": "Tuberculous infections",
+        "B": "Simple traumatic bruising",
+        "C": "Acute pancreatitis",
+        "D": "Rheumatoid arthritis joints only"
       },
       "correctAnswer": "A",
-      "explanation": "Orthopnoea is breathlessness specifically triggered by lying flat, classically because it increases venous return from the legs, causing blood to pool in the lungs in cardiac patients. Paroxysmal nocturnal dyspnoea (PND) is a related but distinct pattern — breathlessness that wakes the patient from sleep at night.",
-      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
-      "sourceChapter": "Assessment — Breathlessness",
+      "explanation": "Caseous necrosis is found classically in the centre of tuberculous foci — combining features of both coagulative and liquefactive necrosis — with surrounding granulomatous inflammation (epithelioid cells, Langhans' giant cells, and a peripheral lymphocyte mantle).",
+      "sourceBook": "Harsh Mohan, Textbook of Pathology",
+      "sourceChapter": "Cell Injury, Cellular Adaptations and Cellular Ageing — Caseous Necrosis",
       "sourcePage": null,
-      "subject": "Physiotherapy in General Medical & Surgical Condition"
+      "subject": "Pathology & Microbiology"
     },
     {
-      "id": 18,
-      "topic": "Anxiety Disorders",
-      "subtopic": "Trait vs State Anxiety",
+      "id": 4,
+      "topic": "Lower Limb",
+      "subtopic": "Knee Bursae — Clinical",
       "difficulty": "Easy",
-      "question": "A patient who says 'I often feel anxious in general' is describing which type of anxiety?",
+      "question": "Prepatellar bursitis is commonly known by which occupational nickname?",
       "options": {
-        "A": "State anxiety",
-        "B": "Trait anxiety",
-        "C": "Organic anxiety",
-        "D": "Panic anxiety"
+        "A": "Housemaid's knee",
+        "B": "Tennis elbow",
+        "C": "Golfer's elbow",
+        "D": "Runner's knee"
+      },
+      "correctAnswer": "A",
+      "explanation": "Prepatellar bursitis is commonly called 'housemaid's knee' (or miner's knee), from repeated kneeling pressure directly on the kneecap. Subcutaneous infrapatellar bursitis, by contrast, is called 'clergyman's knee'.",
+      "sourceBook": "BD Chaurasia's Human Anatomy — Lower Limb",
+      "sourceChapter": "Front of Thigh — Clinical Anatomy",
+      "sourcePage": null,
+      "subject": "Anatomy"
+    },
+    {
+      "id": 5,
+      "topic": "Obstetric Terminology",
+      "subtopic": "Grand Multipara",
+      "difficulty": "Easy",
+      "question": "A pregnant woman with a history of four or more previous births is termed:",
+      "options": {
+        "A": "Nullipara",
+        "B": "Primipara",
+        "C": "Grand multipara",
+        "D": "Elderly primigravida"
+      },
+      "correctAnswer": "C",
+      "explanation": "A woman with a previous history of four or more births is called a grand multipara — distinct from nullipara (never completed a pregnancy to viability) and primipara (has delivered exactly one viable child).",
+      "sourceBook": "Dutta's Textbook of Obstetrics",
+      "sourceChapter": "Antenatal Care — History Taking, Terminology",
+      "sourcePage": null,
+      "subject": "OBGY"
+    },
+    {
+      "id": 6,
+      "topic": "Anxiety Disorders",
+      "subtopic": "Symptom Classification",
+      "difficulty": "Easy",
+      "question": "Derealisation and depersonalisation, when they occur as anxiety symptoms, are classified under which category of psychological symptoms?",
+      "options": {
+        "A": "Cognitive symptoms",
+        "B": "Perceptual symptoms",
+        "C": "Affective symptoms",
+        "D": "Motoric symptoms"
       },
       "correctAnswer": "B",
-      "explanation": "Trait anxiety is a habitual tendency to be anxious in general ('I often feel anxious'), as opposed to state anxiety, which is the anxiety felt at a specific, present, cross-sectional moment ('I feel anxious now'). People with trait anxiety often experience episodes of state anxiety.",
+      "explanation": "Derealisation and depersonalisation are classified as perceptual symptoms of anxiety, distinct from cognitive symptoms (poor concentration, distractibility), affective symptoms (fearfulness, apprehension), and physical/motoric symptoms (tremors, restlessness).",
       "sourceBook": "Ahuja, A Short Textbook of Psychiatry",
-      "sourceChapter": "Neurotic, Stress-related and Somatoform Disorders — Anxiety Disorder",
+      "sourceChapter": "Neurotic, Stress-related and Somatoform Disorders — Anxiety Disorder, Symptoms",
       "sourcePage": null,
       "subject": "Psychiatry"
     },
     {
-      "id": 19,
+      "id": 7,
       "topic": "Clinical Decision Making",
-      "subtopic": "Checklists",
+      "subtopic": "Team Communication",
       "difficulty": "Easy",
-      "question": "The ABCDE approach (Airway, Breathing, Circulation, Disability, Exposure) used in critically ill patients is an example of which error-reduction strategy?",
+      "question": "SBAR, a structured communication tool used for handovers and referrals, stands for:",
       "options": {
-        "A": "A clinical prediction rule",
-        "B": "A mnemonic/checklist",
-        "C": "The SBAR communication system",
-        "D": "A cognitive debiasing interview technique"
+        "A": "Situation, Background, Assessment, Recommendation",
+        "B": "Symptoms, Blood tests, Allergies, Review",
+        "C": "Signs, Basic observations, Analysis, Report",
+        "D": "Screening, Baseline, Action, Record"
       },
-      "correctAnswer": "B",
-      "explanation": "ABCDE is probably the most widely used mnemonic/checklist in medicine, reducing reliance on fallible memory and ensuring important issues are considered systematically, especially under stress, complexity, or fatigue.",
+      "correctAnswer": "A",
+      "explanation": "SBAR (Situation, Background, Assessment, Recommendation) is a structured communication framework recommended for handovers and referrals, increasing the amount of relevant clinical information communicated in a short time.",
       "sourceBook": "Davidson's Principles and Practice of Medicine",
-      "sourceChapter": "Clinical Decision Making — Mnemonics and Checklists",
+      "sourceChapter": "Clinical Decision Making — Effective Team Communication",
       "sourcePage": null,
       "subject": "Medicine"
     },
     {
-      "id": 20,
+      "id": 8,
+      "topic": "Biology of Behavior",
+      "subtopic": "Cerebral Lobes",
+      "difficulty": "Easy",
+      "question": "Visual input from the eyes is primarily processed in which lobe of the cerebral cortex?",
+      "options": {
+        "A": "Frontal lobe",
+        "B": "Parietal lobe",
+        "C": "Temporal lobe",
+        "D": "Occipital lobe"
+      },
+      "correctAnswer": "D",
+      "explanation": "Visual input travels to the primary visual sensory area located in the occipital lobe, at the back of the cerebrum, where it is initially processed before being passed to visual association areas.",
+      "sourceBook": "Morgan & King, Introduction to Psychology",
+      "sourceChapter": "Biology of Behavior — Forebrain: Cerebrum, Sensory and Motor Functions",
+      "sourcePage": null,
+      "subject": "Psychology"
+    },
+    {
+      "id": 9,
+      "topic": "Normal Puerperium",
+      "subtopic": "Postpartum Exercise",
+      "difficulty": "Easy",
+      "question": "How long should postpartum exercises generally be continued for maximal benefit, per standard obstetric guidance?",
+      "options": {
+        "A": "Only for the first 24 hours after delivery",
+        "B": "At least 3 months",
+        "C": "Only once, on the day of discharge",
+        "D": "Postpartum exercise is not recommended at all"
+      },
+      "correctAnswer": "B",
+      "explanation": "Postpartum exercises — breathing exercises, leg movements, and toning of abdominal, pelvic floor, and back muscles — should be continued for at least 3 months, and are ideally taught by a trained physiotherapist.",
+      "sourceBook": "Dutta's Textbook of Obstetrics",
+      "sourceChapter": "Normal Puerperium — Postpartum Exercise",
+      "sourcePage": null,
+      "subject": "OBGY"
+    },
+    {
+      "id": 10,
+      "topic": "Range of Motion",
+      "subtopic": "Continuous Passive Motion",
+      "difficulty": "Easy",
+      "question": "Continuous Passive Motion (CPM) is best described as:",
+      "options": {
+        "A": "An exercise in which the patient actively moves a joint against resistance",
+        "B": "A mechanical device that moves a joint slowly and continuously through a controlled range of motion, without effort from the patient",
+        "C": "A manual stretching technique applied by the therapist at end-range",
+        "D": "A functional movement pattern combining several joints at once"
+      },
+      "correctAnswer": "B",
+      "explanation": "CPM refers specifically to a mechanical device that passively and continuously moves a joint through a set arc of motion, developed following Robert Salter's research into the healing benefits of continual passive movement on joint tissue.",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 3: Range of Motion — Continuous Passive Motion",
+      "sourcePage": null,
+      "subject": "Fundamentals of Exercise Therapy"
+    },
+    {
+      "id": 11,
+      "topic": "Cardiopulmonary Assessment",
+      "subtopic": "Glasgow Coma Scale",
+      "difficulty": "Easy",
+      "question": "On the Glasgow Coma Scale, what is the maximum total score, and what does it represent?",
+      "options": {
+        "A": "10, representing moderate impairment",
+        "B": "15, representing a fully alert, orientated patient",
+        "C": "3, the best possible score",
+        "D": "100, on a percentage-based scale"
+      },
+      "correctAnswer": "B",
+      "explanation": "The Glasgow Coma Scale has a maximum total score of 15 (best possible — eye opening 4, verbal response 5, motor response 6), representing full alertness, and a minimum score of 3, representing the deepest level of unresponsiveness.",
+      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+      "sourceChapter": "Assessment — Objective Assessment, Coma Scale",
+      "sourcePage": null,
+      "subject": "Physiotherapy in General Medical & Surgical Condition"
+    },
+    {
+      "id": 12,
+      "topic": "Neoplasia",
+      "subtopic": "Tumour Structure",
+      "difficulty": "Easy",
+      "question": "The two basic components present in every tumour (benign or malignant) are the parenchyma and the:",
+      "options": {
+        "A": "Supportive stroma",
+        "B": "Basement membrane only",
+        "C": "Necrotic core",
+        "D": "Capsule"
+      },
+      "correctAnswer": "A",
+      "explanation": "Every tumour has parenchyma (the proliferating tumour cells themselves, which determine the tumour's nature and behaviour) and a supportive stroma (fibrous connective tissue and blood vessels that provide the structural framework for the parenchymal cells to grow on).",
+      "sourceBook": "Harsh Mohan, Textbook of Pathology",
+      "sourceChapter": "Neoplasia — Nomenclature and Classification",
+      "sourcePage": null,
+      "subject": "Pathology & Microbiology"
+    },
+    {
+      "id": 13,
+      "topic": "Membrane Potentials",
+      "subtopic": "Resting Membrane Potential",
+      "difficulty": "Easy",
+      "question": "The resting membrane potential is conventionally written with a minus sign because:",
+      "options": {
+        "A": "It signifies the inside of the cell is negative relative to the outside",
+        "B": "It signifies the outside of the cell is negative relative to the inside",
+        "C": "The sign is arbitrary and carries no physiological meaning",
+        "D": "It indicates the cell is in the process of depolarising"
+      },
+      "correctAnswer": "A",
+      "explanation": "The resting membrane potential is written with a minus sign to indicate that, at rest, the interior of the cell is electrically negative relative to the exterior — its magnitude varies by tissue, typically ranging from about -10 mV to -100 mV.",
+      "sourceBook": "AK Jain, Physiology",
+      "sourceChapter": "The Membrane Potentials — Resting Membrane Potential",
+      "sourcePage": null,
+      "subject": "Physiology"
+    },
+    {
+      "id": 14,
       "topic": "Receptor Pharmacology",
       "subtopic": "Ligand-Gated Ion Channels",
       "difficulty": "Easy",
@@ -390,6 +276,120 @@
       "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
       "sourcePage": null,
       "subject": "Pharmacology"
+    },
+    {
+      "id": 15,
+      "topic": "Adverse Drug Effects",
+      "subtopic": "Classification",
+      "difficulty": "Easy",
+      "question": "Unwanted but often unavoidable pharmacodynamic effects that occur at normal therapeutic doses, and are generally predictable from a drug's known pharmacological profile, are classified as:",
+      "options": {
+        "A": "Idiosyncratic reactions",
+        "B": "Side effects",
+        "C": "Drug allergy",
+        "D": "Teratogenic effects"
+      },
+      "correctAnswer": "B",
+      "explanation": "Side effects are unwanted but often unavoidable pharmacodynamic effects occurring at therapeutic doses — generally not serious, predictable from the drug's pharmacological profile, and often improved by reducing the dose (e.g. dry mouth from atropine's antisecretory action).",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Adverse Drug Effects — Classification",
+      "sourcePage": null,
+      "subject": "Pharmacology"
+    },
+    {
+      "id": 16,
+      "topic": "Epidemiology",
+      "subtopic": "Measurements in Epidemiology",
+      "difficulty": "Easy",
+      "question": "Which of the following is NOT listed among the basic measurements used in epidemiology?",
+      "options": {
+        "A": "Measurement of mortality",
+        "B": "Measurement of morbidity",
+        "C": "Measurement of natality",
+        "D": "Measurement of a patient's personal income"
+      },
+      "correctAnswer": "D",
+      "explanation": "Basic epidemiological measurements include mortality, morbidity, disability, natality, presence/absence/distribution of disease characteristics, medical needs and health service utilisation, environmental factors, and demographic variables — personal income is not one of the standard categories listed, though socioeconomic status may be studied as a demographic variable.",
+      "sourceBook": "Park's Textbook of Preventive and Social Medicine",
+      "sourceChapter": "Principles of Epidemiology and Epidemiologic Methods — Basic Measurements in Epidemiology",
+      "sourcePage": "55",
+      "subject": "Physiotherapy in Community Health"
+    },
+    {
+      "id": 17,
+      "topic": "Proteins and Amino Acids",
+      "subtopic": "Protein Structure",
+      "difficulty": "Easy",
+      "question": "The unique sequence of amino acids in a protein, determined by the genes in DNA, is called its:",
+      "options": {
+        "A": "Secondary structure",
+        "B": "Primary structure",
+        "C": "Tertiary structure",
+        "D": "Quaternary structure"
+      },
+      "correctAnswer": "B",
+      "explanation": "The primary structure of a protein is its specific linear sequence of amino acids, determined by the genetic code. It is largely responsible for the protein's function, and a large number of genetic diseases arise from abnormalities in this amino acid sequence.",
+      "sourceBook": "Satyanarayana, Biochemistry",
+      "sourceChapter": "Proteins and Amino Acids — Primary Structure",
+      "sourcePage": null,
+      "subject": "Biochemistry"
+    },
+    {
+      "id": 18,
+      "topic": "Receptor Pharmacology",
+      "subtopic": "Agonists and Antagonists",
+      "difficulty": "Easy",
+      "question": "A 'partial agonist' is best described as a drug that:",
+      "options": {
+        "A": "Blocks a receptor completely with no effect of its own",
+        "B": "Activates a receptor to produce a submaximal effect, and can also antagonize a full agonist",
+        "C": "Produces an effect opposite to that of the natural agonist",
+        "D": "Binds only to enzymes, never to receptors"
+      },
+      "correctAnswer": "B",
+      "explanation": "A partial agonist has affinity for the receptor and submaximal intrinsic activity (between 0 and 1) — it produces a weaker effect than a full agonist, and because it occupies the receptor, it can also blunt (antagonize) the effect of a full agonist present at the same time.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
+      "sourcePage": null,
+      "subject": "Pharmacology"
+    },
+    {
+      "id": 19,
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Practical Application",
+      "difficulty": "Easy",
+      "question": "When beginning faradic stimulation of a muscle group, what is the recommended approach to intensity?",
+      "options": {
+        "A": "Start immediately at maximal tolerable intensity",
+        "B": "Give several gentle contractions first to allow the patient to become accustomed to the current, then gradually increase intensity",
+        "C": "Intensity should never be increased throughout the treatment",
+        "D": "Intensity is irrelevant to the treatment outcome"
+      },
+      "correctAnswer": "B",
+      "explanation": "The recommended approach is to give the patient several gentle contractions first to allow them to become accustomed to the current, then gradually increase the intensity until a strong contraction is achieved — not starting at a high, potentially uncomfortable intensity immediately.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Stimulation of Muscle Groups — Quadriceps",
+      "sourcePage": "60",
+      "subject": "Fundamentals of Electro Therapy"
+    },
+    {
+      "id": 20,
+      "topic": "Cell Injury and Pigments",
+      "subtopic": "Lipofuscin",
+      "difficulty": "Easy",
+      "question": "Lipofuscin, sometimes called the 'wear and tear pigment', is most characteristically associated with:",
+      "options": {
+        "A": "Acute bacterial infection",
+        "B": "Atrophied cells in ageing (e.g. 'brown atrophy' of the heart)",
+        "C": "Fresh haemorrhage",
+        "D": "Malaria"
+      },
+      "correctAnswer": "B",
+      "explanation": "Lipofuscin is a golden-brown intralysosomal pigment that accumulates in atrophied cells of old age (hence 'wear and tear pigment'), seen in myocardial fibres (producing 'brown atrophy' of the heart), hepatocytes, and neurons in senile dementia.",
+      "sourceBook": "Harsh Mohan, Textbook of Pathology",
+      "sourceChapter": "Cell Injury, Cellular Adaptations and Cellular Ageing — Lipofuscin",
+      "sourcePage": null,
+      "subject": "Pathology & Microbiology"
     }
   ]
 }

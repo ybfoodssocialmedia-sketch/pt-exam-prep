@@ -2,7 +2,7 @@
   "paperId": "easy-practice-set-2",
   "paperName": "Easy Practice Set 2",
   "subject": "Mixed",
-  "description": "Easy-difficulty practice set (20 questions) covering: Anatomy, Biochemistry, Fundamentals of Electro Therapy, General Surgery & Orthopedics, Medicine, OBGY, Pathology & Microbiology, Pharmacology, Physiotherapy in Community Health, Physiotherapy in Musculoskeletal Condition, Physiotherapy in Neurosciences, Psychiatry, Psychology.",
+  "description": "Easy-difficulty practice set (20 questions) covering: Anatomy, General Surgery & Orthopedics, Kinesio Therapeutics, OBGY, Pathology & Microbiology, Pharmacology, Physiology, Physiotherapy in Community Health, Physiotherapy in General Medical & Surgical Condition, Physiotherapy in Neurosciences, Psychiatry, Psychology.",
   "durationMinutes": 90,
   "scoring": {
     "correct": 1,
@@ -13,215 +13,6 @@
   "questions": [
     {
       "id": 1,
-      "topic": "Receptor Pharmacology",
-      "subtopic": "Agonists and Antagonists",
-      "difficulty": "Easy",
-      "question": "In pharmacology, a drug that activates a receptor to produce an effect similar to the physiological signal molecule is called a/an:",
-      "options": {
-        "A": "Antagonist",
-        "B": "Agonist",
-        "C": "Partial agonist",
-        "D": "Inverse agonist"
-      },
-      "correctAnswer": "B",
-      "explanation": "An agonist activates a receptor to produce an effect similar to that of the natural (physiological) signal molecule. An antagonist, by contrast, prevents an agonist's action without producing an effect of its own.",
-      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
-      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
-      "sourcePage": null,
-      "subject": "Pharmacology"
-    },
-    {
-      "id": 2,
-      "topic": "Biology of Behavior",
-      "subtopic": "Hemisphere Lateralization",
-      "difficulty": "Easy",
-      "question": "In most right-handed people, which cerebral hemisphere is specialized for language functions?",
-      "options": {
-        "A": "The right hemisphere",
-        "B": "The left hemisphere",
-        "C": "Both hemispheres equally, with no lateralization",
-        "D": "Neither — language is controlled entirely by the cerebellum"
-      },
-      "correctAnswer": "B",
-      "explanation": "In roughly 95% of right-handed people (and about 65% of left-handed people), the left hemisphere is specialized for language functions, as shown by sodium-amytal testing and by the much higher rate of language problems following left-hemisphere strokes.",
-      "sourceBook": "Morgan & King, Introduction to Psychology",
-      "sourceChapter": "Biology of Behavior — Left- and Right-Hemisphere Functions",
-      "sourcePage": null,
-      "subject": "Psychology"
-    },
-    {
-      "id": 3,
-      "topic": "Knee Assessment",
-      "subtopic": "Special Tests — Meniscus",
-      "difficulty": "Easy",
-      "question": "Which two special tests are classically used to assess for a meniscal injury of the knee?",
-      "options": {
-        "A": "McMurray test and Apley's test",
-        "B": "Lachman test and pivot shift test",
-        "C": "Clarke's sign and the Q-angle measurement",
-        "D": "Noble compression test and Ober's test"
-      },
-      "correctAnswer": "A",
-      "explanation": "The McMurray test and Apley's (compression/distraction) test are the classic special tests for meniscal injury of the knee, alongside the 'bounce home' test.",
-      "sourceBook": "Magee, Orthopedic Physical Assessment",
-      "sourceChapter": "Chapter 12: Knee — Special Tests Commonly Performed on the Knee",
-      "sourcePage": null,
-      "subject": "Physiotherapy in Musculoskeletal Condition"
-    },
-    {
-      "id": 4,
-      "topic": "Anxiety Disorders",
-      "subtopic": "Symptom Classification",
-      "difficulty": "Easy",
-      "question": "Derealisation and depersonalisation, when they occur as anxiety symptoms, are classified under which category of psychological symptoms?",
-      "options": {
-        "A": "Cognitive symptoms",
-        "B": "Perceptual symptoms",
-        "C": "Affective symptoms",
-        "D": "Motoric symptoms"
-      },
-      "correctAnswer": "B",
-      "explanation": "Derealisation and depersonalisation are classified as perceptual symptoms of anxiety, distinct from cognitive symptoms (poor concentration, distractibility), affective symptoms (fearfulness, apprehension), and physical/motoric symptoms (tremors, restlessness).",
-      "sourceBook": "Ahuja, A Short Textbook of Psychiatry",
-      "sourceChapter": "Neurotic, Stress-related and Somatoform Disorders — Anxiety Disorder, Symptoms",
-      "sourcePage": null,
-      "subject": "Psychiatry"
-    },
-    {
-      "id": 5,
-      "topic": "Neoplasia",
-      "subtopic": "Tumour Structure",
-      "difficulty": "Easy",
-      "question": "The two basic components present in every tumour (benign or malignant) are the parenchyma and the:",
-      "options": {
-        "A": "Supportive stroma",
-        "B": "Basement membrane only",
-        "C": "Necrotic core",
-        "D": "Capsule"
-      },
-      "correctAnswer": "A",
-      "explanation": "Every tumour has parenchyma (the proliferating tumour cells themselves, which determine the tumour's nature and behaviour) and a supportive stroma (fibrous connective tissue and blood vessels that provide the structural framework for the parenchymal cells to grow on).",
-      "sourceBook": "Harsh Mohan, Textbook of Pathology",
-      "sourceChapter": "Neoplasia — Nomenclature and Classification",
-      "sourcePage": null,
-      "subject": "Pathology & Microbiology"
-    },
-    {
-      "id": 6,
-      "topic": "Normal Puerperium",
-      "subtopic": "Postpartum Exercise",
-      "difficulty": "Easy",
-      "question": "How long should postpartum exercises generally be continued for maximal benefit, per standard obstetric guidance?",
-      "options": {
-        "A": "Only for the first 24 hours after delivery",
-        "B": "At least 3 months",
-        "C": "Only once, on the day of discharge",
-        "D": "Postpartum exercise is not recommended at all"
-      },
-      "correctAnswer": "B",
-      "explanation": "Postpartum exercises — breathing exercises, leg movements, and toning of abdominal, pelvic floor, and back muscles — should be continued for at least 3 months, and are ideally taught by a trained physiotherapist.",
-      "sourceBook": "Dutta's Textbook of Obstetrics",
-      "sourceChapter": "Normal Puerperium — Postpartum Exercise",
-      "sourcePage": null,
-      "subject": "OBGY"
-    },
-    {
-      "id": 7,
-      "topic": "Paediatric Surgery",
-      "subtopic": "Inguinal Hernia",
-      "difficulty": "Easy",
-      "question": "Inguinal hernias in children are almost always caused by:",
-      "options": {
-        "A": "A direct defect in the abdominal wall muscles",
-        "B": "A patent processus vaginalis (indirect hernia)",
-        "C": "Chronic constipation alone",
-        "D": "Prior abdominal surgery"
-      },
-      "correctAnswer": "B",
-      "explanation": "Inguinal hernias in children are almost always indirect, caused by failure of the processus vaginalis (the tongue of peritoneum that precedes testicular descent) to obliterate after birth.",
-      "sourceBook": "Bailey & Love's Short Practice of Surgery",
-      "sourceChapter": "Principles of Paediatric Surgery — Inguinal Hernias",
-      "sourcePage": null,
-      "subject": "General Surgery & Orthopedics"
-    },
-    {
-      "id": 8,
-      "topic": "Epidemiology",
-      "subtopic": "Measurements in Epidemiology",
-      "difficulty": "Easy",
-      "question": "Which of the following is NOT listed among the basic measurements used in epidemiology?",
-      "options": {
-        "A": "Measurement of mortality",
-        "B": "Measurement of morbidity",
-        "C": "Measurement of natality",
-        "D": "Measurement of a patient's personal income"
-      },
-      "correctAnswer": "D",
-      "explanation": "Basic epidemiological measurements include mortality, morbidity, disability, natality, presence/absence/distribution of disease characteristics, medical needs and health service utilisation, environmental factors, and demographic variables — personal income is not one of the standard categories listed, though socioeconomic status may be studied as a demographic variable.",
-      "sourceBook": "Park's Textbook of Preventive and Social Medicine",
-      "sourceChapter": "Principles of Epidemiology and Epidemiologic Methods — Basic Measurements in Epidemiology",
-      "sourcePage": "55",
-      "subject": "Physiotherapy in Community Health"
-    },
-    {
-      "id": 9,
-      "topic": "Upper Limb",
-      "subtopic": "Carpal Bones",
-      "difficulty": "Easy",
-      "question": "The hook-like projection near the base of which carpal bone gives attachment to the flexor retinaculum?",
-      "options": {
-        "A": "Scaphoid",
-        "B": "Trapezium",
-        "C": "Hamate",
-        "D": "Pisiform only"
-      },
-      "correctAnswer": "C",
-      "explanation": "The hamate is wedge-shaped with a hook projecting from the distal part of its palmar surface; the tip of the hook gives attachment to the flexor retinaculum, and its medial side gives origin to flexor digiti minimi and opponens digiti minimi.",
-      "sourceBook": "BD Chaurasia's Human Anatomy — Upper Limb",
-      "sourceChapter": "Bones of the Upper Limb — Carpal Bones",
-      "sourcePage": null,
-      "subject": "Anatomy"
-    },
-    {
-      "id": 10,
-      "topic": "Upper Limb",
-      "subtopic": "Carpal Bones",
-      "difficulty": "Easy",
-      "question": "How many carpal bones make up the wrist, and in how many rows are they arranged?",
-      "options": {
-        "A": "6 bones in one row",
-        "B": "8 bones in two rows",
-        "C": "7 bones in two rows",
-        "D": "8 bones in one row"
-      },
-      "correctAnswer": "B",
-      "explanation": "The carpus is made up of 8 carpal bones arranged in two rows of four: a proximal row (scaphoid, lunate, triquetral, pisiform, from lateral to medial) and a distal row (trapezium, trapezoid, capitate, hamate).",
-      "sourceBook": "BD Chaurasia's Human Anatomy — Upper Limb",
-      "sourceChapter": "Bones of the Upper Limb — Carpal Bones",
-      "sourcePage": null,
-      "subject": "Anatomy"
-    },
-    {
-      "id": 11,
-      "topic": "Stroke",
-      "subtopic": "Classification",
-      "difficulty": "Easy",
-      "question": "Strokes are broadly classified into two main categories based on underlying pathology:",
-      "options": {
-        "A": "Ischemic and hemorrhagic",
-        "B": "Acute and chronic only",
-        "C": "Left-sided and right-sided",
-        "D": "Cortical and subcortical only"
-      },
-      "correctAnswer": "A",
-      "explanation": "Strokes are broadly classified as ischemic (from thrombus, embolism, or low systemic perfusion depriving brain tissue of blood flow) or hemorrhagic (from rupture of a cerebral vessel causing bleeding into or around the brain).",
-      "sourceBook": "O'Sullivan, Physical Rehabilitation",
-      "sourceChapter": "Chapter 15: Stroke — Pathophysiology",
-      "sourcePage": null,
-      "subject": "Physiotherapy in Neurosciences"
-    },
-    {
-      "id": 12,
       "topic": "Phobic Disorders",
       "subtopic": "Agoraphobia",
       "difficulty": "Easy",
@@ -240,83 +31,45 @@
       "subject": "Psychiatry"
     },
     {
-      "id": 13,
-      "topic": "Proteins and Amino Acids",
-      "subtopic": "Peptide Bond Counting",
+      "id": 2,
+      "topic": "Upper Limb",
+      "subtopic": "Carpal Bones",
       "difficulty": "Easy",
-      "question": "A dipeptide, formed from two amino acids, contains how many peptide bonds?",
+      "question": "How many carpal bones make up the wrist, and in how many rows are they arranged?",
       "options": {
-        "A": "Zero",
-        "B": "One",
-        "C": "Two",
-        "D": "Three"
+        "A": "6 bones in one row",
+        "B": "8 bones in two rows",
+        "C": "7 bones in two rows",
+        "D": "8 bones in one row"
       },
       "correctAnswer": "B",
-      "explanation": "A dipeptide has two amino acids joined by exactly one peptide bond — a common point of confusion, since it's easy to assume 'two amino acids' implies 'two bonds.'",
-      "sourceBook": "Satyanarayana, Biochemistry",
-      "sourceChapter": "Proteins and Amino Acids — Peptide Bond",
+      "explanation": "The carpus is made up of 8 carpal bones arranged in two rows of four: a proximal row (scaphoid, lunate, triquetral, pisiform, from lateral to medial) and a distal row (trapezium, trapezoid, capitate, hamate).",
+      "sourceBook": "BD Chaurasia's Human Anatomy — Upper Limb",
+      "sourceChapter": "Bones of the Upper Limb — Carpal Bones",
       "sourcePage": null,
-      "subject": "Biochemistry"
+      "subject": "Anatomy"
     },
     {
-      "id": 14,
-      "topic": "Proteins and Amino Acids",
-      "subtopic": "Polypeptide Definition",
+      "id": 3,
+      "topic": "Epidemiology",
+      "subtopic": "Epidemiological Questions",
       "difficulty": "Easy",
-      "question": "A peptide containing more than 10 amino acids is generally referred to as a:",
+      "question": "According to the framework for 'asking questions' in epidemiology, which of the following is a question 'related to health action' rather than 'related to health events'?",
       "options": {
-        "A": "Dipeptide",
-        "B": "Tripeptide",
-        "C": "Polypeptide",
-        "D": "Monopeptide"
-      },
-      "correctAnswer": "C",
-      "explanation": "Peptides containing more than 10 amino acids (starting around the decapeptide range) are generally referred to as polypeptides.",
-      "sourceBook": "Satyanarayana, Biochemistry",
-      "sourceChapter": "Proteins and Amino Acids — Peptide Bond",
-      "sourcePage": null,
-      "subject": "Biochemistry"
-    },
-    {
-      "id": 15,
-      "topic": "Electrical Stimulation of Nerve and Muscle",
-      "subtopic": "Practical Application",
-      "difficulty": "Easy",
-      "question": "When beginning faradic stimulation of a muscle group, what is the recommended approach to intensity?",
-      "options": {
-        "A": "Start immediately at maximal tolerable intensity",
-        "B": "Give several gentle contractions first to allow the patient to become accustomed to the current, then gradually increase intensity",
-        "C": "Intensity should never be increased throughout the treatment",
-        "D": "Intensity is irrelevant to the treatment outcome"
+        "A": "What is the event (the problem)?",
+        "B": "What resources are required, and how are activities to be organized?",
+        "C": "Where did it happen?",
+        "D": "Who is affected?"
       },
       "correctAnswer": "B",
-      "explanation": "The recommended approach is to give the patient several gentle contractions first to allow them to become accustomed to the current, then gradually increase the intensity until a strong contraction is achieved — not starting at a high, potentially uncomfortable intensity immediately.",
-      "sourceBook": "Clayton's Electrotherapy",
-      "sourceChapter": "Stimulation of Muscle Groups — Quadriceps",
-      "sourcePage": "60",
-      "subject": "Fundamentals of Electro Therapy"
+      "explanation": "Questions like 'what is the event', 'where/when did it happen', and 'who is affected' are related to health events. Questions about what resources are required and how activities should be organized fall under questions related to health action — what should be done about the problem.",
+      "sourceBook": "Park's Textbook of Preventive and Social Medicine",
+      "sourceChapter": "Principles of Epidemiology and Epidemiologic Methods — Asking Questions",
+      "sourcePage": "54",
+      "subject": "Physiotherapy in Community Health"
     },
     {
-      "id": 16,
-      "topic": "Clinical Decision Making",
-      "subtopic": "Team Communication",
-      "difficulty": "Easy",
-      "question": "SBAR, a structured communication tool used for handovers and referrals, stands for:",
-      "options": {
-        "A": "Situation, Background, Assessment, Recommendation",
-        "B": "Symptoms, Blood tests, Allergies, Review",
-        "C": "Signs, Basic observations, Analysis, Report",
-        "D": "Screening, Baseline, Action, Record"
-      },
-      "correctAnswer": "A",
-      "explanation": "SBAR (Situation, Background, Assessment, Recommendation) is a structured communication framework recommended for handovers and referrals, increasing the amount of relevant clinical information communicated in a short time.",
-      "sourceBook": "Davidson's Principles and Practice of Medicine",
-      "sourceChapter": "Clinical Decision Making — Effective Team Communication",
-      "sourcePage": null,
-      "subject": "Medicine"
-    },
-    {
-      "id": 17,
+      "id": 4,
       "topic": "Normal Puerperium",
       "subtopic": "Lochia",
       "difficulty": "Easy",
@@ -335,7 +88,121 @@
       "subject": "OBGY"
     },
     {
-      "id": 18,
+      "id": 5,
+      "topic": "Sensory Processes and Perception",
+      "subtopic": "Gestalt Principles",
+      "difficulty": "Easy",
+      "question": "The Gestalt law of 'proximity' states that:",
+      "options": {
+        "A": "Items that are close together in space or time tend to be perceived as belonging together, forming a group",
+        "B": "Only identical items can ever be grouped together",
+        "C": "Distant objects are always perceived as larger",
+        "D": "Proximity has no influence on perceptual grouping"
+      },
+      "correctAnswer": "A",
+      "explanation": "The law of proximity states that items close together in space or time tend to be perceived as belonging together or forming an organized group — for example, seeing three pairs of lines rather than six separate lines when they are grouped closely.",
+      "sourceBook": "Morgan & King, Introduction to Psychology",
+      "sourceChapter": "Sensory Processes and Perception — Organization in Perception",
+      "sourcePage": null,
+      "subject": "Psychology"
+    },
+    {
+      "id": 6,
+      "topic": "Paediatric Surgery",
+      "subtopic": "Midline Hernias",
+      "difficulty": "Easy",
+      "question": "An umbilical hernia in an infant, caused by incomplete closure of the umbilical ring, most commonly:",
+      "options": {
+        "A": "Requires emergency surgery at diagnosis",
+        "B": "Resolves spontaneously by around 4 years of age",
+        "C": "Always requires surgical repair within the first month of life",
+        "D": "Is a surgical emergency due to a very high incarceration rate"
+      },
+      "correctAnswer": "B",
+      "explanation": "Umbilical hernias are common in infants and most resolve spontaneously by around 4 years of age, with incarceration being very rare — unlike supraumbilical hernias, which do not close on their own and are repaired around the same age.",
+      "sourceBook": "Bailey & Love's Short Practice of Surgery",
+      "sourceChapter": "Principles of Paediatric Surgery — Midline Hernias",
+      "sourcePage": null,
+      "subject": "General Surgery & Orthopedics"
+    },
+    {
+      "id": 7,
+      "topic": "Anxiety Disorders",
+      "subtopic": "Trait vs State Anxiety",
+      "difficulty": "Easy",
+      "question": "A patient who says 'I often feel anxious in general' is describing which type of anxiety?",
+      "options": {
+        "A": "State anxiety",
+        "B": "Trait anxiety",
+        "C": "Organic anxiety",
+        "D": "Panic anxiety"
+      },
+      "correctAnswer": "B",
+      "explanation": "Trait anxiety is a habitual tendency to be anxious in general ('I often feel anxious'), as opposed to state anxiety, which is the anxiety felt at a specific, present, cross-sectional moment ('I feel anxious now'). People with trait anxiety often experience episodes of state anxiety.",
+      "sourceBook": "Ahuja, A Short Textbook of Psychiatry",
+      "sourceChapter": "Neurotic, Stress-related and Somatoform Disorders — Anxiety Disorder",
+      "sourcePage": null,
+      "subject": "Psychiatry"
+    },
+    {
+      "id": 8,
+      "topic": "Stroke",
+      "subtopic": "Classification",
+      "difficulty": "Easy",
+      "question": "Strokes are broadly classified into two main categories based on underlying pathology:",
+      "options": {
+        "A": "Ischemic and hemorrhagic",
+        "B": "Acute and chronic only",
+        "C": "Left-sided and right-sided",
+        "D": "Cortical and subcortical only"
+      },
+      "correctAnswer": "A",
+      "explanation": "Strokes are broadly classified as ischemic (from thrombus, embolism, or low systemic perfusion depriving brain tissue of blood flow) or hemorrhagic (from rupture of a cerebral vessel causing bleeding into or around the brain).",
+      "sourceBook": "O'Sullivan, Physical Rehabilitation",
+      "sourceChapter": "Chapter 15: Stroke — Pathophysiology",
+      "sourcePage": null,
+      "subject": "Physiotherapy in Neurosciences"
+    },
+    {
+      "id": 9,
+      "topic": "Receptor Pharmacology",
+      "subtopic": "Silent Receptors",
+      "difficulty": "Easy",
+      "question": "A binding site that attaches a drug but produces no pharmacological response at all (e.g. many plasma protein binding sites) is best termed a:",
+      "options": {
+        "A": "Full agonist site",
+        "B": "Silent receptor (or drug acceptor / site of loss)",
+        "C": "Orphan receptor",
+        "D": "Allosteric activator"
+      },
+      "correctAnswer": "B",
+      "explanation": "Sites that bind a drug without producing any response are called silent receptors, or more accurately drug acceptors / sites of loss — the term 'receptor' is best reserved for binding sites capable of generating an actual biological response.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
+      "sourcePage": null,
+      "subject": "Pharmacology"
+    },
+    {
+      "id": 10,
+      "topic": "Obstetric Terminology",
+      "subtopic": "Elderly Primigravida",
+      "difficulty": "Easy",
+      "question": "A woman having her first pregnancy at what age or older is termed an 'elderly primigravida' (per FIGO)?",
+      "options": {
+        "A": "25 years",
+        "B": "35 years",
+        "C": "45 years",
+        "D": "18 years"
+      },
+      "correctAnswer": "B",
+      "explanation": "A woman having her first pregnancy at age 30 or above is generally termed elderly primigravida in clinical practice, though FIGO specifically sets the threshold at 35 years. Extremes of maternal age (teenage and elderly) are recognised obstetric risk factors.",
+      "sourceBook": "Dutta's Textbook of Obstetrics",
+      "sourceChapter": "Antenatal Care — History Taking, Vital Statistics",
+      "sourcePage": null,
+      "subject": "OBGY"
+    },
+    {
+      "id": 11,
       "topic": "Infectious and Parasitic Diseases",
       "subtopic": "TORCH Complex",
       "difficulty": "Easy",
@@ -354,19 +221,152 @@
       "subject": "Pathology & Microbiology"
     },
     {
+      "id": 12,
+      "topic": "Resistance Exercise",
+      "subtopic": "Repetition Maximum",
+      "difficulty": "Easy",
+      "question": "A 'repetition maximum' (RM), as first described by DeLorme, is defined as:",
+      "options": {
+        "A": "The greatest amount of weight a muscle can move through full available ROM a specific number of times before fatiguing",
+        "B": "The maximum number of exercise sessions a patient can complete in a week",
+        "C": "The total duration in months of a resistance training program",
+        "D": "A measure of joint range of motion only"
+      },
+      "correctAnswer": "A",
+      "explanation": "A repetition maximum (RM) is the greatest amount of weight (load) a muscle can move through the full available range of motion, with control, a specific number of times before fatiguing — e.g. a '10-RM' is the maximum weight that can be lifted through 10 repetitions.",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 6: Resistance Exercise — Repetition Maximum",
+      "sourcePage": null,
+      "subject": "Kinesio Therapeutics"
+    },
+    {
+      "id": 13,
+      "topic": "Nutrition and Fluid Therapy",
+      "subtopic": "Nutritional Assessment",
+      "difficulty": "Easy",
+      "question": "Unintentional weight loss of more than what percentage of body weight over the preceding 6 months is considered a good indicator of poor prognosis?",
+      "options": {
+        "A": "1%",
+        "B": "10%",
+        "C": "50%",
+        "D": "Weight loss is never prognostically significant"
+      },
+      "correctAnswer": "B",
+      "explanation": "Unintentional weight loss of more than 10% of a patient's body weight over the preceding 6 months is considered a good prognostic indicator of poor outcome.",
+      "sourceBook": "Bailey & Love's Short Practice of Surgery",
+      "sourceChapter": "Nutritional Assessment — Body Weight and Anthropometry",
+      "sourcePage": null,
+      "subject": "General Surgery & Orthopedics"
+    },
+    {
+      "id": 14,
+      "topic": "Membrane Potentials",
+      "subtopic": "Membrane Permeability",
+      "difficulty": "Easy",
+      "question": "At rest, the cell membrane is:",
+      "options": {
+        "A": "Freely permeable to Na+ but impermeable to K+",
+        "B": "Effectively impermeable (or only moderately permeable) to Na+, but freely permeable to K+ and Cl-",
+        "C": "Equally permeable to Na+ and K+",
+        "D": "Impermeable to all ions including K+ and Cl-"
+      },
+      "correctAnswer": "B",
+      "explanation": "At rest, the cell membrane is effectively impermeable (or only moderately permeable) to Na+, while being freely permeable to K+ and Cl- — K+ permeability is roughly 50-100 times greater than Na+ permeability, which is fundamental to the genesis of the resting membrane potential.",
+      "sourceBook": "AK Jain, Physiology",
+      "sourceChapter": "The Membrane Potentials — Introduction",
+      "sourcePage": null,
+      "subject": "Physiology"
+    },
+    {
+      "id": 15,
+      "topic": "Cardiopulmonary Assessment",
+      "subtopic": "Patterns of Breathlessness",
+      "difficulty": "Easy",
+      "question": "Breathlessness specifically occurring when a patient lies flat is termed:",
+      "options": {
+        "A": "Orthopnoea",
+        "B": "Paroxysmal nocturnal dyspnoea",
+        "C": "Tachypnoea",
+        "D": "Hyperventilation syndrome"
+      },
+      "correctAnswer": "A",
+      "explanation": "Orthopnoea is breathlessness specifically triggered by lying flat, classically because it increases venous return from the legs, causing blood to pool in the lungs in cardiac patients. Paroxysmal nocturnal dyspnoea (PND) is a related but distinct pattern — breathlessness that wakes the patient from sleep at night.",
+      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+      "sourceChapter": "Assessment — Breathlessness",
+      "sourcePage": null,
+      "subject": "Physiotherapy in General Medical & Surgical Condition"
+    },
+    {
+      "id": 16,
+      "topic": "Resistance Exercise",
+      "subtopic": "Types of Muscle Contraction",
+      "difficulty": "Easy",
+      "question": "When the velocity of a limb movement is held constant by a rate-controlling device during exercise, this is referred to as:",
+      "options": {
+        "A": "Isometric contraction",
+        "B": "Isokinetic contraction",
+        "C": "Isotonic contraction only",
+        "D": "Passive contraction"
+      },
+      "correctAnswer": "B",
+      "explanation": "An isokinetic contraction is one where the velocity of limb movement is held constant by a rate-controlling device (an isokinetic dynamometer), distinguishing it from standard dynamic (isotonic) exercise where velocity is not controlled.",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 6: Resistance Exercise — Type of Muscle Contraction",
+      "sourcePage": null,
+      "subject": "Kinesio Therapeutics"
+    },
+    {
+      "id": 17,
+      "topic": "Biology of Behavior",
+      "subtopic": "Cerebral Cortex Structure",
+      "difficulty": "Easy",
+      "question": "The corpus callosum's main function is to:",
+      "options": {
+        "A": "Produce hormones for the endocrine system",
+        "B": "Connect corresponding areas of the cortex in one cerebral hemisphere with the other hemisphere",
+        "C": "Carry sound information from the ear to the temporal lobe",
+        "D": "Regulate body temperature directly"
+      },
+      "correctAnswer": "B",
+      "explanation": "The corpus callosum is a large bundle of nerve fibers that connects corresponding areas of the cortex in the left and right cerebral hemispheres, allowing communication and integration between the two sides of the brain.",
+      "sourceBook": "Morgan & King, Introduction to Psychology",
+      "sourceChapter": "Biology of Behavior — Forebrain: Cerebrum, Structure",
+      "sourcePage": null,
+      "subject": "Psychology"
+    },
+    {
+      "id": 18,
+      "topic": "Paediatric Surgery",
+      "subtopic": "Inguinal Hernia",
+      "difficulty": "Easy",
+      "question": "Inguinal hernias in children are almost always caused by:",
+      "options": {
+        "A": "A direct defect in the abdominal wall muscles",
+        "B": "A patent processus vaginalis (indirect hernia)",
+        "C": "Chronic constipation alone",
+        "D": "Prior abdominal surgery"
+      },
+      "correctAnswer": "B",
+      "explanation": "Inguinal hernias in children are almost always indirect, caused by failure of the processus vaginalis (the tongue of peritoneum that precedes testicular descent) to obliterate after birth.",
+      "sourceBook": "Bailey & Love's Short Practice of Surgery",
+      "sourceChapter": "Principles of Paediatric Surgery — Inguinal Hernias",
+      "sourcePage": null,
+      "subject": "General Surgery & Orthopedics"
+    },
+    {
       "id": 19,
       "topic": "Upper Limb",
       "subtopic": "Carpal Bones",
       "difficulty": "Easy",
-      "question": "Which carpal bone is described as the largest, with a rounded head, occupying the centre of the distal row?",
+      "question": "The hook-like projection near the base of which carpal bone gives attachment to the flexor retinaculum?",
       "options": {
-        "A": "Hamate",
-        "B": "Trapezoid",
-        "C": "Capitate",
-        "D": "Lunate"
+        "A": "Scaphoid",
+        "B": "Trapezium",
+        "C": "Hamate",
+        "D": "Pisiform only"
       },
       "correctAnswer": "C",
-      "explanation": "The capitate is the largest carpal bone, identified by its rounded head, and sits in the distal row.",
+      "explanation": "The hamate is wedge-shaped with a hook projecting from the distal part of its palmar surface; the tip of the hook gives attachment to the flexor retinaculum, and its medial side gives origin to flexor digiti minimi and opponens digiti minimi.",
       "sourceBook": "BD Chaurasia's Human Anatomy — Upper Limb",
       "sourceChapter": "Bones of the Upper Limb — Carpal Bones",
       "sourcePage": null,
@@ -374,22 +374,22 @@
     },
     {
       "id": 20,
-      "topic": "Electrical Stimulation of Nerve and Muscle",
-      "subtopic": "Faradic-Type Current",
+      "topic": "Receptor Pharmacology",
+      "subtopic": "Agonists and Antagonists",
       "difficulty": "Easy",
-      "question": "A faradic-type current is best defined as:",
+      "question": "In pharmacology, a drug that activates a receptor to produce an effect similar to the physiological signal molecule is called a/an:",
       "options": {
-        "A": "A continuous, unvarying direct current",
-        "B": "A short-duration interrupted direct current with a pulse duration of 0.1-1 ms and a frequency of 50-100 Hz",
-        "C": "A current only used for denervated muscle",
-        "D": "A current with pulse durations always exceeding 100 ms"
+        "A": "Antagonist",
+        "B": "Agonist",
+        "C": "Partial agonist",
+        "D": "Inverse agonist"
       },
       "correctAnswer": "B",
-      "explanation": "A faradic-type current is a short-duration interrupted direct current with a pulse duration of 0.1-1 ms and a frequency of 50-100 Hz — modern electronic stimulators reproduce the same physiological effects as the original faradic coil, just via a different circuit mechanism.",
-      "sourceBook": "Clayton's Electrotherapy",
-      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Faradic-Type Current",
-      "sourcePage": "40",
-      "subject": "Fundamentals of Electro Therapy"
+      "explanation": "An agonist activates a receptor to produce an effect similar to that of the natural (physiological) signal molecule. An antagonist, by contrast, prevents an agonist's action without producing an effect of its own.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
+      "sourcePage": null,
+      "subject": "Pharmacology"
     }
   ]
 }

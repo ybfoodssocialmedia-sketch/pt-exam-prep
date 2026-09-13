@@ -2,7 +2,7 @@
   "paperId": "hard-practice-set-4",
   "paperName": "Hard Practice Set 4",
   "subject": "Mixed",
-  "description": "Hard-difficulty practice set (20 questions) covering: Anatomy, Biochemistry, Fundamentals of Exercise Therapy, General Surgery & Orthopedics, Kinesio Therapeutics, Medicine, Pathology & Microbiology, Pharmacology, Physical Diagnosis & Manipulative Skills, Physiotherapy in General Medical & Surgical Condition, Physiotherapy in Musculoskeletal Condition, Physiotherapy in Neurosciences, Psychiatry.",
+  "description": "Hard-difficulty practice set (20 questions) covering: Fundamentals of Electro Therapy, General Surgery & Orthopedics, Kinesio Therapeutics, Medicine, OBGY, Pathology & Microbiology, Pharmacology, Physical Diagnosis & Manipulative Skills, Physiology, Physiotherapy in General Medical & Surgical Condition, Physiotherapy in Musculoskeletal Condition, Physiotherapy in Neurosciences, Psychiatry.",
   "durationMinutes": 90,
   "scoring": {
     "correct": 1,
@@ -13,44 +13,63 @@
   "questions": [
     {
       "id": 1,
-      "topic": "Proteins and Amino Acids",
-      "subtopic": "Peptide Naming",
+      "topic": "Shoulder Assessment",
+      "subtopic": "Labral Lesions",
       "difficulty": "Hard",
-      "question": "When naming a peptide, the amino acid suffixes (e.g. '-ine' in glycine) are changed to '-yl' for every residue EXCEPT which one?",
+      "question": "A 'Bankart lesion' of the shoulder refers to:",
       "options": {
-        "A": "The N-terminal residue",
-        "B": "The C-terminal residue",
-        "C": "Any residue in the middle of the chain",
-        "D": "Cysteine specifically, regardless of position"
-      },
-      "correctAnswer": "B",
-      "explanation": "In peptide nomenclature, every amino acid's suffix is changed to '-yl' except the C-terminal residue, which keeps its normal name. For example, a tripeptide of glutamate-cysteine-glycine (glycine being C-terminal) is named glutamyl-cysteinyl-glycine.",
-      "sourceBook": "Satyanarayana, Biochemistry",
-      "sourceChapter": "Proteins and Amino Acids — Peptide Bond",
-      "sourcePage": null,
-      "subject": "Biochemistry"
-    },
-    {
-      "id": 2,
-      "topic": "Knee Assessment",
-      "subtopic": "Quadriceps Active Test",
-      "difficulty": "Hard",
-      "question": "In arthrometer testing, the 'quadriceps active position' refers to the knee angle at which:",
-      "options": {
-        "A": "The tibia shows no forward movement when the quadriceps contracts, typically around 70° of flexion",
-        "B": "The knee is fully extended at 0°",
-        "C": "The patient is asked to relax completely with no muscle contraction",
-        "D": "The hamstrings are maximally contracted instead of the quadriceps"
+        "A": "Detachment of the anteroinferior labrum, commonly occurring with traumatic anterior dislocation",
+        "B": "A tear confined strictly to the superior labrum (10 to 2 o'clock position)",
+        "C": "A rotator cuff tear with no labral involvement",
+        "D": "A fracture of the greater tuberosity"
       },
       "correctAnswer": "A",
-      "explanation": "The quadriceps neutral (active) angle is the knee flexion angle — typically around 70° — at which an isolated quadriceps contraction produces no anterior tibial translation in a normal knee; this position is used as a reference when testing the injured knee for abnormal anterior displacement (suggestive of PCL injury).",
+      "explanation": "A Bankart lesion is a tear of the anteroinferior labrum (roughly the 3 to 7 o'clock position in the right shoulder), most commonly occurring with a traumatic anterior dislocation, also compromising the stability of the inferior glenohumeral ligament.",
       "sourceBook": "Magee, Orthopedic Physical Assessment",
-      "sourceChapter": "Chapter 12: Knee — Quadriceps Neutral Test",
+      "sourceChapter": "Chapter 5: Shoulder — Tests for Labral Tears",
       "sourcePage": null,
       "subject": "Physiotherapy in Musculoskeletal Condition"
     },
     {
+      "id": 2,
+      "topic": "Manual Muscle Testing",
+      "subtopic": "Exceptions to Standard Technique",
+      "difficulty": "Hard",
+      "question": "When testing hip abductor strength in a patient with an unstable knee, resistance is applied at the distal femur (just above the knee) instead of at the ankle. Using this shorter lever, what is the highest grade that can be assigned, even if the patient tolerates maximal resistance?",
+      "options": {
+        "A": "Grade 5",
+        "B": "Grade 4",
+        "C": "Grade 3",
+        "D": "Grade 2"
+      },
+      "correctAnswer": "B",
+      "explanation": "A shorter lever (resistance near the knee rather than at the ankle) makes the test mechanically easier, so a patient who takes maximal resistance in this position can still only be graded a 4 — the longer lever at the ankle is needed to truly demonstrate Grade 5 strength, since it better reflects the functional demand of gait.",
+      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+      "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+      "sourcePage": "3",
+      "subject": "Physical Diagnosis & Manipulative Skills"
+    },
+    {
       "id": 3,
+      "topic": "Eating Disorders",
+      "subtopic": "Anorexia vs Bulimia Nervosa",
+      "difficulty": "Hard",
+      "question": "Although bulimic episodes (binge eating followed by vomiting) can occur in BOTH anorexia nervosa and bulimia nervosa, the key distinguishing feature is that patients with bulimia nervosa:",
+      "options": {
+        "A": "Usually maintain a near-normal body weight (or are overweight), unlike the marked underweight seen in anorexia nervosa",
+        "B": "Always have amenorrhoea, unlike anorexia nervosa patients",
+        "C": "Never show any body-image disturbance",
+        "D": "Are exclusively male, while anorexia nervosa is exclusively female"
+      },
+      "correctAnswer": "A",
+      "explanation": "While bulimic episodes are common in anorexia nervosa, patients with bulimia nervosa usually maintain a near-normal body weight or are even overweight — sharply contrasting with the significant, often severe underweight state that defines anorexia nervosa.",
+      "sourceBook": "Ahuja, A Short Textbook of Psychiatry",
+      "sourceChapter": "Eating Disorders — Anorexia Nervosa, Differential Diagnosis",
+      "sourcePage": null,
+      "subject": "Psychiatry"
+    },
+    {
+      "id": 4,
       "topic": "Neoplasia",
       "subtopic": "Special Tumour Categories",
       "difficulty": "Hard",
@@ -69,7 +88,254 @@
       "subject": "Pathology & Microbiology"
     },
     {
-      "id": 4,
+      "id": 5,
+      "topic": "Adverse Drug Effects",
+      "subtopic": "Idiosyncrasy",
+      "difficulty": "Hard",
+      "question": "'Idiosyncrasy' as an adverse drug reaction is best defined as:",
+      "options": {
+        "A": "A predictable, dose-related toxic effect seen in all patients given a high enough dose",
+        "B": "A genetically determined, abnormal reactivity to a drug, restricted to individuals with a particular (often unique) genetic makeup",
+        "C": "An immunologically mediated reaction requiring prior sensitization",
+        "D": "The normal, expected therapeutic effect of the drug"
+      },
+      "correctAnswer": "B",
+      "explanation": "Idiosyncrasy is a genetically determined abnormal reactivity to a drug — the drug interacts with some unique feature of the individual not found in most people, producing an uncharacteristic reaction restricted to individuals with a particular genotype (e.g. chloramphenicol producing aplastic anaemia in rare individuals).",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Adverse Drug Effects — Idiosyncrasy",
+      "sourcePage": null,
+      "subject": "Pharmacology"
+    },
+    {
+      "id": 6,
+      "topic": "Knee Assessment",
+      "subtopic": "Dial Test",
+      "difficulty": "Hard",
+      "question": "In the tibial external rotation (Dial) test, if the tibia rotates MORE at 90° of knee flexion than at 30°, this pattern most likely indicates injury to:",
+      "options": {
+        "A": "Only the popliteus corner (isolated posterolateral injury)",
+        "B": "Both the popliteus corner AND the posterior cruciate ligament",
+        "C": "The anterior cruciate ligament in isolation",
+        "D": "The medial meniscus only"
+      },
+      "correctAnswer": "B",
+      "explanation": "In the Dial test, if the tibia rotates less at 90° than at 30°, an isolated posterolateral (popliteus corner) injury is more likely. If it rotates MORE at 90° than at 30°, combined injury to both the popliteus corner and the posterior cruciate ligament is more likely.",
+      "sourceBook": "Magee, Orthopedic Physical Assessment",
+      "sourceChapter": "Chapter 12: Knee — Tibial External Rotation (Dial) Test",
+      "sourcePage": null,
+      "subject": "Physiotherapy in Musculoskeletal Condition"
+    },
+    {
+      "id": 7,
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Cathode vs Anode",
+      "difficulty": "Hard",
+      "question": "For a RISING (increasing) current applied over a superficial nerve, which electrode is more effective at initiating a nerve impulse, and why is the active electrode typically connected to it?",
+      "options": {
+        "A": "The anode, because it requires less current overall",
+        "B": "The cathode, because it produces contraction of innervated muscle with less current than is required at the anode",
+        "C": "Neither electrode has any different effect",
+        "D": "The anode always requires less current than the cathode"
+      },
+      "correctAnswer": "B",
+      "explanation": "For a rising current, the cathode is more effective at initiating a nerve impulse than the anode. This is why the active electrode is conventionally connected to the cathode — it produces contraction of innervated muscle using less current than would be needed if the anode were used as the active electrode.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Mechanism of Nerve Stimulation",
+      "sourcePage": "45",
+      "subject": "Fundamentals of Electro Therapy"
+    },
+    {
+      "id": 8,
+      "topic": "Soft Tissue Injury",
+      "subtopic": "Stages of Healing",
+      "difficulty": "Hard",
+      "question": "The acute inflammatory stage of soft tissue healing typically lasts approximately how long, unless the insult is perpetuated?",
+      "options": {
+        "A": "4 to 6 days",
+        "B": "6 months to 1 year",
+        "C": "2 to 3 years",
+        "D": "Only a few minutes"
+      },
+      "correctAnswer": "A",
+      "explanation": "The acute inflammatory stage typically lasts 4 to 6 days unless the injury is continually aggravated. The subsequent subacute (proliferation/repair) stage usually lasts 10-17 days (up to 6 weeks in poorly vascularised tissues like tendons), and the chronic (maturation/remodeling) stage can last 6 months to 1 year.",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 10: Soft Tissue Injury, Repair, and Management — Acute Stage",
+      "sourcePage": null,
+      "subject": "Kinesio Therapeutics"
+    },
+    {
+      "id": 9,
+      "topic": "Receptor Pharmacology",
+      "subtopic": "Enzyme Inhibition",
+      "difficulty": "Hard",
+      "question": "A drug that reacts with an enzyme's catalytic site so strongly (via a covalent bond or very high affinity) that the normal substrate cannot displace it produces which kinetic pattern?",
+      "options": {
+        "A": "kM unchanged, Vmax unchanged (no real inhibition)",
+        "B": "kM decreased, Vmax increased",
+        "C": "kM increased and Vmax reduced — a non-equilibrium type of competitive inhibition",
+        "D": "Only Vmax changes while kM decreases proportionally"
+      },
+      "correctAnswer": "C",
+      "explanation": "Classical competitive inhibition (equilibrium type) raises kM but leaves Vmax unchanged, since enough substrate can still out-compete the inhibitor. But when the inhibitor binds essentially irreversibly at the same catalytic site (e.g. organophosphates on cholinesterase, or methotrexate's very high affinity for dihydrofolate reductase), substrate can no longer displace it — this non-equilibrium type raises kM AND reduces Vmax.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
+      "sourcePage": null,
+      "subject": "Pharmacology"
+    },
+    {
+      "id": 10,
+      "topic": "Sleep Disorders",
+      "subtopic": "Narcolepsy",
+      "difficulty": "Hard",
+      "question": "The hallmark polysomnographic finding in narcolepsy is:",
+      "options": {
+        "A": "Increased REM latency (REM sleep delayed beyond 100 minutes)",
+        "B": "Decreased REM latency, with REM sleep occurring within about 10 minutes of sleep onset",
+        "C": "Complete absence of REM sleep",
+        "D": "No measurable difference from normal sleep architecture"
+      },
+      "correctAnswer": "B",
+      "explanation": "The hallmark of narcolepsy is decreased REM latency — normal REM latency is 90-100 minutes, but in narcolepsy REM sleep typically begins within about 10 minutes of sleep onset.",
+      "sourceBook": "Ahuja, A Short Textbook of Psychiatry",
+      "sourceChapter": "Sleep Disorders — Narcolepsy",
+      "sourcePage": null,
+      "subject": "Psychiatry"
+    },
+    {
+      "id": 11,
+      "topic": "Knee Assessment",
+      "subtopic": "Ligament Testing Devices",
+      "difficulty": "Hard",
+      "question": "Using the KT-1000 arthrometer, a difference of more than 3 mm in anterior displacement between the injured and uninjured knee is generally considered:",
+      "options": {
+        "A": "A normal finding requiring no further action",
+        "B": "Diagnostic for injury to the anterior or posterior cruciate ligament",
+        "C": "Evidence of a meniscal tear specifically, never a ligament injury",
+        "D": "Only relevant in paediatric patients"
+      },
+      "correctAnswer": "B",
+      "explanation": "A side-to-side difference of more than 3 mm in anterior displacement on KT-1000 arthrometer testing is generally considered diagnostic for injury to the anterior cruciate ligament or posterior cruciate ligament.",
+      "sourceBook": "Magee, Orthopedic Physical Assessment",
+      "sourceChapter": "Chapter 12: Knee — Ligament Testing Devices",
+      "sourcePage": null,
+      "subject": "Physiotherapy in Musculoskeletal Condition"
+    },
+    {
+      "id": 12,
+      "topic": "Paediatric Surgery",
+      "subtopic": "Testicular Descent — Physiology",
+      "difficulty": "Hard",
+      "question": "The final descent of the testis into the scrotum during fetal development is mediated primarily by:",
+      "options": {
+        "A": "Oestrogen from the placenta",
+        "B": "Testosterone from the fetal testis",
+        "C": "Growth hormone from the fetal pituitary",
+        "D": "Prolactin from the maternal circulation"
+      },
+      "correctAnswer": "B",
+      "explanation": "While gonadal induction (forming a testis in the first place) is driven by genes on the Y chromosome and initial abdominal migration is guided by the gubernaculum, the final descent of the testis into the scrotum is mediated by testosterone produced by the fetal testis itself.",
+      "sourceBook": "Bailey & Love's Short Practice of Surgery",
+      "sourceChapter": "Principles of Paediatric Surgery — Genital Development",
+      "sourcePage": null,
+      "subject": "General Surgery & Orthopedics"
+    },
+    {
+      "id": 13,
+      "topic": "Nutrition and Fluid Therapy",
+      "subtopic": "Fluid Balance",
+      "difficulty": "Hard",
+      "question": "What is the minimum daily urine output generally required to adequately excrete the end products of protein metabolism?",
+      "options": {
+        "A": "50 mL/day",
+        "B": "400 mL/day",
+        "C": "5000 mL/day",
+        "D": "There is no minimum requirement"
+      },
+      "correctAnswer": "B",
+      "explanation": "A minimum urine output of approximately 400 mL/day is required to excrete the nitrogenous end products of protein metabolism, even though average daily urine output in a healthy adult is around 1500 mL/day.",
+      "sourceBook": "Bailey & Love's Short Practice of Surgery",
+      "sourceChapter": "Fluid and Electrolytes",
+      "sourcePage": null,
+      "subject": "General Surgery & Orthopedics"
+    },
+    {
+      "id": 14,
+      "topic": "Stroke",
+      "subtopic": "Pathophysiology",
+      "difficulty": "Hard",
+      "question": "In the 'ischemic penumbra' surrounding the core of an acute ischemic stroke, neurons:",
+      "options": {
+        "A": "Die immediately within seconds, identical to the ischemic core",
+        "B": "Survive for a somewhat longer period than core neurons, but will die without timely reperfusion — making this tissue a key target for acute treatment",
+        "C": "Are completely unaffected by the stroke",
+        "D": "Regenerate spontaneously without any intervention"
+      },
+      "correctAnswer": "B",
+      "explanation": "While neurons in the ischemic core die within minutes, the surrounding penumbra contains neurons that survive somewhat longer but remain at risk — cell survival depends on the severity and duration of ischemia, and without timely reperfusion, cells in the penumbra will die and the infarct will expand. This makes the penumbra the key target of emergency stroke treatment.",
+      "sourceBook": "O'Sullivan, Physical Rehabilitation",
+      "sourceChapter": "Chapter 15: Stroke — Pathophysiology",
+      "sourcePage": null,
+      "subject": "Physiotherapy in Neurosciences"
+    },
+    {
+      "id": 15,
+      "topic": "Stroke",
+      "subtopic": "Cerebral Edema",
+      "difficulty": "Hard",
+      "question": "Cerebral edema following ischemic stroke typically reaches its maximum at approximately what time point, and is the most frequent cause of death in acute stroke?",
+      "options": {
+        "A": "Within the first hour",
+        "B": "3 to 4 days",
+        "C": "6 months",
+        "D": "It never resolves"
+      },
+      "correctAnswer": "B",
+      "explanation": "Cerebral edema begins within minutes of the ischemic insult and reaches its maximum by 3 to 4 days, gradually subsiding by 2 to 3 weeks. Significant edema, particularly with large MCA/ICA infarcts, is the most frequent cause of death in acute stroke due to raised intracranial pressure and brainstem herniation.",
+      "sourceBook": "O'Sullivan, Physical Rehabilitation",
+      "sourceChapter": "Chapter 15: Stroke — Pathophysiology",
+      "sourcePage": null,
+      "subject": "Physiotherapy in Neurosciences"
+    },
+    {
+      "id": 16,
+      "topic": "Membrane Potentials",
+      "subtopic": "Na+-K+ Pump Electrogenicity",
+      "difficulty": "Hard",
+      "question": "The Na+-K+ pump is described as 'electrogenic at rest' because it operates with a coupling ratio of 3 Na+ out for every 2 K+ in. What would happen to its contribution to the membrane potential if the coupling ratio were instead 1:1?",
+      "options": {
+        "A": "It would generate an even larger membrane potential",
+        "B": "It would not directly generate any membrane potential itself, though it would still maintain the concentration gradients the potential depends on",
+        "C": "The cell would immediately depolarise completely and stay depolarised",
+        "D": "The pump would stop functioning altogether"
+      },
+      "correctAnswer": "B",
+      "explanation": "At a 3:2 coupling ratio, the Na+-K+ pump moves net positive charge out of the cell with each cycle, directly contributing a small electrogenic component to the membrane potential. If the ratio were 1:1 (equal charge moved each way), the pump itself would not generate any net potential directly — though it would still be essential for maintaining the ionic concentration gradients that the resting membrane potential fundamentally depends on.",
+      "sourceBook": "AK Jain, Physiology",
+      "sourceChapter": "The Membrane Potentials — Genesis of Resting Membrane Potential",
+      "sourcePage": null,
+      "subject": "Physiology"
+    },
+    {
+      "id": 17,
+      "topic": "Normal Puerperium",
+      "subtopic": "Lochia — Clinical Significance",
+      "difficulty": "Hard",
+      "question": "Persistence of red-coloured lochia well beyond the normal expected duration most likely signifies:",
+      "options": {
+        "A": "Normal healing with no clinical concern",
+        "B": "Subinvolution of the uterus or retained bits of the conceptus",
+        "C": "A completely normal variant seen in all women",
+        "D": "Onset of the first postpartum menstrual period"
+      },
+      "correctAnswer": "B",
+      "explanation": "Persistence of the red colour of lochia beyond the normal limit is a clinically important sign suggesting subinvolution of the uterus or retained products of conception, and should prompt further evaluation.",
+      "sourceBook": "Dutta's Textbook of Obstetrics",
+      "sourceChapter": "Normal Puerperium — Lochia, Clinical Importance",
+      "sourcePage": null,
+      "subject": "OBGY"
+    },
+    {
+      "id": 18,
       "topic": "Clinical Decision Making",
       "subtopic": "Human Factors",
       "difficulty": "Hard",
@@ -88,102 +354,26 @@
       "subject": "Medicine"
     },
     {
-      "id": 5,
-      "topic": "Knee Assessment",
-      "subtopic": "Special Tests — Patellofemoral",
+      "id": 19,
+      "topic": "Platelets",
+      "subtopic": "Clot Retraction",
       "difficulty": "Hard",
-      "question": "Clarke's sign and the McConnell test are both special tests associated with which condition?",
+      "question": "Clot retraction, which produces a more effective and compact haemostatic plug, is driven by contraction of platelet pseudopodia containing which contractile protein?",
       "options": {
-        "A": "Patellofemoral syndrome",
-        "B": "Iliotibial band friction syndrome",
-        "C": "Meniscus lesions",
-        "D": "Leg length discrepancy"
+        "A": "Thrombosthenin (actomyosin-like protein)",
+        "B": "Myoglobin",
+        "C": "Collagen",
+        "D": "Fibrinogen exclusively"
       },
       "correctAnswer": "A",
-      "explanation": "Clarke's sign and the McConnell test are both used in the assessment of patellofemoral syndrome (anterior knee pain related to patellar tracking/compression issues).",
-      "sourceBook": "Magee, Orthopedic Physical Assessment",
-      "sourceChapter": "Chapter 12: Knee — Special Tests Commonly Performed on the Knee",
+      "explanation": "Clot retraction (the fibrin clot contracting to about 40% of its original volume within 5-30 minutes) is produced by contraction of platelet pseudopodia, which contain the contractile actomyosin-like protein historically called thrombosthenin.",
+      "sourceBook": "AK Jain, Physiology",
+      "sourceChapter": "Platelets or Thrombocytes — Clot Retraction",
       "sourcePage": null,
-      "subject": "Physiotherapy in Musculoskeletal Condition"
+      "subject": "Physiology"
     },
     {
-      "id": 6,
-      "topic": "Neoplasia",
-      "subtopic": "Special Tumour Categories",
-      "difficulty": "Hard",
-      "question": "A choristoma differs from a true neoplasm in that it is actually:",
-      "options": {
-        "A": "An ectopic island of otherwise normal tissue (heterotopia), not a genuine tumour",
-        "B": "A tumour with two distinct malignant cell lines mixed together",
-        "C": "Exactly the same thing as a hamartoma",
-        "D": "Always fatal within the first year of life"
-      },
-      "correctAnswer": "A",
-      "explanation": "A choristoma is the name given to ectopic islands of completely normal tissue found in an abnormal location — it is heterotopia, not a true tumour, even though the name sounds like one.",
-      "sourceBook": "Harsh Mohan, Textbook of Pathology",
-      "sourceChapter": "Neoplasia — Special Categories of Tumours",
-      "sourcePage": null,
-      "subject": "Pathology & Microbiology"
-    },
-    {
-      "id": 7,
-      "topic": "Upper Limb",
-      "subtopic": "Carpal Bones — Clinical",
-      "difficulty": "Hard",
-      "question": "Why is a scaphoid fracture through the waist of the bone at particular risk of avascular necrosis?",
-      "options": {
-        "A": "The scaphoid has no nutrient artery at all",
-        "B": "Both nutrient arteries typically enter through the distal part (tubercle/body), so a waist fracture can cut off blood supply to the proximal fragment",
-        "C": "The scaphoid is the only carpal bone with no cartilage covering",
-        "D": "Scaphoid fractures always damage the ulnar nerve directly"
-      },
-      "correctAnswer": "B",
-      "explanation": "The scaphoid's blood supply normally enters via nutrient arteries at the tubercle (palmar surface) and the dorsal surface of the body — both relatively distal. A waist fracture can therefore deprive the proximal fragment of its blood supply, since retrograde flow to that fragment is often insufficient, leading to avascular necrosis and a high risk of nonunion.",
-      "sourceBook": "BD Chaurasia's Human Anatomy — Upper Limb",
-      "sourceChapter": "Bones of the Upper Limb — Carpal Bones, Clinical Anatomy",
-      "sourcePage": null,
-      "subject": "Anatomy"
-    },
-    {
-      "id": 8,
-      "topic": "Cardiopulmonary Assessment",
-      "subtopic": "Fever Patterns",
-      "difficulty": "Hard",
-      "question": "High fevers occurring specifically at night, associated with night sweats, may be an early indicator of which condition?",
-      "options": {
-        "A": "Simple viral cold",
-        "B": "Pulmonary tuberculosis",
-        "C": "Hyperventilation syndrome",
-        "D": "Musculoskeletal chest pain"
-      },
-      "correctAnswer": "B",
-      "explanation": "High fevers occurring at night with associated night sweats may be the first indicator of pulmonary tuberculosis, and should prompt further investigation.",
-      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
-      "sourceChapter": "Assessment — Other Symptoms",
-      "sourcePage": null,
-      "subject": "Physiotherapy in General Medical & Surgical Condition"
-    },
-    {
-      "id": 9,
-      "topic": "Manual Muscle Testing",
-      "subtopic": "Limitations of MMT",
-      "difficulty": "Hard",
-      "question": "The 'ceiling effect' of manual muscle testing refers to which limitation of the technique?",
-      "options": {
-        "A": "It cannot detect any degree of weakness whatsoever",
-        "B": "A wide range of actual muscle force can all be labeled Grade 5 (Normal), masking real strength differences among people graded 'normal'",
-        "C": "It systematically overestimates weakness in older adults",
-        "D": "It is not valid for testing lower-extremity muscles"
-      },
-      "correctAnswer": "B",
-      "explanation": "Studies comparing MMT to hand-held dynamometry found knee extension forces ranging roughly from 85 to over 800 Newtons all classified as Grade 5 (Normal) by break testing. This 'ceiling effect' means MMT loses the ability to distinguish real strength differences once a muscle is already strong, so it is not recommended as a measure of progress above Grade 3.",
-      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
-      "sourceChapter": "Chapter 2: Relevance and Limitations of Manual Muscle Testing",
-      "sourcePage": "17",
-      "subject": "Physical Diagnosis & Manipulative Skills"
-    },
-    {
-      "id": 10,
+      "id": 20,
       "topic": "Cardiopulmonary Assessment",
       "subtopic": "Haemoptysis",
       "difficulty": "Hard",
@@ -198,196 +388,6 @@
       "explanation": "Isolated haemoptysis can be the first sign of bronchogenic carcinoma even when the chest X-ray is normal, which is why it should always be taken seriously and investigated further rather than dismissed.",
       "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
       "sourceChapter": "Assessment — Sputum, Haemoptysis",
-      "sourcePage": null,
-      "subject": "Physiotherapy in General Medical & Surgical Condition"
-    },
-    {
-      "id": 11,
-      "topic": "Receptor Pharmacology",
-      "subtopic": "Receptor Reserve",
-      "difficulty": "Hard",
-      "question": "The existence of 'spare receptors' (receptor reserve) explains which observed phenomenon?",
-      "options": {
-        "A": "Some full agonists can produce a maximal response while occupying less than 1% of available receptors",
-        "B": "All antagonists eventually become agonists at high enough doses",
-        "C": "Receptor numbers never change regardless of chronic drug exposure",
-        "D": "Enzymes and receptors are functionally identical structures"
-      },
-      "correctAnswer": "A",
-      "explanation": "When a tissue has a large receptor reserve, a full agonist can produce its maximal biological response by occupying only a small fraction of the total available receptors — occupying more receptors beyond that doesn't increase the effect further, since the response has already plateaued.",
-      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
-      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
-      "sourcePage": null,
-      "subject": "Pharmacology"
-    },
-    {
-      "id": 12,
-      "topic": "Paediatric Surgery",
-      "subtopic": "Acute Scrotum",
-      "difficulty": "Hard",
-      "question": "In a child presenting with acute scrotal pain, testicular torsion must be relieved within approximately what time window from symptom onset for a good chance of testicular salvage?",
-      "options": {
-        "A": "6-8 hours",
-        "B": "48 hours",
-        "C": "1 week",
-        "D": "There is no time limit"
-      },
-      "correctAnswer": "A",
-      "explanation": "Testicular torsion must be relieved within 6-8 hours of symptom onset for a good chance of salvaging the testis — this is why any acute scrotum where torsion cannot be confidently excluded requires urgent surgical exploration.",
-      "sourceBook": "Bailey & Love's Short Practice of Surgery",
-      "sourceChapter": "Principles of Paediatric Surgery — The Acute Scrotum",
-      "sourcePage": null,
-      "subject": "General Surgery & Orthopedics"
-    },
-    {
-      "id": 13,
-      "topic": "Phobic Disorders",
-      "subtopic": "Behavioural Theory",
-      "difficulty": "Hard",
-      "question": "John Watson's famous 1920 'Little Albert' experiment is cited in psychiatry textbooks as historical evidence for which theory of phobia causation?",
-      "options": {
-        "A": "Psychodynamic theory (displacement)",
-        "B": "Behavioural theory (classical conditioning)",
-        "C": "Biological/genetic theory",
-        "D": "Biochemical serotonin theory"
-      },
-      "correctAnswer": "B",
-      "explanation": "Watson experimentally produced a phobia of white objects in an infant ('Little Albert') by repeatedly pairing a neutral white object with a loud, frightening noise — a classic demonstration of classical conditioning supporting the behavioural theory that phobias are learned, conditioned fear responses.",
-      "sourceBook": "Ahuja, A Short Textbook of Psychiatry",
-      "sourceChapter": "Neurotic, Stress-related and Somatoform Disorders — Phobic Disorder, Aetiology",
-      "sourcePage": null,
-      "subject": "Psychiatry"
-    },
-    {
-      "id": 14,
-      "topic": "Neoplasia",
-      "subtopic": "Mixed Tumours",
-      "difficulty": "Hard",
-      "question": "Carcinosarcoma is an example of a mixed tumour because it combines:",
-      "options": {
-        "A": "Two different carcinomas of the same epithelial origin",
-        "B": "A malignant tumour of epithelium (carcinoma) with a malignant tumour of mesenchymal tissue (sarcoma) in the same lesion",
-        "C": "A benign and a malignant tumour of the same tissue type",
-        "D": "Tissue from all three germ cell layers"
-      },
-      "correctAnswer": "B",
-      "explanation": "Carcinosarcoma is the rare combination of a malignant epithelial tumour (carcinoma) and a malignant mesenchymal tumour (sarcoma) occurring together in the same lesion, such as in the thyroid.",
-      "sourceBook": "Harsh Mohan, Textbook of Pathology",
-      "sourceChapter": "Neoplasia — Special Categories of Tumours",
-      "sourcePage": null,
-      "subject": "Pathology & Microbiology"
-    },
-    {
-      "id": 15,
-      "topic": "Stroke",
-      "subtopic": "Thrombolytic Therapy",
-      "difficulty": "Hard",
-      "question": "Tissue plasminogen activator (tPA) is a clot-dissolving therapy for acute ischemic stroke. Within what time window from symptom onset must it generally be given to be effective and safe?",
-      "options": {
-        "A": "24 hours",
-        "B": "3 hours",
-        "C": "7 days",
-        "D": "There is no time limit"
-      },
-      "correctAnswer": "B",
-      "explanation": "tPA must generally be given within 3 hours of symptom onset to be effective, and cannot be given in hemorrhagic stroke because it may worsen bleeding — this is why rapid recognition of stroke symptoms and emergency imaging (CT) to distinguish ischemic from hemorrhagic stroke are critical ('time is brain').",
-      "sourceBook": "O'Sullivan, Physical Rehabilitation",
-      "sourceChapter": "Chapter 15: Stroke — Risk Factors and Stroke Prevention",
-      "sourcePage": null,
-      "subject": "Physiotherapy in Neurosciences"
-    },
-    {
-      "id": 16,
-      "topic": "Resistance Exercise",
-      "subtopic": "Muscle Fiber Atrophy",
-      "difficulty": "Hard",
-      "question": "When a muscle is immobilized after injury, which muscle fiber type atrophies at a FASTER rate, and what is the clinical implication?",
-      "options": {
-        "A": "Type II (fast twitch) fibers atrophy faster, so power training should be prioritized immediately",
-        "B": "Type I (slow twitch) fibers atrophy faster, contributing to faster atrophy of antigravity muscles and underscoring the need for early endurance training",
-        "C": "Both fiber types atrophy at exactly the same rate with immobilization",
-        "D": "Immobilization has no effect on muscle fiber composition"
-      },
-      "correctAnswer": "B",
-      "explanation": "With immobilization, Type I (slow twitch) fibers atrophy faster than Type II (fast twitch) fibers, and there is also a slow-to-fast fiber type conversion with disuse. Since antigravity (postural) muscles rely heavily on Type I fibers, this contributes to their faster rate of atrophy compared to their antagonists — supporting early initiation of endurance-type training after injury or surgery.",
-      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
-      "sourceChapter": "Chapter 6: Resistance Exercise — Muscle Fiber Atrophy",
-      "sourcePage": null,
-      "subject": "Kinesio Therapeutics"
-    },
-    {
-      "id": 17,
-      "topic": "Upper Limb",
-      "subtopic": "Carpal Bones",
-      "difficulty": "Hard",
-      "question": "Dislocation of the lunate bone (from a fall on the acutely dorsiflexed hand) typically displaces it in which direction, and can mimic the features of which condition?",
-      "options": {
-        "A": "Displaces posteriorly; mimics De Quervain's tenosynovitis",
-        "B": "Displaces anteriorly; can produce carpal tunnel syndrome-like features",
-        "C": "Displaces laterally; mimics ulnar nerve palsy at the elbow",
-        "D": "Does not displace, only rotates in place with no clinical effect"
-      },
-      "correctAnswer": "B",
-      "explanation": "Dislocation of the lunate is produced by a fall on the acutely dorsiflexed hand with the elbow flexed; it displaces the lunate anteriorly, where it can compress the median nerve within the carpal tunnel, producing carpal tunnel syndrome-like features.",
-      "sourceBook": "BD Chaurasia's Human Anatomy — Upper Limb",
-      "sourceChapter": "Bones of the Upper Limb — Carpal Bones, Clinical Anatomy",
-      "sourcePage": null,
-      "subject": "Anatomy"
-    },
-    {
-      "id": 18,
-      "topic": "Stroke",
-      "subtopic": "Vascular Syndromes",
-      "difficulty": "Hard",
-      "question": "Lesions of the parietal lobe of the NONDOMINANT (typically right) hemisphere in MCA syndrome typically produce which type of deficit?",
-      "options": {
-        "A": "Aphasia (language impairment)",
-        "B": "Perceptual deficits such as unilateral neglect, anosognosia, and spatial disorganization",
-        "C": "Complete loss of hearing",
-        "D": "Loss of the sense of smell only"
-      },
-      "correctAnswer": "B",
-      "explanation": "While dominant (usually left) hemisphere parieto-occipital lesions typically produce aphasia, lesions of the nondominant (usually right) parietal lobe typically produce perceptual deficits: unilateral neglect, anosognosia (denial of deficit), apraxia, and spatial disorganization.",
-      "sourceBook": "O'Sullivan, Physical Rehabilitation",
-      "sourceChapter": "Chapter 15: Stroke — Middle Cerebral Artery Syndrome",
-      "sourcePage": null,
-      "subject": "Physiotherapy in Neurosciences"
-    },
-    {
-      "id": 19,
-      "topic": "Stretching",
-      "subtopic": "Selective Stretching",
-      "difficulty": "Hard",
-      "question": "In a patient with a spinal cord injury who lacks active control of the back extensors, why might a therapist deliberately allow mild hypomobility to develop in the low back extensors while still fully stretching the hamstrings?",
-      "options": {
-        "A": "To create a stable, slightly shortened structure the patient can lean into for trunk support during long-term sitting",
-        "B": "Because the back extensors cannot physically be stretched",
-        "C": "To prevent contractures developing in the hamstrings only",
-        "D": "Because stretching the trunk has no clinical value in this population"
-      },
-      "correctAnswer": "A",
-      "explanation": "This illustrates 'selective stretching': deliberately allowing some hypomobility in muscles the patient cannot actively control (like the back extensors after a thoracic/cervical spinal cord injury) gives them a stable structure to lean into for trunk stability while sitting, while the hamstrings are kept flexible enough for dressing and transfers.",
-      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
-      "sourceChapter": "Chapter 4: Stretching for Impaired Mobility — Selective Stretching",
-      "sourcePage": null,
-      "subject": "Fundamentals of Exercise Therapy"
-    },
-    {
-      "id": 20,
-      "topic": "Cardiopulmonary Assessment",
-      "subtopic": "Cough — Complications",
-      "difficulty": "Hard",
-      "question": "Which of the following is a recognised physical complication of a severe, chronic cough?",
-      "options": {
-        "A": "Cough fractures (fractured ribs) and hernias",
-        "B": "Permanent hearing loss",
-        "C": "Cataracts",
-        "D": "Osteoarthritis of the knee"
-      },
-      "correctAnswer": "A",
-      "explanation": "Chronic, forceful coughing can cause 'cough fractures' of the ribs and hernias, due to the repeated high intra-thoracic and intra-abdominal pressures generated. Stress urinary incontinence is another common, often under-reported complication, especially in women.",
-      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
-      "sourceChapter": "Assessment — Cough",
       "sourcePage": null,
       "subject": "Physiotherapy in General Medical & Surgical Condition"
     }

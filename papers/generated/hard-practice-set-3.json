@@ -2,7 +2,7 @@
   "paperId": "hard-practice-set-3",
   "paperName": "Hard Practice Set 3",
   "subject": "Mixed",
-  "description": "Hard-difficulty practice set (20 questions) covering: Fundamentals of Electro Therapy, Fundamentals of Exercise Therapy, General Surgery & Orthopedics, Medicine, Pathology & Microbiology, Pharmacology, Physical Diagnosis & Manipulative Skills, Physiology, Physiotherapy in Community Health, Physiotherapy in General Medical & Surgical Condition, Physiotherapy in Musculoskeletal Condition, Physiotherapy in Neurosciences, Psychology.",
+  "description": "Hard-difficulty practice set (20 questions) covering: Anatomy, Biochemistry, Fundamentals of Electro Therapy, General Surgery & Orthopedics, Medicine, OBGY, Pathology & Microbiology, Pharmacology, Physiology, Physiotherapy in Community Health, Physiotherapy in General Medical & Surgical Condition, Physiotherapy in Musculoskeletal Condition, Physiotherapy in Neurosciences, Psychology.",
   "durationMinutes": 90,
   "scoring": {
     "correct": 1,
@@ -32,348 +32,44 @@
     },
     {
       "id": 2,
-      "topic": "Paediatric Surgery",
-      "subtopic": "Foreskin and Circumcision",
+      "topic": "Cardiopulmonary Assessment",
+      "subtopic": "Fever Patterns",
       "difficulty": "Hard",
-      "question": "True phimosis, as distinguished from a normal non-retractile foreskin in a young boy, is characterised by:",
+      "question": "High fevers occurring specifically at night, associated with night sweats, may be an early indicator of which condition?",
       "options": {
-        "A": "Simple inability to retract the foreskin at age 2, which is entirely normal",
-        "B": "Whitish scarring of the foreskin caused by balanitis xerotica obliterans (BXO), rarely seen before age 5",
-        "C": "Ballooning of the foreskin during urination with no scarring",
-        "D": "A condition that always requires surgery in infancy"
+        "A": "Simple viral cold",
+        "B": "Pulmonary tuberculosis",
+        "C": "Hyperventilation syndrome",
+        "D": "Musculoskeletal chest pain"
       },
       "correctAnswer": "B",
-      "explanation": "'Phimosis' is often wrongly applied to a normal non-retractile foreskin, which is common and physiological in young boys. True phimosis is pathological whitish scarring caused by balanitis xerotica obliterans (BXO), and is rare before 5 years of age.",
-      "sourceBook": "Bailey & Love's Short Practice of Surgery",
-      "sourceChapter": "Principles of Paediatric Surgery — The Foreskin and Circumcision",
-      "sourcePage": null,
-      "subject": "General Surgery & Orthopedics"
-    },
-    {
-      "id": 3,
-      "topic": "Infectious and Parasitic Diseases",
-      "subtopic": "TORCH Complex",
-      "difficulty": "Hard",
-      "question": "Among the TORCH agents, which one is most harmful to the fetus specifically when acquired during the first 10 weeks of pregnancy?",
-      "options": {
-        "A": "Cytomegalovirus",
-        "B": "Toxoplasma",
-        "C": "Rubella",
-        "D": "Herpes simplex virus"
-      },
-      "correctAnswer": "C",
-      "explanation": "Rubella (German measles) is teratogenic, and infection during the acute stage of the first 10 weeks of pregnancy is far more harmful to the fetus than infection later in gestation, producing the classic congenital rubella syndrome (ocular defects, cardiac defects, CNS manifestations, sensorineural deafness).",
-      "sourceBook": "Harsh Mohan, Textbook of Pathology",
-      "sourceChapter": "Infectious and Parasitic Diseases — TORCH Complex",
-      "sourcePage": null,
-      "subject": "Pathology & Microbiology"
-    },
-    {
-      "id": 4,
-      "topic": "Paediatric Surgery",
-      "subtopic": "Undescended Testis",
-      "difficulty": "Hard",
-      "question": "A 'retractile' testis is distinguished from a true undescended testis by the fact that:",
-      "options": {
-        "A": "A retractile testis can be manipulated without tension into the base of the scrotum, though it is pulled back up by the cremaster muscle",
-        "B": "A retractile testis is always impalpable",
-        "C": "A retractile testis requires orchidopexy immediately",
-        "D": "There is no meaningful difference between the two"
-      },
-      "correctAnswer": "A",
-      "explanation": "A retractile testis can be brought down to the base of the scrotum without tension, but is then pulled back up by an overactive cremaster reflex — over time it usually resides permanently in the scrotum, though follow-up is still advised as it can rarely re-ascend and require orchidopexy.",
-      "sourceBook": "Bailey & Love's Short Practice of Surgery",
-      "sourceChapter": "Principles of Paediatric Surgery — Undescended Testes",
-      "sourcePage": null,
-      "subject": "General Surgery & Orthopedics"
-    },
-    {
-      "id": 5,
-      "topic": "Cardiopulmonary Assessment",
-      "subtopic": "Chest Pain",
-      "difficulty": "Hard",
-      "question": "How is musculoskeletal (chest wall) pain typically distinguished from pleuritic pain on physical examination?",
-      "options": {
-        "A": "Musculoskeletal pain is reproduced by palpation, while pleuritic pain is not",
-        "B": "Both are always identical and cannot be distinguished clinically",
-        "C": "Pleuritic pain is always reproduced by palpation, musculoskeletal pain never is",
-        "D": "Musculoskeletal pain never worsens with movement"
-      },
-      "correctAnswer": "A",
-      "explanation": "Musculoskeletal (chest wall) pain is usually well localized and its reproduction on palpation is a key distinguishing clinical feature — pleuritic pain, by contrast, is not reproduced by palpation.",
+      "explanation": "High fevers occurring at night with associated night sweats may be the first indicator of pulmonary tuberculosis, and should prompt further investigation.",
       "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
-      "sourceChapter": "Assessment — Chest Pain",
+      "sourceChapter": "Assessment — Other Symptoms",
       "sourcePage": null,
       "subject": "Physiotherapy in General Medical & Surgical Condition"
     },
     {
-      "id": 6,
-      "topic": "Knee Assessment",
-      "subtopic": "External Rotation Recurvatum Test",
-      "difficulty": "Hard",
-      "question": "The External Rotation Recurvatum Test, in which the examiner lifts both of the patient's big toes off the table and observes for relative hyperextension and lateral tibial rotation on the affected side, is a test for:",
-      "options": {
-        "A": "Posterolateral rotary instability in extension",
-        "B": "Meniscal tear",
-        "C": "Patellofemoral pain syndrome",
-        "D": "Iliotibial band tightness"
-      },
-      "correctAnswer": "A",
-      "explanation": "The External Rotation Recurvatum Test assesses for posterolateral rotary instability in extension — a positive test shows the affected knee falling into relative hyperextension (genu varum appearance) with lateral tibial rotation due to gravity, when both legs are lifted by the toes.",
-      "sourceBook": "Magee, Orthopedic Physical Assessment",
-      "sourceChapter": "Chapter 12: Knee — External Rotation Recurvatum Test",
-      "sourcePage": null,
-      "subject": "Physiotherapy in Musculoskeletal Condition"
-    },
-    {
-      "id": 7,
-      "topic": "Knee Assessment",
-      "subtopic": "Dial Test",
-      "difficulty": "Hard",
-      "question": "In the tibial external rotation (Dial) test, if the tibia rotates MORE at 90° of knee flexion than at 30°, this pattern most likely indicates injury to:",
-      "options": {
-        "A": "Only the popliteus corner (isolated posterolateral injury)",
-        "B": "Both the popliteus corner AND the posterior cruciate ligament",
-        "C": "The anterior cruciate ligament in isolation",
-        "D": "The medial meniscus only"
-      },
-      "correctAnswer": "B",
-      "explanation": "In the Dial test, if the tibia rotates less at 90° than at 30°, an isolated posterolateral (popliteus corner) injury is more likely. If it rotates MORE at 90° than at 30°, combined injury to both the popliteus corner and the posterior cruciate ligament is more likely.",
-      "sourceBook": "Magee, Orthopedic Physical Assessment",
-      "sourceChapter": "Chapter 12: Knee — Tibial External Rotation (Dial) Test",
-      "sourcePage": null,
-      "subject": "Physiotherapy in Musculoskeletal Condition"
-    },
-    {
-      "id": 8,
-      "topic": "Stroke",
-      "subtopic": "Cerebral Edema",
-      "difficulty": "Hard",
-      "question": "Cerebral edema following ischemic stroke typically reaches its maximum at approximately what time point, and is the most frequent cause of death in acute stroke?",
-      "options": {
-        "A": "Within the first hour",
-        "B": "3 to 4 days",
-        "C": "6 months",
-        "D": "It never resolves"
-      },
-      "correctAnswer": "B",
-      "explanation": "Cerebral edema begins within minutes of the ischemic insult and reaches its maximum by 3 to 4 days, gradually subsiding by 2 to 3 weeks. Significant edema, particularly with large MCA/ICA infarcts, is the most frequent cause of death in acute stroke due to raised intracranial pressure and brainstem herniation.",
-      "sourceBook": "O'Sullivan, Physical Rehabilitation",
-      "sourceChapter": "Chapter 15: Stroke — Pathophysiology",
-      "sourcePage": null,
-      "subject": "Physiotherapy in Neurosciences"
-    },
-    {
-      "id": 9,
-      "topic": "Electrical Stimulation of Nerve and Muscle",
-      "subtopic": "Accommodation",
-      "difficulty": "Hard",
-      "question": "Because of accommodation, which type of current change is MORE effective at initiating a nerve impulse: a sudden change, or a gradual one?",
-      "options": {
-        "A": "A sudden change in current is more effective than a gradual one",
-        "B": "A gradual change is always more effective",
-        "C": "Both are exactly equally effective in all cases",
-        "D": "Neither a sudden nor gradual change can ever initiate an impulse"
-      },
-      "correctAnswer": "A",
-      "explanation": "Because the nerve accommodates (adapts) to slowly changing conditions, a current that rises or falls suddenly is more effective at initiating an impulse than one that changes gradually, since gradual change gives the nerve time to accommodate before the threshold is reached.",
-      "sourceBook": "Clayton's Electrotherapy",
-      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Accommodation",
-      "sourcePage": "45",
-      "subject": "Fundamentals of Electro Therapy"
-    },
-    {
-      "id": 10,
-      "topic": "Biology of Behavior",
-      "subtopic": "Case Study — Patient H.M.",
-      "difficulty": "Hard",
-      "question": "Following bilateral removal of the hippocampus and amygdala (to control severe epilepsy), the famous patient H.M. could still learn new motor/perceptual skills (like tracing a mirror-image star) without any conscious memory of having practiced them before. This dissociation illustrates the difference between:",
-      "options": {
-        "A": "Short-term memory and sensory memory",
-        "B": "Procedural memory (how to do things) and declarative memory (memory of specific events)",
-        "C": "Working memory and long-term potentiation",
-        "D": "Retrograde amnesia and anterograde amnesia only, with no other distinction"
-      },
-      "correctAnswer": "B",
-      "explanation": "H.M. retained procedural memory — he could learn and improve at tasks like mirror-tracing or the Tower of Hanoi over repeated sessions — even though he had no declarative (event) memory of ever having done the task before. This case was pivotal in showing procedural and declarative memory are at least partly separate systems.",
-      "sourceBook": "Morgan & King, Introduction to Psychology",
-      "sourceChapter": "Biology of Behavior — Temporal-Lobe Association Cortex, Memory Functions",
-      "sourcePage": null,
-      "subject": "Psychology"
-    },
-    {
-      "id": 11,
-      "topic": "Clinical Decision Making",
-      "subtopic": "Clinical Prediction Rules",
-      "difficulty": "Hard",
-      "question": "The (modified) Wells score is a clinical prediction rule used to estimate pre-test probability for which condition?",
-      "options": {
-        "A": "Acute coronary syndrome",
-        "B": "Pulmonary embolism / deep vein thrombosis",
-        "C": "Community-acquired pneumonia severity",
-        "D": "Stroke risk in atrial fibrillation"
-      },
-      "correctAnswer": "B",
-      "explanation": "The Wells score is a clinical prediction rule used to estimate the pre-test probability of pulmonary embolism (and, in another version, deep vein thrombosis), helping guide which further tests (e.g. D-dimer, CT pulmonary angiogram) are appropriate.",
-      "sourceBook": "Davidson's Principles and Practice of Medicine",
-      "sourceChapter": "Clinical Decision Making — Clinical Prediction Rules",
-      "sourcePage": null,
-      "subject": "Medicine"
-    },
-    {
-      "id": 12,
-      "topic": "Electrical Stimulation of Nerve and Muscle",
-      "subtopic": "Accommodation",
-      "difficulty": "Hard",
-      "question": "'Accommodation' in nerve physiology refers to the phenomenon whereby:",
-      "options": {
-        "A": "A nerve becomes permanently unresponsive after any stimulation",
-        "B": "The nerve adapts to a constant current over time, so that an unvarying (unchanging) current becomes ineffective at initiating an impulse",
-        "C": "Muscle fibres physically move position to avoid the electrode",
-        "D": "Only denervated muscle can show accommodation"
-      },
-      "correctAnswer": "B",
-      "explanation": "Accommodation is the nerve's adaptation to a constant, unvarying current flow through a mechanism not fully understood — as a result, a current that does not change is not effective at initiating a nerve impulse, which is why intermittent or varying currents are needed for electrical stimulation.",
-      "sourceBook": "Clayton's Electrotherapy",
-      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Accommodation",
-      "sourcePage": "45",
-      "subject": "Fundamentals of Electro Therapy"
-    },
-    {
-      "id": 13,
-      "topic": "Stretching",
-      "subtopic": "Contracture",
-      "difficulty": "Hard",
-      "question": "A 'pseudomyostatic' (apparent) contracture, as distinguished from a true myostatic contracture, is primarily caused by:",
-      "options": {
-        "A": "An actual reduction in the number of sarcomeres arranged in series within the muscle",
-        "B": "Hypertonicity such as spasticity or rigidity following a CNS lesion, which can be temporarily reduced with neuromuscular inhibition techniques",
-        "C": "Intra-articular adhesions and joint effusion",
-        "D": "Replacement of normal muscle tissue with fibrotic scar tissue"
-      },
-      "correctAnswer": "B",
-      "explanation": "Unlike a true myostatic contracture (adaptive shortening of the muscle-tendon unit itself with no specific muscle pathology), a pseudomyostatic contracture results from ongoing hypertonicity, muscle spasm, or pain — the muscle only appears shortened, and full passive elongation becomes possible again once inhibition techniques temporarily reduce that muscle tension.",
-      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
-      "sourceChapter": "Chapter 4: Stretching for Impaired Mobility — Types of Contracture",
-      "sourcePage": null,
-      "subject": "Fundamentals of Exercise Therapy"
-    },
-    {
-      "id": 14,
-      "topic": "Receptor Pharmacology",
-      "subtopic": "Nuclear Receptors",
-      "difficulty": "Hard",
-      "question": "Glucocorticoid receptors are unique among the major receptor families in that they:",
-      "options": {
-        "A": "Are located on the cell surface and open ion channels directly",
-        "B": "Are intracellular soluble proteins that, once liganded, dimerize and bind DNA to regulate gene transcription",
-        "C": "Signal exclusively through cyclic AMP",
-        "D": "Have no known endogenous ligand (are 'orphan receptors')"
-      },
-      "correctAnswer": "B",
-      "explanation": "Glucocorticoid receptors sit in the cytoplasm bound to HSP-90 and other inhibitory proteins. When the lipid-soluble steroid penetrates the cell and binds the receptor, HSP-90 is released, the receptor dimerizes, and the complex moves to the nucleus to bind glucocorticoid-responsive elements (GREs) on DNA, altering gene transcription — a fundamentally different, much slower mechanism than membrane receptors.",
-      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
-      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
-      "sourcePage": null,
-      "subject": "Pharmacology"
-    },
-    {
-      "id": 15,
-      "topic": "Knee Assessment",
-      "subtopic": "Ligament Testing Devices",
-      "difficulty": "Hard",
-      "question": "Using the KT-1000 arthrometer, a difference of more than 3 mm in anterior displacement between the injured and uninjured knee is generally considered:",
-      "options": {
-        "A": "A normal finding requiring no further action",
-        "B": "Diagnostic for injury to the anterior or posterior cruciate ligament",
-        "C": "Evidence of a meniscal tear specifically, never a ligament injury",
-        "D": "Only relevant in paediatric patients"
-      },
-      "correctAnswer": "B",
-      "explanation": "A side-to-side difference of more than 3 mm in anterior displacement on KT-1000 arthrometer testing is generally considered diagnostic for injury to the anterior cruciate ligament or posterior cruciate ligament.",
-      "sourceBook": "Magee, Orthopedic Physical Assessment",
-      "sourceChapter": "Chapter 12: Knee — Ligament Testing Devices",
-      "sourcePage": null,
-      "subject": "Physiotherapy in Musculoskeletal Condition"
-    },
-    {
-      "id": 16,
-      "topic": "Knee Assessment",
-      "subtopic": "Ligament Testing Devices",
-      "difficulty": "Hard",
-      "question": "The KT-1000 arthrometer is primarily used to measure which type of knee displacement?",
-      "options": {
-        "A": "Anteroposterior displacement of the tibia relative to the femur",
-        "B": "Medial-lateral joint space width only",
-        "C": "Ankle dorsiflexion range",
-        "D": "Patellar height (Insall-Salvati ratio)"
-      },
-      "correctAnswer": "A",
-      "explanation": "The KT-1000 arthrometer is the most commonly used ligament testing device for the knee, measuring anteroposterior (forward-backward) displacement of the tibia relative to the femur, used to quantify ligamentous laxity (e.g. in ACL/PCL injury) as an adjunct to clinical assessment.",
-      "sourceBook": "Magee, Orthopedic Physical Assessment",
-      "sourceChapter": "Chapter 12: Knee — Ligament Testing Devices",
-      "sourcePage": null,
-      "subject": "Physiotherapy in Musculoskeletal Condition"
-    },
-    {
-      "id": 17,
+      "id": 3,
       "topic": "Epidemiology",
-      "subtopic": "Denominators",
+      "subtopic": "Death Certificate Structure",
       "difficulty": "Hard",
-      "question": "In studying road traffic accidents, why might 'accidents per 1000 vehicles' or 'per million vehicle-miles' be a more useful denominator than total population?",
+      "question": "On the International Death Certificate, Part II records:",
       "options": {
-        "A": "Total population is always the best denominator regardless of context",
-        "B": "Because many people in the total population do not own or use vehicles, so vehicle-based denominators better reflect actual exposure/risk",
-        "C": "Vehicle-based denominators are only used for aesthetic reasons with no analytical value",
-        "D": "Total population data is impossible to obtain in any country"
+        "A": "The direct/immediate cause of death only",
+        "B": "Other significant conditions that contributed to the death but were not directly related to the disease or condition causing it",
+        "C": "The patient's full medical history",
+        "D": "Only conditions unrelated to the patient's death in any way"
       },
       "correctAnswer": "B",
-      "explanation": "When the denominator is more closely related to actual exposure to risk (like the number of vehicles or vehicle-miles travelled) rather than the whole population — many of whom may not drive or use vehicles at all — the resulting rate more accurately reflects the true risk of the event being measured.",
+      "explanation": "Part II of the death certificate records other significant associated conditions that contributed to the death but did not directly lead to it (e.g. diabetes as a contributing but non-causal condition), distinct from Part I, which records the direct cause and the underlying/antecedent causes forming the direct chain to death.",
       "sourceBook": "Park's Textbook of Preventive and Social Medicine",
-      "sourceChapter": "Principles of Epidemiology and Epidemiologic Methods — Rates Related to Total Events",
-      "sourcePage": "55",
+      "sourceChapter": "Measurement of Mortality — International Death Certificate",
+      "sourcePage": "56",
       "subject": "Physiotherapy in Community Health"
     },
     {
-      "id": 18,
-      "topic": "Manual Muscle Testing",
-      "subtopic": "Evidence Base for Grading",
-      "difficulty": "Hard",
-      "question": "Sharrard's postmortem motor neuron counts in poliomyelitis patients, cited in Daniels and Worthingham, found that by the time a muscle's MMT grade had fallen to 4 (Good), approximately what proportion of its motor neurons were already lost?",
-      "options": {
-        "A": "Less than 10%",
-        "B": "About 25%",
-        "C": "More than 50%",
-        "D": "Nearly 100%"
-      },
-      "correctAnswer": "C",
-      "explanation": "Sharrard's data showed that more than half of a muscle's motor neurons were already gone by the time its MMT grade dropped to 4, which is why the text emphasizes that a 'Good' muscle already represents real, clinically significant weakness.",
-      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
-      "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
-      "sourcePage": "3",
-      "subject": "Physical Diagnosis & Manipulative Skills"
-    },
-    {
-      "id": 19,
-      "topic": "Membrane Potentials",
-      "subtopic": "Na+-K+ Pump Electrogenicity",
-      "difficulty": "Hard",
-      "question": "The Na+-K+ pump is described as 'electrogenic at rest' because it operates with a coupling ratio of 3 Na+ out for every 2 K+ in. What would happen to its contribution to the membrane potential if the coupling ratio were instead 1:1?",
-      "options": {
-        "A": "It would generate an even larger membrane potential",
-        "B": "It would not directly generate any membrane potential itself, though it would still maintain the concentration gradients the potential depends on",
-        "C": "The cell would immediately depolarise completely and stay depolarised",
-        "D": "The pump would stop functioning altogether"
-      },
-      "correctAnswer": "B",
-      "explanation": "At a 3:2 coupling ratio, the Na+-K+ pump moves net positive charge out of the cell with each cycle, directly contributing a small electrogenic component to the membrane potential. If the ratio were 1:1 (equal charge moved each way), the pump itself would not generate any net potential directly — though it would still be essential for maintaining the ionic concentration gradients that the resting membrane potential fundamentally depends on.",
-      "sourceBook": "AK Jain, Physiology",
-      "sourceChapter": "The Membrane Potentials — Genesis of Resting Membrane Potential",
-      "sourcePage": null,
-      "subject": "Physiology"
-    },
-    {
-      "id": 20,
+      "id": 4,
       "topic": "Stroke",
       "subtopic": "Aphasia",
       "difficulty": "Hard",
@@ -390,6 +86,310 @@
       "sourceChapter": "Chapter 15: Stroke — Middle Cerebral Artery Syndrome",
       "sourcePage": null,
       "subject": "Physiotherapy in Neurosciences"
+    },
+    {
+      "id": 5,
+      "topic": "Infectious Disease Epidemiology",
+      "subtopic": "Outbreak Investigation",
+      "difficulty": "Hard",
+      "question": "When an apparent outbreak of infection is investigated and 'typing' shows the causal organisms do NOT share identical phenotypic/genotypic characteristics, the event is instead termed a:",
+      "options": {
+        "A": "True outbreak",
+        "B": "Pseudo-outbreak",
+        "C": "Endemic pattern",
+        "D": "Case-control study"
+      },
+      "correctAnswer": "B",
+      "explanation": "Confirmation of a genuine infectious disease outbreak usually requires typing evidence that the causal organisms share identical phenotypic and/or genotypic characteristics. If this is not the case, the apparent cluster is termed a pseudo-outbreak rather than a true outbreak.",
+      "sourceBook": "Davidson's Principles and Practice of Medicine",
+      "sourceChapter": "Epidemiology of Infection — Outbreaks of Infection",
+      "sourcePage": null,
+      "subject": "Medicine"
+    },
+    {
+      "id": 6,
+      "topic": "Cell Injury and Pigments",
+      "subtopic": "Haemozoin",
+      "difficulty": "Hard",
+      "question": "Haemozoin (acid haematin, malarial pigment) is distinguished from haemosiderin by which key laboratory feature?",
+      "options": {
+        "A": "Haemozoin stains positive with Perl's Prussian blue reaction, while haemosiderin does not",
+        "B": "Haemozoin does NOT stain with Perl's Prussian blue reaction, unlike haemosiderin which does",
+        "C": "Both stain identically with every histochemical stain",
+        "D": "Haemozoin is only found in bone marrow, never other tissue"
+      },
+      "correctAnswer": "B",
+      "explanation": "Unlike haemosiderin, haemozoin (malarial pigment) does NOT stain with Perl's Prussian blue reaction — likely because it forms a complex with protein that prevents the reaction — despite both being haem-iron-derived pigments.",
+      "sourceBook": "Harsh Mohan, Textbook of Pathology",
+      "sourceChapter": "Cell Injury, Cellular Adaptations and Cellular Ageing — Acid Haematin",
+      "sourcePage": null,
+      "subject": "Pathology & Microbiology"
+    },
+    {
+      "id": 7,
+      "topic": "Biology of Behavior",
+      "subtopic": "Association Cortex",
+      "difficulty": "Hard",
+      "question": "Association areas of the cerebral cortex (in the frontal, parietal, temporal, and occipital lobes) are now understood to primarily:",
+      "options": {
+        "A": "Simply form a direct wired connection between sensory input and motor output with no further processing",
+        "B": "Process and integrate sensory information relayed from primary sensory areas and the thalamus, supporting complex functions like thought, memory, and language",
+        "C": "Have no known function at all",
+        "D": "Exist only in non-human animals, not in humans"
+      },
+      "correctAnswer": "B",
+      "explanation": "Early researchers thought association areas simply linked sensory input to motor output directly, but they are now understood to process and integrate information from primary sensory areas and the thalamus, supporting higher psychological functions such as thought, memory, imagery, and language before that processed information may be passed on to motor areas.",
+      "sourceBook": "Morgan & King, Introduction to Psychology",
+      "sourceChapter": "Biology of Behavior — Association Cortex, Behavior, and Experience",
+      "sourcePage": null,
+      "subject": "Psychology"
+    },
+    {
+      "id": 8,
+      "topic": "Knee Assessment",
+      "subtopic": "Special Tests — Meniscus",
+      "difficulty": "Hard",
+      "question": "Why can a meniscal injury sometimes present with little or no pain or swelling, making diagnosis more difficult?",
+      "options": {
+        "A": "The menisci are avascular and have no nerve supply on their inner two-thirds",
+        "B": "The menisci are the most richly innervated structures in the knee",
+        "C": "Meniscal tears always occur alongside complete ACL rupture, masking symptoms",
+        "D": "Meniscal tissue regenerates immediately after injury"
+      },
+      "correctAnswer": "A",
+      "explanation": "The menisci are avascular and lack nerve supply on their inner two-thirds, meaning an injury confined to this region can produce little or no pain or swelling — one reason meniscal injury can be difficult to diagnose confidently without a thorough history and examination.",
+      "sourceBook": "Magee, Orthopedic Physical Assessment",
+      "sourceChapter": "Chapter 12: Knee — Tests for Meniscus Injury",
+      "sourcePage": null,
+      "subject": "Physiotherapy in Musculoskeletal Condition"
+    },
+    {
+      "id": 9,
+      "topic": "Receptor Pharmacology",
+      "subtopic": "Receptor Reserve",
+      "difficulty": "Hard",
+      "question": "The existence of 'spare receptors' (receptor reserve) explains which observed phenomenon?",
+      "options": {
+        "A": "Some full agonists can produce a maximal response while occupying less than 1% of available receptors",
+        "B": "All antagonists eventually become agonists at high enough doses",
+        "C": "Receptor numbers never change regardless of chronic drug exposure",
+        "D": "Enzymes and receptors are functionally identical structures"
+      },
+      "correctAnswer": "A",
+      "explanation": "When a tissue has a large receptor reserve, a full agonist can produce its maximal biological response by occupying only a small fraction of the total available receptors — occupying more receptors beyond that doesn't increase the effect further, since the response has already plateaued.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
+      "sourcePage": null,
+      "subject": "Pharmacology"
+    },
+    {
+      "id": 10,
+      "topic": "Paediatric Surgery",
+      "subtopic": "Acute Scrotum",
+      "difficulty": "Hard",
+      "question": "In a child presenting with acute scrotal pain, testicular torsion must be relieved within approximately what time window from symptom onset for a good chance of testicular salvage?",
+      "options": {
+        "A": "6-8 hours",
+        "B": "48 hours",
+        "C": "1 week",
+        "D": "There is no time limit"
+      },
+      "correctAnswer": "A",
+      "explanation": "Testicular torsion must be relieved within 6-8 hours of symptom onset for a good chance of salvaging the testis — this is why any acute scrotum where torsion cannot be confidently excluded requires urgent surgical exploration.",
+      "sourceBook": "Bailey & Love's Short Practice of Surgery",
+      "sourceChapter": "Principles of Paediatric Surgery — The Acute Scrotum",
+      "sourcePage": null,
+      "subject": "General Surgery & Orthopedics"
+    },
+    {
+      "id": 11,
+      "topic": "Adverse Drug Effects",
+      "subtopic": "Teratogenicity",
+      "difficulty": "Hard",
+      "question": "During fetal development, which period (18-55 days of gestation) is considered the MOST vulnerable to drug-induced structural deformities?",
+      "options": {
+        "A": "Fertilization and implantation",
+        "B": "Organogenesis",
+        "C": "Growth and development (56 days onward)",
+        "D": "The period immediately after birth"
+      },
+      "correctAnswer": "B",
+      "explanation": "Organogenesis (roughly 18-55 days of gestation) is the most vulnerable period for teratogen-induced structural deformities, since organs are actively forming during this window. Exposure during fertilization/implantation more often causes early pregnancy failure, while exposure during growth and development (56 days onward) tends to cause functional rather than structural abnormalities.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Adverse Drug Effects — Teratogenicity",
+      "sourcePage": null,
+      "subject": "Pharmacology"
+    },
+    {
+      "id": 12,
+      "topic": "Stroke",
+      "subtopic": "Thrombolytic Therapy",
+      "difficulty": "Hard",
+      "question": "Tissue plasminogen activator (tPA) is a clot-dissolving therapy for acute ischemic stroke. Within what time window from symptom onset must it generally be given to be effective and safe?",
+      "options": {
+        "A": "24 hours",
+        "B": "3 hours",
+        "C": "7 days",
+        "D": "There is no time limit"
+      },
+      "correctAnswer": "B",
+      "explanation": "tPA must generally be given within 3 hours of symptom onset to be effective, and cannot be given in hemorrhagic stroke because it may worsen bleeding — this is why rapid recognition of stroke symptoms and emergency imaging (CT) to distinguish ischemic from hemorrhagic stroke are critical ('time is brain').",
+      "sourceBook": "O'Sullivan, Physical Rehabilitation",
+      "sourceChapter": "Chapter 15: Stroke — Risk Factors and Stroke Prevention",
+      "sourcePage": null,
+      "subject": "Physiotherapy in Neurosciences"
+    },
+    {
+      "id": 13,
+      "topic": "Knee Assessment",
+      "subtopic": "Special Tests — Patellofemoral",
+      "difficulty": "Hard",
+      "question": "Clarke's sign and the McConnell test are both special tests associated with which condition?",
+      "options": {
+        "A": "Patellofemoral syndrome",
+        "B": "Iliotibial band friction syndrome",
+        "C": "Meniscus lesions",
+        "D": "Leg length discrepancy"
+      },
+      "correctAnswer": "A",
+      "explanation": "Clarke's sign and the McConnell test are both used in the assessment of patellofemoral syndrome (anterior knee pain related to patellar tracking/compression issues).",
+      "sourceBook": "Magee, Orthopedic Physical Assessment",
+      "sourceChapter": "Chapter 12: Knee — Special Tests Commonly Performed on the Knee",
+      "sourcePage": null,
+      "subject": "Physiotherapy in Musculoskeletal Condition"
+    },
+    {
+      "id": 14,
+      "topic": "Proteins and Amino Acids",
+      "subtopic": "Sequencing Reagents",
+      "difficulty": "Hard",
+      "question": "Edman's reagent (phenylisothiocyanate) is used in protein sequencing chiefly because it allows:",
+      "options": {
+        "A": "Complete hydrolysis of the protein into free amino acids only",
+        "B": "Selective labelling and removal of the N-terminal amino acid as a PTH-derivative, leaving the rest of the polypeptide intact for repeated cycles",
+        "C": "Cleavage of the protein only at cysteine residues",
+        "D": "Permanent, irreversible denaturation of all peptide bonds"
+      },
+      "correctAnswer": "B",
+      "explanation": "Unlike Sanger's reagent (which labels and then requires full hydrolysis, destroying the polypeptide), Edman's reagent selectively removes and identifies the N-terminal amino acid as a phenylthiohydantoin (PTH) derivative while leaving the remaining polypeptide intact — allowing the process to be repeated cycle after cycle to read the sequence progressively.",
+      "sourceBook": "Satyanarayana, Biochemistry",
+      "sourceChapter": "Proteins and Amino Acids — Determination of Primary Structure",
+      "sourcePage": null,
+      "subject": "Biochemistry"
+    },
+    {
+      "id": 15,
+      "topic": "Adverse Drug Effects",
+      "subtopic": "Drug Dependence Terminology",
+      "difficulty": "Hard",
+      "question": "'Physical dependence' on a drug is best defined as:",
+      "options": {
+        "A": "Simply enjoying the effects of a drug with no physiological consequence of stopping it",
+        "B": "An altered physiological state (neuroadaptation) requiring the continued presence of the drug to maintain equilibrium, such that stopping it produces a characteristic withdrawal syndrome",
+        "C": "A purely psychological craving with no biological basis whatsoever",
+        "D": "A condition seen only with stimulant drugs like cocaine and amphetamines"
+      },
+      "correctAnswer": "B",
+      "explanation": "Physical dependence is an altered physiological state produced by repeated drug administration, requiring the drug's continued presence to maintain equilibrium ('neuroadaptation'); stopping the drug produces a characteristic withdrawal syndrome. Drugs like opioids, barbiturates, alcohol, and benzodiazepines produce physical dependence, while stimulants like amphetamines and cocaine produce little or none, despite being highly reinforcing.",
+      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+      "sourceChapter": "Adverse Drug Effects — Drug Dependence",
+      "sourcePage": null,
+      "subject": "Pharmacology"
+    },
+    {
+      "id": 16,
+      "topic": "Maternal Pelvis",
+      "subtopic": "Pelvic Planes",
+      "difficulty": "Hard",
+      "question": "The 'plane of least pelvic dimensions' (narrow pelvic plane), a landmark used for pudendal nerve block, corresponds anatomically to approximately the level of:",
+      "options": {
+        "A": "The pelvic inlet",
+        "B": "The ischial spines",
+        "C": "The umbilicus",
+        "D": "The pubic symphysis alone, excluding any posterior landmark"
+      },
+      "correctAnswer": "B",
+      "explanation": "The plane of least pelvic dimensions extends from the lower border of the symphysis pubis to the tip of the ischial spines, and posteriorly to the 5th sacral vertebra. It is the narrowest plane in the pelvis, roughly corresponds to the origin of levator ani, is where internal rotation of the fetal head occurs, and is the landmark used for pudendal nerve block.",
+      "sourceBook": "Dutta's Textbook of Obstetrics",
+      "sourceChapter": "Fetal Skull and Maternal Pelvis — Outlet",
+      "sourcePage": null,
+      "subject": "OBGY"
+    },
+    {
+      "id": 17,
+      "topic": "Thoracic Imaging",
+      "subtopic": "ARDS",
+      "difficulty": "Hard",
+      "question": "In Adult Respiratory Distress Syndrome (ARDS), what is emphasised as more diagnostically useful than the radiographic appearance alone?",
+      "options": {
+        "A": "The timing of the radiographic changes relative to the insult and onset of symptoms",
+        "B": "The patient's blood type",
+        "C": "The exact colour of the consolidation on the film",
+        "D": "The time of day the X-ray was taken"
+      },
+      "correctAnswer": "A",
+      "explanation": "In ARDS, it is the TIMING of radiographic changes relative to the inciting insult and the onset of clinical symptoms — rather than the radiological appearance alone (which resembles pulmonary oedema) — that helps suggest the diagnosis, since the chest radiograph is often normal in the initial hours despite clinical distress.",
+      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+      "sourceChapter": "Thoracic Imaging — Adult Respiratory Distress Syndrome",
+      "sourcePage": null,
+      "subject": "Physiotherapy in General Medical & Surgical Condition"
+    },
+    {
+      "id": 18,
+      "topic": "Upper Limb",
+      "subtopic": "Forearm Bones — Clinical",
+      "difficulty": "Hard",
+      "question": "After a fracture of both the radius and ulna shafts, why must cross-union (bony union between the two bones) be specifically prevented during healing?",
+      "options": {
+        "A": "Cross-union has no functional consequence",
+        "B": "Cross-union would permanently fuse the radius and ulna together, abolishing pronation and supination of the hand",
+        "C": "Cross-union only affects elbow flexion, not the hand",
+        "D": "It increases the risk of scaphoid fracture"
+      },
+      "correctAnswer": "B",
+      "explanation": "Pronation and supination depend on the radius being able to rotate around a stable ulna. If the two bones heal fused together (cross-union), that rotation becomes impossible, so surgeons take specific care during fixation of combined radius-ulna shaft fractures to prevent it.",
+      "sourceBook": "BD Chaurasia's Human Anatomy — Upper Limb",
+      "sourceChapter": "Bones of the Upper Limb — Clinical Anatomy",
+      "sourcePage": null,
+      "subject": "Anatomy"
+    },
+    {
+      "id": 19,
+      "topic": "Neoplasia",
+      "subtopic": "Special Tumour Categories",
+      "difficulty": "Hard",
+      "question": "A choristoma differs from a true neoplasm in that it is actually:",
+      "options": {
+        "A": "An ectopic island of otherwise normal tissue (heterotopia), not a genuine tumour",
+        "B": "A tumour with two distinct malignant cell lines mixed together",
+        "C": "Exactly the same thing as a hamartoma",
+        "D": "Always fatal within the first year of life"
+      },
+      "correctAnswer": "A",
+      "explanation": "A choristoma is the name given to ectopic islands of completely normal tissue found in an abnormal location — it is heterotopia, not a true tumour, even though the name sounds like one.",
+      "sourceBook": "Harsh Mohan, Textbook of Pathology",
+      "sourceChapter": "Neoplasia — Special Categories of Tumours",
+      "sourcePage": null,
+      "subject": "Pathology & Microbiology"
+    },
+    {
+      "id": 20,
+      "topic": "Platelets",
+      "subtopic": "Aspirin Mechanism",
+      "difficulty": "Hard",
+      "question": "Low-dose aspirin helps prevent myocardial infarction and stroke primarily by:",
+      "options": {
+        "A": "Inhibiting thromboxane A2 formation, thereby preventing platelet aggregation",
+        "B": "Directly dissolving existing arterial plaques",
+        "C": "Increasing platelet count",
+        "D": "Stimulating prostacyclin breakdown"
+      },
+      "correctAnswer": "A",
+      "explanation": "Aspirin inhibits thromboxane A2 formation, which in turn prevents platelet aggregation — this is the physiological basis for using low-dose aspirin in the prevention of myocardial infarction and stroke.",
+      "sourceBook": "AK Jain, Physiology",
+      "sourceChapter": "Platelets or Thrombocytes — Functions, Important Note on Aspirin",
+      "sourcePage": null,
+      "subject": "Physiology"
     }
   ]
 }

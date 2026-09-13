@@ -2,7 +2,7 @@
   "paperId": "medium-practice-set-4",
   "paperName": "Medium Practice Set 4",
   "subject": "Mixed",
-  "description": "Medium-difficulty practice set (20 questions) covering: Biochemistry, Fundamentals of Electro Therapy, Fundamentals of Exercise Therapy, General Surgery & Orthopedics, Kinesio Therapeutics, Medicine, OBGY, Pathology & Microbiology, Pharmacology, Physical Diagnosis & Manipulative Skills, Physiotherapy in General Medical & Surgical Condition, Physiotherapy in Neurosciences.",
+  "description": "Medium-difficulty practice set (20 questions) covering: Anatomy, Biochemistry, Fundamentals of Electro Therapy, General Surgery & Orthopedics, Kinesio Therapeutics, OBGY, Pathology & Microbiology, Physiology, Physiotherapy in General Medical & Surgical Condition, Physiotherapy in Musculoskeletal Condition, Physiotherapy in Neurosciences, Psychology.",
   "durationMinutes": 90,
   "scoring": {
     "correct": 1,
@@ -13,215 +13,158 @@
   "questions": [
     {
       "id": 1,
-      "topic": "Resistance Exercise",
-      "subtopic": "Training Zone",
+      "topic": "Proteins and Amino Acids",
+      "subtopic": "Proteolytic Enzymes",
       "difficulty": "Medium",
-      "question": "For a typical healthy but untrained adult beginning a resistance training program, the recommended training zone (percentage of baseline RM) generally falls between:",
+      "question": "Which enzyme is most commonly used to cleave polypeptides into smaller fragments during sequence determination, due to its well-characterised cleavage specificity?",
       "options": {
-        "A": "5% and 10%",
-        "B": "40% and 70%",
-        "C": "95% and 100%",
-        "D": "There is no established range"
+        "A": "Pronase",
+        "B": "Trypsin",
+        "C": "Amylase",
+        "D": "Lipase"
       },
       "correctAnswer": "B",
-      "explanation": "For healthy but untrained adults, a typical training zone falls between 40% and 70% of the baseline RM, with the lower end of the range safer at the start of a program to focus on correct form before progressing intensity.",
-      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
-      "sourceChapter": "Chapter 6: Resistance Exercise — Training Zone",
+      "explanation": "Among the proteolytic enzymes with defined specificity for particular peptide bonds (trypsin, chymotrypsin, pepsin, elastase), trypsin is the most commonly used for generating predictable peptide fragments during sequence analysis.",
+      "sourceBook": "Satyanarayana, Biochemistry",
+      "sourceChapter": "Proteins and Amino Acids — Determination of Primary Structure",
       "sourcePage": null,
-      "subject": "Kinesio Therapeutics"
+      "subject": "Biochemistry"
     },
     {
       "id": 2,
-      "topic": "Infectious and Parasitic Diseases",
-      "subtopic": "Cysticercosis",
+      "topic": "Shoulder Assessment",
+      "subtopic": "Impingement Tests",
       "difficulty": "Medium",
-      "question": "Cysticercosis in humans is most commonly acquired by:",
+      "question": "The Neer impingement test involves the examiner passively and forcibly elevating the patient's medially-rotated arm in the scapular plane. A positive test (pain) is most indicative of an overuse injury to which structure?",
       "options": {
-        "A": "Direct mosquito bite",
-        "B": "Eating undercooked pork ('measly pork') or ingesting contaminated vegetables/food carrying Taenia solium eggs",
-        "C": "Airborne droplet transmission",
-        "D": "Sexual contact only"
+        "A": "The supraspinatus muscle (and sometimes the biceps tendon)",
+        "B": "The ulnar nerve",
+        "C": "The latissimus dorsi",
+        "D": "The pectoralis major tendon exclusively"
       },
-      "correctAnswer": "B",
-      "explanation": "Cysticercosis is infection by the larval stage of Taenia solium (the pork tapeworm). Humans acquire it by eating undercooked ('measly') pork containing larval cysts, by ingesting food/vegetables contaminated with eggs, or occasionally by autoinfection.",
-      "sourceBook": "Harsh Mohan, Textbook of Pathology",
-      "sourceChapter": "Infectious and Parasitic Diseases — Cysticercosis",
+      "correctAnswer": "A",
+      "explanation": "The Neer impingement test causes 'jamming' of the greater tuberosity against the anteroinferior border of the acromion; a positive test (reproducing pain) is indicative of an overuse injury to the supraspinatus muscle, and sometimes the biceps tendon.",
+      "sourceBook": "Magee, Orthopedic Physical Assessment",
+      "sourceChapter": "Chapter 5: Shoulder — Common Shoulder Impingement Tests, Neer Impingement Test",
       "sourcePage": null,
-      "subject": "Pathology & Microbiology"
+      "subject": "Physiotherapy in Musculoskeletal Condition"
     },
     {
       "id": 3,
-      "topic": "Range of Motion",
-      "subtopic": "Continuous Passive Motion",
+      "topic": "Lung Function Testing",
+      "subtopic": "Spirometry",
       "difficulty": "Medium",
-      "question": "Which of the following is a documented benefit of Continuous Passive Motion (CPM) following joint surgery?",
+      "question": "An 'obstructive' spirometry pattern is characterised by:",
       "options": {
-        "A": "A permanent increase in muscle strength",
-        "B": "Increased synovial fluid lubrication and a stimulating effect on healing of cartilage, tendons, and ligaments",
-        "C": "It removes the need for any active exercise afterward",
-        "D": "Guaranteed prevention of postoperative infection"
+        "A": "Reduction in FEV1 with relative preservation of FVC (forced vital capacity)",
+        "B": "Simultaneous reduction of both FEV1 and FVC with an increased FEV1/FVC ratio",
+        "C": "No change in either FEV1 or FVC",
+        "D": "An increase in both FEV1 and FVC"
       },
-      "correctAnswer": "B",
-      "explanation": "Documented benefits of CPM include increased synovial fluid lubrication (supporting cartilage healing), a stimulating effect on tendon and ligament healing, prevention of adhesions/contractures, and typically a quicker return of range of motion with less postoperative pain — but it does not replace active exercise or strength training.",
-      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
-      "sourceChapter": "Chapter 3: Range of Motion — Continuous Passive Motion",
+      "correctAnswer": "A",
+      "explanation": "An obstructive pattern shows a reduction in FEV1 (forced expiratory volume in 1 second) with relative preservation of FVC, lowering the FEV1/FVC ratio — this indicates airway obstruction, graded by severity (e.g. <75% mild, <60% moderate, <40% severe). A restrictive pattern, by contrast, shows simultaneous reduction of both FEV1 and FVC with an increased ratio.",
+      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+      "sourceChapter": "Cardiopulmonary Function Testing — Airway Function",
       "sourcePage": null,
-      "subject": "Fundamentals of Exercise Therapy"
+      "subject": "Physiotherapy in General Medical & Surgical Condition"
     },
     {
       "id": 4,
-      "topic": "Receptor Pharmacology",
-      "subtopic": "G-Protein Coupled Receptors",
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Impulse Duration Classification",
       "difficulty": "Medium",
-      "question": "The structural hallmark of a G-protein coupled receptor (GPCR) is:",
+      "question": "Impulses with a duration of less than 10 ms, used for stimulating normal (innervated) muscle, are classified as having:",
       "options": {
-        "A": "A single transmembrane helix linked to an intracellular tyrosine kinase domain",
-        "B": "Seven membrane-spanning helical segments with the agonist binding site on the extracellular face",
-        "C": "A pentameric ring of subunits directly enclosing an ion channel",
-        "D": "A soluble intracellular protein that binds directly to DNA"
+        "A": "A long duration, termed interrupted direct current",
+        "B": "A short duration, of the faradic type",
+        "C": "No classification exists for pulse duration",
+        "D": "A duration only used for denervated muscle"
       },
       "correctAnswer": "B",
-      "explanation": "GPCRs share a common structural motif: 7 alpha-helical membrane-spanning segments forming 3 extracellular and 3 intracellular loops, with the agonist binding site located between the helices on the extracellular face and the G-protein binding site on the cytosolic side.",
-      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
-      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
-      "sourcePage": null,
-      "subject": "Pharmacology"
+      "explanation": "Impulses of less than 10 ms duration are classed as short duration and are of the faradic type, used to stimulate normal innervated muscle via its motor nerve, typically repeated at a high rate of 50-100 per second.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle",
+      "sourcePage": "40",
+      "subject": "Fundamentals of Electro Therapy"
     },
     {
       "id": 5,
-      "topic": "Receptor Pharmacology",
-      "subtopic": "Enzyme Inhibition",
+      "topic": "Lower Limb",
+      "subtopic": "Iliotibial Tract",
       "difficulty": "Medium",
-      "question": "Allopurinol reduces uric acid production by acting as a competitive inhibitor of which enzyme?",
+      "question": "Which two muscles insert into the upper part of the iliotibial tract, between its superficial and deep laminae?",
       "options": {
-        "A": "Angiotensin converting enzyme (ACE)",
-        "B": "Xanthine oxidase",
-        "C": "Cholinesterase",
-        "D": "Dopa decarboxylase"
+        "A": "Three-fourths of gluteus maximus, and tensor fasciae latae",
+        "B": "Sartorius and gracilis",
+        "C": "Rectus femoris and vastus lateralis",
+        "D": "Biceps femoris and semitendinosus"
       },
-      "correctAnswer": "B",
-      "explanation": "Allopurinol competitively inhibits xanthine oxidase, the enzyme that converts hypoxanthine to uric acid, which is why it is used to lower uric acid levels (e.g. in gout).",
-      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
-      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
+      "correctAnswer": "A",
+      "explanation": "The iliotibial tract receives insertion of three-fourths of gluteus maximus and the tensor fasciae latae between its superficial and deep laminae superiorly, before attaching distally to Gerdy's tubercle on the lateral condyle of the tibia.",
+      "sourceBook": "BD Chaurasia's Human Anatomy — Lower Limb",
+      "sourceChapter": "Front of Thigh — Deep Fascia, Iliotibial Tract",
       "sourcePage": null,
-      "subject": "Pharmacology"
+      "subject": "Anatomy"
     },
     {
       "id": 6,
-      "topic": "Resistance Exercise",
-      "subtopic": "Exercise Order",
+      "topic": "Paediatric Trauma",
+      "subtopic": "Solid Organ Injury",
       "difficulty": "Medium",
-      "question": "When multiple muscle groups are exercised in a single session, the recommended order is generally:",
+      "question": "Isolated blunt liver or splenic injury in a haemodynamically stable child is generally best managed by:",
       "options": {
-        "A": "Small muscle groups before large muscle groups, single-joint before multi-joint exercises",
-        "B": "Large muscle groups before small muscle groups, and multi-joint exercises before single-joint exercises",
-        "C": "Order makes no difference to fatigue or training effect",
-        "D": "Lower intensity exercises should always precede higher intensity ones, regardless of warm-up"
+        "A": "Immediate laparotomy in every case",
+        "B": "Non-operative management with observation",
+        "C": "Immediate splenectomy regardless of severity",
+        "D": "Discharge home with no follow-up"
       },
       "correctAnswer": "B",
-      "explanation": "The recommended exercise order is large muscle groups before small muscle groups, and multi-joint exercises before single-joint exercises, with higher-intensity exercises performed before lower-intensity ones after an appropriate warm-up.",
-      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
-      "sourceChapter": "Chapter 6: Resistance Exercise — Exercise Order",
-      "sourcePage": null,
-      "subject": "Kinesio Therapeutics"
-    },
-    {
-      "id": 7,
-      "topic": "Stroke",
-      "subtopic": "Vascular Syndromes",
-      "difficulty": "Medium",
-      "question": "Occlusion of a posterior cerebral artery (PCA), affecting the occipital lobe, characteristically produces:",
-      "options": {
-        "A": "Contralateral homonymous hemianopsia",
-        "B": "Complete bilateral blindness in every case",
-        "C": "Isolated hearing loss",
-        "D": "Pure motor weakness with no sensory or visual involvement"
-      },
-      "correctAnswer": "A",
-      "explanation": "The PCA supplies the occipital lobe (primary visual cortex); occlusion produces contralateral homonymous hemianopsia. Bilateral PCA occlusion can cause cortical blindness, but this is not the typical single-vessel presentation.",
-      "sourceBook": "O'Sullivan, Physical Rehabilitation",
-      "sourceChapter": "Chapter 15: Stroke — Posterior Cerebral Artery Syndrome",
-      "sourcePage": null,
-      "subject": "Physiotherapy in Neurosciences"
-    },
-    {
-      "id": 8,
-      "topic": "Paediatric Surgery",
-      "subtopic": "Acute Scrotum",
-      "difficulty": "Medium",
-      "question": "The 'blue dot sign' on the scrotum in a boy just before puberty is classically associated with:",
-      "options": {
-        "A": "Testicular torsion",
-        "B": "Torsion of a testicular/epididymal appendage (hydatid of Morgagni)",
-        "C": "Acute epididymo-orchitis",
-        "D": "Varicocele"
-      },
-      "correctAnswer": "B",
-      "explanation": "Torsion of a testicular or epididymal appendage (hydatid of Morgagni) characteristically affects boys just before puberty, and the torted, infarcted appendage may occasionally be visible or palpable through the scrotal skin as a tender bluish nodule — the 'blue dot sign'.",
+      "explanation": "Isolated liver or splenic injury in a stable child can usually be managed non-operatively, with laparotomy reserved for ongoing intra-abdominal bleeding; uncomplicated cases can often be discharged after 5-7 days with a period of restricted activity.",
       "sourceBook": "Bailey & Love's Short Practice of Surgery",
-      "sourceChapter": "Principles of Paediatric Surgery — The Acute Scrotum",
+      "sourceChapter": "Principles of Paediatric Surgery — Paediatric Trauma",
       "sourcePage": null,
       "subject": "General Surgery & Orthopedics"
     },
     {
-      "id": 9,
-      "topic": "Normal Puerperium",
-      "subtopic": "Postpartum Exercise",
+      "id": 7,
+      "topic": "Lung Function Testing",
+      "subtopic": "Restrictive Pattern",
       "difficulty": "Medium",
-      "question": "According to the objectives of postpartum exercise, which muscle groups are specifically targeted to prevent genital prolapse and stress incontinence of urine?",
+      "question": "A 'restrictive' spirometry pattern, usually associated with reduced lung volume, is characterised by:",
       "options": {
-        "A": "Only the biceps and triceps",
-        "B": "The abdominal and pelvic floor muscles",
-        "C": "The cervical extensors only",
-        "D": "The quadriceps exclusively"
+        "A": "Simultaneous reduction of both FEV1 and FVC, with an INCREASED FEV1/FVC ratio",
+        "B": "Reduction in FEV1 only, with FVC completely unaffected",
+        "C": "No change in spirometry values at all",
+        "D": "An increased FVC with a normal FEV1"
+      },
+      "correctAnswer": "A",
+      "explanation": "A restrictive pattern shows simultaneous reduction of both FEV1 and FVC together, with an increased FEV1/FVC ratio (since the lungs are small and empty quickly) — distinct from the obstructive pattern where FEV1 drops disproportionately more than FVC.",
+      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+      "sourceChapter": "Cardiopulmonary Function Testing — Airway Function",
+      "sourcePage": null,
+      "subject": "Physiotherapy in General Medical & Surgical Condition"
+    },
+    {
+      "id": 8,
+      "topic": "Cell Injury and Necrosis",
+      "subtopic": "Apoptosis vs Necrosis",
+      "difficulty": "Medium",
+      "question": "Unlike necrosis, apoptosis is characteristically NOT accompanied by:",
+      "options": {
+        "A": "Any DNA fragmentation",
+        "B": "Inflammation and collateral tissue damage",
+        "C": "Cell membrane changes of any kind",
+        "D": "Any regulation by the cell itself"
       },
       "correctAnswer": "B",
-      "explanation": "Postpartum exercises aim to improve tone of the abdominal and perineal (pelvic floor) muscles, which are stretched during pregnancy and labour. Effective pelvic floor exercise specifically helps prevent genital prolapse and stress urinary incontinence.",
-      "sourceBook": "Dutta's Textbook of Obstetrics",
-      "sourceChapter": "Normal Puerperium — Postpartum Exercise",
+      "explanation": "Apoptosis is a controlled, internally programmed form of cell death ('cell suicide') that, unlike necrosis, occurs without triggering inflammation or collateral tissue damage — this is one of the key distinguishing features between the two forms of cell death.",
+      "sourceBook": "Harsh Mohan, Textbook of Pathology",
+      "sourceChapter": "Cell Injury, Cellular Adaptations and Cellular Ageing — Apoptosis",
       "sourcePage": null,
-      "subject": "OBGY"
+      "subject": "Pathology & Microbiology"
     },
     {
-      "id": 10,
-      "topic": "Stroke",
-      "subtopic": "Hemorrhagic Stroke",
-      "difficulty": "Medium",
-      "question": "Subarachnoid hemorrhage (SH) typically results from rupture of which type of vascular lesion?",
-      "options": {
-        "A": "A saccular (berry) aneurysm affecting large blood vessels",
-        "B": "Small penetrating vessel disease (lacunar disease)",
-        "C": "Atherosclerotic plaque in the carotid artery only",
-        "D": "Venous thrombosis in the dural sinuses exclusively"
-      },
-      "correctAnswer": "A",
-      "explanation": "Subarachnoid hemorrhage typically occurs from bleeding into the subarachnoid space, most often from rupture of a saccular (berry) aneurysm affecting the larger cerebral blood vessels, often related to congenital weakness in the vessel wall.",
-      "sourceBook": "O'Sullivan, Physical Rehabilitation",
-      "sourceChapter": "Chapter 15: Stroke — Pathophysiology",
-      "sourcePage": null,
-      "subject": "Physiotherapy in Neurosciences"
-    },
-    {
-      "id": 11,
-      "topic": "Electrical Stimulation of Nerve and Muscle",
-      "subtopic": "Practical Application",
-      "difficulty": "Medium",
-      "question": "In a practical setup for stimulating the quadriceps with a faradic-type current, where is the indifferent (larger) electrode typically placed, per Clayton's described technique?",
-      "options": {
-        "A": "Over the femoral nerve in the femoral triangle",
-        "B": "Directly over the motor points of the quadriceps only, with no separate indifferent electrode",
-        "C": "On the opposite limb entirely",
-        "D": "Over the lumbar spine"
-      },
-      "correctAnswer": "A",
-      "explanation": "In the classic technique for faradic stimulation of the quadriceps, one electrode and pad is placed over the femoral nerve in the femoral triangle and secured with a sandbag or bandage, while the other (active) electrode pad is placed across the motor points of the quadriceps.",
-      "sourceBook": "Clayton's Electrotherapy",
-      "sourceChapter": "Stimulation of Muscle Groups — Quadriceps",
-      "sourcePage": "60",
-      "subject": "Fundamentals of Electro Therapy"
-    },
-    {
-      "id": 12,
+      "id": 9,
       "topic": "Cardiopulmonary Assessment",
       "subtopic": "Wheeze vs Stridor",
       "difficulty": "Medium",
@@ -240,156 +183,213 @@
       "subject": "Physiotherapy in General Medical & Surgical Condition"
     },
     {
-      "id": 13,
-      "topic": "Stroke",
-      "subtopic": "Cerebral Circulation",
+      "id": 10,
+      "topic": "Sensory Processes and Perception",
+      "subtopic": "Gestalt Principles",
       "difficulty": "Medium",
-      "question": "The circle of Willis is clinically important in stroke because it:",
+      "question": "The Gestalt psychologists' core principle, 'the whole is more than the sum of its parts,' means that:",
       "options": {
-        "A": "Has no role in cerebral perfusion at all",
-        "B": "Provides a collateral circulatory network that can help maintain blood flow if one contributing artery is occluded proximally",
-        "C": "Is located exclusively in the spinal cord",
-        "D": "Only supplies the cerebellum"
+        "A": "Organized perceptual experience has properties that cannot be predicted from simply analysing its individual components",
+        "B": "Larger objects are always perceived more accurately than small ones",
+        "C": "Perception is entirely determined by the number of sensory receptors involved",
+        "D": "Only visual perception follows organizational principles, not other senses"
       },
-      "correctAnswer": "B",
-      "explanation": "The circle of Willis connects the anterior and posterior cerebral circulations via communicating arteries, providing collateral blood flow. This is why occlusion proximal to the anterior or posterior communicating arteries often produces relatively minimal deficits — perfusion can be partly maintained from the other side.",
+      "correctAnswer": "A",
+      "explanation": "The central Gestalt idea is that organized perceptual experience has emergent properties not predictable from a simple analysis of its component sensations — perception involves active organization, not just addition of individual sensory 'atoms'.",
+      "sourceBook": "Morgan & King, Introduction to Psychology",
+      "sourceChapter": "Sensory Processes and Perception — Organization in Perception",
+      "sourcePage": null,
+      "subject": "Psychology"
+    },
+    {
+      "id": 11,
+      "topic": "Stroke",
+      "subtopic": "Vascular Syndromes",
+      "difficulty": "Medium",
+      "question": "Occlusion of a posterior cerebral artery (PCA), affecting the occipital lobe, characteristically produces:",
+      "options": {
+        "A": "Contralateral homonymous hemianopsia",
+        "B": "Complete bilateral blindness in every case",
+        "C": "Isolated hearing loss",
+        "D": "Pure motor weakness with no sensory or visual involvement"
+      },
+      "correctAnswer": "A",
+      "explanation": "The PCA supplies the occipital lobe (primary visual cortex); occlusion produces contralateral homonymous hemianopsia. Bilateral PCA occlusion can cause cortical blindness, but this is not the typical single-vessel presentation.",
       "sourceBook": "O'Sullivan, Physical Rehabilitation",
-      "sourceChapter": "Chapter 15: Stroke — Vascular Syndromes",
+      "sourceChapter": "Chapter 15: Stroke — Posterior Cerebral Artery Syndrome",
       "sourcePage": null,
       "subject": "Physiotherapy in Neurosciences"
+    },
+    {
+      "id": 12,
+      "topic": "Biology of Behavior",
+      "subtopic": "Cerebral Lobes",
+      "difficulty": "Medium",
+      "question": "Sensations of touch, pain, and pressure (somatosensory input) arrive at the region of the cortex located:",
+      "options": {
+        "A": "In the occipital lobe",
+        "B": "In the parietal lobe, on the gyrus immediately behind the central sulcus",
+        "C": "In the temporal lobe, buried in the lateral fissure",
+        "D": "Only in the cerebellum, never the cerebrum"
+      },
+      "correctAnswer": "B",
+      "explanation": "Somatosensory signals (touch, pain, pressure) reach the primary somatosensory cortex, located in the parietal lobe on the gyrus immediately behind the central sulcus — right next to the primary motor cortex, which lies on the gyrus just in front of the central sulcus.",
+      "sourceBook": "Morgan & King, Introduction to Psychology",
+      "sourceChapter": "Biology of Behavior — Sensory and Motor Functions",
+      "sourcePage": null,
+      "subject": "Psychology"
+    },
+    {
+      "id": 13,
+      "topic": "Normal Puerperium",
+      "subtopic": "Postnatal Backache",
+      "difficulty": "Medium",
+      "question": "A postnatal patient reports backache localized specifically over the lumbar region (rather than the sacrum). This location most likely points to:",
+      "options": {
+        "A": "Pelvic pathology exclusively",
+        "B": "An orthopedic condition, which is often relieved by physiotherapy",
+        "C": "It always indicates retained products of conception",
+        "D": "It is never a genuine finding after delivery"
+      },
+      "correctAnswer": "B",
+      "explanation": "Postnatal backache over the sacrum is more likely due to pelvic pathology, while backache over the lumbar region is more likely due to an orthopedic cause, and is often relieved by physiotherapy.",
+      "sourceBook": "Dutta's Textbook of Obstetrics",
+      "sourceChapter": "Normal Puerperium — Postnatal Care, Management of Ailments",
+      "sourcePage": null,
+      "subject": "OBGY"
     },
     {
       "id": 14,
-      "topic": "Stroke",
-      "subtopic": "Risk Factors",
+      "topic": "Platelets",
+      "subtopic": "Haemostasis Mechanism",
       "difficulty": "Medium",
-      "question": "Which of the following is described as a powerful, independent risk factor for stroke, associated with roughly a fivefold increase in risk?",
+      "question": "In the platelet haemostasis mechanism, thromboxane A2 primarily acts to:",
       "options": {
-        "A": "Atrial fibrillation",
-        "B": "Seasonal allergies",
-        "C": "Mild anaemia",
-        "D": "Occasional caffeine intake"
+        "A": "Inhibit platelet aggregation entirely",
+        "B": "Further increase platelet aggregation and cause vasoconstriction, helping form the temporary haemostatic plug",
+        "C": "Dissolve existing blood clots",
+        "D": "Have no role in haemostasis"
       },
-      "correctAnswer": "A",
-      "explanation": "Atrial fibrillation is described as a powerful risk factor for stroke, associated with approximately a fivefold increase in stroke risk, due to its potential to generate cardiac emboli.",
-      "sourceBook": "O'Sullivan, Physical Rehabilitation",
-      "sourceChapter": "Chapter 15: Stroke — Risk Factors and Stroke Prevention",
+      "correctAnswer": "B",
+      "explanation": "Thromboxane A2 further increases platelet aggregation (along with platelet adhesion, forming the temporary haemostatic plug) and causes vasoconstriction, helping stop bleeding from the injured vessel — the opposite effect to prostacyclin, which inhibits thromboxane A2 formation to keep the platelet plug localized.",
+      "sourceBook": "AK Jain, Physiology",
+      "sourceChapter": "Platelets or Thrombocytes — Functions, Blood Coagulation",
       "sourcePage": null,
-      "subject": "Physiotherapy in Neurosciences"
+      "subject": "Physiology"
     },
     {
       "id": 15,
-      "topic": "Clinical Decision Making",
-      "subtopic": "Reducing Errors",
-      "difficulty": "Medium",
-      "question": "The 'unpacking principle' in clinical reasoning refers to the risk that:",
-      "options": {
-        "A": "A failure to fully take the history and examine the patient means important information can be missed, leading to error",
-        "B": "Patients should always be admitted for observation regardless of findings",
-        "C": "Clinical prediction rules should never be used",
-        "D": "Diagnostic tests are always more reliable than clinical examination"
-      },
-      "correctAnswer": "A",
-      "explanation": "The unpacking principle highlights that history-taking and physical examination, though seemingly obvious steps, are sometimes performed inadequately — and this failure to 'unpack' all the available information can cause important findings to be missed.",
-      "sourceBook": "Davidson's Principles and Practice of Medicine",
-      "sourceChapter": "Clinical Decision Making — Reducing Errors, Cognitive Debiasing Strategies",
-      "sourcePage": null,
-      "subject": "Medicine"
-    },
-    {
-      "id": 16,
-      "topic": "Paediatric Surgery",
-      "subtopic": "Hypospadias",
-      "difficulty": "Medium",
-      "question": "In hypospadias, why is ritual/routine circumcision specifically contraindicated in the newborn period?",
-      "options": {
-        "A": "Circumcision is never contraindicated in any condition",
-        "B": "The foreskin is often needed later for the surgical reconstruction of the hypospadias",
-        "C": "Hypospadias makes circumcision technically impossible",
-        "D": "It has no bearing on hypospadias management at all"
-      },
-      "correctAnswer": "B",
-      "explanation": "In hypospadias, the deficient ventral foreskin tissue is often required for the surgical reconstruction of the urethra later on, so removing it via routine circumcision in infancy would compromise the corrective surgery.",
-      "sourceBook": "Bailey & Love's Short Practice of Surgery",
-      "sourceChapter": "Principles of Paediatric Surgery — Hypospadias",
-      "sourcePage": null,
-      "subject": "General Surgery & Orthopedics"
-    },
-    {
-      "id": 17,
-      "topic": "Proteins and Amino Acids",
-      "subtopic": "Determining Amino Acid Composition",
-      "difficulty": "Medium",
-      "question": "To determine the amino acid composition of a protein, it is first completely hydrolysed. Which method of hydrolysis tends to yield smaller peptides rather than fully free amino acids?",
-      "options": {
-        "A": "Acid hydrolysis",
-        "B": "Alkali hydrolysis",
-        "C": "Enzymatic hydrolysis",
-        "D": "All three yield identical results"
-      },
-      "correctAnswer": "C",
-      "explanation": "While acid or alkali treatment can fully hydrolyse a protein down to free amino acids, treatment with enzymes typically results in smaller peptides rather than complete breakdown to individual amino acids, since most proteolytic enzymes have some bond specificity.",
-      "sourceBook": "Satyanarayana, Biochemistry",
-      "sourceChapter": "Proteins and Amino Acids — Determination of Primary Structure",
-      "sourcePage": null,
-      "subject": "Biochemistry"
-    },
-    {
-      "id": 18,
-      "topic": "Manual Muscle Testing",
-      "subtopic": "Test Procedure",
-      "difficulty": "Medium",
-      "question": "Two-joint muscles such as the hamstrings and gastrocnemius are typically tested in mid-range rather than at full end-range during manual muscle testing. Why?",
-      "options": {
-        "A": "To avoid provoking a stretch reflex",
-        "B": "Mid-range gives these muscles a more mechanically favorable length-tension relationship for the test",
-        "C": "Two-joint muscles cannot generate any force at end range",
-        "D": "It standardizes the time taken for every muscle test"
-      },
-      "correctAnswer": "B",
-      "explanation": "One-joint muscles are tested at end range for consistency, but two-joint muscles are tested in mid-range, where their length-tension relationship is more favorable — testing them at a mechanical disadvantage would make it hard to distinguish a true Grade 5 from a Grade 4.",
-      "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
-      "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
-      "sourcePage": "2",
-      "subject": "Physical Diagnosis & Manipulative Skills"
-    },
-    {
-      "id": 19,
       "topic": "Cardiopulmonary Assessment",
-      "subtopic": "Angina",
+      "subtopic": "Sputum",
       "difficulty": "Medium",
-      "question": "Angina pectoris from myocardial ischaemia is classically described as:",
+      "question": "'Rusty' coloured sputum is classically associated with infection by which organism?",
       "options": {
-        "A": "A sharp, localized pain that worsens specifically on inspiration",
-        "B": "A dull, central, retrosternal gripping or band-like sensation that may radiate to the arm, neck, or jaw",
-        "C": "A superficial pain reproduced by chest wall palpation",
-        "D": "A pain confined strictly to the left shoulder with no central component"
+        "A": "Pseudomonas",
+        "B": "Pneumococcus",
+        "C": "Haemophilus",
+        "D": "Klebsiella"
       },
       "correctAnswer": "B",
-      "explanation": "Angina pectoris characteristically produces a dull, central, retrosternal gripping or band-like sensation, which may radiate to either arm, the neck, or the jaw — quite distinct from the sharp, localized, movement/palpation-related pain of musculoskeletal chest pain.",
+      "explanation": "Rusty-coloured sputum is a classic finding associated with pneumococcal infection (typical lobar pneumonia), whereas dark green/brown sputum suggests Pseudomonas, and 'red-currant jelly' sputum suggests Klebsiella.",
       "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
-      "sourceChapter": "Assessment — Chest Pain",
+      "sourceChapter": "Assessment — Sputum",
       "sourcePage": null,
       "subject": "Physiotherapy in General Medical & Surgical Condition"
     },
     {
-      "id": 20,
-      "topic": "Receptor Pharmacology",
-      "subtopic": "G-Protein Signalling",
+      "id": 16,
+      "topic": "Sensory Processes and Perception",
+      "subtopic": "Gestalt Principles",
       "difficulty": "Medium",
-      "question": "Activation of a Gi-coupled receptor typically has which effect on adenylyl cyclase and cAMP?",
+      "question": "Perceiving an incomplete circle with gaps as a 'whole circle' rather than a series of disconnected line segments illustrates the Gestalt principle of:",
       "options": {
-        "A": "Activates adenylyl cyclase, increasing cAMP",
-        "B": "Inhibits adenylyl cyclase, decreasing cAMP",
-        "C": "Has no effect on adenylyl cyclase, acts only on phospholipase C",
-        "D": "Directly opens ligand-gated Na+ channels"
+        "A": "Closure",
+        "B": "Continuation",
+        "C": "Proximity",
+        "D": "Linear perspective"
+      },
+      "correctAnswer": "A",
+      "explanation": "The law of closure describes the perceptual process of filling in gaps in stimulation so that we perceive a whole, complete form rather than disjointed parts — a circle with small gaps is still perceived as a circle.",
+      "sourceBook": "Morgan & King, Introduction to Psychology",
+      "sourceChapter": "Sensory Processes and Perception — Organization in Perception",
+      "sourcePage": null,
+      "subject": "Psychology"
+    },
+    {
+      "id": 17,
+      "topic": "Cardiopulmonary Assessment",
+      "subtopic": "Breathlessness Classification",
+      "difficulty": "Medium",
+      "question": "According to the New York Heart Association (NYHA) classification of breathlessness, a patient who becomes symptomatic with mild exertion such as bathing or dressing falls into which class?",
+      "options": {
+        "A": "Class I",
+        "B": "Class II",
+        "C": "Class III",
+        "D": "Class IV"
+      },
+      "correctAnswer": "C",
+      "explanation": "NYHA Class III describes symptoms occurring with mild exertion (e.g. bathing, showering, dressing). Class I is asymptomatic except with severe exertion, Class II is symptomatic with ordinary activity (e.g. walking upstairs), and Class IV is symptomatic even at rest.",
+      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+      "sourceChapter": "Assessment — Breathlessness Classification",
+      "sourcePage": null,
+      "subject": "Physiotherapy in General Medical & Surgical Condition"
+    },
+    {
+      "id": 18,
+      "topic": "Nutrition and Fluid Therapy",
+      "subtopic": "Metabolic Response to Starvation",
+      "difficulty": "Medium",
+      "question": "In prolonged fasting (beyond 48-72 hours), the central nervous system adapts to using which fuel source as primary, reducing the need for muscle protein breakdown?",
+      "options": {
+        "A": "Ketone bodies",
+        "B": "Dietary fibre",
+        "C": "Lactic acid exclusively",
+        "D": "Bile acids"
+      },
+      "correctAnswer": "A",
+      "explanation": "After 48-72 hours of fasting, the CNS adapts to using ketone bodies (produced by hepatic ketogenesis from fatty acids, facilitated by low insulin) as its primary fuel source — this 'fat fuel economy' shift reduces the need for muscle breakdown by up to 55 g per day compared to simple short-term starvation.",
+      "sourceBook": "Bailey & Love's Short Practice of Surgery",
+      "sourceChapter": "Nutrition and Fluid Therapy — Metabolic Response to Starvation",
+      "sourcePage": null,
+      "subject": "General Surgery & Orthopedics"
+    },
+    {
+      "id": 19,
+      "topic": "Soft Tissue Injury",
+      "subtopic": "Stages of Healing",
+      "difficulty": "Medium",
+      "question": "During the ACUTE (inflammatory) stage of tissue healing, pain on range of motion testing is typically experienced:",
+      "options": {
+        "A": "Only after full range has been achieved, with no resistance",
+        "B": "BEFORE tissue resistance is encountered, with guarding before completion of range",
+        "C": "Never — the acute stage is always painless",
+        "D": "Only during the chronic stage, not the acute stage"
       },
       "correctAnswer": "B",
-      "explanation": "Gi (inhibitory G-protein) inhibits adenylyl cyclase, lowering intracellular cAMP — the opposite of Gs, which activates adenylyl cyclase and raises cAMP. This is why, for example, muscarinic M2 receptor stimulation (Gi-coupled) in the heart opposes the effect of beta-adrenergic (Gs-coupled) stimulation.",
-      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
-      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
+      "explanation": "In the acute (inflammatory) stage, pain occurs BEFORE tissue resistance is encountered during ROM testing, and the patient typically guards against the motion before the available range is completed — contrasted with the subacute stage (pain synchronous with resistance) and chronic stage (pain only after resistance, at end-range).",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 10: Soft Tissue Injury, Repair, and Management — Stages of Inflammation and Repair",
       "sourcePage": null,
-      "subject": "Pharmacology"
+      "subject": "Kinesio Therapeutics"
+    },
+    {
+      "id": 20,
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Effects of Frequency of Stimulation",
+      "difficulty": "Medium",
+      "question": "As the frequency of repeated electrical stimuli to a motor nerve increases beyond about 20 Hz, what happens to the muscle's contraction pattern?",
+      "options": {
+        "A": "The muscle stops contracting altogether",
+        "B": "There is no longer time for complete relaxation between contractions, producing partial tetany",
+        "C": "Contraction strength decreases progressively to zero",
+        "D": "The muscle contracts only once regardless of how many stimuli are given"
+      },
+      "correctAnswer": "B",
+      "explanation": "At low stimulation frequencies (e.g. 1 per second), each stimulus produces an isolated twitch with complete relaxation between contractions. As frequency increases, the relaxation period shortens; beyond about 20 Hz there is no longer time for complete relaxation between contractions, producing partial tetany.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Effects of Frequency of Stimulation",
+      "sourcePage": "46",
+      "subject": "Fundamentals of Electro Therapy"
     }
   ]
 }

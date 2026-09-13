@@ -2,7 +2,7 @@
   "paperId": "hard-practice-set-2",
   "paperName": "Hard Practice Set 2",
   "subject": "Mixed",
-  "description": "Hard-difficulty practice set (20 questions) covering: Anatomy, Biochemistry, Fundamentals of Electro Therapy, General Surgery & Orthopedics, Kinesio Therapeutics, Medicine, OBGY, Pathology & Microbiology, Pharmacology, Physiotherapy in Community Health, Physiotherapy in General Medical & Surgical Condition, Psychiatry, Psychology.",
+  "description": "Hard-difficulty practice set (20 questions) covering: Anatomy, Fundamentals of Electro Therapy, Fundamentals of Exercise Therapy, General Surgery & Orthopedics, OBGY, Pathology & Microbiology, Physiology, Physiotherapy in Community Health, Physiotherapy in General Medical & Surgical Condition, Physiotherapy in Musculoskeletal Condition, Physiotherapy in Neurosciences, Psychiatry.",
   "durationMinutes": 90,
   "scoring": {
     "correct": 1,
@@ -13,120 +13,82 @@
   "questions": [
     {
       "id": 1,
-      "topic": "Resistance Exercise",
-      "subtopic": "Duration for Muscle Change",
+      "topic": "Upper Limb",
+      "subtopic": "Carpal Bones",
       "difficulty": "Hard",
-      "question": "Early strength gains observed in the first 2-3 weeks of a resistance training program are primarily attributed to:",
+      "question": "Dislocation of the lunate bone (from a fall on the acutely dorsiflexed hand) typically displaces it in which direction, and can mimic the features of which condition?",
       "options": {
-        "A": "Actual muscle fiber hypertrophy",
-        "B": "Neural adaptation, since significant hypertrophy/vascularization changes typically require at least 6-12 weeks",
-        "C": "An increase in the total number of muscle fibers (hyperplasia)",
-        "D": "A change in bone density"
+        "A": "Displaces posteriorly; mimics De Quervain's tenosynovitis",
+        "B": "Displaces anteriorly; can produce carpal tunnel syndrome-like features",
+        "C": "Displaces laterally; mimics ulnar nerve palsy at the elbow",
+        "D": "Does not displace, only rotates in place with no clinical effect"
       },
       "correctAnswer": "B",
-      "explanation": "Strength gains in the first 2-3 weeks of resistance training are mainly the result of neural adaptation (improved motor unit recruitment and coordination), not muscle tissue change. Significant hypertrophy or increased vascularization typically requires at least 6-12 weeks of consistent training.",
-      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
-      "sourceChapter": "Chapter 6: Resistance Exercise — Duration",
+      "explanation": "Dislocation of the lunate is produced by a fall on the acutely dorsiflexed hand with the elbow flexed; it displaces the lunate anteriorly, where it can compress the median nerve within the carpal tunnel, producing carpal tunnel syndrome-like features.",
+      "sourceBook": "BD Chaurasia's Human Anatomy — Upper Limb",
+      "sourceChapter": "Bones of the Upper Limb — Carpal Bones, Clinical Anatomy",
       "sourcePage": null,
-      "subject": "Kinesio Therapeutics"
+      "subject": "Anatomy"
     },
     {
       "id": 2,
-      "topic": "Electrical Stimulation of Nerve and Muscle",
-      "subtopic": "Cathode vs Anode",
+      "topic": "Membrane Potentials",
+      "subtopic": "Equilibrium Potential",
       "difficulty": "Hard",
-      "question": "For a RISING (increasing) current applied over a superficial nerve, which electrode is more effective at initiating a nerve impulse, and why is the active electrode typically connected to it?",
+      "question": "The Nernst equation is used in physiology to calculate:",
       "options": {
-        "A": "The anode, because it requires less current overall",
-        "B": "The cathode, because it produces contraction of innervated muscle with less current than is required at the anode",
-        "C": "Neither electrode has any different effect",
-        "D": "The anode always requires less current than the cathode"
+        "A": "The equilibrium potential for a specific ion, based on its concentration gradient across the membrane",
+        "B": "The total resting metabolic rate of a cell",
+        "C": "The rate of action potential propagation along an axon",
+        "D": "The molecular weight of an ion"
       },
-      "correctAnswer": "B",
-      "explanation": "For a rising current, the cathode is more effective at initiating a nerve impulse than the anode. This is why the active electrode is conventionally connected to the cathode — it produces contraction of innervated muscle using less current than would be needed if the anode were used as the active electrode.",
-      "sourceBook": "Clayton's Electrotherapy",
-      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Mechanism of Nerve Stimulation",
-      "sourcePage": "45",
-      "subject": "Fundamentals of Electro Therapy"
+      "correctAnswer": "A",
+      "explanation": "The Nernst equation calculates the equilibrium potential for a given ion — the membrane potential at which the electrical force on that ion exactly balances its concentration gradient, so there is no net movement of that ion across the membrane.",
+      "sourceBook": "AK Jain, Physiology",
+      "sourceChapter": "The Membrane Potentials — The Equilibrium Potential",
+      "sourcePage": null,
+      "subject": "Physiology"
     },
     {
       "id": 3,
-      "topic": "Biology of Behavior",
-      "subtopic": "Prefrontal Cortex",
+      "topic": "Infectious and Parasitic Diseases",
+      "subtopic": "TORCH Complex",
       "difficulty": "Hard",
-      "question": "A hallmark intellectual deficit seen after prefrontal-lobe damage, distinct from a general drop in IQ (which is often unaffected), is:",
+      "question": "Among the TORCH agents, which one is most harmful to the fetus specifically when acquired during the first 10 weeks of pregnancy?",
       "options": {
-        "A": "Complete loss of the ability to speak",
-        "B": "Difficulty planning and sequencing actions, plus perseveration (continuing a behaviour even when the situation demands a new response)",
-        "C": "Total inability to recognize faces",
-        "D": "Immediate loss of all long-term memories formed before the injury"
+        "A": "Cytomegalovirus",
+        "B": "Toxoplasma",
+        "C": "Rubella",
+        "D": "Herpes simplex virus"
       },
-      "correctAnswer": "B",
-      "explanation": "While standard IQ tests are often little affected by prefrontal damage, patients show subtle but characteristic deficits: difficulty planning a sequence of actions, and perseveration — a tendency to keep behaving the same way even when circumstances call for a different response.",
-      "sourceBook": "Morgan & King, Introduction to Psychology",
-      "sourceChapter": "Biology of Behavior — Frontal-Lobe Association Cortex",
+      "correctAnswer": "C",
+      "explanation": "Rubella (German measles) is teratogenic, and infection during the acute stage of the first 10 weeks of pregnancy is far more harmful to the fetus than infection later in gestation, producing the classic congenital rubella syndrome (ocular defects, cardiac defects, CNS manifestations, sensorineural deafness).",
+      "sourceBook": "Harsh Mohan, Textbook of Pathology",
+      "sourceChapter": "Infectious and Parasitic Diseases — TORCH Complex",
       "sourcePage": null,
-      "subject": "Psychology"
+      "subject": "Pathology & Microbiology"
     },
     {
       "id": 4,
-      "topic": "Normal Puerperium",
-      "subtopic": "Blood Changes",
+      "topic": "Multiple Sclerosis",
+      "subtopic": "Bladder Dysfunction",
       "difficulty": "Hard",
-      "question": "In the first week postpartum, there is a secondary increase in fibrinogen, factor VIII, and platelets. What clinical risk does this hypercoagulable state primarily raise?",
+      "question": "In MS, a 'dyssynergic' bladder refers to a problem where:",
       "options": {
-        "A": "Risk of thrombosis",
-        "B": "Risk of spontaneous bleeding",
-        "C": "Risk of anaemia only",
-        "D": "No clinical significance"
+        "A": "The bladder is simply too small to store any urine",
+        "B": "There is a coordination problem between bladder (detrusor) contraction and sphincter relaxation",
+        "C": "The bladder never contracts under any circumstances",
+        "D": "Urine production stops entirely"
       },
-      "correctAnswer": "A",
-      "explanation": "The secondary rise in fibrinogen, factor VIII, and platelet count (with increased platelet adhesiveness) during the first postpartum week increases the risk of thrombosis — one reason early ambulation and postpartum exercise are actively encouraged, since enhanced fibrinolytic activity in the first few days acts as a partial protective counter-mechanism.",
-      "sourceBook": "Dutta's Textbook of Obstetrics",
-      "sourceChapter": "Normal Puerperium — Blood Values",
+      "correctAnswer": "B",
+      "explanation": "A dyssynergic bladder represents a coordination problem between bladder contraction and sphincter relaxation, distinct from a small spastic bladder (failure to store) or a flaccid/big bladder (failure to empty) — both of which are other recognised patterns of MS-related bladder dysfunction.",
+      "sourceBook": "O'Sullivan, Physical Rehabilitation",
+      "sourceChapter": "Chapter 16: Multiple Sclerosis — Bladder Dysfunction",
       "sourcePage": null,
-      "subject": "OBGY"
+      "subject": "Physiotherapy in Neurosciences"
     },
     {
       "id": 5,
-      "topic": "Receptor Pharmacology",
-      "subtopic": "Two-State Receptor Model",
-      "difficulty": "Hard",
-      "question": "In the two-state receptor model (Ra = active, Ri = inactive conformation), an inverse agonist is one that:",
-      "options": {
-        "A": "Binds Ra and Ri with exactly equal affinity, producing no net change",
-        "B": "Has high affinity for the Ri (inactive) state, shifting equilibrium away from Ra and producing an effect opposite to the agonist",
-        "C": "Cannot bind the receptor at all in either state",
-        "D": "Only functions on receptors with no baseline (constitutive) activity"
-      },
-      "correctAnswer": "B",
-      "explanation": "An inverse agonist preferentially binds and stabilizes the inactive (Ri) receptor conformation. This only produces an observable opposite effect on receptors that show constitutive activation (some baseline Ra signal even without agonist) — by pulling the equilibrium further toward Ri, it reduces signalling below the unstimulated baseline.",
-      "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
-      "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
-      "sourcePage": null,
-      "subject": "Pharmacology"
-    },
-    {
-      "id": 6,
-      "topic": "Clinical Decision Making",
-      "subtopic": "Cognitive Biases",
-      "difficulty": "Hard",
-      "question": "A clinician decides to keep a patient in hospital 'just in case', despite evidence-based guidelines and a completed systematic assessment supporting discharge, because they recently encountered a similar rare case. This is an example of which cognitive bias?",
-      "options": {
-        "A": "Overconfidence bias",
-        "B": "Availability bias",
-        "C": "Commission bias only, unrelated to availability",
-        "D": "The framing effect exclusively"
-      },
-      "correctAnswer": "B",
-      "explanation": "Availability bias occurs when a recent or memorable case distorts a clinician's estimate of probability, making a rare condition seem more likely simply because it is 'at the forefront of the mind' — exactly as described, overriding a systematic (Type 2) assessment with an irrational intuitive override.",
-      "sourceBook": "Davidson's Principles and Practice of Medicine",
-      "sourceChapter": "Clinical Decision Making — Common Cognitive Biases",
-      "sourcePage": null,
-      "subject": "Medicine"
-    },
-    {
-      "id": 7,
       "topic": "Normal Puerperium",
       "subtopic": "Involution Terminology",
       "difficulty": "Hard",
@@ -145,235 +107,216 @@
       "subject": "OBGY"
     },
     {
-      "id": 8,
-      "topic": "Cardiopulmonary Assessment",
-      "subtopic": "Cough — Complications",
+      "id": 6,
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Accommodation",
       "difficulty": "Hard",
-      "question": "Which of the following is a recognised physical complication of a severe, chronic cough?",
+      "question": "'Accommodation' in nerve physiology refers to the phenomenon whereby:",
       "options": {
-        "A": "Cough fractures (fractured ribs) and hernias",
-        "B": "Permanent hearing loss",
-        "C": "Cataracts",
-        "D": "Osteoarthritis of the knee"
+        "A": "A nerve becomes permanently unresponsive after any stimulation",
+        "B": "The nerve adapts to a constant current over time, so that an unvarying (unchanging) current becomes ineffective at initiating an impulse",
+        "C": "Muscle fibres physically move position to avoid the electrode",
+        "D": "Only denervated muscle can show accommodation"
+      },
+      "correctAnswer": "B",
+      "explanation": "Accommodation is the nerve's adaptation to a constant, unvarying current flow through a mechanism not fully understood — as a result, a current that does not change is not effective at initiating a nerve impulse, which is why intermittent or varying currents are needed for electrical stimulation.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Accommodation",
+      "sourcePage": "45",
+      "subject": "Fundamentals of Electro Therapy"
+    },
+    {
+      "id": 7,
+      "topic": "Shoulder Assessment",
+      "subtopic": "Posterior Internal Impingement",
+      "difficulty": "Hard",
+      "question": "Posterior internal impingement of the shoulder, commonly seen in overhead athletes, occurs when the rotator cuff impinges against the posterosuperior edge of the glenoid, with the arm positioned in:",
+      "options": {
+        "A": "Abduction, extension, and lateral rotation",
+        "B": "Full adduction and medial rotation",
+        "C": "Complete elbow flexion with the shoulder neutral",
+        "D": "Full flexion with the forearm pronated"
       },
       "correctAnswer": "A",
-      "explanation": "Chronic, forceful coughing can cause 'cough fractures' of the ribs and hernias, due to the repeated high intra-thoracic and intra-abdominal pressures generated. Stress urinary incontinence is another common, often under-reported complication, especially in women.",
-      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
-      "sourceChapter": "Assessment — Cough",
+      "explanation": "Posterior internal impingement occurs when the arm is abducted, extended, and laterally rotated — a position common in the late cocking phase of throwing — causing the rotator cuff to impinge against the posterosuperior glenoid rim, sometimes producing a 'kissing' labral lesion.",
+      "sourceBook": "Magee, Orthopedic Physical Assessment",
+      "sourceChapter": "Chapter 5: Shoulder — Posterior Internal Impingement Test",
       "sourcePage": null,
-      "subject": "Physiotherapy in General Medical & Surgical Condition"
+      "subject": "Physiotherapy in Musculoskeletal Condition"
     },
     {
-      "id": 9,
-      "topic": "Infectious and Parasitic Diseases",
-      "subtopic": "Malaria",
+      "id": 8,
+      "topic": "Nutrition and Fluid Therapy",
+      "subtopic": "Trauma vs Starvation",
       "difficulty": "Hard",
-      "question": "Plasmodium falciparum causes markedly more severe (malignant) malaria than the other three plasmodial species mainly because:",
+      "question": "How does the metabolic response to trauma/sepsis differ from simple starvation regarding ketone formation?",
       "options": {
-        "A": "It has an exo-erythrocytic stage that the others lack",
-        "B": "It only infects the liver, never red blood cells",
-        "C": "It parasitises red cells of any age, can infect a single red cell multiple times, and makes parasitised red cells sticky, causing capillary obstruction in deep organs",
-        "D": "It is transmitted by a different mosquito genus entirely"
-      },
-      "correctAnswer": "C",
-      "explanation": "Unlike the other plasmodial species (which parasitise only juvenile red cells and lack these features), P. falciparum parasitises red cells of any age, can infect a single red cell with more than one parasite, and makes infected red cells sticky — causing capillary obstruction (e.g. in the brain, producing cerebral malaria) that accounts for its exceptional virulence. It also notably lacks an exo-erythrocytic stage, but that is not the source of its severity.",
-      "sourceBook": "Harsh Mohan, Textbook of Pathology",
-      "sourceChapter": "Infectious and Parasitic Diseases — Malaria",
-      "sourcePage": null,
-      "subject": "Pathology & Microbiology"
-    },
-    {
-      "id": 10,
-      "topic": "Resistance Exercise",
-      "subtopic": "Periodization",
-      "difficulty": "Hard",
-      "question": "In periodized training, the 'competition' phase is generally characterized by:",
-      "options": {
-        "A": "Lower loads and the highest number of repetitions and sets",
-        "B": "Higher loads (peaking just prior to competition), with fewer exercises per session and reduced volume compared to the preparation phase",
-        "C": "Complete rest with no exercise",
-        "D": "Only aerobic exercise, no resistance training"
+        "A": "Both produce identical, unimpaired ketone formation",
+        "B": "In trauma/sepsis, ketone formation is impaired, and glucose-generating protein breakdown cannot be entirely prevented even by giving glucose",
+        "C": "Trauma always increases ketone formation far beyond that seen in starvation",
+        "D": "Ketone formation is irrelevant to both conditions"
       },
       "correctAnswer": "B",
-      "explanation": "In periodized training, the competition phase uses higher loads peaking just before competition, along with fewer exercises per session and decreased repetitions/sets compared to the earlier preparation phase, which uses lower loads and higher volume.",
-      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
-      "sourceChapter": "Chapter 6: Resistance Exercise — Periodization and Variation of Training",
-      "sourcePage": null,
-      "subject": "Kinesio Therapeutics"
-    },
-    {
-      "id": 11,
-      "topic": "Clinical Decision Making",
-      "subtopic": "Diagnostic Test Interpretation",
-      "difficulty": "Hard",
-      "question": "The D-dimer test has high sensitivity but low specificity for pulmonary embolism. What does this mean in practice?",
-      "options": {
-        "A": "A positive D-dimer confirms pulmonary embolism definitively",
-        "B": "A negative D-dimer helps rule out pulmonary embolism, but a positive result does not confirm it — it only means the disease has not been excluded",
-        "C": "The D-dimer test is useless in clinical practice",
-        "D": "High sensitivity and low specificity mean the test is always accurate regardless of result"
-      },
-      "correctAnswer": "B",
-      "explanation": "A highly sensitive test detects most true disease (few false negatives), so a negative result is reassuring and helps exclude the disease. But low specificity means many people without the disease will still test positive (false positives) — so a raised D-dimer does not confirm pulmonary embolism, it simply means it cannot yet be excluded, prompting further imaging.",
-      "sourceBook": "Davidson's Principles and Practice of Medicine",
-      "sourceChapter": "Clinical Decision Making — Interpreting Test Results",
-      "sourcePage": null,
-      "subject": "Medicine"
-    },
-    {
-      "id": 12,
-      "topic": "Proteins and Amino Acids",
-      "subtopic": "Sequencing Reagents",
-      "difficulty": "Hard",
-      "question": "Edman's reagent (phenylisothiocyanate) is used in protein sequencing chiefly because it allows:",
-      "options": {
-        "A": "Complete hydrolysis of the protein into free amino acids only",
-        "B": "Selective labelling and removal of the N-terminal amino acid as a PTH-derivative, leaving the rest of the polypeptide intact for repeated cycles",
-        "C": "Cleavage of the protein only at cysteine residues",
-        "D": "Permanent, irreversible denaturation of all peptide bonds"
-      },
-      "correctAnswer": "B",
-      "explanation": "Unlike Sanger's reagent (which labels and then requires full hydrolysis, destroying the polypeptide), Edman's reagent selectively removes and identifies the N-terminal amino acid as a phenylthiohydantoin (PTH) derivative while leaving the remaining polypeptide intact — allowing the process to be repeated cycle after cycle to read the sequence progressively.",
-      "sourceBook": "Satyanarayana, Biochemistry",
-      "sourceChapter": "Proteins and Amino Acids — Determination of Primary Structure",
-      "sourcePage": null,
-      "subject": "Biochemistry"
-    },
-    {
-      "id": 13,
-      "topic": "Anxiety Disorders",
-      "subtopic": "Biological Theory",
-      "difficulty": "Hard",
-      "question": "Which neurotransmitter system is most strongly implicated in the GABA-benzodiazepine receptor theory of anxiety, given that drugs facilitating its transmission relieve anxiety while antagonists provoke it?",
-      "options": {
-        "A": "Dopamine",
-        "B": "GABA (gamma-amino butyric acid)",
-        "C": "Acetylcholine",
-        "D": "Histamine"
-      },
-      "correctAnswer": "B",
-      "explanation": "GABA is the most prevalent inhibitory neurotransmitter in the CNS. Benzodiazepines facilitate GABA transmission and relieve anxiety, while benzodiazepine antagonists (e.g. flumazenil) and inverse agonists (e.g. beta-carbolines) provoke anxiety — strong evidence linking altered GABA function to the biological basis of anxiety disorders.",
-      "sourceBook": "Ahuja, A Short Textbook of Psychiatry",
-      "sourceChapter": "Neurotic, Stress-related and Somatoform Disorders — Anxiety Disorder, Aetiology",
-      "sourcePage": null,
-      "subject": "Psychiatry"
-    },
-    {
-      "id": 14,
-      "topic": "Biology of Behavior",
-      "subtopic": "Parietal Lobe Damage",
-      "difficulty": "Hard",
-      "question": "A patient with damage to the RIGHT parietal association cortex draws a clock face but only completes the right half, leaving the left side blank, and is unaware anything is missing. This phenomenon is known as:",
-      "options": {
-        "A": "Wernicke's aphasia",
-        "B": "Contralateral neglect",
-        "C": "Prosopagnosia",
-        "D": "Broca's aphasia"
-      },
-      "correctAnswer": "B",
-      "explanation": "Contralateral neglect is a classic sign of right parietal association cortex damage: patients ignore the left side of space and their own body (the side opposite/contralateral to the damaged hemisphere), often while denying anything is wrong.",
-      "sourceBook": "Morgan & King, Introduction to Psychology",
-      "sourceChapter": "Biology of Behavior — Parietal-Lobe Association Cortex",
-      "sourcePage": null,
-      "subject": "Psychology"
-    },
-    {
-      "id": 15,
-      "topic": "Proteins and Amino Acids",
-      "subtopic": "Proteolytic Enzymes",
-      "difficulty": "Hard",
-      "question": "Pronase is distinct from enzymes like trypsin or chymotrypsin in protein chemistry because it:",
-      "options": {
-        "A": "Is a single enzyme with very narrow specificity for one bond",
-        "B": "Is a mixture of non-specific proteolytic enzymes that causes complete hydrolysis of a protein down to free amino acids",
-        "C": "Only cleaves carbohydrate-protein bonds in glycoproteins",
-        "D": "Cannot hydrolyse peptide bonds at all"
-      },
-      "correctAnswer": "B",
-      "explanation": "Pronase is a mixture of non-specific proteolytic enzymes that, unlike the more selective trypsin/chymotrypsin/pepsin/elastase, causes complete hydrolysis of a protein all the way down to its free amino acids — useful for determining total amino acid composition rather than sequence.",
-      "sourceBook": "Satyanarayana, Biochemistry",
-      "sourceChapter": "Proteins and Amino Acids — Determination of Primary Structure",
-      "sourcePage": null,
-      "subject": "Biochemistry"
-    },
-    {
-      "id": 16,
-      "topic": "Paediatric Surgery",
-      "subtopic": "Testicular Descent — Physiology",
-      "difficulty": "Hard",
-      "question": "The final descent of the testis into the scrotum during fetal development is mediated primarily by:",
-      "options": {
-        "A": "Oestrogen from the placenta",
-        "B": "Testosterone from the fetal testis",
-        "C": "Growth hormone from the fetal pituitary",
-        "D": "Prolactin from the maternal circulation"
-      },
-      "correctAnswer": "B",
-      "explanation": "While gonadal induction (forming a testis in the first place) is driven by genes on the Y chromosome and initial abdominal migration is guided by the gubernaculum, the final descent of the testis into the scrotum is mediated by testosterone produced by the fetal testis itself.",
+      "explanation": "Unlike simple starvation (where glucose administration can readily reverse protein catabolism), trauma and sepsis patients have impaired ketone formation, and gluconeogenesis (protein breakdown to make glucose) cannot be entirely prevented by giving exogenous glucose — a key nutritional distinction between the two states.",
       "sourceBook": "Bailey & Love's Short Practice of Surgery",
-      "sourceChapter": "Principles of Paediatric Surgery — Genital Development",
+      "sourceChapter": "Nutrition and Fluid Therapy — Metabolic Response to Trauma and Sepsis",
       "sourcePage": null,
       "subject": "General Surgery & Orthopedics"
     },
     {
-      "id": 17,
-      "topic": "Upper Limb",
-      "subtopic": "Forearm Bones — Clinical",
+      "id": 9,
+      "topic": "Multiple Sclerosis",
+      "subtopic": "Diagnosis",
       "difficulty": "Hard",
-      "question": "After a fracture of both the radius and ulna shafts, why must cross-union (bony union between the two bones) be specifically prevented during healing?",
+      "question": "A diagnosis of multiple sclerosis (MS) requires evidence of CNS damage that satisfies which two key criteria?",
       "options": {
-        "A": "Cross-union has no functional consequence",
-        "B": "Cross-union would permanently fuse the radius and ulna together, abolishing pronation and supination of the hand",
-        "C": "Cross-union only affects elbow flexion, not the hand",
-        "D": "It increases the risk of scaphoid fracture"
+        "A": "Damage in only one CNS location, confirmed once",
+        "B": "Dissemination of lesions in space (at least two separate CNS areas) AND dissemination in time (damage at two separate points at least 1 month apart)",
+        "C": "A single MRI scan showing any abnormality",
+        "D": "Positive family history alone, without any imaging"
       },
       "correctAnswer": "B",
-      "explanation": "Pronation and supination depend on the radius being able to rotate around a stable ulna. If the two bones heal fused together (cross-union), that rotation becomes impossible, so surgeons take specific care during fixation of combined radius-ulna shaft fractures to prevent it.",
-      "sourceBook": "BD Chaurasia's Human Anatomy — Upper Limb",
-      "sourceChapter": "Bones of the Upper Limb — Clinical Anatomy",
+      "explanation": "MS diagnosis requires evidence of damage in at least two separate areas of the CNS (dissemination in space) occurring at two separate points in time at least 1 month apart (dissemination in time), plus exclusion of other possible diagnoses — as reflected in the revised McDonald Criteria.",
+      "sourceBook": "O'Sullivan, Physical Rehabilitation",
+      "sourceChapter": "Chapter 16: Multiple Sclerosis — Diagnosis",
+      "sourcePage": null,
+      "subject": "Physiotherapy in Neurosciences"
+    },
+    {
+      "id": 10,
+      "topic": "Multiple Sclerosis",
+      "subtopic": "Rehabilitation Framework",
+      "difficulty": "Hard",
+      "question": "In the rehabilitation framework for MS, which category of impairment is described as generally NOT responsive to intervention, in contrast to indirect impairments caused by inactivity/disuse (which CAN be modified)?",
+      "options": {
+        "A": "Direct CNS impairments (from the disease process itself)",
+        "B": "Decreased muscle endurance from disuse",
+        "C": "Osteoporosis from inactivity",
+        "D": "Cardiovascular deconditioning"
+      },
+      "correctAnswer": "A",
+      "explanation": "Direct CNS impairments caused by the MS disease process itself are not responsive to rehabilitative intervention, whereas INDIRECT impairments from inactivity and disuse (decreased muscle endurance, osteoporosis, cardiovascular deconditioning) can be meaningfully improved — for example, strength training can improve balance and gait despite the underlying CNS damage remaining unchanged.",
+      "sourceBook": "O'Sullivan, Physical Rehabilitation",
+      "sourceChapter": "Chapter 16: Multiple Sclerosis — Framework for Rehabilitation",
+      "sourcePage": null,
+      "subject": "Physiotherapy in Neurosciences"
+    },
+    {
+      "id": 11,
+      "topic": "Normal Puerperium",
+      "subtopic": "Contraception in Lactation",
+      "difficulty": "Hard",
+      "question": "Exclusive breastfeeding provides approximately what level of contraceptive protection for the first 6 months postpartum?",
+      "options": {
+        "A": "About 20%",
+        "B": "About 50%",
+        "C": "About 98%",
+        "D": "0% — breastfeeding provides no contraceptive effect"
+      },
+      "correctAnswer": "C",
+      "explanation": "In a woman who is exclusively breastfeeding, lactational amenorrhoea provides approximately 98% contraceptive protection for up to 6 months postpartum — a recognised natural method of contraception, though ovulation can occasionally precede the return of menstruation.",
+      "sourceBook": "Dutta's Textbook of Obstetrics",
+      "sourceChapter": "Normal Puerperium — Menstruation and Ovulation",
+      "sourcePage": null,
+      "subject": "OBGY"
+    },
+    {
+      "id": 12,
+      "topic": "Lower Limb",
+      "subtopic": "Iliotibial Tract Function",
+      "difficulty": "Hard",
+      "question": "Functionally, the iliotibial tract's main role during standing with slightly flexed knees (e.g. leaning forward) is to:",
+      "options": {
+        "A": "Provide the main support of the knee against gravity, stabilizing it in extension and partial flexion",
+        "B": "Flex the knee actively against resistance",
+        "C": "Provide sensation to the anterior thigh only",
+        "D": "Have no functional role in standing or walking"
+      },
+      "correctAnswer": "A",
+      "explanation": "The iliotibial tract stabilizes the knee in both extension and partial flexion, and is used constantly during walking and running. When leaning forward with slightly flexed knees, it becomes the main support of the knee against gravity.",
+      "sourceBook": "BD Chaurasia's Human Anatomy — Lower Limb",
+      "sourceChapter": "Front of Thigh — Iliotibial Tract",
       "sourcePage": null,
       "subject": "Anatomy"
     },
     {
-      "id": 18,
-      "topic": "Resistance Exercise",
-      "subtopic": "Force-Velocity Relationship",
-      "difficulty": "Hard",
-      "question": "During a maximum-effort CONCENTRIC muscle contraction, what happens to the force a muscle can generate as the velocity of shortening increases?",
-      "options": {
-        "A": "Force increases continuously with velocity",
-        "B": "Force decreases as the velocity of muscle shortening increases",
-        "C": "Force remains completely constant regardless of velocity",
-        "D": "Force becomes unmeasurable at any velocity above zero"
-      },
-      "correctAnswer": "B",
-      "explanation": "For a maximal concentric contraction, force output decreases as the velocity of muscle shortening increases — the muscle has less time to develop peak tension at higher shortening velocities. This is opposite to the pattern often seen with eccentric contractions, where force initially rises with velocity before leveling off.",
-      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
-      "sourceChapter": "Chapter 6: Resistance Exercise — Force-Velocity Relationship",
-      "sourcePage": null,
-      "subject": "Kinesio Therapeutics"
-    },
-    {
-      "id": 19,
+      "id": 13,
       "topic": "Cardiopulmonary Assessment",
-      "subtopic": "Peripheral Oedema",
+      "subtopic": "Chest Pain",
       "difficulty": "Hard",
-      "question": "Peripheral oedema in a respiratory patient most commonly suggests which underlying process?",
+      "question": "How is musculoskeletal (chest wall) pain typically distinguished from pleuritic pain on physical examination?",
       "options": {
-        "A": "Right heart failure, potentially due to cor pulmonale (right ventricular failure secondary to hypoxic pulmonary vasoconstriction)",
-        "B": "Left ventricular failure exclusively",
-        "C": "Normal ageing with no pathological significance",
-        "D": "Acute asthma exacerbation"
+        "A": "Musculoskeletal pain is reproduced by palpation, while pleuritic pain is not",
+        "B": "Both are always identical and cannot be distinguished clinically",
+        "C": "Pleuritic pain is always reproduced by palpation, musculoskeletal pain never is",
+        "D": "Musculoskeletal pain never worsens with movement"
       },
       "correctAnswer": "A",
-      "explanation": "Peripheral oedema in a respiratory patient suggests right heart failure, which may result from cor pulmonale — right ventricular failure secondary to hypoxic pulmonary vasoconstriction from underlying chronic lung disease. It can also occur from salt/water retention with high-dose corticosteroid use.",
+      "explanation": "Musculoskeletal (chest wall) pain is usually well localized and its reproduction on palpation is a key distinguishing clinical feature — pleuritic pain, by contrast, is not reproduced by palpation.",
       "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
-      "sourceChapter": "Assessment — Other Symptoms",
+      "sourceChapter": "Assessment — Chest Pain",
       "sourcePage": null,
       "subject": "Physiotherapy in General Medical & Surgical Condition"
     },
     {
-      "id": 20,
+      "id": 14,
+      "topic": "Phobic Disorders",
+      "subtopic": "Behavioural Theory",
+      "difficulty": "Hard",
+      "question": "John Watson's famous 1920 'Little Albert' experiment is cited in psychiatry textbooks as historical evidence for which theory of phobia causation?",
+      "options": {
+        "A": "Psychodynamic theory (displacement)",
+        "B": "Behavioural theory (classical conditioning)",
+        "C": "Biological/genetic theory",
+        "D": "Biochemical serotonin theory"
+      },
+      "correctAnswer": "B",
+      "explanation": "Watson experimentally produced a phobia of white objects in an infant ('Little Albert') by repeatedly pairing a neutral white object with a loud, frightening noise — a classic demonstration of classical conditioning supporting the behavioural theory that phobias are learned, conditioned fear responses.",
+      "sourceBook": "Ahuja, A Short Textbook of Psychiatry",
+      "sourceChapter": "Neurotic, Stress-related and Somatoform Disorders — Phobic Disorder, Aetiology",
+      "sourcePage": null,
+      "subject": "Psychiatry"
+    },
+    {
+      "id": 15,
+      "topic": "Cell Injury and Necrosis",
+      "subtopic": "Types of Necrosis",
+      "difficulty": "Hard",
+      "question": "The hallmark microscopic feature of coagulative necrosis is:",
+      "options": {
+        "A": "Complete liquefaction with no recognisable cell outlines",
+        "B": "Preservation of the basic outline of the cell ('tombstones') even though cytoplasmic and nuclear detail is lost",
+        "C": "Cheese-like, structureless material with surrounding granulomatous inflammation",
+        "D": "Formation of calcium soaps from adipocyte breakdown"
+      },
+      "correctAnswer": "B",
+      "explanation": "In coagulative necrosis, cells are converted into 'tombstones' — their outline and cell type remain recognisable even though the cytoplasmic and nuclear details are lost; unlike liquefactive necrosis, cell digestion and liquefaction do not occur.",
+      "sourceBook": "Harsh Mohan, Textbook of Pathology",
+      "sourceChapter": "Cell Injury, Cellular Adaptations and Cellular Ageing — Coagulative Necrosis",
+      "sourcePage": null,
+      "subject": "Pathology & Microbiology"
+    },
+    {
+      "id": 16,
+      "topic": "Knee Assessment",
+      "subtopic": "External Rotation Recurvatum Test",
+      "difficulty": "Hard",
+      "question": "The External Rotation Recurvatum Test, in which the examiner lifts both of the patient's big toes off the table and observes for relative hyperextension and lateral tibial rotation on the affected side, is a test for:",
+      "options": {
+        "A": "Posterolateral rotary instability in extension",
+        "B": "Meniscal tear",
+        "C": "Patellofemoral pain syndrome",
+        "D": "Iliotibial band tightness"
+      },
+      "correctAnswer": "A",
+      "explanation": "The External Rotation Recurvatum Test assesses for posterolateral rotary instability in extension — a positive test shows the affected knee falling into relative hyperextension (genu varum appearance) with lateral tibial rotation due to gravity, when both legs are lifted by the toes.",
+      "sourceBook": "Magee, Orthopedic Physical Assessment",
+      "sourceChapter": "Chapter 12: Knee — External Rotation Recurvatum Test",
+      "sourcePage": null,
+      "subject": "Physiotherapy in Musculoskeletal Condition"
+    },
+    {
+      "id": 17,
       "topic": "Epidemiology",
       "subtopic": "Variate and Circumstance",
       "difficulty": "Hard",
@@ -390,6 +333,63 @@
       "sourceChapter": "Principles of Epidemiology and Epidemiologic Methods — Basic Measurements in Epidemiology",
       "sourcePage": "60",
       "subject": "Physiotherapy in Community Health"
+    },
+    {
+      "id": 18,
+      "topic": "Knee Assessment",
+      "subtopic": "Quadriceps Active Test",
+      "difficulty": "Hard",
+      "question": "In arthrometer testing, the 'quadriceps active position' refers to the knee angle at which:",
+      "options": {
+        "A": "The tibia shows no forward movement when the quadriceps contracts, typically around 70° of flexion",
+        "B": "The knee is fully extended at 0°",
+        "C": "The patient is asked to relax completely with no muscle contraction",
+        "D": "The hamstrings are maximally contracted instead of the quadriceps"
+      },
+      "correctAnswer": "A",
+      "explanation": "The quadriceps neutral (active) angle is the knee flexion angle — typically around 70° — at which an isolated quadriceps contraction produces no anterior tibial translation in a normal knee; this position is used as a reference when testing the injured knee for abnormal anterior displacement (suggestive of PCL injury).",
+      "sourceBook": "Magee, Orthopedic Physical Assessment",
+      "sourceChapter": "Chapter 12: Knee — Quadriceps Neutral Test",
+      "sourcePage": null,
+      "subject": "Physiotherapy in Musculoskeletal Condition"
+    },
+    {
+      "id": 19,
+      "topic": "Sleep Disorders",
+      "subtopic": "Kleine-Levin Syndrome",
+      "difficulty": "Hard",
+      "question": "Kleine-Levin syndrome, a rare recurrent hypersomnia, classically also includes which additional feature?",
+      "options": {
+        "A": "Hyperphagia (voracious appetite)",
+        "B": "Complete loss of appetite",
+        "C": "Permanent memory loss",
+        "D": "Total insomnia between episodes"
+      },
+      "correctAnswer": "A",
+      "explanation": "Kleine-Levin syndrome is classically characterised by recurrent hypersomnia (always present) along with hyperphagia (usually present, a voracious appetite), and sometimes hypersexuality — predominantly affecting males with onset in the second decade of life.",
+      "sourceBook": "Ahuja, A Short Textbook of Psychiatry",
+      "sourceChapter": "Sleep Disorders — Kleine-Levin Syndrome",
+      "sourcePage": null,
+      "subject": "Psychiatry"
+    },
+    {
+      "id": 20,
+      "topic": "Stretching",
+      "subtopic": "Contracture",
+      "difficulty": "Hard",
+      "question": "A 'pseudomyostatic' (apparent) contracture, as distinguished from a true myostatic contracture, is primarily caused by:",
+      "options": {
+        "A": "An actual reduction in the number of sarcomeres arranged in series within the muscle",
+        "B": "Hypertonicity such as spasticity or rigidity following a CNS lesion, which can be temporarily reduced with neuromuscular inhibition techniques",
+        "C": "Intra-articular adhesions and joint effusion",
+        "D": "Replacement of normal muscle tissue with fibrotic scar tissue"
+      },
+      "correctAnswer": "B",
+      "explanation": "Unlike a true myostatic contracture (adaptive shortening of the muscle-tendon unit itself with no specific muscle pathology), a pseudomyostatic contracture results from ongoing hypertonicity, muscle spasm, or pain — the muscle only appears shortened, and full passive elongation becomes possible again once inhibition techniques temporarily reduce that muscle tension.",
+      "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+      "sourceChapter": "Chapter 4: Stretching for Impaired Mobility — Types of Contracture",
+      "sourcePage": null,
+      "subject": "Fundamentals of Exercise Therapy"
     }
   ]
 }
