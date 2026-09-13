@@ -1,0 +1,183 @@
+{
+  "subject": "Fundamentals of Electro Therapy",
+  "questions": [
+    {
+      "id": "electro-1",
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Impulse Duration Classification",
+      "difficulty": "Medium",
+      "question": "Impulses with a duration of less than 10 ms, used for stimulating normal (innervated) muscle, are classified as having:",
+      "options": { "A": "A long duration, termed interrupted direct current", "B": "A short duration, of the faradic type", "C": "No classification exists for pulse duration", "D": "A duration only used for denervated muscle" },
+      "correctAnswer": "B",
+      "explanation": "Impulses of less than 10 ms duration are classed as short duration and are of the faradic type, used to stimulate normal innervated muscle via its motor nerve, typically repeated at a high rate of 50-100 per second.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle",
+      "sourcePage": "40"
+    },
+    {
+      "id": "electro-2",
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Impulse Duration Classification",
+      "difficulty": "Medium",
+      "question": "Impulses with a duration of MORE than 10 ms, often termed interrupted (or modified) direct current, are specifically used to stimulate:",
+      "options": { "A": "Normal, innervated muscle via the motor nerve", "B": "Denervated muscle, where the muscle fibres must be stimulated directly (no functioning motor nerve)", "C": "Cardiac muscle exclusively", "D": "Smooth muscle only" },
+      "correctAnswer": "B",
+      "explanation": "Long-duration impulses (>10 ms), termed interrupted or modified direct current, are used for denervated muscles — since there is no functioning motor nerve, the muscle fibres must be stimulated directly, and these impulses are repeated far less frequently than faradic-type currents (e.g. a 100 ms impulse might be repeated only about 30 times per minute).",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle",
+      "sourcePage": "40"
+    },
+    {
+      "id": "electro-3",
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Faradic-Type Current",
+      "difficulty": "Easy",
+      "question": "A faradic-type current is best defined as:",
+      "options": {
+        "A": "A continuous, unvarying direct current",
+        "B": "A short-duration interrupted direct current with a pulse duration of 0.1-1 ms and a frequency of 50-100 Hz",
+        "C": "A current only used for denervated muscle",
+        "D": "A current with pulse durations always exceeding 100 ms"
+      },
+      "correctAnswer": "B",
+      "explanation": "A faradic-type current is a short-duration interrupted direct current with a pulse duration of 0.1-1 ms and a frequency of 50-100 Hz — modern electronic stimulators reproduce the same physiological effects as the original faradic coil, just via a different circuit mechanism.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Faradic-Type Current",
+      "sourcePage": "40"
+    },
+    {
+      "id": "electro-4",
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Modified (Surged) Faradic Currents",
+      "difficulty": "Medium",
+      "question": "Faradic-type currents are typically 'surged' for treatment purposes. What is the purpose of surging the current?",
+      "options": {
+        "A": "To reduce the total treatment time",
+        "B": "To produce a near-normal tetanic-like contraction and relaxation of the muscle, by gradually increasing then decreasing the intensity of successive impulses",
+        "C": "To eliminate the need for any electrodes",
+        "D": "To convert the current into direct current permanently"
+      },
+      "correctAnswer": "B",
+      "explanation": "Surging gradually increases the intensity of successive impulses to a peak, then lets it fall (suddenly or gradually), mimicking a more natural, near-normal tetanic muscle contraction and relaxation cycle rather than an abrupt on/off stimulus.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Modified Faradic Currents",
+      "sourcePage": "41"
+    },
+    {
+      "id": "electro-5",
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Nerve Stimulation Mechanism",
+      "difficulty": "Hard",
+      "question": "When an electrical current stimulates a nerve fibre, the surface of the plasma membrane nearer the cathode becomes:",
+      "options": {
+        "A": "More positive, reducing excitability",
+        "B": "More negative relative to the opposite surface, which can reduce the resting potential difference across the membrane on the cathode side and initiate an impulse if it falls enough for sodium permeability to increase",
+        "C": "Completely unaffected by the current",
+        "D": "Permanently depolarised with no possibility of returning to rest"
+      },
+      "correctAnswer": "B",
+      "explanation": "The membrane surface nearer the cathode becomes more negative. On the side of the nerve nearer the cathode, this additional charge is of opposite polarity to the resting membrane potential, reducing the potential difference (PD) across it — if the PD falls enough for the membrane to become permeable to sodium ions, an impulse is initiated.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Mechanism of Nerve Stimulation",
+      "sourcePage": "44"
+    },
+    {
+      "id": "electro-6",
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Cathode vs Anode",
+      "difficulty": "Hard",
+      "question": "For a RISING (increasing) current applied over a superficial nerve, which electrode is more effective at initiating a nerve impulse, and why is the active electrode typically connected to it?",
+      "options": {
+        "A": "The anode, because it requires less current overall",
+        "B": "The cathode, because it produces contraction of innervated muscle with less current than is required at the anode",
+        "C": "Neither electrode has any different effect",
+        "D": "The anode always requires less current than the cathode"
+      },
+      "correctAnswer": "B",
+      "explanation": "For a rising current, the cathode is more effective at initiating a nerve impulse than the anode. This is why the active electrode is conventionally connected to the cathode — it produces contraction of innervated muscle using less current than would be needed if the anode were used as the active electrode.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Mechanism of Nerve Stimulation",
+      "sourcePage": "45"
+    },
+    {
+      "id": "electro-7",
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Accommodation",
+      "difficulty": "Hard",
+      "question": "'Accommodation' in nerve physiology refers to the phenomenon whereby:",
+      "options": {
+        "A": "A nerve becomes permanently unresponsive after any stimulation",
+        "B": "The nerve adapts to a constant current over time, so that an unvarying (unchanging) current becomes ineffective at initiating an impulse",
+        "C": "Muscle fibres physically move position to avoid the electrode",
+        "D": "Only denervated muscle can show accommodation"
+      },
+      "correctAnswer": "B",
+      "explanation": "Accommodation is the nerve's adaptation to a constant, unvarying current flow through a mechanism not fully understood — as a result, a current that does not change is not effective at initiating a nerve impulse, which is why intermittent or varying currents are needed for electrical stimulation.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Accommodation",
+      "sourcePage": "45"
+    },
+    {
+      "id": "electro-8",
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Accommodation",
+      "difficulty": "Hard",
+      "question": "Because of accommodation, which type of current change is MORE effective at initiating a nerve impulse: a sudden change, or a gradual one?",
+      "options": { "A": "A sudden change in current is more effective than a gradual one", "B": "A gradual change is always more effective", "C": "Both are exactly equally effective in all cases", "D": "Neither a sudden nor gradual change can ever initiate an impulse" },
+      "correctAnswer": "A",
+      "explanation": "Because the nerve accommodates (adapts) to slowly changing conditions, a current that rises or falls suddenly is more effective at initiating an impulse than one that changes gradually, since gradual change gives the nerve time to accommodate before the threshold is reached.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Accommodation",
+      "sourcePage": "45"
+    },
+    {
+      "id": "electro-9",
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Rise vs Fall in Current",
+      "difficulty": "Hard",
+      "question": "While a rising current initiates an impulse most effectively at the cathode, a FALL in current (when it occurs) is more effective at initiating an impulse at which electrode?",
+      "options": { "A": "The cathode", "B": "The anode", "C": "Neither electrode is affected by a falling current", "D": "Both electrodes equally" },
+      "correctAnswer": "B",
+      "explanation": "A fall in current is less effective overall at initiating an impulse than a rise, but when it does have an effect, it is the anode side of the nerve that is affected — so the anode produces greater stimulation than the cathode specifically in response to a falling current, the reverse of the pattern seen with a rising current.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Accommodation",
+      "sourcePage": "45"
+    },
+    {
+      "id": "electro-10",
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Practical Application",
+      "difficulty": "Medium",
+      "question": "In a practical setup for stimulating the quadriceps with a faradic-type current, where is the indifferent (larger) electrode typically placed, per Clayton's described technique?",
+      "options": {
+        "A": "Over the femoral nerve in the femoral triangle",
+        "B": "Directly over the motor points of the quadriceps only, with no separate indifferent electrode",
+        "C": "On the opposite limb entirely",
+        "D": "Over the lumbar spine"
+      },
+      "correctAnswer": "A",
+      "explanation": "In the classic technique for faradic stimulation of the quadriceps, one electrode and pad is placed over the femoral nerve in the femoral triangle and secured with a sandbag or bandage, while the other (active) electrode pad is placed across the motor points of the quadriceps.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Stimulation of Muscle Groups — Quadriceps",
+      "sourcePage": "60"
+    },
+    {
+      "id": "electro-11",
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Practical Application",
+      "difficulty": "Easy",
+      "question": "When beginning faradic stimulation of a muscle group, what is the recommended approach to intensity?",
+      "options": {
+        "A": "Start immediately at maximal tolerable intensity",
+        "B": "Give several gentle contractions first to allow the patient to become accustomed to the current, then gradually increase intensity",
+        "C": "Intensity should never be increased throughout the treatment",
+        "D": "Intensity is irrelevant to the treatment outcome"
+      },
+      "correctAnswer": "B",
+      "explanation": "The recommended approach is to give the patient several gentle contractions first to allow them to become accustomed to the current, then gradually increase the intensity until a strong contraction is achieved — not starting at a high, potentially uncomfortable intensity immediately.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Stimulation of Muscle Groups — Quadriceps",
+      "sourcePage": "60"
+    }
+  ]
+}
