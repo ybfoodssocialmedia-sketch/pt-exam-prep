@@ -15,6 +15,13 @@
 - Scanned, no text layer — render page to PNG via pymupdf then read visually (slow, page-by-page): Clayton Electrotherapy (8th/9th ed), Park's PSM.
   - Render command: `"C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\python.exe" "D:\Claude\scratch_ocr\render_page.py" "<pdf path>" <page_num> "<out.png>" 200`
 
+## Status as of this checkpoint (2026-09-15, session resumed after usage-limit reset)
+
+- **211 real, book-sourced bank questions** across 18 subjects (see table below for per-subject counts).
+- Composer run: **10 of 60 target Practice Sets are live** (2 Easy, 4 Medium, 4 Hard), all fully disjoint (0% overlap), verified working in-browser.
+- Remaining: ~50 more Practice Sets need roughly 800-1000 more bank questions (at current ~1:1 pace of question:paper-slot with disjoint composition). This is a multi-session effort — continuing to add batches per subject and re-running `compose_papers.py` periodically to publish more sets as the bank grows.
+- The flagship real 100-question weighted Mock Exam (matching actual PGP-CET topic weightage) has NOT been started yet — next priority once a further round of subject batches lands, since several topics (Anatomy 4, Physiology 4, Biochemistry 2, etc.) already have enough bank material to draw their exact real-weightage share.
+
 ## Progress tracker (update after every batch)
 
 | Subject | Bank file | Easy | Medium | Hard | Notes |

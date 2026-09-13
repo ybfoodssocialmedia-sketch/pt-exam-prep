@@ -178,6 +178,73 @@
       "sourceBook": "Clayton's Electrotherapy",
       "sourceChapter": "Stimulation of Muscle Groups — Quadriceps",
       "sourcePage": "60"
+    },
+    {
+      "id": "electro-12",
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Effects of Frequency of Stimulation",
+      "difficulty": "Medium",
+      "question": "As the frequency of repeated electrical stimuli to a motor nerve increases beyond about 20 Hz, what happens to the muscle's contraction pattern?",
+      "options": {
+        "A": "The muscle stops contracting altogether",
+        "B": "There is no longer time for complete relaxation between contractions, producing partial tetany",
+        "C": "Contraction strength decreases progressively to zero",
+        "D": "The muscle contracts only once regardless of how many stimuli are given"
+      },
+      "correctAnswer": "B",
+      "explanation": "At low stimulation frequencies (e.g. 1 per second), each stimulus produces an isolated twitch with complete relaxation between contractions. As frequency increases, the relaxation period shortens; beyond about 20 Hz there is no longer time for complete relaxation between contractions, producing partial tetany.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Effects of Frequency of Stimulation",
+      "sourcePage": "46"
+    },
+    {
+      "id": "electro-13",
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Effects of Frequency of Stimulation",
+      "difficulty": "Medium",
+      "question": "At what approximate stimulation frequency does a muscle contraction become fully tetanic, with no perceptible relaxation between successive contractions?",
+      "options": { "A": "Over 60 Hz", "B": "Under 1 Hz", "C": "Exactly 10 Hz", "D": "Frequency has no relationship to tetany" },
+      "correctAnswer": "A",
+      "explanation": "As stimulation frequency increases beyond 20 Hz, partial tetany develops; further increases progressively reduce relaxation until, at frequencies over 60 Hz, there is no perceptible relaxation between contractions and the response is fully tetanic.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Effects of Frequency of Stimulation",
+      "sourcePage": "46"
+    },
+    {
+      "id": "electro-14",
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Motor vs Sensory Nerve Stimulation",
+      "difficulty": "Hard",
+      "question": "When a MOTOR nerve is electrically stimulated, why does only the downward-travelling (efferent) impulse produce a muscle contraction, while the upward-travelling impulse has no motor effect?",
+      "options": {
+        "A": "The upward-travelling impulse is unable to pass the first synapse, since it is travelling in the wrong (antidromic) direction",
+        "B": "The upward-travelling impulse travels faster and arrives too early to have any effect",
+        "C": "Motor nerves cannot conduct impulses in more than one direction under any circumstance",
+        "D": "Only the upward-travelling impulse reaches the muscle"
+      },
+      "correctAnswer": "A",
+      "explanation": "Stimulating a nerve fibre initiates impulses travelling simultaneously in both directions from the stimulation point. For a motor nerve, the upward (antidromic) impulse cannot pass the first synapse it encounters travelling the 'wrong' way, so it has no effect, while the downward (orthodromic) impulse reaches the muscle normally and causes contraction.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Effects of Nerve Stimulation",
+      "sourcePage": "46"
+    },
+    {
+      "id": "electro-15",
+      "topic": "Electrical Stimulation of Nerve and Muscle",
+      "subtopic": "Motor Points",
+      "difficulty": "Medium",
+      "question": "When faradic-type current is applied directly over an innervated muscle, maximum contraction response is generally obtained by stimulating at the:",
+      "options": {
+        "A": "Tendon of insertion exclusively",
+        "B": "Motor point — where the main nerve enters the muscle (or, for deep muscles, where it emerges from under more superficial muscles)",
+        "C": "Muscle belly midpoint, regardless of nerve entry",
+        "D": "Origin of the muscle only"
+      },
+      "correctAnswer": "B",
+      "explanation": "The motor point — the point at which the main nerve supply enters the muscle, or for deeply placed muscles, the point where the nerve emerges from under overlying superficial muscles — is where maximum contraction response is typically obtained with electrical stimulation.",
+      "sourceBook": "Clayton's Electrotherapy",
+      "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Effects of Nerve Stimulation",
+      "sourcePage": "46"
     }
   ]
 }
