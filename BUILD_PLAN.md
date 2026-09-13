@@ -15,13 +15,14 @@
 - Scanned, no text layer — render page to PNG via pymupdf then read visually (slow, page-by-page): Clayton Electrotherapy (8th/9th ed), Park's PSM.
   - Render command: `"C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\python.exe" "D:\Claude\scratch_ocr\render_page.py" "<pdf path>" <page_num> "<out.png>" 200`
 
-## Status as of this checkpoint (2026-09-15, session resumed after usage-limit reset)
+## Status as of this checkpoint (2026-09-15, end of marathon session)
 
-- **226 real, book-sourced bank questions** across 18 subjects (see table below for per-subject counts).
+- **313 real, book-sourced bank questions** across 18 subjects (started this session at 226; +87 added this session alone via second/third-pass batches per subject).
 - ✅ **Flagship deliverable DONE**: `mock-exam-1.json` — the real 100-question Mock Exam matching official PGP-CET 2025 topic weightage exactly, assembled via `tools/compose_mock_exam.py`, verified end-to-end in-browser (Exam Mode start → 100 answers → submit → scoring → topic breakdown all correct).
-- Composer run: **10 of 60 target Practice Sets are live** (2 Easy, 4 Medium, 4 Hard), all fully disjoint (0% overlap), verified working in-browser.
-- Remaining: ~50 more Practice Sets need roughly 800-1000 more bank questions (at current ~1:1 pace of question:paper-slot with disjoint composition). This is a multi-session effort — continuing to add batches per subject and re-running `compose_papers.py` periodically to publish more sets as the bank grows.
-- Next: keep adding bank batches (second/third passes per subject, new chapters), re-run both composer scripts periodically. Once the bank has grown enough, consider a `mock-exam-2` with a different random seed for variety.
+- Composer run: **15 of 60 target Practice Sets are live** (2 Easy, 7 Medium, 6 Hard), all fully disjoint (0% overlap), verified working in-browser.
+- Easy pool is thin (52 questions → only 2 papers) relative to Medium/Hard — most batches this session skewed toward Medium/Hard difficulty. Next session should prioritize Easy-tagged questions to balance this out.
+- Remaining: ~45 more Practice Sets need roughly 500-700 more bank questions to reach a similar disjoint-composition rate. Continuing to add batches per subject and re-running `compose_papers.py` periodically to publish more sets as the bank grows.
+- Next: keep adding bank batches (second/third passes per subject, new chapters — many subjects still have untapped chapters in their source books), re-run both composer scripts periodically, and bias new content toward Easy difficulty to balance the tiers. Once the bank has grown enough, consider a `mock-exam-2` with a different random seed for variety.
 
 ## Progress tracker (update after every batch)
 
