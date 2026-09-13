@@ -202,6 +202,114 @@
       "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
       "sourceChapter": "Assessment — Other Symptoms",
       "sourcePage": null
+    },
+    {
+      "id": "ptgen-15",
+      "topic": "Lung Function Testing",
+      "subtopic": "Spirometry",
+      "difficulty": "Medium",
+      "question": "An 'obstructive' spirometry pattern is characterised by:",
+      "options": {
+        "A": "Reduction in FEV1 with relative preservation of FVC (forced vital capacity)",
+        "B": "Simultaneous reduction of both FEV1 and FVC with an increased FEV1/FVC ratio",
+        "C": "No change in either FEV1 or FVC",
+        "D": "An increase in both FEV1 and FVC"
+      },
+      "correctAnswer": "A",
+      "explanation": "An obstructive pattern shows a reduction in FEV1 (forced expiratory volume in 1 second) with relative preservation of FVC, lowering the FEV1/FVC ratio — this indicates airway obstruction, graded by severity (e.g. <75% mild, <60% moderate, <40% severe). A restrictive pattern, by contrast, shows simultaneous reduction of both FEV1 and FVC with an increased ratio.",
+      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+      "sourceChapter": "Cardiopulmonary Function Testing — Airway Function",
+      "sourcePage": null
+    },
+    {
+      "id": "ptgen-16",
+      "topic": "Lung Function Testing",
+      "subtopic": "Restrictive Pattern",
+      "difficulty": "Medium",
+      "question": "A 'restrictive' spirometry pattern, usually associated with reduced lung volume, is characterised by:",
+      "options": {
+        "A": "Simultaneous reduction of both FEV1 and FVC, with an INCREASED FEV1/FVC ratio",
+        "B": "Reduction in FEV1 only, with FVC completely unaffected",
+        "C": "No change in spirometry values at all",
+        "D": "An increased FVC with a normal FEV1"
+      },
+      "correctAnswer": "A",
+      "explanation": "A restrictive pattern shows simultaneous reduction of both FEV1 and FVC together, with an increased FEV1/FVC ratio (since the lungs are small and empty quickly) — distinct from the obstructive pattern where FEV1 drops disproportionately more than FVC.",
+      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+      "sourceChapter": "Cardiopulmonary Function Testing — Airway Function",
+      "sourcePage": null
+    },
+    {
+      "id": "ptgen-17",
+      "topic": "Thoracic Imaging",
+      "subtopic": "Cardiac Failure",
+      "difficulty": "Hard",
+      "question": "In an ERECT chest radiograph, the first and most important radiographic sign of elevated left ventricular pressure (early left ventricular failure) is:",
+      "options": {
+        "A": "Upper lobe blood diversion (shunting of blood to the upper zones)",
+        "B": "A completely normal-appearing chest X-ray in all cases",
+        "C": "Immediate cavitation of the lung fields",
+        "D": "Loss of the diaphragm outline"
+      },
+      "correctAnswer": "A",
+      "explanation": "As left atrial pressure rises, blood is shunted to the upper zones — upper lobe blood diversion — which is the first and most important radiographic sign of elevated left ventricular pressure on an erect film. This sign cannot be reliably assessed on a supine radiograph due to redistribution of blood flow in that position.",
+      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+      "sourceChapter": "Thoracic Imaging — Cardiac Failure",
+      "sourcePage": null
+    },
+    {
+      "id": "ptgen-18",
+      "topic": "Thoracic Imaging",
+      "subtopic": "Pulmonary Embolism",
+      "difficulty": "Hard",
+      "question": "In a patient with acute respiratory distress and suspected pulmonary embolism, what is the significance of a completely NORMAL chest radiograph?",
+      "options": {
+        "A": "It definitively excludes pulmonary embolism",
+        "B": "A normal radiograph does NOT exclude a major pulmonary embolus — in fact, a normal film in a patient with acute respiratory distress is actually suggestive of the diagnosis",
+        "C": "It means the patient definitely has pneumonia instead",
+        "D": "It has no diagnostic relevance whatsoever"
+      },
+      "correctAnswer": "B",
+      "explanation": "A normal chest radiograph does NOT exclude a major pulmonary embolus. In fact, in a patient presenting with acute respiratory distress, a normal-appearing radiograph is actually suggestive of pulmonary embolism as the underlying diagnosis, since conventional radiographic findings in PE are nonspecific (or absent).",
+      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+      "sourceChapter": "Thoracic Imaging — Pulmonary Embolism",
+      "sourcePage": null
+    },
+    {
+      "id": "ptgen-19",
+      "topic": "Thoracic Imaging",
+      "subtopic": "Emphysema",
+      "difficulty": "Hard",
+      "question": "On a chest radiograph, emphysema characteristically produces overinflation of the lungs, flattening of the diaphragm, and:",
+      "options": {
+        "A": "An enlarged, apparently big heart with an increased cardiothoracic ratio",
+        "B": "An apparently SMALL heart with a DECREASED cardiothoracic ratio, due to diaphragmatic flattening",
+        "C": "Complete absence of any pulmonary vessels",
+        "D": "No change to the appearance of the diaphragm"
+      },
+      "correctAnswer": "B",
+      "explanation": "In emphysema, overinflation of the lungs flattens the diaphragmatic dome, which results in an apparently small heart and a decreased cardiothoracic ratio on the chest radiograph — along with 'pruning' of the pulmonary vessels and, on lateral film, a large retrosternal translucency.",
+      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+      "sourceChapter": "Thoracic Imaging — Chronic Airflow Limitation, Emphysema",
+      "sourcePage": null
+    },
+    {
+      "id": "ptgen-20",
+      "topic": "Thoracic Imaging",
+      "subtopic": "ARDS",
+      "difficulty": "Hard",
+      "question": "In Adult Respiratory Distress Syndrome (ARDS), what is emphasised as more diagnostically useful than the radiographic appearance alone?",
+      "options": {
+        "A": "The timing of the radiographic changes relative to the insult and onset of symptoms",
+        "B": "The patient's blood type",
+        "C": "The exact colour of the consolidation on the film",
+        "D": "The time of day the X-ray was taken"
+      },
+      "correctAnswer": "A",
+      "explanation": "In ARDS, it is the TIMING of radiographic changes relative to the inciting insult and the onset of clinical symptoms — rather than the radiological appearance alone (which resembles pulmonary oedema) — that helps suggest the diagnosis, since the chest radiograph is often normal in the initial hours despite clinical distress.",
+      "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+      "sourceChapter": "Thoracic Imaging — Adult Respiratory Distress Syndrome",
+      "sourcePage": null
     }
   ]
 }
