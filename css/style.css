@@ -130,6 +130,14 @@ button { font-family: inherit; cursor: pointer; }
   display: flex;
   flex-direction: column;
   gap: 8px;
+  position: relative;
+  overflow: hidden;
+}
+.paper-card.solved { border-color: var(--correct); box-shadow: 0 0 0 1px var(--correct), var(--shadow); }
+.solved-ribbon {
+  position: absolute; top: 12px; right: -30px; transform: rotate(40deg);
+  background: var(--correct); color: #fff; font-size: 0.68rem; font-weight: 700;
+  padding: 3px 34px; box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 }
 .paper-card .tag-row { display: flex; gap: 6px; flex-wrap: wrap; }
 .tag {

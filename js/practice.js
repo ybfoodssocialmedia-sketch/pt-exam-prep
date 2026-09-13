@@ -94,9 +94,9 @@ const PracticeView = {
             <div class="card">
               <div class="section-title" style="margin:0 0 10px;font-size:0.95rem;">Practice Options</div>
               <div style="display:flex;flex-direction:column;gap:8px;">
-                <a class="btn btn-outline" href="#/practice/${this.paper.paperId}?filter=all">Practice All</a>
-                <a class="btn btn-outline" href="#/practice/${this.paper.paperId}?filter=incorrect">Incorrect Only</a>
-                <a class="btn btn-outline" href="#/practice/${this.paper.paperId}?filter=unattempted">Unattempted Only</a>
+                <a class="btn btn-outline" href="#/practice/${encodeURIComponent(this.paper.paperId)}?filter=all">Practice All</a>
+                <a class="btn btn-outline" href="#/practice/${encodeURIComponent(this.paper.paperId)}?filter=incorrect">Incorrect Only</a>
+                <a class="btn btn-outline" href="#/practice/${encodeURIComponent(this.paper.paperId)}?filter=unattempted">Unattempted Only</a>
               </div>
             </div>
             <div class="card">
@@ -182,7 +182,7 @@ const PracticeView = {
         this.persist();
         this.renderCurrent();
       } else {
-        App.navigate('#/practice-results/' + this.paper.paperId);
+        App.navigate('#/practice-results/' + encodeURIComponent(this.paper.paperId));
       }
     });
     document.querySelectorAll('.palette-cell').forEach(el => {
@@ -194,7 +194,7 @@ const PracticeView = {
     let paper;
     try { paper = await Papers.getPaper(paperId); } catch (e) { return App.renderError(e); }
     const state = Store.getPracticeState(paperId);
-    if (!state) { App.navigate('#/practice/' + paperId); return; }
+    if (!state) { App.navigate('#/practice/' + encodeURIComponent(paperId)); return; }
 
     const attemptedIds = Object.keys(state.answers).map(Number);
     const attemptedQuestions = paper.questions.filter(q => attemptedIds.includes(q.id));
@@ -238,9 +238,9 @@ const PracticeView = {
           </table>
         </div>
         <div class="action-row">
-          <a class="btn btn-outline" href="#/review/${paper.paperId}?source=practice">Review Answers</a>
-          <a class="btn btn-outline" href="#/practice/${paper.paperId}?filter=incorrect">Practice Incorrect Questions</a>
-          <a class="btn btn-primary" href="#/practice/${paper.paperId}?filter=all&reset=1">Practice Again</a>
+          <a class="btn btn-outline" href="#/review/${encodeURIComponent(paper.paperId)}?source=practice">Review Answers</a>
+          <a class="btn btn-outline" href="#/practice/${encodeURIComponent(paper.paperId)}?filter=incorrect">Practice Incorrect Questions</a>
+          <a class="btn btn-primary" href="#/practice/${encodeURIComponent(paper.paperId)}?filter=all&reset=1">Practice Again</a>
           <a class="btn btn-secondary" href="#/">Back to Dashboard</a>
         </div>
       </div>`;

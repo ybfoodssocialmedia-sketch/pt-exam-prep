@@ -21,7 +21,7 @@ const App = {
   parseHash() {
     const raw = window.location.hash.replace(/^#\/?/, '');
     const [pathPart, queryPart] = raw.split('?');
-    const parts = pathPart.split('/').filter(Boolean);
+    const parts = pathPart.split('/').filter(Boolean).map(p => decodeURIComponent(p));
     const query = {};
     if (queryPart) {
       queryPart.split('&').forEach(kv => {
@@ -38,6 +38,7 @@ const App = {
     try {
       if (parts.length === 0) return this.renderDashboard();
       if (parts[0] === 'papers') return this.renderPaperList(query.mode || 'practice');
+      if (parts[0] === 'practice-by-subject') return this.renderSubjectPicker();
       if (parts[0] === 'practice' && parts[1]) return PracticeView.render(parts[1], query);
       if (parts[0] === 'practice-results' && parts[1]) return PracticeView.renderResults(parts[1]);
       if (parts[0] === 'exam' && parts[1] === 'instructions' && parts[2]) return ExamView.renderInstructions(parts[2]);
@@ -128,7 +129,7 @@ const App = {
     </table></div>`;
   },
 
-  async renderPaperList(mode) {
+  async renderPaperList(mode, difficultyFilter) {
     let manifest = [];
     let loadError = null;
     try { manifest = await Papers.getManifest(); } catch (e) { loadError = e.message; }
@@ -139,21 +140,38 @@ const App = {
       return;
     }
 
+    const activeDiff = difficultyFilter || 'All';
+    const filtered = activeDiff === 'All' ? manifest : manifest.filter(p => (p.difficulty || 'Mixed') === activeDiff);
+    const diffOptions = ['All', 'Easy', 'Medium', 'Hard', 'Mixed'];
+
     this.root.innerHTML = `
       <div class="container">
         <h1>${mode === 'exam' ? '📝 Choose a paper for Exam Mode' : '📚 Choose a paper for Practice Mode'}</h1>
+        <div class="filter-row">
+          ${diffOptions.map(d => `<button class="filter-chip diff-filter-chip ${d === activeDiff ? 'active' : ''}" data-diff="${d}">${d}</button>`).join('')}
+        </div>
         <div class="paper-grid">
-          ${manifest.map(p => this.paperCard(p, mode, history)).join('')}
+          ${filtered.length ? filtered.map(p => this.paperCard(p, mode, history)).join('') : '<div class="card empty-state" style="grid-column:1/-1;"><p>No papers in this difficulty yet.</p></div>'}
         </div>
       </div>`;
+
+    document.querySelectorAll('.diff-filter-chip').forEach(btn => {
+      btn.addEventListener('click', () => this.renderPaperList(mode, btn.dataset.diff));
+    });
+  },
+
+  isPaperSolved(paperId, history) {
+    return history.some(h => h.paperId === paperId);
   },
 
   paperCard(p, mode, history) {
     const attempts = history.filter(h => h.paperId === p.id);
     const best = attempts.length ? Math.max(...attempts.map(a => a.percentage)) : null;
+    const solved = attempts.length > 0;
     const diffClass = 'difficulty-' + (p.difficulty || 'Mixed').toLowerCase();
     return `
-      <div class="paper-card">
+      <div class="paper-card${solved ? ' solved' : ''}">
+        ${solved ? '<div class="solved-ribbon">✓ Solved</div>' : ''}
         <div class="tag-row">
           <span class="tag subject">${Fmt.escapeHtml(p.subject)}</span>
           <span class="tag ${diffClass}">${Fmt.escapeHtml(p.difficulty || 'Mixed')}</span>
@@ -163,9 +181,49 @@ const App = {
         <p class="desc">${Fmt.escapeHtml(p.description || '')}</p>
         <div class="meta-row"><span>${p.questionCount ? p.questionCount + ' questions' : 'Question count shown after loading'}</span>${best !== null ? `<span class="prev-score">Best: ${Fmt.pct(best)}</span>` : ''}</div>
         <div class="actions">
-          <a class="btn btn-practice" href="#/practice/${p.id}">Start Practice</a>
-          <a class="btn btn-exam" href="#/exam/instructions/${p.id}">Start Exam</a>
+          <a class="btn btn-practice" href="#/practice/${encodeURIComponent(p.id)}">Start Practice</a>
+          <a class="btn btn-exam" href="#/exam/instructions/${encodeURIComponent(p.id)}">Start Exam</a>
         </div>
+      </div>`;
+  },
+
+  async renderSubjectPicker() {
+    this.root.innerHTML = `<div class="container"><p class="text-muted">Loading subjects…</p></div>`;
+    let summary = [];
+    let loadError = null;
+    try { summary = await Papers.getSubjectSummary(); } catch (e) { loadError = e.message; }
+    if (loadError) {
+      this.root.innerHTML = `<div class="container"><div class="card"><h2>Could not load subjects</h2><p class="text-muted">${Fmt.escapeHtml(loadError)}</p></div></div>`;
+      return;
+    }
+    if (summary.length === 0) {
+      this.root.innerHTML = `<div class="container"><h1>📚 Practice by Subject</h1><div class="card empty-state"><div class="big-icon">📭</div><p>No questions available yet.</p></div></div>`;
+      return;
+    }
+    this.root.innerHTML = `
+      <div class="container">
+        <h1>📚 Practice by Subject</h1>
+        <p class="text-muted" style="margin-top:-8px;">Pulls every available question for a subject across all papers — no fixed count, grows automatically as more content is added. Runs in the same Practice Mode you already know.</p>
+        <div class="paper-grid">
+          ${summary.map(s => this.subjectCard(s)).join('')}
+        </div>
+      </div>`;
+  },
+
+  subjectCard(s) {
+    const topicRows = s.topics.map(t => `
+      <div class="settings-row" style="padding:8px 0;">
+        <span>${Fmt.escapeHtml(t.topic)} <span class="text-muted">(${t.count})</span></span>
+        <a class="btn btn-outline" style="flex:none;padding:5px 12px;font-size:0.8rem;" href="#/practice/${encodeURIComponent(Papers.makeSubjectPoolId(s.subject, t.topic))}?reset=1">Practice</a>
+      </div>`).join('');
+    return `
+      <div class="paper-card">
+        <div class="tag-row"><span class="tag subject">${s.count} question${s.count === 1 ? '' : 's'} available</span></div>
+        <h3>${Fmt.escapeHtml(s.subject)}</h3>
+        <div class="actions">
+          <a class="btn btn-practice" href="#/practice/${encodeURIComponent(Papers.makeSubjectPoolId(s.subject))}?reset=1">Practice All ${Fmt.escapeHtml(s.subject)}</a>
+        </div>
+        ${s.topics.length > 1 ? `<details style="margin-top:6px;"><summary style="cursor:pointer;font-size:0.85rem;color:var(--text-muted);">By topic (${s.topics.length})</summary>${topicRows}</details>` : ''}
       </div>`;
   },
 

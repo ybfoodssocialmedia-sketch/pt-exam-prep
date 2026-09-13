@@ -52,6 +52,8 @@ const Store = {
 const Papers = {
   _manifestCache: null,
   _paperCache: {},
+  SUBJECT_POOL_PREFIX: 'subject:',
+  SUBJECT_TOPIC_SEP: '::',
 
   async getManifest() {
     if (this._manifestCache) return this._manifestCache;
@@ -62,8 +64,27 @@ const Papers = {
     return this._manifestCache;
   },
 
+  isSubjectPoolId(id) { return typeof id === 'string' && id.startsWith(this.SUBJECT_POOL_PREFIX); },
+
+  parseSubjectPoolId(id) {
+    const rest = id.slice(this.SUBJECT_POOL_PREFIX.length);
+    const sepIdx = rest.indexOf(this.SUBJECT_TOPIC_SEP);
+    if (sepIdx === -1) return { subject: rest, topic: null };
+    return { subject: rest.slice(0, sepIdx), topic: rest.slice(sepIdx + this.SUBJECT_TOPIC_SEP.length) };
+  },
+
+  makeSubjectPoolId(subject, topic) {
+    return this.SUBJECT_POOL_PREFIX + subject + (topic ? this.SUBJECT_TOPIC_SEP + topic : '');
+  },
+
   async getPaper(paperId) {
     if (this._paperCache[paperId]) return this._paperCache[paperId];
+    if (this.isSubjectPoolId(paperId)) {
+      const { subject, topic } = this.parseSubjectPoolId(paperId);
+      const pool = await this.buildSubjectPool(subject, topic);
+      this._paperCache[paperId] = pool;
+      return pool;
+    }
     const manifest = await this.getManifest();
     const meta = manifest.find(p => p.id === paperId);
     if (!meta) throw new Error('Paper "' + paperId + '" is not listed in manifest.json');
@@ -73,6 +94,75 @@ const Papers = {
     const validated = this._validateAndClean(data, meta);
     this._paperCache[paperId] = validated;
     return validated;
+  },
+
+  // Loads every real (non-throwaway-fixture) paper's full question set, for the
+  // subject-wise practice pool. sample-mixed-1 is fictional test data and is
+  // excluded via includeInSubjectPool:false in the manifest; everything else
+  // (including validation-batch-1, which is real book-sourced content) counts.
+  async getAllPoolablePapers() {
+    if (this._poolablePapersCache) return this._poolablePapersCache;
+    const manifest = await this.getManifest();
+    const eligible = manifest.filter(m => m.includeInSubjectPool !== false);
+    const papers = await Promise.all(eligible.map(m => this.getPaper(m.id).catch(err => {
+      console.warn('Skipping paper "' + m.id + '" while building subject pool:', err);
+      return null;
+    })));
+    this._poolablePapersCache = papers.filter(Boolean);
+    return this._poolablePapersCache;
+  },
+
+  // Returns [{ subject, count, topics: [{ topic, count }] }] across all poolable papers,
+  // sorted by subject name. Used to render the "Practice by Subject" picker.
+  async getSubjectSummary() {
+    const papers = await this.getAllPoolablePapers();
+    const bySubject = {};
+    papers.forEach(paper => {
+      paper.questions.forEach(q => {
+        const subj = q.subject || 'General';
+        if (!bySubject[subj]) bySubject[subj] = { subject: subj, count: 0, topicsMap: {} };
+        bySubject[subj].count++;
+        const top = q.topic || 'General';
+        bySubject[subj].topicsMap[top] = (bySubject[subj].topicsMap[top] || 0) + 1;
+      });
+    });
+    return Object.values(bySubject).map(s => ({
+      subject: s.subject,
+      count: s.count,
+      topics: Object.entries(s.topicsMap).map(([topic, count]) => ({ topic, count })).sort((a, b) => b.count - a.count)
+    })).sort((a, b) => a.subject.localeCompare(b.subject));
+  },
+
+  // Builds a synthetic "paper" pooling every question tagged with the given subject
+  // (and optionally topic) across all real papers, no matter which paper they live in.
+  // No cap on question count — it simply includes everything available right now.
+  async buildSubjectPool(subject, topic) {
+    const papers = await this.getAllPoolablePapers();
+    const pooled = [];
+    papers.forEach(paper => {
+      paper.questions.forEach(q => {
+        if (q.subject !== subject) return;
+        if (topic && q.topic !== topic) return;
+        pooled.push(Object.assign({}, q, { id: paper.paperId + this.SUBJECT_TOPIC_SEP + q.id, _sourcePaperId: paper.paperId, _sourcePaperName: paper.paperName }));
+      });
+    });
+    // Shuffle so repeated practice sessions on the same subject don't always run in the same order
+    for (let i = pooled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [pooled[i], pooled[j]] = [pooled[j], pooled[i]];
+    }
+    const label = topic ? (subject + ' — ' + topic) : subject;
+    return {
+      paperId: this.makeSubjectPoolId(subject, topic),
+      paperName: label + ' (Subject Practice)',
+      subject,
+      description: 'All available questions for ' + label + ', pooled across every paper. Grows automatically as more content is added.',
+      durationMinutes: 90,
+      scoring: { correct: 1, incorrect: 0, unanswered: 0, negativeMarkingEnabled: false },
+      questions: pooled,
+      dataIssues: [],
+      isSubjectPool: true
+    };
   },
 
   // Defensive cleanup so one malformed question can't break the whole paper (spec 3.12)
