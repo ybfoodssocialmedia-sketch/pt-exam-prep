@@ -185,6 +185,25 @@ def main():
     valid_uids = {q["_uid"] for q in questions}
 
     existing = load_existing_papers()
+    # Papers keep their question SELECTION and ORDER, but question text is refreshed from the
+    # bank so corrections made to the bank reach already-published papers.
+    by_uid = {q["_uid"]: q for q in questions}
+    for p in existing:
+        changed = False
+        for cq in p["questions"]:
+            src = by_uid.get(cq.get("bankRef"))
+            if not src:
+                continue
+            fresh = {k: v for k, v in src.items() if not k.startswith("_")}
+            fresh["id"] = cq["id"]
+            fresh["bankRef"] = cq["bankRef"]
+            if fresh != cq:
+                cq.clear()
+                cq.update(fresh)
+                changed = True
+        if changed:
+            with open(os.path.join(OUT_DIR, p["paperId"] + ".json"), "w", encoding="utf-8") as f:
+                json.dump(p, f, indent=1, ensure_ascii=False)
     used_count = {}
     for p in existing:
         for q in p["questions"]:
