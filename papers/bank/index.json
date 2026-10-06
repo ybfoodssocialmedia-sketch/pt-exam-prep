@@ -98,9 +98,10 @@
    "subject": "Fundamentals of Electro Therapy",
    "files": [
     "electrotherapy.json",
-    "electrotherapy3.json"
+    "electrotherapy3.json",
+    "electrotherapy4.json"
    ],
-   "count": 220,
+   "count": 294,
    "topics": [
     {
      "topic": "Basic Electricity",
@@ -108,34 +109,46 @@
     },
     {
      "topic": "Ultrasound",
-     "count": 24
+     "count": 32
+    },
+    {
+     "topic": "Ultraviolet Radiation",
+     "count": 25
     },
     {
      "topic": "Electrical Stimulation",
      "count": 20
     },
     {
-     "topic": "Ultraviolet Radiation",
+     "topic": "Shortwave Diathermy",
      "count": 19
+    },
+    {
+     "topic": "Electrodiagnosis",
+     "count": 17
     },
     {
      "topic": "Electrical Stimulation of Nerve and Muscle",
      "count": 15
     },
     {
-     "topic": "Shortwave Diathermy",
-     "count": 13
+     "topic": "Cryotherapy",
+     "count": 15
     },
     {
      "topic": "Superficial Heat",
      "count": 12
     },
     {
-     "topic": "Laser",
+     "topic": "Low Frequency Currents",
+     "count": 12
+    },
+    {
+     "topic": "Infrared Radiation",
      "count": 11
     },
     {
-     "topic": "Cryotherapy",
+     "topic": "Laser",
      "count": 11
     },
     {
@@ -147,23 +160,27 @@
      "count": 9
     },
     {
-     "topic": "Electrodiagnosis",
-     "count": 8
+     "topic": "Traction",
+     "count": 9
     },
     {
-     "topic": "Infrared Radiation",
+     "topic": "Basic Physics",
      "count": 8
-    },
-    {
-     "topic": "Interferential Therapy",
-     "count": 4
     },
     {
      "topic": "Microwave Diathermy",
-     "count": 4
+     "count": 7
     },
     {
-     "topic": "Traction",
+     "topic": "Hydrotherapy",
+     "count": 7
+    },
+    {
+     "topic": "Medium Frequency Currents",
+     "count": 6
+    },
+    {
+     "topic": "Interferential Therapy",
      "count": 4
     },
     {
@@ -172,10 +189,6 @@
     },
     {
      "topic": "Iontophoresis",
-     "count": 3
-    },
-    {
-     "topic": "Hydrotherapy",
      "count": 3
     },
     {
@@ -638,9 +651,10 @@
    "files": [
     "manual-muscle-testing.json",
     "physical-diagnosis.json",
-    "physical-diagnosis2.json"
+    "physical-diagnosis2.json",
+    "physical-diagnosis3.json"
    ],
-   "count": 163,
+   "count": 221,
    "topics": [
     {
      "topic": "Special Tests",
@@ -651,12 +665,12 @@
      "count": 32
     },
     {
-     "topic": "Neurological Examination",
-     "count": 23
+     "topic": "Manipulative Skills",
+     "count": 25
     },
     {
-     "topic": "Manipulative Skills",
-     "count": 20
+     "topic": "Neurological Examination",
+     "count": 23
     },
     {
      "topic": "Joint Assessment",
@@ -669,6 +683,26 @@
     {
      "topic": "Posture & Gait",
      "count": 12
+    },
+    {
+     "topic": "Spinal Tests",
+     "count": 12
+    },
+    {
+     "topic": "Lower Limb Tests",
+     "count": 12
+    },
+    {
+     "topic": "Systemic Examination",
+     "count": 11
+    },
+    {
+     "topic": "Assessment Process",
+     "count": 9
+    },
+    {
+     "topic": "Upper Limb Tests",
+     "count": 9
     }
    ]
   },
@@ -767,17 +801,26 @@
    "subject": "Physiotherapy in Community Health",
    "files": [
     "pt-community.json",
-    "pt-community2.json"
+    "pt-community2.json",
+    "pt-community3.json"
    ],
-   "count": 91,
+   "count": 159,
    "topics": [
     {
      "topic": "Epidemiology",
-     "count": 22
+     "count": 31
     },
     {
      "topic": "Biostatistics",
-     "count": 16
+     "count": 23
+    },
+    {
+     "topic": "Nutrition",
+     "count": 13
+    },
+    {
+     "topic": "Research Methodology",
+     "count": 12
     },
     {
      "topic": "Communicable Diseases",
@@ -788,7 +831,11 @@
      "count": 9
     },
     {
-     "topic": "Nutrition",
+     "topic": "Demography",
+     "count": 8
+    },
+    {
+     "topic": "Health Systems",
      "count": 8
     },
     {
@@ -800,6 +847,14 @@
      "count": 6
     },
     {
+     "topic": "Family Planning",
+     "count": 6
+    },
+    {
+     "topic": "Maternal & Child",
+     "count": 6
+    },
+    {
      "topic": "Maternal & Child Health",
      "count": 4
     },
@@ -808,7 +863,15 @@
      "count": 4
     },
     {
+     "topic": "Environment & Occupational",
+     "count": 4
+    },
+    {
      "topic": "Health Programmes",
+     "count": 3
+    },
+    {
+     "topic": "Disaster & Injury",
      "count": 3
     },
     {
@@ -822,9 +885,10 @@
    "files": [
     "pt-genmed.json",
     "pt-genmed2.json",
-    "pt-genmed3.json"
+    "pt-genmed3.json",
+    "pt-genmed4.json"
    ],
-   "count": 176,
+   "count": 237,
    "topics": [
     {
      "topic": "Special Populations",
@@ -855,12 +919,28 @@
      "count": 13
     },
     {
+     "topic": "Cardiopulmonary Physio",
+     "count": 12
+    },
+    {
      "topic": "Cardiac Assessment",
      "count": 11
     },
     {
      "topic": "Oxygen Therapy & Ventilation",
      "count": 10
+    },
+    {
+     "topic": "Clinical Emergencies",
+     "count": 10
+    },
+    {
+     "topic": "Special Medical Conditions",
+     "count": 9
+    },
+    {
+     "topic": "Cardiology Physio",
+     "count": 9
     },
     {
      "topic": "Surgical Physiotherapy",
@@ -887,8 +967,28 @@
      "count": 7
     },
     {
+     "topic": "Geriatric Physiotherapy",
+     "count": 5
+    },
+    {
+     "topic": "Women's Health",
+     "count": 5
+    },
+    {
      "topic": "Thoracic Imaging",
      "count": 4
+    },
+    {
+     "topic": "Pain Management",
+     "count": 4
+    },
+    {
+     "topic": "Oncology",
+     "count": 4
+    },
+    {
+     "topic": "Palliative Care",
+     "count": 3
     },
     {
      "topic": "Lung Function Testing",
@@ -900,9 +1000,10 @@
    "subject": "Physiotherapy in Musculoskeletal Condition",
    "files": [
     "pt-msk.json",
-    "pt-msk2.json"
+    "pt-msk2.json",
+    "pt-msk3.json"
    ],
-   "count": 184,
+   "count": 248,
    "topics": [
     {
      "topic": "Upper Limb Conditions",
@@ -910,6 +1011,10 @@
     },
     {
      "topic": "Knee Conditions",
+     "count": 18
+    },
+    {
+     "topic": "Soft Tissue Management",
      "count": 18
     },
     {
@@ -929,8 +1034,20 @@
      "count": 12
     },
     {
+     "topic": "Assessment & Outcome Measures",
+     "count": 12
+    },
+    {
      "topic": "Low Back Conditions",
      "count": 11
+    },
+    {
+     "topic": "Lower Limb Rehab",
+     "count": 11
+    },
+    {
+     "topic": "Upper Limb Rehab",
+     "count": 9
     },
     {
      "topic": "Spinal Conditions",
@@ -954,6 +1071,14 @@
     },
     {
      "topic": "Orthotics",
+     "count": 7
+    },
+    {
+     "topic": "Spinal Rehabilitation",
+     "count": 7
+    },
+    {
+     "topic": "Paediatric Orthopaedics",
      "count": 7
     },
     {
@@ -987,24 +1112,29 @@
    "files": [
     "pt-neuro.json",
     "pt-neuro2.json",
-    "pt-neuro3.json"
+    "pt-neuro3.json",
+    "pt-neuro4.json"
    ],
-   "count": 183,
+   "count": 246,
    "topics": [
     {
      "topic": "Stroke",
-     "count": 44
+     "count": 57
     },
     {
      "topic": "Spinal Cord Injury",
      "count": 23
     },
     {
+     "topic": "Peripheral Neuropathy",
+     "count": 21
+    },
+    {
      "topic": "Cerebral Palsy",
      "count": 20
     },
     {
-     "topic": "Peripheral Neuropathy",
+     "topic": "Multiple Sclerosis",
      "count": 16
     },
     {
@@ -1012,12 +1142,12 @@
      "count": 15
     },
     {
-     "topic": "Multiple Sclerosis",
-     "count": 13
+     "topic": "Parkinson's Disease",
+     "count": 14
     },
     {
-     "topic": "Parkinson's Disease",
-     "count": 11
+     "topic": "Neuroscience Basics",
+     "count": 13
     },
     {
      "topic": "Traumatic Brain Injury",
@@ -1028,8 +1158,20 @@
      "count": 8
     },
     {
+     "topic": "Cranial Nerves",
+     "count": 8
+    },
+    {
+     "topic": "Developmental",
+     "count": 7
+    },
+    {
      "topic": "Guillain-Barre Syndrome",
-     "count": 3
+     "count": 5
+    },
+    {
+     "topic": "Spinal Cord Disorders",
+     "count": 4
     },
     {
      "topic": "Muscular Dystrophy",
@@ -1041,6 +1183,10 @@
     },
     {
      "topic": "Dementia",
+     "count": 3
+    },
+    {
+     "topic": "Assessment",
      "count": 3
     },
     {
@@ -1057,6 +1203,10 @@
     },
     {
      "topic": "Neurogenic Pain",
+     "count": 2
+    },
+    {
+     "topic": "Poliomyelitis",
      "count": 2
     },
     {

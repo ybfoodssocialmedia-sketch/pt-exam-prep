@@ -1,0 +1,2016 @@
+{
+ "paperId": "hard-paper-8",
+ "paperName": "Hard Paper 8",
+ "subject": "Mixed (Real Weightage)",
+ "difficulty": "Hard",
+ "description": "100 questions following the real PGP-CET 2025 subject weightage. Mix: 0 easy / 24 medium / 76 hard. Every question cites its source.",
+ "durationMinutes": 90,
+ "scoring": {
+  "correct": 1,
+  "incorrect": 0,
+  "unanswered": 0,
+  "negativeMarkingEnabled": false
+ },
+ "questions": [
+  {
+   "id": 1,
+   "topic": "Rheumatology",
+   "subtopic": "Polymyalgia Rheumatica",
+   "difficulty": "Hard",
+   "question": "Polymyalgia rheumatica presents with:",
+   "options": {
+    "A": "Normal ESR",
+    "B": "Muscle wasting",
+    "C": "Proximal muscle pain and morning stiffness in patients over 50 with a high ESR",
+    "D": "Distal weakness"
+   },
+   "correctAnswer": "C",
+   "explanation": "Responds dramatically to low-dose prednisolone; may be associated with giant cell arteritis.",
+   "sourceBook": "Davidson's Principles and Practice of Medicine; Harrison's Principles of Internal Medicine (chapter-level reference)",
+   "sourceChapter": "Rheumatology",
+   "sourcePage": null,
+   "subject": "Medicine",
+   "bankRef": "medicine3.json::med3-46"
+  },
+  {
+   "id": 2,
+   "topic": "Special Medical Conditions",
+   "subtopic": "Scleroderma Hands",
+   "difficulty": "Hard",
+   "question": "In scleroderma hand management, the priority is to:",
+   "options": {
+    "A": "Immobilise",
+    "B": "Maintain finger and web space range and protect from cold",
+    "C": "Heavy resistance",
+    "D": "Apply ice"
+   },
+   "correctAnswer": "B",
+   "explanation": "Paraffin wax and active stretching help.",
+   "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems; ACSM Guidelines; Davidson's Principles and Practice of Medicine (chapter-level reference)",
+   "sourceChapter": "Special Medical Conditions",
+   "sourcePage": null,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "pt-genmed4.json::ptgen4-30"
+  },
+  {
+   "id": 3,
+   "topic": "Lower Limb Rehab",
+   "subtopic": "Weight Bearing Protocol Hip Fracture",
+   "difficulty": "Medium",
+   "question": "After internal fixation of a hip fracture the usual weight bearing instruction is:",
+   "options": {
+    "A": "Non-weight bearing for 12 weeks",
+    "B": "Toe touch for 6 weeks",
+    "C": "As tolerated unless the surgeon specifies otherwise",
+    "D": "Full weight bearing without aids is forbidden"
+   },
+   "correctAnswer": "C",
+   "explanation": "Early weight bearing reduces complications.",
+   "sourceBook": "Magee, Orthopedic Physical Assessment; Kisner & Colby, Therapeutic Exercise; Brukner & Khan, Clinical Sports Medicine; Maitland's Peripheral Manipulation (chapter-level reference)",
+   "sourceChapter": "Lower Limb Rehab",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "pt-msk3.json::ptmsk3-32"
+  },
+  {
+   "id": 4,
+   "topic": "Neuroscience Basics",
+   "subtopic": "Sensory Ataxia",
+   "difficulty": "Hard",
+   "question": "A sensory (posterior column) ataxic gait is characterised by:",
+   "options": {
+    "A": "Spasticity",
+    "B": "Improvement without vision",
+    "C": "Wide base due to cerebellar lesion",
+    "D": "Stamping with worsening on eye closure (positive Romberg)"
+   },
+   "correctAnswer": "D",
+   "explanation": "Seen in tabes dorsalis and B12 deficiency.",
+   "sourceBook": "O'Sullivan & Schmitz, Physical Rehabilitation; Shumway-Cook & Woollacott, Motor Control; Lindsay, Neurology and Neurosurgery Illustrated (chapter-level reference)",
+   "sourceChapter": "Neuroscience Basics",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "pt-neuro4.json::ptneuro4-9"
+  },
+  {
+   "id": 5,
+   "topic": "Haemodynamics",
+   "subtopic": "Thrombus vs Clot",
+   "difficulty": "Hard",
+   "question": "Lines of Zahn are characteristic of:",
+   "options": {
+    "A": "A post-mortem clot",
+    "B": "A fibrin clot in a test tube",
+    "C": "A thrombus formed in flowing blood",
+    "D": "An embolus"
+   },
+   "correctAnswer": "C",
+   "explanation": "They are alternating pale (platelets/fibrin) and dark (red cell) layers.",
+   "sourceBook": "Harsh Mohan, Textbook of Pathology; Ananthanarayan & Paniker, Textbook of Microbiology (chapter-level reference)",
+   "sourceChapter": "Haemodynamics",
+   "sourcePage": null,
+   "subject": "Pathology & Microbiology",
+   "bankRef": "pathology3.json::path3-14"
+  },
+  {
+   "id": 6,
+   "topic": "Cryotherapy",
+   "subtopic": "Cold Spasticity Duration",
+   "difficulty": "Hard",
+   "question": "The reduction in spasticity following cold application lasts about:",
+   "options": {
+    "A": "1 week",
+    "B": "1 day",
+    "C": "5 seconds",
+    "D": "30–60 minutes"
+   },
+   "correctAnswer": "D",
+   "explanation": "Used as a window for exercise.",
+   "sourceBook": "Clayton's Electrotherapy; Low & Reed, Electrotherapy Explained; Kitchen, Electrotherapy: Evidence-Based Practice (chapter-level reference; cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination, 2e)",
+   "sourceChapter": "Cryotherapy",
+   "sourcePage": null,
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "electrotherapy4.json::electro4-48"
+  },
+  {
+   "id": 7,
+   "topic": "Neuroanatomy",
+   "subtopic": "Thalamus",
+   "difficulty": "Medium",
+   "question": "The thalamus acts as the relay station for all sensory pathways EXCEPT:",
+   "options": {
+    "A": "Olfaction",
+    "B": "Vision",
+    "C": "Touch",
+    "D": "Hearing"
+   },
+   "correctAnswer": "A",
+   "explanation": "Olfactory pathways reach the cortex directly.",
+   "sourceBook": "B.D. Chaurasia's Human Anatomy; Gray's Anatomy for Students (chapter-level reference)",
+   "sourceChapter": "Neuroanatomy",
+   "sourcePage": null,
+   "subject": "Anatomy",
+   "bankRef": "anatomy3.json::anat3-39"
+  },
+  {
+   "id": 8,
+   "topic": "Soft Tissue Management",
+   "subtopic": "Compartment Syndrome Chronic",
+   "difficulty": "Hard",
+   "question": "Chronic exertional compartment syndrome typically presents with:",
+   "options": {
+    "A": "Fever",
+    "B": "Leg pain and tightness during exercise that resolves with rest",
+    "C": "Constant pain at rest",
+    "D": "Numbness after rest"
+   },
+   "correctAnswer": "B",
+   "explanation": "Measured by compartment pressure testing.",
+   "sourceBook": "Magee, Orthopedic Physical Assessment; Kisner & Colby, Therapeutic Exercise; Brukner & Khan, Clinical Sports Medicine; Maitland's Peripheral Manipulation (chapter-level reference)",
+   "sourceChapter": "Soft Tissue Management",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "pt-msk3.json::ptmsk3-58"
+  },
+  {
+   "id": 9,
+   "topic": "Special Medical Conditions",
+   "subtopic": "Sickle Cell Exercise",
+   "difficulty": "Hard",
+   "question": "In sickle cell disease, exercise advice includes:",
+   "options": {
+    "A": "Avoid fluids",
+    "B": "Exercise to exhaustion",
+    "C": "Maintain hydration and avoid extreme exertion, heat and cold",
+    "D": "Heavy altitude training"
+   },
+   "correctAnswer": "C",
+   "explanation": "Dehydration and hypoxia trigger crises.",
+   "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems; ACSM Guidelines; Davidson's Principles and Practice of Medicine (chapter-level reference)",
+   "sourceChapter": "Special Medical Conditions",
+   "sourcePage": null,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "pt-genmed4.json::ptgen4-27"
+  },
+  {
+   "id": 10,
+   "topic": "Nerve & Muscle",
+   "subtopic": "Smooth Muscle",
+   "difficulty": "Medium",
+   "question": "Smooth muscle contraction is initiated by calcium binding to:",
+   "options": {
+    "A": "Calmodulin, activating myosin light-chain kinase",
+    "B": "Tropomyosin",
+    "C": "Actin directly",
+    "D": "Troponin C"
+   },
+   "correctAnswer": "A",
+   "explanation": "No troponin in smooth muscle.",
+   "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+   "sourceChapter": "Nerve & Muscle",
+   "sourcePage": null,
+   "subject": "Physiology",
+   "bankRef": "physiology3.json::physio3-9"
+  },
+  {
+   "id": 11,
+   "topic": "Rheumatology",
+   "subtopic": "Reactive Arthritis",
+   "difficulty": "Hard",
+   "question": "The triad of arthritis, urethritis and conjunctivitis is called:",
+   "options": {
+    "A": "Kawasaki disease",
+    "B": "Behcet's disease",
+    "C": "Reiter's (reactive arthritis) syndrome",
+    "D": "Sjogren's syndrome"
+   },
+   "correctAnswer": "C",
+   "explanation": "Follows genitourinary or enteric infection; HLA-B27 associated.",
+   "sourceBook": "Davidson's Principles and Practice of Medicine; Harrison's Principles of Internal Medicine (chapter-level reference)",
+   "sourceChapter": "Rheumatology",
+   "sourcePage": null,
+   "subject": "Medicine",
+   "bankRef": "medicine3.json::med3-48"
+  },
+  {
+   "id": 12,
+   "topic": "Cranial Nerves",
+   "subtopic": "Horner Syndrome",
+   "difficulty": "Hard",
+   "question": "Horner's syndrome consists of:",
+   "options": {
+    "A": "Diplopia and ptosis only",
+    "B": "Nystagmus and vertigo",
+    "C": "Ptosis, mydriasis and exophthalmos",
+    "D": "Ptosis, miosis and anhidrosis"
+   },
+   "correctAnswer": "D",
+   "explanation": "Interruption of the sympathetic supply to the eye.",
+   "sourceBook": "O'Sullivan & Schmitz, Physical Rehabilitation; Shumway-Cook & Woollacott, Motor Control; Lindsay, Neurology and Neurosurgery Illustrated (chapter-level reference)",
+   "sourceChapter": "Cranial Nerves",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "pt-neuro4.json::ptneuro4-20"
+  },
+  {
+   "id": 13,
+   "topic": "Pain Management",
+   "subtopic": "Referred Pain Gallbladder",
+   "difficulty": "Hard",
+   "question": "Pain from the gallbladder is classically referred to the:",
+   "options": {
+    "A": "Left arm",
+    "B": "Groin",
+    "C": "Left shoulder",
+    "D": "Right shoulder tip and scapular region"
+   },
+   "correctAnswer": "D",
+   "explanation": "Diaphragmatic irritation via the phrenic nerve (C3–C5).",
+   "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems; ACSM Guidelines; Davidson's Principles and Practice of Medicine (chapter-level reference)",
+   "sourceChapter": "Pain Management",
+   "sourcePage": null,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "pt-genmed4.json::ptgen4-14"
+  },
+  {
+   "id": 14,
+   "topic": "Peripheral Neuropathy",
+   "subtopic": "Brachial Plexus Injury Adult",
+   "difficulty": "Hard",
+   "question": "Root avulsion of the brachial plexus is suggested by:",
+   "options": {
+    "A": "Pain on elbow flexion",
+    "B": "Isolated radial palsy",
+    "C": "Horner's syndrome and winging of the scapula",
+    "D": "Tinel's sign distal"
+   },
+   "correctAnswer": "C",
+   "explanation": "Poor prognosis for recovery.",
+   "sourceBook": "O'Sullivan & Schmitz, Physical Rehabilitation; Shumway-Cook & Woollacott, Motor Control; Lindsay, Neurology and Neurosurgery Illustrated (chapter-level reference)",
+   "sourceChapter": "Peripheral Neuropathy",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "pt-neuro4.json::ptneuro4-46"
+  },
+  {
+   "id": 15,
+   "topic": "Medium Frequency Currents",
+   "subtopic": "Beat Frequency Calc",
+   "difficulty": "Hard",
+   "question": "If two interferential currents have frequencies of 4000 Hz and 4100 Hz, the beat frequency produced is:",
+   "options": {
+    "A": "50 Hz",
+    "B": "8100 Hz",
+    "C": "4050 Hz",
+    "D": "100 Hz"
+   },
+   "correctAnswer": "D",
+   "explanation": "Beat frequency = difference of the two frequencies.",
+   "sourceBook": "Clayton's Electrotherapy; Low & Reed, Electrotherapy Explained; Kitchen, Electrotherapy: Evidence-Based Practice (chapter-level reference; cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination, 2e)",
+   "sourceChapter": "Medium Frequency Currents",
+   "sourcePage": null,
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "electrotherapy4.json::electro4-15"
+  },
+  {
+   "id": 16,
+   "topic": "Respiratory",
+   "subtopic": "Compliance",
+   "difficulty": "Hard",
+   "question": "Lung compliance is:",
+   "options": {
+    "A": "The change in lung volume per unit change in pressure",
+    "B": "Respiratory rate",
+    "C": "Residual volume",
+    "D": "Airway resistance"
+   },
+   "correctAnswer": "A",
+   "explanation": "Reduced in fibrosis and increased in emphysema.",
+   "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+   "sourceChapter": "Respiratory",
+   "sourcePage": null,
+   "subject": "Physiology",
+   "bankRef": "physiology3.json::physio3-26"
+  },
+  {
+   "id": 17,
+   "topic": "Ultrasound",
+   "subtopic": "Dose Acute Injury",
+   "difficulty": "Hard",
+   "question": "In acute injury, ultrasound dose should be:",
+   "options": {
+    "A": "Very high intensity",
+    "B": "Low intensity, pulsed, for short duration",
+    "C": "High intensity, continuous",
+    "D": "None at all ever"
+   },
+   "correctAnswer": "B",
+   "explanation": "Thermal effects would worsen inflammation.",
+   "sourceBook": "Clayton's Electrotherapy; Low & Reed, Electrotherapy Explained; Kitchen, Electrotherapy: Evidence-Based Practice (chapter-level reference; cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination, 2e)",
+   "sourceChapter": "Ultrasound",
+   "sourcePage": null,
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "electrotherapy4.json::electro4-30"
+  },
+  {
+   "id": 18,
+   "topic": "Types of Exercise",
+   "subtopic": "Concentric vs Eccentric",
+   "difficulty": "Medium",
+   "question": "In an eccentric contraction the muscle:",
+   "options": {
+    "A": "Remains the same length",
+    "B": "Lengthens while producing tension to control a load",
+    "C": "Relaxes completely",
+    "D": "Shortens while producing tension"
+   },
+   "correctAnswer": "B",
+   "explanation": "Examples: lowering a weight, descending stairs. Eccentric work produces higher force with lower energy cost and causes more delayed-onset muscle soreness.",
+   "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques; Dena Gardiner, Principles of Exercise Therapy; Tidy's Physiotherapy (chapter-level reference; cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination, 2e)",
+   "sourceChapter": "Types of Exercise",
+   "sourcePage": null,
+   "subject": "Fundamentals of Exercise Therapy",
+   "bankRef": "exercise-therapy2.json::ext2-6"
+  },
+  {
+   "id": 19,
+   "topic": "Principles of Exercise",
+   "subtopic": "Gravity Eliminated",
+   "difficulty": "Medium",
+   "question": "A movement is performed in a gravity-eliminated plane when it occurs:",
+   "options": {
+    "A": "Horizontally, with the limb supported",
+    "B": "Vertically downward",
+    "C": "Vertically upward",
+    "D": "At 45° to the horizontal"
+   },
+   "correctAnswer": "A",
+   "explanation": "E.g. hip abduction in supine, or elbow flexion in sitting with the arm supported on a table (for grade 2).",
+   "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques; Dena Gardiner, Principles of Exercise Therapy; Tidy's Physiotherapy (chapter-level reference; cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination, 2e)",
+   "sourceChapter": "Principles of Exercise",
+   "sourcePage": null,
+   "subject": "Fundamentals of Exercise Therapy",
+   "bankRef": "exercise-therapy3.json::ext3-3"
+  },
+  {
+   "id": 20,
+   "topic": "Spinal Rehabilitation",
+   "subtopic": "Osteoporotic Fracture Care",
+   "difficulty": "Medium",
+   "question": "After a vertebral compression fracture in osteoporosis, physiotherapy should include:",
+   "options": {
+    "A": "Heavy twisting",
+    "B": "Bed rest for 3 months",
+    "C": "Forward flexion exercises with load",
+    "D": "Pain relief, extension-based posture exercises and falls prevention"
+   },
+   "correctAnswer": "D",
+   "explanation": "Avoid loaded flexion.",
+   "sourceBook": "Magee, Orthopedic Physical Assessment; Kisner & Colby, Therapeutic Exercise; Brukner & Khan, Clinical Sports Medicine; Maitland's Peripheral Manipulation (chapter-level reference)",
+   "sourceChapter": "Spinal Rehabilitation",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "pt-msk3.json::ptmsk3-19"
+  },
+  {
+   "id": 21,
+   "topic": "Orthopaedics - Trauma",
+   "subtopic": "Hangman's Fracture",
+   "difficulty": "Hard",
+   "question": "A hangman's fracture is a:",
+   "options": {
+    "A": "Fracture of the dens",
+    "B": "Fracture of C1",
+    "C": "Fracture of C7",
+    "D": "Bilateral fracture through the pars interarticularis of C2"
+   },
+   "correctAnswer": "D",
+   "explanation": "Hyperextension with distraction.",
+   "sourceBook": "Bailey & Love's Short Practice of Surgery; Maheshwari, Essential Orthopaedics; Apley's System of Orthopaedics and Fractures (chapter-level reference)",
+   "sourceChapter": "Orthopaedics - Trauma",
+   "sourcePage": null,
+   "subject": "General Surgery & Orthopedics",
+   "bankRef": "surgery-ortho3.json::surg3-40"
+  },
+  {
+   "id": 22,
+   "topic": "Nervous System",
+   "subtopic": "Pyramidal vs Extrapyramidal",
+   "difficulty": "Hard",
+   "question": "Upper motor neurone lesions produce spasticity mainly because of:",
+   "options": {
+    "A": "Loss of sensory input",
+    "B": "Loss of descending inhibition of the stretch reflex",
+    "C": "Muscle damage",
+    "D": "Peripheral nerve damage"
+   },
+   "correctAnswer": "B",
+   "explanation": "Hyperactive gamma loop.",
+   "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+   "sourceChapter": "Nervous System",
+   "sourcePage": null,
+   "subject": "Physiology",
+   "bankRef": "physiology3.json::physio3-47"
+  },
+  {
+   "id": 23,
+   "topic": "Maternal & Child",
+   "subtopic": "Perinatal Mortality",
+   "difficulty": "Hard",
+   "question": "Perinatal mortality includes:",
+   "options": {
+    "A": "Stillbirths and deaths in the first week of life",
+    "B": "Deaths under 5 years",
+    "C": "Deaths in the first month only",
+    "D": "Maternal deaths"
+   },
+   "correctAnswer": "A",
+   "explanation": "Expressed per 1000 total births.",
+   "sourceBook": "Park's Textbook of Preventive and Social Medicine; WHO/ICF and CBR guidelines; standard research methodology texts (chapter-level reference; cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination, 2e, Ch. 6 Research and Analysis)",
+   "sourceChapter": "Maternal & Child",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Community Health",
+   "bankRef": "pt-community3.json::comm3-57"
+  },
+  {
+   "id": 24,
+   "topic": "Nerve & Muscle",
+   "subtopic": "Renshaw Cell",
+   "difficulty": "Hard",
+   "question": "Renshaw cells in the spinal cord mediate:",
+   "options": {
+    "A": "Pain gating",
+    "B": "Reciprocal innervation",
+    "C": "Recurrent inhibition of motor neurones",
+    "D": "Stretch reflex"
+   },
+   "correctAnswer": "C",
+   "explanation": "They use glycine.",
+   "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+   "sourceChapter": "Nerve & Muscle",
+   "sourcePage": null,
+   "subject": "Physiology",
+   "bankRef": "physiology3.json::physio3-12"
+  },
+  {
+   "id": 25,
+   "topic": "Cardiopulmonary Physio",
+   "subtopic": "Pertussis",
+   "difficulty": "Hard",
+   "question": "Whooping cough (pertussis) is characterised by:",
+   "options": {
+    "A": "Continuous wheeze",
+    "B": "Stridor on expiration",
+    "C": "Paroxysmal cough followed by an inspiratory ‘whoop’",
+    "D": "Pleuritic pain"
+   },
+   "correctAnswer": "C",
+   "explanation": "Vaccination is preventive.",
+   "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems; ACSM Guidelines; Davidson's Principles and Practice of Medicine (chapter-level reference)",
+   "sourceChapter": "Cardiopulmonary Physio",
+   "sourcePage": null,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "pt-genmed4.json::ptgen4-36"
+  },
+  {
+   "id": 26,
+   "topic": "Spinal Mechanics",
+   "subtopic": "Ligamentum Flavum",
+   "difficulty": "Medium",
+   "question": "The ligamentum flavum connects the:",
+   "options": {
+    "A": "Spinous processes",
+    "B": "Transverse processes",
+    "C": "Vertebral bodies",
+    "D": "Laminae of adjacent vertebrae"
+   },
+   "correctAnswer": "D",
+   "explanation": "It is rich in elastin and helps restore the upright posture.",
+   "sourceBook": "Neumann, Kinesiology of the Musculoskeletal System; Kisner & Colby, Therapeutic Exercise; Daniels & Worthingham (chapter-level reference; cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination, 2e, Ch. 3 Biomechanics)",
+   "sourceChapter": "Spinal Mechanics",
+   "sourcePage": null,
+   "subject": "Kinesio Therapeutics",
+   "bankRef": "kinesio3.json::kine3-37"
+  },
+  {
+   "id": 27,
+   "topic": "Haematology",
+   "subtopic": "Aplastic Anaemia",
+   "difficulty": "Hard",
+   "question": "Aplastic anaemia is characterised by:",
+   "options": {
+    "A": "Hepatomegaly only",
+    "B": "Pancytopenia with a hypocellular bone marrow",
+    "C": "Leucocytosis",
+    "D": "Isolated high platelets"
+   },
+   "correctAnswer": "B",
+   "explanation": "Drugs, viruses and idiopathic causes.",
+   "sourceBook": "Davidson's Principles and Practice of Medicine; Harrison's Principles of Internal Medicine (chapter-level reference)",
+   "sourceChapter": "Haematology",
+   "sourcePage": null,
+   "subject": "Medicine",
+   "bankRef": "medicine3.json::med3-34"
+  },
+  {
+   "id": 28,
+   "topic": "Research Methodology",
+   "subtopic": "Cluster Sampling",
+   "difficulty": "Hard",
+   "question": "Cluster sampling is most appropriate when:",
+   "options": {
+    "A": "The population is small",
+    "B": "Individuals are homogeneous",
+    "C": "A complete list exists",
+    "D": "The population is geographically spread and a list of individuals is unavailable"
+   },
+   "correctAnswer": "D",
+   "explanation": "Used in immunisation coverage surveys (30-cluster).",
+   "sourceBook": "Park's Textbook of Preventive and Social Medicine; WHO/ICF and CBR guidelines; standard research methodology texts (chapter-level reference; cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination, 2e, Ch. 6 Research and Analysis)",
+   "sourceChapter": "Research Methodology",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Community Health",
+   "bankRef": "pt-community3.json::comm3-35"
+  },
+  {
+   "id": 29,
+   "topic": "Epidemiology",
+   "subtopic": "Outbreak Investigation",
+   "difficulty": "Hard",
+   "question": "The first step in investigating an outbreak is to:",
+   "options": {
+    "A": "Publish results",
+    "B": "Close the facility",
+    "C": "Verify the diagnosis and confirm the existence of an outbreak",
+    "D": "Treat all cases"
+   },
+   "correctAnswer": "C",
+   "explanation": "Then define cases, count cases and describe by time, place and person.",
+   "sourceBook": "Park's Textbook of Preventive and Social Medicine; WHO/ICF and CBR guidelines; standard research methodology texts (chapter-level reference; cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination, 2e, Ch. 6 Research and Analysis)",
+   "sourceChapter": "Epidemiology",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Community Health",
+   "bankRef": "pt-community3.json::comm3-22"
+  },
+  {
+   "id": 30,
+   "topic": "Antimicrobials",
+   "subtopic": "Antiviral",
+   "difficulty": "Hard",
+   "question": "Acyclovir is effective against:",
+   "options": {
+    "A": "HIV",
+    "B": "Influenza",
+    "C": "Hepatitis B",
+    "D": "Herpes simplex and varicella-zoster viruses"
+   },
+   "correctAnswer": "D",
+   "explanation": "Requires phosphorylation by viral thymidine kinase.",
+   "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+   "sourceChapter": "Antimicrobials",
+   "sourcePage": null,
+   "subject": "Pharmacology",
+   "bankRef": "pharmacology3.json::pharm3-30"
+  },
+  {
+   "id": 31,
+   "topic": "Lower Limb Rehab",
+   "subtopic": "Osteitis Pubis",
+   "difficulty": "Hard",
+   "question": "Osteitis pubis is:",
+   "options": {
+    "A": "Labral tear",
+    "B": "Piriformis syndrome",
+    "C": "A hip fracture",
+    "D": "Inflammation of the pubic symphysis causing groin and suprapubic pain"
+   },
+   "correctAnswer": "D",
+   "explanation": "Common in kickers and runners.",
+   "sourceBook": "Magee, Orthopedic Physical Assessment; Kisner & Colby, Therapeutic Exercise; Brukner & Khan, Clinical Sports Medicine; Maitland's Peripheral Manipulation (chapter-level reference)",
+   "sourceChapter": "Lower Limb Rehab",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "pt-msk3.json::ptmsk3-39"
+  },
+  {
+   "id": 32,
+   "topic": "Low Frequency Currents",
+   "subtopic": "Spasticity ES",
+   "difficulty": "Hard",
+   "question": "Electrical stimulation of the antagonist to a spastic muscle is used because it:",
+   "options": {
+    "A": "Increases spasticity",
+    "B": "Produces reciprocal inhibition of the spastic agonist",
+    "C": "Heats the muscle",
+    "D": "Blocks nerve conduction"
+   },
+   "correctAnswer": "B",
+   "explanation": "Also strengthens the weak antagonist.",
+   "sourceBook": "Clayton's Electrotherapy; Low & Reed, Electrotherapy Explained; Kitchen, Electrotherapy: Evidence-Based Practice (chapter-level reference; cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination, 2e)",
+   "sourceChapter": "Low Frequency Currents",
+   "sourcePage": null,
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "electrotherapy4.json::electro4-12"
+  },
+  {
+   "id": 33,
+   "topic": "Electrodiagnosis",
+   "subtopic": "Accommodation Quotient",
+   "difficulty": "Hard",
+   "question": "The accommodation quotient is the ratio of the current needed for a triangular pulse to that for a:",
+   "options": {
+    "A": "Sinusoidal pulse",
+    "B": "DC",
+    "C": "Rectangular pulse of the same duration",
+    "D": "Faradic pulse of 1 ms"
+   },
+   "correctAnswer": "C",
+   "explanation": "A value of more than 3 indicates normal accommodation.",
+   "sourceBook": "Clayton's Electrotherapy; Low & Reed, Electrotherapy Explained; Kitchen, Electrotherapy: Evidence-Based Practice (chapter-level reference; cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination, 2e)",
+   "sourceChapter": "Electrodiagnosis",
+   "sourcePage": null,
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "electrotherapy4.json::electro4-59"
+  },
+  {
+   "id": 34,
+   "topic": "General Pharmacology",
+   "subtopic": "Volume of Distribution",
+   "difficulty": "Hard",
+   "question": "A large volume of distribution indicates that the drug:",
+   "options": {
+    "A": "Remains in plasma",
+    "B": "Is extensively distributed to tissues outside the plasma",
+    "C": "Is poorly absorbed",
+    "D": "Is rapidly excreted"
+   },
+   "correctAnswer": "B",
+   "explanation": "Lipid-soluble drugs have large Vd.",
+   "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+   "sourceChapter": "General Pharmacology",
+   "sourcePage": null,
+   "subject": "Pharmacology",
+   "bankRef": "pharmacology3.json::pharm3-2"
+  },
+  {
+   "id": 35,
+   "topic": "Epidemiology",
+   "subtopic": "Epidemic Curve",
+   "difficulty": "Hard",
+   "question": "A point-source epidemic curve is characterised by:",
+   "options": {
+    "A": "Multiple waves",
+    "B": "A sharp rise and fall within one incubation period",
+    "C": "A flat line",
+    "D": "A slow rise"
+   },
+   "correctAnswer": "B",
+   "explanation": "Propagated epidemics show successive peaks.",
+   "sourceBook": "Park's Textbook of Preventive and Social Medicine; WHO/ICF and CBR guidelines; standard research methodology texts (chapter-level reference; cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination, 2e, Ch. 6 Research and Analysis)",
+   "sourceChapter": "Epidemiology",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Community Health",
+   "bankRef": "pt-community3.json::comm3-23"
+  },
+  {
+   "id": 36,
+   "topic": "Spinal Tests",
+   "subtopic": "Vertebral Artery Test",
+   "difficulty": "Hard",
+   "question": "Which symptom during cervical positional testing indicates vertebrobasilar insufficiency?",
+   "options": {
+    "A": "Dizziness, nystagmus, diplopia or drop attack",
+    "B": "Arm numbness",
+    "C": "Cough",
+    "D": "Neck pain only"
+   },
+   "correctAnswer": "A",
+   "explanation": "The 5 Ds and 3 Ns.",
+   "sourceBook": "Magee, Orthopedic Physical Assessment; Hoppenfeld, Physical Examination of the Spine and Extremities; Maitland's Peripheral/Vertebral Manipulation (chapter-level reference)",
+   "sourceChapter": "Spinal Tests",
+   "sourcePage": null,
+   "subject": "Physical Diagnosis & Manipulative Skills",
+   "bankRef": "physical-diagnosis3.json::pd3-17"
+  },
+  {
+   "id": 37,
+   "topic": "Ultraviolet Radiation",
+   "subtopic": "Neonatal Jaundice Light",
+   "difficulty": "Hard",
+   "question": "Phototherapy for neonatal jaundice uses light of wavelength about:",
+   "options": {
+    "A": "450–500 nm (blue)",
+    "B": "254 nm UVC",
+    "C": "700 nm only",
+    "D": "10,000 nm IR"
+   },
+   "correctAnswer": "A",
+   "explanation": "Converts bilirubin to water-soluble isomers.",
+   "sourceBook": "Clayton's Electrotherapy; Low & Reed, Electrotherapy Explained; Kitchen, Electrotherapy: Evidence-Based Practice (chapter-level reference; cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination, 2e)",
+   "sourceChapter": "Ultraviolet Radiation",
+   "sourcePage": null,
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "electrotherapy4.json::electro4-43"
+  },
+  {
+   "id": 38,
+   "topic": "Enzymes",
+   "subtopic": "Isoenzymes",
+   "difficulty": "Hard",
+   "question": "The isoenzyme of creatine kinase specific for heart muscle is:",
+   "options": {
+    "A": "CK-MM",
+    "B": "CK-BB",
+    "C": "CK-MT",
+    "D": "CK-MB"
+   },
+   "correctAnswer": "D",
+   "explanation": "CK-BB is in the brain; CK-MM in skeletal muscle.",
+   "sourceBook": "U. Satyanarayana, Biochemistry; Harper's Illustrated Biochemistry (chapter-level reference)",
+   "sourceChapter": "Enzymes",
+   "sourcePage": null,
+   "subject": "Biochemistry",
+   "bankRef": "biochemistry3.json::bio3-13"
+  },
+  {
+   "id": 39,
+   "topic": "Special Medical Conditions",
+   "subtopic": "Lupus Photosensitivity",
+   "difficulty": "Hard",
+   "question": "Patients with SLE should avoid:",
+   "options": {
+    "A": "Exercise",
+    "B": "Excessive sun and UV exposure",
+    "C": "Swimming",
+    "D": "Walking"
+   },
+   "correctAnswer": "B",
+   "explanation": "Photosensitivity can trigger flares.",
+   "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems; ACSM Guidelines; Davidson's Principles and Practice of Medicine (chapter-level reference)",
+   "sourceChapter": "Special Medical Conditions",
+   "sourcePage": null,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "pt-genmed4.json::ptgen4-29"
+  },
+  {
+   "id": 40,
+   "topic": "Inflammation",
+   "subtopic": "Fibrinous Inflammation",
+   "difficulty": "Hard",
+   "question": "Fibrinous inflammation is characteristically seen in:",
+   "options": {
+    "A": "Pericarditis and pleuritis",
+    "B": "Bone infarct",
+    "C": "Brain abscess",
+    "D": "Skin burns"
+   },
+   "correctAnswer": "A",
+   "explanation": "Resolves by organisation causing adhesions.",
+   "sourceBook": "Harsh Mohan, Textbook of Pathology; Ananthanarayan & Paniker, Textbook of Microbiology (chapter-level reference)",
+   "sourceChapter": "Inflammation",
+   "sourcePage": null,
+   "subject": "Pathology & Microbiology",
+   "bankRef": "pathology3.json::path3-8"
+  },
+  {
+   "id": 41,
+   "topic": "Assessment & Outcome Measures",
+   "subtopic": "Pain Mechanism",
+   "difficulty": "Hard",
+   "question": "Central sensitisation is characterised by:",
+   "options": {
+    "A": "Localised pain only",
+    "B": "Normal pain thresholds",
+    "C": "Reduced pain",
+    "D": "Amplified pain responses, allodynia and widespread pain disproportionate to tissue injury"
+   },
+   "correctAnswer": "D",
+   "explanation": "Seen in fibromyalgia and chronic pain states.",
+   "sourceBook": "Magee, Orthopedic Physical Assessment; Kisner & Colby, Therapeutic Exercise; Brukner & Khan, Clinical Sports Medicine; Maitland's Peripheral Manipulation (chapter-level reference)",
+   "sourceChapter": "Assessment & Outcome Measures",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "pt-msk3.json::ptmsk3-12"
+  },
+  {
+   "id": 42,
+   "topic": "Cardiology Physio",
+   "subtopic": "Silent Ischaemia",
+   "difficulty": "Hard",
+   "question": "Silent myocardial ischaemia is most common in:",
+   "options": {
+    "A": "Children",
+    "B": "Healthy athletes",
+    "C": "Diabetic patients",
+    "D": "Hypertensive without disease"
+   },
+   "correctAnswer": "C",
+   "explanation": "Autonomic neuropathy blunts pain.",
+   "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems; ACSM Guidelines; Davidson's Principles and Practice of Medicine (chapter-level reference)",
+   "sourceChapter": "Cardiology Physio",
+   "sourcePage": null,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "pt-genmed4.json::ptgen4-45"
+  },
+  {
+   "id": 43,
+   "topic": "Cranial Nerves",
+   "subtopic": "Bulbar vs Pseudobulbar",
+   "difficulty": "Hard",
+   "question": "Pseudobulbar palsy differs from bulbar palsy in that it shows:",
+   "options": {
+    "A": "Absent jaw jerk",
+    "B": "Normal speech",
+    "C": "A spastic tongue, brisk jaw jerk and emotional lability (UMN)",
+    "D": "A wasted fasciculating tongue"
+   },
+   "correctAnswer": "C",
+   "explanation": "Bulbar palsy is an LMN lesion of cranial nerves IX–XII.",
+   "sourceBook": "O'Sullivan & Schmitz, Physical Rehabilitation; Shumway-Cook & Woollacott, Motor Control; Lindsay, Neurology and Neurosurgery Illustrated (chapter-level reference)",
+   "sourceChapter": "Cranial Nerves",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "pt-neuro4.json::ptneuro4-19"
+  },
+  {
+   "id": 44,
+   "topic": "Head & Neck",
+   "subtopic": "Trigeminal Divisions",
+   "difficulty": "Medium",
+   "question": "The three divisions of the trigeminal nerve are:",
+   "options": {
+    "A": "Oculomotor, abducens, trochlear",
+    "B": "Facial, mandibular, lingual",
+    "C": "Optic, maxillary, mental",
+    "D": "Ophthalmic, maxillary and mandibular"
+   },
+   "correctAnswer": "D",
+   "explanation": "V1 and V2 are purely sensory; V3 has motor fibres.",
+   "sourceBook": "B.D. Chaurasia's Human Anatomy; Gray's Anatomy for Students (chapter-level reference)",
+   "sourceChapter": "Head & Neck",
+   "sourcePage": null,
+   "subject": "Anatomy",
+   "bankRef": "anatomy3.json::anat3-36"
+  },
+  {
+   "id": 45,
+   "topic": "Cardiopulmonary Physio",
+   "subtopic": "Bronchopulmonary Dysplasia",
+   "difficulty": "Hard",
+   "question": "Bronchopulmonary dysplasia is a chronic lung disease of:",
+   "options": {
+    "A": "Adults",
+    "B": "Smokers",
+    "C": "Premature infants after prolonged oxygen and ventilation",
+    "D": "Asthmatics"
+   },
+   "correctAnswer": "C",
+   "explanation": "Defined by oxygen need at 36 weeks.",
+   "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems; ACSM Guidelines; Davidson's Principles and Practice of Medicine (chapter-level reference)",
+   "sourceChapter": "Cardiopulmonary Physio",
+   "sourcePage": null,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "pt-genmed4.json::ptgen4-40"
+  },
+  {
+   "id": 46,
+   "topic": "Lower Limb",
+   "subtopic": "Gluteal Injection",
+   "difficulty": "Medium",
+   "question": "The safe site for intragluteal injection is the:",
+   "options": {
+    "A": "Upper inner quadrant",
+    "B": "Upper outer quadrant of the buttock",
+    "C": "Lower inner quadrant",
+    "D": "Lower outer quadrant"
+   },
+   "correctAnswer": "B",
+   "explanation": "Avoids the sciatic nerve.",
+   "sourceBook": "B.D. Chaurasia's Human Anatomy; Gray's Anatomy for Students (chapter-level reference)",
+   "sourceChapter": "Lower Limb",
+   "sourcePage": null,
+   "subject": "Anatomy",
+   "bankRef": "anatomy3.json::anat3-20"
+  },
+  {
+   "id": 47,
+   "topic": "Lower Limb Tests",
+   "subtopic": "McConnell Test",
+   "difficulty": "Hard",
+   "question": "The McConnell test assesses:",
+   "options": {
+    "A": "Patellofemoral pain during isometric quadriceps contraction at different angles",
+    "B": "Meniscal integrity",
+    "C": "Hip stability",
+    "D": "ACL integrity"
+   },
+   "correctAnswer": "A",
+   "explanation": "Used to guide patellar taping.",
+   "sourceBook": "Magee, Orthopedic Physical Assessment; Hoppenfeld, Physical Examination of the Spine and Extremities; Maitland's Peripheral/Vertebral Manipulation (chapter-level reference)",
+   "sourceChapter": "Lower Limb Tests",
+   "sourcePage": null,
+   "subject": "Physical Diagnosis & Manipulative Skills",
+   "bankRef": "physical-diagnosis3.json::pd3-35"
+  },
+  {
+   "id": 48,
+   "topic": "Gait Analysis",
+   "subtopic": "Energy Cost",
+   "difficulty": "Hard",
+   "question": "Compared with normal gait, a patient using crutches (non-weight bearing) has:",
+   "options": {
+    "A": "No energy expenditure",
+    "B": "Decreased energy expenditure",
+    "C": "Increased energy expenditure",
+    "D": "The same energy expenditure"
+   },
+   "correctAnswer": "C",
+   "explanation": "Crutch walking requires 2–3 times the oxygen consumption of normal gait for amputees and non-weight-bearing patients.",
+   "sourceBook": "Kisner & Colby, Therapeutic Exercise; Neumann, Kinesiology of the Musculoskeletal System; Daniels & Worthingham (chapter-level reference; cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination, 2e, Ch. 3 Biomechanics)",
+   "sourceChapter": "Gait Analysis",
+   "sourcePage": null,
+   "subject": "Kinesio Therapeutics",
+   "bankRef": "kinesio2.json::kine2-61"
+  },
+  {
+   "id": 49,
+   "topic": "Assessment & Outcome Measures",
+   "subtopic": "WOMAC",
+   "difficulty": "Medium",
+   "question": "The WOMAC index is a patient-reported outcome measure for:",
+   "options": {
+    "A": "Shoulder instability",
+    "B": "Low back pain",
+    "C": "Neck pain",
+    "D": "Knee and hip osteoarthritis (pain, stiffness and function)"
+   },
+   "correctAnswer": "D",
+   "explanation": "Western Ontario and McMaster Universities Arthritis Index.",
+   "sourceBook": "Magee, Orthopedic Physical Assessment; Kisner & Colby, Therapeutic Exercise; Brukner & Khan, Clinical Sports Medicine; Maitland's Peripheral Manipulation (chapter-level reference)",
+   "sourceChapter": "Assessment & Outcome Measures",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "pt-msk3.json::ptmsk3-1"
+  },
+  {
+   "id": 50,
+   "topic": "Cranial Nerves",
+   "subtopic": "Trochlear",
+   "difficulty": "Hard",
+   "question": "Trochlear nerve palsy causes diplopia on:",
+   "options": {
+    "A": "Looking down and in (e.g. descending stairs)",
+    "B": "Looking up",
+    "C": "Looking straight",
+    "D": "Looking outward"
+   },
+   "correctAnswer": "A",
+   "explanation": "Compensation with head tilt.",
+   "sourceBook": "O'Sullivan & Schmitz, Physical Rehabilitation; Shumway-Cook & Woollacott, Motor Control; Lindsay, Neurology and Neurosurgery Illustrated (chapter-level reference)",
+   "sourceChapter": "Cranial Nerves",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "pt-neuro4.json::ptneuro4-16"
+  },
+  {
+   "id": 51,
+   "topic": "Walking Aids",
+   "subtopic": "Cane Side",
+   "difficulty": "Medium",
+   "question": "A single-point cane should be held:",
+   "options": {
+    "A": "In the hand on the same side as the affected limb",
+    "B": "In either hand with no difference",
+    "C": "In front only",
+    "D": "In the hand opposite the affected lower limb"
+   },
+   "correctAnswer": "D",
+   "explanation": "The cane moves with the affected leg and reduces the load on it through the contralateral arm.",
+   "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques; Dena Gardiner, Principles of Exercise Therapy; Tidy's Physiotherapy (chapter-level reference; cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination, 2e)",
+   "sourceChapter": "Walking Aids",
+   "sourcePage": null,
+   "subject": "Fundamentals of Exercise Therapy",
+   "bankRef": "exercise-therapy2.json::ext2-42"
+  },
+  {
+   "id": 52,
+   "topic": "Guillain-Barre Syndrome",
+   "subtopic": "GBS Autonomic",
+   "difficulty": "Hard",
+   "question": "Autonomic involvement in GBS can cause:",
+   "options": {
+    "A": "Labile blood pressure, arrhythmias and bladder disturbance",
+    "B": "Seizures",
+    "C": "Hallucinations",
+    "D": "Hypertension only"
+   },
+   "correctAnswer": "A",
+   "explanation": "Requires ICU monitoring in severe cases.",
+   "sourceBook": "O'Sullivan & Schmitz, Physical Rehabilitation; Shumway-Cook & Woollacott, Motor Control; Lindsay, Neurology and Neurosurgery Illustrated (chapter-level reference)",
+   "sourceChapter": "Guillain-Barre Syndrome",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "pt-neuro4.json::ptneuro4-42"
+  },
+  {
+   "id": 53,
+   "topic": "Muscle Mechanics",
+   "subtopic": "VMO",
+   "difficulty": "Medium",
+   "question": "The primary function of the vastus medialis obliquus (VMO) is:",
+   "options": {
+    "A": "To stabilise the patella medially and resist lateral subluxation",
+    "B": "Knee flexion",
+    "C": "Hip adduction only",
+    "D": "Hip flexion"
+   },
+   "correctAnswer": "A",
+   "explanation": "Its oblique fibres counteract the lateral pull of the quadriceps and ITB.",
+   "sourceBook": "Kisner & Colby, Therapeutic Exercise; Neumann, Kinesiology of the Musculoskeletal System; Daniels & Worthingham (chapter-level reference; cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination, 2e, Ch. 3 Biomechanics)",
+   "sourceChapter": "Muscle Mechanics",
+   "sourcePage": null,
+   "subject": "Kinesio Therapeutics",
+   "bankRef": "kinesio2.json::kine2-41"
+  },
+  {
+   "id": 54,
+   "topic": "Demography",
+   "subtopic": "Dependency Ratio",
+   "difficulty": "Hard",
+   "question": "The dependency ratio is the ratio of:",
+   "options": {
+    "A": "Males to females",
+    "B": "Dependents (under 15 and over 65) to the working-age population (15–64)",
+    "C": "Workers to children",
+    "D": "Rural to urban"
+   },
+   "correctAnswer": "B",
+   "explanation": "High ratios burden the economy.",
+   "sourceBook": "Park's Textbook of Preventive and Social Medicine; WHO/ICF and CBR guidelines; standard research methodology texts (chapter-level reference; cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination, 2e, Ch. 6 Research and Analysis)",
+   "sourceChapter": "Demography",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Community Health",
+   "bankRef": "pt-community3.json::comm3-7"
+  },
+  {
+   "id": 55,
+   "topic": "Traction",
+   "subtopic": "Traction Pain Response",
+   "difficulty": "Hard",
+   "question": "Peripheralisation of leg pain during lumbar traction indicates that the traction should be:",
+   "options": {
+    "A": "Repeated more often",
+    "B": "Continued",
+    "C": "Stopped or modified",
+    "D": "Increased"
+   },
+   "correctAnswer": "C",
+   "explanation": "Centralisation is a favourable sign.",
+   "sourceBook": "Clayton's Electrotherapy; Low & Reed, Electrotherapy Explained; Kitchen, Electrotherapy: Evidence-Based Practice (chapter-level reference; cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination, 2e)",
+   "sourceChapter": "Traction",
+   "sourcePage": null,
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "electrotherapy4.json::electro4-56"
+  },
+  {
+   "id": 56,
+   "topic": "Clinical Emergencies",
+   "subtopic": "Anaphylaxis Physio",
+   "difficulty": "Medium",
+   "question": "Signs of anaphylaxis include:",
+   "options": {
+    "A": "Urticaria, swelling of the face, wheeze and hypotension",
+    "B": "Bradycardia",
+    "C": "Fever only",
+    "D": "Mild itching"
+   },
+   "correctAnswer": "A",
+   "explanation": "Intramuscular adrenaline is first-line.",
+   "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems; ACSM Guidelines; Davidson's Principles and Practice of Medicine (chapter-level reference)",
+   "sourceChapter": "Clinical Emergencies",
+   "sourcePage": null,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "pt-genmed4.json::ptgen4-4"
+  },
+  {
+   "id": 57,
+   "topic": "Cell Injury",
+   "subtopic": "Dystrophic Calcification",
+   "difficulty": "Hard",
+   "question": "Dystrophic calcification occurs in:",
+   "options": {
+    "A": "Dead or degenerating tissue with normal serum calcium",
+    "B": "Hypercalcaemia only",
+    "C": "Bone only",
+    "D": "Normal tissue with raised calcium"
+   },
+   "correctAnswer": "A",
+   "explanation": "Metastatic calcification occurs in normal tissue with hypercalcaemia.",
+   "sourceBook": "Harsh Mohan, Textbook of Pathology; Ananthanarayan & Paniker, Textbook of Microbiology (chapter-level reference)",
+   "sourceChapter": "Cell Injury",
+   "sourcePage": null,
+   "subject": "Pathology & Microbiology",
+   "bankRef": "pathology3.json::path3-4"
+  },
+  {
+   "id": 58,
+   "topic": "Spinal Rehabilitation",
+   "subtopic": "Spinal Fusion Rehab",
+   "difficulty": "Medium",
+   "question": "After lumbar spinal fusion, which movement is restricted?",
+   "options": {
+    "A": "Walking",
+    "B": "Bending, lifting and twisting (BLT) in the early months",
+    "C": "Ankle pumps",
+    "D": "Deep breathing"
+   },
+   "correctAnswer": "B",
+   "explanation": "Bone union typically takes 3–6 months.",
+   "sourceBook": "Magee, Orthopedic Physical Assessment; Kisner & Colby, Therapeutic Exercise; Brukner & Khan, Clinical Sports Medicine; Maitland's Peripheral Manipulation (chapter-level reference)",
+   "sourceChapter": "Spinal Rehabilitation",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "pt-msk3.json::ptmsk3-14"
+  },
+  {
+   "id": 59,
+   "topic": "Biomechanics Basics",
+   "subtopic": "Work",
+   "difficulty": "Medium",
+   "question": "Work done by a muscle is equal to:",
+   "options": {
+    "A": "Force divided by time",
+    "B": "Force multiplied by the distance moved in the direction of the force",
+    "C": "Power multiplied by acceleration",
+    "D": "Mass multiplied by velocity"
+   },
+   "correctAnswer": "B",
+   "explanation": "Work = F × d (joule); power = work/time (watt).",
+   "sourceBook": "Kisner & Colby, Therapeutic Exercise; Neumann, Kinesiology of the Musculoskeletal System; Daniels & Worthingham (chapter-level reference; cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination, 2e, Ch. 3 Biomechanics)",
+   "sourceChapter": "Biomechanics Basics",
+   "sourcePage": null,
+   "subject": "Kinesio Therapeutics",
+   "bankRef": "kinesio2.json::kine2-6"
+  },
+  {
+   "id": 60,
+   "topic": "Low Frequency Currents",
+   "subtopic": "Strength Duration Law",
+   "difficulty": "Hard",
+   "question": "According to the strength–duration relationship, as the pulse duration is shortened the intensity needed to reach threshold:",
+   "options": {
+    "A": "Falls to zero",
+    "B": "Stays constant",
+    "C": "Decreases",
+    "D": "Increases"
+   },
+   "correctAnswer": "D",
+   "explanation": "Short pulses need high intensity; long pulses need low intensity (rheobase).",
+   "sourceBook": "Clayton's Electrotherapy; Low & Reed, Electrotherapy Explained; Kitchen, Electrotherapy: Evidence-Based Practice (chapter-level reference; cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination, 2e)",
+   "sourceChapter": "Low Frequency Currents",
+   "sourcePage": null,
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "electrotherapy4.json::electro4-2"
+  },
+  {
+   "id": 61,
+   "topic": "Stroke",
+   "subtopic": "Anosognosia",
+   "difficulty": "Hard",
+   "question": "Anosognosia refers to:",
+   "options": {
+    "A": "Left-right confusion",
+    "B": "Lack of awareness of one's own deficit, e.g. hemiplegia",
+    "C": "Loss of speech",
+    "D": "Inability to recognise faces"
+   },
+   "correctAnswer": "B",
+   "explanation": "Common in right parietal lesions.",
+   "sourceBook": "O'Sullivan & Schmitz, Physical Rehabilitation; Shumway-Cook & Woollacott, Motor Control; Lindsay, Neurology and Neurosurgery Illustrated (chapter-level reference)",
+   "sourceChapter": "Stroke",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "pt-neuro4.json::ptneuro4-28"
+  },
+  {
+   "id": 62,
+   "topic": "Gynaecology",
+   "subtopic": "Fibroid",
+   "difficulty": "Medium",
+   "question": "The commonest benign tumour of the uterus is:",
+   "options": {
+    "A": "Adenomyosis",
+    "B": "Polyp",
+    "C": "Teratoma",
+    "D": "Leiomyoma (fibroid)"
+   },
+   "correctAnswer": "D",
+   "explanation": "Estrogen dependent; regress after menopause.",
+   "sourceBook": "D.C. Dutta, Textbook of Obstetrics and Textbook of Gynaecology (chapter-level reference)",
+   "sourceChapter": "Gynaecology",
+   "sourcePage": null,
+   "subject": "OBGY",
+   "bankRef": "obgy3.json::obgy3-26"
+  },
+  {
+   "id": 63,
+   "topic": "Pathology Systemic",
+   "subtopic": "Kimmelstiel-Wilson",
+   "difficulty": "Hard",
+   "question": "Kimmelstiel–Wilson nodules are seen in:",
+   "options": {
+    "A": "Amyloidosis",
+    "B": "Diabetic nephropathy",
+    "C": "Lupus nephritis",
+    "D": "Minimal change disease"
+   },
+   "correctAnswer": "B",
+   "explanation": "Nodular glomerulosclerosis.",
+   "sourceBook": "Harsh Mohan, Textbook of Pathology; Ananthanarayan & Paniker, Textbook of Microbiology (chapter-level reference)",
+   "sourceChapter": "Pathology Systemic",
+   "sourcePage": null,
+   "subject": "Pathology & Microbiology",
+   "bankRef": "pathology3.json::path3-34"
+  },
+  {
+   "id": 64,
+   "topic": "Types of Exercise",
+   "subtopic": "Isokinetic",
+   "difficulty": "Medium",
+   "question": "In isokinetic exercise:",
+   "options": {
+    "A": "Resistance is given only by springs",
+    "B": "There is no movement",
+    "C": "Angular velocity is held constant while resistance accommodates to the force applied",
+    "D": "Weight is constant and speed varies"
+   },
+   "correctAnswer": "C",
+   "explanation": "Isokinetic dynamometers (Cybex, Biodex) allow maximum loading through the whole range at a pre-set speed.",
+   "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques; Dena Gardiner, Principles of Exercise Therapy; Tidy's Physiotherapy (chapter-level reference; cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination, 2e)",
+   "sourceChapter": "Types of Exercise",
+   "sourcePage": null,
+   "subject": "Fundamentals of Exercise Therapy",
+   "bankRef": "exercise-therapy2.json::ext2-7"
+  },
+  {
+   "id": 65,
+   "topic": "Gynaecology",
+   "subtopic": "Infertility Cause",
+   "difficulty": "Medium",
+   "question": "Infertility is defined as failure to conceive after:",
+   "options": {
+    "A": "3 months",
+    "B": "12 months of regular unprotected intercourse",
+    "C": "6 weeks",
+    "D": "5 years"
+   },
+   "correctAnswer": "B",
+   "explanation": "Male factor accounts for about 30–40%.",
+   "sourceBook": "D.C. Dutta, Textbook of Obstetrics and Textbook of Gynaecology (chapter-level reference)",
+   "sourceChapter": "Gynaecology",
+   "sourcePage": null,
+   "subject": "OBGY",
+   "bankRef": "obgy3.json::obgy3-29"
+  },
+  {
+   "id": 66,
+   "topic": "Assessment & Outcome Measures",
+   "subtopic": "SF-36",
+   "difficulty": "Medium",
+   "question": "The SF-36 is a measure of:",
+   "options": {
+    "A": "General health-related quality of life",
+    "B": "Muscle strength",
+    "C": "Gait speed",
+    "D": "Back pain only"
+   },
+   "correctAnswer": "A",
+   "explanation": "Eight domains including physical functioning and bodily pain.",
+   "sourceBook": "Magee, Orthopedic Physical Assessment; Kisner & Colby, Therapeutic Exercise; Brukner & Khan, Clinical Sports Medicine; Maitland's Peripheral Manipulation (chapter-level reference)",
+   "sourceChapter": "Assessment & Outcome Measures",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "pt-msk3.json::ptmsk3-7"
+  },
+  {
+   "id": 67,
+   "topic": "Spinal Tests",
+   "subtopic": "Sharp-Purser",
+   "difficulty": "Hard",
+   "question": "The Sharp–Purser test is used to assess:",
+   "options": {
+    "A": "Thoracic outlet",
+    "B": "Atlantoaxial instability",
+    "C": "Lumbar disc",
+    "D": "Facet joints"
+   },
+   "correctAnswer": "B",
+   "explanation": "Particularly in rheumatoid arthritis.",
+   "sourceBook": "Magee, Orthopedic Physical Assessment; Hoppenfeld, Physical Examination of the Spine and Extremities; Maitland's Peripheral/Vertebral Manipulation (chapter-level reference)",
+   "sourceChapter": "Spinal Tests",
+   "sourcePage": null,
+   "subject": "Physical Diagnosis & Manipulative Skills",
+   "bankRef": "physical-diagnosis3.json::pd3-16"
+  },
+  {
+   "id": 68,
+   "topic": "Orthopaedics - Trauma",
+   "subtopic": "Galeazzi",
+   "difficulty": "Hard",
+   "question": "A Galeazzi fracture is a fracture of the:",
+   "options": {
+    "A": "Radial shaft with dislocation of the distal radioulnar joint",
+    "B": "Both bones of the forearm",
+    "C": "Ulnar shaft with radial head dislocation",
+    "D": "Scaphoid with lunate dislocation"
+   },
+   "correctAnswer": "A",
+   "explanation": "‘Fracture of necessity’: usually needs ORIF.",
+   "sourceBook": "Bailey & Love's Short Practice of Surgery; Maheshwari, Essential Orthopaedics; Apley's System of Orthopaedics and Fractures (chapter-level reference)",
+   "sourceChapter": "Orthopaedics - Trauma",
+   "sourcePage": null,
+   "subject": "General Surgery & Orthopedics",
+   "bankRef": "surgery-ortho3.json::surg3-30"
+  },
+  {
+   "id": 69,
+   "topic": "Emergency",
+   "subtopic": "Hyperthermia vs Fever",
+   "difficulty": "Hard",
+   "question": "Compared with fever, hyperthermia is characterised by:",
+   "options": {
+    "A": "Elevated body temperature without a change in the hypothalamic set-point",
+    "B": "Lower heart rate",
+    "C": "A higher set-point",
+    "D": "Response to antipyretics"
+   },
+   "correctAnswer": "A",
+   "explanation": "Antipyretics are ineffective; physical cooling is used.",
+   "sourceBook": "Davidson's Principles and Practice of Medicine; Harrison's Principles of Internal Medicine (chapter-level reference)",
+   "sourceChapter": "Emergency",
+   "sourcePage": null,
+   "subject": "Medicine",
+   "bankRef": "medicine3.json::med3-61"
+  },
+  {
+   "id": 70,
+   "topic": "Neuroscience Basics",
+   "subtopic": "Thalamic Pain",
+   "difficulty": "Hard",
+   "question": "Dejerine–Roussy (thalamic pain) syndrome is characterised by:",
+   "options": {
+    "A": "Bladder dysfunction",
+    "B": "Hearing loss",
+    "C": "Contralateral hemisensory loss followed by severe burning pain",
+    "D": "Pure motor loss"
+   },
+   "correctAnswer": "C",
+   "explanation": "A central post-stroke pain.",
+   "sourceBook": "O'Sullivan & Schmitz, Physical Rehabilitation; Shumway-Cook & Woollacott, Motor Control; Lindsay, Neurology and Neurosurgery Illustrated (chapter-level reference)",
+   "sourceChapter": "Neuroscience Basics",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "pt-neuro4.json::ptneuro4-5"
+  },
+  {
+   "id": 71,
+   "topic": "Lower Limb Biomechanics",
+   "subtopic": "Windlass Mechanism",
+   "difficulty": "Hard",
+   "question": "The windlass mechanism of the foot refers to:",
+   "options": {
+    "A": "Eversion of the calcaneus",
+    "B": "Tightening of the plantar fascia on great toe extension that raises the medial longitudinal arch",
+    "C": "Lowering of the arch during dorsiflexion",
+    "D": "Unlocking of the talocrural joint"
+   },
+   "correctAnswer": "B",
+   "explanation": "Occurs in late stance during push-off.",
+   "sourceBook": "Neumann, Kinesiology of the Musculoskeletal System; Kisner & Colby, Therapeutic Exercise; Daniels & Worthingham (chapter-level reference; cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination, 2e, Ch. 3 Biomechanics)",
+   "sourceChapter": "Lower Limb Biomechanics",
+   "sourcePage": null,
+   "subject": "Kinesio Therapeutics",
+   "bankRef": "kinesio3.json::kine3-29"
+  },
+  {
+   "id": 72,
+   "topic": "Stress & Health",
+   "subtopic": "Life Events Scale",
+   "difficulty": "Hard",
+   "question": "The Social Readjustment Rating Scale (Holmes and Rahe) rates the highest stress for:",
+   "options": {
+    "A": "Death of a spouse",
+    "B": "Marriage",
+    "C": "Job change",
+    "D": "Divorce"
+   },
+   "correctAnswer": "A",
+   "explanation": "Used to predict illness after life change units.",
+   "sourceBook": "Morgan & King, Introduction to Psychology (chapter-level reference)",
+   "sourceChapter": "Stress & Health",
+   "sourcePage": null,
+   "subject": "Psychology",
+   "bankRef": "psychology2.json::psych2-38"
+  },
+  {
+   "id": 73,
+   "topic": "Orthopaedics - Nerve Injuries",
+   "subtopic": "Femoral Nerve Palsy",
+   "difficulty": "Hard",
+   "question": "A patient with femoral nerve palsy has difficulty:",
+   "options": {
+    "A": "Dorsiflexing the ankle",
+    "B": "Extending the knee",
+    "C": "Abducting the hip",
+    "D": "Flexing the knee"
+   },
+   "correctAnswer": "B",
+   "explanation": "Loss of sensation over the anterior thigh and medial leg (saphenous).",
+   "sourceBook": "Bailey & Love's Short Practice of Surgery; Maheshwari, Essential Orthopaedics; Apley's System of Orthopaedics and Fractures (chapter-level reference)",
+   "sourceChapter": "Orthopaedics - Nerve Injuries",
+   "sourcePage": null,
+   "subject": "General Surgery & Orthopedics",
+   "bankRef": "surgery-ortho3.json::surg3-57"
+  },
+  {
+   "id": 74,
+   "topic": "Cranial Nerves",
+   "subtopic": "Vagus Palsy",
+   "difficulty": "Hard",
+   "question": "Vagus nerve injury at the jugular foramen causes:",
+   "options": {
+    "A": "Facial weakness",
+    "B": "Tongue deviation",
+    "C": "Hoarseness, dysphagia and deviation of the uvula to the normal side",
+    "D": "Hearing loss only"
+   },
+   "correctAnswer": "C",
+   "explanation": "Check the gag reflex.",
+   "sourceBook": "O'Sullivan & Schmitz, Physical Rehabilitation; Shumway-Cook & Woollacott, Motor Control; Lindsay, Neurology and Neurosurgery Illustrated (chapter-level reference)",
+   "sourceChapter": "Cranial Nerves",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "pt-neuro4.json::ptneuro4-18"
+  },
+  {
+   "id": 75,
+   "topic": "Electrodiagnosis",
+   "subtopic": "F-wave",
+   "difficulty": "Hard",
+   "question": "The F-wave on nerve conduction study is useful to assess:",
+   "options": {
+    "A": "Proximal nerve segments and radiculopathy",
+    "B": "Spinal cord compression",
+    "C": "Muscle strength",
+    "D": "Distal sensory fibres"
+   },
+   "correctAnswer": "A",
+   "explanation": "It is a late response from antidromic activation.",
+   "sourceBook": "Clayton's Electrotherapy; Low & Reed, Electrotherapy Explained; Kitchen, Electrotherapy: Evidence-Based Practice (chapter-level reference; cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination, 2e)",
+   "sourceChapter": "Electrodiagnosis",
+   "sourcePage": null,
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "electrotherapy4.json::electro4-61"
+  },
+  {
+   "id": 76,
+   "topic": "Spinal Tests",
+   "subtopic": "Lumbar Instability",
+   "difficulty": "Hard",
+   "question": "A positive prone instability test indicates:",
+   "options": {
+    "A": "Segmental lumbar instability when pain is relieved by muscle contraction",
+    "B": "Disc prolapse",
+    "C": "Cord compression",
+    "D": "Facet syndrome"
+   },
+   "correctAnswer": "A",
+   "explanation": "Pain on posterior-anterior pressure that decreases with leg lifting.",
+   "sourceBook": "Magee, Orthopedic Physical Assessment; Hoppenfeld, Physical Examination of the Spine and Extremities; Maitland's Peripheral/Vertebral Manipulation (chapter-level reference)",
+   "sourceChapter": "Spinal Tests",
+   "sourcePage": null,
+   "subject": "Physical Diagnosis & Manipulative Skills",
+   "bankRef": "physical-diagnosis3.json::pd3-21"
+  },
+  {
+   "id": 77,
+   "topic": "Low Frequency Currents",
+   "subtopic": "Reciprocal Stimulation",
+   "difficulty": "Hard",
+   "question": "Reciprocal stimulation (alternating channels) is used to:",
+   "options": {
+    "A": "Stimulate one muscle only",
+    "B": "Reduce skin resistance",
+    "C": "Produce heat",
+    "D": "Stimulate agonist and antagonist alternately, for example in re-education of antagonistic pairs"
+   },
+   "correctAnswer": "D",
+   "explanation": "Used in spasticity management and functional movement.",
+   "sourceBook": "Clayton's Electrotherapy; Low & Reed, Electrotherapy Explained; Kitchen, Electrotherapy: Evidence-Based Practice (chapter-level reference; cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination, 2e)",
+   "sourceChapter": "Low Frequency Currents",
+   "sourcePage": null,
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "electrotherapy4.json::electro4-6"
+  },
+  {
+   "id": 78,
+   "topic": "Ultrasound",
+   "subtopic": "Metal Implant Ultrasound",
+   "difficulty": "Hard",
+   "question": "Therapeutic ultrasound over metal implants is generally:",
+   "options": {
+    "A": "Done with maximum intensity",
+    "B": "Possible with a moving technique at low intensity, but not over cemented plastic or pacemaker leads",
+    "C": "Required",
+    "D": "Strictly forbidden always"
+   },
+   "correctAnswer": "B",
+   "explanation": "Metal reflects energy and may heat the implant surface.",
+   "sourceBook": "Clayton's Electrotherapy; Low & Reed, Electrotherapy Explained; Kitchen, Electrotherapy: Evidence-Based Practice (chapter-level reference; cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination, 2e)",
+   "sourceChapter": "Ultrasound",
+   "sourcePage": null,
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "electrotherapy4.json::electro4-33"
+  },
+  {
+   "id": 79,
+   "topic": "Upper Limb Rehab",
+   "subtopic": "Extensor Tendon Rehab",
+   "difficulty": "Hard",
+   "question": "After extensor tendon repair, the wrist and fingers are typically splinted in:",
+   "options": {
+    "A": "Ulnar deviation",
+    "B": "Radial deviation",
+    "C": "Extension",
+    "D": "Full flexion"
+   },
+   "correctAnswer": "C",
+   "explanation": "Protects against repair rupture.",
+   "sourceBook": "Magee, Orthopedic Physical Assessment; Kisner & Colby, Therapeutic Exercise; Brukner & Khan, Clinical Sports Medicine; Maitland's Peripheral Manipulation (chapter-level reference)",
+   "sourceChapter": "Upper Limb Rehab",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "pt-msk3.json::ptmsk3-24"
+  },
+  {
+   "id": 80,
+   "topic": "Exercise Physiology",
+   "subtopic": "Pacinian Corpuscles",
+   "difficulty": "Medium",
+   "question": "Which receptor is most sensitive to vibration, deep pressure and rapid changes in joint position?",
+   "options": {
+    "A": "Ruffini endings",
+    "B": "Free nerve endings",
+    "C": "Golgi–Mazzoni corpuscles",
+    "D": "Pacinian corpuscles"
+   },
+   "correctAnswer": "D",
+   "explanation": "Pacinian corpuscles are rapidly adapting receptors; Ruffini endings sense sustained pressure and joint position.",
+   "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques; Dena Gardiner, Principles of Exercise Therapy; Tidy's Physiotherapy (chapter-level reference; cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination, 2e)",
+   "sourceChapter": "Exercise Physiology",
+   "sourcePage": null,
+   "subject": "Fundamentals of Exercise Therapy",
+   "bankRef": "exercise-therapy2.json::ext2-58"
+  },
+  {
+   "id": 81,
+   "topic": "Manipulative Skills",
+   "subtopic": "Neural Mobilisation",
+   "difficulty": "Hard",
+   "question": "Neural mobilisation techniques are used to:",
+   "options": {
+    "A": "Stretch the nerve forcibly",
+    "B": "Remove the nerve",
+    "C": "Restore the movement of nervous tissue relative to its mechanical interfaces",
+    "D": "Strengthen nerve"
+   },
+   "correctAnswer": "C",
+   "explanation": "Sliders and tensioners.",
+   "sourceBook": "Magee, Orthopedic Physical Assessment; Hoppenfeld, Physical Examination of the Spine and Extremities; Maitland's Peripheral/Vertebral Manipulation (chapter-level reference)",
+   "sourceChapter": "Manipulative Skills",
+   "sourcePage": null,
+   "subject": "Physical Diagnosis & Manipulative Skills",
+   "bankRef": "physical-diagnosis3.json::pd3-57"
+  },
+  {
+   "id": 82,
+   "topic": "Anxiety Disorders",
+   "subtopic": "Somatisation",
+   "difficulty": "Hard",
+   "question": "Somatisation disorder is characterised by:",
+   "options": {
+    "A": "Fixed belief of a delusional nature",
+    "B": "Fear of a single object",
+    "C": "Fabrication of symptoms for gain",
+    "D": "Multiple, recurrent physical complaints without adequate medical explanation"
+   },
+   "correctAnswer": "D",
+   "explanation": "Malingering is feigning symptoms for obvious external gain.",
+   "sourceBook": "Niraj Ahuja, A Short Textbook of Psychiatry; ICD-10/DSM-5 criteria (chapter-level reference)",
+   "sourceChapter": "Anxiety Disorders",
+   "sourcePage": null,
+   "subject": "Psychiatry",
+   "bankRef": "psychiatry2.json::psyc2-26"
+  },
+  {
+   "id": 83,
+   "topic": "Upper Limb Rehab",
+   "subtopic": "Hemiarthroplasty Humerus",
+   "difficulty": "Hard",
+   "question": "Which exercise is typically avoided early after shoulder hemiarthroplasty for fracture?",
+   "options": {
+    "A": "Elbow and wrist movements",
+    "B": "Grip exercises",
+    "C": "Pendulum exercises",
+    "D": "Active resisted internal rotation or forced extension behind the back"
+   },
+   "correctAnswer": "D",
+   "explanation": "Tuberosities need to heal.",
+   "sourceBook": "Magee, Orthopedic Physical Assessment; Kisner & Colby, Therapeutic Exercise; Brukner & Khan, Clinical Sports Medicine; Maitland's Peripheral Manipulation (chapter-level reference)",
+   "sourceChapter": "Upper Limb Rehab",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "pt-msk3.json::ptmsk3-21"
+  },
+  {
+   "id": 84,
+   "topic": "Nutrition",
+   "subtopic": "Biotin",
+   "difficulty": "Hard",
+   "question": "Raw egg white contains avidin, which causes deficiency of:",
+   "options": {
+    "A": "Folic acid",
+    "B": "Thiamine",
+    "C": "Biotin",
+    "D": "Riboflavin"
+   },
+   "correctAnswer": "C",
+   "explanation": "Biotin is a cofactor for carboxylases.",
+   "sourceBook": "U. Satyanarayana, Biochemistry; Harper's Illustrated Biochemistry (chapter-level reference)",
+   "sourceChapter": "Nutrition",
+   "sourcePage": null,
+   "subject": "Biochemistry",
+   "bankRef": "biochemistry3.json::bio3-31"
+  },
+  {
+   "id": 85,
+   "topic": "Upper Limb Biomechanics",
+   "subtopic": "Shoulder Abduction Muscles",
+   "difficulty": "Medium",
+   "question": "The force couple that produces upward rotation of the scapula during arm elevation involves:",
+   "options": {
+    "A": "Latissimus dorsi and teres major",
+    "B": "Pectoralis major and minor",
+    "C": "Rhomboids and levator scapulae",
+    "D": "Upper and lower trapezius with serratus anterior"
+   },
+   "correctAnswer": "D",
+   "explanation": "Together they rotate the glenoid upward so the humerus can elevate.",
+   "sourceBook": "Neumann, Kinesiology of the Musculoskeletal System; Kisner & Colby, Therapeutic Exercise; Daniels & Worthingham (chapter-level reference; cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination, 2e, Ch. 3 Biomechanics)",
+   "sourceChapter": "Upper Limb Biomechanics",
+   "sourcePage": null,
+   "subject": "Kinesio Therapeutics",
+   "bankRef": "kinesio3.json::kine3-11"
+  },
+  {
+   "id": 86,
+   "topic": "Cardiology Physio",
+   "subtopic": "ICD Exercise",
+   "difficulty": "Hard",
+   "question": "In a patient with an implantable cardioverter-defibrillator, exercise heart rate should be kept:",
+   "options": {
+    "A": "At least 10–20 beats below the shock threshold",
+    "B": "Above threshold",
+    "C": "Not monitored",
+    "D": "At maximal level"
+   },
+   "correctAnswer": "A",
+   "explanation": "Check device settings.",
+   "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems; ACSM Guidelines; Davidson's Principles and Practice of Medicine (chapter-level reference)",
+   "sourceChapter": "Cardiology Physio",
+   "sourcePage": null,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "pt-genmed4.json::ptgen4-46"
+  },
+  {
+   "id": 87,
+   "topic": "Toxicology",
+   "subtopic": "Organophosphate",
+   "difficulty": "Hard",
+   "question": "The antidote for organophosphate poisoning is:",
+   "options": {
+    "A": "Flumazenil",
+    "B": "Naloxone",
+    "C": "Atropine and pralidoxime",
+    "D": "N-acetylcysteine"
+   },
+   "correctAnswer": "C",
+   "explanation": "Excess cholinergic signs: salivation, bradycardia, miosis.",
+   "sourceBook": "Davidson's Principles and Practice of Medicine; Harrison's Principles of Internal Medicine (chapter-level reference)",
+   "sourceChapter": "Toxicology",
+   "sourcePage": null,
+   "subject": "Medicine",
+   "bankRef": "medicine3.json::med3-55"
+  },
+  {
+   "id": 88,
+   "topic": "Orthopaedics - Trauma",
+   "subtopic": "Jefferson Fracture",
+   "difficulty": "Hard",
+   "question": "A Jefferson fracture is a:",
+   "options": {
+    "A": "Hyperextension injury of C5",
+    "B": "Fracture of C7 spinous process",
+    "C": "Burst fracture of the ring of C1 caused by axial loading",
+    "D": "Fracture of C2 pedicles"
+   },
+   "correctAnswer": "C",
+   "explanation": "Caused by diving into shallow water.",
+   "sourceBook": "Bailey & Love's Short Practice of Surgery; Maheshwari, Essential Orthopaedics; Apley's System of Orthopaedics and Fractures (chapter-level reference)",
+   "sourceChapter": "Orthopaedics - Trauma",
+   "sourcePage": null,
+   "subject": "General Surgery & Orthopedics",
+   "bankRef": "surgery-ortho3.json::surg3-39"
+  },
+  {
+   "id": 89,
+   "topic": "Orthopaedics - Bone Disease",
+   "subtopic": "Fibrous Dysplasia",
+   "difficulty": "Hard",
+   "question": "The radiological appearance of fibrous dysplasia is:",
+   "options": {
+    "A": "Ground-glass appearance",
+    "B": "Soap bubble",
+    "C": "Sunray",
+    "D": "Onion peel"
+   },
+   "correctAnswer": "A",
+   "explanation": "Shepherd's crook deformity of the proximal femur.",
+   "sourceBook": "Bailey & Love's Short Practice of Surgery; Maheshwari, Essential Orthopaedics; Apley's System of Orthopaedics and Fractures (chapter-level reference)",
+   "sourceChapter": "Orthopaedics - Bone Disease",
+   "sourcePage": null,
+   "subject": "General Surgery & Orthopedics",
+   "bankRef": "surgery-ortho3.json::surg3-54"
+  },
+  {
+   "id": 90,
+   "topic": "Orthopaedics - Nerve Injuries",
+   "subtopic": "Tarsal Tunnel",
+   "difficulty": "Hard",
+   "question": "Tarsal tunnel syndrome involves compression of the:",
+   "options": {
+    "A": "Posterior tibial nerve behind the medial malleolus",
+    "B": "Saphenous nerve",
+    "C": "Sural nerve",
+    "D": "Peroneal nerve"
+   },
+   "correctAnswer": "A",
+   "explanation": "Burning pain in the sole and heel.",
+   "sourceBook": "Bailey & Love's Short Practice of Surgery; Maheshwari, Essential Orthopaedics; Apley's System of Orthopaedics and Fractures (chapter-level reference)",
+   "sourceChapter": "Orthopaedics - Nerve Injuries",
+   "sourcePage": null,
+   "subject": "General Surgery & Orthopedics",
+   "bankRef": "surgery-ortho3.json::surg3-60"
+  },
+  {
+   "id": 91,
+   "topic": "Cardiology",
+   "subtopic": "Digoxin Toxicity",
+   "difficulty": "Hard",
+   "question": "Which finding suggests digoxin toxicity?",
+   "options": {
+    "A": "Hypertension",
+    "B": "Nausea, visual disturbances (xanthopsia) and ventricular arrhythmias",
+    "C": "Constipation only",
+    "D": "Hyperkalaemia absent"
+   },
+   "correctAnswer": "B",
+   "explanation": "Hypokalaemia increases the risk.",
+   "sourceBook": "Davidson's Principles and Practice of Medicine; Harrison's Principles of Internal Medicine (chapter-level reference)",
+   "sourceChapter": "Cardiology",
+   "sourcePage": null,
+   "subject": "Medicine",
+   "bankRef": "medicine3.json::med3-7"
+  },
+  {
+   "id": 92,
+   "topic": "Stroke",
+   "subtopic": "Cerebellar Stroke",
+   "difficulty": "Hard",
+   "question": "A cerebellar haemorrhage presents with:",
+   "options": {
+    "A": "Hemiplegia",
+    "B": "Aphasia",
+    "C": "Seizures only",
+    "D": "Sudden vertigo, vomiting, ataxia and headache without hemiparesis"
+   },
+   "correctAnswer": "D",
+   "explanation": "Neurosurgical emergency because of brainstem compression.",
+   "sourceBook": "O'Sullivan & Schmitz, Physical Rehabilitation; Shumway-Cook & Woollacott, Motor Control; Lindsay, Neurology and Neurosurgery Illustrated (chapter-level reference)",
+   "sourceChapter": "Stroke",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "pt-neuro4.json::ptneuro4-23"
+  },
+  {
+   "id": 93,
+   "topic": "Upper Limb",
+   "subtopic": "Thenar Muscles",
+   "difficulty": "Medium",
+   "question": "Which muscle is NOT a thenar muscle?",
+   "options": {
+    "A": "Abductor pollicis brevis",
+    "B": "Adductor pollicis",
+    "C": "Opponens pollicis",
+    "D": "Flexor pollicis brevis"
+   },
+   "correctAnswer": "B",
+   "explanation": "Adductor pollicis is ulnar nerve supplied; the others are mostly median.",
+   "sourceBook": "B.D. Chaurasia's Human Anatomy; Gray's Anatomy for Students (chapter-level reference)",
+   "sourceChapter": "Upper Limb",
+   "sourcePage": null,
+   "subject": "Anatomy",
+   "bankRef": "anatomy3.json::anat3-11"
+  },
+  {
+   "id": 94,
+   "topic": "Gait Analysis",
+   "subtopic": "Elderly Gait",
+   "difficulty": "Medium",
+   "question": "Compared with young adults, elderly walkers typically show:",
+   "options": {
+    "A": "Faster cadence only",
+    "B": "Increased step length",
+    "C": "Increased push-off",
+    "D": "Reduced step length, speed and push-off with increased double support"
+   },
+   "correctAnswer": "D",
+   "explanation": "Decline in ankle power is notable.",
+   "sourceBook": "Neumann, Kinesiology of the Musculoskeletal System; Kisner & Colby, Therapeutic Exercise; Daniels & Worthingham (chapter-level reference; cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination, 2e, Ch. 3 Biomechanics)",
+   "sourceChapter": "Gait Analysis",
+   "sourcePage": null,
+   "subject": "Kinesio Therapeutics",
+   "bankRef": "kinesio3.json::kine3-55"
+  },
+  {
+   "id": 95,
+   "topic": "Obstetrics - Basics",
+   "subtopic": "Fundal Height",
+   "difficulty": "Medium",
+   "question": "At 20 weeks of gestation the uterine fundus is palpable at about the level of the:",
+   "options": {
+    "A": "Xiphisternum",
+    "B": "Symphysis pubis",
+    "C": "Umbilicus",
+    "D": "Pelvic brim"
+   },
+   "correctAnswer": "C",
+   "explanation": "At 12 weeks the fundus reaches the symphysis pubis; at 36 weeks the xiphisternum.",
+   "sourceBook": "D.C. Dutta, Textbook of Obstetrics and Textbook of Gynaecology (chapter-level reference)",
+   "sourceChapter": "Obstetrics - Basics",
+   "sourcePage": null,
+   "subject": "OBGY",
+   "bankRef": "obgy3.json::obgy3-3"
+  },
+  {
+   "id": 96,
+   "topic": "Infrared Radiation",
+   "subtopic": "Luminous Wavelength",
+   "difficulty": "Hard",
+   "question": "Luminous IR generators emit mainly radiation of wavelength:",
+   "options": {
+    "A": "Above 10,000 nm",
+    "B": "Short IR (about 770–1500 nm) with visible light",
+    "C": "Below 400 nm",
+    "D": "Microwave"
+   },
+   "correctAnswer": "B",
+   "explanation": "Penetrates to the dermis and subcutaneous tissue.",
+   "sourceBook": "Clayton's Electrotherapy; Low & Reed, Electrotherapy Explained; Kitchen, Electrotherapy: Evidence-Based Practice (chapter-level reference; cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination, 2e)",
+   "sourceChapter": "Infrared Radiation",
+   "sourcePage": null,
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "electrotherapy4.json::electro4-38"
+  },
+  {
+   "id": 97,
+   "topic": "Spinal Tests",
+   "subtopic": "Crossed SLR",
+   "difficulty": "Hard",
+   "question": "A positive crossed straight leg raise (well leg raise) reproducing pain in the opposite leg suggests:",
+   "options": {
+    "A": "Muscle strain",
+    "B": "A large central or medial disc protrusion",
+    "C": "Hamstring tightness",
+    "D": "Facet syndrome"
+   },
+   "correctAnswer": "B",
+   "explanation": "Highly specific for disc herniation.",
+   "sourceBook": "Magee, Orthopedic Physical Assessment; Hoppenfeld, Physical Examination of the Spine and Extremities; Maitland's Peripheral/Vertebral Manipulation (chapter-level reference)",
+   "sourceChapter": "Spinal Tests",
+   "sourcePage": null,
+   "subject": "Physical Diagnosis & Manipulative Skills",
+   "bankRef": "physical-diagnosis3.json::pd3-11"
+  },
+  {
+   "id": 98,
+   "topic": "Lower Limb Tests",
+   "subtopic": "Feiss Line",
+   "difficulty": "Hard",
+   "question": "The Feiss line is used to assess:",
+   "options": {
+    "A": "Tibial torsion",
+    "B": "Q-angle",
+    "C": "The height of the medial longitudinal arch",
+    "D": "Leg length"
+   },
+   "correctAnswer": "C",
+   "explanation": "A line from the medial malleolus to the first metatarsal head; the navicular should lie on it.",
+   "sourceBook": "Magee, Orthopedic Physical Assessment; Hoppenfeld, Physical Examination of the Spine and Extremities; Maitland's Peripheral/Vertebral Manipulation (chapter-level reference)",
+   "sourceChapter": "Lower Limb Tests",
+   "sourcePage": null,
+   "subject": "Physical Diagnosis & Manipulative Skills",
+   "bankRef": "physical-diagnosis3.json::pd3-38"
+  },
+  {
+   "id": 99,
+   "topic": "Cardiopulmonary Physio",
+   "subtopic": "Croup",
+   "difficulty": "Hard",
+   "question": "Croup is characterised by:",
+   "options": {
+    "A": "Wheeze",
+    "B": "Haemoptysis",
+    "C": "Productive cough",
+    "D": "Barking cough and inspiratory stridor in young children"
+   },
+   "correctAnswer": "D",
+   "explanation": "Caused by parainfluenza virus.",
+   "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems; ACSM Guidelines; Davidson's Principles and Practice of Medicine (chapter-level reference)",
+   "sourceChapter": "Cardiopulmonary Physio",
+   "sourcePage": null,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "pt-genmed4.json::ptgen4-37"
+  },
+  {
+   "id": 100,
+   "topic": "Assessment Process",
+   "subtopic": "Diagnostic Accuracy",
+   "difficulty": "Hard",
+   "question": "A special test with high sensitivity is best used to:",
+   "options": {
+    "A": "Predict recovery",
+    "B": "Rule out a condition when negative (SnNOut)",
+    "C": "Rule in a condition when positive",
+    "D": "Measure strength"
+   },
+   "correctAnswer": "B",
+   "explanation": "High specificity: SpPIn.",
+   "sourceBook": "Magee, Orthopedic Physical Assessment; Hoppenfeld, Physical Examination of the Spine and Extremities; Maitland's Peripheral/Vertebral Manipulation (chapter-level reference)",
+   "sourceChapter": "Assessment Process",
+   "sourcePage": null,
+   "subject": "Physical Diagnosis & Manipulative Skills",
+   "bankRef": "physical-diagnosis3.json::pd3-8"
+  }
+ ]
+}
