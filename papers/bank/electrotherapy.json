@@ -7,7 +7,12 @@
       "subtopic": "Impulse Duration Classification",
       "difficulty": "Medium",
       "question": "Impulses with a duration of less than 10 ms, used for stimulating normal (innervated) muscle, are classified as having:",
-      "options": { "A": "A long duration, termed interrupted direct current", "B": "A short duration, of the faradic type", "C": "No classification exists for pulse duration", "D": "A duration only used for denervated muscle" },
+      "options": {
+        "A": "A long duration, termed interrupted direct current",
+        "B": "A short duration, of the faradic type",
+        "C": "No classification exists for pulse duration",
+        "D": "A duration only used for denervated muscle"
+      },
       "correctAnswer": "B",
       "explanation": "Impulses of less than 10 ms duration are classed as short duration and are of the faradic type, used to stimulate normal innervated muscle via its motor nerve, typically repeated at a high rate of 50-100 per second.",
       "sourceBook": "Clayton's Electrotherapy",
@@ -20,7 +25,12 @@
       "subtopic": "Impulse Duration Classification",
       "difficulty": "Medium",
       "question": "Impulses with a duration of MORE than 10 ms, often termed interrupted (or modified) direct current, are specifically used to stimulate:",
-      "options": { "A": "Normal, innervated muscle via the motor nerve", "B": "Denervated muscle, where the muscle fibres must be stimulated directly (no functioning motor nerve)", "C": "Cardiac muscle exclusively", "D": "Smooth muscle only" },
+      "options": {
+        "A": "Normal, innervated muscle via the motor nerve",
+        "B": "Denervated muscle, where the muscle fibres must be stimulated directly (no functioning motor nerve)",
+        "C": "Cardiac muscle exclusively",
+        "D": "Smooth muscle only"
+      },
       "correctAnswer": "B",
       "explanation": "Long-duration impulses (>10 ms), termed interrupted or modified direct current, are used for denervated muscles — since there is no functioning motor nerve, the muscle fibres must be stimulated directly, and these impulses are repeated far less frequently than faradic-type currents (e.g. a 100 ms impulse might be repeated only about 30 times per minute).",
       "sourceBook": "Clayton's Electrotherapy",
@@ -123,7 +133,12 @@
       "subtopic": "Accommodation",
       "difficulty": "Hard",
       "question": "Because of accommodation, which type of current change is MORE effective at initiating a nerve impulse: a sudden change, or a gradual one?",
-      "options": { "A": "A sudden change in current is more effective than a gradual one", "B": "A gradual change is always more effective", "C": "Both are exactly equally effective in all cases", "D": "Neither a sudden nor gradual change can ever initiate an impulse" },
+      "options": {
+        "A": "A sudden change in current is more effective than a gradual one",
+        "B": "A gradual change is always more effective",
+        "C": "Both are exactly equally effective in all cases",
+        "D": "Neither a sudden nor gradual change can ever initiate an impulse"
+      },
       "correctAnswer": "A",
       "explanation": "Because the nerve accommodates (adapts) to slowly changing conditions, a current that rises or falls suddenly is more effective at initiating an impulse than one that changes gradually, since gradual change gives the nerve time to accommodate before the threshold is reached.",
       "sourceBook": "Clayton's Electrotherapy",
@@ -136,7 +151,12 @@
       "subtopic": "Rise vs Fall in Current",
       "difficulty": "Hard",
       "question": "While a rising current initiates an impulse most effectively at the cathode, a FALL in current (when it occurs) is more effective at initiating an impulse at which electrode?",
-      "options": { "A": "The cathode", "B": "The anode", "C": "Neither electrode is affected by a falling current", "D": "Both electrodes equally" },
+      "options": {
+        "A": "The cathode",
+        "B": "The anode",
+        "C": "Neither electrode is affected by a falling current",
+        "D": "Both electrodes equally"
+      },
       "correctAnswer": "B",
       "explanation": "A fall in current is less effective overall at initiating an impulse than a rise, but when it does have an effect, it is the anode side of the nerve that is affected — so the anode produces greater stimulation than the cathode specifically in response to a falling current, the reverse of the pattern seen with a rising current.",
       "sourceBook": "Clayton's Electrotherapy",
@@ -203,7 +223,12 @@
       "subtopic": "Effects of Frequency of Stimulation",
       "difficulty": "Medium",
       "question": "At what approximate stimulation frequency does a muscle contraction become fully tetanic, with no perceptible relaxation between successive contractions?",
-      "options": { "A": "Over 60 Hz", "B": "Under 1 Hz", "C": "Exactly 10 Hz", "D": "Frequency has no relationship to tetany" },
+      "options": {
+        "A": "Over 60 Hz",
+        "B": "Under 1 Hz",
+        "C": "Exactly 10 Hz",
+        "D": "Frequency has no relationship to tetany"
+      },
       "correctAnswer": "A",
       "explanation": "As stimulation frequency increases beyond 20 Hz, partial tetany develops; further increases progressively reduce relaxation until, at frequencies over 60 Hz, there is no perceptible relaxation between contractions and the response is fully tetanic.",
       "sourceBook": "Clayton's Electrotherapy",
@@ -245,6 +270,2400 @@
       "sourceBook": "Clayton's Electrotherapy",
       "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Effects of Nerve Stimulation",
       "sourcePage": "46"
+    },
+    {
+      "id": "electro-16",
+      "topic": "Basic Electricity",
+      "subtopic": "Mains Plug Safety",
+      "difficulty": "Easy",
+      "question": "In a three-pin mains plug, the earth pin is made longer and thicker than the live and neutral pins so that:",
+      "options": {
+        "A": "It prevents the plug from being inserted the wrong way round only",
+        "B": "It connects last so that the live pin is always energised first",
+        "C": "It carries the main treatment current to the patient",
+        "D": "It connects first when plugged in and disconnects last when removed"
+      },
+      "correctAnswer": "D",
+      "explanation": "The longer, thicker earth pin makes contact before the live and neutral pins and breaks last, so the metal casing is earthed whenever the apparatus is live. Its shape also stops the plug being inserted wrongly.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Basic Electricity",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-17",
+      "topic": "Basic Electricity",
+      "subtopic": "Fuse",
+      "difficulty": "Easy",
+      "question": "The wire used in a fuse should have:",
+      "options": {
+        "A": "A very high melting point so that it never breaks",
+        "B": "Magnetic properties so it can switch off the circuit",
+        "C": "A very low resistance and a high thermal tolerance",
+        "D": "A low melting point, so it melts when excess current flows"
+      },
+      "correctAnswer": "D",
+      "explanation": "A fuse is a deliberate weak link: its low-melting-point wire heats and melts when the current exceeds the rated value, breaking the circuit and protecting the apparatus and patient.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Basic Electricity",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-18",
+      "topic": "Basic Electricity",
+      "subtopic": "Earth Wire Colour",
+      "difficulty": "Easy",
+      "question": "The earth wire of a mains cable is conventionally coloured:",
+      "options": {
+        "A": "White only",
+        "B": "Green and yellow",
+        "C": "Black or blue",
+        "D": "Red or brown"
+      },
+      "correctAnswer": "B",
+      "explanation": "Earth is green/yellow, live is brown (formerly red) and neutral is blue (formerly black). The earth wire connects the metal casing of the apparatus to earth.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Basic Electricity",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-19",
+      "topic": "Basic Electricity",
+      "subtopic": "Rheostat",
+      "difficulty": "Easy",
+      "question": "A device used to regulate (vary) the current in a circuit by altering its resistance is called a:",
+      "options": {
+        "A": "Rheostat",
+        "B": "Transformer",
+        "C": "Diode",
+        "D": "Condenser"
+      },
+      "correctAnswer": "A",
+      "explanation": "A rheostat is a variable resistor. Changing its resistance changes the current flowing in the circuit (Ohm's law, I = V/R).",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Basic Electricity",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-20",
+      "topic": "Basic Electricity",
+      "subtopic": "Rectification",
+      "difficulty": "Easy",
+      "question": "Conversion of alternating current into direct (unidirectional) current is called rectification and is achieved with a:",
+      "options": {
+        "A": "Capacitor alone",
+        "B": "Step-up transformer",
+        "C": "Rheostat",
+        "D": "Diode (valve or semiconductor)"
+      },
+      "correctAnswer": "D",
+      "explanation": "A diode conducts in one direction only, so it removes one half of an AC cycle (half-wave) or, in a bridge, inverts it (full-wave) to produce unidirectional current.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Basic Electricity",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-21",
+      "topic": "Basic Electricity",
+      "subtopic": "Ohm's Law",
+      "difficulty": "Easy",
+      "question": "According to Ohm's law, the current flowing through a conductor at constant temperature is:",
+      "options": {
+        "A": "Directly proportional to the potential difference and inversely proportional to the resistance",
+        "B": "Inversely proportional to the potential difference",
+        "C": "Independent of the resistance",
+        "D": "Directly proportional to both the resistance and the potential difference"
+      },
+      "correctAnswer": "A",
+      "explanation": "Ohm's law: I = V/R. For a given voltage, increasing the resistance reduces the current.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Basic Electricity",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-22",
+      "topic": "Basic Electricity",
+      "subtopic": "Joule's Law",
+      "difficulty": "Medium",
+      "question": "Joule's law states that the heat produced in a conductor is proportional to:",
+      "options": {
+        "A": "The current only",
+        "B": "The voltage divided by the time",
+        "C": "The square of the current, the resistance and the time (I²Rt)",
+        "D": "The square of the resistance and the current"
+      },
+      "correctAnswer": "C",
+      "explanation": "Heat = I² × R × t. This is why a high-resistance skin interface heats under electrodes and why doubling the current quadruples the heating.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Basic Electricity",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-23",
+      "topic": "Basic Electricity",
+      "subtopic": "Capacitor",
+      "difficulty": "Easy",
+      "question": "A capacitor (condenser) is a device that:",
+      "options": {
+        "A": "Stores electrical charge",
+        "B": "Measures current",
+        "C": "Steps voltage up or down",
+        "D": "Converts AC to DC"
+      },
+      "correctAnswer": "A",
+      "explanation": "Two conducting plates separated by an insulator (dielectric) store charge. Capacitance C = Q/V.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Basic Electricity",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-24",
+      "topic": "Basic Electricity",
+      "subtopic": "Dielectric Spacing",
+      "difficulty": "Medium",
+      "question": "The insulating (spacing) material between the plates of a capacitor is chosen to have:",
+      "options": {
+        "A": "A very high conductivity",
+        "B": "A dielectric constant of zero",
+        "C": "A low specific heat only",
+        "D": "A high dielectric constant, which increases the capacitance"
+      },
+      "correctAnswer": "D",
+      "explanation": "A higher dielectric constant allows a given plate area and spacing to store more charge, i.e. increases capacitance.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Basic Electricity",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-25",
+      "topic": "Basic Electricity",
+      "subtopic": "Transformer",
+      "difficulty": "Easy",
+      "question": "In a step-up transformer:",
+      "options": {
+        "A": "The primary coil has more turns than the secondary coil",
+        "B": "Direct current is stepped up with no change in turns",
+        "C": "Primary and secondary have equal turns",
+        "D": "The secondary coil has more turns than the primary coil"
+      },
+      "correctAnswer": "D",
+      "explanation": "Voltage across the secondary ∝ number of secondary turns. A step-up transformer has more secondary turns; it works only with changing (alternating) current.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Basic Electricity",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-26",
+      "topic": "Basic Electricity",
+      "subtopic": "Lenz's Law",
+      "difficulty": "Medium",
+      "question": "Lenz's law states that:",
+      "options": {
+        "A": "Radiation intensity falls with the square of the distance",
+        "B": "An induced EMF acts in a direction that opposes the change producing it",
+        "C": "Current is proportional to voltage",
+        "D": "Heat produced is proportional to current squared"
+      },
+      "correctAnswer": "B",
+      "explanation": "The induced EMF always opposes the change in magnetic flux that causes it — the basis of self-inductance in coils and choke coils.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Basic Electricity",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-27",
+      "topic": "Basic Electricity",
+      "subtopic": "Measuring Instruments",
+      "difficulty": "Easy",
+      "question": "The instrument used to measure the intensity of current in a circuit is a/an:",
+      "options": {
+        "A": "Potentiometer, connected in series",
+        "B": "Ammeter, connected in series",
+        "C": "Voltmeter, connected in series",
+        "D": "Ohmmeter, connected in parallel"
+      },
+      "correctAnswer": "B",
+      "explanation": "An ammeter measures current and has very low resistance, so it is connected in series. A voltmeter is connected in parallel across the component.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Basic Electricity",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-28",
+      "topic": "Basic Electricity",
+      "subtopic": "Wheatstone Bridge",
+      "difficulty": "Medium",
+      "question": "An unknown electrical resistance can be determined with a:",
+      "options": {
+        "A": "Step-up transformer",
+        "B": "Ammeter alone",
+        "C": "Wheatstone bridge",
+        "D": "Diode"
+      },
+      "correctAnswer": "C",
+      "explanation": "The Wheatstone bridge balances two ratio arms against a known and an unknown resistance, so the unknown value can be calculated when the galvanometer reads zero.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Basic Electricity",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-29",
+      "topic": "Basic Electricity",
+      "subtopic": "Skin Resistance",
+      "difficulty": "Medium",
+      "question": "Skin resistance to an applied current is LOWERED by:",
+      "options": {
+        "A": "Cooling the skin",
+        "B": "Using a very low-frequency current only",
+        "C": "Warming and moistening the skin",
+        "D": "Drying the skin"
+      },
+      "correctAnswer": "C",
+      "explanation": "Unlike metals, body tissues are ionic conductors; warming and moistening reduce skin resistance. Dry, cold, hairy skin presents higher impedance.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Basic Electricity",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-30",
+      "topic": "Basic Electricity",
+      "subtopic": "Capacitive Reactance",
+      "difficulty": "Hard",
+      "question": "Why do medium-frequency currents pass through the skin more comfortably than low-frequency currents?",
+      "options": {
+        "A": "Medium-frequency currents are direct currents",
+        "B": "Skin capacitive reactance falls as frequency rises, so skin impedance is lower",
+        "C": "They are not conducted by nerves at all",
+        "D": "Skin resistance rises as frequency rises"
+      },
+      "correctAnswer": "B",
+      "explanation": "Skin behaves partly as a capacitor. Capacitive reactance = 1/(2πfC), so at higher frequencies the impedance is lower and more current penetrates with less discomfort at the skin.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Basic Electricity",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-31",
+      "topic": "Basic Electricity",
+      "subtopic": "Electric Shock",
+      "difficulty": "Easy",
+      "question": "The FIRST step in managing a patient or colleague who is still in contact with a live electrical source is to:",
+      "options": {
+        "A": "Wait for the person to let go on their own",
+        "B": "Pour water on the apparatus",
+        "C": "Switch off the supply at the mains (or safely break contact with a non-conducting object)",
+        "D": "Pull the person away with bare hands"
+      },
+      "correctAnswer": "C",
+      "explanation": "Touching a victim still in contact would pass current to the rescuer. Isolate the supply first, then assess breathing/circulation and start CPR if needed.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Basic Electricity",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-32",
+      "topic": "Basic Electricity",
+      "subtopic": "Choke Coil",
+      "difficulty": "Hard",
+      "question": "A choke coil (inductor) in a circuit mainly:",
+      "options": {
+        "A": "Opposes rapid changes in current, allowing low-frequency/steady current but impeding high-frequency alternating current",
+        "B": "Blocks direct current and passes only high frequencies",
+        "C": "Increases the voltage 10-fold",
+        "D": "Stores charge on two plates"
+      },
+      "correctAnswer": "A",
+      "explanation": "An inductor's reactance rises with frequency (X = 2πfL), so it smooths current and attenuates high-frequency components.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Basic Electricity",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-33",
+      "topic": "Electrophysiology",
+      "subtopic": "Resting Membrane Potential",
+      "difficulty": "Easy",
+      "question": "The resting membrane potential of a typical peripheral nerve fibre is about:",
+      "options": {
+        "A": "+70 mV",
+        "B": "−9 mV",
+        "C": "−70 mV (inside negative)",
+        "D": "0 mV"
+      },
+      "correctAnswer": "C",
+      "explanation": "At rest the inside of a nerve fibre is about 70 mV negative relative to the outside. Skeletal muscle fibres rest nearer −90 mV.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Electrophysiology",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-34",
+      "topic": "Electrophysiology",
+      "subtopic": "Muscle RMP",
+      "difficulty": "Easy",
+      "question": "The resting membrane potential of a skeletal muscle fibre is approximately:",
+      "options": {
+        "A": "+30 mV",
+        "B": "−50 mV",
+        "C": "−90 mV",
+        "D": "−70 mV"
+      },
+      "correctAnswer": "C",
+      "explanation": "Skeletal muscle fibres have a resting potential of about −90 mV, more negative than the −70 mV of nerve.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Electrophysiology",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-35",
+      "topic": "Electrophysiology",
+      "subtopic": "Neuromuscular Junction",
+      "difficulty": "Easy",
+      "question": "The transmitter chemical released at the neuromuscular junction is:",
+      "options": {
+        "A": "Dopamine",
+        "B": "Prostaglandin",
+        "C": "Adrenaline",
+        "D": "Acetylcholine"
+      },
+      "correctAnswer": "D",
+      "explanation": "Acetylcholine released from the motor nerve terminal binds nicotinic receptors on the motor end plate to depolarise the muscle fibre.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Electrophysiology",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-36",
+      "topic": "Electrophysiology",
+      "subtopic": "Nerve Fibre Types",
+      "difficulty": "Medium",
+      "question": "Which statement about peripheral nerve fibres is correct?",
+      "options": {
+        "A": "Conduction velocity is unrelated to fibre diameter",
+        "B": "Unmyelinated C fibres conduct faster than A fibres",
+        "C": "Small-diameter fibres have the lowest threshold to electrical stimulation",
+        "D": "Large-diameter myelinated fibres conduct fastest and have the lowest stimulation threshold"
+      },
+      "correctAnswer": "D",
+      "explanation": "Large myelinated fibres (Aα/Aβ) are excited first and conduct fastest. This is why sensory TENS and motor stimulation can be selectively recruited before pain fibres.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Electrophysiology",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-37",
+      "topic": "Electrophysiology",
+      "subtopic": "Fibre Recruitment",
+      "difficulty": "Hard",
+      "question": "Compared with voluntary contraction, electrically stimulated muscle contraction tends to recruit motor units:",
+      "options": {
+        "A": "Randomly with no relation to fibre size",
+        "B": "In a reverse (non-selective) order, with large, fast-fatiguing units recruited first",
+        "C": "In the same order, smallest first",
+        "D": "Only slow type I fibres"
+      },
+      "correctAnswer": "B",
+      "explanation": "Large-diameter axons have the lowest electrical threshold, so large fast (type II) units are activated first; this is the reverse of the size principle and explains early fatigue with electrical stimulation.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Electrophysiology",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-38",
+      "topic": "Electrophysiology",
+      "subtopic": "Electrolytic Polarity",
+      "difficulty": "Easy",
+      "question": "The reaction produced beneath the cathode when direct current is passed through the tissues is:",
+      "options": {
+        "A": "No chemical reaction occurs",
+        "B": "Neutral",
+        "C": "Alkaline (sodium hydroxide)",
+        "D": "Acidic (hydrochloric acid)"
+      },
+      "correctAnswer": "C",
+      "explanation": "Under the cathode (−) sodium hydroxide forms → alkaline reaction, which is more irritant and liquefies tissue. Under the anode (+) hydrochloric acid forms → acidic reaction, which hardens tissue.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Electrophysiology",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-39",
+      "topic": "Electrophysiology",
+      "subtopic": "Catelectrotonus",
+      "difficulty": "Medium",
+      "question": "During galvanic (direct) current application, excitability of the nerve is increased beneath the:",
+      "options": {
+        "A": "Anode (catelectrotonus)",
+        "B": "Both electrodes equally",
+        "C": "Cathode (catelectrotonus)",
+        "D": "Anode (anelectrotonus)"
+      },
+      "correctAnswer": "C",
+      "explanation": "The cathode partially depolarises the nerve, increasing excitability (catelectrotonus). The anode hyperpolarises and reduces excitability (anelectrotonus).",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Electrophysiology",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-40",
+      "topic": "Electrophysiology",
+      "subtopic": "Rheobase",
+      "difficulty": "Easy",
+      "question": "The weakest current intensity that produces a minimal visible muscle contraction when applied for an indefinitely long pulse duration is called:",
+      "options": {
+        "A": "Impedance",
+        "B": "Accommodation",
+        "C": "Rheobase",
+        "D": "Chronaxie"
+      },
+      "correctAnswer": "C",
+      "explanation": "Rheobase is the minimum intensity (of a long-duration stimulus) that evokes a threshold response. Chronaxie is the pulse duration needed at twice the rheobase.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Electrophysiology",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-41",
+      "topic": "Electrophysiology",
+      "subtopic": "Chronaxie",
+      "difficulty": "Medium",
+      "question": "Chronaxie is defined as the:",
+      "options": {
+        "A": "Longest pulse duration the muscle can tolerate",
+        "B": "Frequency at which tetanus occurs",
+        "C": "Intensity required for a 1 ms pulse",
+        "D": "Shortest pulse duration needed to excite the tissue at an intensity of twice the rheobase"
+      },
+      "correctAnswer": "D",
+      "explanation": "Chronaxie is a measure of tissue excitability; it is much longer in denervated muscle than in normal innervated muscle.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Electrophysiology",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-42",
+      "topic": "Electrophysiology",
+      "subtopic": "Accommodation",
+      "difficulty": "Hard",
+      "question": "Which type of impulse is able to stimulate denervated muscle selectively while avoiding stimulation of surrounding normal innervated muscle and sensory nerves?",
+      "options": {
+        "A": "A medium-frequency sinusoidal current",
+        "B": "A short-duration, rapidly rising faradic pulse",
+        "C": "A slowly rising, long-duration (e.g. triangular or trapezoidal) pulse",
+        "D": "High-frequency shortwave current"
+      },
+      "correctAnswer": "C",
+      "explanation": "Normal nerve accommodates to slowly rising currents and does not fire, whereas denervated muscle fibres have lost the ability to accommodate and respond to slow-rising, long-duration pulses.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Electrophysiology",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-43",
+      "topic": "Currents & Waveforms",
+      "subtopic": "Frequency Classification",
+      "difficulty": "Easy",
+      "question": "Low-frequency currents used in electrotherapy have frequencies of approximately:",
+      "options": {
+        "A": "Above 10,000 Hz",
+        "B": "1000 – 10,000 Hz",
+        "C": "Above 1 MHz only",
+        "D": "1 – 1000 Hz"
+      },
+      "correctAnswer": "D",
+      "explanation": "Low frequency: up to ~1000 Hz. Medium frequency: 1000–10,000 Hz (e.g. interferential, Russian). High frequency: above 10 kHz (shortwave, microwave).",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Currents & Waveforms",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-44",
+      "topic": "Currents & Waveforms",
+      "subtopic": "Medium Frequency",
+      "difficulty": "Easy",
+      "question": "Medium-frequency currents have a frequency of:",
+      "options": {
+        "A": "More than 10 MHz",
+        "B": "1 to 100 Hz",
+        "C": "1000 to 10,000 Hz",
+        "D": "Below 1 Hz"
+      },
+      "correctAnswer": "C",
+      "explanation": "Interferential and Russian currents are medium-frequency currents (typically carrier 2000–4000 Hz).",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Currents & Waveforms",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-45",
+      "topic": "Currents & Waveforms",
+      "subtopic": "Biphasic Pulse",
+      "difficulty": "Easy",
+      "question": "A pulse that has two opposite phases (one positive and one negative) within a single pulse is termed:",
+      "options": {
+        "A": "Monophasic",
+        "B": "Biphasic",
+        "C": "Continuous",
+        "D": "Polyphasic"
+      },
+      "correctAnswer": "B",
+      "explanation": "Monophasic pulses deviate to one side of the baseline; biphasic pulses have both a positive and negative phase. Symmetrical biphasic pulses have no net polarity.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Currents & Waveforms",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-46",
+      "topic": "Currents & Waveforms",
+      "subtopic": "Faradic Current",
+      "difficulty": "Medium",
+      "question": "The classic faradic-type current used to stimulate normal innervated muscle consists of:",
+      "options": {
+        "A": "A medium-frequency current at 2500 Hz",
+        "B": "Short-duration (<1 ms) pulses repeated at about 50–100 per second",
+        "C": "Long-duration pulses (>100 ms) repeated once per second",
+        "D": "A continuous unidirectional current"
+      },
+      "correctAnswer": "B",
+      "explanation": "Faradic-type current uses short pulses to stimulate the motor nerve, producing tetanic contraction at 50–100 Hz. It is unsuitable for denervated muscle.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Currents & Waveforms",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-47",
+      "topic": "Currents & Waveforms",
+      "subtopic": "Denervated Muscle",
+      "difficulty": "Medium",
+      "question": "Interrupted direct current of long pulse duration is used mainly to stimulate:",
+      "options": {
+        "A": "Nerve roots for pain gate control",
+        "B": "Normal innervated muscle for strengthening",
+        "C": "Spastic muscle to relax it",
+        "D": "Denervated muscle"
+      },
+      "correctAnswer": "D",
+      "explanation": "Denervated muscle has a higher chronaxie and needs long-duration pulses (tens to hundreds of ms) of adequate intensity to contract.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Currents & Waveforms",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-48",
+      "topic": "Currents & Waveforms",
+      "subtopic": "Russian Current",
+      "difficulty": "Easy",
+      "question": "The ‘Russian current’ used for strengthening muscle is characterised by:",
+      "options": {
+        "A": "Rectified 50 Hz mains current",
+        "B": "A 27.12 MHz high-frequency carrier",
+        "C": "A direct current delivered in 100 ms pulses",
+        "D": "A 2500 Hz medium-frequency carrier delivered in 50 bursts per second"
+      },
+      "correctAnswer": "D",
+      "explanation": "Kots’ Russian stimulation is a 2500 Hz sine carrier interrupted into 10 ms bursts (50 per second, 50% duty cycle), used to strengthen normal muscle.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Currents & Waveforms",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-49",
+      "topic": "Currents & Waveforms",
+      "subtopic": "Diadynamic Currents",
+      "difficulty": "Hard",
+      "question": "Diadynamic currents (Bernard) are derived from:",
+      "options": {
+        "A": "Rectified 50 Hz mains sine waves (half-wave MF at 50 Hz and full-wave DF at 100 Hz)",
+        "B": "Alternating current of 4000 Hz and 4100 Hz",
+        "C": "Shortwave diathermy at 27.12 MHz",
+        "D": "A 2500 Hz carrier"
+      },
+      "correctAnswer": "A",
+      "explanation": "Diadynamic currents use half- or full-wave rectified sinusoids — MF (monophasé fixé, 50 Hz), DF (diphasé fixé, 100 Hz), CP, LP and RS modulations. They are unidirectional with a galvanic component.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Currents & Waveforms",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-50",
+      "topic": "Currents & Waveforms",
+      "subtopic": "Polarity Effects",
+      "difficulty": "Medium",
+      "question": "Which current is described as having a prominent polarity effect and is therefore suited to iontophoresis and wound healing?",
+      "options": {
+        "A": "Continuous or pulsed monophasic (galvanic/high-voltage) current",
+        "B": "Shortwave diathermy",
+        "C": "Symmetrical biphasic faradic current",
+        "D": "Interferential current"
+      },
+      "correctAnswer": "A",
+      "explanation": "Polarity effects require unidirectional current with a net charge. Symmetrical biphasic currents have no net DC and no polarity effects.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Currents & Waveforms",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-51",
+      "topic": "Currents & Waveforms",
+      "subtopic": "HVPC",
+      "difficulty": "Medium",
+      "question": "High-voltage pulsed current (HVPC) is best described as:",
+      "options": {
+        "A": "A symmetrical biphasic square wave of long duration",
+        "B": "A continuous direct current of low voltage",
+        "C": "A twin-peak, monophasic pulse of very short duration with a low average current",
+        "D": "An alternating current at 27.12 MHz"
+      },
+      "correctAnswer": "C",
+      "explanation": "HVPC has a very high peak voltage (>150 V) but very short pulses (about 5–20 µs), so the average current is small and comfortable; it is used for oedema, wound healing and pain.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Currents & Waveforms",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-52",
+      "topic": "Interferential Therapy",
+      "subtopic": "Principle",
+      "difficulty": "Easy",
+      "question": "In interferential therapy the therapeutic low-frequency effect is produced:",
+      "options": {
+        "A": "At the skin surface by a single low-frequency current",
+        "B": "Within the tissues, where two medium-frequency currents of slightly different frequency interfere",
+        "C": "Only when direct current is used",
+        "D": "By the heat of the electrodes"
+      },
+      "correctAnswer": "B",
+      "explanation": "Two medium-frequency currents (e.g. 4000 Hz and 4100 Hz) cross in the tissues, producing an amplitude-modulated beat at the difference frequency (100 Hz) deep to the skin with less skin discomfort.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Interferential Therapy",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-53",
+      "topic": "Interferential Therapy",
+      "subtopic": "Electrode Arrangement",
+      "difficulty": "Medium",
+      "question": "A true interference pattern (endogenous IFT) in the tissues requires:",
+      "options": {
+        "A": "A quadripolar electrode arrangement with the two circuits crossing at the target",
+        "B": "A shortwave coil",
+        "C": "A single large and small electrode",
+        "D": "A bipolar arrangement with premodulated current"
+      },
+      "correctAnswer": "A",
+      "explanation": "In quadripolar technique two separate circuits cross; the interference occurs within the tissue. In bipolar mode the current is premodulated within the machine, so no true interference occurs in the tissue.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Interferential Therapy",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-54",
+      "topic": "Interferential Therapy",
+      "subtopic": "Scanning Mode",
+      "difficulty": "Medium",
+      "question": "Which IFT mode is selected to treat a diffuse area of pathology?",
+      "options": {
+        "A": "Static, unmodulated mode",
+        "B": "Single-frequency fixed mode with one electrode pair",
+        "C": "Direct current mode",
+        "D": "Scanning (vector) mode"
+      },
+      "correctAnswer": "D",
+      "explanation": "Scanning (‘vector’) mode rotates the interference field so the treatment covers a wider and less well-defined area.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Interferential Therapy",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-55",
+      "topic": "Interferential Therapy",
+      "subtopic": "Beat Frequency",
+      "difficulty": "Medium",
+      "question": "For pain relief through the gate-control mechanism, the beat frequency of IFT is usually set at about:",
+      "options": {
+        "A": "500 Hz",
+        "B": "10,000 Hz",
+        "C": "80–100 Hz",
+        "D": "1–2 Hz"
+      },
+      "correctAnswer": "C",
+      "explanation": "High beat frequencies (~80–100 Hz) favour the segmental gate mechanism; low frequencies (2–10 Hz) favour endorphin-mediated pain relief and muscle contraction.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Interferential Therapy",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-56",
+      "topic": "TENS",
+      "subtopic": "Conventional TENS",
+      "difficulty": "Easy",
+      "question": "Conventional TENS is characterised by:",
+      "options": {
+        "A": "High frequency (~50–100 Hz) and low (sensory) intensity",
+        "B": "Low frequency and high intensity producing muscle twitches",
+        "C": "High frequency and high intensity",
+        "D": "Direct current at a very low frequency"
+      },
+      "correctAnswer": "A",
+      "explanation": "Conventional TENS stimulates large Aβ fibres to activate the pain gate; patients feel a comfortable paraesthesia without muscle contraction.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "TENS",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-57",
+      "topic": "TENS",
+      "subtopic": "Acupuncture-like TENS",
+      "difficulty": "Medium",
+      "question": "Acupuncture-like TENS differs from conventional TENS in that it uses:",
+      "options": {
+        "A": "Low frequency (2–4 Hz) with high intensity producing visible muscle twitching, acting via endogenous opioids",
+        "B": "Very high frequency with sensory-only intensity",
+        "C": "Direct current only",
+        "D": "A frequency above 10 kHz"
+      },
+      "correctAnswer": "A",
+      "explanation": "Low-rate, strong stimulation releases beta-endorphin and encephalins; analgesia has a slower onset but longer duration than conventional TENS.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "TENS",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-58",
+      "topic": "TENS",
+      "subtopic": "Contraindications",
+      "difficulty": "Easy",
+      "question": "TENS should NOT be applied:",
+      "options": {
+        "A": "For post-operative wound pain at a distance from the wound",
+        "B": "Over the carotid sinus or in a patient with a demand-type cardiac pacemaker",
+        "C": "To an arthritic knee",
+        "D": "For pain in labour on the lower back"
+      },
+      "correctAnswer": "B",
+      "explanation": "Absolute cautions for TENS: demand pacemakers, over the carotid sinus, over the anterior neck, eyes, pregnant uterus (except back in labour), and areas of impaired sensation or thrombosis.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "TENS",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-59",
+      "topic": "Iontophoresis",
+      "subtopic": "Ion Delivery",
+      "difficulty": "Medium",
+      "question": "The quantity of ions delivered by iontophoresis is chiefly determined by the:",
+      "options": {
+        "A": "Current intensity multiplied by treatment time (mA·min)",
+        "B": "Frequency of the current alone",
+        "C": "Colour of the electrodes",
+        "D": "Room temperature"
+      },
+      "correctAnswer": "A",
+      "explanation": "Faraday’s law: the amount of substance transported is proportional to the charge passed, i.e. current × time. Typical doses are 40–80 mA·min.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Iontophoresis",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-60",
+      "topic": "Iontophoresis",
+      "subtopic": "Choice of Ion",
+      "difficulty": "Hard",
+      "question": "Which ion is delivered from the negative electrode (cathode) to soften adherent scar tissue?",
+      "options": {
+        "A": "Chloride",
+        "B": "Lidocaine (positive ion)",
+        "C": "Calcium",
+        "D": "Zinc"
+      },
+      "correctAnswer": "A",
+      "explanation": "Chloride is negatively charged and repelled from the cathode; used for scar and adhesions. Acetate (negative) is used for calcific deposits. Zinc and lidocaine are positive ions delivered from the anode.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Iontophoresis",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-61",
+      "topic": "Iontophoresis",
+      "subtopic": "Acetic Acid",
+      "difficulty": "Hard",
+      "question": "Acetic acid iontophoresis for calcific tendinitis relies on delivering which ion?",
+      "options": {
+        "A": "Sodium, from the negative electrode",
+        "B": "Acetate, from the negative electrode",
+        "C": "Hydrogen, from the negative electrode",
+        "D": "Acetate, from the positive electrode"
+      },
+      "correctAnswer": "B",
+      "explanation": "Acetate is an anion; like charges repel, so it is driven into tissue from the cathode, where it may help dissolve calcium deposits.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Iontophoresis",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-62",
+      "topic": "Electrodiagnosis",
+      "subtopic": "S-D Curve",
+      "difficulty": "Medium",
+      "question": "In a complete lesion of the motor nerve the strength-duration curve:",
+      "options": {
+        "A": "Shifts to the right and upward with no kink, and chronaxie is prolonged",
+        "B": "Shows two kinks only in innervated muscle",
+        "C": "Shifts to the left",
+        "D": "Remains identical to normal"
+      },
+      "correctAnswer": "A",
+      "explanation": "A denervated muscle needs longer pulse durations and higher intensities, so the curve moves right and up; a kink indicates partial denervation. The curve helps judge the degree of denervation.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Electrodiagnosis",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-63",
+      "topic": "Electrodiagnosis",
+      "subtopic": "Reaction of Degeneration",
+      "difficulty": "Hard",
+      "question": "A characteristic finding in reaction of degeneration on galvanic testing is:",
+      "options": {
+        "A": "Absent response to direct current in all cases",
+        "B": "Cathodal closing contraction much greater than anodal closing contraction with brisk response",
+        "C": "Polarity reversal — anodal closing contraction becomes equal to or greater than cathodal closing contraction",
+        "D": "Brisk contraction to faradic stimulation"
+      },
+      "correctAnswer": "C",
+      "explanation": "In normal muscle CCC > ACC with brisk twitches. In RD, contraction is sluggish (vermicular), faradic response is lost and ACC ≥ CCC (polarity reversal).",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Electrodiagnosis",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-64",
+      "topic": "Electrodiagnosis",
+      "subtopic": "EMG Basics",
+      "difficulty": "Easy",
+      "question": "Insertional activity on needle EMG is seen in:",
+      "options": {
+        "A": "Only myopathic muscle",
+        "B": "Only completely denervated muscle",
+        "C": "Skin and subcutaneous fat",
+        "D": "Normal innervated muscle (a brief burst on needle movement)"
+      },
+      "correctAnswer": "D",
+      "explanation": "Normal muscle shows brief insertional activity lasting less than a second, followed by electrical silence at rest.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Electrodiagnosis",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-65",
+      "topic": "Electrodiagnosis",
+      "subtopic": "Denervation EMG",
+      "difficulty": "Medium",
+      "question": "Spontaneous fibrillation potentials and positive sharp waves at rest on EMG, appearing about 2–3 weeks after injury, indicate:",
+      "options": {
+        "A": "Myasthenia gravis",
+        "B": "Normal muscle",
+        "C": "Denervation of muscle fibres",
+        "D": "Upper motor neurone lesion only"
+      },
+      "correctAnswer": "C",
+      "explanation": "Denervated muscle fibres become hypersensitive to acetylcholine and fire spontaneously; fibrillations and positive sharp waves are the typical findings at rest.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Electrodiagnosis",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-66",
+      "topic": "Electrodiagnosis",
+      "subtopic": "Polyphasic Potentials",
+      "difficulty": "Medium",
+      "question": "An EMG motor unit potential is termed polyphasic when it has:",
+      "options": {
+        "A": "More than four phases",
+        "B": "No phases but only a baseline",
+        "C": "Exactly three phases",
+        "D": "Exactly two phases"
+      },
+      "correctAnswer": "A",
+      "explanation": "Normal motor unit potentials are bi- or triphasic (up to four phases). Polyphasic potentials occur in reinnervation (long, large) and in myopathy (short, small).",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Electrodiagnosis",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-67",
+      "topic": "Electrodiagnosis",
+      "subtopic": "Myopathy EMG",
+      "difficulty": "Hard",
+      "question": "The classical needle-EMG finding in a primary myopathy is:",
+      "options": {
+        "A": "Short-duration, low-amplitude polyphasic motor unit potentials with early full recruitment",
+        "B": "Fasciculations as the only abnormal finding",
+        "C": "Giant, long-duration motor unit potentials with reduced recruitment",
+        "D": "Complete electrical silence on voluntary effort"
+      },
+      "correctAnswer": "A",
+      "explanation": "In myopathy muscle fibres drop out from each motor unit, so potentials become small and brief; many units are needed for little force, giving early recruitment.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Electrodiagnosis",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-68",
+      "topic": "Electrodiagnosis",
+      "subtopic": "Nerve Conduction Velocity",
+      "difficulty": "Easy",
+      "question": "The normal motor nerve conduction velocity in the upper limb is approximately:",
+      "options": {
+        "A": "150–200 m/s",
+        "B": "5–10 m/s",
+        "C": "50–70 m/s",
+        "D": "1–2 m/s"
+      },
+      "correctAnswer": "C",
+      "explanation": "Upper limb motor conduction velocity is typically 50–70 m/s; lower limb values are lower (about 40–50 m/s) and decrease with cooling and age.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Electrodiagnosis",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-69",
+      "topic": "Electrodiagnosis",
+      "subtopic": "H-Reflex",
+      "difficulty": "Hard",
+      "question": "The H-reflex is clinically used to assess conduction through:",
+      "options": {
+        "A": "The S1 root (via the tibial nerve to soleus)",
+        "B": "The facial nerve only",
+        "C": "The C5 root via musculocutaneous nerve",
+        "D": "The phrenic nerve"
+      },
+      "correctAnswer": "A",
+      "explanation": "The H-reflex is the electrical analogue of the ankle jerk: a monosynaptic reflex through the S1 segment. A delayed or absent H-reflex suggests S1 radiculopathy or neuropathy.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Electrodiagnosis",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-70",
+      "topic": "Superficial Heat",
+      "subtopic": "Heat Transfer",
+      "difficulty": "Easy",
+      "question": "Transfer of heat through a fluid such as moving water or air is called:",
+      "options": {
+        "A": "Conduction",
+        "B": "Convection",
+        "C": "Evaporation",
+        "D": "Radiation"
+      },
+      "correctAnswer": "B",
+      "explanation": "Convection is heat transfer by movement of fluid; conduction is by direct contact; radiation by electromagnetic waves; evaporation takes latent heat from the surface.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Superficial Heat",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-71",
+      "topic": "Superficial Heat",
+      "subtopic": "Heat Loss in Exercise",
+      "difficulty": "Medium",
+      "question": "During exercise in a hot, humid environment the principal mechanism of body heat loss is:",
+      "options": {
+        "A": "Convection to still air only",
+        "B": "Radiation only",
+        "C": "Conduction to the floor",
+        "D": "Evaporation of sweat"
+      },
+      "correctAnswer": "D",
+      "explanation": "Evaporation is the main route of heat loss during exercise; it becomes ineffective in high humidity, raising the risk of heat illness.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Superficial Heat",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-72",
+      "topic": "Superficial Heat",
+      "subtopic": "Latent Heat",
+      "difficulty": "Medium",
+      "question": "The energy absorbed or released when a substance changes state without a change in temperature is called:",
+      "options": {
+        "A": "Kinetic energy",
+        "B": "Specific heat",
+        "C": "Latent heat",
+        "D": "Thermal conductivity"
+      },
+      "correctAnswer": "C",
+      "explanation": "Latent heat is the energy needed for a change of state (e.g. water to vapour); it explains the cooling effect of vapocoolant sprays and evaporation.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Superficial Heat",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-73",
+      "topic": "Superficial Heat",
+      "subtopic": "Van't Hoff's Law",
+      "difficulty": "Medium",
+      "question": "Van't Hoff's law relates to the therapeutic effect of heat by stating that:",
+      "options": {
+        "A": "The rate of a chemical reaction (metabolic rate) increases about two to three times for each 10 °C rise in temperature",
+        "B": "Current is proportional to voltage",
+        "C": "Absorbed radiation produces a chemical change only when it penetrates",
+        "D": "Heat produced is proportional to current squared"
+      },
+      "correctAnswer": "A",
+      "explanation": "Van't Hoff's law underlies the increase in tissue metabolism with heating, which increases demand for oxygen and promotes repair.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Superficial Heat",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-74",
+      "topic": "Superficial Heat",
+      "subtopic": "Thermal Conductivity",
+      "difficulty": "Medium",
+      "question": "Which tissue has the LOWEST thermal conductivity and so insulates the underlying tissues from superficial heat?",
+      "options": {
+        "A": "Blood-filled tissue",
+        "B": "Skin",
+        "C": "Fat",
+        "D": "Muscle"
+      },
+      "correctAnswer": "C",
+      "explanation": "Fat is a poor conductor; heat applied to a thick fatty layer penetrates less, and is retained within the fat, increasing the risk of superficial burns.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Superficial Heat",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-75",
+      "topic": "Superficial Heat",
+      "subtopic": "Moist Heat Pack",
+      "difficulty": "Easy",
+      "question": "A hot (hydrocollator) pack is applied with several layers of towelling between the pack and the skin mainly to:",
+      "options": {
+        "A": "Prevent burns by insulating the skin from excessive heat",
+        "B": "Increase the temperature of the pack",
+        "C": "Reduce the specific heat of water",
+        "D": "Sterilise the skin"
+      },
+      "correctAnswer": "A",
+      "explanation": "Towel layers (6–8) insulate the skin and let the heat build up gradually; the patient should never lie on the pack.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Superficial Heat",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-76",
+      "topic": "Superficial Heat",
+      "subtopic": "Paraffin Wax Bath",
+      "difficulty": "Easy",
+      "question": "A paraffin wax bath is particularly suitable for:",
+      "options": {
+        "A": "Deep heating of the hip joint",
+        "B": "Open, infected wounds",
+        "C": "Areas of impaired skin sensation",
+        "D": "Painful stiff small joints of the hands in rheumatoid arthritis"
+      },
+      "correctAnswer": "D",
+      "explanation": "Wax gives comfortable conductive heat in a layered glove over irregular surfaces such as the hand, relieving pain and stiffness; it is contraindicated over open wounds and in impaired sensation.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Superficial Heat",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-77",
+      "topic": "Superficial Heat",
+      "subtopic": "Wax-Mineral Oil Ratio",
+      "difficulty": "Medium",
+      "question": "In a wax bath, paraffin wax is commonly mixed with liquid paraffin (mineral oil) in the ratio:",
+      "options": {
+        "A": "1 : 1",
+        "B": "1 : 7",
+        "C": "7 : 1",
+        "D": "20 : 1"
+      },
+      "correctAnswer": "C",
+      "explanation": "Seven parts wax to one part liquid paraffin lowers the melting point to about 54 °C, so a tolerable temperature produces a skin-conforming coating.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Superficial Heat",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-78",
+      "topic": "Superficial Heat",
+      "subtopic": "Wax Bath Safety",
+      "difficulty": "Easy",
+      "question": "A paraffin wax bath at about 50–55 °C does not usually burn the patient because wax has:",
+      "options": {
+        "A": "A low specific heat and low thermal conductivity",
+        "B": "A high specific heat",
+        "C": "A very high thermal conductivity",
+        "D": "No latent heat"
+      },
+      "correctAnswer": "A",
+      "explanation": "Wax has a low specific heat and is a poor conductor, so only a small amount of heat is transferred to the skin; a thin layer solidifies and insulates.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Superficial Heat",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-79",
+      "topic": "Superficial Heat",
+      "subtopic": "Fluidotherapy",
+      "difficulty": "Medium",
+      "question": "Fluidotherapy is a form of:",
+      "options": {
+        "A": "Cold water immersion",
+        "B": "Ultraviolet therapy",
+        "C": "Dry heat using a warm air-suspended bed of fine particles",
+        "D": "Short-wave diathermy"
+      },
+      "correctAnswer": "C",
+      "explanation": "Fluidotherapy circulates warm air through finely divided cellulose particles that behave like a fluid, giving dry heat with massage-like stimulation.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Superficial Heat",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-80",
+      "topic": "Superficial Heat",
+      "subtopic": "Contrast Bath",
+      "difficulty": "Medium",
+      "question": "A contrast bath in the upper or lower limb is traditionally applied as:",
+      "options": {
+        "A": "10 minutes cold and 1 minute hot",
+        "B": "30 seconds hot and 10 seconds cold",
+        "C": "Continuous warm immersion for 60 minutes",
+        "D": "About 3–4 minutes of warm immersion alternating with about 1 minute of cold"
+      },
+      "correctAnswer": "D",
+      "explanation": "Alternating vasodilatation and vasoconstriction (the ‘pump’ effect) is thought to help in subacute oedema and stiffness; the usual ratio is 4:1 hot:cold.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Superficial Heat",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-81",
+      "topic": "Superficial Heat",
+      "subtopic": "Contraindications to Heat",
+      "difficulty": "Easy",
+      "question": "Superficial heat should be avoided over:",
+      "options": {
+        "A": "Chronic muscle spasm",
+        "B": "Subacute low back pain",
+        "C": "A stiff, painful but normally sensate hand",
+        "D": "Areas of impaired skin sensation or impaired circulation"
+      },
+      "correctAnswer": "D",
+      "explanation": "Burns result when the patient cannot sense or respond to excessive heat; other cautions are acute inflammation, bleeding and malignancy.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Superficial Heat",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-82",
+      "topic": "Infrared Radiation",
+      "subtopic": "Spectrum",
+      "difficulty": "Easy",
+      "question": "Infrared radiation lies in the electromagnetic spectrum:",
+      "options": {
+        "A": "At a shorter wavelength than ultraviolet",
+        "B": "Between microwaves and radio waves",
+        "C": "Between ultraviolet and X-rays",
+        "D": "Between visible light and microwaves (about 700 nm to 1 mm)"
+      },
+      "correctAnswer": "D",
+      "explanation": "Infrared has longer wavelengths than visible red light. Therapeutically, 750 nm – 400,000 nm is commonly quoted.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Infrared Radiation",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-83",
+      "topic": "Infrared Radiation",
+      "subtopic": "Luminous vs Non-luminous",
+      "difficulty": "Medium",
+      "question": "Compared with non-luminous infrared generators, luminous generators:",
+      "options": {
+        "A": "Produce no visible light",
+        "B": "Take longer to warm up",
+        "C": "Emit longer wavelengths absorbed in the outer epidermis only",
+        "D": "Emit shorter-wavelength IR that penetrates a little deeper, along with visible light, and need no warm-up"
+      },
+      "correctAnswer": "D",
+      "explanation": "Luminous IR lamps (filament lamps) emit visible and near-IR radiation (to ~ 5–10 mm); non-luminous generators use heated elements, emit longer wavelengths absorbed superficially and require 5–10 minutes to warm up.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Infrared Radiation",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-84",
+      "topic": "Infrared Radiation",
+      "subtopic": "Inverse Square Law",
+      "difficulty": "Easy",
+      "question": "The inverse square law states that the intensity of radiation at a surface is:",
+      "options": {
+        "A": "Directly proportional to the distance",
+        "B": "Inversely proportional to the square of the distance from the source",
+        "C": "Independent of distance",
+        "D": "Proportional to the square of the distance"
+      },
+      "correctAnswer": "B",
+      "explanation": "Doubling the distance of an IR or UV lamp reduces the intensity to one quarter, which is why lamp distance must be measured and reproduced.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Infrared Radiation",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-85",
+      "topic": "Infrared Radiation",
+      "subtopic": "Cosine Law",
+      "difficulty": "Medium",
+      "question": "According to Lambert's cosine law, absorption of radiation at a surface is maximal when the rays strike it:",
+      "options": {
+        "A": "At an angle of 45°",
+        "B": "Through a mirror only",
+        "C": "Parallel to the surface",
+        "D": "At right angles (perpendicular) to the surface"
+      },
+      "correctAnswer": "D",
+      "explanation": "Maximum intensity is received when the beam is perpendicular to the surface; reduces with the cosine of the angle of incidence.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Infrared Radiation",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-86",
+      "topic": "Infrared Radiation",
+      "subtopic": "Grotthus-Draper Law",
+      "difficulty": "Medium",
+      "question": "The Grotthus–Draper law states that:",
+      "options": {
+        "A": "Radiation intensity falls with the square of the distance",
+        "B": "Metabolic rate doubles for each 10 °C rise",
+        "C": "Only radiation that is absorbed by the tissue can produce an effect in it",
+        "D": "Heat produced is proportional to I²Rt"
+      },
+      "correctAnswer": "C",
+      "explanation": "For any physiological effect, radiation must be absorbed; reflected or transmitted radiation produces no effect.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Infrared Radiation",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-87",
+      "topic": "Shortwave Diathermy",
+      "subtopic": "Frequency",
+      "difficulty": "Easy",
+      "question": "The most commonly used frequency for therapeutic shortwave diathermy (SWD) is:",
+      "options": {
+        "A": "50 Hz",
+        "B": "1 MHz",
+        "C": "2450 MHz",
+        "D": "27.12 MHz (wavelength about 11 m)"
+      },
+      "correctAnswer": "D",
+      "explanation": "SWD uses 27.12 MHz (11 m); 13.56 MHz and 40.68 MHz are also allocated. 2450 MHz belongs to microwave diathermy.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Shortwave Diathermy",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-88",
+      "topic": "Shortwave Diathermy",
+      "subtopic": "Meaning of Diathermy",
+      "difficulty": "Easy",
+      "question": "The word ‘diathermy’ literally means:",
+      "options": {
+        "A": "Cold application",
+        "B": "Light therapy",
+        "C": "Through heat (heating through and through)",
+        "D": "Superficial heat"
+      },
+      "correctAnswer": "C",
+      "explanation": "Dia = through, therme = heat. It denotes deep heating of tissue by high-frequency currents.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Shortwave Diathermy",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-89",
+      "topic": "Shortwave Diathermy",
+      "subtopic": "Capacitor Field Method",
+      "difficulty": "Medium",
+      "question": "In the capacitor-field method of SWD the tissues are placed between two electrodes and the dominant heating effect is in tissues of:",
+      "options": {
+        "A": "Bone marrow",
+        "B": "Low impedance such as muscle only",
+        "C": "Air-filled structures only",
+        "D": "High impedance such as fat and superficial structures"
+      },
+      "correctAnswer": "D",
+      "explanation": "In an electric field, heating is greatest in tissues with high resistance (fat, skin), so the capacitor-field method heats subcutaneous fat first; in the inductive method, high-conductivity tissue (muscle) heats more via eddy currents.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Shortwave Diathermy",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-90",
+      "topic": "Shortwave Diathermy",
+      "subtopic": "Inductive (Cable) Method",
+      "difficulty": "Medium",
+      "question": "In the inductive (cable/coil) method of SWD, heat is primarily produced by:",
+      "options": {
+        "A": "Conduction from a heated electrode",
+        "B": "Eddy currents induced in tissues of high conductivity such as muscle",
+        "C": "Absorption of infrared radiation",
+        "D": "Piezoelectric vibration"
+      },
+      "correctAnswer": "B",
+      "explanation": "A coil carrying high-frequency current creates a changing magnetic field that induces eddy currents in tissues with a high water and ion content.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Shortwave Diathermy",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-91",
+      "topic": "Shortwave Diathermy",
+      "subtopic": "Electrode Placement",
+      "difficulty": "Medium",
+      "question": "To achieve deep heating by the capacitor-field method the electrodes are placed:",
+      "options": {
+        "A": "Side by side on the same surface (coplanar)",
+        "B": "Directly on bare skin with no spacing",
+        "C": "On opposite sides of the part (contraplanar)",
+        "D": "One electrode on the skin and the other on the wall"
+      },
+      "correctAnswer": "C",
+      "explanation": "Contraplanar placement makes the field pass through the part, treating deeper tissues; coplanar placement is used for superficial lesions.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Shortwave Diathermy",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-92",
+      "topic": "Shortwave Diathermy",
+      "subtopic": "Different-sized Electrodes",
+      "difficulty": "Hard",
+      "question": "If different-sized electrodes are used in the coplanar method, the heating effect is:",
+      "options": {
+        "A": "Equal under both electrodes",
+        "B": "Concentrated under the smaller electrode, where field density is higher",
+        "C": "Absent",
+        "D": "Concentrated under the larger electrode"
+      },
+      "correctAnswer": "B",
+      "explanation": "A smaller electrode gives a higher field density, hence more heating beneath it. Equal-sized electrodes give an even distribution.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Shortwave Diathermy",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-93",
+      "topic": "Shortwave Diathermy",
+      "subtopic": "Electrode Spacing",
+      "difficulty": "Medium",
+      "question": "In SWD the spacing between the electrode and the skin should be made of material with:",
+      "options": {
+        "A": "No insulating property",
+        "B": "A high dielectric constant such as water",
+        "C": "A metallic surface",
+        "D": "A low dielectric constant (e.g. air, felt or foam)"
+      },
+      "correctAnswer": "D",
+      "explanation": "Spacers of low dielectric constant (air, felt) ensure the field spreads into the tissue and avoid concentrating heat in the superficial fat.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Shortwave Diathermy",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-94",
+      "topic": "Shortwave Diathermy",
+      "subtopic": "Contraindications",
+      "difficulty": "Easy",
+      "question": "SWD should NOT be applied to a patient with:",
+      "options": {
+        "A": "Chronic osteoarthritis of the knee",
+        "B": "A subacute ankle sprain",
+        "C": "A cardiac pacemaker or metal implants in the field",
+        "D": "A tight, stiff lumbar muscle"
+      },
+      "correctAnswer": "C",
+      "explanation": "Metal implants and pacemakers concentrate or are disturbed by the field; other contraindications include pregnancy, malignancy, impaired circulation or sensation, haemorrhage, and moisture over the field.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Shortwave Diathermy",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-95",
+      "topic": "Shortwave Diathermy",
+      "subtopic": "Pulsed SWD",
+      "difficulty": "Hard",
+      "question": "The thermal effect of pulsed shortwave diathermy becomes evident when the mean power output exceeds about:",
+      "options": {
+        "A": "0.1 W",
+        "B": "50 W",
+        "C": "500 W",
+        "D": "5 W"
+      },
+      "correctAnswer": "D",
+      "explanation": "Pulsed SWD with a mean power under about 5 W is considered athermal; above this level heating occurs. Pulsed energy is chosen for acute conditions.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Shortwave Diathermy",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-96",
+      "topic": "Microwave Diathermy",
+      "subtopic": "Frequency",
+      "difficulty": "Easy",
+      "question": "The frequency of microwave diathermy used therapeutically is:",
+      "options": {
+        "A": "27.12 MHz",
+        "B": "1 MHz",
+        "C": "2450 MHz (wavelength 12.25 cm)",
+        "D": "50 Hz"
+      },
+      "correctAnswer": "C",
+      "explanation": "Microwaves occupy 300 MHz–30 GHz; therapeutic units use 2450 MHz (12.25 cm), 915 MHz or 433.9 MHz.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Microwave Diathermy",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-97",
+      "topic": "Microwave Diathermy",
+      "subtopic": "Generator",
+      "difficulty": "Medium",
+      "question": "Microwaves for diathermy are generated by a:",
+      "options": {
+        "A": "Rheostat",
+        "B": "Triangular wave generator",
+        "C": "Magnetron",
+        "D": "Piezoelectric crystal"
+      },
+      "correctAnswer": "C",
+      "explanation": "A magnetron produces the very high frequencies required; waves are radiated by a directed emitter.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Microwave Diathermy",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-98",
+      "topic": "Microwave Diathermy",
+      "subtopic": "Absorption",
+      "difficulty": "Medium",
+      "question": "Microwave energy is absorbed MOST by tissues with a:",
+      "options": {
+        "A": "High air content",
+        "B": "High fat content",
+        "C": "High bone content",
+        "D": "High water content, such as muscle"
+      },
+      "correctAnswer": "D",
+      "explanation": "Water molecules absorb microwaves strongly, so muscle heats preferentially; fat and bone are heated less.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Microwave Diathermy",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-99",
+      "topic": "Microwave Diathermy",
+      "subtopic": "Contraindication",
+      "difficulty": "Easy",
+      "question": "Which structure requires special protection during microwave diathermy near the head?",
+      "options": {
+        "A": "The patella",
+        "B": "The eyes",
+        "C": "The coccyx",
+        "D": "The big toe"
+      },
+      "correctAnswer": "B",
+      "explanation": "The lens of the eye has little blood flow to dissipate heat; microwave exposure can cause cataract, so patients need protective goggles and the eyes must be avoided.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Microwave Diathermy",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-100",
+      "topic": "Ultrasound",
+      "subtopic": "Generation",
+      "difficulty": "Easy",
+      "question": "Therapeutic ultrasound is produced by the:",
+      "options": {
+        "A": "Reverse piezoelectric effect in a crystal",
+        "B": "Electromagnetic induction",
+        "C": "Thermionic emission",
+        "D": "Direct piezoelectric effect only"
+      },
+      "correctAnswer": "A",
+      "explanation": "An alternating voltage applied to a piezoelectric crystal (quartz, barium titanate, lead zirconate titanate) makes it vibrate at the same frequency, producing sound waves.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultrasound",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-101",
+      "topic": "Ultrasound",
+      "subtopic": "Frequency",
+      "difficulty": "Easy",
+      "question": "The frequencies commonly used in therapeutic ultrasound are:",
+      "options": {
+        "A": "100 MHz and 300 MHz",
+        "B": "50 Hz and 100 Hz",
+        "C": "1 MHz and 3 MHz",
+        "D": "10 kHz and 20 kHz"
+      },
+      "correctAnswer": "C",
+      "explanation": "1 MHz penetrates deeper (about 3–5 cm); 3 MHz is absorbed in the superficial 1–2 cm.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultrasound",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-102",
+      "topic": "Ultrasound",
+      "subtopic": "Frequency vs Depth",
+      "difficulty": "Medium",
+      "question": "Compared with 1 MHz ultrasound, 3 MHz ultrasound is:",
+      "options": {
+        "A": "Not absorbed at all",
+        "B": "Unable to heat tissue",
+        "C": "Absorbed deeper and used for the hip joint",
+        "D": "Absorbed more superficially and used for shallow structures"
+      },
+      "correctAnswer": "D",
+      "explanation": "Absorption increases with frequency; therefore 3 MHz is attenuated more rapidly and suits superficial tendons and joints.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultrasound",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-103",
+      "topic": "Ultrasound",
+      "subtopic": "Intensity Unit",
+      "difficulty": "Easy",
+      "question": "Ultrasound intensity is expressed in:",
+      "options": {
+        "A": "Joules per metre",
+        "B": "Watts per square centimetre (W/cm²)",
+        "C": "Hertz",
+        "D": "Volts"
+      },
+      "correctAnswer": "B",
+      "explanation": "Intensity = power (W) / effective radiating area (cm²). Typical therapeutic range is 0.1–2.0 W/cm².",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultrasound",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-104",
+      "topic": "Ultrasound",
+      "subtopic": "Duty Cycle",
+      "difficulty": "Medium",
+      "question": "A pulsed ultrasound output with a duty cycle of 20% corresponds to a mark : space ratio of:",
+      "options": {
+        "A": "1 : 2",
+        "B": "2 : 5",
+        "C": "1 : 4",
+        "D": "1 : 8"
+      },
+      "correctAnswer": "C",
+      "explanation": "Duty cycle = on time / (on + off) = 1/(1+4) = 20%. A 1:1 ratio is a 50% duty cycle.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultrasound",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-105",
+      "topic": "Ultrasound",
+      "subtopic": "Coupling Medium",
+      "difficulty": "Easy",
+      "question": "A coupling medium (gel) is used with the ultrasound transducer in order to:",
+      "options": {
+        "A": "Increase the heat of the gel",
+        "B": "Convert ultrasound into electrical current",
+        "C": "Reflect the ultrasound back into the machine",
+        "D": "Eliminate air between the transducer and the skin so the energy is transmitted"
+      },
+      "correctAnswer": "D",
+      "explanation": "Air reflects almost all ultrasound; gel (or water) ensures acoustic contact.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultrasound",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-106",
+      "topic": "Ultrasound",
+      "subtopic": "Water Immersion Technique",
+      "difficulty": "Medium",
+      "question": "When treating an irregular surface such as the ankle with the underwater technique, the transducer is held:",
+      "options": {
+        "A": "At a distance of 30 cm",
+        "B": "About 1–2 cm from the skin, with no contact and moved slowly",
+        "C": "In firm contact with the skin",
+        "D": "On the far wall of the tank"
+      },
+      "correctAnswer": "B",
+      "explanation": "The transducer is kept close to but not touching the skin; the treated part and transducer are both in degassed water. Bubbles must be wiped off the skin.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultrasound",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-107",
+      "topic": "Ultrasound",
+      "subtopic": "Attenuation",
+      "difficulty": "Medium",
+      "question": "The decrease in intensity of an ultrasound beam as it travels through tissue, due to absorption and scattering, is termed:",
+      "options": {
+        "A": "Acoustic streaming",
+        "B": "Cavitation",
+        "C": "Attenuation",
+        "D": "Piezoelectricity"
+      },
+      "correctAnswer": "C",
+      "explanation": "Attenuation = absorption + scattering (+ reflection) of the beam; higher frequencies are attenuated more.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultrasound",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-108",
+      "topic": "Ultrasound",
+      "subtopic": "Acoustic Streaming",
+      "difficulty": "Medium",
+      "question": "Unidirectional movement of fluid along the surface of a cell membrane caused by the ultrasound field is called:",
+      "options": {
+        "A": "Acoustic streaming",
+        "B": "Absorption",
+        "C": "Cavitation",
+        "D": "Attenuation"
+      },
+      "correctAnswer": "A",
+      "explanation": "Acoustic streaming can alter membrane permeability and stimulate repair; it is the main non-thermal mechanism and the basis of phonophoresis.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultrasound",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-109",
+      "topic": "Ultrasound",
+      "subtopic": "Cavitation",
+      "difficulty": "Medium",
+      "question": "Cavitation in ultrasound refers to the:",
+      "options": {
+        "A": "Reflection of the beam from bone",
+        "B": "Reverse piezoelectric effect",
+        "C": "Melting of the coupling gel",
+        "D": "Formation and oscillation of gas bubbles in tissue fluids"
+      },
+      "correctAnswer": "D",
+      "explanation": "Stable cavitation (bubbles oscillating) is useful non-thermally; transient (unstable) cavitation, where bubbles collapse, is damaging and must be avoided.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultrasound",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-110",
+      "topic": "Ultrasound",
+      "subtopic": "Acoustic Impedance",
+      "difficulty": "Hard",
+      "question": "The proportion of ultrasound energy reflected at an interface between two media depends mainly on:",
+      "options": {
+        "A": "The frequency of the mains supply",
+        "B": "The colour of the media",
+        "C": "The temperature of the transducer only",
+        "D": "The difference in acoustic impedance of the two media"
+      },
+      "correctAnswer": "D",
+      "explanation": "The greater the difference in acoustic impedance, the greater the reflection — almost total at an air–tissue interface and high at a soft tissue–bone interface (periosteal burning risk).",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultrasound",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-111",
+      "topic": "Ultrasound",
+      "subtopic": "Absorption by Tissue",
+      "difficulty": "Hard",
+      "question": "Which tissue absorbs ultrasound energy MOST per unit thickness?",
+      "options": {
+        "A": "Blood",
+        "B": "Fat",
+        "C": "Water",
+        "D": "Bone and other tissues rich in collagen and protein"
+      },
+      "correctAnswer": "D",
+      "explanation": "Absorption is highest in tissues with high protein/collagen content such as bone, tendon and ligament; lowest in fluid and fat.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultrasound",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-112",
+      "topic": "Ultrasound",
+      "subtopic": "Beam Non-uniformity Ratio",
+      "difficulty": "Hard",
+      "question": "The ratio of the spatial peak intensity to the spatial average intensity of an ultrasound beam is called the:",
+      "options": {
+        "A": "Beam non-uniformity ratio (BNR)",
+        "B": "Duty cycle",
+        "C": "Half-value depth",
+        "D": "Effective radiating area"
+      },
+      "correctAnswer": "A",
+      "explanation": "BNR describes how evenly power is distributed over the transducer face; a lower BNR (ideally < 6:1) is safer, avoiding hot spots.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultrasound",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-113",
+      "topic": "Ultrasound",
+      "subtopic": "Near Field",
+      "difficulty": "Hard",
+      "question": "The length of the near field (Fresnel zone) of an ultrasound beam increases when:",
+      "options": {
+        "A": "The frequency is lowered",
+        "B": "The gel is thicker",
+        "C": "The transducer radius is larger or the wavelength is shorter (higher frequency)",
+        "D": "The transducer radius is smaller"
+      },
+      "correctAnswer": "C",
+      "explanation": "Near-field length = r²/λ. Within the near field the beam is highly irregular; the far field is more uniform and divergent.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultrasound",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-114",
+      "topic": "Ultrasound",
+      "subtopic": "Pulsed Ultrasound Use",
+      "difficulty": "Medium",
+      "question": "Low-intensity pulsed ultrasound is preferred over continuous ultrasound in the:",
+      "options": {
+        "A": "Treatment of verrucae using high-power continuous output",
+        "B": "Acute stage of soft tissue injury or for fracture healing, when heating is undesirable",
+        "C": "Chronic muscle contracture, to maximise heating",
+        "D": "Deep cervical muscle spasm in obese patients"
+      },
+      "correctAnswer": "B",
+      "explanation": "Pulsed ultrasound delivers non-thermal effects (streaming, cavitation) with minimal heating and is suited to acute inflammation and bone repair.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultrasound",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-115",
+      "topic": "Ultrasound",
+      "subtopic": "Contraindications",
+      "difficulty": "Easy",
+      "question": "Therapeutic ultrasound should NOT be applied over:",
+      "options": {
+        "A": "A chronic tendinopathy of the supraspinatus",
+        "B": "A healing ligament sprain in the subacute phase",
+        "C": "A muscle contracture with intact sensation",
+        "D": "A pregnant uterus, the eyes, or a known malignant tumour"
+      },
+      "correctAnswer": "D",
+      "explanation": "Ultrasound is contraindicated over the pregnant uterus, eyes, testes, malignancy, thrombophlebitis and areas of impaired circulation or sensation; also with caution over growing epiphyses and pacemakers.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultrasound",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-116",
+      "topic": "Ultrasound",
+      "subtopic": "Phonophoresis",
+      "difficulty": "Medium",
+      "question": "Phonophoresis is the use of ultrasound to:",
+      "options": {
+        "A": "Reduce skin resistance to direct current",
+        "B": "Drive a topical drug through the skin into underlying tissue",
+        "C": "Remove a drug from the blood",
+        "D": "Heat the skin only"
+      },
+      "correctAnswer": "B",
+      "explanation": "Phonophoresis uses acoustic streaming and increased membrane permeability to deliver topical agents such as hydrocortisone or NSAIDs.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultrasound",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-117",
+      "topic": "Ultrasound",
+      "subtopic": "Infrasound",
+      "difficulty": "Easy",
+      "question": "Sound waves with a frequency below about 20 Hz are called:",
+      "options": {
+        "A": "Microwaves",
+        "B": "Ultrasound",
+        "C": "Audible sound",
+        "D": "Infrasound"
+      },
+      "correctAnswer": "D",
+      "explanation": "Infrasound < 20 Hz; audible 20 Hz – 20 kHz; ultrasound > 20 kHz.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultrasound",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-118",
+      "topic": "Ultraviolet Radiation",
+      "subtopic": "Wavelengths",
+      "difficulty": "Easy",
+      "question": "The wavelength range of UVB is:",
+      "options": {
+        "A": "315 – 400 nm",
+        "B": "400 – 700 nm",
+        "C": "100 – 280 nm",
+        "D": "280 – 315 nm"
+      },
+      "correctAnswer": "D",
+      "explanation": "UVA 315–400 nm; UVB 280–315 nm; UVC 100–280 nm. UVB is the main erythemogenic and vitamin D–forming band.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultraviolet Radiation",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-119",
+      "topic": "Ultraviolet Radiation",
+      "subtopic": "UVC",
+      "difficulty": "Easy",
+      "question": "Which band of ultraviolet radiation has a strong germicidal action and is filtered out by the ozone layer?",
+      "options": {
+        "A": "Visible blue light",
+        "B": "Infrared",
+        "C": "UVA",
+        "D": "UVC"
+      },
+      "correctAnswer": "D",
+      "explanation": "UVC (about 254 nm) is bactericidal and absorbed by atmospheric ozone; it penetrates only the stratum corneum.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultraviolet Radiation",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-120",
+      "topic": "Ultraviolet Radiation",
+      "subtopic": "Vitamin D",
+      "difficulty": "Easy",
+      "question": "Vitamin D synthesis in the skin results from exposure to:",
+      "options": {
+        "A": "UVA",
+        "B": "UVB",
+        "C": "Infrared",
+        "D": "Shortwave diathermy"
+      },
+      "correctAnswer": "B",
+      "explanation": "7-dehydrocholesterol in the skin is converted by UVB into cholecalciferol (vitamin D3).",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultraviolet Radiation",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-121",
+      "topic": "Ultraviolet Radiation",
+      "subtopic": "Erythema Doses",
+      "difficulty": "Medium",
+      "question": "The minimal erythema dose (first-degree erythema, E1) is the:",
+      "options": {
+        "A": "Dose that has no effect at all",
+        "B": "Smallest UV exposure that produces just-visible reddening of the skin after the latent period",
+        "C": "Dose that blisters the skin",
+        "D": "Dose that causes immediate tanning only"
+      },
+      "correctAnswer": "B",
+      "explanation": "E1 is the threshold dose. E2 ≈ 2.5 × E1 (bright red, peeling), E3 ≈ 5 × E1 (painful with blisters/oedema), E4 ≈ 10 × E1 (severe blistering).",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultraviolet Radiation",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-122",
+      "topic": "Ultraviolet Radiation",
+      "subtopic": "Dose Progression",
+      "difficulty": "Hard",
+      "question": "For an effective erythema reaction on skin that has become thickened and pigmented from previous UV exposure, the next dose should be:",
+      "options": {
+        "A": "Increased to overcome the protective thickening and tolerance",
+        "B": "Delivered with the lamp at double the distance",
+        "C": "Reduced to a quarter",
+        "D": "Kept the same, since tolerance never develops"
+      },
+      "correctAnswer": "A",
+      "explanation": "Repeated exposures produce epidermal thickening (acanthosis) and pigmentation, so tolerance develops and doses must be increased (e.g. by 25–75%) to maintain the same erythema.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultraviolet Radiation",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-123",
+      "topic": "Ultraviolet Radiation",
+      "subtopic": "Erythema Mechanism",
+      "difficulty": "Medium",
+      "question": "Erythema after UVB exposure is mainly due to:",
+      "options": {
+        "A": "Direct heating of the skin",
+        "B": "Release of vasodilator chemicals (histamine-like substances, prostaglandins) from damaged epidermal cells",
+        "C": "Tearing of red cells",
+        "D": "Reflex nerve stimulation only"
+      },
+      "correctAnswer": "B",
+      "explanation": "UV damages keratinocytes, releasing vasoactive substances that dilate dermal capillaries after a latent period (hours).",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultraviolet Radiation",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-124",
+      "topic": "Ultraviolet Radiation",
+      "subtopic": "Skin Cancer Risk",
+      "difficulty": "Medium",
+      "question": "Skin cancer risk after long-term ultraviolet exposure is mainly attributed to:",
+      "options": {
+        "A": "Hot air from the lamp",
+        "B": "Mild erythema",
+        "C": "DNA damage and the immunosuppressive effect of UV",
+        "D": "Thickening of the epidermis only"
+      },
+      "correctAnswer": "C",
+      "explanation": "UVB causes pyrimidine dimers in DNA and suppresses local immunity; cumulative exposure increases risk of squamous cell carcinoma, basal cell carcinoma and melanoma.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultraviolet Radiation",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-125",
+      "topic": "Ultraviolet Radiation",
+      "subtopic": "Kromayer Lamp",
+      "difficulty": "Medium",
+      "question": "Which lamp is the best choice to irradiate a small, localised area such as a sinus or a cavity?",
+      "options": {
+        "A": "A Theraktin tunnel",
+        "B": "An alpine sun lamp",
+        "C": "A water-cooled Kromayer lamp with a quartz applicator",
+        "D": "A fluorescent tube"
+      },
+      "correctAnswer": "C",
+      "explanation": "The Kromayer lamp is a water-cooled mercury vapour lamp whose UV is directed through a quartz applicator in contact with the tissue, allowing treatment of sinuses, cavities and small ulcers.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultraviolet Radiation",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-126",
+      "topic": "Ultraviolet Radiation",
+      "subtopic": "Theraktin Tunnel",
+      "difficulty": "Hard",
+      "question": "A Theraktin tunnel (bank of fluorescent tubes) is used for:",
+      "options": {
+        "A": "General (whole-body or large-area) UV irradiation, e.g. in psoriasis",
+        "B": "Irradiating a single sinus",
+        "C": "Heating deep tissues",
+        "D": "Short-wave diathermy"
+      },
+      "correctAnswer": "A",
+      "explanation": "The Theraktin tunnel is a semi-circular cradle of long-wave UV fluorescent tubes giving general irradiation; it is used for conditions such as psoriasis often with coal tar (Leeds regimen).",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultraviolet Radiation",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-127",
+      "topic": "Ultraviolet Radiation",
+      "subtopic": "PUVA",
+      "difficulty": "Medium",
+      "question": "In PUVA therapy for psoriasis, UVA irradiation is given:",
+      "options": {
+        "A": "Two hours before taking psoralen",
+        "B": "At the same time as an X-ray",
+        "C": "After application of cold packs",
+        "D": "About 2 hours after oral psoralen"
+      },
+      "correctAnswer": "D",
+      "explanation": "Psoralen photosensitises the skin; UVA is then given about 2 hours after ingestion. Eye protection (UV-blocking glasses) is needed for many hours afterwards.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultraviolet Radiation",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-128",
+      "topic": "Ultraviolet Radiation",
+      "subtopic": "Psoriasis",
+      "difficulty": "Medium",
+      "question": "In psoriasis the epidermal transit time is shortened to about:",
+      "options": {
+        "A": "4 – 7 days",
+        "B": "1 hour",
+        "C": "6 months",
+        "D": "28 – 70 days"
+      },
+      "correctAnswer": "A",
+      "explanation": "Normal epidermal turnover takes about 28 days (up to 70 including full migration); in psoriasis it is greatly accelerated; UV reduces cell proliferation.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultraviolet Radiation",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-129",
+      "topic": "Ultraviolet Radiation",
+      "subtopic": "Ulcer Treatment",
+      "difficulty": "Hard",
+      "question": "To stimulate healing in a clean indolent ulcer or pressure sore with UV, the dose commonly applied is:",
+      "options": {
+        "A": "No UV at all",
+        "B": "A high erythemal dose, e.g. E3–E4, to the margins and base",
+        "C": "E0 dose with heat",
+        "D": "A suberythemal dose only"
+      },
+      "correctAnswer": "B",
+      "explanation": "High erythema doses cause exfoliation of necrotic tissue and stimulate granulation. Infected wounds require UVC/short UV with higher dosage.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultraviolet Radiation",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-130",
+      "topic": "Ultraviolet Radiation",
+      "subtopic": "Latent Period",
+      "difficulty": "Hard",
+      "question": "The latent period between UV exposure and the appearance of erythema is:",
+      "options": {
+        "A": "Longer for UVA than for UVB; typically about 2–8 hours (UVB)",
+        "B": "Longer for a higher dose in every case",
+        "C": "Always 24 hours exactly",
+        "D": "Zero for all UV bands"
+      },
+      "correctAnswer": "A",
+      "explanation": "UVB erythema appears after a latent period of about 1.5–8 h, peaks at 12–24 h, and the greater the dose the shorter the latent period.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Ultraviolet Radiation",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-131",
+      "topic": "Laser",
+      "subtopic": "Definition",
+      "difficulty": "Easy",
+      "question": "The word LASER stands for:",
+      "options": {
+        "A": "Light Amplitude of Strong Electrical Rays",
+        "B": "Light Amplification by Stimulated Emission of Radiation",
+        "C": "Long-wave Amplified Spectral Energy Radiation",
+        "D": "Low Amplitude Stimulated Electrical Response"
+      },
+      "correctAnswer": "B",
+      "explanation": "A laser produces an intense, coherent beam through stimulated emission of photons.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Laser",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-132",
+      "topic": "Laser",
+      "subtopic": "Properties",
+      "difficulty": "Easy",
+      "question": "A laser beam is characterised by being:",
+      "options": {
+        "A": "Monochromatic but incoherent",
+        "B": "Monochromatic, coherent and collimated",
+        "C": "Ionising and divergent",
+        "D": "Polychromatic, incoherent and divergent"
+      },
+      "correctAnswer": "B",
+      "explanation": "The three classical properties of laser light: single wavelength (monochromatic), in-phase waves (coherent) and non-divergent (collimated).",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Laser",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-133",
+      "topic": "Laser",
+      "subtopic": "Population Inversion",
+      "difficulty": "Hard",
+      "question": "Population inversion in laser physics refers to a state in which:",
+      "options": {
+        "A": "More electrons are in the ground state than in the excited state",
+        "B": "The medium is at absolute zero",
+        "C": "More electrons are in an excited (metastable) state than in the ground state",
+        "D": "All electrons are removed from the atom"
+      },
+      "correctAnswer": "C",
+      "explanation": "Population inversion is required for stimulated emission to exceed absorption and thereby amplify light.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Laser",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-134",
+      "topic": "Laser",
+      "subtopic": "Helium-Neon Laser",
+      "difficulty": "Medium",
+      "question": "The wavelength of a helium–neon (He–Ne) laser is about:",
+      "options": {
+        "A": "1064 nm",
+        "B": "254 nm",
+        "C": "632.8 nm (red visible)",
+        "D": "904 nm (infrared)"
+      },
+      "correctAnswer": "C",
+      "explanation": "The He–Ne laser emits visible red light at 632.8 nm with shallow penetration (~ 0.5–2 mm), used for superficial wounds.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Laser",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-135",
+      "topic": "Laser",
+      "subtopic": "Penetration",
+      "difficulty": "Medium",
+      "question": "Compared with the He–Ne laser, infrared diode lasers (e.g. 830–904 nm):",
+      "options": {
+        "A": "Penetrate deeper into the tissues",
+        "B": "Are visible and ionising",
+        "C": "Penetrate less deeply",
+        "D": "Cannot be absorbed"
+      },
+      "correctAnswer": "A",
+      "explanation": "Near-infrared wavelengths are absorbed less by haemoglobin and melanin, so penetrate deeper (up to a few centimetres).",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Laser",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-136",
+      "topic": "Laser",
+      "subtopic": "Dosage",
+      "difficulty": "Hard",
+      "question": "The dose (energy density) delivered in laser therapy is expressed in:",
+      "options": {
+        "A": "Volts per metre",
+        "B": "Watts per hertz",
+        "C": "Ohms",
+        "D": "Joules per square centimetre (J/cm²)"
+      },
+      "correctAnswer": "D",
+      "explanation": "Dose (J/cm²) = power density (W/cm²) × time (s). Power is in watts, a rate of energy delivery (J/s).",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Laser",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-137",
+      "topic": "Laser",
+      "subtopic": "Safety",
+      "difficulty": "Easy",
+      "question": "The most important safety precaution while using a therapeutic laser is to:",
+      "options": {
+        "A": "Protect the eyes of the patient and operator with wavelength-specific goggles",
+        "B": "Apply the laser to the eyes for 30 seconds",
+        "C": "Treat in a dark, reflective room",
+        "D": "Cover the machine with a wet towel"
+      },
+      "correctAnswer": "A",
+      "explanation": "Laser light can damage the retina even at low powers; goggles rated for the wavelength must be worn and reflective surfaces avoided.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Laser",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-138",
+      "topic": "Cryotherapy",
+      "subtopic": "Initial Response",
+      "difficulty": "Easy",
+      "question": "The immediate response of cutaneous blood vessels to application of ice is:",
+      "options": {
+        "A": "No change",
+        "B": "Vasoconstriction",
+        "C": "A rise in blood pressure only",
+        "D": "Vasodilatation"
+      },
+      "correctAnswer": "B",
+      "explanation": "Cold causes reflex and direct vasoconstriction, reducing blood flow, oedema formation and metabolism.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Cryotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-139",
+      "topic": "Cryotherapy",
+      "subtopic": "Lewis Hunting Reaction",
+      "difficulty": "Medium",
+      "question": "The alternating vasoconstriction and vasodilatation that occurs in the skin when cold is applied for a prolonged period is called:",
+      "options": {
+        "A": "The Arndt–Schultz response",
+        "B": "The Joule effect",
+        "C": "Cavitation",
+        "D": "The hunting reaction (Lewis reaction)"
+      },
+      "correctAnswer": "D",
+      "explanation": "Prolonged cold causes cold-induced vasodilatation every few minutes to protect tissue from freezing; this limits the benefit of very long applications.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Cryotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-140",
+      "topic": "Cryotherapy",
+      "subtopic": "Spasticity",
+      "difficulty": "Medium",
+      "question": "Cryotherapy is used to temporarily reduce spasticity because it:",
+      "options": {
+        "A": "Increases acetylcholine release",
+        "B": "Lowers nerve conduction velocity and muscle spindle firing",
+        "C": "Increases the stretch reflex",
+        "D": "Heats the muscle spindle"
+      },
+      "correctAnswer": "B",
+      "explanation": "Cooling decreases afferent firing and conduction velocity, lowering tone for a short period during which stretching or exercise can be performed.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Cryotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-141",
+      "topic": "Cryotherapy",
+      "subtopic": "Duration",
+      "difficulty": "Easy",
+      "question": "To avoid the reactive vasodilatation phase, a standard ice pack application is usually limited to:",
+      "options": {
+        "A": "30 seconds",
+        "B": "Over 2 hours",
+        "C": "About 10–15 minutes",
+        "D": "6 hours"
+      },
+      "correctAnswer": "C",
+      "explanation": "10–15 minutes reduces tissue temperature effectively; longer exposure risks nerve injury and tissue damage.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Cryotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-142",
+      "topic": "Cryotherapy",
+      "subtopic": "RICE",
+      "difficulty": "Easy",
+      "question": "In the immediate management of acute soft tissue injury, RICE stands for:",
+      "options": {
+        "A": "Relaxation, Ice, Chiropractic, Electrotherapy",
+        "B": "Rest, Ice, Compression, Elevation",
+        "C": "Rest, Immobilisation, Compression, Exercise",
+        "D": "Rubbing, Immersion, Cold, Exercise"
+      },
+      "correctAnswer": "B",
+      "explanation": "RICE limits bleeding and oedema. Many protocols now add Protection and avoid anti-inflammatory heat in the first 48–72 hours.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Cryotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-143",
+      "topic": "Cryotherapy",
+      "subtopic": "Cold Effects",
+      "difficulty": "Medium",
+      "question": "Which statement about the effects of cooling is FALSE?",
+      "options": {
+        "A": "Nerve conduction velocity decreases",
+        "B": "Metabolic rate of tissues falls",
+        "C": "Motor skill performance and muscle strength improve immediately after cooling",
+        "D": "Pain threshold is raised"
+      },
+      "correctAnswer": "C",
+      "explanation": "After prolonged cooling, strength, speed and dexterity are temporarily reduced; performance should be assessed before heavy training or skilled activity.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Cryotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-144",
+      "topic": "Cryotherapy",
+      "subtopic": "Contraindications",
+      "difficulty": "Easy",
+      "question": "Cryotherapy is contraindicated in:",
+      "options": {
+        "A": "Muscle spasm after exercise",
+        "B": "Post-exercise delayed muscle soreness",
+        "C": "Raynaud's disease and cold hypersensitivity (cold urticaria)",
+        "D": "Acute ankle sprain"
+      },
+      "correctAnswer": "C",
+      "explanation": "Cold may provoke vasospasm in Raynaud's disease and release of histamine in cold urticaria; avoid it also in impaired sensation and arterial insufficiency.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Cryotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-145",
+      "topic": "Traction",
+      "subtopic": "Types",
+      "difficulty": "Easy",
+      "question": "Traction applied with a light weight for a prolonged period (hours) is:",
+      "options": {
+        "A": "Manual traction",
+        "B": "Continuous (sustained) traction",
+        "C": "Intermittent traction",
+        "D": "Auto-traction"
+      },
+      "correctAnswer": "B",
+      "explanation": "Continuous traction uses small forces for long periods (e.g. in bed rest to rest an area); intermittent traction alternates higher force with rest periods for 10–30 minutes.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Traction",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-146",
+      "topic": "Traction",
+      "subtopic": "Cervical Position",
+      "difficulty": "Medium",
+      "question": "Mechanical cervical traction to separate the posterior elements (e.g. facet joints, foramen) is usually applied with the neck positioned in:",
+      "options": {
+        "A": "About 20–30° of flexion",
+        "B": "Full lateral flexion",
+        "C": "Hyperextension with rotation",
+        "D": "Full extension"
+      },
+      "correctAnswer": "A",
+      "explanation": "Moderate flexion opens the intervertebral foramina and posterior joints most effectively; extension would compress them.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Traction",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-147",
+      "topic": "Traction",
+      "subtopic": "Contraindications",
+      "difficulty": "Easy",
+      "question": "Which condition is a contraindication to lumbar or cervical traction?",
+      "options": {
+        "A": "Cord compression signs / spinal instability",
+        "B": "Mechanical low back pain with muscle spasm",
+        "C": "Chronic non-specific neck pain",
+        "D": "Mild lumbar disc protrusion without neurological deficit"
+      },
+      "correctAnswer": "A",
+      "explanation": "Traction is contraindicated with cord signs, unstable fracture, severe osteoporosis, infection, malignancy, vertebrobasilar insufficiency and acute inflammatory arthritis (e.g. rheumatoid atlantoaxial instability).",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Traction",
+      "sourcePage": null
+    },
+    {
+      "id": "electro-148",
+      "topic": "Traction",
+      "subtopic": "Lumbar Force",
+      "difficulty": "Hard",
+      "question": "To produce measurable separation of lumbar vertebrae, the traction force needs to exceed approximately:",
+      "options": {
+        "A": "1 kg",
+        "B": "Half (50%) of body weight",
+        "C": "Twice body weight",
+        "D": "5% of body weight"
+      },
+      "correctAnswer": "B",
+      "explanation": "Because of the friction of the body on the couch and the strength of the lumbar ligaments, forces of roughly 50% of body weight or more are needed for lumbar separation; lower forces (about 25%) are used for comfort and initial treatment.",
+      "sourceBook": "Clayton's Electrotherapy; facts cross-checked with Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed.), Ch. 2 Electrotherapy",
+      "sourceChapter": "Traction",
+      "sourcePage": null
     }
   ]
 }

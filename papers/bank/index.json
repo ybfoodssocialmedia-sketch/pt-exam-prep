@@ -39,11 +39,75 @@
    "files": [
     "electrotherapy.json"
    ],
-   "count": 15,
+   "count": 148,
    "topics": [
+    {
+     "topic": "Ultrasound",
+     "count": 18
+    },
+    {
+     "topic": "Basic Electricity",
+     "count": 17
+    },
     {
      "topic": "Electrical Stimulation of Nerve and Muscle",
      "count": 15
+    },
+    {
+     "topic": "Ultraviolet Radiation",
+     "count": 13
+    },
+    {
+     "topic": "Superficial Heat",
+     "count": 12
+    },
+    {
+     "topic": "Electrophysiology",
+     "count": 10
+    },
+    {
+     "topic": "Currents & Waveforms",
+     "count": 9
+    },
+    {
+     "topic": "Shortwave Diathermy",
+     "count": 9
+    },
+    {
+     "topic": "Electrodiagnosis",
+     "count": 8
+    },
+    {
+     "topic": "Laser",
+     "count": 7
+    },
+    {
+     "topic": "Cryotherapy",
+     "count": 7
+    },
+    {
+     "topic": "Infrared Radiation",
+     "count": 5
+    },
+    {
+     "topic": "Interferential Therapy",
+     "count": 4
+    },
+    {
+     "topic": "Microwave Diathermy",
+     "count": 4
+    },
+    {
+     "topic": "Traction",
+     "count": 4
+    },
+    {
+     "topic": "TENS",
+     "count": 3
+    },
+    {
+     "topic": "Iontophoresis",
+     "count": 3
     }
    ]
   },
@@ -193,12 +257,37 @@
   {
    "subject": "Physical Diagnosis & Manipulative Skills",
    "files": [
-    "manual-muscle-testing.json"
+    "manual-muscle-testing.json",
+    "physical-diagnosis.json"
    ],
-   "count": 8,
+   "count": 89,
    "topics": [
     {
+     "topic": "Special Tests",
+     "count": 21
+    },
+    {
      "topic": "Manual Muscle Testing",
+     "count": 18
+    },
+    {
+     "topic": "Posture & Gait",
+     "count": 12
+    },
+    {
+     "topic": "Neurological Examination",
+     "count": 11
+    },
+    {
+     "topic": "Manipulative Skills",
+     "count": 10
+    },
+    {
+     "topic": "Joint Assessment",
+     "count": 9
+    },
+    {
+     "topic": "Goniometry",
      "count": 8
     }
    ]
@@ -236,13 +325,42 @@
   {
    "subject": "Physiotherapy in General Medical & Surgical Condition",
    "files": [
-    "pt-genmed.json"
+    "pt-genmed.json",
+    "pt-genmed2.json"
    ],
-   "count": 20,
+   "count": 103,
    "topics": [
+    {
+     "topic": "Chest Physiotherapy",
+     "count": 15
+    },
+    {
+     "topic": "Respiratory Diseases",
+     "count": 15
+    },
+    {
+     "topic": "Medical Conditions",
+     "count": 15
+    },
     {
      "topic": "Cardiopulmonary Assessment",
      "count": 14
+    },
+    {
+     "topic": "Cardiac Rehabilitation",
+     "count": 13
+    },
+    {
+     "topic": "Oxygen Therapy & Ventilation",
+     "count": 10
+    },
+    {
+     "topic": "Surgical Physiotherapy",
+     "count": 8
+    },
+    {
+     "topic": "Vascular Disorders",
+     "count": 7
     },
     {
      "topic": "Thoracic Imaging",
@@ -259,32 +377,133 @@
    "files": [
     "pt-msk.json"
    ],
-   "count": 19,
+   "count": 109,
    "topics": [
+    {
+     "topic": "Upper Limb Conditions",
+     "count": 24
+    },
     {
      "topic": "Knee Assessment",
      "count": 12
     },
     {
+     "topic": "Shoulder Conditions",
+     "count": 11
+    },
+    {
+     "topic": "Hip Conditions",
+     "count": 11
+    },
+    {
+     "topic": "Knee Conditions",
+     "count": 10
+    },
+    {
+     "topic": "Spinal Conditions",
+     "count": 8
+    },
+    {
+     "topic": "Fractures",
+     "count": 8
+    },
+    {
      "topic": "Shoulder Assessment",
      "count": 7
+    },
+    {
+     "topic": "Foot & Ankle",
+     "count": 6
+    },
+    {
+     "topic": "Arthritis",
+     "count": 6
+    },
+    {
+     "topic": "Amputation",
+     "count": 3
+    },
+    {
+     "topic": "Burns",
+     "count": 3
     }
    ]
   },
   {
    "subject": "Physiotherapy in Neurosciences",
    "files": [
-    "pt-neuro.json"
+    "pt-neuro.json",
+    "pt-neuro2.json"
    ],
-   "count": 20,
+   "count": 109,
    "topics": [
     {
      "topic": "Stroke",
-     "count": 15
+     "count": 29
+    },
+    {
+     "topic": "Spinal Cord Injury",
+     "count": 14
+    },
+    {
+     "topic": "Cerebral Palsy",
+     "count": 11
     },
     {
      "topic": "Multiple Sclerosis",
-     "count": 5
+     "count": 10
+    },
+    {
+     "topic": "Peripheral Neuropathy",
+     "count": 9
+    },
+    {
+     "topic": "Neuro Facilitation",
+     "count": 8
+    },
+    {
+     "topic": "Parkinson's Disease",
+     "count": 7
+    },
+    {
+     "topic": "Balance & Vestibular",
+     "count": 6
+    },
+    {
+     "topic": "Traumatic Brain Injury",
+     "count": 4
+    },
+    {
+     "topic": "Guillain-Barre Syndrome",
+     "count": 2
+    },
+    {
+     "topic": "Muscular Dystrophy",
+     "count": 2
+    },
+    {
+     "topic": "Spina Bifida & Hydrocephalus",
+     "count": 2
+    },
+    {
+     "topic": "Motor Neuron Disease",
+     "count": 1
+    },
+    {
+     "topic": "Myasthenia Gravis",
+     "count": 1
+    },
+    {
+     "topic": "Epilepsy",
+     "count": 1
+    },
+    {
+     "topic": "Huntington's Disease",
+     "count": 1
+    },
+    {
+     "topic": "Syringomyelia",
+     "count": 1
     }
    ]
   },

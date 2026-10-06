@@ -71,7 +71,7 @@ def stable_key(s):
 
 
 def norm_text(t):
-    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]", "", t.lower())).strip()
+    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9. ]", "", t.lower())).strip()
 
 
 def load_bank():
