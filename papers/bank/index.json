@@ -5,9 +5,10 @@
    "files": [
     "anatomy.json",
     "anatomy2.json",
-    "anatomy3.json"
+    "anatomy3.json",
+    "mpt-book-an.json"
    ],
-   "count": 123,
+   "count": 156,
    "topics": [
     {
      "topic": "Upper Limb",
@@ -36,6 +37,102 @@
     {
      "topic": "General Anatomy",
      "count": 4
+    },
+    {
+     "topic": "Carpal Bones",
+     "count": 4
+    },
+    {
+     "topic": "Radial Nerve",
+     "count": 3
+    },
+    {
+     "topic": "Rotator Cuff",
+     "count": 2
+    },
+    {
+     "topic": "Posterior Interosseous Nerve",
+     "count": 2
+    },
+    {
+     "topic": "Ulnar Nerve",
+     "count": 2
+    },
+    {
+     "topic": "Sensory Supply",
+     "count": 2
+    },
+    {
+     "topic": "Spinal Ligaments",
+     "count": 1
+    },
+    {
+     "topic": "Cartilage",
+     "count": 1
+    },
+    {
+     "topic": "Spinal Joints",
+     "count": 1
+    },
+    {
+     "topic": "Deltoid",
+     "count": 1
+    },
+    {
+     "topic": "Clavicle",
+     "count": 1
+    },
+    {
+     "topic": "Scapular Elevation",
+     "count": 1
+    },
+    {
+     "topic": "Wrist Flexors",
+     "count": 1
+    },
+    {
+     "topic": "Brachial Plexus",
+     "count": 1
+    },
+    {
+     "topic": "Axillary Nerve",
+     "count": 1
+    },
+    {
+     "topic": "Wrist Extensors",
+     "count": 1
+    },
+    {
+     "topic": "Dorsal Scapular Nerve",
+     "count": 1
+    },
+    {
+     "topic": "Klumpke's Palsy",
+     "count": 1
+    },
+    {
+     "topic": "Sprengel's Deformity",
+     "count": 1
+    },
+    {
+     "topic": "Brachialis",
+     "count": 1
+    },
+    {
+     "topic": "Piriformis",
+     "count": 1
+    },
+    {
+     "topic": "Sciatic Nerve",
+     "count": 1
+    },
+    {
+     "topic": "Femoral Nerve",
+     "count": 1
+    },
+    {
+     "topic": "Subtalar Joint",
+     "count": 1
     }
    ]
   },
@@ -100,9 +197,10 @@
     "electrotherapy.json",
     "electrotherapy3.json",
     "electrotherapy4.json",
-    "electrotherapy5.json"
+    "electrotherapy5.json",
+    "mpt-book-el.json"
    ],
-   "count": 338,
+   "count": 538,
    "topics": [
     {
      "topic": "Basic Electricity",
@@ -110,15 +208,15 @@
     },
     {
      "topic": "Ultrasound",
-     "count": 36
+     "count": 37
+    },
+    {
+     "topic": "Electrodiagnosis",
+     "count": 25
     },
     {
      "topic": "Ultraviolet Radiation",
      "count": 25
-    },
-    {
-     "topic": "Electrodiagnosis",
-     "count": 24
     },
     {
      "topic": "Shortwave Diathermy",
@@ -126,7 +224,11 @@
     },
     {
      "topic": "Electrical Stimulation",
-     "count": 20
+     "count": 21
+    },
+    {
+     "topic": "Cryotherapy",
+     "count": 18
     },
     {
      "topic": "Electrical Stimulation Applications",
@@ -137,16 +239,12 @@
      "count": 15
     },
     {
-     "topic": "Cryotherapy",
-     "count": 15
-    },
-    {
      "topic": "Superficial Heat",
-     "count": 12
+     "count": 13
     },
     {
      "topic": "Traction",
-     "count": 12
+     "count": 13
     },
     {
      "topic": "Low Frequency Currents",
@@ -169,15 +267,19 @@
      "count": 9
     },
     {
+     "topic": "Microwave Diathermy",
+     "count": 8
+    },
+    {
+     "topic": "Hydrotherapy",
+     "count": 8
+    },
+    {
      "topic": "Basic Physics",
      "count": 8
     },
     {
-     "topic": "Microwave Diathermy",
-     "count": 7
-    },
-    {
-     "topic": "Hydrotherapy",
+     "topic": "Interferential Therapy",
      "count": 7
     },
     {
@@ -189,24 +291,644 @@
      "count": 6
     },
     {
-     "topic": "Interferential Therapy",
-     "count": 4
+     "topic": "TENS",
+     "count": 5
+    },
+    {
+     "topic": "Iontophoresis",
+     "count": 5
     },
     {
      "topic": "Phototherapy",
      "count": 4
     },
     {
-     "topic": "TENS",
+     "topic": "Hot Packs",
      "count": 3
     },
     {
-     "topic": "Iontophoresis",
+     "topic": "Inductance",
+     "count": 3
+    },
+    {
+     "topic": "EMG",
+     "count": 3
+    },
+    {
+     "topic": "Dielectric Constant",
+     "count": 3
+    },
+    {
+     "topic": "SWD",
+     "count": 3
+    },
+    {
+     "topic": "Paraffin Wax",
      "count": 3
     },
     {
      "topic": "Magnetic Therapy",
      "count": 2
+    },
+    {
+     "topic": "Rheostat",
+     "count": 2
+    },
+    {
+     "topic": "Joule's Law",
+     "count": 2
+    },
+    {
+     "topic": "Russian Current",
+     "count": 2
+    },
+    {
+     "topic": "Resting Potential",
+     "count": 2
+    },
+    {
+     "topic": "Thermal Conductivity",
+     "count": 2
+    },
+    {
+     "topic": "Microwave",
+     "count": 2
+    },
+    {
+     "topic": "Fluidotherapy",
+     "count": 2
+    },
+    {
+     "topic": "Contrast Bath",
+     "count": 2
+    },
+    {
+     "topic": "Whirlpool",
+     "count": 2
+    },
+    {
+     "topic": "Open Wounds",
+     "count": 2
+    },
+    {
+     "topic": "Ultrasound Positioning",
+     "count": 2
+    },
+    {
+     "topic": "Cosine Law",
+     "count": 2
+    },
+    {
+     "topic": "Luminous IR",
+     "count": 2
+    },
+    {
+     "topic": "Fluorescent Tubes",
+     "count": 2
+    },
+    {
+     "topic": "Laser Penetration",
+     "count": 2
+    },
+    {
+     "topic": "Mains Plug",
+     "count": 1
+    },
+    {
+     "topic": "Fuse",
+     "count": 1
+    },
+    {
+     "topic": "Switches",
+     "count": 1
+    },
+    {
+     "topic": "Earth Wire",
+     "count": 1
+    },
+    {
+     "topic": "Rectification",
+     "count": 1
+    },
+    {
+     "topic": "Electric Shock",
+     "count": 1
+    },
+    {
+     "topic": "Thermionic Valve",
+     "count": 1
+    },
+    {
+     "topic": "Measurement",
+     "count": 1
+    },
+    {
+     "topic": "Potentiometer",
+     "count": 1
+    },
+    {
+     "topic": "Ammeter",
+     "count": 1
+    },
+    {
+     "topic": "Lenz's Law",
+     "count": 1
+    },
+    {
+     "topic": "Therapeutic Pool",
+     "count": 1
+    },
+    {
+     "topic": "Waveforms",
+     "count": 1
+    },
+    {
+     "topic": "Muscle Membrane Potential",
+     "count": 1
+    },
+    {
+     "topic": "Resting Nerve",
+     "count": 1
+    },
+    {
+     "topic": "Low Frequency",
+     "count": 1
+    },
+    {
+     "topic": "Faradic Current",
+     "count": 1
+    },
+    {
+     "topic": "Catelectrotonus",
+     "count": 1
+    },
+    {
+     "topic": "Anelectrotonus",
+     "count": 1
+    },
+    {
+     "topic": "Rheobase",
+     "count": 1
+    },
+    {
+     "topic": "Strength-Duration Curve",
+     "count": 1
+    },
+    {
+     "topic": "Selective Stimulation",
+     "count": 1
+    },
+    {
+     "topic": "Conventional TENS",
+     "count": 1
+    },
+    {
+     "topic": "Constant Current",
+     "count": 1
+    },
+    {
+     "topic": "HVPC",
+     "count": 1
+    },
+    {
+     "topic": "Diadynamic Currents",
+     "count": 1
+    },
+    {
+     "topic": "Direct Current",
+     "count": 1
+    },
+    {
+     "topic": "Monopolar Technique",
+     "count": 1
+    },
+    {
+     "topic": "Galvanic Current",
+     "count": 1
+    },
+    {
+     "topic": "Pulsed Electromagnetic Energy",
+     "count": 1
+    },
+    {
+     "topic": "Wheatstone Bridge",
+     "count": 1
+    },
+    {
+     "topic": "Capacitor",
+     "count": 1
+    },
+    {
+     "topic": "TENS Contraindications",
+     "count": 1
+    },
+    {
+     "topic": "Latent Heat",
+     "count": 1
+    },
+    {
+     "topic": "Convection",
+     "count": 1
+    },
+    {
+     "topic": "Van't Hoff's Law",
+     "count": 1
+    },
+    {
+     "topic": "Skin Resistance",
+     "count": 1
+    },
+    {
+     "topic": "SWD Electrodes",
+     "count": 1
+    },
+    {
+     "topic": "Pulsed SWD",
+     "count": 1
+    },
+    {
+     "topic": "Diathermy",
+     "count": 1
+    },
+    {
+     "topic": "Inductothermy",
+     "count": 1
+    },
+    {
+     "topic": "SWD Frequency",
+     "count": 1
+    },
+    {
+     "topic": "SWD Spacing",
+     "count": 1
+    },
+    {
+     "topic": "SWD Electrode Size",
+     "count": 1
+    },
+    {
+     "topic": "Dry vs Moist Heat",
+     "count": 1
+    },
+    {
+     "topic": "Eddy Currents",
+     "count": 1
+    },
+    {
+     "topic": "Heliotherapy",
+     "count": 1
+    },
+    {
+     "topic": "Modalities",
+     "count": 1
+    },
+    {
+     "topic": "Obese Patients",
+     "count": 1
+    },
+    {
+     "topic": "TMJ Disorders",
+     "count": 1
+    },
+    {
+     "topic": "Heat Loss",
+     "count": 1
+    },
+    {
+     "topic": "Deep Heating",
+     "count": 1
+    },
+    {
+     "topic": "SWD Contraindications",
+     "count": 1
+    },
+    {
+     "topic": "Coupling Medium",
+     "count": 1
+    },
+    {
+     "topic": "Attenuation",
+     "count": 1
+    },
+    {
+     "topic": "Refraction",
+     "count": 1
+    },
+    {
+     "topic": "Transducer Material",
+     "count": 1
+    },
+    {
+     "topic": "Pacemaker",
+     "count": 1
+    },
+    {
+     "topic": "Beam Non-uniformity",
+     "count": 1
+    },
+    {
+     "topic": "Duty Cycle",
+     "count": 1
+    },
+    {
+     "topic": "Acoustic Streaming",
+     "count": 1
+    },
+    {
+     "topic": "Acoustic Impedance",
+     "count": 1
+    },
+    {
+     "topic": "Ultrasound Units",
+     "count": 1
+    },
+    {
+     "topic": "Ultrasound Frequency",
+     "count": 1
+    },
+    {
+     "topic": "Ultrasound Reflection",
+     "count": 1
+    },
+    {
+     "topic": "Phonophoresis",
+     "count": 1
+    },
+    {
+     "topic": "Infrasound",
+     "count": 1
+    },
+    {
+     "topic": "Water Bag Technique",
+     "count": 1
+    },
+    {
+     "topic": "Supraspinatus Tendinitis",
+     "count": 1
+    },
+    {
+     "topic": "Fracture",
+     "count": 1
+    },
+    {
+     "topic": "Underwater Technique",
+     "count": 1
+    },
+    {
+     "topic": "Juvenile Arthritis",
+     "count": 1
+    },
+    {
+     "topic": "Peroneal Tendons",
+     "count": 1
+    },
+    {
+     "topic": "Drug Delivery",
+     "count": 1
+    },
+    {
+     "topic": "Pregnancy",
+     "count": 1
+    },
+    {
+     "topic": "Equipment Safety",
+     "count": 1
+    },
+    {
+     "topic": "Absorption",
+     "count": 1
+    },
+    {
+     "topic": "Ultrasound Heating",
+     "count": 1
+    },
+    {
+     "topic": "Infrared",
+     "count": 1
+    },
+    {
+     "topic": "Infrared Generators",
+     "count": 1
+    },
+    {
+     "topic": "Grotthus Law",
+     "count": 1
+    },
+    {
+     "topic": "Theraktin Tunnel",
+     "count": 1
+    },
+    {
+     "topic": "UV Lamp",
+     "count": 1
+    },
+    {
+     "topic": "Kromayer Lamp",
+     "count": 1
+    },
+    {
+     "topic": "Ozone",
+     "count": 1
+    },
+    {
+     "topic": "Erythema",
+     "count": 1
+    },
+    {
+     "topic": "UVA",
+     "count": 1
+    },
+    {
+     "topic": "UV Therapy",
+     "count": 1
+    },
+    {
+     "topic": "Quartz Applicator",
+     "count": 1
+    },
+    {
+     "topic": "Epidermal Transit Time",
+     "count": 1
+    },
+    {
+     "topic": "Psoriasis",
+     "count": 1
+    },
+    {
+     "topic": "PUVA",
+     "count": 1
+    },
+    {
+     "topic": "UV Intensity",
+     "count": 1
+    },
+    {
+     "topic": "UVC",
+     "count": 1
+    },
+    {
+     "topic": "Ozone Layer",
+     "count": 1
+    },
+    {
+     "topic": "Vacuum UV",
+     "count": 1
+    },
+    {
+     "topic": "UV Skin Thickening",
+     "count": 1
+    },
+    {
+     "topic": "Vitamin D",
+     "count": 1
+    },
+    {
+     "topic": "UV Filters",
+     "count": 1
+    },
+    {
+     "topic": "Non-luminous IR",
+     "count": 1
+    },
+    {
+     "topic": "UV Overdose",
+     "count": 1
+    },
+    {
+     "topic": "Infected Wounds",
+     "count": 1
+    },
+    {
+     "topic": "UV Test Dose",
+     "count": 1
+    },
+    {
+     "topic": "Erythema Grades",
+     "count": 1
+    },
+    {
+     "topic": "Frequency",
+     "count": 1
+    },
+    {
+     "topic": "Microwave Absorption",
+     "count": 1
+    },
+    {
+     "topic": "Magnetron",
+     "count": 1
+    },
+    {
+     "topic": "Microwave Contraindications",
+     "count": 1
+    },
+    {
+     "topic": "Laser Types",
+     "count": 1
+    },
+    {
+     "topic": "Population Inversion",
+     "count": 1
+    },
+    {
+     "topic": "Laser Effects",
+     "count": 1
+    },
+    {
+     "topic": "Laser Class",
+     "count": 1
+    },
+    {
+     "topic": "Laser Wound Healing",
+     "count": 1
+    },
+    {
+     "topic": "Laser Properties",
+     "count": 1
+    },
+    {
+     "topic": "He-Ne Laser",
+     "count": 1
+    },
+    {
+     "topic": "Laser Technique",
+     "count": 1
+    },
+    {
+     "topic": "Laser Definition",
+     "count": 1
+    },
+    {
+     "topic": "Lewis Reaction",
+     "count": 1
+    },
+    {
+     "topic": "RICE",
+     "count": 1
+    },
+    {
+     "topic": "Spasticity",
+     "count": 1
+    },
+    {
+     "topic": "Heat Transfer",
+     "count": 1
+    },
+    {
+     "topic": "Cold Packs",
+     "count": 1
+    },
+    {
+     "topic": "Cold Intolerance",
+     "count": 1
+    },
+    {
+     "topic": "Cervical Traction",
+     "count": 1
+    },
+    {
+     "topic": "Spinal Posture",
+     "count": 1
+    },
+    {
+     "topic": "Traction Contraindications",
+     "count": 1
+    },
+    {
+     "topic": "Continuous Traction",
+     "count": 1
+    },
+    {
+     "topic": "Lumbar Traction",
+     "count": 1
+    },
+    {
+     "topic": "Inverse Square Law",
+     "count": 1
+    },
+    {
+     "topic": "Reflectors",
+     "count": 1
+    },
+    {
+     "topic": "Capacitance",
+     "count": 1
+    },
+    {
+     "topic": "Condenser Spacing",
+     "count": 1
+    },
+    {
+     "topic": "NCV",
+     "count": 1
+    },
+    {
+     "topic": "Myopathy EMG",
+     "count": 1
+    },
+    {
+     "topic": "Pool pH",
+     "count": 1
     }
    ]
   },
@@ -216,9 +938,10 @@
     "exercise-therapy.json",
     "exercise-therapy2.json",
     "exercise-therapy3.json",
-    "exercise-therapy4.json"
+    "exercise-therapy4.json",
+    "mpt-book-ex.json"
    ],
-   "count": 171,
+   "count": 200,
    "topics": [
     {
      "topic": "Principles of Exercise",
@@ -230,7 +953,7 @@
     },
     {
      "topic": "Strength Training",
-     "count": 12
+     "count": 13
     },
     {
      "topic": "Stretching",
@@ -242,6 +965,10 @@
     },
     {
      "topic": "Types of Exercise",
+     "count": 9
+    },
+    {
+     "topic": "Massage",
      "count": 9
     },
     {
@@ -285,15 +1012,99 @@
      "count": 6
     },
     {
-     "topic": "Massage",
-     "count": 6
-    },
-    {
      "topic": "Range of Motion",
      "count": 3
     },
     {
      "topic": "Suspension Therapy",
+     "count": 2
+    },
+    {
+     "topic": "PNF",
+     "count": 2
+    },
+    {
+     "topic": "PNF Patterns",
+     "count": 2
+    },
+    {
+     "topic": "Aquatic Therapy",
+     "count": 1
+    },
+    {
+     "topic": "Home Programme",
+     "count": 1
+    },
+    {
+     "topic": "Myositis Ossificans",
+     "count": 1
+    },
+    {
+     "topic": "Friction Massage",
+     "count": 1
+    },
+    {
+     "topic": "Joint Receptors",
+     "count": 1
+    },
+    {
+     "topic": "Exercise Testing",
+     "count": 1
+    },
+    {
+     "topic": "Circulation Exercises",
+     "count": 1
+    },
+    {
+     "topic": "Resisted Exercise",
+     "count": 1
+    },
+    {
+     "topic": "Repetition Maximum",
+     "count": 1
+    },
+    {
+     "topic": "Assisted Exercise",
+     "count": 1
+    },
+    {
+     "topic": "PNF Stretching",
+     "count": 1
+    },
+    {
+     "topic": "Teaching Gait",
+     "count": 1
+    },
+    {
+     "topic": "PNF Repeated Contractions",
+     "count": 1
+    },
+    {
+     "topic": "Hold-Relax",
+     "count": 1
+    },
+    {
+     "topic": "Rhythmic Stabilisation",
+     "count": 1
+    },
+    {
+     "topic": "PNF Strengthening",
+     "count": 1
+    },
+    {
+     "topic": "Coordination",
+     "count": 1
+    },
+    {
+     "topic": "Cool Down",
+     "count": 1
+    },
+    {
+     "topic": "Plyometrics",
+     "count": 1
+    },
+    {
+     "topic": "Quadriceps Setting",
      "count": 1
     }
    ]
@@ -301,12 +1112,13 @@
   {
    "subject": "General Surgery & Orthopedics",
    "files": [
+    "mpt-book-su.json",
     "surgery-ortho.json",
     "surgery-ortho2.json",
     "surgery-ortho3.json",
     "surgery-ortho4.json"
    ],
-   "count": 205,
+   "count": 259,
    "topics": [
     {
      "topic": "Orthopaedics - Trauma",
@@ -345,12 +1157,24 @@
      "count": 6
     },
     {
+     "topic": "Clubfoot",
+     "count": 5
+    },
+    {
      "topic": "Endocrine & Breast Surgery",
      "count": 5
     },
     {
      "topic": "Vascular Surgery",
      "count": 4
+    },
+    {
+     "topic": "Osteochondromatosis",
+     "count": 3
+    },
+    {
+     "topic": "Pseudogout",
+     "count": 3
     },
     {
      "topic": "Urology",
@@ -365,8 +1189,156 @@
      "count": 3
     },
     {
+     "topic": "Hip Dislocation",
+     "count": 2
+    },
+    {
+     "topic": "TMJ Dislocation",
+     "count": 2
+    },
+    {
+     "topic": "Bone Tumours",
+     "count": 2
+    },
+    {
+     "topic": "Spinal TB",
+     "count": 2
+    },
+    {
+     "topic": "DDH",
+     "count": 2
+    },
+    {
+     "topic": "Birth Injuries",
+     "count": 2
+    },
+    {
      "topic": "Paediatric Trauma",
      "count": 2
+    },
+    {
+     "topic": "Shoulder Instability",
+     "count": 1
+    },
+    {
+     "topic": "Osteomalacia",
+     "count": 1
+    },
+    {
+     "topic": "Flail Chest",
+     "count": 1
+    },
+    {
+     "topic": "Congenital Knee Dislocation",
+     "count": 1
+    },
+    {
+     "topic": "Clubfoot Surgery",
+     "count": 1
+    },
+    {
+     "topic": "Shoulder Surgery",
+     "count": 1
+    },
+    {
+     "topic": "Neurofibromatosis",
+     "count": 1
+    },
+    {
+     "topic": "Perthes' Disease",
+     "count": 1
+    },
+    {
+     "topic": "Greenstick Fracture",
+     "count": 1
+    },
+    {
+     "topic": "Charcot's Joint",
+     "count": 1
+    },
+    {
+     "topic": "Post-polio Deformity",
+     "count": 1
+    },
+    {
+     "topic": "Pott's Paraplegia",
+     "count": 1
+    },
+    {
+     "topic": "K-wire",
+     "count": 1
+    },
+    {
+     "topic": "Elbow Triangle",
+     "count": 1
+    },
+    {
+     "topic": "Shoulder Dislocation",
+     "count": 1
+    },
+    {
+     "topic": "Neuropathic Joint",
+     "count": 1
+    },
+    {
+     "topic": "DDH Signs",
+     "count": 1
+    },
+    {
+     "topic": "Rocker-bottom Foot",
+     "count": 1
+    },
+    {
+     "topic": "Fracture Signs",
+     "count": 1
+    },
+    {
+     "topic": "Osteosarcoma",
+     "count": 1
+    },
+    {
+     "topic": "Osteogenesis Imperfecta",
+     "count": 1
+    },
+    {
+     "topic": "Bone Metabolism",
+     "count": 1
+    },
+    {
+     "topic": "Bone Dysplasia",
+     "count": 1
+    },
+    {
+     "topic": "Dislocations",
+     "count": 1
+    },
+    {
+     "topic": "Sprengel's Shoulder",
+     "count": 1
+    },
+    {
+     "topic": "DDH Tests",
+     "count": 1
+    },
+    {
+     "topic": "Buerger's Disease",
+     "count": 1
+    },
+    {
+     "topic": "Investigation",
+     "count": 1
+    },
+    {
+     "topic": "Luxatio Erecta",
+     "count": 1
+    },
+    {
+     "topic": "Bankart Lesion",
+     "count": 1
+    },
+    {
+     "topic": "CDH Splint",
+     "count": 1
     }
    ]
   },
@@ -376,9 +1348,10 @@
     "kinesio.json",
     "kinesio2.json",
     "kinesio3.json",
-    "kinesio4.json"
+    "kinesio4.json",
+    "mpt-book-ki.json"
    ],
-   "count": 221,
+   "count": 234,
    "topics": [
     {
      "topic": "Muscle Mechanics",
@@ -438,7 +1411,7 @@
     },
     {
      "topic": "Levers",
-     "count": 6
+     "count": 7
     },
     {
      "topic": "Trunk Mechanics",
@@ -447,6 +1420,50 @@
     {
      "topic": "Posture & Balance",
      "count": 5
+    },
+    {
+     "topic": "Centre of Gravity",
+     "count": 2
+    },
+    {
+     "topic": "Hip Abductors",
+     "count": 1
+    },
+    {
+     "topic": "Body Density",
+     "count": 1
+    },
+    {
+     "topic": "Vectors",
+     "count": 1
+    },
+    {
+     "topic": "Plumb Line",
+     "count": 1
+    },
+    {
+     "topic": "Eccentric Contraction",
+     "count": 1
+    },
+    {
+     "topic": "Intradiscal Pressure",
+     "count": 1
+    },
+    {
+     "topic": "Tensor Fasciae Latae",
+     "count": 1
+    },
+    {
+     "topic": "Hip Ligaments",
+     "count": 1
+    },
+    {
+     "topic": "Genu Valgum",
+     "count": 1
+    },
+    {
+     "topic": "Dorsiflexors",
+     "count": 1
     }
    ]
   },
@@ -456,9 +1473,10 @@
     "medicine.json",
     "medicine2.json",
     "medicine3.json",
-    "medicine4.json"
+    "medicine4.json",
+    "mpt-book-me.json"
    ],
-   "count": 202,
+   "count": 203,
    "topics": [
     {
      "topic": "Cardiology",
@@ -519,18 +1537,23 @@
     {
      "topic": "Infection Prevention and Control",
      "count": 1
+    },
+    {
+     "topic": "Renal Stones",
+     "count": 1
     }
    ]
   },
   {
    "subject": "OBGY",
    "files": [
+    "mpt-book-ob.json",
     "obgy.json",
     "obgy2.json",
     "obgy3.json",
     "obgy4.json"
    ],
-   "count": 113,
+   "count": 120,
    "topics": [
     {
      "topic": "Gynaecology",
@@ -557,6 +1580,10 @@
      "count": 9
     },
     {
+     "topic": "Pregnancy Exercise",
+     "count": 3
+    },
+    {
      "topic": "Obstetric Terminology",
      "count": 3
     },
@@ -567,6 +1594,22 @@
     {
      "topic": "Maternal Pelvis",
      "count": 2
+    },
+    {
+     "topic": "Caesarean Section",
+     "count": 1
+    },
+    {
+     "topic": "Diastasis Recti",
+     "count": 1
+    },
+    {
+     "topic": "Pregnancy Physiology",
+     "count": 1
+    },
+    {
+     "topic": "Pregnancy Posture",
+     "count": 1
     }
    ]
   },
@@ -645,11 +1688,12 @@
   {
    "subject": "Pharmacology",
    "files": [
+    "mpt-book-pm.json",
     "pharmacology.json",
     "pharmacology2.json",
     "pharmacology3.json"
    ],
-   "count": 89,
+   "count": 90,
    "topics": [
     {
      "topic": "General Pharmacology",
@@ -690,6 +1734,10 @@
     {
      "topic": "Respiratory Drugs",
      "count": 4
+    },
+    {
+     "topic": "Corticosteroids",
+     "count": 1
     }
    ]
   },
@@ -697,19 +1745,24 @@
    "subject": "Physical Diagnosis & Manipulative Skills",
    "files": [
     "manual-muscle-testing.json",
+    "mpt-book-pd.json",
     "physical-diagnosis.json",
     "physical-diagnosis2.json",
     "physical-diagnosis3.json"
    ],
-   "count": 221,
+   "count": 314,
    "topics": [
     {
      "topic": "Special Tests",
-     "count": 41
+     "count": 43
     },
     {
      "topic": "Manual Muscle Testing",
      "count": 32
+    },
+    {
+     "topic": "Goniometry",
+     "count": 25
     },
     {
      "topic": "Manipulative Skills",
@@ -722,10 +1775,6 @@
     {
      "topic": "Joint Assessment",
      "count": 18
-    },
-    {
-     "topic": "Goniometry",
-     "count": 17
     },
     {
      "topic": "Posture & Gait",
@@ -750,17 +1799,270 @@
     {
      "topic": "Upper Limb Tests",
      "count": 9
+    },
+    {
+     "topic": "MMT Positions",
+     "count": 7
+    },
+    {
+     "topic": "MMT Grading",
+     "count": 4
+    },
+    {
+     "topic": "Dermatomes",
+     "count": 3
+    },
+    {
+     "topic": "Bicipital Tendinitis",
+     "count": 2
+    },
+    {
+     "topic": "Selective Tension",
+     "count": 2
+    },
+    {
+     "topic": "Knee Tests",
+     "count": 2
+    },
+    {
+     "topic": "McMurray's Test",
+     "count": 2
+    },
+    {
+     "topic": "Thomas Test",
+     "count": 2
+    },
+    {
+     "topic": "MMT",
+     "count": 2
+    },
+    {
+     "topic": "Abdominal Strength",
+     "count": 2
+    },
+    {
+     "topic": "End-feel",
+     "count": 2
+    },
+    {
+     "topic": "Leg Length",
+     "count": 2
+    },
+    {
+     "topic": "Shoulder Instability",
+     "count": 1
+    },
+    {
+     "topic": "C6 Root Lesion",
+     "count": 1
+    },
+    {
+     "topic": "DVT Test",
+     "count": 1
+    },
+    {
+     "topic": "Foot Motions",
+     "count": 1
+    },
+    {
+     "topic": "Lachman Test",
+     "count": 1
+    },
+    {
+     "topic": "Ankle Tests",
+     "count": 1
+    },
+    {
+     "topic": "Range of Motion",
+     "count": 1
+    },
+    {
+     "topic": "ROM Recording",
+     "count": 1
+    },
+    {
+     "topic": "Bryant's Triangle",
+     "count": 1
+    },
+    {
+     "topic": "Apprehension Test",
+     "count": 1
+    },
+    {
+     "topic": "ACL Tests",
+     "count": 1
+    },
+    {
+     "topic": "Resisted Testing",
+     "count": 1
+    },
+    {
+     "topic": "Allen's Test",
+     "count": 1
+    },
+    {
+     "topic": "Froment's Sign",
+     "count": 1
+    },
+    {
+     "topic": "Heel-Knee Test",
+     "count": 1
+    },
+    {
+     "topic": "Reflexes",
+     "count": 1
+    },
+    {
+     "topic": "Muscle Testing",
+     "count": 1
+    },
+    {
+     "topic": "Sensory Testing",
+     "count": 1
+    },
+    {
+     "topic": "Pain Scale",
+     "count": 1
+    },
+    {
+     "topic": "Neurovascular Compression",
+     "count": 1
+    },
+    {
+     "topic": "Ober's Test",
+     "count": 1
+    },
+    {
+     "topic": "Tennis Elbow Test",
+     "count": 1
+    },
+    {
+     "topic": "Thoracic Outlet",
+     "count": 1
+    },
+    {
+     "topic": "Duga's Test",
+     "count": 1
+    },
+    {
+     "topic": "Phalen's Test",
+     "count": 1
+    },
+    {
+     "topic": "Cervical Instability",
+     "count": 1
+    },
+    {
+     "topic": "Maitland Grades",
+     "count": 1
+    },
+    {
+     "topic": "Manipulation",
+     "count": 1
+    },
+    {
+     "topic": "Manual Stretching",
+     "count": 1
+    },
+    {
+     "topic": "Manual Therapy",
+     "count": 1
+    },
+    {
+     "topic": "Resting Position",
+     "count": 1
+    },
+    {
+     "topic": "Lower Trapezius",
+     "count": 1
+    },
+    {
+     "topic": "Tibialis Posterior",
+     "count": 1
+    },
+    {
+     "topic": "Mobilisation",
+     "count": 1
+    },
+    {
+     "topic": "Medial Rotators",
+     "count": 1
+    },
+    {
+     "topic": "MMT Technique",
+     "count": 1
+    },
+    {
+     "topic": "Meniscus Tests",
+     "count": 1
+    },
+    {
+     "topic": "ROM",
+     "count": 1
+    },
+    {
+     "topic": "Joint Resting Position",
+     "count": 1
+    },
+    {
+     "topic": "TMJ Movements",
+     "count": 1
+    },
+    {
+     "topic": "Hamstring Length",
+     "count": 1
+    },
+    {
+     "topic": "L5 Root",
+     "count": 1
+    },
+    {
+     "topic": "Myotomes",
+     "count": 1
+    },
+    {
+     "topic": "S1-S2 Root",
+     "count": 1
+    },
+    {
+     "topic": "Shoulder Motions",
+     "count": 1
+    },
+    {
+     "topic": "Close-packed Position",
+     "count": 1
+    },
+    {
+     "topic": "Wrist ROM",
+     "count": 1
+    },
+    {
+     "topic": "Forearm ROM",
+     "count": 1
+    },
+    {
+     "topic": "Palpation",
+     "count": 1
+    },
+    {
+     "topic": "Median Nerve",
+     "count": 1
+    },
+    {
+     "topic": "Trendelenburg",
+     "count": 1
     }
    ]
   },
   {
    "subject": "Physiology",
    "files": [
+    "mpt-book-ph.json",
     "physiology.json",
     "physiology2.json",
     "physiology3.json"
    ],
-   "count": 129,
+   "count": 134,
    "topics": [
     {
      "topic": "General Physiology",
@@ -841,17 +2143,38 @@
     {
      "topic": "Exercise Physiology",
      "count": 2
+    },
+    {
+     "topic": "Muscle Potential",
+     "count": 1
+    },
+    {
+     "topic": "Saltatory Conduction",
+     "count": 1
+    },
+    {
+     "topic": "Cardiac Muscle",
+     "count": 1
+    },
+    {
+     "topic": "Fibrillation",
+     "count": 1
+    },
+    {
+     "topic": "Muscle Blood Flow",
+     "count": 1
     }
    ]
   },
   {
    "subject": "Physiotherapy in Community Health",
    "files": [
+    "mpt-book-co.json",
     "pt-community.json",
     "pt-community2.json",
     "pt-community3.json"
    ],
-   "count": 159,
+   "count": 163,
    "topics": [
     {
      "topic": "Epidemiology",
@@ -922,6 +2245,22 @@
      "count": 3
     },
     {
+     "topic": "ORS",
+     "count": 1
+    },
+    {
+     "topic": "Apgar",
+     "count": 1
+    },
+    {
+     "topic": "Communication",
+     "count": 1
+    },
+    {
+     "topic": "Professional Practice",
+     "count": 1
+    },
+    {
      "topic": "Geriatrics",
      "count": 1
     }
@@ -930,13 +2269,14 @@
   {
    "subject": "Physiotherapy in General Medical & Surgical Condition",
    "files": [
+    "mpt-book-gm.json",
     "pt-genmed.json",
     "pt-genmed2.json",
     "pt-genmed3.json",
     "pt-genmed4.json",
     "pt-genmed5.json"
    ],
-   "count": 287,
+   "count": 363,
    "topics": [
     {
      "topic": "Medical Conditions",
@@ -945,6 +2285,10 @@
     {
      "topic": "Surgical Physiotherapy",
      "count": 24
+    },
+    {
+     "topic": "Cardiac Rehabilitation",
+     "count": 17
     },
     {
      "topic": "Special Populations",
@@ -967,10 +2311,6 @@
      "count": 14
     },
     {
-     "topic": "Cardiac Rehabilitation",
-     "count": 13
-    },
-    {
      "topic": "Cardiopulmonary Physio",
      "count": 12
     },
@@ -991,6 +2331,10 @@
      "count": 10
     },
     {
+     "topic": "Airway Clearance",
+     "count": 9
+    },
+    {
      "topic": "Special Medical Conditions",
      "count": 9
     },
@@ -999,16 +2343,16 @@
      "count": 9
     },
     {
-     "topic": "Airway Clearance",
-     "count": 8
-    },
-    {
      "topic": "Critical Care",
      "count": 8
     },
     {
      "topic": "Post-operative Care",
      "count": 8
+    },
+    {
+     "topic": "Postural Drainage",
+     "count": 7
     },
     {
      "topic": "Vascular Disorders",
@@ -1043,36 +2387,253 @@
      "count": 4
     },
     {
+     "topic": "Cystic Fibrosis",
+     "count": 3
+    },
+    {
      "topic": "Palliative Care",
      "count": 3
     },
     {
+     "topic": "Burns",
+     "count": 2
+    },
+    {
+     "topic": "Pressure Ulcers",
+     "count": 2
+    },
+    {
+     "topic": "Borg Scale",
+     "count": 2
+    },
+    {
+     "topic": "Lung Volumes",
+     "count": 2
+    },
+    {
+     "topic": "Diaphragmatic Breathing",
+     "count": 2
+    },
+    {
+     "topic": "CPR",
+     "count": 2
+    },
+    {
+     "topic": "Auscultation",
+     "count": 2
+    },
+    {
+     "topic": "Chest X-ray",
+     "count": 2
+    },
+    {
      "topic": "Lung Function Testing",
      "count": 2
+    },
+    {
+     "topic": "DVT Prevention",
+     "count": 1
+    },
+    {
+     "topic": "Arterial Line",
+     "count": 1
+    },
+    {
+     "topic": "Mastectomy",
+     "count": 1
+    },
+    {
+     "topic": "Burn Contracture",
+     "count": 1
+    },
+    {
+     "topic": "Burn Positioning",
+     "count": 1
+    },
+    {
+     "topic": "Isolation",
+     "count": 1
+    },
+    {
+     "topic": "DVT",
+     "count": 1
+    },
+    {
+     "topic": "Rule of Nines",
+     "count": 1
+    },
+    {
+     "topic": "Skin Graft",
+     "count": 1
+    },
+    {
+     "topic": "Chest Care",
+     "count": 1
+    },
+    {
+     "topic": "Cough Stimulation",
+     "count": 1
+    },
+    {
+     "topic": "Heart Valves",
+     "count": 1
+    },
+    {
+     "topic": "Bronchiectasis",
+     "count": 1
+    },
+    {
+     "topic": "Oxygen Saturation",
+     "count": 1
+    },
+    {
+     "topic": "COPD",
+     "count": 1
+    },
+    {
+     "topic": "Atelectasis",
+     "count": 1
+    },
+    {
+     "topic": "Energy Conservation",
+     "count": 1
+    },
+    {
+     "topic": "Cough",
+     "count": 1
+    },
+    {
+     "topic": "Sputum",
+     "count": 1
+    },
+    {
+     "topic": "Exercise Testing",
+     "count": 1
+    },
+    {
+     "topic": "Breath Sounds",
+     "count": 1
+    },
+    {
+     "topic": "Chronic Bronchitis",
+     "count": 1
+    },
+    {
+     "topic": "IV Precautions",
+     "count": 1
+    },
+    {
+     "topic": "Heart Failure",
+     "count": 1
+    },
+    {
+     "topic": "Heat Illness",
+     "count": 1
+    },
+    {
+     "topic": "Asthma",
+     "count": 1
+    },
+    {
+     "topic": "Pneumonectomy",
+     "count": 1
+    },
+    {
+     "topic": "Infant Resuscitation",
+     "count": 1
+    },
+    {
+     "topic": "Exercise BP",
+     "count": 1
+    },
+    {
+     "topic": "Restrictive Lung Disease",
+     "count": 1
+    },
+    {
+     "topic": "Exercise Physiology",
+     "count": 1
+    },
+    {
+     "topic": "Haemoglobin",
+     "count": 1
+    },
+    {
+     "topic": "Respiratory Rate",
+     "count": 1
+    },
+    {
+     "topic": "Energy Expenditure",
+     "count": 1
+    },
+    {
+     "topic": "Walking Programme",
+     "count": 1
+    },
+    {
+     "topic": "Exercise for Elderly",
+     "count": 1
+    },
+    {
+     "topic": "PEEP",
+     "count": 1
+    },
+    {
+     "topic": "Ageing",
+     "count": 1
+    },
+    {
+     "topic": "Pregnancy Exercise",
+     "count": 1
+    },
+    {
+     "topic": "Blood Tests",
+     "count": 1
+    },
+    {
+     "topic": "Blisters",
+     "count": 1
+    },
+    {
+     "topic": "Orthostatic Hypotension",
+     "count": 1
+    },
+    {
+     "topic": "Cardiac Testing",
+     "count": 1
+    },
+    {
+     "topic": "First Aid",
+     "count": 1
+    },
+    {
+     "topic": "Cardiac Arrest",
+     "count": 1
     }
    ]
   },
   {
    "subject": "Physiotherapy in Musculoskeletal Condition",
    "files": [
+    "mpt-book-ms.json",
     "pt-msk.json",
     "pt-msk2.json",
     "pt-msk3.json",
     "pt-msk4.json"
    ],
-   "count": 288,
+   "count": 413,
    "topics": [
+    {
+     "topic": "Orthotics",
+     "count": 26
+    },
     {
      "topic": "Upper Limb Conditions",
      "count": 24
     },
     {
-     "topic": "Orthotics",
-     "count": 22
-    },
-    {
      "topic": "Amputation",
-     "count": 20
+     "count": 21
     },
     {
      "topic": "Knee Conditions",
@@ -1115,6 +2676,10 @@
      "count": 9
     },
     {
+     "topic": "Myositis Ossificans",
+     "count": 8
+    },
+    {
      "topic": "Spinal Conditions",
      "count": 8
     },
@@ -1147,6 +2712,10 @@
      "count": 7
     },
     {
+     "topic": "Volkmann's Contracture",
+     "count": 6
+    },
+    {
      "topic": "Arthritis",
      "count": 6
     },
@@ -1163,21 +2732,334 @@
      "count": 5
     },
     {
+     "topic": "Ankylosing Spondylitis",
+     "count": 4
+    },
+    {
+     "topic": "Hip Replacement",
+     "count": 4
+    },
+    {
+     "topic": "Median Nerve",
+     "count": 4
+    },
+    {
+     "topic": "Rheumatoid Arthritis",
+     "count": 3
+    },
+    {
      "topic": "Burns",
      "count": 3
+    },
+    {
+     "topic": "Carpal Tunnel",
+     "count": 2
+    },
+    {
+     "topic": "Erb's Palsy",
+     "count": 2
+    },
+    {
+     "topic": "Dupuytren's",
+     "count": 2
+    },
+    {
+     "topic": "Scoliosis",
+     "count": 2
+    },
+    {
+     "topic": "Joint Mobilisation",
+     "count": 2
+    },
+    {
+     "topic": "Knee Replacement",
+     "count": 2
+    },
+    {
+     "topic": "Residual Limb Bandaging",
+     "count": 2
+    },
+    {
+     "topic": "Shoulder Rehab",
+     "count": 2
+    },
+    {
+     "topic": "Rotator Cuff",
+     "count": 2
+    },
+    {
+     "topic": "Colles' Fracture",
+     "count": 2
+    },
+    {
+     "topic": "Amputee Positioning",
+     "count": 2
+    },
+    {
+     "topic": "Claw Hand",
+     "count": 2
+    },
+    {
+     "topic": "Leprosy",
+     "count": 2
+    },
+    {
+     "topic": "Tardy Ulnar Palsy",
+     "count": 2
+    },
+    {
+     "topic": "Mallet Finger",
+     "count": 2
+    },
+    {
+     "topic": "Forearm Fractures",
+     "count": 2
+    },
+    {
+     "topic": "Capsular Pattern",
+     "count": 2
+    },
+    {
+     "topic": "Prosthetics",
+     "count": 1
+    },
+    {
+     "topic": "Clubfoot",
+     "count": 1
+    },
+    {
+     "topic": "DDH Tests",
+     "count": 1
+    },
+    {
+     "topic": "CPM",
+     "count": 1
+    },
+    {
+     "topic": "Frozen Shoulder",
+     "count": 1
+    },
+    {
+     "topic": "Knee Injuries",
+     "count": 1
+    },
+    {
+     "topic": "Ganglion",
+     "count": 1
+    },
+    {
+     "topic": "Elbow Dislocation",
+     "count": 1
+    },
+    {
+     "topic": "Immobilisation",
+     "count": 1
+    },
+    {
+     "topic": "Scaphoid Fracture",
+     "count": 1
+    },
+    {
+     "topic": "Shoulder Dislocation",
+     "count": 1
+    },
+    {
+     "topic": "Osteoarthritis",
+     "count": 1
+    },
+    {
+     "topic": "Knee ROM",
+     "count": 1
+    },
+    {
+     "topic": "PCL Injury",
+     "count": 1
+    },
+    {
+     "topic": "Peroneal Palsy",
+     "count": 1
+    },
+    {
+     "topic": "Ligament Sprain",
+     "count": 1
+    },
+    {
+     "topic": "Joint Replacement",
+     "count": 1
+    },
+    {
+     "topic": "Achilles Rupture",
+     "count": 1
+    },
+    {
+     "topic": "Knee Mobilisation",
+     "count": 1
+    },
+    {
+     "topic": "Skeletal Traction",
+     "count": 1
+    },
+    {
+     "topic": "AC Joint Sprain",
+     "count": 1
+    },
+    {
+     "topic": "Patellar Tracking",
+     "count": 1
+    },
+    {
+     "topic": "Amputee Education",
+     "count": 1
+    },
+    {
+     "topic": "Amputee Gait",
+     "count": 1
+    },
+    {
+     "topic": "Meniscus Tear",
+     "count": 1
+    },
+    {
+     "topic": "Return to Sport",
+     "count": 1
+    },
+    {
+     "topic": "Hip Anteversion",
+     "count": 1
+    },
+    {
+     "topic": "Ankle Sprain",
+     "count": 1
+    },
+    {
+     "topic": "Trochanteric Bursitis",
+     "count": 1
+    },
+    {
+     "topic": "Rotator Cuff Repair",
+     "count": 1
+    },
+    {
+     "topic": "Osgood-Schlatter",
+     "count": 1
+    },
+    {
+     "topic": "Rheumatoid Shoulder",
+     "count": 1
+    },
+    {
+     "topic": "Impingement",
+     "count": 1
+    },
+    {
+     "topic": "Prosthetic Gait",
+     "count": 1
+    },
+    {
+     "topic": "Rotator Cuff Exercise",
+     "count": 1
+    },
+    {
+     "topic": "Problem List",
+     "count": 1
+    },
+    {
+     "topic": "Rotator Cuff Tear",
+     "count": 1
+    },
+    {
+     "topic": "Chondrocalcinosis",
+     "count": 1
+    },
+    {
+     "topic": "Amputation Level",
+     "count": 1
+    },
+    {
+     "topic": "De Quervain's",
+     "count": 1
+    },
+    {
+     "topic": "Painful Arc",
+     "count": 1
+    },
+    {
+     "topic": "Skin Traction",
+     "count": 1
+    },
+    {
+     "topic": "Meniscus",
+     "count": 1
+    },
+    {
+     "topic": "Trigger Finger",
+     "count": 1
+    },
+    {
+     "topic": "Clavicle Fracture",
+     "count": 1
+    },
+    {
+     "topic": "ACL Injury",
+     "count": 1
+    },
+    {
+     "topic": "Complex Regional Pain Syndrome",
+     "count": 1
+    },
+    {
+     "topic": "Rheumatoid Hand",
+     "count": 1
+    },
+    {
+     "topic": "Vertebral Artery Test",
+     "count": 1
+    },
+    {
+     "topic": "Supraspinatus Tendinitis",
+     "count": 1
+    },
+    {
+     "topic": "Acute Injury",
+     "count": 1
+    },
+    {
+     "topic": "Infraspinatus",
+     "count": 1
+    },
+    {
+     "topic": "Taping",
+     "count": 1
+    },
+    {
+     "topic": "Spinal Orthoses",
+     "count": 1
+    },
+    {
+     "topic": "Elbow Ligaments",
+     "count": 1
+    },
+    {
+     "topic": "Medial Meniscus",
+     "count": 1
+    },
+    {
+     "topic": "Hip Stability",
+     "count": 1
     }
    ]
   },
   {
    "subject": "Physiotherapy in Neurosciences",
    "files": [
+    "mpt-book-ne.json",
     "pt-neuro.json",
     "pt-neuro2.json",
     "pt-neuro3.json",
     "pt-neuro4.json",
     "pt-neuro5.json"
    ],
-   "count": 281,
+   "count": 366,
    "topics": [
     {
      "topic": "Stroke",
@@ -1188,12 +3070,16 @@
      "count": 23
     },
     {
+     "topic": "Cerebral Palsy",
+     "count": 21
+    },
+    {
      "topic": "Peripheral Neuropathy",
      "count": 21
     },
     {
-     "topic": "Cerebral Palsy",
-     "count": 20
+     "topic": "Parkinson's Disease",
+     "count": 16
     },
     {
      "topic": "Multiple Sclerosis",
@@ -1202,10 +3088,6 @@
     {
      "topic": "Balance & Vestibular",
      "count": 15
-    },
-    {
-     "topic": "Parkinson's Disease",
-     "count": 14
     },
     {
      "topic": "Neuroscience Basics",
@@ -1236,6 +3118,10 @@
      "count": 7
     },
     {
+     "topic": "SCI Functional",
+     "count": 6
+    },
+    {
      "topic": "Guillain-Barre Syndrome",
      "count": 5
     },
@@ -1248,12 +3134,28 @@
      "count": 5
     },
     {
+     "topic": "Wheelchair",
+     "count": 4
+    },
+    {
      "topic": "Spinal Cord Disorders",
      "count": 4
     },
     {
-     "topic": "SCI Functional",
-     "count": 4
+     "topic": "Developmental Milestones",
+     "count": 3
+    },
+    {
+     "topic": "PNF",
+     "count": 3
+    },
+    {
+     "topic": "Myasthenia Gravis",
+     "count": 3
+    },
+    {
+     "topic": "SCI C6",
+     "count": 3
     },
     {
      "topic": "Muscular Dystrophy",
@@ -1272,11 +3174,39 @@
      "count": 3
     },
     {
-     "topic": "Motor Neuron Disease",
+     "topic": "Tetraplegia C7",
      "count": 2
     },
     {
-     "topic": "Myasthenia Gravis",
+     "topic": "Hemiplegia Positioning",
+     "count": 2
+    },
+    {
+     "topic": "Athetoid CP",
+     "count": 2
+    },
+    {
+     "topic": "Hemiplegia Treatment",
+     "count": 2
+    },
+    {
+     "topic": "Dysdiadochokinesia",
+     "count": 2
+    },
+    {
+     "topic": "Shoulder Subluxation",
+     "count": 2
+    },
+    {
+     "topic": "Gowers' Sign",
+     "count": 2
+    },
+    {
+     "topic": "SCI C5",
+     "count": 2
+    },
+    {
+     "topic": "Motor Neuron Disease",
      "count": 2
     },
     {
@@ -1290,6 +3220,206 @@
     {
      "topic": "Poliomyelitis",
      "count": 2
+    },
+    {
+     "topic": "Wheelchair Prescription",
+     "count": 1
+    },
+    {
+     "topic": "Peripheral Nerve Injury",
+     "count": 1
+    },
+    {
+     "topic": "Orthostatic Hypotension",
+     "count": 1
+    },
+    {
+     "topic": "Tetraplegia C6",
+     "count": 1
+    },
+    {
+     "topic": "Aquatic Therapy",
+     "count": 1
+    },
+    {
+     "topic": "Pressure Ulcers",
+     "count": 1
+    },
+    {
+     "topic": "Brown-Sequard",
+     "count": 1
+    },
+    {
+     "topic": "Autonomic Dysreflexia",
+     "count": 1
+    },
+    {
+     "topic": "Paraplegia",
+     "count": 1
+    },
+    {
+     "topic": "Nerve Ischaemia",
+     "count": 1
+    },
+    {
+     "topic": "Nerve Injury",
+     "count": 1
+    },
+    {
+     "topic": "Developmental Sequence",
+     "count": 1
+    },
+    {
+     "topic": "Flaccid Hemiplegia",
+     "count": 1
+    },
+    {
+     "topic": "Clonus",
+     "count": 1
+    },
+    {
+     "topic": "Developmental Assessment",
+     "count": 1
+    },
+    {
+     "topic": "Facilitation Techniques",
+     "count": 1
+    },
+    {
+     "topic": "Palmar Grasp",
+     "count": 1
+    },
+    {
+     "topic": "Tone Assessment",
+     "count": 1
+    },
+    {
+     "topic": "Moro Reflex",
+     "count": 1
+    },
+    {
+     "topic": "Rooting Reflex",
+     "count": 1
+    },
+    {
+     "topic": "Bobath",
+     "count": 1
+    },
+    {
+     "topic": "Casting in CP",
+     "count": 1
+    },
+    {
+     "topic": "Hemiplegia Facilitation",
+     "count": 1
+    },
+    {
+     "topic": "Synergy Patterns",
+     "count": 1
+    },
+    {
+     "topic": "Synkinesis",
+     "count": 1
+    },
+    {
+     "topic": "Seizure First Aid",
+     "count": 1
+    },
+    {
+     "topic": "Outcome Measures",
+     "count": 1
+    },
+    {
+     "topic": "Babinski Reflex",
+     "count": 1
+    },
+    {
+     "topic": "Tone Reduction",
+     "count": 1
+    },
+    {
+     "topic": "Weight Bearing",
+     "count": 1
+    },
+    {
+     "topic": "Unilateral Neglect",
+     "count": 1
+    },
+    {
+     "topic": "Facilitation",
+     "count": 1
+    },
+    {
+     "topic": "Rancho Scale",
+     "count": 1
+    },
+    {
+     "topic": "Hemiplegic Gait",
+     "count": 1
+    },
+    {
+     "topic": "Primitive Reflexes",
+     "count": 1
+    },
+    {
+     "topic": "Cerebellar Stroke",
+     "count": 1
+    },
+    {
+     "topic": "Developmental Postures",
+     "count": 1
+    },
+    {
+     "topic": "Stroke Prognosis",
+     "count": 1
+    },
+    {
+     "topic": "Short-term Goals",
+     "count": 1
+    },
+    {
+     "topic": "Balance Scales",
+     "count": 1
+    },
+    {
+     "topic": "Tetraplegia Rehabilitation",
+     "count": 1
+    },
+    {
+     "topic": "SCI T6",
+     "count": 1
+    },
+    {
+     "topic": "SCI Function",
+     "count": 1
+    },
+    {
+     "topic": "SCI T10",
+     "count": 1
+    },
+    {
+     "topic": "Power Wheelchair",
+     "count": 1
+    },
+    {
+     "topic": "Respiratory SCI",
+     "count": 1
+    },
+    {
+     "topic": "SCI Transfers",
+     "count": 1
+    },
+    {
+     "topic": "SCI C4",
+     "count": 1
+    },
+    {
+     "topic": "SCI Ambulation",
+     "count": 1
+    },
+    {
+     "topic": "Hypotonic Arm",
+     "count": 1
     },
     {
      "topic": "Huntington's Disease",
