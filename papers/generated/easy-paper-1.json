@@ -1,0 +1,2016 @@
+{
+ "paperId": "easy-paper-1",
+ "paperName": "Easy Paper 1",
+ "subject": "Mixed (Real Weightage)",
+ "difficulty": "Easy",
+ "description": "100 questions following the real PGP-CET 2025 subject weightage. Mix: 38 easy / 51 medium / 11 hard. Every question cites its source.",
+ "durationMinutes": 90,
+ "scoring": {
+  "correct": 1,
+  "incorrect": 0,
+  "unanswered": 0,
+  "negativeMarkingEnabled": false
+ },
+ "questions": [
+  {
+   "id": 1,
+   "topic": "Shoulder Assessment",
+   "subtopic": "Labral Lesions",
+   "difficulty": "Hard",
+   "question": "A 'Bankart lesion' of the shoulder refers to:",
+   "options": {
+    "A": "Detachment of the anteroinferior labrum, commonly occurring with traumatic anterior dislocation",
+    "B": "A tear confined strictly to the superior labrum (10 to 2 o'clock position)",
+    "C": "A rotator cuff tear with no labral involvement",
+    "D": "A fracture of the greater tuberosity"
+   },
+   "correctAnswer": "A",
+   "explanation": "A Bankart lesion is a tear of the anteroinferior labrum (roughly the 3 to 7 o'clock position in the right shoulder), most commonly occurring with a traumatic anterior dislocation, also compromising the stability of the inferior glenohumeral ligament.",
+   "sourceBook": "Magee, Orthopedic Physical Assessment",
+   "sourceChapter": "Chapter 5: Shoulder — Tests for Labral Tears",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "pt-msk.json::ptmsk-15"
+  },
+  {
+   "id": 2,
+   "topic": "Cardiopulmonary Assessment",
+   "subtopic": "Sputum",
+   "difficulty": "Medium",
+   "question": "'Rusty' coloured sputum is classically associated with infection by which organism?",
+   "options": {
+    "A": "Pseudomonas",
+    "B": "Pneumococcus",
+    "C": "Haemophilus",
+    "D": "Klebsiella"
+   },
+   "correctAnswer": "B",
+   "explanation": "Rusty-coloured sputum is a classic finding associated with pneumococcal infection (typical lobar pneumonia), whereas dark green/brown sputum suggests Pseudomonas, and 'red-currant jelly' sputum suggests Klebsiella.",
+   "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+   "sourceChapter": "Assessment — Sputum",
+   "sourcePage": null,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "pt-genmed.json::ptgen-5"
+  },
+  {
+   "id": 3,
+   "topic": "Electrical Stimulation of Nerve and Muscle",
+   "subtopic": "Motor Points",
+   "difficulty": "Medium",
+   "question": "When faradic-type current is applied directly over an innervated muscle, maximum contraction response is generally obtained by stimulating at the:",
+   "options": {
+    "A": "Tendon of insertion exclusively",
+    "B": "Motor point — where the main nerve enters the muscle (or, for deep muscles, where it emerges from under more superficial muscles)",
+    "C": "Muscle belly midpoint, regardless of nerve entry",
+    "D": "Origin of the muscle only"
+   },
+   "correctAnswer": "B",
+   "explanation": "The motor point — the point at which the main nerve supply enters the muscle, or for deeply placed muscles, the point where the nerve emerges from under overlying superficial muscles — is where maximum contraction response is typically obtained with electrical stimulation.",
+   "sourceBook": "Clayton's Electrotherapy",
+   "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Effects of Nerve Stimulation",
+   "sourcePage": "46",
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "electrotherapy.json::electro-15"
+  },
+  {
+   "id": 4,
+   "topic": "Anxiety Disorders",
+   "subtopic": "Symptom Classification",
+   "difficulty": "Easy",
+   "question": "Derealisation and depersonalisation, when they occur as anxiety symptoms, are classified under which category of psychological symptoms?",
+   "options": {
+    "A": "Cognitive symptoms",
+    "B": "Perceptual symptoms",
+    "C": "Affective symptoms",
+    "D": "Motoric symptoms"
+   },
+   "correctAnswer": "B",
+   "explanation": "Derealisation and depersonalisation are classified as perceptual symptoms of anxiety, distinct from cognitive symptoms (poor concentration, distractibility), affective symptoms (fearfulness, apprehension), and physical/motoric symptoms (tremors, restlessness).",
+   "sourceBook": "Ahuja, A Short Textbook of Psychiatry",
+   "sourceChapter": "Neurotic, Stress-related and Somatoform Disorders — Anxiety Disorder, Symptoms",
+   "sourcePage": null,
+   "subject": "Psychiatry",
+   "bankRef": "psychiatry.json::psy-14"
+  },
+  {
+   "id": 5,
+   "topic": "Clinical Decision Making",
+   "subtopic": "Team Communication",
+   "difficulty": "Easy",
+   "question": "SBAR, a structured communication tool used for handovers and referrals, stands for:",
+   "options": {
+    "A": "Situation, Background, Assessment, Recommendation",
+    "B": "Symptoms, Blood tests, Allergies, Review",
+    "C": "Signs, Basic observations, Analysis, Report",
+    "D": "Screening, Baseline, Action, Record"
+   },
+   "correctAnswer": "A",
+   "explanation": "SBAR (Situation, Background, Assessment, Recommendation) is a structured communication framework recommended for handovers and referrals, increasing the amount of relevant clinical information communicated in a short time.",
+   "sourceBook": "Davidson's Principles and Practice of Medicine",
+   "sourceChapter": "Clinical Decision Making — Effective Team Communication",
+   "sourcePage": null,
+   "subject": "Medicine",
+   "bankRef": "medicine.json::med-8"
+  },
+  {
+   "id": 6,
+   "topic": "Electrical Stimulation of Nerve and Muscle",
+   "subtopic": "Faradic-Type Current",
+   "difficulty": "Easy",
+   "question": "A faradic-type current is best defined as:",
+   "options": {
+    "A": "A continuous, unvarying direct current",
+    "B": "A short-duration interrupted direct current with a pulse duration of 0.1-1 ms and a frequency of 50-100 Hz",
+    "C": "A current only used for denervated muscle",
+    "D": "A current with pulse durations always exceeding 100 ms"
+   },
+   "correctAnswer": "B",
+   "explanation": "A faradic-type current is a short-duration interrupted direct current with a pulse duration of 0.1-1 ms and a frequency of 50-100 Hz — modern electronic stimulators reproduce the same physiological effects as the original faradic coil, just via a different circuit mechanism.",
+   "sourceBook": "Clayton's Electrotherapy",
+   "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Faradic-Type Current",
+   "sourcePage": "40",
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "electrotherapy.json::electro-3"
+  },
+  {
+   "id": 7,
+   "topic": "Cardiopulmonary Assessment",
+   "subtopic": "Wheeze vs Stridor",
+   "difficulty": "Medium",
+   "question": "Stridor is often mistakenly called 'wheeze' by patients, but it actually indicates:",
+   "options": {
+    "A": "Upper airway obstruction",
+    "B": "Pleural effusion",
+    "C": "Normal breath sounds",
+    "D": "Lower lobe consolidation only"
+   },
+   "correctAnswer": "A",
+   "explanation": "Stridor is the sound produced by upper airway obstruction and is often mistakenly labelled 'wheeze' by patients, though true wheeze arises from turbulent airflow through narrowed lower airways — an important clinical distinction.",
+   "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+   "sourceChapter": "Assessment — Wheeze",
+   "sourcePage": null,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "pt-genmed.json::ptgen-10"
+  },
+  {
+   "id": 8,
+   "topic": "Cardiopulmonary Assessment",
+   "subtopic": "Cough",
+   "difficulty": "Medium",
+   "question": "A daily, chronic productive cough is described as a fundamental feature of which conditions?",
+   "options": {
+    "A": "Interstitial lung disease",
+    "B": "Chronic bronchitis and bronchiectasis",
+    "C": "Pulmonary embolism",
+    "D": "Asthma exclusively"
+   },
+   "correctAnswer": "B",
+   "explanation": "A chronic productive cough occurring every day is a fundamental feature of chronic bronchitis and bronchiectasis, whereas interstitial lung disease is characteristically associated with a persistent DRY cough.",
+   "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+   "sourceChapter": "Assessment — Cough",
+   "sourcePage": null,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "pt-genmed.json::ptgen-3"
+  },
+  {
+   "id": 9,
+   "topic": "Knee Assessment",
+   "subtopic": "Special Tests — Meniscus",
+   "difficulty": "Easy",
+   "question": "Which two special tests are classically used to assess for a meniscal injury of the knee?",
+   "options": {
+    "A": "McMurray test and Apley's test",
+    "B": "Lachman test and pivot shift test",
+    "C": "Clarke's sign and the Q-angle measurement",
+    "D": "Noble compression test and Ober's test"
+   },
+   "correctAnswer": "A",
+   "explanation": "The McMurray test and Apley's (compression/distraction) test are the classic special tests for meniscal injury of the knee, alongside the 'bounce home' test.",
+   "sourceBook": "Magee, Orthopedic Physical Assessment",
+   "sourceChapter": "Chapter 12: Knee — Special Tests Commonly Performed on the Knee",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "pt-msk.json::ptmsk-5"
+  },
+  {
+   "id": 10,
+   "topic": "Upper Limb",
+   "subtopic": "Carpal Bones",
+   "difficulty": "Easy",
+   "question": "The hook-like projection near the base of which carpal bone gives attachment to the flexor retinaculum?",
+   "options": {
+    "A": "Scaphoid",
+    "B": "Trapezium",
+    "C": "Hamate",
+    "D": "Pisiform only"
+   },
+   "correctAnswer": "C",
+   "explanation": "The hamate is wedge-shaped with a hook projecting from the distal part of its palmar surface; the tip of the hook gives attachment to the flexor retinaculum, and its medial side gives origin to flexor digiti minimi and opponens digiti minimi.",
+   "sourceBook": "BD Chaurasia's Human Anatomy — Upper Limb",
+   "sourceChapter": "Bones of the Upper Limb — Carpal Bones",
+   "sourcePage": null,
+   "subject": "Anatomy",
+   "bankRef": "anatomy.json::anat-10"
+  },
+  {
+   "id": 11,
+   "topic": "Manual Muscle Testing",
+   "subtopic": "Limitations of MMT",
+   "difficulty": "Hard",
+   "question": "The 'ceiling effect' of manual muscle testing refers to which limitation of the technique?",
+   "options": {
+    "A": "It cannot detect any degree of weakness whatsoever",
+    "B": "A wide range of actual muscle force can all be labeled Grade 5 (Normal), masking real strength differences among people graded 'normal'",
+    "C": "It systematically overestimates weakness in older adults",
+    "D": "It is not valid for testing lower-extremity muscles"
+   },
+   "correctAnswer": "B",
+   "explanation": "Studies comparing MMT to hand-held dynamometry found knee extension forces ranging roughly from 85 to over 800 Newtons all classified as Grade 5 (Normal) by break testing. This 'ceiling effect' means MMT loses the ability to distinguish real strength differences once a muscle is already strong, so it is not recommended as a measure of progress above Grade 3.",
+   "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+   "sourceChapter": "Chapter 2: Relevance and Limitations of Manual Muscle Testing",
+   "sourcePage": "17",
+   "subject": "Physical Diagnosis & Manipulative Skills",
+   "bankRef": "manual-muscle-testing.json::mmt-8"
+  },
+  {
+   "id": 12,
+   "topic": "Cardiopulmonary Assessment",
+   "subtopic": "Breathlessness Classification",
+   "difficulty": "Medium",
+   "question": "According to the New York Heart Association (NYHA) classification of breathlessness, a patient who becomes symptomatic with mild exertion such as bathing or dressing falls into which class?",
+   "options": {
+    "A": "Class I",
+    "B": "Class II",
+    "C": "Class III",
+    "D": "Class IV"
+   },
+   "correctAnswer": "C",
+   "explanation": "NYHA Class III describes symptoms occurring with mild exertion (e.g. bathing, showering, dressing). Class I is asymptomatic except with severe exertion, Class II is symptomatic with ordinary activity (e.g. walking upstairs), and Class IV is symptomatic even at rest.",
+   "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+   "sourceChapter": "Assessment — Breathlessness Classification",
+   "sourcePage": null,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "pt-genmed.json::ptgen-1"
+  },
+  {
+   "id": 13,
+   "topic": "Knee Assessment",
+   "subtopic": "Ligament Testing",
+   "difficulty": "Medium",
+   "question": "Hughston's posteromedial drawer sign is performed with the patient supine, knee flexed 80-90°, hip flexed 45°, and the foot slightly medially rotated. A positive test (excessive posterior movement/rotation of the medial tibia) is most indicative of injury to which primary structure?",
+   "options": {
+    "A": "Anterior cruciate ligament in isolation",
+    "B": "Posterior cruciate ligament (along with posteromedial supporting structures)",
+    "C": "Lateral collateral ligament only",
+    "D": "Iliotibial band"
+   },
+   "correctAnswer": "B",
+   "explanation": "A positive Hughston's posteromedial drawer sign indicates injury to the posterior cruciate ligament, along with possible involvement of the posterior oblique ligament, medial collateral ligament, semimembranosus, and posteromedial capsule — it tests for posteromedial rotary instability of the knee.",
+   "sourceBook": "Magee, Orthopedic Physical Assessment",
+   "sourceChapter": "Chapter 12: Knee — Ligament Stability, Posteromedial and Posterolateral Drawer Sign",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "pt-msk.json::ptmsk-1"
+  },
+  {
+   "id": 14,
+   "topic": "Stroke",
+   "subtopic": "Risk Factors",
+   "difficulty": "Medium",
+   "question": "Which of the following is described as a powerful, independent risk factor for stroke, associated with roughly a fivefold increase in risk?",
+   "options": {
+    "A": "Atrial fibrillation",
+    "B": "Seasonal allergies",
+    "C": "Mild anaemia",
+    "D": "Occasional caffeine intake"
+   },
+   "correctAnswer": "A",
+   "explanation": "Atrial fibrillation is described as a powerful risk factor for stroke, associated with approximately a fivefold increase in stroke risk, due to its potential to generate cardiac emboli.",
+   "sourceBook": "O'Sullivan, Physical Rehabilitation",
+   "sourceChapter": "Chapter 15: Stroke — Risk Factors and Stroke Prevention",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "pt-neuro.json::ptneuro-10"
+  },
+  {
+   "id": 15,
+   "topic": "Electrical Stimulation of Nerve and Muscle",
+   "subtopic": "Rise vs Fall in Current",
+   "difficulty": "Hard",
+   "question": "While a rising current initiates an impulse most effectively at the cathode, a FALL in current (when it occurs) is more effective at initiating an impulse at which electrode?",
+   "options": {
+    "A": "The cathode",
+    "B": "The anode",
+    "C": "Neither electrode is affected by a falling current",
+    "D": "Both electrodes equally"
+   },
+   "correctAnswer": "B",
+   "explanation": "A fall in current is less effective overall at initiating an impulse than a rise, but when it does have an effect, it is the anode side of the nerve that is affected — so the anode produces greater stimulation than the cathode specifically in response to a falling current, the reverse of the pattern seen with a rising current.",
+   "sourceBook": "Clayton's Electrotherapy",
+   "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Accommodation",
+   "sourcePage": "45",
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "electrotherapy.json::electro-9"
+  },
+  {
+   "id": 16,
+   "topic": "Knee Assessment",
+   "subtopic": "Dial Test",
+   "difficulty": "Hard",
+   "question": "In the tibial external rotation (Dial) test, if the tibia rotates MORE at 90° of knee flexion than at 30°, this pattern most likely indicates injury to:",
+   "options": {
+    "A": "Only the popliteus corner (isolated posterolateral injury)",
+    "B": "Both the popliteus corner AND the posterior cruciate ligament",
+    "C": "The anterior cruciate ligament in isolation",
+    "D": "The medial meniscus only"
+   },
+   "correctAnswer": "B",
+   "explanation": "In the Dial test, if the tibia rotates less at 90° than at 30°, an isolated posterolateral (popliteus corner) injury is more likely. If it rotates MORE at 90° than at 30°, combined injury to both the popliteus corner and the posterior cruciate ligament is more likely.",
+   "sourceBook": "Magee, Orthopedic Physical Assessment",
+   "sourceChapter": "Chapter 12: Knee — Tibial External Rotation (Dial) Test",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "pt-msk.json::ptmsk-10"
+  },
+  {
+   "id": 17,
+   "topic": "Resistance Exercise",
+   "subtopic": "Open vs Closed Chain",
+   "difficulty": "Medium",
+   "question": "Closed-chain exercise is best described as exercise performed:",
+   "options": {
+    "A": "In a nonweight-bearing position with the distal segment moving freely",
+    "B": "In a weight-bearing position where the body moves over a fixed distal segment",
+    "C": "Only using free weights, never body weight",
+    "D": "Exclusively with the upper extremity"
+   },
+   "correctAnswer": "B",
+   "explanation": "Closed-chain exercise is performed in a weight-bearing position, where the body moves over a relatively fixed distal segment (e.g. the foot on the ground during a squat). Open-chain exercise, by contrast, is performed nonweight-bearing, with the distal segment (hand or foot) moving freely.",
+   "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+   "sourceChapter": "Chapter 6: Resistance Exercise — Position for Exercise",
+   "sourcePage": null,
+   "subject": "Kinesio Therapeutics",
+   "bankRef": "kinesio.json::kine-10"
+  },
+  {
+   "id": 18,
+   "topic": "Membrane Potentials",
+   "subtopic": "Resting Membrane Potential",
+   "difficulty": "Easy",
+   "question": "The resting membrane potential is conventionally written with a minus sign because:",
+   "options": {
+    "A": "It signifies the inside of the cell is negative relative to the outside",
+    "B": "It signifies the outside of the cell is negative relative to the inside",
+    "C": "The sign is arbitrary and carries no physiological meaning",
+    "D": "It indicates the cell is in the process of depolarising"
+   },
+   "correctAnswer": "A",
+   "explanation": "The resting membrane potential is written with a minus sign to indicate that, at rest, the interior of the cell is electrically negative relative to the exterior — its magnitude varies by tissue, typically ranging from about -10 mV to -100 mV.",
+   "sourceBook": "AK Jain, Physiology",
+   "sourceChapter": "The Membrane Potentials — Resting Membrane Potential",
+   "sourcePage": null,
+   "subject": "Physiology",
+   "bankRef": "physiology.json::physio-4"
+  },
+  {
+   "id": 19,
+   "topic": "Shoulder Assessment",
+   "subtopic": "Impingement Tests",
+   "difficulty": "Medium",
+   "question": "The Hawkins-Kennedy impingement test involves forward flexing the arm to 90° and then forcibly:",
+   "options": {
+    "A": "Medially rotating the shoulder",
+    "B": "Laterally rotating the shoulder only",
+    "C": "Extending the elbow fully",
+    "D": "Abducting the hip"
+   },
+   "correctAnswer": "A",
+   "explanation": "In the Hawkins-Kennedy test, the examiner forward flexes the arm to 90° and then forcibly medially rotates the shoulder, pushing the supraspinatus tendon against the coracoacromial ligament and coracoid process — pain indicates a positive test for supraspinatus tendinosis or impingement.",
+   "sourceBook": "Magee, Orthopedic Physical Assessment",
+   "sourceChapter": "Chapter 5: Shoulder — Hawkins-Kennedy Impingement Test",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "pt-msk.json::ptmsk-14"
+  },
+  {
+   "id": 20,
+   "topic": "Stretching",
+   "subtopic": "Definitions of Flexibility",
+   "difficulty": "Medium",
+   "question": "'Passive flexibility' (passive range of motion) is best described as:",
+   "options": {
+    "A": "The degree to which an active muscle contraction moves a joint through its available range",
+    "B": "The degree to which a body segment can be moved through its available range by an external force, without the patient contracting the muscle themselves",
+    "C": "The absolute maximum range any joint could reach under general anesthesia",
+    "D": "A measure of muscular endurance during repeated contractions"
+   },
+   "correctAnswer": "B",
+   "explanation": "Passive flexibility depends on the extensibility of the muscles and connective tissues crossing a joint. It is a prerequisite for, but does not guarantee, dynamic (active) flexibility — which instead depends on the patient's own active muscle contraction moving the segment.",
+   "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+   "sourceChapter": "Chapter 4: Stretching for Impaired Mobility — Definition of Terms",
+   "sourcePage": null,
+   "subject": "Fundamentals of Exercise Therapy",
+   "bankRef": "exercise-therapy.json::ext-4"
+  },
+  {
+   "id": 21,
+   "topic": "Epidemiology",
+   "subtopic": "Measurements in Epidemiology",
+   "difficulty": "Easy",
+   "question": "Which of the following is NOT listed among the basic measurements used in epidemiology?",
+   "options": {
+    "A": "Measurement of mortality",
+    "B": "Measurement of morbidity",
+    "C": "Measurement of natality",
+    "D": "Measurement of a patient's personal income"
+   },
+   "correctAnswer": "D",
+   "explanation": "Basic epidemiological measurements include mortality, morbidity, disability, natality, presence/absence/distribution of disease characteristics, medical needs and health service utilisation, environmental factors, and demographic variables — personal income is not one of the standard categories listed, though socioeconomic status may be studied as a demographic variable.",
+   "sourceBook": "Park's Textbook of Preventive and Social Medicine",
+   "sourceChapter": "Principles of Epidemiology and Epidemiologic Methods — Basic Measurements in Epidemiology",
+   "sourcePage": "55",
+   "subject": "Physiotherapy in Community Health",
+   "bankRef": "pt-community.json::comm-1"
+  },
+  {
+   "id": 22,
+   "topic": "Vitamins",
+   "subtopic": "Vitamin B6",
+   "difficulty": "Easy",
+   "question": "Vitamin B6 collectively refers to which three related pyridine-derivative compounds?",
+   "options": {
+    "A": "Pyridoxine, pyridoxal, and pyridoxamine",
+    "B": "Thiamine, riboflavin, and niacin",
+    "C": "Folate, cobalamin, and biotin",
+    "D": "Retinol, calciferol, and tocopherol"
+   },
+   "correctAnswer": "A",
+   "explanation": "Vitamin B6 collectively represents three related pyridine-derivative compounds — pyridoxine (a primary alcohol form), pyridoxal (an aldehyde form), and pyridoxamine (an amine form) — which can interconvert, and are together known as the vitamers of B6.",
+   "sourceBook": "Satyanarayana, Biochemistry",
+   "sourceChapter": "Vitamins — Vitamin B6, Chemistry",
+   "sourcePage": null,
+   "subject": "Biochemistry",
+   "bankRef": "biochemistry.json::biochem-12"
+  },
+  {
+   "id": 23,
+   "topic": "Resistance Exercise",
+   "subtopic": "Exercise Order",
+   "difficulty": "Medium",
+   "question": "When multiple muscle groups are exercised in a single session, the recommended order is generally:",
+   "options": {
+    "A": "Small muscle groups before large muscle groups, single-joint before multi-joint exercises",
+    "B": "Large muscle groups before small muscle groups, and multi-joint exercises before single-joint exercises",
+    "C": "Order makes no difference to fatigue or training effect",
+    "D": "Lower intensity exercises should always precede higher intensity ones, regardless of warm-up"
+   },
+   "correctAnswer": "B",
+   "explanation": "The recommended exercise order is large muscle groups before small muscle groups, and multi-joint exercises before single-joint exercises, with higher-intensity exercises performed before lower-intensity ones after an appropriate warm-up.",
+   "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+   "sourceChapter": "Chapter 6: Resistance Exercise — Exercise Order",
+   "sourcePage": null,
+   "subject": "Kinesio Therapeutics",
+   "bankRef": "kinesio.json::kine-7"
+  },
+  {
+   "id": 24,
+   "topic": "Shoulder Assessment",
+   "subtopic": "Labral Lesions",
+   "difficulty": "Hard",
+   "question": "A SLAP lesion (Superior Labrum, Anterior and Posterior) involves detachment of the labrum at approximately which clock-face position, and is often caused by what mechanism?",
+   "options": {
+    "A": "10 to 2 o'clock position; often from a FOOSH injury or during deceleration in throwing",
+    "B": "3 to 7 o'clock position; only from anterior dislocation",
+    "C": "6 o'clock position exclusively; from a direct blow to the shoulder",
+    "D": "SLAP lesions never have an identifiable mechanism"
+   },
+   "correctAnswer": "A",
+   "explanation": "A SLAP lesion involves detachment of the labrum from roughly the 10 to 2 o'clock position, often occurring from a FOOSH (fall on outstretched hand) injury or during the deceleration phase of throwing; if the biceps tendon also detaches, the superior glenohumeral ligament support is lost and the shoulder becomes unstable.",
+   "sourceBook": "Magee, Orthopedic Physical Assessment",
+   "sourceChapter": "Chapter 5: Shoulder — Tests for Labral Tears",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "pt-msk.json::ptmsk-16"
+  },
+  {
+   "id": 25,
+   "topic": "Soft Tissue Injury",
+   "subtopic": "Terminology",
+   "difficulty": "Medium",
+   "question": "How is a 'strain' distinguished from a 'sprain' in soft tissue injury terminology?",
+   "options": {
+    "A": "A strain refers to some degree of disruption of the musculotendinous unit; a sprain refers specifically to injury of a ligament, joint capsule, or similar structure",
+    "B": "The two terms are completely interchangeable with no distinction",
+    "C": "A strain is always more severe than any sprain",
+    "D": "A sprain only ever occurs in muscle, never in ligaments"
+   },
+   "correctAnswer": "A",
+   "explanation": "A strain refers to overstretching/overuse causing some degree of disruption of the musculotendinous unit, tending to be less severe. A sprain refers to more severe stress, stretch, or tear of soft tissues such as a joint capsule, ligament, or tendon — graded as first (mild), second (moderate), or third (severe) degree.",
+   "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+   "sourceChapter": "Chapter 10: Soft Tissue Injury, Repair, and Management — Soft Tissue Lesions",
+   "sourcePage": null,
+   "subject": "Kinesio Therapeutics",
+   "bankRef": "kinesio.json::kine-14"
+  },
+  {
+   "id": 26,
+   "topic": "Cardiopulmonary Assessment",
+   "subtopic": "Angina",
+   "difficulty": "Medium",
+   "question": "Angina pectoris from myocardial ischaemia is classically described as:",
+   "options": {
+    "A": "A sharp, localized pain that worsens specifically on inspiration",
+    "B": "A dull, central, retrosternal gripping or band-like sensation that may radiate to the arm, neck, or jaw",
+    "C": "A superficial pain reproduced by chest wall palpation",
+    "D": "A pain confined strictly to the left shoulder with no central component"
+   },
+   "correctAnswer": "B",
+   "explanation": "Angina pectoris characteristically produces a dull, central, retrosternal gripping or band-like sensation, which may radiate to either arm, the neck, or the jaw — quite distinct from the sharp, localized, movement/palpation-related pain of musculoskeletal chest pain.",
+   "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+   "sourceChapter": "Assessment — Chest Pain",
+   "sourcePage": null,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "pt-genmed.json::ptgen-9"
+  },
+  {
+   "id": 27,
+   "topic": "Paediatric Surgery",
+   "subtopic": "Midline Hernias",
+   "difficulty": "Easy",
+   "question": "An umbilical hernia in an infant, caused by incomplete closure of the umbilical ring, most commonly:",
+   "options": {
+    "A": "Requires emergency surgery at diagnosis",
+    "B": "Resolves spontaneously by around 4 years of age",
+    "C": "Always requires surgical repair within the first month of life",
+    "D": "Is a surgical emergency due to a very high incarceration rate"
+   },
+   "correctAnswer": "B",
+   "explanation": "Umbilical hernias are common in infants and most resolve spontaneously by around 4 years of age, with incarceration being very rare — unlike supraumbilical hernias, which do not close on their own and are repaired around the same age.",
+   "sourceBook": "Bailey & Love's Short Practice of Surgery",
+   "sourceChapter": "Principles of Paediatric Surgery — Midline Hernias",
+   "sourcePage": null,
+   "subject": "General Surgery & Orthopedics",
+   "bankRef": "surgery-ortho.json::surg-9"
+  },
+  {
+   "id": 28,
+   "topic": "Membrane Potentials",
+   "subtopic": "Membrane Permeability",
+   "difficulty": "Easy",
+   "question": "At rest, the cell membrane is:",
+   "options": {
+    "A": "Freely permeable to Na+ but impermeable to K+",
+    "B": "Effectively impermeable (or only moderately permeable) to Na+, but freely permeable to K+ and Cl-",
+    "C": "Equally permeable to Na+ and K+",
+    "D": "Impermeable to all ions including K+ and Cl-"
+   },
+   "correctAnswer": "B",
+   "explanation": "At rest, the cell membrane is effectively impermeable (or only moderately permeable) to Na+, while being freely permeable to K+ and Cl- — K+ permeability is roughly 50-100 times greater than Na+ permeability, which is fundamental to the genesis of the resting membrane potential.",
+   "sourceBook": "AK Jain, Physiology",
+   "sourceChapter": "The Membrane Potentials — Introduction",
+   "sourcePage": null,
+   "subject": "Physiology",
+   "bankRef": "physiology.json::physio-1"
+  },
+  {
+   "id": 29,
+   "topic": "Stroke",
+   "subtopic": "Risk Factors",
+   "difficulty": "Medium",
+   "question": "Regarding physical activity and stroke risk, which finding is reported?",
+   "options": {
+    "A": "Moderate to vigorous exercise is associated with about a 35% reduction in stroke risk, while light exercise (walking) does not show the same benefit",
+    "B": "Exercise of any intensity has no effect on stroke risk whatsoever",
+    "C": "Only vigorous exercise increases stroke risk",
+    "D": "Light walking provides the greatest protective benefit, more than vigorous exercise"
+   },
+   "correctAnswer": "A",
+   "explanation": "Moderate to vigorous physical activity is associated with an overall 35% reduction in stroke risk, whereas light exercise such as walking alone does not appear to confer the same degree of protective benefit.",
+   "sourceBook": "O'Sullivan, Physical Rehabilitation",
+   "sourceChapter": "Chapter 15: Stroke — Risk Factors and Stroke Prevention",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "pt-neuro.json::ptneuro-11"
+  },
+  {
+   "id": 30,
+   "topic": "Manual Muscle Testing",
+   "subtopic": "Test Procedure",
+   "difficulty": "Medium",
+   "question": "In manual muscle testing, the 'break test' is best described as:",
+   "options": {
+    "A": "Applying resistance throughout an actively moving joint to see when motion ceases",
+    "B": "Bringing the part to the end of its available range and asking the patient to hold that position while the therapist tries to force ('break') it out of position",
+    "C": "Passively moving a joint until tissue resistance is felt",
+    "D": "Timing how long a muscle can sustain a maximal isometric hold"
+   },
+   "correctAnswer": "B",
+   "explanation": "The break test — the most commonly used MMT procedure — has the patient hold the end-range test position while the therapist applies gradually increasing resistance, attempting to 'break' the hold. The alternative 'active resistance test' (resisting throughout the motion) requires more skill and is not generally recommended because results are often equivocal.",
+   "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+   "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+   "sourcePage": "2",
+   "subject": "Physical Diagnosis & Manipulative Skills",
+   "bankRef": "manual-muscle-testing.json::mmt-2"
+  },
+  {
+   "id": 31,
+   "topic": "Range of Motion",
+   "subtopic": "Continuous Passive Motion",
+   "difficulty": "Easy",
+   "question": "Continuous Passive Motion (CPM) is best described as:",
+   "options": {
+    "A": "An exercise in which the patient actively moves a joint against resistance",
+    "B": "A mechanical device that moves a joint slowly and continuously through a controlled range of motion, without effort from the patient",
+    "C": "A manual stretching technique applied by the therapist at end-range",
+    "D": "A functional movement pattern combining several joints at once"
+   },
+   "correctAnswer": "B",
+   "explanation": "CPM refers specifically to a mechanical device that passively and continuously moves a joint through a set arc of motion, developed following Robert Salter's research into the healing benefits of continual passive movement on joint tissue.",
+   "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+   "sourceChapter": "Chapter 3: Range of Motion — Continuous Passive Motion",
+   "sourcePage": null,
+   "subject": "Fundamentals of Exercise Therapy",
+   "bankRef": "exercise-therapy.json::ext-1"
+  },
+  {
+   "id": 32,
+   "topic": "Cardiopulmonary Assessment",
+   "subtopic": "Glasgow Coma Scale",
+   "difficulty": "Easy",
+   "question": "On the Glasgow Coma Scale, what is the maximum total score, and what does it represent?",
+   "options": {
+    "A": "10, representing moderate impairment",
+    "B": "15, representing a fully alert, orientated patient",
+    "C": "3, the best possible score",
+    "D": "100, on a percentage-based scale"
+   },
+   "correctAnswer": "B",
+   "explanation": "The Glasgow Coma Scale has a maximum total score of 15 (best possible — eye opening 4, verbal response 5, motor response 6), representing full alertness, and a minimum score of 3, representing the deepest level of unresponsiveness.",
+   "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+   "sourceChapter": "Assessment — Objective Assessment, Coma Scale",
+   "sourcePage": null,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "pt-genmed.json::ptgen-12"
+  },
+  {
+   "id": 33,
+   "topic": "Electrical Stimulation of Nerve and Muscle",
+   "subtopic": "Practical Application",
+   "difficulty": "Medium",
+   "question": "In a practical setup for stimulating the quadriceps with a faradic-type current, where is the indifferent (larger) electrode typically placed, per Clayton's described technique?",
+   "options": {
+    "A": "Over the femoral nerve in the femoral triangle",
+    "B": "Directly over the motor points of the quadriceps only, with no separate indifferent electrode",
+    "C": "On the opposite limb entirely",
+    "D": "Over the lumbar spine"
+   },
+   "correctAnswer": "A",
+   "explanation": "In the classic technique for faradic stimulation of the quadriceps, one electrode and pad is placed over the femoral nerve in the femoral triangle and secured with a sandbag or bandage, while the other (active) electrode pad is placed across the motor points of the quadriceps.",
+   "sourceBook": "Clayton's Electrotherapy",
+   "sourceChapter": "Stimulation of Muscle Groups — Quadriceps",
+   "sourcePage": "60",
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "electrotherapy.json::electro-10"
+  },
+  {
+   "id": 34,
+   "topic": "Manual Muscle Testing",
+   "subtopic": "Grading Criteria",
+   "difficulty": "Easy",
+   "question": "On manual muscle testing (MMT), a muscle completes the full available range of motion against gravity alone, but the motion breaks as soon as any additional manual resistance is applied, however mild. What grade should this muscle receive?",
+   "options": {
+    "A": "Grade 5 (Normal)",
+    "B": "Grade 4 (Good)",
+    "C": "Grade 3 (Fair)",
+    "D": "Grade 2 (Poor)"
+   },
+   "correctAnswer": "C",
+   "explanation": "Grade 3 (Fair) is an objective grade: the muscle can complete full range of motion against gravity, but cannot tolerate any added resistance without breaking. Grade 4 requires the muscle to also withstand considerable, though submaximal, resistance.",
+   "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+   "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+   "sourcePage": "4",
+   "subject": "Physical Diagnosis & Manipulative Skills",
+   "bankRef": "manual-muscle-testing.json::mmt-1"
+  },
+  {
+   "id": 35,
+   "topic": "Stroke",
+   "subtopic": "Vascular Syndromes",
+   "difficulty": "Medium",
+   "question": "Occlusion of a posterior cerebral artery (PCA), affecting the occipital lobe, characteristically produces:",
+   "options": {
+    "A": "Contralateral homonymous hemianopsia",
+    "B": "Complete bilateral blindness in every case",
+    "C": "Isolated hearing loss",
+    "D": "Pure motor weakness with no sensory or visual involvement"
+   },
+   "correctAnswer": "A",
+   "explanation": "The PCA supplies the occipital lobe (primary visual cortex); occlusion produces contralateral homonymous hemianopsia. Bilateral PCA occlusion can cause cortical blindness, but this is not the typical single-vessel presentation.",
+   "sourceBook": "O'Sullivan, Physical Rehabilitation",
+   "sourceChapter": "Chapter 15: Stroke — Posterior Cerebral Artery Syndrome",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "pt-neuro.json::ptneuro-8"
+  },
+  {
+   "id": 36,
+   "topic": "Stroke",
+   "subtopic": "Vascular Syndromes",
+   "difficulty": "Medium",
+   "question": "Middle Cerebral Artery (MCA) syndrome, the most common site of occlusion in stroke, classically produces contralateral weakness and sensory loss most affecting:",
+   "options": {
+    "A": "The lower extremity, sparing the face and upper extremity",
+    "B": "The face and upper extremity, with relative sparing of the lower extremity",
+    "C": "Only the trunk musculature",
+    "D": "Bilateral lower extremities equally"
+   },
+   "correctAnswer": "B",
+   "explanation": "MCA syndrome classically produces contralateral spastic hemiparesis and sensory loss of the face, upper extremity, and lower extremity, with the face and upper extremity more affected than the lower extremity — the MCA is also the most common site of stroke occlusion overall.",
+   "sourceBook": "O'Sullivan, Physical Rehabilitation",
+   "sourceChapter": "Chapter 15: Stroke — Middle Cerebral Artery Syndrome",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "pt-neuro.json::ptneuro-5"
+  },
+  {
+   "id": 37,
+   "topic": "Stroke",
+   "subtopic": "Cerebral Circulation",
+   "difficulty": "Medium",
+   "question": "The circle of Willis is clinically important in stroke because it:",
+   "options": {
+    "A": "Has no role in cerebral perfusion at all",
+    "B": "Provides a collateral circulatory network that can help maintain blood flow if one contributing artery is occluded proximally",
+    "C": "Is located exclusively in the spinal cord",
+    "D": "Only supplies the cerebellum"
+   },
+   "correctAnswer": "B",
+   "explanation": "The circle of Willis connects the anterior and posterior cerebral circulations via communicating arteries, providing collateral blood flow. This is why occlusion proximal to the anterior or posterior communicating arteries often produces relatively minimal deficits — perfusion can be partly maintained from the other side.",
+   "sourceBook": "O'Sullivan, Physical Rehabilitation",
+   "sourceChapter": "Chapter 15: Stroke — Vascular Syndromes",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "pt-neuro.json::ptneuro-14"
+  },
+  {
+   "id": 38,
+   "topic": "Paediatric Trauma",
+   "subtopic": "Patterns of Injury",
+   "difficulty": "Medium",
+   "question": "A child injured by a bicycle handlebar to the abdomen is classically at risk of injury to which structures?",
+   "options": {
+    "A": "The urethra and pelvis",
+    "B": "Pancreatic, duodenal, mesenteric, or liver trauma",
+    "C": "The small intestine or lumbar spine only",
+    "D": "Severe crush injury to the chest exclusively"
+   },
+   "correctAnswer": "B",
+   "explanation": "Handlebar injuries classically cause focal, high-pressure blunt trauma to the upper abdomen, putting the pancreas, duodenum, mesentery, or liver at risk — distinct from lap belt injuries (small intestine/lumbar spine) or straddle injuries (urethra/pelvis).",
+   "sourceBook": "Bailey & Love's Short Practice of Surgery",
+   "sourceChapter": "Principles of Paediatric Surgery — Paediatric Trauma, Patterns of Injury",
+   "sourcePage": null,
+   "subject": "General Surgery & Orthopedics",
+   "bankRef": "surgery-ortho.json::surg-10"
+  },
+  {
+   "id": 39,
+   "topic": "Infectious Disease Epidemiology",
+   "subtopic": "Definitions",
+   "difficulty": "Medium",
+   "question": "The World Health Organization defines a 'zoonosis' as:",
+   "options": {
+    "A": "Any infection that only ever affects animals, never humans",
+    "B": "A disease or infection that is naturally transmissible from vertebrate animals to humans",
+    "C": "An infection transmitted exclusively via insect vectors",
+    "D": "A disease found only in tropical climates"
+   },
+   "correctAnswer": "B",
+   "explanation": "The WHO defines a zoonosis as a disease or infection naturally transmissible from vertebrate animals to humans. Infected animals may be asymptomatic, and some zoonoses (e.g. Q fever, Ebola) can then spread onward between humans, causing secondary disease.",
+   "sourceBook": "Davidson's Principles and Practice of Medicine",
+   "sourceChapter": "Epidemiology of Infection — Reservoirs of Infection",
+   "sourcePage": null,
+   "subject": "Medicine",
+   "bankRef": "medicine.json::med-13"
+  },
+  {
+   "id": 40,
+   "topic": "Cell Injury and Necrosis",
+   "subtopic": "Types of Necrosis",
+   "difficulty": "Easy",
+   "question": "Caseous necrosis, with its characteristic 'cheese-like' gross appearance, is classically found in the centre of which type of lesion?",
+   "options": {
+    "A": "Tuberculous infections",
+    "B": "Simple traumatic bruising",
+    "C": "Acute pancreatitis",
+    "D": "Rheumatoid arthritis joints only"
+   },
+   "correctAnswer": "A",
+   "explanation": "Caseous necrosis is found classically in the centre of tuberculous foci — combining features of both coagulative and liquefactive necrosis — with surrounding granulomatous inflammation (epithelioid cells, Langhans' giant cells, and a peripheral lymphocyte mantle).",
+   "sourceBook": "Harsh Mohan, Textbook of Pathology",
+   "sourceChapter": "Cell Injury, Cellular Adaptations and Cellular Ageing — Caseous Necrosis",
+   "sourcePage": null,
+   "subject": "Pathology & Microbiology",
+   "bankRef": "pathology.json::path-18"
+  },
+  {
+   "id": 41,
+   "topic": "Soft Tissue Injury",
+   "subtopic": "Stages of Healing",
+   "difficulty": "Medium",
+   "question": "During the ACUTE (inflammatory) stage of tissue healing, pain on range of motion testing is typically experienced:",
+   "options": {
+    "A": "Only after full range has been achieved, with no resistance",
+    "B": "BEFORE tissue resistance is encountered, with guarding before completion of range",
+    "C": "Never — the acute stage is always painless",
+    "D": "Only during the chronic stage, not the acute stage"
+   },
+   "correctAnswer": "B",
+   "explanation": "In the acute (inflammatory) stage, pain occurs BEFORE tissue resistance is encountered during ROM testing, and the patient typically guards against the motion before the available range is completed — contrasted with the subacute stage (pain synchronous with resistance) and chronic stage (pain only after resistance, at end-range).",
+   "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+   "sourceChapter": "Chapter 10: Soft Tissue Injury, Repair, and Management — Stages of Inflammation and Repair",
+   "sourcePage": null,
+   "subject": "Kinesio Therapeutics",
+   "bankRef": "kinesio.json::kine-17"
+  },
+  {
+   "id": 42,
+   "topic": "Shoulder Assessment",
+   "subtopic": "Impingement Tests",
+   "difficulty": "Medium",
+   "question": "The Neer impingement test involves the examiner passively and forcibly elevating the patient's medially-rotated arm in the scapular plane. A positive test (pain) is most indicative of an overuse injury to which structure?",
+   "options": {
+    "A": "The supraspinatus muscle (and sometimes the biceps tendon)",
+    "B": "The ulnar nerve",
+    "C": "The latissimus dorsi",
+    "D": "The pectoralis major tendon exclusively"
+   },
+   "correctAnswer": "A",
+   "explanation": "The Neer impingement test causes 'jamming' of the greater tuberosity against the anteroinferior border of the acromion; a positive test (reproducing pain) is indicative of an overuse injury to the supraspinatus muscle, and sometimes the biceps tendon.",
+   "sourceBook": "Magee, Orthopedic Physical Assessment",
+   "sourceChapter": "Chapter 5: Shoulder — Common Shoulder Impingement Tests, Neer Impingement Test",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "pt-msk.json::ptmsk-13"
+  },
+  {
+   "id": 43,
+   "topic": "Paediatric Surgery",
+   "subtopic": "Inguinal Hernia",
+   "difficulty": "Easy",
+   "question": "Inguinal hernias in children are almost always caused by:",
+   "options": {
+    "A": "A direct defect in the abdominal wall muscles",
+    "B": "A patent processus vaginalis (indirect hernia)",
+    "C": "Chronic constipation alone",
+    "D": "Prior abdominal surgery"
+   },
+   "correctAnswer": "B",
+   "explanation": "Inguinal hernias in children are almost always indirect, caused by failure of the processus vaginalis (the tongue of peritoneum that precedes testicular descent) to obliterate after birth.",
+   "sourceBook": "Bailey & Love's Short Practice of Surgery",
+   "sourceChapter": "Principles of Paediatric Surgery — Inguinal Hernias",
+   "sourcePage": null,
+   "subject": "General Surgery & Orthopedics",
+   "bankRef": "surgery-ortho.json::surg-1"
+  },
+  {
+   "id": 44,
+   "topic": "Stretching",
+   "subtopic": "Contracture",
+   "difficulty": "Hard",
+   "question": "A 'pseudomyostatic' (apparent) contracture, as distinguished from a true myostatic contracture, is primarily caused by:",
+   "options": {
+    "A": "An actual reduction in the number of sarcomeres arranged in series within the muscle",
+    "B": "Hypertonicity such as spasticity or rigidity following a CNS lesion, which can be temporarily reduced with neuromuscular inhibition techniques",
+    "C": "Intra-articular adhesions and joint effusion",
+    "D": "Replacement of normal muscle tissue with fibrotic scar tissue"
+   },
+   "correctAnswer": "B",
+   "explanation": "Unlike a true myostatic contracture (adaptive shortening of the muscle-tendon unit itself with no specific muscle pathology), a pseudomyostatic contracture results from ongoing hypertonicity, muscle spasm, or pain — the muscle only appears shortened, and full passive elongation becomes possible again once inhibition techniques temporarily reduce that muscle tension.",
+   "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+   "sourceChapter": "Chapter 4: Stretching for Impaired Mobility — Types of Contracture",
+   "sourcePage": null,
+   "subject": "Fundamentals of Exercise Therapy",
+   "bankRef": "exercise-therapy.json::ext-5"
+  },
+  {
+   "id": 45,
+   "topic": "Nutrition and Fluid Therapy",
+   "subtopic": "Nutritional Assessment",
+   "difficulty": "Easy",
+   "question": "Unintentional weight loss of more than what percentage of body weight over the preceding 6 months is considered a good indicator of poor prognosis?",
+   "options": {
+    "A": "1%",
+    "B": "10%",
+    "C": "50%",
+    "D": "Weight loss is never prognostically significant"
+   },
+   "correctAnswer": "B",
+   "explanation": "Unintentional weight loss of more than 10% of a patient's body weight over the preceding 6 months is considered a good prognostic indicator of poor outcome.",
+   "sourceBook": "Bailey & Love's Short Practice of Surgery",
+   "sourceChapter": "Nutritional Assessment — Body Weight and Anthropometry",
+   "sourcePage": null,
+   "subject": "General Surgery & Orthopedics",
+   "bankRef": "surgery-ortho.json::surg-17"
+  },
+  {
+   "id": 46,
+   "topic": "Manual Muscle Testing",
+   "subtopic": "Functional Correlation",
+   "difficulty": "Medium",
+   "question": "A patient's gluteus medius is graded 4 (Good) on manual muscle testing. Which functional finding is consistent with this grade, per Daniels and Worthingham's discussion of why 'Good' is not always good enough?",
+   "options": {
+    "A": "Completely normal, symmetric gait with no compensation",
+    "B": "A positive Trendelenburg sign during single-leg stance",
+    "C": "Complete inability to abduct the hip against gravity",
+    "D": "No palpable or visible muscle contraction at all"
+   },
+   "correctAnswer": "B",
+   "explanation": "Even a 'Good' (Grade 4) gluteus medius can be functionally inadequate — a positive Trendelenburg sign (contralateral pelvic drop in single-leg stance) can still appear, illustrating the gap between a manual muscle grade and real functional performance.",
+   "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+   "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+   "sourcePage": "5",
+   "subject": "Physical Diagnosis & Manipulative Skills",
+   "bankRef": "manual-muscle-testing.json::mmt-7"
+  },
+  {
+   "id": 47,
+   "topic": "Electrical Stimulation of Nerve and Muscle",
+   "subtopic": "Accommodation",
+   "difficulty": "Hard",
+   "question": "'Accommodation' in nerve physiology refers to the phenomenon whereby:",
+   "options": {
+    "A": "A nerve becomes permanently unresponsive after any stimulation",
+    "B": "The nerve adapts to a constant current over time, so that an unvarying (unchanging) current becomes ineffective at initiating an impulse",
+    "C": "Muscle fibres physically move position to avoid the electrode",
+    "D": "Only denervated muscle can show accommodation"
+   },
+   "correctAnswer": "B",
+   "explanation": "Accommodation is the nerve's adaptation to a constant, unvarying current flow through a mechanism not fully understood — as a result, a current that does not change is not effective at initiating a nerve impulse, which is why intermittent or varying currents are needed for electrical stimulation.",
+   "sourceBook": "Clayton's Electrotherapy",
+   "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Accommodation",
+   "sourcePage": "45",
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "electrotherapy.json::electro-7"
+  },
+  {
+   "id": 48,
+   "topic": "Normal Puerperium",
+   "subtopic": "Lochia",
+   "difficulty": "Easy",
+   "question": "The reddish vaginal discharge seen in the first 1-4 days after delivery is called:",
+   "options": {
+    "A": "Lochia alba",
+    "B": "Lochia serosa",
+    "C": "Lochia rubra",
+    "D": "Leukorrhea"
+   },
+   "correctAnswer": "C",
+   "explanation": "Lochia progresses through three stages by colour: lochia rubra (red, days 1-4), lochia serosa (yellowish/pink/pale brownish, days 5-9), and lochia alba (pale white, days 10-15).",
+   "sourceBook": "Dutta's Textbook of Obstetrics",
+   "sourceChapter": "Normal Puerperium — Lochia",
+   "sourcePage": null,
+   "subject": "OBGY",
+   "bankRef": "obgy.json::obgy-2"
+  },
+  {
+   "id": 49,
+   "topic": "Epidemiology",
+   "subtopic": "Epidemiological Questions",
+   "difficulty": "Easy",
+   "question": "According to the framework for 'asking questions' in epidemiology, which of the following is a question 'related to health action' rather than 'related to health events'?",
+   "options": {
+    "A": "What is the event (the problem)?",
+    "B": "What resources are required, and how are activities to be organized?",
+    "C": "Where did it happen?",
+    "D": "Who is affected?"
+   },
+   "correctAnswer": "B",
+   "explanation": "Questions like 'what is the event', 'where/when did it happen', and 'who is affected' are related to health events. Questions about what resources are required and how activities should be organized fall under questions related to health action — what should be done about the problem.",
+   "sourceBook": "Park's Textbook of Preventive and Social Medicine",
+   "sourceChapter": "Principles of Epidemiology and Epidemiologic Methods — Asking Questions",
+   "sourcePage": "54",
+   "subject": "Physiotherapy in Community Health",
+   "bankRef": "pt-community.json::comm-9"
+  },
+  {
+   "id": 50,
+   "topic": "Platelets",
+   "subtopic": "Platelet Reservoir",
+   "difficulty": "Medium",
+   "question": "Approximately 60-75% of the body's total platelet pool circulates in the blood at any time; where is most of the remainder stored?",
+   "options": {
+    "A": "The spleen",
+    "B": "The liver",
+    "C": "The bone marrow exclusively",
+    "D": "The lungs"
+   },
+   "correctAnswer": "A",
+   "explanation": "The spleen acts as a reservoir of platelets, holding most of the platelets not currently in general circulation — this is why splenectomy or splenic contraction (e.g. from epinephrine or stress) can significantly alter the circulating platelet count.",
+   "sourceBook": "AK Jain, Physiology",
+   "sourceChapter": "Platelets or Thrombocytes — Count and Variations",
+   "sourcePage": null,
+   "subject": "Physiology",
+   "bankRef": "physiology.json::physio-10"
+  },
+  {
+   "id": 51,
+   "topic": "Resistance Exercise",
+   "subtopic": "Types of Muscle Contraction",
+   "difficulty": "Easy",
+   "question": "When the velocity of a limb movement is held constant by a rate-controlling device during exercise, this is referred to as:",
+   "options": {
+    "A": "Isometric contraction",
+    "B": "Isokinetic contraction",
+    "C": "Isotonic contraction only",
+    "D": "Passive contraction"
+   },
+   "correctAnswer": "B",
+   "explanation": "An isokinetic contraction is one where the velocity of limb movement is held constant by a rate-controlling device (an isokinetic dynamometer), distinguishing it from standard dynamic (isotonic) exercise where velocity is not controlled.",
+   "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+   "sourceChapter": "Chapter 6: Resistance Exercise — Type of Muscle Contraction",
+   "sourcePage": null,
+   "subject": "Kinesio Therapeutics",
+   "bankRef": "kinesio.json::kine-9"
+  },
+  {
+   "id": 52,
+   "topic": "Knee Assessment",
+   "subtopic": "Special Tests",
+   "difficulty": "Medium",
+   "question": "The Noble compression test is used to assess for which condition?",
+   "options": {
+    "A": "Iliotibial band friction syndrome",
+    "B": "Meniscal tear",
+    "C": "Patellofemoral syndrome",
+    "D": "Osteochondritis dissecans"
+   },
+   "correctAnswer": "A",
+   "explanation": "The Noble compression test is used to assess for iliotibial band friction syndrome, a common cause of lateral knee pain particularly in runners.",
+   "sourceBook": "Magee, Orthopedic Physical Assessment",
+   "sourceChapter": "Chapter 12: Knee — Special Tests Commonly Performed on the Knee",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "pt-msk.json::ptmsk-8"
+  },
+  {
+   "id": 53,
+   "topic": "Infectious Disease Epidemiology",
+   "subtopic": "Transmission Routes",
+   "difficulty": "Easy",
+   "question": "Inanimate objects such as door handles, water taps, and ultrasound probes that bridge transmission of infection between hosts are called:",
+   "options": {
+    "A": "Vectors",
+    "B": "Fomites",
+    "C": "Reservoirs",
+    "D": "Zoonotic agents"
+   },
+   "correctAnswer": "B",
+   "explanation": "Fomites are inanimate objects (door handles, water taps, medical equipment) that can bridge transmission of infection between an infected source and a susceptible host, and are particularly associated with health care-associated infection. Vectors, by contrast, are animate carriers (e.g. mosquitoes, fleas).",
+   "sourceBook": "Davidson's Principles and Practice of Medicine",
+   "sourceChapter": "Epidemiology of Infection — Transmission of Infection",
+   "sourcePage": null,
+   "subject": "Medicine",
+   "bankRef": "medicine.json::med-15"
+  },
+  {
+   "id": 54,
+   "topic": "Sensory Processes and Perception",
+   "subtopic": "Gestalt Principles",
+   "difficulty": "Easy",
+   "question": "The Gestalt law of 'proximity' states that:",
+   "options": {
+    "A": "Items that are close together in space or time tend to be perceived as belonging together, forming a group",
+    "B": "Only identical items can ever be grouped together",
+    "C": "Distant objects are always perceived as larger",
+    "D": "Proximity has no influence on perceptual grouping"
+   },
+   "correctAnswer": "A",
+   "explanation": "The law of proximity states that items close together in space or time tend to be perceived as belonging together or forming an organized group — for example, seeing three pairs of lines rather than six separate lines when they are grouped closely.",
+   "sourceBook": "Morgan & King, Introduction to Psychology",
+   "sourceChapter": "Sensory Processes and Perception — Organization in Perception",
+   "sourcePage": null,
+   "subject": "Psychology",
+   "bankRef": "psychology.json::psych-16"
+  },
+  {
+   "id": 55,
+   "topic": "Stroke",
+   "subtopic": "Classification",
+   "difficulty": "Easy",
+   "question": "Strokes are broadly classified into two main categories based on underlying pathology:",
+   "options": {
+    "A": "Ischemic and hemorrhagic",
+    "B": "Acute and chronic only",
+    "C": "Left-sided and right-sided",
+    "D": "Cortical and subcortical only"
+   },
+   "correctAnswer": "A",
+   "explanation": "Strokes are broadly classified as ischemic (from thrombus, embolism, or low systemic perfusion depriving brain tissue of blood flow) or hemorrhagic (from rupture of a cerebral vessel causing bleeding into or around the brain).",
+   "sourceBook": "O'Sullivan, Physical Rehabilitation",
+   "sourceChapter": "Chapter 15: Stroke — Pathophysiology",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "pt-neuro.json::ptneuro-1"
+  },
+  {
+   "id": 56,
+   "topic": "Lung Function Testing",
+   "subtopic": "Spirometry",
+   "difficulty": "Medium",
+   "question": "An 'obstructive' spirometry pattern is characterised by:",
+   "options": {
+    "A": "Reduction in FEV1 with relative preservation of FVC (forced vital capacity)",
+    "B": "Simultaneous reduction of both FEV1 and FVC with an increased FEV1/FVC ratio",
+    "C": "No change in either FEV1 or FVC",
+    "D": "An increase in both FEV1 and FVC"
+   },
+   "correctAnswer": "A",
+   "explanation": "An obstructive pattern shows a reduction in FEV1 (forced expiratory volume in 1 second) with relative preservation of FVC, lowering the FEV1/FVC ratio — this indicates airway obstruction, graded by severity (e.g. <75% mild, <60% moderate, <40% severe). A restrictive pattern, by contrast, shows simultaneous reduction of both FEV1 and FVC with an increased ratio.",
+   "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+   "sourceChapter": "Cardiopulmonary Function Testing — Airway Function",
+   "sourcePage": null,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "pt-genmed.json::ptgen-15"
+  },
+  {
+   "id": 57,
+   "topic": "Epidemiology",
+   "subtopic": "Basic Requirements of Measurement",
+   "difficulty": "Medium",
+   "question": "The basic requirements of good epidemiological measurement include validity, reliability, accuracy, sensitivity, and:",
+   "options": {
+    "A": "Specificity",
+    "B": "Profitability",
+    "C": "Popularity among clinicians",
+    "D": "Simplicity above all else, regardless of accuracy"
+   },
+   "correctAnswer": "A",
+   "explanation": "The basic requirements of measurement in epidemiology are validity, reliability, accuracy, sensitivity, and specificity — these properties determine how trustworthy and useful a given measurement or test is for epidemiological purposes.",
+   "sourceBook": "Park's Textbook of Preventive and Social Medicine",
+   "sourceChapter": "Principles of Epidemiology and Epidemiologic Methods — Basic Measurements in Epidemiology",
+   "sourcePage": "55",
+   "subject": "Physiotherapy in Community Health",
+   "bankRef": "pt-community.json::comm-10"
+  },
+  {
+   "id": 58,
+   "topic": "Resistance Exercise",
+   "subtopic": "Training Zone",
+   "difficulty": "Medium",
+   "question": "For a typical healthy but untrained adult beginning a resistance training program, the recommended training zone (percentage of baseline RM) generally falls between:",
+   "options": {
+    "A": "5% and 10%",
+    "B": "40% and 70%",
+    "C": "95% and 100%",
+    "D": "There is no established range"
+   },
+   "correctAnswer": "B",
+   "explanation": "For healthy but untrained adults, a typical training zone falls between 40% and 70% of the baseline RM, with the lower end of the range safer at the start of a program to focus on correct form before progressing intensity.",
+   "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+   "sourceChapter": "Chapter 6: Resistance Exercise — Training Zone",
+   "sourcePage": null,
+   "subject": "Kinesio Therapeutics",
+   "bankRef": "kinesio.json::kine-3"
+  },
+  {
+   "id": 59,
+   "topic": "Lower Limb",
+   "subtopic": "Knee Bursae — Clinical",
+   "difficulty": "Easy",
+   "question": "Prepatellar bursitis is commonly known by which occupational nickname?",
+   "options": {
+    "A": "Housemaid's knee",
+    "B": "Tennis elbow",
+    "C": "Golfer's elbow",
+    "D": "Runner's knee"
+   },
+   "correctAnswer": "A",
+   "explanation": "Prepatellar bursitis is commonly called 'housemaid's knee' (or miner's knee), from repeated kneeling pressure directly on the kneecap. Subcutaneous infrapatellar bursitis, by contrast, is called 'clergyman's knee'.",
+   "sourceBook": "BD Chaurasia's Human Anatomy — Lower Limb",
+   "sourceChapter": "Front of Thigh — Clinical Anatomy",
+   "sourcePage": null,
+   "subject": "Anatomy",
+   "bankRef": "anatomy.json::anat-17"
+  },
+  {
+   "id": 60,
+   "topic": "Clinical Decision Making",
+   "subtopic": "Cognitive Biases",
+   "difficulty": "Medium",
+   "question": "'Overconfidence bias' in clinical decision-making refers to:",
+   "options": {
+    "A": "The tendency to always order more diagnostic tests than necessary",
+    "B": "The tendency to believe one knows more than one actually does, placing too much faith in opinion over gathered evidence",
+    "C": "A bias that only affects junior doctors, never senior clinicians",
+    "D": "Excessive reliance on clinical prediction rules"
+   },
+   "correctAnswer": "B",
+   "explanation": "Overconfidence bias is the tendency to place too much faith in one's own opinion rather than the gathered evidence, sometimes compounded further by availability bias and commission bias (a tendency to act rather than not act), occasionally with serious consequences.",
+   "sourceBook": "Davidson's Principles and Practice of Medicine",
+   "sourceChapter": "Clinical Decision Making — Common Cognitive Biases",
+   "sourcePage": null,
+   "subject": "Medicine",
+   "bankRef": "medicine.json::med-3"
+  },
+  {
+   "id": 61,
+   "topic": "Manual Muscle Testing",
+   "subtopic": "Exceptions to Standard Technique",
+   "difficulty": "Hard",
+   "question": "When testing hip abductor strength in a patient with an unstable knee, resistance is applied at the distal femur (just above the knee) instead of at the ankle. Using this shorter lever, what is the highest grade that can be assigned, even if the patient tolerates maximal resistance?",
+   "options": {
+    "A": "Grade 5",
+    "B": "Grade 4",
+    "C": "Grade 3",
+    "D": "Grade 2"
+   },
+   "correctAnswer": "B",
+   "explanation": "A shorter lever (resistance near the knee rather than at the ankle) makes the test mechanically easier, so a patient who takes maximal resistance in this position can still only be graded a 4 — the longer lever at the ankle is needed to truly demonstrate Grade 5 strength, since it better reflects the functional demand of gait.",
+   "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+   "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+   "sourcePage": "3",
+   "subject": "Physical Diagnosis & Manipulative Skills",
+   "bankRef": "manual-muscle-testing.json::mmt-4"
+  },
+  {
+   "id": 62,
+   "topic": "Upper Limb",
+   "subtopic": "Carpal Bones",
+   "difficulty": "Easy",
+   "question": "How many carpal bones make up the wrist, and in how many rows are they arranged?",
+   "options": {
+    "A": "6 bones in one row",
+    "B": "8 bones in two rows",
+    "C": "7 bones in two rows",
+    "D": "8 bones in one row"
+   },
+   "correctAnswer": "B",
+   "explanation": "The carpus is made up of 8 carpal bones arranged in two rows of four: a proximal row (scaphoid, lunate, triquetral, pisiform, from lateral to medial) and a distal row (trapezium, trapezoid, capitate, hamate).",
+   "sourceBook": "BD Chaurasia's Human Anatomy — Upper Limb",
+   "sourceChapter": "Bones of the Upper Limb — Carpal Bones",
+   "sourcePage": null,
+   "subject": "Anatomy",
+   "bankRef": "anatomy.json::anat-1"
+  },
+  {
+   "id": 63,
+   "topic": "Stroke",
+   "subtopic": "Vascular Syndromes",
+   "difficulty": "Medium",
+   "question": "Anterior Cerebral Artery (ACA) syndrome classically produces contralateral hemiparesis and sensory loss that is:",
+   "options": {
+    "A": "Greater in the lower extremity than the upper extremity",
+    "B": "Greater in the upper extremity and face than the lower extremity",
+    "C": "Equal throughout the whole body with no distinguishing pattern",
+    "D": "Limited exclusively to the face"
+   },
+   "correctAnswer": "A",
+   "explanation": "Because the ACA supplies the medial aspect of the cerebral hemisphere where the lower extremity is somatotopically represented, ACA syndrome classically produces contralateral hemiparesis and sensory loss with greater involvement of the lower extremity than the upper extremity — the opposite pattern to MCA syndrome.",
+   "sourceBook": "O'Sullivan, Physical Rehabilitation",
+   "sourceChapter": "Chapter 15: Stroke — Anterior Cerebral Artery Syndrome",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "pt-neuro.json::ptneuro-4"
+  },
+  {
+   "id": 64,
+   "topic": "Resistance Exercise",
+   "subtopic": "Repetition Maximum",
+   "difficulty": "Easy",
+   "question": "A 'repetition maximum' (RM), as first described by DeLorme, is defined as:",
+   "options": {
+    "A": "The greatest amount of weight a muscle can move through full available ROM a specific number of times before fatiguing",
+    "B": "The maximum number of exercise sessions a patient can complete in a week",
+    "C": "The total duration in months of a resistance training program",
+    "D": "A measure of joint range of motion only"
+   },
+   "correctAnswer": "A",
+   "explanation": "A repetition maximum (RM) is the greatest amount of weight (load) a muscle can move through the full available range of motion, with control, a specific number of times before fatiguing — e.g. a '10-RM' is the maximum weight that can be lifted through 10 repetitions.",
+   "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+   "sourceChapter": "Chapter 6: Resistance Exercise — Repetition Maximum",
+   "sourcePage": null,
+   "subject": "Kinesio Therapeutics",
+   "bankRef": "kinesio.json::kine-1"
+  },
+  {
+   "id": 65,
+   "topic": "Electrical Stimulation of Nerve and Muscle",
+   "subtopic": "Impulse Duration Classification",
+   "difficulty": "Medium",
+   "question": "Impulses with a duration of less than 10 ms, used for stimulating normal (innervated) muscle, are classified as having:",
+   "options": {
+    "A": "A long duration, termed interrupted direct current",
+    "B": "A short duration, of the faradic type",
+    "C": "No classification exists for pulse duration",
+    "D": "A duration only used for denervated muscle"
+   },
+   "correctAnswer": "B",
+   "explanation": "Impulses of less than 10 ms duration are classed as short duration and are of the faradic type, used to stimulate normal innervated muscle via its motor nerve, typically repeated at a high rate of 50-100 per second.",
+   "sourceBook": "Clayton's Electrotherapy",
+   "sourceChapter": "Electrical Stimulation of Nerve and Muscle",
+   "sourcePage": "40",
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "electrotherapy.json::electro-1"
+  },
+  {
+   "id": 66,
+   "topic": "Infectious and Parasitic Diseases",
+   "subtopic": "TORCH Complex",
+   "difficulty": "Easy",
+   "question": "The acronym TORCH, used for a group of congenital infections with overlapping symptoms, stands for Toxoplasma, Others, Rubella, Cytomegalovirus, and:",
+   "options": {
+    "A": "Herpes simplex virus",
+    "B": "Hepatitis A virus",
+    "C": "HIV",
+    "D": "Human papillomavirus"
+   },
+   "correctAnswer": "A",
+   "explanation": "TORCH stands for Toxoplasma, Others (hepatitis B, coxsackievirus B, mumps, poliovirus), Rubella, Cytomegalovirus, and Herpes simplex virus — a group of infections tested together in suspected congenital infection because their symptoms in the newborn are often indistinguishable from one another.",
+   "sourceBook": "Harsh Mohan, Textbook of Pathology",
+   "sourceChapter": "Infectious and Parasitic Diseases — TORCH Complex",
+   "sourcePage": null,
+   "subject": "Pathology & Microbiology",
+   "bankRef": "pathology.json::path-6"
+  },
+  {
+   "id": 67,
+   "topic": "Range of Motion",
+   "subtopic": "Two-Joint Muscles",
+   "difficulty": "Medium",
+   "question": "To achieve full passive range of hip flexion, the knee must also be allowed to flex. Why?",
+   "options": {
+    "A": "It relaxes tension on the two-joint hamstring muscle group, which would otherwise restrict hip flexion",
+    "B": "It reduces pain in the lumbar spine",
+    "C": "It is required purely to stabilize the pelvis",
+    "D": "Knee position has no real effect on hip flexion range"
+   },
+   "correctAnswer": "A",
+   "explanation": "The hamstrings cross both the hip and knee. Keeping the knee extended while flexing the hip stretches the hamstrings and limits how far the hip can flex; flexing the knee releases that tension, allowing full hip flexion range to be reached.",
+   "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+   "sourceChapter": "Chapter 3: Range of Motion — Combined Hip and Knee Motion",
+   "sourcePage": null,
+   "subject": "Fundamentals of Exercise Therapy",
+   "bankRef": "exercise-therapy.json::ext-3"
+  },
+  {
+   "id": 68,
+   "topic": "Electrical Stimulation of Nerve and Muscle",
+   "subtopic": "Effects of Frequency of Stimulation",
+   "difficulty": "Medium",
+   "question": "As the frequency of repeated electrical stimuli to a motor nerve increases beyond about 20 Hz, what happens to the muscle's contraction pattern?",
+   "options": {
+    "A": "The muscle stops contracting altogether",
+    "B": "There is no longer time for complete relaxation between contractions, producing partial tetany",
+    "C": "Contraction strength decreases progressively to zero",
+    "D": "The muscle contracts only once regardless of how many stimuli are given"
+   },
+   "correctAnswer": "B",
+   "explanation": "At low stimulation frequencies (e.g. 1 per second), each stimulus produces an isolated twitch with complete relaxation between contractions. As frequency increases, the relaxation period shortens; beyond about 20 Hz there is no longer time for complete relaxation between contractions, producing partial tetany.",
+   "sourceBook": "Clayton's Electrotherapy",
+   "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Effects of Frequency of Stimulation",
+   "sourcePage": "46",
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "electrotherapy.json::electro-12"
+  },
+  {
+   "id": 69,
+   "topic": "Receptor Pharmacology",
+   "subtopic": "Silent Receptors",
+   "difficulty": "Easy",
+   "question": "A binding site that attaches a drug but produces no pharmacological response at all (e.g. many plasma protein binding sites) is best termed a:",
+   "options": {
+    "A": "Full agonist site",
+    "B": "Silent receptor (or drug acceptor / site of loss)",
+    "C": "Orphan receptor",
+    "D": "Allosteric activator"
+   },
+   "correctAnswer": "B",
+   "explanation": "Sites that bind a drug without producing any response are called silent receptors, or more accurately drug acceptors / sites of loss — the term 'receptor' is best reserved for binding sites capable of generating an actual biological response.",
+   "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+   "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
+   "sourcePage": null,
+   "subject": "Pharmacology",
+   "bankRef": "pharmacology.json::pharm-12"
+  },
+  {
+   "id": 70,
+   "topic": "Shoulder Assessment",
+   "subtopic": "Labral Tests",
+   "difficulty": "Hard",
+   "question": "In the Active Compression Test of O'Brien, pain that is present with the arm pronated (thumb down) but reduced or eliminated with the arm supinated (thumb up) suggests a positive test for:",
+   "options": {
+    "A": "A superior labral (SLAP) injury",
+    "B": "A simple rotator cuff strain with no labral involvement",
+    "C": "Carpal tunnel syndrome",
+    "D": "Lateral epicondylitis"
+   },
+   "correctAnswer": "A",
+   "explanation": "O'Brien's active compression test is positive for a superior labral injury when pain (felt 'inside' the shoulder, not at the AC joint) is produced with the arm pronated, and is reduced or eliminated when the same maneuver is repeated with the arm supinated.",
+   "sourceBook": "Magee, Orthopedic Physical Assessment",
+   "sourceChapter": "Chapter 5: Shoulder — Active Compression Test of O'Brien",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "pt-msk.json::ptmsk-18"
+  },
+  {
+   "id": 71,
+   "topic": "Cardiopulmonary Assessment",
+   "subtopic": "Chest Pain",
+   "difficulty": "Medium",
+   "question": "Pleuritic chest pain is best described as:",
+   "options": {
+    "A": "A dull, central, band-like pain radiating to the jaw",
+    "B": "A severe, sharp, stabbing pain, worse on inspiration, and not reproduced by palpation",
+    "C": "A burning retrosternal pain worse when lying flat or bending forward",
+    "D": "Pain that is only ever felt during exercise and never at rest"
+   },
+   "correctAnswer": "B",
+   "explanation": "Pleuritic chest pain, from inflammation of the parietal pleura, is classically a severe, sharp, stabbing pain that worsens on inspiration and is NOT reproduced by palpation — distinguishing it from musculoskeletal chest wall pain, which IS reproduced by palpation.",
+   "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+   "sourceChapter": "Assessment — Chest Pain",
+   "sourcePage": null,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "pt-genmed.json::ptgen-7"
+  },
+  {
+   "id": 72,
+   "topic": "Upper Limb",
+   "subtopic": "Carpal Bones",
+   "difficulty": "Easy",
+   "question": "Which carpal bone is described as the largest, with a rounded head, occupying the centre of the distal row?",
+   "options": {
+    "A": "Hamate",
+    "B": "Trapezoid",
+    "C": "Capitate",
+    "D": "Lunate"
+   },
+   "correctAnswer": "C",
+   "explanation": "The capitate is the largest carpal bone, identified by its rounded head, and sits in the distal row.",
+   "sourceBook": "BD Chaurasia's Human Anatomy — Upper Limb",
+   "sourceChapter": "Bones of the Upper Limb — Carpal Bones",
+   "sourcePage": null,
+   "subject": "Anatomy",
+   "bankRef": "anatomy.json::anat-9"
+  },
+  {
+   "id": 73,
+   "topic": "Stroke",
+   "subtopic": "Transient Ischemic Attack",
+   "difficulty": "Medium",
+   "question": "By definition, a transient ischemic attack (TIA) produces focal neurological deficits that:",
+   "options": {
+    "A": "Last longer than 24 hours with permanent residual damage",
+    "B": "Do not last longer than 24 hours, with no evidence of residual brain damage afterward",
+    "C": "Always progress to a completed stroke within 24 hours",
+    "D": "Only ever affect vision, never motor function"
+   },
+   "correctAnswer": "B",
+   "explanation": "A TIA is a temporary interruption of blood supply producing focal neurological deficits lasting minutes to hours but, by definition, not longer than 24 hours, with no evidence of residual damage afterward. However, TIA is clinically significant as a warning sign — about 15% of strokes are preceded by a TIA, with the highest risk in the following 90 days.",
+   "sourceBook": "O'Sullivan, Physical Rehabilitation",
+   "sourceChapter": "Chapter 15: Stroke — Management Categories",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "pt-neuro.json::ptneuro-2"
+  },
+  {
+   "id": 74,
+   "topic": "Clinical Decision Making",
+   "subtopic": "Reducing Errors",
+   "difficulty": "Medium",
+   "question": "The 'unpacking principle' in clinical reasoning refers to the risk that:",
+   "options": {
+    "A": "A failure to fully take the history and examine the patient means important information can be missed, leading to error",
+    "B": "Patients should always be admitted for observation regardless of findings",
+    "C": "Clinical prediction rules should never be used",
+    "D": "Diagnostic tests are always more reliable than clinical examination"
+   },
+   "correctAnswer": "A",
+   "explanation": "The unpacking principle highlights that history-taking and physical examination, though seemingly obvious steps, are sometimes performed inadequately — and this failure to 'unpack' all the available information can cause important findings to be missed.",
+   "sourceBook": "Davidson's Principles and Practice of Medicine",
+   "sourceChapter": "Clinical Decision Making — Reducing Errors, Cognitive Debiasing Strategies",
+   "sourcePage": null,
+   "subject": "Medicine",
+   "bankRef": "medicine.json::med-5"
+  },
+  {
+   "id": 75,
+   "topic": "Lung Function Testing",
+   "subtopic": "Restrictive Pattern",
+   "difficulty": "Medium",
+   "question": "A 'restrictive' spirometry pattern, usually associated with reduced lung volume, is characterised by:",
+   "options": {
+    "A": "Simultaneous reduction of both FEV1 and FVC, with an INCREASED FEV1/FVC ratio",
+    "B": "Reduction in FEV1 only, with FVC completely unaffected",
+    "C": "No change in spirometry values at all",
+    "D": "An increased FVC with a normal FEV1"
+   },
+   "correctAnswer": "A",
+   "explanation": "A restrictive pattern shows simultaneous reduction of both FEV1 and FVC together, with an increased FEV1/FVC ratio (since the lungs are small and empty quickly) — distinct from the obstructive pattern where FEV1 drops disproportionately more than FVC.",
+   "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+   "sourceChapter": "Cardiopulmonary Function Testing — Airway Function",
+   "sourcePage": null,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "pt-genmed.json::ptgen-16"
+  },
+  {
+   "id": 76,
+   "topic": "Electrical Stimulation of Nerve and Muscle",
+   "subtopic": "Impulse Duration Classification",
+   "difficulty": "Medium",
+   "question": "Impulses with a duration of MORE than 10 ms, often termed interrupted (or modified) direct current, are specifically used to stimulate:",
+   "options": {
+    "A": "Normal, innervated muscle via the motor nerve",
+    "B": "Denervated muscle, where the muscle fibres must be stimulated directly (no functioning motor nerve)",
+    "C": "Cardiac muscle exclusively",
+    "D": "Smooth muscle only"
+   },
+   "correctAnswer": "B",
+   "explanation": "Long-duration impulses (>10 ms), termed interrupted or modified direct current, are used for denervated muscles — since there is no functioning motor nerve, the muscle fibres must be stimulated directly, and these impulses are repeated far less frequently than faradic-type currents (e.g. a 100 ms impulse might be repeated only about 30 times per minute).",
+   "sourceBook": "Clayton's Electrotherapy",
+   "sourceChapter": "Electrical Stimulation of Nerve and Muscle",
+   "sourcePage": "40",
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "electrotherapy.json::electro-2"
+  },
+  {
+   "id": 77,
+   "topic": "Stroke",
+   "subtopic": "Hemorrhagic Stroke",
+   "difficulty": "Medium",
+   "question": "Subarachnoid hemorrhage (SH) typically results from rupture of which type of vascular lesion?",
+   "options": {
+    "A": "A saccular (berry) aneurysm affecting large blood vessels",
+    "B": "Small penetrating vessel disease (lacunar disease)",
+    "C": "Atherosclerotic plaque in the carotid artery only",
+    "D": "Venous thrombosis in the dural sinuses exclusively"
+   },
+   "correctAnswer": "A",
+   "explanation": "Subarachnoid hemorrhage typically occurs from bleeding into the subarachnoid space, most often from rupture of a saccular (berry) aneurysm affecting the larger cerebral blood vessels, often related to congenital weakness in the vessel wall.",
+   "sourceBook": "O'Sullivan, Physical Rehabilitation",
+   "sourceChapter": "Chapter 15: Stroke — Pathophysiology",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "pt-neuro.json::ptneuro-15"
+  },
+  {
+   "id": 78,
+   "topic": "Platelets",
+   "subtopic": "Normal Count and Lifespan",
+   "difficulty": "Easy",
+   "question": "The normal platelet count in circulating blood is approximately:",
+   "options": {
+    "A": "1.5 to 4 lakhs per microlitre",
+    "B": "1,000 per microlitre",
+    "C": "40 to 50 lakhs per microlitre",
+    "D": "Platelets have no measurable normal range"
+   },
+   "correctAnswer": "A",
+   "explanation": "The normal platelet count is approximately 1.5 to 4 lakhs (150,000 to 400,000) per microlitre, with an average around 2.5 lakhs/microlitre, and remains quite constant under normal conditions.",
+   "sourceBook": "AK Jain, Physiology",
+   "sourceChapter": "Platelets or Thrombocytes — Count and Variations",
+   "sourcePage": null,
+   "subject": "Physiology",
+   "bankRef": "physiology.json::physio-9"
+  },
+  {
+   "id": 79,
+   "topic": "Electrical Stimulation of Nerve and Muscle",
+   "subtopic": "Modified (Surged) Faradic Currents",
+   "difficulty": "Medium",
+   "question": "Faradic-type currents are typically 'surged' for treatment purposes. What is the purpose of surging the current?",
+   "options": {
+    "A": "To reduce the total treatment time",
+    "B": "To produce a near-normal tetanic-like contraction and relaxation of the muscle, by gradually increasing then decreasing the intensity of successive impulses",
+    "C": "To eliminate the need for any electrodes",
+    "D": "To convert the current into direct current permanently"
+   },
+   "correctAnswer": "B",
+   "explanation": "Surging gradually increases the intensity of successive impulses to a peak, then lets it fall (suddenly or gradually), mimicking a more natural, near-normal tetanic muscle contraction and relaxation cycle rather than an abrupt on/off stimulus.",
+   "sourceBook": "Clayton's Electrotherapy",
+   "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Modified Faradic Currents",
+   "sourcePage": "41",
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "electrotherapy.json::electro-4"
+  },
+  {
+   "id": 80,
+   "topic": "Manual Muscle Testing",
+   "subtopic": "Exceptions to Standard Technique",
+   "difficulty": "Medium",
+   "question": "For the vertebroscapular muscles (e.g., the rhomboids), resistance is preferably applied on the arm rather than directly on the scapula, their true point of insertion. Why?",
+   "options": {
+    "A": "It is simply easier for the therapist to grip the arm",
+    "B": "The longer lever at the arm better reflects the functional demand of controlling the weight of the whole upper limb",
+    "C": "The scapula moves too unpredictably to resist against",
+    "D": "Resistance at the scapula risks skin breakdown"
+   },
+   "correctAnswer": "B",
+   "explanation": "Applying resistance on the arm uses a longer lever that more closely reflects the functional load these muscles must control (the weight of the arm), rather than testing at their literal anatomical insertion.",
+   "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+   "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+   "sourcePage": "3",
+   "subject": "Physical Diagnosis & Manipulative Skills",
+   "bankRef": "manual-muscle-testing.json::mmt-6"
+  },
+  {
+   "id": 81,
+   "topic": "Neoplasia",
+   "subtopic": "Nomenclature",
+   "difficulty": "Easy",
+   "question": "Malignant tumours arising from epithelial tissue are generally named:",
+   "options": {
+    "A": "Sarcomas",
+    "B": "Carcinomas",
+    "C": "Adenomas",
+    "D": "Blastomas"
+   },
+   "correctAnswer": "B",
+   "explanation": "Malignant tumours of epithelial origin are called carcinomas, while malignant tumours of mesenchymal (connective tissue) origin are called sarcomas.",
+   "sourceBook": "Harsh Mohan, Textbook of Pathology",
+   "sourceChapter": "Neoplasia — Nomenclature and Classification",
+   "sourcePage": null,
+   "subject": "Pathology & Microbiology",
+   "bankRef": "pathology.json::path-8"
+  },
+  {
+   "id": 82,
+   "topic": "Multiple Sclerosis",
+   "subtopic": "Medical Management",
+   "difficulty": "Medium",
+   "question": "Corticosteroid therapy (e.g. methylprednisolone) used to treat acute MS relapses primarily works to:",
+   "options": {
+    "A": "Reverse existing neurological deficits permanently",
+    "B": "Shorten the duration of the acute exacerbation through anti-inflammatory and immunosuppressive effects, without modifying the overall disease course",
+    "C": "Cure the underlying autoimmune process entirely",
+    "D": "Have no measurable clinical effect on relapses"
+   },
+   "correctAnswer": "B",
+   "explanation": "Corticosteroids like methylprednisolone reduce inflammation and suppress immune activity, shortening the duration of an acute relapse — but they do NOT modify the overall disease course or degree of long-term recovery.",
+   "sourceBook": "O'Sullivan, Physical Rehabilitation",
+   "sourceChapter": "Chapter 16: Multiple Sclerosis — Management of Acute Relapses",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "pt-neuro.json::ptneuro-18"
+  },
+  {
+   "id": 83,
+   "topic": "Electrical Stimulation of Nerve and Muscle",
+   "subtopic": "Nerve Stimulation Mechanism",
+   "difficulty": "Hard",
+   "question": "When an electrical current stimulates a nerve fibre, the surface of the plasma membrane nearer the cathode becomes:",
+   "options": {
+    "A": "More positive, reducing excitability",
+    "B": "More negative relative to the opposite surface, which can reduce the resting potential difference across the membrane on the cathode side and initiate an impulse if it falls enough for sodium permeability to increase",
+    "C": "Completely unaffected by the current",
+    "D": "Permanently depolarised with no possibility of returning to rest"
+   },
+   "correctAnswer": "B",
+   "explanation": "The membrane surface nearer the cathode becomes more negative. On the side of the nerve nearer the cathode, this additional charge is of opposite polarity to the resting membrane potential, reducing the potential difference (PD) across it — if the PD falls enough for the membrane to become permeable to sodium ions, an impulse is initiated.",
+   "sourceBook": "Clayton's Electrotherapy",
+   "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Mechanism of Nerve Stimulation",
+   "sourcePage": "44",
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "electrotherapy.json::electro-5"
+  },
+  {
+   "id": 84,
+   "topic": "Manual Muscle Testing",
+   "subtopic": "Evidence Base for Grading",
+   "difficulty": "Hard",
+   "question": "Sharrard's postmortem motor neuron counts in poliomyelitis patients, cited in Daniels and Worthingham, found that by the time a muscle's MMT grade had fallen to 4 (Good), approximately what proportion of its motor neurons were already lost?",
+   "options": {
+    "A": "Less than 10%",
+    "B": "About 25%",
+    "C": "More than 50%",
+    "D": "Nearly 100%"
+   },
+   "correctAnswer": "C",
+   "explanation": "Sharrard's data showed that more than half of a muscle's motor neurons were already gone by the time its MMT grade dropped to 4, which is why the text emphasizes that a 'Good' muscle already represents real, clinically significant weakness.",
+   "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+   "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+   "sourcePage": "3",
+   "subject": "Physical Diagnosis & Manipulative Skills",
+   "bankRef": "manual-muscle-testing.json::mmt-5"
+  },
+  {
+   "id": 85,
+   "topic": "Nutrition and Fluid Therapy",
+   "subtopic": "Metabolic Response to Starvation",
+   "difficulty": "Medium",
+   "question": "In prolonged fasting (beyond 48-72 hours), the central nervous system adapts to using which fuel source as primary, reducing the need for muscle protein breakdown?",
+   "options": {
+    "A": "Ketone bodies",
+    "B": "Dietary fibre",
+    "C": "Lactic acid exclusively",
+    "D": "Bile acids"
+   },
+   "correctAnswer": "A",
+   "explanation": "After 48-72 hours of fasting, the CNS adapts to using ketone bodies (produced by hepatic ketogenesis from fatty acids, facilitated by low insulin) as its primary fuel source — this 'fat fuel economy' shift reduces the need for muscle breakdown by up to 55 g per day compared to simple short-term starvation.",
+   "sourceBook": "Bailey & Love's Short Practice of Surgery",
+   "sourceChapter": "Nutrition and Fluid Therapy — Metabolic Response to Starvation",
+   "sourcePage": null,
+   "subject": "General Surgery & Orthopedics",
+   "bankRef": "surgery-ortho.json::surg-13"
+  },
+  {
+   "id": 86,
+   "topic": "Cell Injury and Pigments",
+   "subtopic": "Lipofuscin",
+   "difficulty": "Easy",
+   "question": "Lipofuscin, sometimes called the 'wear and tear pigment', is most characteristically associated with:",
+   "options": {
+    "A": "Acute bacterial infection",
+    "B": "Atrophied cells in ageing (e.g. 'brown atrophy' of the heart)",
+    "C": "Fresh haemorrhage",
+    "D": "Malaria"
+   },
+   "correctAnswer": "B",
+   "explanation": "Lipofuscin is a golden-brown intralysosomal pigment that accumulates in atrophied cells of old age (hence 'wear and tear pigment'), seen in myocardial fibres (producing 'brown atrophy' of the heart), hepatocytes, and neurons in senile dementia.",
+   "sourceBook": "Harsh Mohan, Textbook of Pathology",
+   "sourceChapter": "Cell Injury, Cellular Adaptations and Cellular Ageing — Lipofuscin",
+   "sourcePage": null,
+   "subject": "Pathology & Microbiology",
+   "bankRef": "pathology.json::path-23"
+  },
+  {
+   "id": 87,
+   "topic": "Epidemiology",
+   "subtopic": "Comparability",
+   "difficulty": "Medium",
+   "question": "In epidemiological studies, 'comparability' between study and control groups is best ensured by:",
+   "options": {
+    "A": "Choosing groups of very different ages and backgrounds to maximise contrast",
+    "B": "Randomization or random allocation, or 'matching' for selected characteristics when random allocation is not possible (e.g. case-control/cohort studies)",
+    "C": "Always excluding any consideration of age or sex",
+    "D": "Comparability is not actually necessary for valid epidemiological conclusions"
+   },
+   "correctAnswer": "B",
+   "explanation": "Comparability ('like being compared with like') between study and control groups is best ensured by randomization or random allocation. Where this is not possible, such as in case-control or cohort studies, 'matching' for selected characteristics is used instead, and standardization can address a limited number of characteristics like age, sex, and parity.",
+   "sourceBook": "Park's Textbook of Preventive and Social Medicine",
+   "sourceChapter": "Principles of Epidemiology and Epidemiologic Methods — Making Comparisons",
+   "sourcePage": "54",
+   "subject": "Physiotherapy in Community Health",
+   "bankRef": "pt-community.json::comm-2"
+  },
+  {
+   "id": 88,
+   "topic": "Adverse Drug Effects",
+   "subtopic": "Classification",
+   "difficulty": "Easy",
+   "question": "Unwanted but often unavoidable pharmacodynamic effects that occur at normal therapeutic doses, and are generally predictable from a drug's known pharmacological profile, are classified as:",
+   "options": {
+    "A": "Idiosyncratic reactions",
+    "B": "Side effects",
+    "C": "Drug allergy",
+    "D": "Teratogenic effects"
+   },
+   "correctAnswer": "B",
+   "explanation": "Side effects are unwanted but often unavoidable pharmacodynamic effects occurring at therapeutic doses — generally not serious, predictable from the drug's pharmacological profile, and often improved by reducing the dose (e.g. dry mouth from atropine's antisecretory action).",
+   "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+   "sourceChapter": "Adverse Drug Effects — Classification",
+   "sourcePage": null,
+   "subject": "Pharmacology",
+   "bankRef": "pharmacology.json::pharm-13"
+  },
+  {
+   "id": 89,
+   "topic": "Electrical Stimulation of Nerve and Muscle",
+   "subtopic": "Practical Application",
+   "difficulty": "Easy",
+   "question": "When beginning faradic stimulation of a muscle group, what is the recommended approach to intensity?",
+   "options": {
+    "A": "Start immediately at maximal tolerable intensity",
+    "B": "Give several gentle contractions first to allow the patient to become accustomed to the current, then gradually increase intensity",
+    "C": "Intensity should never be increased throughout the treatment",
+    "D": "Intensity is irrelevant to the treatment outcome"
+   },
+   "correctAnswer": "B",
+   "explanation": "The recommended approach is to give the patient several gentle contractions first to allow them to become accustomed to the current, then gradually increase the intensity until a strong contraction is achieved — not starting at a high, potentially uncomfortable intensity immediately.",
+   "sourceBook": "Clayton's Electrotherapy",
+   "sourceChapter": "Stimulation of Muscle Groups — Quadriceps",
+   "sourcePage": "60",
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "electrotherapy.json::electro-11"
+  },
+  {
+   "id": 90,
+   "topic": "Normal Puerperium",
+   "subtopic": "Postpartum Exercise",
+   "difficulty": "Easy",
+   "question": "How long should postpartum exercises generally be continued for maximal benefit, per standard obstetric guidance?",
+   "options": {
+    "A": "Only for the first 24 hours after delivery",
+    "B": "At least 3 months",
+    "C": "Only once, on the day of discharge",
+    "D": "Postpartum exercise is not recommended at all"
+   },
+   "correctAnswer": "B",
+   "explanation": "Postpartum exercises — breathing exercises, leg movements, and toning of abdominal, pelvic floor, and back muscles — should be continued for at least 3 months, and are ideally taught by a trained physiotherapist.",
+   "sourceBook": "Dutta's Textbook of Obstetrics",
+   "sourceChapter": "Normal Puerperium — Postpartum Exercise",
+   "sourcePage": null,
+   "subject": "OBGY",
+   "bankRef": "obgy.json::obgy-7"
+  },
+  {
+   "id": 91,
+   "topic": "Knee Assessment",
+   "subtopic": "Special Tests — Patellofemoral",
+   "difficulty": "Medium",
+   "question": "Which special test is specifically associated with assessing patellofemoral (patellar) instability?",
+   "options": {
+    "A": "The apprehension test",
+    "B": "McMurray test",
+    "C": "Hughston's plica test",
+    "D": "The bounce home test"
+   },
+   "correctAnswer": "A",
+   "explanation": "The apprehension test is used to assess for patellar instability — the examiner laterally displaces the patella and observes for a look or feeling of apprehension from the patient, who fears the patella is about to dislocate.",
+   "sourceBook": "Magee, Orthopedic Physical Assessment",
+   "sourceChapter": "Chapter 12: Knee — Special Tests Commonly Performed on the Knee",
+   "sourcePage": null,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "pt-msk.json::ptmsk-7"
+  },
+  {
+   "id": 92,
+   "topic": "Electrical Stimulation of Nerve and Muscle",
+   "subtopic": "Effects of Frequency of Stimulation",
+   "difficulty": "Medium",
+   "question": "At what approximate stimulation frequency does a muscle contraction become fully tetanic, with no perceptible relaxation between successive contractions?",
+   "options": {
+    "A": "Over 60 Hz",
+    "B": "Under 1 Hz",
+    "C": "Exactly 10 Hz",
+    "D": "Frequency has no relationship to tetany"
+   },
+   "correctAnswer": "A",
+   "explanation": "As stimulation frequency increases beyond 20 Hz, partial tetany develops; further increases progressively reduce relaxation until, at frequencies over 60 Hz, there is no perceptible relaxation between contractions and the response is fully tetanic.",
+   "sourceBook": "Clayton's Electrotherapy",
+   "sourceChapter": "Electrical Stimulation of Nerve and Muscle — Effects of Frequency of Stimulation",
+   "sourcePage": "46",
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "electrotherapy.json::electro-13"
+  },
+  {
+   "id": 93,
+   "topic": "Manual Muscle Testing",
+   "subtopic": "Test Procedure",
+   "difficulty": "Medium",
+   "question": "Two-joint muscles such as the hamstrings and gastrocnemius are typically tested in mid-range rather than at full end-range during manual muscle testing. Why?",
+   "options": {
+    "A": "To avoid provoking a stretch reflex",
+    "B": "Mid-range gives these muscles a more mechanically favorable length-tension relationship for the test",
+    "C": "Two-joint muscles cannot generate any force at end range",
+    "D": "It standardizes the time taken for every muscle test"
+   },
+   "correctAnswer": "B",
+   "explanation": "One-joint muscles are tested at end range for consistency, but two-joint muscles are tested in mid-range, where their length-tension relationship is more favorable — testing them at a mechanical disadvantage would make it hard to distinguish a true Grade 5 from a Grade 4.",
+   "sourceBook": "Daniels and Worthingham's Muscle Testing, 9th ed.",
+   "sourceChapter": "Chapter 1: Principles of Manual Muscle Testing",
+   "sourcePage": "2",
+   "subject": "Physical Diagnosis & Manipulative Skills",
+   "bankRef": "manual-muscle-testing.json::mmt-3"
+  },
+  {
+   "id": 94,
+   "topic": "Proteins and Amino Acids",
+   "subtopic": "Protein Structure",
+   "difficulty": "Easy",
+   "question": "The unique sequence of amino acids in a protein, determined by the genes in DNA, is called its:",
+   "options": {
+    "A": "Secondary structure",
+    "B": "Primary structure",
+    "C": "Tertiary structure",
+    "D": "Quaternary structure"
+   },
+   "correctAnswer": "B",
+   "explanation": "The primary structure of a protein is its specific linear sequence of amino acids, determined by the genetic code. It is largely responsible for the protein's function, and a large number of genetic diseases arise from abnormalities in this amino acid sequence.",
+   "sourceBook": "Satyanarayana, Biochemistry",
+   "sourceChapter": "Proteins and Amino Acids — Primary Structure",
+   "sourcePage": null,
+   "subject": "Biochemistry",
+   "bankRef": "biochemistry.json::biochem-1"
+  },
+  {
+   "id": 95,
+   "topic": "Paediatric Surgery",
+   "subtopic": "Undescended Testis — Timing",
+   "difficulty": "Medium",
+   "question": "Orchidopexy for a palpable undescended testis is ideally performed at what age, to optimise fertility outcomes?",
+   "options": {
+    "A": "Immediately at birth",
+    "B": "Between 6 and 12 months of age",
+    "C": "Only after puberty",
+    "D": "Age has no bearing on fertility outcomes"
+   },
+   "correctAnswer": "B",
+   "explanation": "Orchidopexy is ideally performed as a day-case procedure between 6 and 12 months of age. Bringing the testis into the scrotum (below core body temperature) at a young age optimises spermatogenesis and fertility outcomes.",
+   "sourceBook": "Bailey & Love's Short Practice of Surgery",
+   "sourceChapter": "Principles of Paediatric Surgery — Undescended Testes",
+   "sourcePage": null,
+   "subject": "General Surgery & Orthopedics",
+   "bankRef": "surgery-ortho.json::surg-4"
+  },
+  {
+   "id": 96,
+   "topic": "Clinical Decision Making",
+   "subtopic": "Checklists",
+   "difficulty": "Easy",
+   "question": "The ABCDE approach (Airway, Breathing, Circulation, Disability, Exposure) used in critically ill patients is an example of which error-reduction strategy?",
+   "options": {
+    "A": "A clinical prediction rule",
+    "B": "A mnemonic/checklist",
+    "C": "The SBAR communication system",
+    "D": "A cognitive debiasing interview technique"
+   },
+   "correctAnswer": "B",
+   "explanation": "ABCDE is probably the most widely used mnemonic/checklist in medicine, reducing reliance on fallible memory and ensuring important issues are considered systematically, especially under stress, complexity, or fatigue.",
+   "sourceBook": "Davidson's Principles and Practice of Medicine",
+   "sourceChapter": "Clinical Decision Making — Mnemonics and Checklists",
+   "sourcePage": null,
+   "subject": "Medicine",
+   "bankRef": "medicine.json::med-6"
+  },
+  {
+   "id": 97,
+   "topic": "Range of Motion",
+   "subtopic": "Continuous Passive Motion",
+   "difficulty": "Medium",
+   "question": "Which of the following is a documented benefit of Continuous Passive Motion (CPM) following joint surgery?",
+   "options": {
+    "A": "A permanent increase in muscle strength",
+    "B": "Increased synovial fluid lubrication and a stimulating effect on healing of cartilage, tendons, and ligaments",
+    "C": "It removes the need for any active exercise afterward",
+    "D": "Guaranteed prevention of postoperative infection"
+   },
+   "correctAnswer": "B",
+   "explanation": "Documented benefits of CPM include increased synovial fluid lubrication (supporting cartilage healing), a stimulating effect on tendon and ligament healing, prevention of adhesions/contractures, and typically a quicker return of range of motion with less postoperative pain — but it does not replace active exercise or strength training.",
+   "sourceBook": "Kisner & Colby, Therapeutic Exercise: Foundations and Techniques",
+   "sourceChapter": "Chapter 3: Range of Motion — Continuous Passive Motion",
+   "sourcePage": null,
+   "subject": "Fundamentals of Exercise Therapy",
+   "bankRef": "exercise-therapy.json::ext-2"
+  },
+  {
+   "id": 98,
+   "topic": "Cardiopulmonary Assessment",
+   "subtopic": "Patterns of Breathlessness",
+   "difficulty": "Easy",
+   "question": "Breathlessness specifically occurring when a patient lies flat is termed:",
+   "options": {
+    "A": "Orthopnoea",
+    "B": "Paroxysmal nocturnal dyspnoea",
+    "C": "Tachypnoea",
+    "D": "Hyperventilation syndrome"
+   },
+   "correctAnswer": "A",
+   "explanation": "Orthopnoea is breathlessness specifically triggered by lying flat, classically because it increases venous return from the legs, causing blood to pool in the lungs in cardiac patients. Paroxysmal nocturnal dyspnoea (PND) is a related but distinct pattern — breathlessness that wakes the patient from sleep at night.",
+   "sourceBook": "Pryor & Prasad, Physiotherapy for Respiratory and Cardiac Problems",
+   "sourceChapter": "Assessment — Breathlessness",
+   "sourcePage": null,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "pt-genmed.json::ptgen-2"
+  },
+  {
+   "id": 99,
+   "topic": "Obstetric Terminology",
+   "subtopic": "Grand Multipara",
+   "difficulty": "Easy",
+   "question": "A pregnant woman with a history of four or more previous births is termed:",
+   "options": {
+    "A": "Nullipara",
+    "B": "Primipara",
+    "C": "Grand multipara",
+    "D": "Elderly primigravida"
+   },
+   "correctAnswer": "C",
+   "explanation": "A woman with a previous history of four or more births is called a grand multipara — distinct from nullipara (never completed a pregnancy to viability) and primipara (has delivered exactly one viable child).",
+   "sourceBook": "Dutta's Textbook of Obstetrics",
+   "sourceChapter": "Antenatal Care — History Taking, Terminology",
+   "sourcePage": null,
+   "subject": "OBGY",
+   "bankRef": "obgy.json::obgy-16"
+  },
+  {
+   "id": 100,
+   "topic": "Epidemiology",
+   "subtopic": "Death Certificate",
+   "difficulty": "Medium",
+   "question": "On the International Death Certificate, the 'underlying cause of death' is recorded in Part I, and is defined as:",
+   "options": {
+    "A": "The immediate mode of dying, such as 'heart failure' or 'asthenia'",
+    "B": "The disease or injury that initiated the chain of morbid events leading directly to death, or the circumstances of the accident/violence that produced the fatal injury",
+    "C": "Any condition present at death regardless of its role in causing it",
+    "D": "Only conditions diagnosed after an autopsy"
+   },
+   "correctAnswer": "B",
+   "explanation": "The underlying cause of death is the disease or injury that initiated the train of morbid events leading directly to death, or the circumstances of the accident/violence producing the fatal injury — the certificate explicitly notes this does NOT mean the immediate mode of dying (e.g. 'heart failure' or 'asthenia' are not acceptable as the underlying cause).",
+   "sourceBook": "Park's Textbook of Preventive and Social Medicine",
+   "sourceChapter": "Measurement of Mortality — International Death Certificate",
+   "sourcePage": "56",
+   "subject": "Physiotherapy in Community Health",
+   "bankRef": "pt-community.json::comm-4"
+  }
+ ]
+}

@@ -45,6 +45,10 @@ const Store = {
   setPracticeState(paperId, state) { this._set(this.KEYS.PRACTICE_PREFIX + paperId, state); },
   clearPracticeState(paperId) { try { localStorage.removeItem(this.KEYS.PRACTICE_PREFIX + paperId); } catch (e) {} },
 
+  // Subject-practice questions already served on this device (so new sessions prefer unseen ones)
+  getSeen() { return this._get('mcq_seen_v1', {}); },
+  markSeen(keys) { const s = this.getSeen(); keys.forEach(k => { s[k] = 1; }); this._set('mcq_seen_v1', s); },
+
   getSettings() { return this._get(this.KEYS.SETTINGS, { negativeMarkingOverride: null }); },
   setSettings(s) { this._set(this.KEYS.SETTINGS, s); }
 };
@@ -77,14 +81,18 @@ const Papers = {
     return this.SUBJECT_POOL_PREFIX + subject + (topic ? this.SUBJECT_TOPIC_SEP + topic : '');
   },
 
-  async getPaper(paperId) {
-    if (this._paperCache[paperId]) return this._paperCache[paperId];
+  async getPaper(paperId, opts = {}) {
     if (this.isSubjectPoolId(paperId)) {
+      // A subject/topic session is a random sample of SUBJECT_SESSION_SIZE questions. Once a
+      // session exists its question ids are saved in the practice state (opts.onlyIds) so a
+      // page reload resumes the same questions instead of re-rolling them.
+      if (!opts.fresh && !opts.onlyIds && this._paperCache[paperId]) return this._paperCache[paperId];
       const { subject, topic } = this.parseSubjectPoolId(paperId);
-      const pool = await this.buildSubjectPool(subject, topic);
+      const pool = await this.buildSubjectPool(subject, topic, opts);
       this._paperCache[paperId] = pool;
       return pool;
     }
+    if (this._paperCache[paperId]) return this._paperCache[paperId];
     const manifest = await this.getManifest();
     const meta = manifest.find(p => p.id === paperId);
     if (!meta) throw new Error('Paper "' + paperId + '" is not listed in manifest.json');
@@ -96,73 +104,86 @@ const Papers = {
     return validated;
   },
 
-  // Loads every real (non-throwaway-fixture) paper's full question set, for the
-  // subject-wise practice pool. sample-mixed-1 is fictional test data and is
-  // excluded via includeInSubjectPool:false in the manifest; everything else
-  // (including validation-batch-1, which is real book-sourced content) counts.
-  async getAllPoolablePapers() {
-    if (this._poolablePapersCache) return this._poolablePapersCache;
-    const manifest = await this.getManifest();
-    const eligible = manifest.filter(m => m.includeInSubjectPool !== false);
-    const papers = await Promise.all(eligible.map(m => this.getPaper(m.id).catch(err => {
-      console.warn('Skipping paper "' + m.id + '" while building subject pool:', err);
-      return null;
-    })));
-    this._poolablePapersCache = papers.filter(Boolean);
-    return this._poolablePapersCache;
+  // Loads a paper for results/review screens: a subject session must reload the SAME
+  // questions that were served, which practice state remembers in poolIds.
+  async getPaperResumed(paperId) {
+    if (this.isSubjectPoolId(paperId)) {
+      const st = Store.getPracticeState(paperId);
+      if (st && st.poolIds) return this.getPaper(paperId, { onlyIds: st.poolIds });
+    }
+    return this.getPaper(paperId);
   },
 
-  // Returns [{ subject, count, topics: [{ topic, count }] }] across all poolable papers,
-  // sorted by subject name. Used to render the "Practice by Subject" picker.
+  SUBJECT_SESSION_SIZE: 20,
+
+  // papers/bank/index.json (written by tools/compose_papers.py): per-subject counts + topics,
+  // so the picker needs one tiny request instead of loading every question.
+  async getBankIndex() {
+    if (this._bankIndexCache) return this._bankIndexCache;
+    const res = await fetch('papers/bank/index.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error('Could not load papers/bank/index.json (HTTP ' + res.status + ')');
+    this._bankIndexCache = (await res.json()).subjects || [];
+    return this._bankIndexCache;
+  },
+
+  // Returns [{ subject, count, topics: [{ topic, count }] }], sorted by subject name.
   async getSubjectSummary() {
-    const papers = await this.getAllPoolablePapers();
-    const bySubject = {};
-    papers.forEach(paper => {
-      paper.questions.forEach(q => {
-        const subj = q.subject || 'General';
-        if (!bySubject[subj]) bySubject[subj] = { subject: subj, count: 0, topicsMap: {} };
-        bySubject[subj].count++;
-        const top = q.topic || 'General';
-        bySubject[subj].topicsMap[top] = (bySubject[subj].topicsMap[top] || 0) + 1;
-      });
-    });
-    return Object.values(bySubject).map(s => ({
-      subject: s.subject,
-      count: s.count,
-      topics: Object.entries(s.topicsMap).map(([topic, count]) => ({ topic, count })).sort((a, b) => b.count - a.count)
-    })).sort((a, b) => a.subject.localeCompare(b.subject));
+    return this.getBankIndex();
   },
 
-  // Builds a synthetic "paper" pooling every question tagged with the given subject
-  // (and optionally topic) across all real papers, no matter which paper they live in.
-  // No cap on question count — it simply includes everything available right now.
-  async buildSubjectPool(subject, topic) {
-    const papers = await this.getAllPoolablePapers();
-    const pooled = [];
-    papers.forEach(paper => {
-      paper.questions.forEach(q => {
-        if (q.subject !== subject) return;
-        if (topic && q.topic !== topic) return;
-        pooled.push(Object.assign({}, q, { id: paper.paperId + this.SUBJECT_TOPIC_SEP + q.id, _sourcePaperId: paper.paperId, _sourcePaperName: paper.paperName }));
+  async _loadSubjectQuestions(subject) {
+    const index = await this.getBankIndex();
+    const entry = index.find(s => s.subject === subject);
+    if (!entry) return [];
+    this._bankFileCache = this._bankFileCache || {};
+    const all = [];
+    for (const file of entry.files) {
+      if (!this._bankFileCache[file]) {
+        const res = await fetch('papers/bank/' + file, { cache: 'no-store' });
+        if (!res.ok) throw new Error('Could not load papers/bank/' + file + ' (HTTP ' + res.status + ')');
+        this._bankFileCache[file] = await res.json();
+      }
+      const data = this._bankFileCache[file];
+      (data.questions || []).forEach(q => {
+        const subj = q.subject || data.subject;
+        if (subj === subject) all.push(Object.assign({}, q, { subject: subj, _file: file }));
       });
-    });
-    // Shuffle so repeated practice sessions on the same subject don't always run in the same order
-    for (let i = pooled.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [pooled[i], pooled[j]] = [pooled[j], pooled[i]];
+    }
+    return all;
+  },
+
+  _qKey(q) { return q._file + '::' + q.id; },
+
+  // A subject (or subject + topic) practice session: SUBJECT_SESSION_SIZE random questions,
+  // preferring ones this device has not served before, so repeated sessions walk through the
+  // whole bank before anything repeats.
+  async buildSubjectPool(subject, topic, opts = {}) {
+    let questions = await this._loadSubjectQuestions(subject);
+    if (topic) questions = questions.filter(q => (q.topic || 'General') === topic);
+    let chosen;
+    if (opts.onlyIds) {
+      const byId = {};
+      questions.forEach(q => { byId[this._qKey(q)] = q; });
+      chosen = opts.onlyIds.map(id => byId[id]).filter(Boolean);
+    } else {
+      const shuffle = arr => { for (let i = arr.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [arr[i], arr[j]] = [arr[j], arr[i]]; } return arr; };
+      const seen = Store.getSeen();
+      const unseen = shuffle(questions.filter(q => !seen[this._qKey(q)]));
+      const seenQs = shuffle(questions.filter(q => seen[this._qKey(q)]));
+      chosen = shuffle(unseen.concat(seenQs).slice(0, this.SUBJECT_SESSION_SIZE));
+      Store.markSeen(chosen.map(q => this._qKey(q)));
     }
     const label = topic ? (subject + ' — ' + topic) : subject;
-    return {
+    const clean = this._validateAndClean({
       paperId: this.makeSubjectPoolId(subject, topic),
-      paperName: label + ' (Subject Practice)',
-      subject,
-      description: 'All available questions for ' + label + ', pooled across every paper. Grows automatically as more content is added.',
-      durationMinutes: 90,
-      scoring: { correct: 1, incorrect: 0, unanswered: 0, negativeMarkingEnabled: false },
-      questions: pooled,
-      dataIssues: [],
-      isSubjectPool: true
-    };
+      questions: chosen.map(q => Object.assign({}, q, { id: this._qKey(q) }))
+    }, { id: this.makeSubjectPoolId(subject, topic), subject });
+    return Object.assign(clean, {
+      paperName: label + ' (' + chosen.length + ' questions)',
+      description: 'A random set of ' + chosen.length + ' questions on ' + label + '.',
+      isSubjectPool: true,
+      poolIds: chosen.map(q => this._qKey(q))
+    });
   },
 
   // Defensive cleanup so one malformed question can't break the whole paper (spec 3.12)

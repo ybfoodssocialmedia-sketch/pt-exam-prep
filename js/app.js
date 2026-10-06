@@ -34,7 +34,7 @@ const App = {
 
   async route() {
     const { parts, query } = this.parseHash();
-    this.highlightNav(parts[0] || '');
+    this.highlightNav(this.navSectionFor(parts, query));
     try {
       if (parts.length === 0) return this.renderDashboard();
       if (parts[0] === 'papers') return this.renderPaperList(query.mode || 'practice');
@@ -52,6 +52,18 @@ const App = {
       console.error(err);
       this.renderError(err);
     }
+  },
+
+  // Exactly one nav item is highlighted: Practice and Exam share the #/papers list,
+  // so the list's own ?mode= decides which one is active.
+  navSectionFor(parts, query) {
+    const first = parts[0] || '';
+    if (first === 'papers') return query.mode === 'exam' ? 'exam' : 'practice';
+    if (first === 'practice' || first === 'practice-results') {
+      return Papers.isSubjectPoolId(parts[1] || '') ? 'practice-by-subject' : 'practice';
+    }
+    if (first === 'exam') return 'exam';
+    return first;
   },
 
   highlightNav(section) {
@@ -140,13 +152,19 @@ const App = {
       return;
     }
 
+    // Sample/validation fixtures are not real papers — never show them in the list
+    const papers = manifest.filter(p => !p.isSample);
     const activeDiff = difficultyFilter || 'All';
-    const filtered = activeDiff === 'All' ? manifest : manifest.filter(p => (p.difficulty || 'Mixed') === activeDiff);
+    const filtered = activeDiff === 'All' ? papers : papers.filter(p => (p.difficulty || 'Mixed') === activeDiff);
     const diffOptions = ['All', 'Easy', 'Medium', 'Hard', 'Mixed'];
 
     this.root.innerHTML = `
       <div class="container">
         <h1>${mode === 'exam' ? '📝 Choose a paper for Exam Mode' : '📚 Choose a paper for Practice Mode'}</h1>
+        <div class="mode-switch">
+          <a class="${mode === 'practice' ? 'active practice' : ''}" href="#/papers?mode=practice">📚 Practice</a>
+          <a class="${mode === 'exam' ? 'active exam' : ''}" href="#/papers?mode=exam">📝 Exam</a>
+        </div>
         <div class="filter-row">
           ${diffOptions.map(d => `<button class="filter-chip diff-filter-chip ${d === activeDiff ? 'active' : ''}" data-diff="${d}">${d}</button>`).join('')}
         </div>
@@ -181,8 +199,9 @@ const App = {
         <p class="desc">${Fmt.escapeHtml(p.description || '')}</p>
         <div class="meta-row"><span>${p.questionCount ? p.questionCount + ' questions' : 'Question count shown after loading'}</span>${best !== null ? `<span class="prev-score">Best: ${Fmt.pct(best)}</span>` : ''}</div>
         <div class="actions">
-          <a class="btn btn-practice" href="#/practice/${encodeURIComponent(p.id)}">Start Practice</a>
-          <a class="btn btn-exam" href="#/exam/instructions/${encodeURIComponent(p.id)}">Start Exam</a>
+          ${mode === 'exam'
+            ? `<a class="btn btn-exam" href="#/exam/instructions/${encodeURIComponent(p.id)}">Start Exam</a>`
+            : `<a class="btn btn-practice" href="#/practice/${encodeURIComponent(p.id)}">Start Practice</a>`}
         </div>
       </div>`;
   },
@@ -203,7 +222,7 @@ const App = {
     this.root.innerHTML = `
       <div class="container">
         <h1>📚 Practice by Subject</h1>
-        <p class="text-muted" style="margin-top:-8px;">Pulls every available question for a subject across all papers — no fixed count, grows automatically as more content is added. Runs in the same Practice Mode you already know.</p>
+        <p class="text-muted" style="margin-top:-8px;">Each session gives you 20 random questions from the subject (or one topic), preferring questions you haven't seen yet. Start another session any time for a fresh 20. Same Practice Mode, with instant explanations.</p>
         <div class="paper-grid">
           ${summary.map(s => this.subjectCard(s)).join('')}
         </div>
@@ -221,7 +240,7 @@ const App = {
         <div class="tag-row"><span class="tag subject">${s.count} question${s.count === 1 ? '' : 's'} available</span></div>
         <h3>${Fmt.escapeHtml(s.subject)}</h3>
         <div class="actions">
-          <a class="btn btn-practice" href="#/practice/${encodeURIComponent(Papers.makeSubjectPoolId(s.subject))}?reset=1">Practice All ${Fmt.escapeHtml(s.subject)}</a>
+          <a class="btn btn-practice" href="#/practice/${encodeURIComponent(Papers.makeSubjectPoolId(s.subject))}?reset=1">Practice 20 random: ${Fmt.escapeHtml(s.subject)}</a>
         </div>
         ${s.topics.length > 1 ? `<details style="margin-top:6px;"><summary style="cursor:pointer;font-size:0.85rem;color:var(--text-muted);">By topic (${s.topics.length})</summary>${topicRows}</details>` : ''}
       </div>`;

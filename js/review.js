@@ -10,7 +10,7 @@ const ReviewView = {
 
   async render(paperId, query) {
     let paper;
-    try { paper = await Papers.getPaper(paperId); } catch (e) { return App.renderError(e); }
+    try { paper = await Papers.getPaperResumed(paperId); } catch (e) { return App.renderError(e); }
     this.paper = paper;
     this.source = query.source || 'practice';
     this.filter = query.filter || 'all';

@@ -19,151 +19,17 @@
       "description": "First real, book-sourced questions (Manual Muscle Testing + Range of Motion/Stretching) for you to review before the full 100-Q paper is built. Not the final exam.",
       "difficulty": "Mixed",
       "isSample": true,
-      "questionCount": 14
+      "questionCount": 14,
+      "includeInSubjectPool": false
     },
     {
-      "id": "mock-exam-1",
-      "file": "generated/mock-exam-1.json",
-      "name": "PGP-CET Mixed Mock Exam 1",
+      "id": "easy-paper-1",
+      "file": "generated/easy-paper-1.json",
+      "name": "Easy Paper 1",
       "subject": "Mixed (Real Weightage)",
-      "description": "Full 100-question mock exam following the REAL PGP-CET 2025 topic weightage (per the official exam brochure), sourced entirely from uploaded reference books with citations.",
-      "difficulty": "Mixed",
+      "description": "100 questions following the real PGP-CET 2025 subject weightage. Mix: 38 easy / 51 medium / 11 hard. Every question cites its source.",
+      "difficulty": "Easy",
       "questionCount": 100
-    },
-    {
-      "id": "easy-practice-set-1",
-      "file": "generated/easy-practice-set-1.json",
-      "name": "Easy Practice Set 1",
-      "subject": "Mixed",
-      "description": "Easy-difficulty practice set (20 questions) covering: Anatomy, Biochemistry, Fundamentals of Electro Therapy, Fundamentals of Exercise Therapy, Medicine, OBGY, Pathology & Microbiology, Pharmacology, Physiology, Physiotherapy in Community Health, Physiotherapy in General Medical & Surgical Condition, Psychiatry, Psychology.",
-      "difficulty": "Easy",
-      "questionCount": 20
-    },
-    {
-      "id": "easy-practice-set-2",
-      "file": "generated/easy-practice-set-2.json",
-      "name": "Easy Practice Set 2",
-      "subject": "Mixed",
-      "description": "Easy-difficulty practice set (20 questions) covering: Anatomy, General Surgery & Orthopedics, Kinesio Therapeutics, OBGY, Pathology & Microbiology, Pharmacology, Physiology, Physiotherapy in Community Health, Physiotherapy in General Medical & Surgical Condition, Physiotherapy in Neurosciences, Psychiatry, Psychology.",
-      "difficulty": "Easy",
-      "questionCount": 20
-    },
-    {
-      "id": "medium-practice-set-1",
-      "file": "generated/medium-practice-set-1.json",
-      "name": "Medium Practice Set 1",
-      "subject": "Mixed",
-      "description": "Medium-difficulty practice set (20 questions) covering: Anatomy, Biochemistry, Fundamentals of Electro Therapy, Fundamentals of Exercise Therapy, General Surgery & Orthopedics, Medicine, OBGY, Pathology & Microbiology, Pharmacology, Physical Diagnosis & Manipulative Skills, Physiology, Psychology.",
-      "difficulty": "Medium",
-      "questionCount": 20
-    },
-    {
-      "id": "medium-practice-set-2",
-      "file": "generated/medium-practice-set-2.json",
-      "name": "Medium Practice Set 2",
-      "subject": "Mixed",
-      "description": "Medium-difficulty practice set (20 questions) covering: Anatomy, Fundamentals of Electro Therapy, General Surgery & Orthopedics, Kinesio Therapeutics, OBGY, Pathology & Microbiology, Physical Diagnosis & Manipulative Skills, Physiology, Physiotherapy in Community Health, Physiotherapy in Musculoskeletal Condition, Physiotherapy in Neurosciences.",
-      "difficulty": "Medium",
-      "questionCount": 20
-    },
-    {
-      "id": "medium-practice-set-3",
-      "file": "generated/medium-practice-set-3.json",
-      "name": "Medium Practice Set 3",
-      "subject": "Mixed",
-      "description": "Medium-difficulty practice set (20 questions) covering: Anatomy, Fundamentals of Electro Therapy, General Surgery & Orthopedics, Kinesio Therapeutics, Medicine, OBGY, Pharmacology, Physical Diagnosis & Manipulative Skills, Physiotherapy in General Medical & Surgical Condition, Physiotherapy in Musculoskeletal Condition, Physiotherapy in Neurosciences, Psychiatry, Psychology.",
-      "difficulty": "Medium",
-      "questionCount": 20
-    },
-    {
-      "id": "medium-practice-set-4",
-      "file": "generated/medium-practice-set-4.json",
-      "name": "Medium Practice Set 4",
-      "subject": "Mixed",
-      "description": "Medium-difficulty practice set (20 questions) covering: Anatomy, Biochemistry, Fundamentals of Electro Therapy, General Surgery & Orthopedics, Kinesio Therapeutics, OBGY, Pathology & Microbiology, Physiology, Physiotherapy in General Medical & Surgical Condition, Physiotherapy in Musculoskeletal Condition, Physiotherapy in Neurosciences, Psychology.",
-      "difficulty": "Medium",
-      "questionCount": 20
-    },
-    {
-      "id": "medium-practice-set-5",
-      "file": "generated/medium-practice-set-5.json",
-      "name": "Medium Practice Set 5",
-      "subject": "Mixed",
-      "description": "Medium-difficulty practice set (20 questions) covering: Anatomy, Biochemistry, Kinesio Therapeutics, Medicine, OBGY, Pathology & Microbiology, Pharmacology, Physiotherapy in Community Health, Physiotherapy in Musculoskeletal Condition, Physiotherapy in Neurosciences, Psychiatry, Psychology.",
-      "difficulty": "Medium",
-      "questionCount": 20
-    },
-    {
-      "id": "medium-practice-set-6",
-      "file": "generated/medium-practice-set-6.json",
-      "name": "Medium Practice Set 6",
-      "subject": "Mixed",
-      "description": "Medium-difficulty practice set (20 questions) covering: Biochemistry, Fundamentals of Exercise Therapy, General Surgery & Orthopedics, Kinesio Therapeutics, Medicine, Pharmacology, Physiology, Physiotherapy in General Medical & Surgical Condition, Physiotherapy in Musculoskeletal Condition, Physiotherapy in Neurosciences, Psychiatry, Psychology.",
-      "difficulty": "Medium",
-      "questionCount": 20
-    },
-    {
-      "id": "medium-practice-set-7",
-      "file": "generated/medium-practice-set-7.json",
-      "name": "Medium Practice Set 7",
-      "subject": "Mixed",
-      "description": "Medium-difficulty practice set (20 questions) covering: Biochemistry, Fundamentals of Electro Therapy, General Surgery & Orthopedics, Kinesio Therapeutics, Medicine, OBGY, Pathology & Microbiology, Pharmacology, Physical Diagnosis & Manipulative Skills, Physiology, Physiotherapy in General Medical & Surgical Condition, Psychiatry, Psychology.",
-      "difficulty": "Medium",
-      "questionCount": 20
-    },
-    {
-      "id": "hard-practice-set-1",
-      "file": "generated/hard-practice-set-1.json",
-      "name": "Hard Practice Set 1",
-      "subject": "Mixed",
-      "description": "Hard-difficulty practice set (20 questions) covering: Biochemistry, Fundamentals of Electro Therapy, Fundamentals of Exercise Therapy, General Surgery & Orthopedics, Kinesio Therapeutics, Medicine, OBGY, Pathology & Microbiology, Physiology, Physiotherapy in Musculoskeletal Condition, Physiotherapy in Neurosciences, Psychiatry, Psychology.",
-      "difficulty": "Hard",
-      "questionCount": 20
-    },
-    {
-      "id": "hard-practice-set-2",
-      "file": "generated/hard-practice-set-2.json",
-      "name": "Hard Practice Set 2",
-      "subject": "Mixed",
-      "description": "Hard-difficulty practice set (20 questions) covering: Anatomy, Fundamentals of Electro Therapy, Fundamentals of Exercise Therapy, General Surgery & Orthopedics, OBGY, Pathology & Microbiology, Physiology, Physiotherapy in Community Health, Physiotherapy in General Medical & Surgical Condition, Physiotherapy in Musculoskeletal Condition, Physiotherapy in Neurosciences, Psychiatry.",
-      "difficulty": "Hard",
-      "questionCount": 20
-    },
-    {
-      "id": "hard-practice-set-3",
-      "file": "generated/hard-practice-set-3.json",
-      "name": "Hard Practice Set 3",
-      "subject": "Mixed",
-      "description": "Hard-difficulty practice set (20 questions) covering: Anatomy, Biochemistry, Fundamentals of Electro Therapy, General Surgery & Orthopedics, Medicine, OBGY, Pathology & Microbiology, Pharmacology, Physiology, Physiotherapy in Community Health, Physiotherapy in General Medical & Surgical Condition, Physiotherapy in Musculoskeletal Condition, Physiotherapy in Neurosciences, Psychology.",
-      "difficulty": "Hard",
-      "questionCount": 20
-    },
-    {
-      "id": "hard-practice-set-4",
-      "file": "generated/hard-practice-set-4.json",
-      "name": "Hard Practice Set 4",
-      "subject": "Mixed",
-      "description": "Hard-difficulty practice set (20 questions) covering: Fundamentals of Electro Therapy, General Surgery & Orthopedics, Kinesio Therapeutics, Medicine, OBGY, Pathology & Microbiology, Pharmacology, Physical Diagnosis & Manipulative Skills, Physiology, Physiotherapy in General Medical & Surgical Condition, Physiotherapy in Musculoskeletal Condition, Physiotherapy in Neurosciences, Psychiatry.",
-      "difficulty": "Hard",
-      "questionCount": 20
-    },
-    {
-      "id": "hard-practice-set-5",
-      "file": "generated/hard-practice-set-5.json",
-      "name": "Hard Practice Set 5",
-      "subject": "Mixed",
-      "description": "Hard-difficulty practice set (20 questions) covering: Anatomy, Biochemistry, Fundamentals of Electro Therapy, General Surgery & Orthopedics, Medicine, OBGY, Pathology & Microbiology, Pharmacology, Physical Diagnosis & Manipulative Skills, Physiotherapy in General Medical & Surgical Condition, Physiotherapy in Musculoskeletal Condition, Physiotherapy in Neurosciences, Psychology.",
-      "difficulty": "Hard",
-      "questionCount": 20
-    },
-    {
-      "id": "hard-practice-set-6",
-      "file": "generated/hard-practice-set-6.json",
-      "name": "Hard Practice Set 6",
-      "subject": "Mixed",
-      "description": "Hard-difficulty practice set (20 questions) covering: Kinesio Therapeutics, Medicine, OBGY, Pathology & Microbiology, Pharmacology, Physical Diagnosis & Manipulative Skills, Physiology, Physiotherapy in Community Health, Physiotherapy in General Medical & Surgical Condition, Physiotherapy in Musculoskeletal Condition, Physiotherapy in Neurosciences, Psychiatry, Psychology.",
-      "difficulty": "Hard",
-      "questionCount": 20
     }
   ]
 }

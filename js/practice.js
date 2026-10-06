@@ -6,18 +6,28 @@ const PracticeView = {
 
   async render(paperId, query) {
     App.root.innerHTML = `<div class="container"><p class="text-muted">Loading paper…</p></div>`;
-    let paper;
-    try { paper = await Papers.getPaper(paperId); }
-    catch (e) { return App.renderError(e); }
-    this.paper = paper;
-
     let state = Store.getPracticeState(paperId);
     const wantsReset = query.reset === '1';
+    let paper;
+    try {
+      if (Papers.isSubjectPoolId(paperId)) {
+        // New session (or reset) = fresh random 20; otherwise resume the same saved questions
+        paper = (wantsReset || !state || !state.poolIds)
+          ? await Papers.getPaper(paperId, { fresh: true })
+          : await Papers.getPaper(paperId, { onlyIds: state.poolIds });
+        if (wantsReset || !state || !state.poolIds) state = null;
+      } else {
+        paper = await Papers.getPaper(paperId);
+      }
+    } catch (e) { return App.renderError(e); }
+    this.paper = paper;
+
     const wantsNewFilter = query.filter && (!state || state.filterMode !== query.filter || (query.topic && state.filterTopic !== query.topic));
 
     if (!state || wantsNewFilter || wantsReset) {
       state = this.buildState(paper, query.filter || 'all', query.topic || null, wantsReset ? null : state);
     }
+    if (paper.poolIds) state.poolIds = paper.poolIds;
     this.state = state;
     this.persist();
     this.renderCurrent();
@@ -192,7 +202,7 @@ const PracticeView = {
 
   async renderResults(paperId) {
     let paper;
-    try { paper = await Papers.getPaper(paperId); } catch (e) { return App.renderError(e); }
+    try { paper = await Papers.getPaperResumed(paperId); } catch (e) { return App.renderError(e); }
     const state = Store.getPracticeState(paperId);
     if (!state) { App.navigate('#/practice/' + encodeURIComponent(paperId)); return; }
 

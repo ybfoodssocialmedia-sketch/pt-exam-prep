@@ -319,3 +319,16 @@ table.topic-table th { color: var(--text-muted); font-weight: 600; font-size: 0.
 
 .text-muted { color: var(--text-muted); }
 .mt-0 { margin-top: 0; }
+
+/* Practice / Exam switch on the paper list */
+.mode-switch { display: inline-flex; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin-bottom: 14px; background: #fff; }
+.mode-switch a { padding: 9px 20px; font-weight: 600; font-size: 0.92rem; color: var(--text-muted); }
+.mode-switch a.active.practice { background: #0d9488; color: #fff; }
+.mode-switch a.active.exam { background: #dc2626; color: #fff; }
+
+/* Phone header: brand on its own row, nav scrolls sideways instead of wrapping into a tall block */
+@media (max-width: 720px) {
+  .app-header .header-inner { flex-direction: column; align-items: flex-start; gap: 6px; padding: 10px 14px; }
+  .nav-links { flex-wrap: nowrap; overflow-x: auto; max-width: 100%; width: 100%; -webkit-overflow-scrolling: touch; }
+  .nav-links a { white-space: nowrap; padding: 7px 11px; }
+}
