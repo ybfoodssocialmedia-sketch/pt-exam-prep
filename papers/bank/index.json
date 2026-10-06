@@ -4,29 +4,34 @@
    "subject": "Anatomy",
    "files": [
     "anatomy.json",
-    "anatomy2.json"
+    "anatomy2.json",
+    "anatomy3.json"
    ],
-   "count": 79,
+   "count": 123,
    "topics": [
     {
      "topic": "Upper Limb",
-     "count": 30
+     "count": 43
     },
     {
      "topic": "Lower Limb",
-     "count": 27
+     "count": 42
     },
     {
      "topic": "Neuroanatomy",
-     "count": 7
+     "count": 13
+    },
+    {
+     "topic": "Head & Neck",
+     "count": 9
     },
     {
      "topic": "Thorax",
      "count": 6
     },
     {
-     "topic": "Head & Neck",
-     "count": 5
+     "topic": "Thorax & Abdomen",
+     "count": 6
     },
     {
      "topic": "General Anatomy",
@@ -38,9 +43,10 @@
    "subject": "Biochemistry",
    "files": [
     "biochemistry.json",
-    "biochemistry2.json"
+    "biochemistry2.json",
+    "biochemistry3.json"
    ],
-   "count": 45,
+   "count": 83,
    "topics": [
     {
      "topic": "Proteins and Amino Acids",
@@ -51,8 +57,24 @@
      "count": 11
     },
     {
+     "topic": "Biomolecules",
+     "count": 11
+    },
+    {
+     "topic": "Metabolism",
+     "count": 11
+    },
+    {
+     "topic": "Nutrition",
+     "count": 9
+    },
+    {
      "topic": "Carbohydrate Metabolism",
      "count": 8
+    },
+    {
+     "topic": "Enzymes",
+     "count": 7
     },
     {
      "topic": "Lipid Metabolism",
@@ -67,7 +89,7 @@
      "count": 3
     },
     {
-     "topic": "Enzymes",
+     "topic": "Clinical Biochemistry",
      "count": 3
     }
    ]
@@ -166,9 +188,10 @@
    "subject": "Fundamentals of Exercise Therapy",
    "files": [
     "exercise-therapy.json",
-    "exercise-therapy2.json"
+    "exercise-therapy2.json",
+    "exercise-therapy3.json"
    ],
-   "count": 79,
+   "count": 128,
    "topics": [
     {
      "topic": "Strength Training",
@@ -179,11 +202,31 @@
      "count": 11
     },
     {
+     "topic": "Principles of Exercise",
+     "count": 11
+    },
+    {
+     "topic": "Functional Training",
+     "count": 11
+    },
+    {
      "topic": "Types of Exercise",
      "count": 9
     },
     {
      "topic": "Exercise Physiology",
+     "count": 9
+    },
+    {
+     "topic": "Mobility Exercise",
+     "count": 9
+    },
+    {
+     "topic": "Balance & Coordination",
+     "count": 9
+    },
+    {
+     "topic": "General Exercise",
      "count": 9
     },
     {
@@ -220,25 +263,30 @@
    "subject": "General Surgery & Orthopedics",
    "files": [
     "surgery-ortho.json",
-    "surgery-ortho2.json"
+    "surgery-ortho2.json",
+    "surgery-ortho3.json"
    ],
-   "count": 97,
+   "count": 162,
    "topics": [
     {
      "topic": "Orthopaedics - Trauma",
-     "count": 18
-    },
-    {
-     "topic": "Surgical Principles",
-     "count": 12
+     "count": 36
     },
     {
      "topic": "Orthopaedics - Bone Disease",
-     "count": 12
+     "count": 26
+    },
+    {
+     "topic": "Surgical Principles",
+     "count": 20
     },
     {
      "topic": "Abdominal Surgery",
-     "count": 11
+     "count": 19
+    },
+    {
+     "topic": "Orthopaedics - Other",
+     "count": 12
     },
     {
      "topic": "Paediatric Surgery",
@@ -249,11 +297,11 @@
      "count": 7
     },
     {
-     "topic": "Orthopaedics - Other",
-     "count": 7
+     "topic": "Orthopaedics - Paediatric",
+     "count": 6
     },
     {
-     "topic": "Orthopaedics - Paediatric",
+     "topic": "Orthopaedics - Nerve Injuries",
      "count": 6
     },
     {
@@ -269,6 +317,14 @@
      "count": 3
     },
     {
+     "topic": "Chest Surgery",
+     "count": 3
+    },
+    {
+     "topic": "Head & Neck Surgery",
+     "count": 3
+    },
+    {
      "topic": "Paediatric Trauma",
      "count": 2
     }
@@ -278,13 +334,22 @@
    "subject": "Kinesio Therapeutics",
    "files": [
     "kinesio.json",
-    "kinesio2.json"
+    "kinesio2.json",
+    "kinesio3.json"
    ],
-   "count": 100,
+   "count": 166,
    "topics": [
     {
      "topic": "Muscle Mechanics",
+     "count": 30
+    },
+    {
+     "topic": "Gait Analysis",
      "count": 19
+    },
+    {
+     "topic": "Spinal Mechanics",
+     "count": 16
     },
     {
      "topic": "Joint Mechanics",
@@ -299,12 +364,20 @@
      "count": 13
     },
     {
+     "topic": "Lower Limb Biomechanics",
+     "count": 13
+    },
+    {
      "topic": "Biomechanics Basics",
      "count": 11
     },
     {
-     "topic": "Gait Analysis",
-     "count": 11
+     "topic": "Kinematics",
+     "count": 10
+    },
+    {
+     "topic": "Upper Limb Biomechanics",
+     "count": 9
     },
     {
      "topic": "Soft Tissue Injury",
@@ -315,8 +388,8 @@
      "count": 6
     },
     {
-     "topic": "Spinal Mechanics",
-     "count": 6
+     "topic": "Posture & Balance",
+     "count": 5
     }
    ]
   },
@@ -324,36 +397,53 @@
    "subject": "Medicine",
    "files": [
     "medicine.json",
-    "medicine2.json"
+    "medicine2.json",
+    "medicine3.json"
    ],
-   "count": 89,
+   "count": 150,
    "topics": [
+    {
+     "topic": "Cardiology",
+     "count": 21
+    },
+    {
+     "topic": "Respiratory Medicine",
+     "count": 15
+    },
+    {
+     "topic": "Gastroenterology",
+     "count": 15
+    },
+    {
+     "topic": "Endocrinology",
+     "count": 15
+    },
+    {
+     "topic": "Infectious Disease",
+     "count": 13
+    },
     {
      "topic": "Clinical Decision Making",
      "count": 12
     },
     {
-     "topic": "Cardiology",
-     "count": 11
+     "topic": "Haematology",
+     "count": 10
+    },
+    {
+     "topic": "Neurology",
+     "count": 10
     },
     {
      "topic": "Clinical Medicine",
      "count": 10
     },
     {
-     "topic": "Gastroenterology",
+     "topic": "Rheumatology",
      "count": 8
     },
     {
-     "topic": "Endocrinology",
-     "count": 8
-    },
-    {
-     "topic": "Respiratory Medicine",
-     "count": 7
-    },
-    {
-     "topic": "Infectious Disease",
+     "topic": "Nephrology",
      "count": 7
     },
     {
@@ -361,20 +451,12 @@
      "count": 6
     },
     {
-     "topic": "Haematology",
-     "count": 6
-    },
-    {
-     "topic": "Neurology",
+     "topic": "Emergency",
      "count": 5
     },
     {
-     "topic": "Nephrology",
-     "count": 4
-    },
-    {
-     "topic": "Rheumatology",
-     "count": 4
+     "topic": "Toxicology",
+     "count": 2
     },
     {
      "topic": "Infection Prevention and Control",
@@ -386,36 +468,37 @@
    "subject": "OBGY",
    "files": [
     "obgy.json",
-    "obgy2.json"
+    "obgy2.json",
+    "obgy3.json"
    ],
-   "count": 49,
+   "count": 82,
    "topics": [
+    {
+     "topic": "Gynaecology",
+     "count": 17
+    },
+    {
+     "topic": "Obstetrics - Basics",
+     "count": 14
+    },
     {
      "topic": "Normal Puerperium",
      "count": 13
     },
     {
-     "topic": "Gynaecology",
-     "count": 8
-    },
-    {
-     "topic": "Obstetrics - Basics",
-     "count": 6
-    },
-    {
      "topic": "Obstetrics - Complications",
-     "count": 6
+     "count": 13
     },
     {
      "topic": "Obstetrics - Labour",
-     "count": 6
-    },
-    {
-     "topic": "Obstetric Terminology",
-     "count": 3
+     "count": 11
     },
     {
      "topic": "Obstetrics - Postnatal",
+     "count": 7
+    },
+    {
+     "topic": "Obstetric Terminology",
      "count": 3
     },
     {
@@ -432,17 +515,34 @@
    "subject": "Pathology & Microbiology",
    "files": [
     "pathology.json",
-    "pathology2.json"
+    "pathology2.json",
+    "pathology3.json"
    ],
-   "count": 67,
+   "count": 115,
    "topics": [
     {
-     "topic": "Neoplasia",
-     "count": 12
+     "topic": "Microbiology",
+     "count": 21
     },
     {
-     "topic": "Microbiology",
-     "count": 9
+     "topic": "Neoplasia",
+     "count": 18
+    },
+    {
+     "topic": "Cell Injury",
+     "count": 11
+    },
+    {
+     "topic": "Inflammation",
+     "count": 10
+    },
+    {
+     "topic": "Immunology",
+     "count": 8
+    },
+    {
+     "topic": "Pathology Systemic",
+     "count": 8
     },
     {
      "topic": "Infectious and Parasitic Diseases",
@@ -453,24 +553,12 @@
      "count": 7
     },
     {
-     "topic": "Inflammation",
-     "count": 6
-    },
-    {
-     "topic": "Cell Injury",
-     "count": 5
-    },
-    {
      "topic": "Haemodynamics",
-     "count": 4
-    },
-    {
-     "topic": "Immunology",
-     "count": 4
+     "count": 7
     },
     {
      "topic": "Genetics",
-     "count": 4
+     "count": 7
     },
     {
      "topic": "Cell Injury and Pigments",
@@ -487,6 +575,10 @@
     {
      "topic": "Bone & Joint Pathology",
      "count": 2
+    },
+    {
+     "topic": "Healing",
+     "count": 2
     }
    ]
   },
@@ -494,45 +586,50 @@
    "subject": "Pharmacology",
    "files": [
     "pharmacology.json",
-    "pharmacology2.json"
+    "pharmacology2.json",
+    "pharmacology3.json"
    ],
-   "count": 52,
+   "count": 89,
    "topics": [
+    {
+     "topic": "General Pharmacology",
+     "count": 14
+    },
     {
      "topic": "Receptor Pharmacology",
      "count": 12
+    },
+    {
+     "topic": "Cardiovascular Drugs",
+     "count": 12
+    },
+    {
+     "topic": "Autonomic Pharmacology",
+     "count": 11
     },
     {
      "topic": "Adverse Drug Effects",
      "count": 9
     },
     {
-     "topic": "General Pharmacology",
-     "count": 6
+     "topic": "Antimicrobials",
+     "count": 9
     },
     {
-     "topic": "Autonomic Pharmacology",
-     "count": 5
+     "topic": "CNS Drugs",
+     "count": 7
     },
     {
-     "topic": "Cardiovascular Drugs",
-     "count": 5
+     "topic": "Endocrine Drugs",
+     "count": 7
     },
     {
      "topic": "Analgesics",
      "count": 4
     },
     {
-     "topic": "Antimicrobials",
+     "topic": "Respiratory Drugs",
      "count": 4
-    },
-    {
-     "topic": "Endocrine Drugs",
-     "count": 4
-    },
-    {
-     "topic": "CNS Drugs",
-     "count": 3
     }
    ]
   },
@@ -579,10 +676,19 @@
    "subject": "Physiology",
    "files": [
     "physiology.json",
-    "physiology2.json"
+    "physiology2.json",
+    "physiology3.json"
    ],
-   "count": 80,
+   "count": 129,
    "topics": [
+    {
+     "topic": "General Physiology",
+     "count": 13
+    },
+    {
+     "topic": "Nervous System",
+     "count": 13
+    },
     {
      "topic": "Cardiovascular Physiology",
      "count": 9
@@ -608,12 +714,20 @@
      "count": 7
     },
     {
-     "topic": "General Physiology",
+     "topic": "Cardiovascular",
      "count": 7
     },
     {
-     "topic": "Nervous System",
-     "count": 7
+     "topic": "Nerve & Muscle",
+     "count": 6
+    },
+    {
+     "topic": "Blood & Immunity",
+     "count": 6
+    },
+    {
+     "topic": "Respiratory",
+     "count": 6
     },
     {
      "topic": "Endocrine Physiology",
@@ -625,6 +739,18 @@
     },
     {
      "topic": "Gastrointestinal Physiology",
+     "count": 4
+    },
+    {
+     "topic": "Renal",
+     "count": 4
+    },
+    {
+     "topic": "Gastrointestinal",
+     "count": 4
+    },
+    {
+     "topic": "Endocrine",
      "count": 4
     },
     {
@@ -950,12 +1076,25 @@
   {
    "subject": "Psychiatry",
    "files": [
-    "psychiatry.json"
+    "psychiatry.json",
+    "psychiatry2.json"
    ],
-   "count": 22,
+   "count": 61,
    "topics": [
     {
      "topic": "Anxiety Disorders",
+     "count": 11
+    },
+    {
+     "topic": "Psychopathology",
+     "count": 8
+    },
+    {
+     "topic": "Mood Disorders",
+     "count": 8
+    },
+    {
+     "topic": "Psychoses",
      "count": 6
     },
     {
@@ -967,21 +1106,38 @@
      "count": 5
     },
     {
+     "topic": "Child Psychiatry",
+     "count": 4
+    },
+    {
      "topic": "Phobic Disorders",
      "count": 3
     },
     {
      "topic": "Eating Disorders",
      "count": 3
+    },
+    {
+     "topic": "Substance Abuse",
+     "count": 3
+    },
+    {
+     "topic": "Organic Psychiatry",
+     "count": 3
+    },
+    {
+     "topic": "Personality",
+     "count": 2
     }
    ]
   },
   {
    "subject": "Psychology",
    "files": [
-    "psychology.json"
+    "psychology.json",
+    "psychology2.json"
    ],
-   "count": 21,
+   "count": 64,
    "topics": [
     {
      "topic": "Biology of Behavior",
@@ -990,6 +1146,54 @@
     {
      "topic": "Sensory Processes and Perception",
      "count": 7
+    },
+    {
+     "topic": "Foundations",
+     "count": 6
+    },
+    {
+     "topic": "Memory",
+     "count": 6
+    },
+    {
+     "topic": "Learning",
+     "count": 5
+    },
+    {
+     "topic": "Development",
+     "count": 5
+    },
+    {
+     "topic": "Stress & Health",
+     "count": 4
+    },
+    {
+     "topic": "Motivation & Emotion",
+     "count": 3
+    },
+    {
+     "topic": "Intelligence",
+     "count": 3
+    },
+    {
+     "topic": "Personality",
+     "count": 3
+    },
+    {
+     "topic": "Social Psychology",
+     "count": 3
+    },
+    {
+     "topic": "Research",
+     "count": 2
+    },
+    {
+     "topic": "Sensation & Perception",
+     "count": 2
+    },
+    {
+     "topic": "Sleep & Consciousness",
+     "count": 1
     }
    ]
   }

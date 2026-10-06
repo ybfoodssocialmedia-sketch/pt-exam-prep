@@ -1,0 +1,887 @@
+{
+  "subject": "Physiology",
+  "questions": [
+    {
+      "id": "physio3-1",
+      "topic": "General Physiology",
+      "subtopic": "Body Fluid Compartments",
+      "difficulty": "Easy",
+      "question": "The largest fluid compartment of the body is the:",
+      "options": {
+        "A": "Plasma",
+        "B": "Interstitial fluid",
+        "C": "Extracellular fluid",
+        "D": "Intracellular fluid (about two-thirds of total body water)"
+      },
+      "correctAnswer": "D",
+      "explanation": "Total body water is about 60% of body weight in a young man.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "General Physiology",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-2",
+      "topic": "General Physiology",
+      "subtopic": "Diffusion",
+      "difficulty": "Easy",
+      "question": "Movement of a substance from a region of high concentration to low concentration without energy is:",
+      "options": {
+        "A": "Passive diffusion",
+        "B": "Pinocytosis",
+        "C": "Active transport",
+        "D": "Endocytosis"
+      },
+      "correctAnswer": "A",
+      "explanation": "Facilitated diffusion uses carrier proteins but no ATP.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "General Physiology",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-3",
+      "topic": "General Physiology",
+      "subtopic": "Osmosis",
+      "difficulty": "Easy",
+      "question": "Osmosis is the movement of:",
+      "options": {
+        "A": "Ions against a gradient",
+        "B": "Water across a semipermeable membrane towards the higher solute concentration",
+        "C": "Proteins into cells",
+        "D": "Solute away from water"
+      },
+      "correctAnswer": "B",
+      "explanation": "Osmotic pressure depends on the number of particles.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "General Physiology",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-4",
+      "topic": "General Physiology",
+      "subtopic": "Tonicity",
+      "difficulty": "Medium",
+      "question": "A red blood cell placed in a hypotonic solution will:",
+      "options": {
+        "A": "Divide",
+        "B": "Shrink",
+        "C": "Swell and may burst (haemolysis)",
+        "D": "Stay unchanged"
+      },
+      "correctAnswer": "C",
+      "explanation": "In hypertonic solution it crenates.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "General Physiology",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-5",
+      "topic": "General Physiology",
+      "subtopic": "Active Transport",
+      "difficulty": "Medium",
+      "question": "Primary active transport is exemplified by the:",
+      "options": {
+        "A": "Facilitated glucose entry",
+        "B": "Simple diffusion",
+        "C": "Na⁺–K⁺ ATPase pump",
+        "D": "Osmosis"
+      },
+      "correctAnswer": "C",
+      "explanation": "Secondary active transport uses the sodium gradient (e.g. SGLT).",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "General Physiology",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-6",
+      "topic": "General Physiology",
+      "subtopic": "Homeostasis",
+      "difficulty": "Easy",
+      "question": "The maintenance of a relatively constant internal environment is called:",
+      "options": {
+        "A": "Metabolism",
+        "B": "Adaptation",
+        "C": "Homeostasis",
+        "D": "Osmoregulation only"
+      },
+      "correctAnswer": "C",
+      "explanation": "Described by Claude Bernard and Walter Cannon.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "General Physiology",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-7",
+      "topic": "Nerve & Muscle",
+      "subtopic": "Synaptic Transmission",
+      "difficulty": "Medium",
+      "question": "The release of neurotransmitter at a synapse depends on the entry of:",
+      "options": {
+        "A": "Calcium ions into the presynaptic terminal",
+        "B": "Potassium ions",
+        "C": "Chloride ions",
+        "D": "Sodium ions"
+      },
+      "correctAnswer": "A",
+      "explanation": "Calcium triggers vesicle fusion.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Nerve & Muscle",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-8",
+      "topic": "Nerve & Muscle",
+      "subtopic": "EPSP vs IPSP",
+      "difficulty": "Hard",
+      "question": "An inhibitory postsynaptic potential is produced by:",
+      "options": {
+        "A": "Increased chloride or potassium conductance causing hyperpolarisation",
+        "B": "Decreased chloride",
+        "C": "Increased sodium conductance",
+        "D": "Calcium entry"
+      },
+      "correctAnswer": "A",
+      "explanation": "GABA and glycine are inhibitory transmitters.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Nerve & Muscle",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-9",
+      "topic": "Nerve & Muscle",
+      "subtopic": "Smooth Muscle",
+      "difficulty": "Medium",
+      "question": "Smooth muscle contraction is initiated by calcium binding to:",
+      "options": {
+        "A": "Calmodulin, activating myosin light-chain kinase",
+        "B": "Tropomyosin",
+        "C": "Actin directly",
+        "D": "Troponin C"
+      },
+      "correctAnswer": "A",
+      "explanation": "No troponin in smooth muscle.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Nerve & Muscle",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-10",
+      "topic": "Nerve & Muscle",
+      "subtopic": "Cardiac Muscle Property",
+      "difficulty": "Medium",
+      "question": "Cardiac muscle cannot be tetanised because of its:",
+      "options": {
+        "A": "Short refractory period",
+        "B": "Absence of sarcomeres",
+        "C": "Lack of calcium",
+        "D": "Long absolute refractory period"
+      },
+      "correctAnswer": "D",
+      "explanation": "Ensures relaxation and filling between beats.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Nerve & Muscle",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-11",
+      "topic": "Nerve & Muscle",
+      "subtopic": "Muscle Spindle",
+      "difficulty": "Medium",
+      "question": "Gamma motor neurones innervate the:",
+      "options": {
+        "A": "Intrafusal muscle fibres of the muscle spindle",
+        "B": "Smooth muscle",
+        "C": "Golgi tendon organs",
+        "D": "Extrafusal fibres"
+      },
+      "correctAnswer": "A",
+      "explanation": "They adjust spindle sensitivity (gamma loop).",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Nerve & Muscle",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-12",
+      "topic": "Nerve & Muscle",
+      "subtopic": "Renshaw Cell",
+      "difficulty": "Hard",
+      "question": "Renshaw cells in the spinal cord mediate:",
+      "options": {
+        "A": "Pain gating",
+        "B": "Reciprocal innervation",
+        "C": "Recurrent inhibition of motor neurones",
+        "D": "Stretch reflex"
+      },
+      "correctAnswer": "C",
+      "explanation": "They use glycine.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Nerve & Muscle",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-13",
+      "topic": "Blood & Immunity",
+      "subtopic": "Anaemia Types",
+      "difficulty": "Medium",
+      "question": "A high MCV with low haemoglobin indicates:",
+      "options": {
+        "A": "Aplastic anaemia",
+        "B": "Iron deficiency anaemia",
+        "C": "Macrocytic (megaloblastic) anaemia",
+        "D": "Thalassaemia"
+      },
+      "correctAnswer": "C",
+      "explanation": "Microcytic anaemia has a low MCV.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Blood & Immunity",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-14",
+      "topic": "Blood & Immunity",
+      "subtopic": "Haematocrit",
+      "difficulty": "Easy",
+      "question": "The normal haematocrit in an adult male is about:",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "60–70%",
+        "D": "40–50%"
+      },
+      "correctAnswer": "D",
+      "explanation": "Female 36–46%.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Blood & Immunity",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-15",
+      "topic": "Blood & Immunity",
+      "subtopic": "ESR",
+      "difficulty": "Medium",
+      "question": "The erythrocyte sedimentation rate is increased in:",
+      "options": {
+        "A": "Inflammation and anaemia",
+        "B": "Polycythaemia",
+        "C": "Sickle cell disease",
+        "D": "Dehydration"
+      },
+      "correctAnswer": "A",
+      "explanation": "ESR is a non-specific marker of inflammation.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Blood & Immunity",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-16",
+      "topic": "Blood & Immunity",
+      "subtopic": "Coagulation Extrinsic",
+      "difficulty": "Hard",
+      "question": "The extrinsic pathway of coagulation is initiated by:",
+      "options": {
+        "A": "Platelet factor 3",
+        "B": "Factor XII",
+        "C": "Collagen contact",
+        "D": "Tissue factor (factor III) released from damaged tissue"
+      },
+      "correctAnswer": "D",
+      "explanation": "Measured by prothrombin time; intrinsic by APTT.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Blood & Immunity",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-17",
+      "topic": "Blood & Immunity",
+      "subtopic": "Heparin",
+      "difficulty": "Medium",
+      "question": "Heparin acts as an anticoagulant by:",
+      "options": {
+        "A": "Binding calcium",
+        "B": "Inhibiting vitamin K",
+        "C": "Lysing clots",
+        "D": "Activating antithrombin III"
+      },
+      "correctAnswer": "D",
+      "explanation": "Warfarin acts by antagonising vitamin K.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Blood & Immunity",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-18",
+      "topic": "Blood & Immunity",
+      "subtopic": "Lymphocytes",
+      "difficulty": "Medium",
+      "question": "T lymphocytes mature in the:",
+      "options": {
+        "A": "Bone marrow",
+        "B": "Thymus",
+        "C": "Spleen",
+        "D": "Liver"
+      },
+      "correctAnswer": "B",
+      "explanation": "B cells mature in the bone marrow.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Blood & Immunity",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-19",
+      "topic": "Cardiovascular",
+      "subtopic": "Heart Rate Control",
+      "difficulty": "Medium",
+      "question": "Vagal stimulation of the SA node causes:",
+      "options": {
+        "A": "Vasoconstriction",
+        "B": "Decreased heart rate via acetylcholine",
+        "C": "Increased contractility",
+        "D": "Increased heart rate"
+      },
+      "correctAnswer": "B",
+      "explanation": "Sympathetic stimulation increases heart rate via noradrenaline.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Cardiovascular",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-20",
+      "topic": "Cardiovascular",
+      "subtopic": "Cardiac Cycle",
+      "difficulty": "Medium",
+      "question": "Isovolumetric contraction occurs when:",
+      "options": {
+        "A": "The atrium contracts",
+        "B": "The ventricle fills",
+        "C": "The aortic valve is open",
+        "D": "All valves are closed and ventricular pressure rises"
+      },
+      "correctAnswer": "D",
+      "explanation": "It follows closure of the AV valves.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Cardiovascular",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-21",
+      "topic": "Cardiovascular",
+      "subtopic": "Ejection Fraction",
+      "difficulty": "Medium",
+      "question": "The normal ejection fraction of the left ventricle is about:",
+      "options": {
+        "A": "90%",
+        "B": "30%",
+        "C": "55–70%",
+        "D": "20%"
+      },
+      "correctAnswer": "C",
+      "explanation": "EF = stroke volume / end-diastolic volume.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Cardiovascular",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-22",
+      "topic": "Cardiovascular",
+      "subtopic": "Venous Return",
+      "difficulty": "Medium",
+      "question": "Venous return is aided by:",
+      "options": {
+        "A": "The skeletal muscle pump, respiratory pump and venous valves",
+        "B": "Gravity when standing",
+        "C": "Venous constriction only",
+        "D": "Arterial pressure only"
+      },
+      "correctAnswer": "A",
+      "explanation": "Exercise increases venous return.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Cardiovascular",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-23",
+      "topic": "Cardiovascular",
+      "subtopic": "Vasomotor Centre",
+      "difficulty": "Medium",
+      "question": "The vasomotor centre is located in the:",
+      "options": {
+        "A": "Cerebellum",
+        "B": "Medulla oblongata",
+        "C": "Spinal cord",
+        "D": "Hypothalamus"
+      },
+      "correctAnswer": "B",
+      "explanation": "It maintains vasomotor tone.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Cardiovascular",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-24",
+      "topic": "Cardiovascular",
+      "subtopic": "Capillary Exchange",
+      "difficulty": "Hard",
+      "question": "Fluid leaves the capillary at the arterial end because:",
+      "options": {
+        "A": "Oncotic pressure is higher",
+        "B": "Pores are closed",
+        "C": "Hydrostatic pressure exceeds plasma oncotic pressure",
+        "D": "Lymph flow is blocked"
+      },
+      "correctAnswer": "C",
+      "explanation": "At the venous end oncotic pressure predominates (Starling forces).",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Cardiovascular",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-25",
+      "topic": "Cardiovascular",
+      "subtopic": "Pulse Pressure",
+      "difficulty": "Easy",
+      "question": "Pulse pressure is:",
+      "options": {
+        "A": "Mean arterial pressure",
+        "B": "The difference between systolic and diastolic pressure",
+        "C": "The sum of systolic and diastolic",
+        "D": "Diastolic pressure"
+      },
+      "correctAnswer": "B",
+      "explanation": "Normally about 40 mmHg.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Cardiovascular",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-26",
+      "topic": "Respiratory",
+      "subtopic": "Compliance",
+      "difficulty": "Hard",
+      "question": "Lung compliance is:",
+      "options": {
+        "A": "The change in lung volume per unit change in pressure",
+        "B": "Respiratory rate",
+        "C": "Residual volume",
+        "D": "Airway resistance"
+      },
+      "correctAnswer": "A",
+      "explanation": "Reduced in fibrosis and increased in emphysema.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Respiratory",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-27",
+      "topic": "Respiratory",
+      "subtopic": "Haldane Effect",
+      "difficulty": "Hard",
+      "question": "The Haldane effect describes:",
+      "options": {
+        "A": "Right shift of the dissociation curve",
+        "B": "Hypoxic vasoconstriction",
+        "C": "Increased CO₂ carrying capacity of deoxygenated blood",
+        "D": "Chloride shift"
+      },
+      "correctAnswer": "C",
+      "explanation": "Deoxyhaemoglobin binds CO₂ and H⁺ better.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Respiratory",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-28",
+      "topic": "Respiratory",
+      "subtopic": "Carbon Dioxide Transport",
+      "difficulty": "Medium",
+      "question": "Most carbon dioxide is transported in the blood as:",
+      "options": {
+        "A": "Carbaminohaemoglobin",
+        "B": "Dissolved gas",
+        "C": "Carbonic acid",
+        "D": "Bicarbonate"
+      },
+      "correctAnswer": "D",
+      "explanation": "About 70% as bicarbonate.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Respiratory",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-29",
+      "topic": "Respiratory",
+      "subtopic": "Hypoxic Pulmonary Vasoconstriction",
+      "difficulty": "Hard",
+      "question": "In the lung, a low alveolar PO₂ causes:",
+      "options": {
+        "A": "Local pulmonary vasoconstriction, diverting blood to better ventilated areas",
+        "B": "Vasodilatation",
+        "C": "Bronchodilatation",
+        "D": "No change"
+      },
+      "correctAnswer": "A",
+      "explanation": "Sustained global hypoxia causes pulmonary hypertension.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Respiratory",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-30",
+      "topic": "Respiratory",
+      "subtopic": "Ventilation Perfusion",
+      "difficulty": "Hard",
+      "question": "At the apex of the lung in an upright person the ventilation–perfusion ratio is:",
+      "options": {
+        "A": "Higher than at the base",
+        "B": "Zero",
+        "C": "Lower than at the base",
+        "D": "Equal"
+      },
+      "correctAnswer": "A",
+      "explanation": "Perfusion increases more steeply down the lung than ventilation.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Respiratory",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-31",
+      "topic": "Respiratory",
+      "subtopic": "Hering-Breuer",
+      "difficulty": "Hard",
+      "question": "The Hering–Breuer inflation reflex:",
+      "options": {
+        "A": "Inhibits inspiration when lung stretch receptors are stimulated",
+        "B": "Causes cough",
+        "C": "Increases heart rate",
+        "D": "Triggers inspiration"
+      },
+      "correctAnswer": "A",
+      "explanation": "Vagal afferents.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Respiratory",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-32",
+      "topic": "Renal",
+      "subtopic": "Countercurrent",
+      "difficulty": "Hard",
+      "question": "The countercurrent multiplier mechanism of the loop of Henle:",
+      "options": {
+        "A": "Creates a hypertonic medullary interstitium for concentrating urine",
+        "B": "Secretes potassium",
+        "C": "Reabsorbs glucose",
+        "D": "Dilutes the urine only"
+      },
+      "correctAnswer": "A",
+      "explanation": "Vasa recta act as the exchanger.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Renal",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-33",
+      "topic": "Renal",
+      "subtopic": "Aldosterone",
+      "difficulty": "Medium",
+      "question": "Aldosterone acts on the distal tubule and collecting duct to:",
+      "options": {
+        "A": "Increase sodium reabsorption and potassium excretion",
+        "B": "Increase potassium reabsorption",
+        "C": "Increase water excretion",
+        "D": "Decrease sodium reabsorption"
+      },
+      "correctAnswer": "A",
+      "explanation": "Secreted by the adrenal zona glomerulosa.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Renal",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-34",
+      "topic": "Renal",
+      "subtopic": "Micturition",
+      "difficulty": "Medium",
+      "question": "The micturition reflex centre is located in the:",
+      "options": {
+        "A": "Thoracic cord",
+        "B": "Sacral spinal cord (S2–S4)",
+        "C": "Cerebellum",
+        "D": "Cervical cord"
+      },
+      "correctAnswer": "B",
+      "explanation": "Pelvic parasympathetic nerves cause detrusor contraction.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Renal",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-35",
+      "topic": "Renal",
+      "subtopic": "Acid Base",
+      "difficulty": "Medium",
+      "question": "The most important buffer system in the extracellular fluid is the:",
+      "options": {
+        "A": "Haemoglobin buffer",
+        "B": "Phosphate buffer",
+        "C": "Protein buffer",
+        "D": "Bicarbonate buffer"
+      },
+      "correctAnswer": "D",
+      "explanation": "Henderson–Hasselbalch equation relates pH to bicarbonate and CO₂.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Renal",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-36",
+      "topic": "Gastrointestinal",
+      "subtopic": "Gastrin",
+      "difficulty": "Medium",
+      "question": "Gastrin stimulates:",
+      "options": {
+        "A": "Pancreatic bicarbonate",
+        "B": "Gallbladder contraction",
+        "C": "Gastric acid secretion",
+        "D": "Intestinal motility only"
+      },
+      "correctAnswer": "C",
+      "explanation": "Secreted by G cells of the antrum.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Gastrointestinal",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-37",
+      "topic": "Gastrointestinal",
+      "subtopic": "CCK",
+      "difficulty": "Medium",
+      "question": "Cholecystokinin causes:",
+      "options": {
+        "A": "Gallbladder contraction and release of pancreatic enzymes",
+        "B": "Bile secretion inhibition",
+        "C": "Gastric emptying",
+        "D": "Acid secretion"
+      },
+      "correctAnswer": "A",
+      "explanation": "Released by I cells in response to fat.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Gastrointestinal",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-38",
+      "topic": "Gastrointestinal",
+      "subtopic": "Secretin",
+      "difficulty": "Medium",
+      "question": "Secretin stimulates the pancreas to secrete:",
+      "options": {
+        "A": "Insulin",
+        "B": "Glucagon",
+        "C": "Enzymes",
+        "D": "Bicarbonate-rich fluid"
+      },
+      "correctAnswer": "D",
+      "explanation": "Released from duodenal S cells in response to acid.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Gastrointestinal",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-39",
+      "topic": "Gastrointestinal",
+      "subtopic": "Defecation Reflex",
+      "difficulty": "Medium",
+      "question": "The defecation reflex is mediated through:",
+      "options": {
+        "A": "Vagus",
+        "B": "Sacral parasympathetic nerves (S2–S4)",
+        "C": "Cervical sympathetic",
+        "D": "Thoracic sympathetic"
+      },
+      "correctAnswer": "B",
+      "explanation": "Voluntary control through the external anal sphincter (pudendal nerve).",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Gastrointestinal",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-40",
+      "topic": "Endocrine",
+      "subtopic": "Adrenal Medulla",
+      "difficulty": "Medium",
+      "question": "The adrenal medulla secretes mainly:",
+      "options": {
+        "A": "Aldosterone",
+        "B": "Cortisol",
+        "C": "Adrenaline (epinephrine)",
+        "D": "Testosterone"
+      },
+      "correctAnswer": "C",
+      "explanation": "Phaeochromocytoma is a tumour of the medulla.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Endocrine",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-41",
+      "topic": "Endocrine",
+      "subtopic": "Oxytocin",
+      "difficulty": "Easy",
+      "question": "Oxytocin is released from the:",
+      "options": {
+        "A": "Anterior pituitary",
+        "B": "Thyroid",
+        "C": "Posterior pituitary",
+        "D": "Adrenal gland"
+      },
+      "correctAnswer": "C",
+      "explanation": "Causes uterine contraction and milk ejection.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Endocrine",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-42",
+      "topic": "Endocrine",
+      "subtopic": "Prolactin",
+      "difficulty": "Medium",
+      "question": "Prolactin secretion is under the inhibitory control of:",
+      "options": {
+        "A": "GABA",
+        "B": "Dopamine from the hypothalamus",
+        "C": "Serotonin",
+        "D": "Thyroid hormone"
+      },
+      "correctAnswer": "B",
+      "explanation": "Dopamine antagonists raise prolactin.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Endocrine",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-43",
+      "topic": "Endocrine",
+      "subtopic": "Glucagon",
+      "difficulty": "Medium",
+      "question": "Glucagon raises blood glucose by:",
+      "options": {
+        "A": "Inhibiting liver glycogenolysis",
+        "B": "Increasing glucose uptake in muscle",
+        "C": "Stimulating insulin release",
+        "D": "Stimulating glycogenolysis and gluconeogenesis in the liver"
+      },
+      "correctAnswer": "D",
+      "explanation": "Secreted by alpha cells of the pancreas.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Endocrine",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-44",
+      "topic": "Nervous System",
+      "subtopic": "Autonomic Division",
+      "difficulty": "Easy",
+      "question": "The sympathetic nervous system causes:",
+      "options": {
+        "A": "Bradycardia",
+        "B": "Increased heart rate, bronchodilatation and pupil dilatation",
+        "C": "Bronchoconstriction",
+        "D": "Increased gut motility"
+      },
+      "correctAnswer": "B",
+      "explanation": "Parasympathetic: rest and digest.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Nervous System",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-45",
+      "topic": "Nervous System",
+      "subtopic": "Basal Ganglia",
+      "difficulty": "Medium",
+      "question": "The basal ganglia are mainly concerned with:",
+      "options": {
+        "A": "Vision",
+        "B": "Initiation and smooth control of movement",
+        "C": "Hearing",
+        "D": "Smell"
+      },
+      "correctAnswer": "B",
+      "explanation": "Lesions cause tremor, rigidity or chorea.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Nervous System",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-46",
+      "topic": "Nervous System",
+      "subtopic": "Cerebellum Function",
+      "difficulty": "Medium",
+      "question": "The cerebellum is primarily responsible for:",
+      "options": {
+        "A": "Speech",
+        "B": "Coordination, balance and motor learning",
+        "C": "Sensation",
+        "D": "Initiating voluntary movement"
+      },
+      "correctAnswer": "B",
+      "explanation": "Lesions cause ataxia on the same side.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Nervous System",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-47",
+      "topic": "Nervous System",
+      "subtopic": "Pyramidal vs Extrapyramidal",
+      "difficulty": "Hard",
+      "question": "Upper motor neurone lesions produce spasticity mainly because of:",
+      "options": {
+        "A": "Loss of sensory input",
+        "B": "Loss of descending inhibition of the stretch reflex",
+        "C": "Muscle damage",
+        "D": "Peripheral nerve damage"
+      },
+      "correctAnswer": "B",
+      "explanation": "Hyperactive gamma loop.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Nervous System",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-48",
+      "topic": "Nervous System",
+      "subtopic": "Hearing Pathway",
+      "difficulty": "Medium",
+      "question": "The organ of Corti is located in the:",
+      "options": {
+        "A": "Middle ear",
+        "B": "Semicircular canals",
+        "C": "Vestibule",
+        "D": "Cochlea"
+      },
+      "correctAnswer": "D",
+      "explanation": "Hair cells transduce sound.",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Nervous System",
+      "sourcePage": null
+    },
+    {
+      "id": "physio3-49",
+      "topic": "Nervous System",
+      "subtopic": "Taste",
+      "difficulty": "Easy",
+      "question": "The sensation of taste is carried by the facial, glossopharyngeal and:",
+      "options": {
+        "A": "Vagus nerves",
+        "B": "Hypoglossal nerve",
+        "C": "Optic nerve",
+        "D": "Trigeminal nerve only"
+      },
+      "correctAnswer": "A",
+      "explanation": "Anterior two-thirds of the tongue: facial (chorda tympani).",
+      "sourceBook": "A.K. Jain, Textbook of Physiology; Guyton & Hall, Textbook of Medical Physiology (chapter-level reference)",
+      "sourceChapter": "Nervous System",
+      "sourcePage": null
+    }
+  ]
+}

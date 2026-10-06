@@ -1,0 +1,671 @@
+{
+  "subject": "Pharmacology",
+  "questions": [
+    {
+      "id": "pharm3-1",
+      "topic": "General Pharmacology",
+      "subtopic": "Pharmacokinetics",
+      "difficulty": "Easy",
+      "question": "Pharmacokinetics is the study of:",
+      "options": {
+        "A": "Drug discovery",
+        "B": "What the drug does to the body",
+        "C": "What the body does to the drug (absorption, distribution, metabolism, excretion)",
+        "D": "Drug dosage forms"
+      },
+      "correctAnswer": "C",
+      "explanation": "Pharmacodynamics studies the effects of the drug.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "General Pharmacology",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-2",
+      "topic": "General Pharmacology",
+      "subtopic": "Volume of Distribution",
+      "difficulty": "Hard",
+      "question": "A large volume of distribution indicates that the drug:",
+      "options": {
+        "A": "Remains in plasma",
+        "B": "Is extensively distributed to tissues outside the plasma",
+        "C": "Is poorly absorbed",
+        "D": "Is rapidly excreted"
+      },
+      "correctAnswer": "B",
+      "explanation": "Lipid-soluble drugs have large Vd.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "General Pharmacology",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-3",
+      "topic": "General Pharmacology",
+      "subtopic": "Protein Binding",
+      "difficulty": "Medium",
+      "question": "Only the unbound (free) fraction of a drug is:",
+      "options": {
+        "A": "Pharmacologically active and available for metabolism and excretion",
+        "B": "Stored",
+        "C": "Excreted only",
+        "D": "Inactive"
+      },
+      "correctAnswer": "A",
+      "explanation": "Displacement from albumin can cause toxicity.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "General Pharmacology",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-4",
+      "topic": "General Pharmacology",
+      "subtopic": "Enzyme Induction",
+      "difficulty": "Medium",
+      "question": "Which drug is a potent hepatic enzyme inducer?",
+      "options": {
+        "A": "Erythromycin",
+        "B": "Ketoconazole",
+        "C": "Rifampicin",
+        "D": "Cimetidine"
+      },
+      "correctAnswer": "C",
+      "explanation": "Others: phenytoin, carbamazepine, alcohol (chronic); inducers reduce the effect of warfarin.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "General Pharmacology",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-5",
+      "topic": "General Pharmacology",
+      "subtopic": "Enzyme Inhibition",
+      "difficulty": "Hard",
+      "question": "Which drug inhibits hepatic enzymes, increasing the effect of warfarin?",
+      "options": {
+        "A": "Cimetidine",
+        "B": "Phenobarbitone",
+        "C": "Rifampicin",
+        "D": "Carbamazepine"
+      },
+      "correctAnswer": "A",
+      "explanation": "Other inhibitors: erythromycin, ketoconazole, grapefruit juice.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "General Pharmacology",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-6",
+      "topic": "General Pharmacology",
+      "subtopic": "Drug Interaction",
+      "difficulty": "Medium",
+      "question": "A drug interaction in which the combined effect is greater than the sum of the individual effects is called:",
+      "options": {
+        "A": "Antagonism",
+        "B": "Synergism (potentiation)",
+        "C": "Additive effect",
+        "D": "Tolerance"
+      },
+      "correctAnswer": "B",
+      "explanation": "Example: sulfamethoxazole plus trimethoprim.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "General Pharmacology",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-7",
+      "topic": "General Pharmacology",
+      "subtopic": "Tolerance",
+      "difficulty": "Medium",
+      "question": "Tolerance to a drug is:",
+      "options": {
+        "A": "An increased response",
+        "B": "A decreased response after repeated administration",
+        "C": "A genetic reaction",
+        "D": "An allergic reaction"
+      },
+      "correctAnswer": "B",
+      "explanation": "Tachyphylaxis is rapid tolerance.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "General Pharmacology",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-8",
+      "topic": "General Pharmacology",
+      "subtopic": "Orphan Drug",
+      "difficulty": "Hard",
+      "question": "An orphan drug is one that:",
+      "options": {
+        "A": "Is a herbal medicine",
+        "B": "Has no side effects",
+        "C": "Is not available",
+        "D": "Treats a rare disease and has limited commercial potential"
+      },
+      "correctAnswer": "D",
+      "explanation": "Given incentives for development.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "General Pharmacology",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-9",
+      "topic": "Autonomic Pharmacology",
+      "subtopic": "Pilocarpine",
+      "difficulty": "Medium",
+      "question": "Pilocarpine is used in the treatment of:",
+      "options": {
+        "A": "Hypertension",
+        "B": "Glaucoma",
+        "C": "Asthma",
+        "D": "Parkinson's disease"
+      },
+      "correctAnswer": "B",
+      "explanation": "A muscarinic agonist that causes miosis.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "Autonomic Pharmacology",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-10",
+      "topic": "Autonomic Pharmacology",
+      "subtopic": "Noradrenaline",
+      "difficulty": "Medium",
+      "question": "Noradrenaline infusion mainly causes:",
+      "options": {
+        "A": "Hypotension",
+        "B": "Vasodilatation",
+        "C": "Vasoconstriction with a rise in blood pressure",
+        "D": "Bronchodilatation"
+      },
+      "correctAnswer": "C",
+      "explanation": "Predominantly alpha-1 effects.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "Autonomic Pharmacology",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-11",
+      "topic": "Autonomic Pharmacology",
+      "subtopic": "Selective Beta Blocker",
+      "difficulty": "Medium",
+      "question": "Which beta blocker is cardioselective (beta-1)?",
+      "options": {
+        "A": "Atenolol",
+        "B": "Timolol",
+        "C": "Labetalol",
+        "D": "Propranolol"
+      },
+      "correctAnswer": "A",
+      "explanation": "Metoprolol is another beta-1 selective drug.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "Autonomic Pharmacology",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-12",
+      "topic": "Autonomic Pharmacology",
+      "subtopic": "Alpha Blocker",
+      "difficulty": "Medium",
+      "question": "Prazosin is used mainly in:",
+      "options": {
+        "A": "Hypertension and benign prostatic hyperplasia",
+        "B": "Angina",
+        "C": "Asthma",
+        "D": "Glaucoma"
+      },
+      "correctAnswer": "A",
+      "explanation": "First-dose hypotension can occur.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "Autonomic Pharmacology",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-13",
+      "topic": "Autonomic Pharmacology",
+      "subtopic": "Muscle Relaxant",
+      "difficulty": "Hard",
+      "question": "Succinylcholine is a:",
+      "options": {
+        "A": "Muscarinic antagonist",
+        "B": "Anticholinesterase",
+        "C": "Depolarising neuromuscular blocker",
+        "D": "Non-depolarising blocker"
+      },
+      "correctAnswer": "C",
+      "explanation": "Short-acting; can cause hyperkalaemia and malignant hyperthermia.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "Autonomic Pharmacology",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-14",
+      "topic": "Autonomic Pharmacology",
+      "subtopic": "Anticholinesterase",
+      "difficulty": "Hard",
+      "question": "Which of the following is a reversible anticholinesterase used to reverse neuromuscular blockade?",
+      "options": {
+        "A": "Neostigmine",
+        "B": "Atropine",
+        "C": "Curare",
+        "D": "Pralidoxime"
+      },
+      "correctAnswer": "A",
+      "explanation": "Organophosphates are irreversible inhibitors.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "Autonomic Pharmacology",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-15",
+      "topic": "Cardiovascular Drugs",
+      "subtopic": "Calcium Channel Blocker",
+      "difficulty": "Medium",
+      "question": "Verapamil acts by:",
+      "options": {
+        "A": "Inhibiting ACE",
+        "B": "Blocking L-type calcium channels, reducing heart rate and contractility",
+        "C": "Blocking angiotensin receptors",
+        "D": "Blocking beta receptors"
+      },
+      "correctAnswer": "B",
+      "explanation": "Amlodipine causes ankle oedema.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "Cardiovascular Drugs",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-16",
+      "topic": "Cardiovascular Drugs",
+      "subtopic": "Thiazide",
+      "difficulty": "Medium",
+      "question": "Hydrochlorothiazide causes:",
+      "options": {
+        "A": "Hypoglycaemia",
+        "B": "Hypouricaemia",
+        "C": "Hyperkalaemia",
+        "D": "Hypokalaemia, hyperuricaemia and hyperglycaemia"
+      },
+      "correctAnswer": "D",
+      "explanation": "Spironolactone is potassium-sparing.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "Cardiovascular Drugs",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-17",
+      "topic": "Cardiovascular Drugs",
+      "subtopic": "Spironolactone",
+      "difficulty": "Medium",
+      "question": "Spironolactone acts by:",
+      "options": {
+        "A": "Inhibiting carbonic anhydrase",
+        "B": "Antagonising aldosterone receptors (potassium-sparing diuretic)",
+        "C": "Inhibiting the Na-K-2Cl transporter",
+        "D": "Acting on the proximal tubule"
+      },
+      "correctAnswer": "B",
+      "explanation": "Can cause hyperkalaemia and gynaecomastia.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "Cardiovascular Drugs",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-18",
+      "topic": "Cardiovascular Drugs",
+      "subtopic": "Amiodarone",
+      "difficulty": "Hard",
+      "question": "Amiodarone long-term toxicities include:",
+      "options": {
+        "A": "Hyperkalaemia",
+        "B": "Gout",
+        "C": "Pulmonary fibrosis, thyroid dysfunction and corneal deposits",
+        "D": "Hearing loss"
+      },
+      "correctAnswer": "C",
+      "explanation": "A class III antiarrhythmic.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "Cardiovascular Drugs",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-19",
+      "topic": "Cardiovascular Drugs",
+      "subtopic": "Heparin Antidote",
+      "difficulty": "Medium",
+      "question": "The antidote for heparin overdose is:",
+      "options": {
+        "A": "Protamine sulphate",
+        "B": "Naloxone",
+        "C": "Vitamin K",
+        "D": "Atropine"
+      },
+      "correctAnswer": "A",
+      "explanation": "Vitamin K reverses warfarin.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "Cardiovascular Drugs",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-20",
+      "topic": "Cardiovascular Drugs",
+      "subtopic": "Clopidogrel",
+      "difficulty": "Medium",
+      "question": "Clopidogrel inhibits platelet aggregation by blocking:",
+      "options": {
+        "A": "COX-1",
+        "B": "The P2Y12 ADP receptor",
+        "C": "Phosphodiesterase",
+        "D": "Glycoprotein IIb/IIIa only"
+      },
+      "correctAnswer": "B",
+      "explanation": "Used after stent placement.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "Cardiovascular Drugs",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-21",
+      "topic": "Cardiovascular Drugs",
+      "subtopic": "Statin Myopathy",
+      "difficulty": "Medium",
+      "question": "A recognised adverse effect of statins is:",
+      "options": {
+        "A": "Myopathy and rhabdomyolysis",
+        "B": "Gingival hyperplasia",
+        "C": "Ototoxicity",
+        "D": "Cough"
+      },
+      "correctAnswer": "A",
+      "explanation": "Monitor CK if symptomatic.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "Cardiovascular Drugs",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-22",
+      "topic": "Respiratory Drugs",
+      "subtopic": "Ipratropium",
+      "difficulty": "Medium",
+      "question": "Ipratropium bromide in COPD acts as a:",
+      "options": {
+        "A": "Muscarinic antagonist causing bronchodilatation",
+        "B": "Beta-2 agonist",
+        "C": "Steroid",
+        "D": "Mast cell stabiliser"
+      },
+      "correctAnswer": "A",
+      "explanation": "Tiotropium is long-acting.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "Respiratory Drugs",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-23",
+      "topic": "Respiratory Drugs",
+      "subtopic": "Montelukast",
+      "difficulty": "Hard",
+      "question": "Montelukast is a:",
+      "options": {
+        "A": "Leukotriene receptor antagonist",
+        "B": "Beta agonist",
+        "C": "Steroid",
+        "D": "Methylxanthine"
+      },
+      "correctAnswer": "A",
+      "explanation": "Used in asthma and allergic rhinitis.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "Respiratory Drugs",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-24",
+      "topic": "Respiratory Drugs",
+      "subtopic": "Cough Suppressant",
+      "difficulty": "Medium",
+      "question": "Which drug is an opioid cough suppressant?",
+      "options": {
+        "A": "Codeine",
+        "B": "Theophylline",
+        "C": "Salbutamol",
+        "D": "Bromhexine"
+      },
+      "correctAnswer": "A",
+      "explanation": "Bromhexine is a mucolytic.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "Respiratory Drugs",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-25",
+      "topic": "Respiratory Drugs",
+      "subtopic": "Theophylline",
+      "difficulty": "Hard",
+      "question": "Theophylline toxicity causes:",
+      "options": {
+        "A": "Bradycardia",
+        "B": "Drowsiness",
+        "C": "Nausea, tachycardia and seizures",
+        "D": "Hypotension"
+      },
+      "correctAnswer": "C",
+      "explanation": "Narrow therapeutic index.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "Respiratory Drugs",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-26",
+      "topic": "Antimicrobials",
+      "subtopic": "Tetracycline",
+      "difficulty": "Medium",
+      "question": "Tetracyclines should be avoided in children under 8 and pregnant women because they:",
+      "options": {
+        "A": "Cause hearing loss",
+        "B": "Are teratogenic only",
+        "C": "Cause tooth discolouration and affect bone growth",
+        "D": "Cause kidney failure"
+      },
+      "correctAnswer": "C",
+      "explanation": "Doxycycline is used in many infections.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "Antimicrobials",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-27",
+      "topic": "Antimicrobials",
+      "subtopic": "Fluoroquinolone",
+      "difficulty": "Hard",
+      "question": "A serious adverse effect of fluoroquinolones relevant to physiotherapists is:",
+      "options": {
+        "A": "Hearing loss",
+        "B": "Bone marrow suppression",
+        "C": "Tendinopathy and Achilles tendon rupture",
+        "D": "Gingival hyperplasia"
+      },
+      "correctAnswer": "C",
+      "explanation": "Risk increased with steroids and age.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "Antimicrobials",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-28",
+      "topic": "Antimicrobials",
+      "subtopic": "Metronidazole",
+      "difficulty": "Medium",
+      "question": "Metronidazole is effective against:",
+      "options": {
+        "A": "Viruses",
+        "B": "Fungi",
+        "C": "Anaerobic bacteria and protozoa",
+        "D": "Gram-positive cocci only"
+      },
+      "correctAnswer": "C",
+      "explanation": "Disulfiram-like reaction with alcohol.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "Antimicrobials",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-29",
+      "topic": "Antimicrobials",
+      "subtopic": "Chloroquine",
+      "difficulty": "Medium",
+      "question": "Chloroquine is used for:",
+      "options": {
+        "A": "Amoebiasis only",
+        "B": "Typhoid",
+        "C": "Malaria prophylaxis and treatment of sensitive strains",
+        "D": "Tuberculosis"
+      },
+      "correctAnswer": "C",
+      "explanation": "Long-term use can cause retinopathy.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "Antimicrobials",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-30",
+      "topic": "Antimicrobials",
+      "subtopic": "Antiviral",
+      "difficulty": "Hard",
+      "question": "Acyclovir is effective against:",
+      "options": {
+        "A": "HIV",
+        "B": "Influenza",
+        "C": "Hepatitis B",
+        "D": "Herpes simplex and varicella-zoster viruses"
+      },
+      "correctAnswer": "D",
+      "explanation": "Requires phosphorylation by viral thymidine kinase.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "Antimicrobials",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-31",
+      "topic": "CNS Drugs",
+      "subtopic": "General Anaesthetic",
+      "difficulty": "Medium",
+      "question": "Which intravenous anaesthetic is used for induction?",
+      "options": {
+        "A": "Nitrous oxide",
+        "B": "Halothane",
+        "C": "Propofol",
+        "D": "Ether"
+      },
+      "correctAnswer": "C",
+      "explanation": "Ketamine is a dissociative anaesthetic.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "CNS Drugs",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-32",
+      "topic": "CNS Drugs",
+      "subtopic": "Opioid Side Effects",
+      "difficulty": "Easy",
+      "question": "Common side effects of morphine include:",
+      "options": {
+        "A": "Hyperventilation",
+        "B": "Mydriasis",
+        "C": "Respiratory depression, constipation, miosis and nausea",
+        "D": "Diarrhoea"
+      },
+      "correctAnswer": "C",
+      "explanation": "Naloxone antagonises.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "CNS Drugs",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-33",
+      "topic": "CNS Drugs",
+      "subtopic": "Lithium",
+      "difficulty": "Hard",
+      "question": "Lithium is used in the treatment of:",
+      "options": {
+        "A": "Bipolar disorder",
+        "B": "Schizophrenia",
+        "C": "Epilepsy",
+        "D": "Parkinson's disease"
+      },
+      "correctAnswer": "A",
+      "explanation": "Narrow therapeutic index.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "CNS Drugs",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-34",
+      "topic": "CNS Drugs",
+      "subtopic": "Antidepressant",
+      "difficulty": "Medium",
+      "question": "Amitriptyline is a:",
+      "options": {
+        "A": "MAO inhibitor",
+        "B": "Benzodiazepine",
+        "C": "Tricyclic antidepressant, also used for neuropathic pain",
+        "D": "SSRI"
+      },
+      "correctAnswer": "C",
+      "explanation": "Anticholinergic side effects: dry mouth, constipation, urinary retention.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "CNS Drugs",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-35",
+      "topic": "Endocrine Drugs",
+      "subtopic": "Sulfonylureas",
+      "difficulty": "Medium",
+      "question": "Glibenclamide lowers blood glucose by:",
+      "options": {
+        "A": "Increasing glucagon",
+        "B": "Inhibiting glucose absorption",
+        "C": "Reducing hepatic glucose output",
+        "D": "Stimulating insulin release from beta cells"
+      },
+      "correctAnswer": "D",
+      "explanation": "Hypoglycaemia and weight gain are side effects.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "Endocrine Drugs",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-36",
+      "topic": "Endocrine Drugs",
+      "subtopic": "Levothyroxine",
+      "difficulty": "Medium",
+      "question": "Levothyroxine is used for:",
+      "options": {
+        "A": "Hypothyroidism",
+        "B": "Goitre only",
+        "C": "Diabetes",
+        "D": "Hyperthyroidism"
+      },
+      "correctAnswer": "A",
+      "explanation": "Carbimazole is an antithyroid drug.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "Endocrine Drugs",
+      "sourcePage": null
+    },
+    {
+      "id": "pharm3-37",
+      "topic": "Endocrine Drugs",
+      "subtopic": "Bisphosphonate",
+      "difficulty": "Medium",
+      "question": "Alendronate should be taken:",
+      "options": {
+        "A": "On an empty stomach with water, remaining upright for 30 minutes",
+        "B": "After food",
+        "C": "At bedtime lying down",
+        "D": "With milk"
+      },
+      "correctAnswer": "A",
+      "explanation": "Prevents oesophagitis.",
+      "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+      "sourceChapter": "Endocrine Drugs",
+      "sourcePage": null
+    }
+  ]
+}
