@@ -128,7 +128,7 @@ def write_index(questions):
 
 def label_tier(qs):
     score = sum({"Easy": 1, "Medium": 2, "Hard": 3}[q["difficulty"]] for q in qs) / len(qs)
-    return "Easy" if score < 1.75 else ("Medium" if score < 2.35 else "Hard")
+    return "Easy" if score < 1.65 else ("Medium" if score < 2.4 else "Hard")
 
 
 def load_existing_papers():
