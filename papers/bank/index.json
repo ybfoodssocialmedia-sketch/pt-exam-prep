@@ -3,26 +3,44 @@
   {
    "subject": "Anatomy",
    "files": [
-    "anatomy.json"
+    "anatomy.json",
+    "anatomy2.json"
    ],
-   "count": 18,
+   "count": 79,
    "topics": [
     {
      "topic": "Upper Limb",
-     "count": 12
+     "count": 30
     },
     {
      "topic": "Lower Limb",
+     "count": 27
+    },
+    {
+     "topic": "Neuroanatomy",
+     "count": 7
+    },
+    {
+     "topic": "Thorax",
      "count": 6
+    },
+    {
+     "topic": "Head & Neck",
+     "count": 5
+    },
+    {
+     "topic": "General Anatomy",
+     "count": 4
     }
    ]
   },
   {
    "subject": "Biochemistry",
    "files": [
-    "biochemistry.json"
+    "biochemistry.json",
+    "biochemistry2.json"
    ],
-   "count": 16,
+   "count": 45,
    "topics": [
     {
      "topic": "Proteins and Amino Acids",
@@ -30,7 +48,27 @@
     },
     {
      "topic": "Vitamins",
+     "count": 11
+    },
+    {
+     "topic": "Carbohydrate Metabolism",
+     "count": 8
+    },
+    {
+     "topic": "Lipid Metabolism",
      "count": 5
+    },
+    {
+     "topic": "Minerals & Misc",
+     "count": 4
+    },
+    {
+     "topic": "Protein Metabolism",
+     "count": 3
+    },
+    {
+     "topic": "Enzymes",
+     "count": 3
     }
    ]
   },
@@ -168,10 +206,27 @@
   {
    "subject": "General Surgery & Orthopedics",
    "files": [
-    "surgery-ortho.json"
+    "surgery-ortho.json",
+    "surgery-ortho2.json"
    ],
-   "count": 19,
+   "count": 97,
    "topics": [
+    {
+     "topic": "Orthopaedics - Trauma",
+     "count": 18
+    },
+    {
+     "topic": "Surgical Principles",
+     "count": 12
+    },
+    {
+     "topic": "Orthopaedics - Bone Disease",
+     "count": 12
+    },
+    {
+     "topic": "Abdominal Surgery",
+     "count": 11
+    },
     {
      "topic": "Paediatric Surgery",
      "count": 10
@@ -179,6 +234,26 @@
     {
      "topic": "Nutrition and Fluid Therapy",
      "count": 7
+    },
+    {
+     "topic": "Orthopaedics - Other",
+     "count": 7
+    },
+    {
+     "topic": "Orthopaedics - Paediatric",
+     "count": 6
+    },
+    {
+     "topic": "Endocrine & Breast Surgery",
+     "count": 5
+    },
+    {
+     "topic": "Vascular Surgery",
+     "count": 4
+    },
+    {
+     "topic": "Urology",
+     "count": 3
     },
     {
      "topic": "Paediatric Trauma",
@@ -235,17 +310,58 @@
   {
    "subject": "Medicine",
    "files": [
-    "medicine.json"
+    "medicine.json",
+    "medicine2.json"
    ],
-   "count": 19,
+   "count": 89,
    "topics": [
     {
      "topic": "Clinical Decision Making",
      "count": 12
     },
     {
+     "topic": "Cardiology",
+     "count": 11
+    },
+    {
+     "topic": "Clinical Medicine",
+     "count": 10
+    },
+    {
+     "topic": "Gastroenterology",
+     "count": 8
+    },
+    {
+     "topic": "Endocrinology",
+     "count": 8
+    },
+    {
+     "topic": "Respiratory Medicine",
+     "count": 7
+    },
+    {
+     "topic": "Infectious Disease",
+     "count": 7
+    },
+    {
      "topic": "Infectious Disease Epidemiology",
      "count": 6
+    },
+    {
+     "topic": "Haematology",
+     "count": 6
+    },
+    {
+     "topic": "Neurology",
+     "count": 5
+    },
+    {
+     "topic": "Nephrology",
+     "count": 4
+    },
+    {
+     "topic": "Rheumatology",
+     "count": 4
     },
     {
      "topic": "Infection Prevention and Control",
@@ -256,16 +372,37 @@
   {
    "subject": "OBGY",
    "files": [
-    "obgy.json"
+    "obgy.json",
+    "obgy2.json"
    ],
-   "count": 20,
+   "count": 49,
    "topics": [
     {
      "topic": "Normal Puerperium",
      "count": 13
     },
     {
+     "topic": "Gynaecology",
+     "count": 8
+    },
+    {
+     "topic": "Obstetrics - Basics",
+     "count": 6
+    },
+    {
+     "topic": "Obstetrics - Complications",
+     "count": 6
+    },
+    {
+     "topic": "Obstetrics - Labour",
+     "count": 6
+    },
+    {
      "topic": "Obstetric Terminology",
+     "count": 3
+    },
+    {
+     "topic": "Obstetrics - Postnatal",
      "count": 3
     },
     {
@@ -281,16 +418,21 @@
   {
    "subject": "Pathology & Microbiology",
    "files": [
-    "pathology.json"
+    "pathology.json",
+    "pathology2.json"
    ],
-   "count": 24,
+   "count": 67,
    "topics": [
     {
-     "topic": "Infectious and Parasitic Diseases",
-     "count": 7
+     "topic": "Neoplasia",
+     "count": 12
     },
     {
-     "topic": "Neoplasia",
+     "topic": "Microbiology",
+     "count": 9
+    },
+    {
+     "topic": "Infectious and Parasitic Diseases",
      "count": 7
     },
     {
@@ -298,17 +440,50 @@
      "count": 7
     },
     {
+     "topic": "Inflammation",
+     "count": 6
+    },
+    {
+     "topic": "Cell Injury",
+     "count": 5
+    },
+    {
+     "topic": "Haemodynamics",
+     "count": 4
+    },
+    {
+     "topic": "Immunology",
+     "count": 4
+    },
+    {
+     "topic": "Genetics",
+     "count": 4
+    },
+    {
      "topic": "Cell Injury and Pigments",
      "count": 3
+    },
+    {
+     "topic": "Cardiovascular Pathology",
+     "count": 2
+    },
+    {
+     "topic": "Respiratory Pathology",
+     "count": 2
+    },
+    {
+     "topic": "Bone & Joint Pathology",
+     "count": 2
     }
    ]
   },
   {
    "subject": "Pharmacology",
    "files": [
-    "pharmacology.json"
+    "pharmacology.json",
+    "pharmacology2.json"
    ],
-   "count": 21,
+   "count": 52,
    "topics": [
     {
      "topic": "Receptor Pharmacology",
@@ -317,6 +492,34 @@
     {
      "topic": "Adverse Drug Effects",
      "count": 9
+    },
+    {
+     "topic": "General Pharmacology",
+     "count": 6
+    },
+    {
+     "topic": "Autonomic Pharmacology",
+     "count": 5
+    },
+    {
+     "topic": "Cardiovascular Drugs",
+     "count": 5
+    },
+    {
+     "topic": "Analgesics",
+     "count": 4
+    },
+    {
+     "topic": "Antimicrobials",
+     "count": 4
+    },
+    {
+     "topic": "Endocrine Drugs",
+     "count": 4
+    },
+    {
+     "topic": "CNS Drugs",
+     "count": 3
     }
    ]
   },
@@ -361,17 +564,62 @@
   {
    "subject": "Physiology",
    "files": [
-    "physiology.json"
+    "physiology.json",
+    "physiology2.json"
    ],
-   "count": 15,
+   "count": 80,
    "topics": [
+    {
+     "topic": "Cardiovascular Physiology",
+     "count": 9
+    },
+    {
+     "topic": "Respiratory Physiology",
+     "count": 9
+    },
     {
      "topic": "Membrane Potentials",
      "count": 8
     },
     {
+     "topic": "Muscle Physiology",
+     "count": 8
+    },
+    {
+     "topic": "Blood",
+     "count": 8
+    },
+    {
      "topic": "Platelets",
      "count": 7
+    },
+    {
+     "topic": "General Physiology",
+     "count": 7
+    },
+    {
+     "topic": "Nervous System",
+     "count": 7
+    },
+    {
+     "topic": "Endocrine Physiology",
+     "count": 5
+    },
+    {
+     "topic": "Renal Physiology",
+     "count": 4
+    },
+    {
+     "topic": "Gastrointestinal Physiology",
+     "count": 4
+    },
+    {
+     "topic": "Special Senses",
+     "count": 2
+    },
+    {
+     "topic": "Exercise Physiology",
+     "count": 2
     }
    ]
   },
