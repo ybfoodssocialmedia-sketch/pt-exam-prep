@@ -1,55 +1,35 @@
-# Build Plan — Mass Content Generation (in progress)
+# Build Plan & Status
 
-**Directive from user (2026-09-14):** Build at least 20 Practice Sets (20 questions each) per difficulty tier — Easy / Medium / Hard — so 60 papers total, mixed across all subjects. Up to 5% overlap between any two papers of the same tier is acceptable (≈1 shared question per 20), but the goal is to keep the shared question bank large enough (~400 real questions per tier, ~1200 total) that most papers end up fully disjoint. The flagship real 100-question weighted Mock Exam (matching actual PGP-CET topic weightage) is a SEPARATE deliverable, not part of this 60-paper count.
+## What the app is
+Offline-capable MCQ simulator for PGP-CET (physiotherapy PG entrance) preparation. Static site (no build step), hosted on GitHub Pages. Two modes:
+- **Practice** — one question at a time, instant feedback + explanation + source.
+- **Exam** — 100 questions, 90-minute timer, no feedback until submission, auto-submit, survives reload.
 
-**No fabrication rule still applies in full.** Every question must trace to an actual page/chapter in an uploaded book. Nothing here is generated to hit a number at the expense of that rule — if a subject runs out of real coverage before its share is done, that's fine, it's covered elsewhere or left for more material later.
+## Content structure (current)
+- `papers/bank/*.json` — the **question bank** (one or more files per subject). Every question has: topic, subtopic, difficulty (Easy/Medium/Hard), four options, correct answer, explanation, source book + chapter. `papers/bank/index.json` is generated and lists subjects/topics/counts.
+- `papers/generated/{easy,medium,hard}-paper-N.json` — **100-question papers** built by `tools/compose_papers.py` to follow the real PGP-CET 2025 subject weightage (Anatomy 4, Physiology 4, Biochem 2, Exercise Therapy 5, Electro Therapy+Electrical Agents 12, Pharm 2, Path & Micro 4, Psychology 1, Psychiatry 1, Kinesio 7, Surgery/Ortho 6, Medicine 6, OBGY 3, Physical Diagnosis 8, PT-MSK 10, PT-Neuro 10, PT-GenMed 10, PT-Community 5).
+- **Papers are frozen once published** (a "Solved" tick and history never point at a changed paper). Question *text* is refreshed from the bank on every compose, so corrections reach published papers; selection/order do not change.
+- **Practice by Subject / topic** — random 20-question sessions drawn from the bank (unseen-first), not tied to papers.
+- Tier label (Easy/Medium/Hard) comes from the *actual* difficulty mix of each paper (mean difficulty), where per-question difficulty is the author's tag.
 
-## How this works
-- Question bank: `papers/bank/<subject-slug>.json` — one file per subject, each holding an array of full question objects (with `difficulty` set to Easy/Medium/Hard).
-- Composer: `tools/compose_papers.py` — reads the whole bank, groups by difficulty, cuts into 20-question papers (disjoint where possible), writes `papers/generated/*.json`, and rewrites the generated-paper entries in `manifest.json`. Safe to re-run any time the bank grows — fully regenerates from current state. Run with the Python 3.12 interpreter at `C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\python.exe` (has no extra deps, plain stdlib).
-- Progress is committed and pushed after every meaningful batch so nothing is lost across session boundaries.
+## How to add questions
+1. Write a batch file (tuple format — see the docstring in `tools/add_batch.py`; correct option goes first, the script shuffles letters).
+2. `python tools/add_batch.py <batch.py>` — appends to the right bank file with auto ids, drops duplicates/invalid items.
+3. `python tools/compose_papers.py` — rebuilds `bank/index.json`, refreshes published papers, and builds any new papers the bank now supports (full weightage met, ≤5 reused questions, any two papers share ≤5).
+4. Commit + push.
+Interpreter: `C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\python.exe` (stdlib only).
 
-## Source quality reference (so pacing/care matches risk)
-- Clean digital text (fast, low-risk): Daniels & Worthingham, Kisner & Colby, Sullivan, Pryor, KD Tripathi, Harsh Mohan Pathology, Dutta Obstetrics, Bailey & Love Surgery, Davidson's Medicine, Ahuja Psychiatry, Morgan & King Psychology, BD Chaurasia Anatomy (Upper+Lower).
-- OCR noise, needs care (medium-risk, verify each fact): Magee Orthopedic Assessment, AK Jain Physiology, Satyanarayana Biochemistry.
-- Scanned, no text layer — render page to PNG via pymupdf then read visually (slow, page-by-page): Clayton Electrotherapy (8th/9th ed), Park's PSM.
-  - Render command: `"C:\Users\Lenovo\AppData\Local\Programs\Python\Python312\python.exe" "D:\Claude\scratch_ocr\render_page.py" "<pdf path>" <page_num> "<out.png>" 200`
+## Sourcing / honesty notes
+- The first ~313 questions were drafted directly from the uploaded textbooks (chapter-level citations, no invented page numbers).
+- Later batches were written from standard textbook knowledge, using the uploaded MPT MCQ book (Suraj Kumar, *MCQs for MPT Entrance Examination*, 2e) only as a **topic/high-yield guide** — questions are original wording, not copied. Citations for those are chapter/reference-level and are **not page-verified**.
+- The Khayti Shah question bank (scanned PDF) has not been used yet.
 
-## Status as of this checkpoint (2026-09-15, end of marathon session)
+## Status (latest)
+- Bank: ~2,750 questions across 18 subjects.
+- 24 full papers live (7 Easy / 9 Medium / 8 Hard); max 2 shared questions between any two.
+- Target: 20 papers per tier (60). Binding shortages are the heavily-weighted subjects (Electro Therapy 12/paper; PT-MSK, PT-Neuro, PT-GenMed 10/paper each; Kinesio; Physical Diagnosis).
 
-- **313 real, book-sourced bank questions** across 18 subjects (started this session at 226; +87 added this session alone via second/third-pass batches per subject).
-- ✅ **Flagship deliverable DONE**: `mock-exam-1.json` — the real 100-question Mock Exam matching official PGP-CET 2025 topic weightage exactly, assembled via `tools/compose_mock_exam.py`, verified end-to-end in-browser (Exam Mode start → 100 answers → submit → scoring → topic breakdown all correct).
-- Composer run: **15 of 60 target Practice Sets are live** (2 Easy, 7 Medium, 6 Hard), all fully disjoint (0% overlap), verified working in-browser.
-- Easy pool is thin (52 questions → only 2 papers) relative to Medium/Hard — most batches this session skewed toward Medium/Hard difficulty. Next session should prioritize Easy-tagged questions to balance this out.
-- Remaining: ~45 more Practice Sets need roughly 500-700 more bank questions to reach a similar disjoint-composition rate. Continuing to add batches per subject and re-running `compose_papers.py` periodically to publish more sets as the bank grows.
-- Next: keep adding bank batches (second/third passes per subject, new chapters — many subjects still have untapped chapters in their source books), re-run both composer scripts periodically, and bias new content toward Easy difficulty to balance the tiers. Once the bank has grown enough, consider a `mock-exam-2` with a different random seed for variety.
-
-## Progress tracker (update after every batch)
-
-| Subject | Bank file | Easy | Medium | Hard | Notes |
-|---|---|---|---|---|---|
-| Physical Diagnosis & Manipulative Skills | (from validation-batch-1, not yet split into bank) | - | - | - | 8 questions exist, need difficulty tags + move to bank format |
-| Fundamentals of Exercise Therapy | (from validation-batch-1) | - | - | - | 6 questions exist, same as above |
-| Anatomy | anatomy.json | 0 | 0 | 0 | Source: BD Chaurasia Upper+Lower |
-| Physiology | physiology.json | 0 | 0 | 0 | Source: AK Jain (verify each page) |
-| Biochemistry | biochemistry.json | 0 | 0 | 0 | Source: Satyanarayana (verify each page) |
-| Pharmacology | pharmacology.json | 0 | 0 | 0 | Source: KD Tripathi |
-| Pathology & Microbiology | pathology.json | 0 | 0 | 0 | Source: Harsh Mohan |
-| Psychology | psychology.json | 0 | 0 | 0 | Source: Morgan & King |
-| Psychiatry | psychiatry.json | 0 | 0 | 0 | Source: Ahuja |
-| Kinesio Therapeutics | kinesio.json | 0 | 0 | 0 | Source: Kisner, Daniels |
-| Fundamentals of Electro Therapy / Electrical Agents | electrotherapy.json | 0 | 0 | 0 | Source: Clayton (render+vision) |
-| General Surgery & Orthopedics | surgery-ortho.json | 0 | 0 | 0 | Source: Bailey & Love, Magee |
-| Medicine | medicine.json | 0 | 0 | 0 | Source: Davidson's |
-| OBGY | obgy.json | 0 | 0 | 0 | Source: Dutta |
-| Physiotherapy in MSK Condition | pt-msk.json | 0 | 0 | 0 | Source: Magee, Kisner |
-| Physiotherapy in Neurosciences | pt-neuro.json | 0 | 0 | 0 | Source: Sullivan |
-| Physiotherapy in Gen. Medical/Surgical | pt-genmed.json | 0 | 0 | 0 | Source: Pryor, Davidson's |
-| Physiotherapy in Community Health | pt-community.json | 0 | 0 | 0 | Source: Park's PSM (render+vision) |
-
-**Target: ~400 Easy + ~400 Medium + ~400 Hard = ~1200 total bank questions, spread across subjects roughly matching real PGP-CET weightage.**
-
-## Next up after mass bank build
-1. Run composer once a meaningful chunk of the bank exists (don't wait for all 1200 — publish papers incrementally as soon as each 20-question chunk is ready, so the live app has real content throughout, not just at the very end).
-2. Build the real 100-question weighted Mock Exam once each of the 19 topics has enough bank material to draw its exact real-weightage share from.
-3. Final validation pass (Section 4.10 style) before calling any of this "done".
+## Ideas / next
+- More questions for the binding subjects above, then re-run the composer.
+- A factual review pass of newly written batches (a first pass over everything written so far was done; two items corrected).
+- Optionally use the Khayti Shah bank as a further topic guide (needs page-by-page reading — it is scanned).
