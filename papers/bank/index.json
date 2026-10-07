@@ -6,9 +6,10 @@
     "anatomy.json",
     "anatomy2.json",
     "anatomy3.json",
+    "khayti-an.json",
     "mpt-book-an.json"
    ],
-   "count": 203,
+   "count": 255,
    "topics": [
     {
      "topic": "Upper Limb",
@@ -27,6 +28,10 @@
      "count": 9
     },
     {
+     "topic": "Spinal Cord",
+     "count": 9
+    },
+    {
      "topic": "Thorax",
      "count": 6
     },
@@ -35,7 +40,27 @@
      "count": 6
     },
     {
+     "topic": "Heart Anatomy",
+     "count": 6
+    },
+    {
+     "topic": "Knee and Hip Ligaments",
+     "count": 5
+    },
+    {
+     "topic": "Brain Anatomy",
+     "count": 5
+    },
+    {
+     "topic": "Pelvic Floor",
+     "count": 5
+    },
+    {
      "topic": "General Anatomy",
+     "count": 4
+    },
+    {
+     "topic": "Elbow and Wrist Ligaments",
      "count": 4
     },
     {
@@ -51,6 +76,14 @@
      "count": 4
     },
     {
+     "topic": "Coronary Arteries",
+     "count": 3
+    },
+    {
+     "topic": "Integument",
+     "count": 3
+    },
+    {
      "topic": "Cartilage",
      "count": 3
     },
@@ -61,6 +94,26 @@
     {
      "topic": "Ulnar Nerve",
      "count": 3
+    },
+    {
+     "topic": "Hip Ligaments",
+     "count": 2
+    },
+    {
+     "topic": "Ventricular System",
+     "count": 2
+    },
+    {
+     "topic": "Meninges",
+     "count": 2
+    },
+    {
+     "topic": "Pleura",
+     "count": 2
+    },
+    {
+     "topic": "Airways",
+     "count": 2
     },
     {
      "topic": "Median Nerve",
@@ -81,6 +134,22 @@
     {
      "topic": "Sensory Supply",
      "count": 2
+    },
+    {
+     "topic": "Ankle Ligaments",
+     "count": 1
+    },
+    {
+     "topic": "Brain Facts",
+     "count": 1
+    },
+    {
+     "topic": "Thoracic Anatomy",
+     "count": 1
+    },
+    {
+     "topic": "Bronchopulmonary Segments",
+     "count": 1
     },
     {
      "topic": "Cranial Nerves",
@@ -152,14 +221,6 @@
     },
     {
      "topic": "Posterior Cruciate Ligament",
-     "count": 1
-    },
-    {
-     "topic": "Pelvic Floor",
-     "count": 1
-    },
-    {
-     "topic": "Hip Ligaments",
      "count": 1
     },
     {
@@ -286,10 +347,15 @@
     "biochemistry.json",
     "biochemistry2.json",
     "biochemistry3.json",
+    "khayti-bc.json",
     "mpt-book-bc.json"
    ],
-   "count": 89,
+   "count": 90,
    "topics": [
+    {
+     "topic": "Metabolism",
+     "count": 12
+    },
     {
      "topic": "Proteins and Amino Acids",
      "count": 11
@@ -300,10 +366,6 @@
     },
     {
      "topic": "Biomolecules",
-     "count": 11
-    },
-    {
-     "topic": "Metabolism",
      "count": 11
     },
     {
@@ -367,20 +429,25 @@
     "electrotherapy3.json",
     "electrotherapy4.json",
     "electrotherapy5.json",
+    "khayti-el.json",
     "mpt-book-el.json"
    ],
-   "count": 552,
+   "count": 652,
    "topics": [
+    {
+     "topic": "Ultrasound",
+     "count": 53
+    },
     {
      "topic": "Basic Electricity",
      "count": 37
     },
     {
-     "topic": "Ultrasound",
-     "count": 37
+     "topic": "Electrodiagnosis",
+     "count": 29
     },
     {
-     "topic": "Electrodiagnosis",
+     "topic": "Shortwave Diathermy",
      "count": 25
     },
     {
@@ -388,16 +455,20 @@
      "count": 25
     },
     {
-     "topic": "Shortwave Diathermy",
+     "topic": "Cryotherapy",
      "count": 24
+    },
+    {
+     "topic": "Iontophoresis",
+     "count": 22
     },
     {
      "topic": "Electrical Stimulation",
      "count": 22
     },
     {
-     "topic": "Cryotherapy",
-     "count": 18
+     "topic": "Traction",
+     "count": 17
     },
     {
      "topic": "Electrical Stimulation Applications",
@@ -412,8 +483,12 @@
      "count": 13
     },
     {
-     "topic": "Traction",
+     "topic": "EMG",
      "count": 13
+    },
+    {
+     "topic": "TENS",
+     "count": 12
     },
     {
      "topic": "Low Frequency Currents",
@@ -436,7 +511,11 @@
      "count": 9
     },
     {
-     "topic": "Iontophoresis",
+     "topic": "Thermotherapy",
+     "count": 9
+    },
+    {
+     "topic": "Radiation Therapy",
      "count": 9
     },
     {
@@ -456,15 +535,15 @@
      "count": 8
     },
     {
+     "topic": "Medium Frequency Currents",
+     "count": 7
+    },
+    {
      "topic": "Thermal Agents",
      "count": 7
     },
     {
-     "topic": "Medium Frequency Currents",
-     "count": 6
-    },
-    {
-     "topic": "TENS",
+     "topic": "Electrical Currents",
      "count": 5
     },
     {
@@ -472,15 +551,23 @@
      "count": 4
     },
     {
+     "topic": "Massage",
+     "count": 4
+    },
+    {
+     "topic": "Biofeedback",
+     "count": 4
+    },
+    {
+     "topic": "Nerve Conduction",
+     "count": 3
+    },
+    {
      "topic": "Hot Packs",
      "count": 3
     },
     {
      "topic": "Inductance",
-     "count": 3
-    },
-    {
-     "topic": "EMG",
      "count": 3
     },
     {
@@ -497,6 +584,10 @@
     },
     {
      "topic": "Magnetic Therapy",
+     "count": 2
+    },
+    {
+     "topic": "Compression Therapy",
      "count": 2
     },
     {
@@ -566,6 +657,14 @@
     {
      "topic": "Laser Penetration",
      "count": 2
+    },
+    {
+     "topic": "Electrotherapy",
+     "count": 1
+    },
+    {
+     "topic": "NMES",
+     "count": 1
     },
     {
      "topic": "Pain Gate Theory",
@@ -1124,24 +1223,37 @@
     "exercise-therapy2.json",
     "exercise-therapy3.json",
     "exercise-therapy4.json",
+    "khayti-ex.json",
     "mpt-book-ex.json"
    ],
-   "count": 226,
+   "count": 349,
    "topics": [
+    {
+     "topic": "Strength Training",
+     "count": 34
+    },
     {
      "topic": "Principles of Exercise",
      "count": 24
+    },
+    {
+     "topic": "Orthotics",
+     "count": 22
     },
     {
      "topic": "Functional Training",
      "count": 14
     },
     {
-     "topic": "Strength Training",
-     "count": 13
+     "topic": "Wheelchairs",
+     "count": 14
     },
     {
      "topic": "Stretching",
+     "count": 12
+    },
+    {
+     "topic": "Aquatic Therapy",
      "count": 12
     },
     {
@@ -1177,11 +1289,31 @@
      "count": 9
     },
     {
+     "topic": "Exercise Monitoring",
+     "count": 9
+    },
+    {
+     "topic": "Flexibility Training",
+     "count": 9
+    },
+    {
      "topic": "Walking Aids",
      "count": 8
     },
     {
      "topic": "Strength",
+     "count": 8
+    },
+    {
+     "topic": "PNF Patterns",
+     "count": 8
+    },
+    {
+     "topic": "Balance Training",
+     "count": 8
+    },
+    {
+     "topic": "Ambulatory Aids",
      "count": 8
     },
     {
@@ -1201,11 +1333,27 @@
      "count": 6
     },
     {
+     "topic": "Endurance Training",
+     "count": 6
+    },
+    {
+     "topic": "Exercise Prescription",
+     "count": 5
+    },
+    {
      "topic": "Range of Motion",
      "count": 3
     },
     {
+     "topic": "PNF Techniques",
+     "count": 3
+    },
+    {
      "topic": "Suspension Therapy",
+     "count": 2
+    },
+    {
+     "topic": "Relaxation Training",
      "count": 2
     },
     {
@@ -1217,20 +1365,12 @@
      "count": 2
     },
     {
-     "topic": "PNF Patterns",
-     "count": 2
-    },
-    {
      "topic": "Assistive Device",
      "count": 2
     },
     {
      "topic": "Crutch Walking",
      "count": 2
-    },
-    {
-     "topic": "Aquatic Therapy",
-     "count": 1
     },
     {
      "topic": "Home Programme",
@@ -1282,10 +1422,6 @@
     },
     {
      "topic": "Assisted Exercise",
-     "count": 1
-    },
-    {
-     "topic": "PNF Techniques",
      "count": 1
     },
     {
@@ -1353,13 +1489,14 @@
   {
    "subject": "General Surgery & Orthopedics",
    "files": [
+    "khayti-su.json",
     "mpt-book-su.json",
     "surgery-ortho.json",
     "surgery-ortho2.json",
     "surgery-ortho3.json",
     "surgery-ortho4.json"
    ],
-   "count": 454,
+   "count": 529,
    "topics": [
     {
      "topic": "Orthopaedics - Trauma",
@@ -1378,16 +1515,32 @@
      "count": 28
     },
     {
+     "topic": "Burns",
+     "count": 25
+    },
+    {
      "topic": "Orthopaedics - Other",
      "count": 22
+    },
+    {
+     "topic": "Fracture Classification",
+     "count": 13
     },
     {
      "topic": "Paediatric Surgery",
      "count": 10
     },
     {
+     "topic": "Wound Care",
+     "count": 7
+    },
+    {
      "topic": "Nutrition and Fluid Therapy",
      "count": 7
+    },
+    {
+     "topic": "Ligament Injury",
+     "count": 6
     },
     {
      "topic": "Hip Dislocation",
@@ -1400,6 +1553,14 @@
     {
      "topic": "Orthopaedics - Nerve Injuries",
      "count": 6
+    },
+    {
+     "topic": "Wound Healing",
+     "count": 5
+    },
+    {
+     "topic": "Wound Assessment",
+     "count": 5
     },
     {
      "topic": "Bone Tumours",
@@ -1426,6 +1587,10 @@
      "count": 5
     },
     {
+     "topic": "Fractures",
+     "count": 4
+    },
+    {
      "topic": "Osteoporosis",
      "count": 4
     },
@@ -1436,6 +1601,14 @@
     {
      "topic": "Vascular Surgery",
      "count": 4
+    },
+    {
+     "topic": "Pathology Matching",
+     "count": 3
+    },
+    {
+     "topic": "Post-operative Dressing",
+     "count": 3
     },
     {
      "topic": "Osteochondromatosis",
@@ -1488,6 +1661,14 @@
     {
      "topic": "Head & Neck Surgery",
      "count": 3
+    },
+    {
+     "topic": "Hip Anatomy",
+     "count": 2
+    },
+    {
+     "topic": "Fracture Healing",
+     "count": 2
     },
     {
      "topic": "TMJ Dislocation",
@@ -1568,6 +1749,14 @@
     {
      "topic": "Paediatric Trauma",
      "count": 2
+    },
+    {
+     "topic": "Paediatric Orthopaedics",
+     "count": 1
+    },
+    {
+     "topic": "Scars",
+     "count": 1
     },
     {
      "topic": "Shoulder Instability",
@@ -1663,10 +1852,6 @@
     },
     {
      "topic": "Carpal Fracture",
-     "count": 1
-    },
-    {
-     "topic": "Fracture Healing",
      "count": 1
     },
     {
@@ -2132,27 +2317,32 @@
     {
      "topic": "Meniscus Injury",
      "count": 1
-    },
-    {
-     "topic": "Fractures",
-     "count": 1
     }
    ]
   },
   {
    "subject": "Kinesio Therapeutics",
    "files": [
+    "khayti-ki.json",
     "kinesio.json",
     "kinesio2.json",
     "kinesio3.json",
     "kinesio4.json",
     "mpt-book-ki.json"
    ],
-   "count": 280,
+   "count": 370,
    "topics": [
     {
      "topic": "Muscle Mechanics",
-     "count": 40
+     "count": 41
+    },
+    {
+     "topic": "Muscle Actions",
+     "count": 24
+    },
+    {
+     "topic": "Gait",
+     "count": 22
     },
     {
      "topic": "Gait Analysis",
@@ -2169,6 +2359,10 @@
     {
      "topic": "Upper Limb Biomechanics",
      "count": 15
+    },
+    {
+     "topic": "Spine Biomechanics",
+     "count": 14
     },
     {
      "topic": "Joint Mechanics",
@@ -2199,6 +2393,10 @@
      "count": 10
     },
     {
+     "topic": "Biomechanics",
+     "count": 9
+    },
+    {
      "topic": "Joint Kinetics",
      "count": 8
     },
@@ -2211,6 +2409,14 @@
      "count": 7
     },
     {
+     "topic": "Scapulohumeral Rhythm",
+     "count": 6
+    },
+    {
+     "topic": "Training Principles",
+     "count": 6
+    },
+    {
      "topic": "Trunk Mechanics",
      "count": 6
     },
@@ -2219,8 +2425,16 @@
      "count": 5
     },
     {
+     "topic": "Knee Biomechanics",
+     "count": 4
+    },
+    {
      "topic": "Gait Parameters",
      "count": 3
+    },
+    {
+     "topic": "Arthrokinematics",
+     "count": 2
     },
     {
      "topic": "Femoral Torsion",
@@ -2241,6 +2455,18 @@
     {
      "topic": "Centre of Gravity",
      "count": 2
+    },
+    {
+     "topic": "Posture",
+     "count": 1
+    },
+    {
+     "topic": "Foot Motion",
+     "count": 1
+    },
+    {
+     "topic": "Foot Biomechanics",
+     "count": 1
     },
     {
      "topic": "Wolff Law",
@@ -2264,10 +2490,6 @@
     },
     {
      "topic": "Joint Congruency",
-     "count": 1
-    },
-    {
-     "topic": "Gait",
      "count": 1
     },
     {
@@ -2411,25 +2633,30 @@
   {
    "subject": "Medicine",
    "files": [
+    "khayti-me.json",
     "medicine.json",
     "medicine2.json",
     "medicine3.json",
     "medicine4.json",
     "mpt-book-me.json"
    ],
-   "count": 203,
+   "count": 268,
    "topics": [
+    {
+     "topic": "Endocrinology",
+     "count": 45
+    },
     {
      "topic": "Cardiology",
      "count": 27
     },
     {
-     "topic": "Gastroenterology",
-     "count": 22
+     "topic": "Nephrology",
+     "count": 24
     },
     {
-     "topic": "Endocrinology",
-     "count": 22
+     "topic": "Gastroenterology",
+     "count": 24
     },
     {
      "topic": "Respiratory Medicine",
@@ -2444,6 +2671,10 @@
      "count": 16
     },
     {
+     "topic": "Diabetes",
+     "count": 15
+    },
+    {
      "topic": "Haematology",
      "count": 15
     },
@@ -2456,8 +2687,8 @@
      "count": 12
     },
     {
-     "topic": "Nephrology",
-     "count": 11
+     "topic": "Nutrition",
+     "count": 10
     },
     {
      "topic": "Clinical Medicine",
@@ -2476,6 +2707,14 @@
      "count": 2
     },
     {
+     "topic": "Oncology",
+     "count": 1
+    },
+    {
+     "topic": "Reproductive Physiology",
+     "count": 1
+    },
+    {
      "topic": "Infection Prevention and Control",
      "count": 1
     },
@@ -2488,13 +2727,14 @@
   {
    "subject": "OBGY",
    "files": [
+    "khayti-ob.json",
     "mpt-book-ob.json",
     "obgy.json",
     "obgy2.json",
     "obgy3.json",
     "obgy4.json"
    ],
-   "count": 125,
+   "count": 154,
    "topics": [
     {
      "topic": "Gynaecology",
@@ -2513,12 +2753,28 @@
      "count": 17
     },
     {
+     "topic": "Pregnancy",
+     "count": 15
+    },
+    {
      "topic": "Normal Puerperium",
      "count": 13
     },
     {
      "topic": "Obstetrics - Postnatal",
      "count": 9
+    },
+    {
+     "topic": "Labour",
+     "count": 5
+    },
+    {
+     "topic": "Antenatal Care",
+     "count": 4
+    },
+    {
+     "topic": "Pelvic Floor",
+     "count": 4
     },
     {
      "topic": "Pregnancy Exercise",
@@ -2537,15 +2793,23 @@
      "count": 2
     },
     {
-     "topic": "Antenatal Care",
-     "count": 2
-    },
-    {
      "topic": "Maternal Pelvis",
      "count": 2
     },
     {
-     "topic": "Pregnancy",
+     "topic": "Prenatal Period",
+     "count": 1
+    },
+    {
+     "topic": "Fetal Development",
+     "count": 1
+    },
+    {
+     "topic": "Pelvis",
+     "count": 1
+    },
+    {
+     "topic": "Postnatal Care",
      "count": 1
     },
     {
@@ -2569,13 +2833,14 @@
   {
    "subject": "Pathology & Microbiology",
    "files": [
+    "khayti-pa.json",
     "mpt-book-pa.json",
     "pathology.json",
     "pathology2.json",
     "pathology3.json",
     "pathology4.json"
    ],
-   "count": 176,
+   "count": 212,
    "topics": [
     {
      "topic": "Microbiology",
@@ -2598,6 +2863,10 @@
      "count": 12
     },
     {
+     "topic": "Skin Ulceration",
+     "count": 11
+    },
+    {
      "topic": "Haemodynamics",
      "count": 10
     },
@@ -2618,8 +2887,32 @@
      "count": 7
     },
     {
+     "topic": "Wound Exudate",
+     "count": 5
+    },
+    {
+     "topic": "Haematology",
+     "count": 5
+    },
+    {
      "topic": "Healing",
      "count": 5
+    },
+    {
+     "topic": "Infection Control",
+     "count": 4
+    },
+    {
+     "topic": "Blood Tests",
+     "count": 3
+    },
+    {
+     "topic": "Lipid Profile",
+     "count": 3
+    },
+    {
+     "topic": "Skin Conditions",
+     "count": 3
     },
     {
      "topic": "Cell Injury and Pigments",
@@ -2644,6 +2937,14 @@
     {
      "topic": "Bone & Joint Pathology",
      "count": 2
+    },
+    {
+     "topic": "Myocardial Infarction",
+     "count": 1
+    },
+    {
+     "topic": "Integument",
+     "count": 1
     },
     {
      "topic": "Rheumatoid Factor",
@@ -2710,12 +3011,13 @@
   {
    "subject": "Pharmacology",
    "files": [
+    "khayti-pm.json",
     "mpt-book-pm.json",
     "pharmacology.json",
     "pharmacology2.json",
     "pharmacology3.json"
    ],
-   "count": 104,
+   "count": 106,
    "topics": [
     {
      "topic": "General Pharmacology",
@@ -2766,6 +3068,14 @@
      "count": 2
     },
     {
+     "topic": "Heart Failure Drugs",
+     "count": 1
+    },
+    {
+     "topic": "Burns",
+     "count": 1
+    },
+    {
      "topic": "Teratogens",
      "count": 1
     },
@@ -2814,21 +3124,34 @@
   {
    "subject": "Physical Diagnosis & Manipulative Skills",
    "files": [
+    "khayti-pd.json",
     "manual-muscle-testing.json",
     "mpt-book-pd.json",
     "physical-diagnosis.json",
     "physical-diagnosis2.json",
     "physical-diagnosis3.json"
    ],
-   "count": 373,
+   "count": 665,
    "topics": [
     {
      "topic": "Special Tests",
-     "count": 43
+     "count": 107
     },
     {
      "topic": "Manual Muscle Testing",
-     "count": 32
+     "count": 40
+    },
+    {
+     "topic": "Normal ROM",
+     "count": 27
+    },
+    {
+     "topic": "Dermatomes and Myotomes",
+     "count": 26
+    },
+    {
+     "topic": "Pulmonary Function Tests",
+     "count": 25
     },
     {
      "topic": "Goniometry",
@@ -2839,12 +3162,20 @@
      "count": 25
     },
     {
+     "topic": "Joint Positions",
+     "count": 23
+    },
+    {
      "topic": "Neurological Examination",
      "count": 23
     },
     {
      "topic": "Joint Assessment",
      "count": 18
+    },
+    {
+     "topic": "Joint Mobilisation",
+     "count": 12
     },
     {
      "topic": "Posture & Gait",
@@ -2859,8 +3190,24 @@
      "count": 12
     },
     {
+     "topic": "Respiratory Examination",
+     "count": 11
+    },
+    {
      "topic": "Systemic Examination",
      "count": 11
+    },
+    {
+     "topic": "McKenzie Method",
+     "count": 10
+    },
+    {
+     "topic": "End Feel",
+     "count": 9
+    },
+    {
+     "topic": "Breath Sounds",
+     "count": 9
     },
     {
      "topic": "Assessment Process",
@@ -2871,15 +3218,51 @@
      "count": 9
     },
     {
+     "topic": "Heart Sounds",
+     "count": 8
+    },
+    {
+     "topic": "Skin Lesions",
+     "count": 8
+    },
+    {
+     "topic": "Accessory Motion",
+     "count": 7
+    },
+    {
+     "topic": "Vascular Examination",
+     "count": 7
+    },
+    {
+     "topic": "Pelvic Floor Assessment",
+     "count": 7
+    },
+    {
      "topic": "MMT Positions",
      "count": 7
+    },
+    {
+     "topic": "Capsular Pattern",
+     "count": 5
+    },
+    {
+     "topic": "Dermatomes",
+     "count": 5
+    },
+    {
+     "topic": "Pulse Grading",
+     "count": 5
     },
     {
      "topic": "Thomas Test",
      "count": 5
     },
     {
-     "topic": "Dermatomes",
+     "topic": "Anthropometry",
+     "count": 4
+    },
+    {
+     "topic": "Cardiac Auscultation",
      "count": 4
     },
     {
@@ -2891,8 +3274,24 @@
      "count": 4
     },
     {
+     "topic": "Spine Examination",
+     "count": 3
+    },
+    {
+     "topic": "Soft Tissue Technique",
+     "count": 3
+    },
+    {
+     "topic": "Sputum Examination",
+     "count": 3
+    },
+    {
      "topic": "SOAP Notes",
      "count": 3
+    },
+    {
+     "topic": "Integument",
+     "count": 2
     },
     {
      "topic": "Bicipital Tendinitis",
@@ -2953,6 +3352,22 @@
     {
      "topic": "Leg Length",
      "count": 2
+    },
+    {
+     "topic": "Examination",
+     "count": 1
+    },
+    {
+     "topic": "Percussion",
+     "count": 1
+    },
+    {
+     "topic": "Skin Conditions",
+     "count": 1
+    },
+    {
+     "topic": "Diabetic Foot",
+     "count": 1
     },
     {
      "topic": "Shoulder Instability",
@@ -3104,10 +3519,6 @@
     },
     {
      "topic": "Apley Grinding Test",
-     "count": 1
-    },
-    {
-     "topic": "Joint Mobilisation",
      "count": 1
     },
     {
@@ -3263,15 +3674,7 @@
      "count": 1
     },
     {
-     "topic": "Capsular Pattern",
-     "count": 1
-    },
-    {
      "topic": "Silfverskiold Test",
-     "count": 1
-    },
-    {
-     "topic": "End Feel",
      "count": 1
     },
     {
@@ -3299,13 +3702,18 @@
   {
    "subject": "Physiology",
    "files": [
+    "khayti-ph.json",
     "mpt-book-ph.json",
     "physiology.json",
     "physiology2.json",
     "physiology3.json"
    ],
-   "count": 158,
+   "count": 222,
    "topics": [
+    {
+     "topic": "Muscle Physiology",
+     "count": 13
+    },
     {
      "topic": "General Physiology",
      "count": 13
@@ -3315,24 +3723,36 @@
      "count": 13
     },
     {
+     "topic": "Respiratory Physiology",
+     "count": 10
+    },
+    {
+     "topic": "Lung Volumes",
+     "count": 9
+    },
+    {
      "topic": "Cardiovascular Physiology",
      "count": 9
     },
     {
-     "topic": "Respiratory Physiology",
-     "count": 9
+     "topic": "Cardiac Physiology",
+     "count": 8
     },
     {
      "topic": "Membrane Potentials",
      "count": 8
     },
     {
-     "topic": "Muscle Physiology",
+     "topic": "Blood",
      "count": 8
     },
     {
-     "topic": "Blood",
-     "count": 8
+     "topic": "Nerve Fibres",
+     "count": 7
+    },
+    {
+     "topic": "Energy Systems",
+     "count": 7
     },
     {
      "topic": "Platelets",
@@ -3359,6 +3779,14 @@
      "count": 5
     },
     {
+     "topic": "Biomechanics",
+     "count": 4
+    },
+    {
+     "topic": "Ventilation and Perfusion",
+     "count": 4
+    },
+    {
      "topic": "Renal Physiology",
      "count": 4
     },
@@ -3377,6 +3805,34 @@
     {
      "topic": "Endocrine",
      "count": 4
+    },
+    {
+     "topic": "CSF",
+     "count": 3
+    },
+    {
+     "topic": "Respiratory Muscles",
+     "count": 3
+    },
+    {
+     "topic": "Respiratory Mechanics",
+     "count": 3
+    },
+    {
+     "topic": "Acid-Base Balance",
+     "count": 3
+    },
+    {
+     "topic": "Autonomic Nervous System",
+     "count": 2
+    },
+    {
+     "topic": "Blood Pressure",
+     "count": 2
+    },
+    {
+     "topic": "Integument",
+     "count": 2
     },
     {
      "topic": "Red Blood Cells",
@@ -3403,6 +3859,22 @@
      "count": 2
     },
     {
+     "topic": "Neurons",
+     "count": 1
+    },
+    {
+     "topic": "Electrolytes",
+     "count": 1
+    },
+    {
+     "topic": "Haemodynamics",
+     "count": 1
+    },
+    {
+     "topic": "Blood Gases",
+     "count": 1
+    },
+    {
      "topic": "Bone Growth",
      "count": 1
     },
@@ -3420,10 +3892,6 @@
     },
     {
      "topic": "Resting Membrane Potential",
-     "count": 1
-    },
-    {
-     "topic": "Nerve Fibres",
      "count": 1
     },
     {
@@ -3467,19 +3935,11 @@
      "count": 1
     },
     {
-     "topic": "Lung Volumes",
-     "count": 1
-    },
-    {
      "topic": "Cardiac Cycle",
      "count": 1
     },
     {
      "topic": "Rh Factor",
-     "count": 1
-    },
-    {
-     "topic": "Respiratory Muscles",
      "count": 1
     },
     {
@@ -3491,20 +3951,25 @@
   {
    "subject": "Physiotherapy in Community Health",
    "files": [
+    "khayti-co.json",
     "mpt-book-co.json",
     "pt-community.json",
     "pt-community2.json",
     "pt-community3.json"
    ],
-   "count": 190,
+   "count": 263,
    "topics": [
+    {
+     "topic": "Biostatistics",
+     "count": 70
+    },
     {
      "topic": "Epidemiology",
      "count": 31
     },
     {
-     "topic": "Biostatistics",
-     "count": 26
+     "topic": "Research",
+     "count": 23
     },
     {
      "topic": "Nutrition",
@@ -3533,6 +3998,10 @@
     {
      "topic": "Disability & Rehabilitation",
      "count": 7
+    },
+    {
+     "topic": "Sampling",
+     "count": 6
     },
     {
      "topic": "Occupational Health",
@@ -3579,15 +4048,15 @@
      "count": 3
     },
     {
+     "topic": "Architectural Barriers",
+     "count": 2
+    },
+    {
      "topic": "Infection Control",
      "count": 2
     },
     {
      "topic": "Levels of Measurement",
-     "count": 2
-    },
-    {
-     "topic": "Sampling",
      "count": 2
     },
     {
@@ -3651,6 +4120,7 @@
   {
    "subject": "Physiotherapy in General Medical & Surgical Condition",
    "files": [
+    "khayti-gm.json",
     "mpt-book-gm.json",
     "pt-genmed.json",
     "pt-genmed2.json",
@@ -3658,23 +4128,35 @@
     "pt-genmed4.json",
     "pt-genmed5.json"
    ],
-   "count": 406,
+   "count": 555,
    "topics": [
+    {
+     "topic": "ECG",
+     "count": 32
+    },
     {
      "topic": "Medical Conditions",
      "count": 32
+    },
+    {
+     "topic": "Cardiac Rehabilitation",
+     "count": 25
     },
     {
      "topic": "Surgical Physiotherapy",
      "count": 24
     },
     {
-     "topic": "Cardiac Rehabilitation",
-     "count": 20
-    },
-    {
      "topic": "Special Populations",
      "count": 17
+    },
+    {
+     "topic": "Postural Drainage",
+     "count": 16
+    },
+    {
+     "topic": "Ageing",
+     "count": 15
     },
     {
      "topic": "Chest Physiotherapy",
@@ -3685,12 +4167,20 @@
      "count": 15
     },
     {
+     "topic": "Airway Clearance",
+     "count": 14
+    },
+    {
      "topic": "Cardiopulmonary Assessment",
      "count": 14
     },
     {
      "topic": "Respiratory Assessment",
      "count": 14
+    },
+    {
+     "topic": "Obesity",
+     "count": 12
     },
     {
      "topic": "Cardiopulmonary Physio",
@@ -3713,10 +4203,6 @@
      "count": 10
     },
     {
-     "topic": "Airway Clearance",
-     "count": 9
-    },
-    {
      "topic": "Special Medical Conditions",
      "count": 9
     },
@@ -3725,7 +4211,7 @@
      "count": 9
     },
     {
-     "topic": "Postural Drainage",
+     "topic": "Blood Gases",
      "count": 8
     },
     {
@@ -3745,8 +4231,28 @@
      "count": 7
     },
     {
+     "topic": "COPD",
+     "count": 6
+    },
+    {
      "topic": "Paediatric Medicine",
      "count": 6
+    },
+    {
+     "topic": "Myocardial Infarction",
+     "count": 5
+    },
+    {
+     "topic": "Heart Failure",
+     "count": 5
+    },
+    {
+     "topic": "Lymphoedema",
+     "count": 5
+    },
+    {
+     "topic": "Cystic Fibrosis",
+     "count": 5
     },
     {
      "topic": "Geriatric Physiotherapy",
@@ -3755,6 +4261,26 @@
     {
      "topic": "Infection Control",
      "count": 5
+    },
+    {
+     "topic": "Dyspnoea Scale",
+     "count": 4
+    },
+    {
+     "topic": "Angina Scale",
+     "count": 4
+    },
+    {
+     "topic": "Oedema",
+     "count": 4
+    },
+    {
+     "topic": "Peripheral Vascular Disease",
+     "count": 4
+    },
+    {
+     "topic": "Suctioning",
+     "count": 4
     },
     {
      "topic": "Thoracic Imaging",
@@ -3769,6 +4295,18 @@
      "count": 4
     },
     {
+     "topic": "Basic Life Support",
+     "count": 3
+    },
+    {
+     "topic": "Breathing Exercises",
+     "count": 3
+    },
+    {
+     "topic": "COPD Assessment",
+     "count": 3
+    },
+    {
      "topic": "Burn Positioning",
      "count": 3
     },
@@ -3781,16 +4319,28 @@
      "count": 3
     },
     {
-     "topic": "Cystic Fibrosis",
-     "count": 3
-    },
-    {
      "topic": "Orthostatic Hypotension",
      "count": 3
     },
     {
      "topic": "Palliative Care",
      "count": 3
+    },
+    {
+     "topic": "Angina",
+     "count": 2
+    },
+    {
+     "topic": "Exercise Testing",
+     "count": 2
+    },
+    {
+     "topic": "Artificial Airways",
+     "count": 2
+    },
+    {
+     "topic": "Wound Nutrition",
+     "count": 2
     },
     {
      "topic": "Burns",
@@ -3806,10 +4356,6 @@
     },
     {
      "topic": "Terminology",
-     "count": 2
-    },
-    {
-     "topic": "Heart Failure",
      "count": 2
     },
     {
@@ -3839,6 +4385,58 @@
     {
      "topic": "Lung Function Testing",
      "count": 2
+    },
+    {
+     "topic": "Blood Pressure",
+     "count": 1
+    },
+    {
+     "topic": "Exercise Prescription",
+     "count": 1
+    },
+    {
+     "topic": "Congenital Heart Disease",
+     "count": 1
+    },
+    {
+     "topic": "Cardiac Transplant",
+     "count": 1
+    },
+    {
+     "topic": "Ventilator Management",
+     "count": 1
+    },
+    {
+     "topic": "Neonatal Lung Disease",
+     "count": 1
+    },
+    {
+     "topic": "Rib Fractures",
+     "count": 1
+    },
+    {
+     "topic": "Pleural Disease",
+     "count": 1
+    },
+    {
+     "topic": "Mechanical Ventilation",
+     "count": 1
+    },
+    {
+     "topic": "Oxygen Therapy",
+     "count": 1
+    },
+    {
+     "topic": "Chest Drainage",
+     "count": 1
+    },
+    {
+     "topic": "Exercise in the Elderly",
+     "count": 1
+    },
+    {
+     "topic": "Exercise Safety",
+     "count": 1
     },
     {
      "topic": "Arterial Line",
@@ -3885,10 +4483,6 @@
      "count": 1
     },
     {
-     "topic": "Myocardial Infarction",
-     "count": 1
-    },
-    {
      "topic": "Arterial Insufficiency",
      "count": 1
     },
@@ -3898,10 +4492,6 @@
     },
     {
      "topic": "Radiotherapy",
-     "count": 1
-    },
-    {
-     "topic": "ECG",
      "count": 1
     },
     {
@@ -3941,10 +4531,6 @@
      "count": 1
     },
     {
-     "topic": "Angina",
-     "count": 1
-    },
-    {
      "topic": "Burn Rehabilitation",
      "count": 1
     },
@@ -3977,10 +4563,6 @@
      "count": 1
     },
     {
-     "topic": "COPD",
-     "count": 1
-    },
-    {
      "topic": "Atelectasis",
      "count": 1
     },
@@ -3994,10 +4576,6 @@
     },
     {
      "topic": "Sputum",
-     "count": 1
-    },
-    {
-     "topic": "Exercise Testing",
      "count": 1
     },
     {
@@ -4069,10 +4647,6 @@
      "count": 1
     },
     {
-     "topic": "Ageing",
-     "count": 1
-    },
-    {
      "topic": "Pregnancy Exercise",
      "count": 1
     },
@@ -4093,10 +4667,6 @@
      "count": 1
     },
     {
-     "topic": "Blood Gases",
-     "count": 1
-    },
-    {
      "topic": "Diabetes Exercise",
      "count": 1
     },
@@ -4109,13 +4679,14 @@
   {
    "subject": "Physiotherapy in Musculoskeletal Condition",
    "files": [
+    "khayti-ms.json",
     "mpt-book-ms.json",
     "pt-msk.json",
     "pt-msk2.json",
     "pt-msk3.json",
     "pt-msk4.json"
    ],
-   "count": 458,
+   "count": 517,
    "topics": [
     {
      "topic": "Orthotics",
@@ -4126,12 +4697,12 @@
      "count": 24
     },
     {
-     "topic": "Amputation",
+     "topic": "Knee Conditions",
      "count": 21
     },
     {
-     "topic": "Knee Conditions",
-     "count": 18
+     "topic": "Amputation",
+     "count": 21
     },
     {
      "topic": "Soft Tissue Management",
@@ -4158,12 +4729,20 @@
      "count": 12
     },
     {
+     "topic": "Hand Conditions",
+     "count": 11
+    },
+    {
      "topic": "Low Back Conditions",
      "count": 11
     },
     {
      "topic": "Lower Limb Rehab",
      "count": 11
+    },
+    {
+     "topic": "Prosthetics",
+     "count": 9
     },
     {
      "topic": "Upper Limb Rehab",
@@ -4188,6 +4767,10 @@
     {
      "topic": "Fracture Management Devices",
      "count": 8
+    },
+    {
+     "topic": "Prosthetic Gait",
+     "count": 7
     },
     {
      "topic": "Shoulder Assessment",
@@ -4222,6 +4805,18 @@
      "count": 6
     },
     {
+     "topic": "Pathology Matching",
+     "count": 5
+    },
+    {
+     "topic": "Hand Injuries",
+     "count": 5
+    },
+    {
+     "topic": "Osteoporosis",
+     "count": 5
+    },
+    {
      "topic": "Rheumatoid Arthritis",
      "count": 5
     },
@@ -4234,6 +4829,14 @@
      "count": 5
     },
     {
+     "topic": "Spine Conditions",
+     "count": 4
+    },
+    {
+     "topic": "Surgical Repairs",
+     "count": 4
+    },
+    {
      "topic": "Ankylosing Spondylitis",
      "count": 4
     },
@@ -4242,11 +4845,15 @@
      "count": 4
     },
     {
-     "topic": "Scoliosis",
+     "topic": "Posture",
      "count": 3
     },
     {
-     "topic": "Prosthetic Gait",
+     "topic": "Foot Conditions",
+     "count": 3
+    },
+    {
+     "topic": "Scoliosis",
      "count": 3
     },
     {
@@ -4262,7 +4869,7 @@
      "count": 3
     },
     {
-     "topic": "Prosthetics",
+     "topic": "Foot Mechanics",
      "count": 2
     },
     {
@@ -4352,6 +4959,18 @@
     {
      "topic": "Spinal Orthoses",
      "count": 2
+    },
+    {
+     "topic": "Hand Surgery",
+     "count": 1
+    },
+    {
+     "topic": "Hip Pathology",
+     "count": 1
+    },
+    {
+     "topic": "Thoracic Outlet Syndrome",
+     "count": 1
     },
     {
      "topic": "Clubfoot",
@@ -4654,6 +5273,7 @@
   {
    "subject": "Physiotherapy in Neurosciences",
    "files": [
+    "khayti-ne.json",
     "mpt-book-ne.json",
     "pt-neuro.json",
     "pt-neuro2.json",
@@ -4661,23 +5281,35 @@
     "pt-neuro4.json",
     "pt-neuro5.json"
    ],
-   "count": 412,
+   "count": 653,
    "topics": [
     {
      "topic": "Stroke",
-     "count": 57
-    },
-    {
-     "topic": "Cerebral Palsy",
-     "count": 23
+     "count": 60
     },
     {
      "topic": "Spinal Cord Injury",
-     "count": 23
+     "count": 29
+    },
+    {
+     "topic": "Neonatal Reflexes",
+     "count": 25
+    },
+    {
+     "topic": "Cerebral Palsy",
+     "count": 25
+    },
+    {
+     "topic": "Cranial Nerves",
+     "count": 21
     },
     {
      "topic": "Peripheral Neuropathy",
      "count": 21
+    },
+    {
+     "topic": "Motor Learning",
+     "count": 18
     },
     {
      "topic": "Parkinson's Disease",
@@ -4692,6 +5324,10 @@
      "count": 15
     },
     {
+     "topic": "Traumatic Brain Injury",
+     "count": 13
+    },
+    {
      "topic": "Neuroscience Basics",
      "count": 13
     },
@@ -4700,15 +5336,19 @@
      "count": 13
     },
     {
-     "topic": "Traumatic Brain Injury",
-     "count": 10
+     "topic": "Brunnstrom Approach",
+     "count": 12
     },
     {
-     "topic": "Neuro Facilitation",
+     "topic": "Balance Assessment",
+     "count": 12
+    },
+    {
+     "topic": "Reflexes",
      "count": 8
     },
     {
-     "topic": "Cranial Nerves",
+     "topic": "Neuro Facilitation",
      "count": 8
     },
     {
@@ -4716,24 +5356,112 @@
      "count": 8
     },
     {
+     "topic": "Spinal Cord Syndromes",
+     "count": 7
+    },
+    {
+     "topic": "Spina Bifida",
+     "count": 7
+    },
+    {
+     "topic": "Transfers",
+     "count": 7
+    },
+    {
      "topic": "Developmental",
      "count": 7
+    },
+    {
+     "topic": "Lobes of the Brain",
+     "count": 6
+    },
+    {
+     "topic": "Brain Structures",
+     "count": 6
+    },
+    {
+     "topic": "Head Injury",
+     "count": 6
+    },
+    {
+     "topic": "Tone",
+     "count": 6
     },
     {
      "topic": "SCI Functional",
      "count": 6
     },
     {
-     "topic": "Guillain-Barre Syndrome",
+     "topic": "Cerebellum",
      "count": 5
     },
     {
-     "topic": "Transfers",
+     "topic": "Sensation",
+     "count": 5
+    },
+    {
+     "topic": "Movement Disorders",
+     "count": 5
+    },
+    {
+     "topic": "Functional Assessment",
+     "count": 5
+    },
+    {
+     "topic": "Gait Deviations",
+     "count": 5
+    },
+    {
+     "topic": "Parkinson Disease",
+     "count": 5
+    },
+    {
+     "topic": "Epilepsy",
+     "count": 5
+    },
+    {
+     "topic": "Motor Development",
+     "count": 5
+    },
+    {
+     "topic": "Adaptive Equipment",
+     "count": 5
+    },
+    {
+     "topic": "Guillain-Barre Syndrome",
      "count": 5
     },
     {
      "topic": "Home Modification",
      "count": 5
+    },
+    {
+     "topic": "Aphasia",
+     "count": 4
+    },
+    {
+     "topic": "Peripheral Nerve Injury",
+     "count": 4
+    },
+    {
+     "topic": "Cranial Nerve Disorders",
+     "count": 4
+    },
+    {
+     "topic": "Motor Neuron Disease",
+     "count": 4
+    },
+    {
+     "topic": "Ageing",
+     "count": 4
+    },
+    {
+     "topic": "Brachial Plexus Birth Injury",
+     "count": 4
+    },
+    {
+     "topic": "Muscular Dystrophy",
+     "count": 4
     },
     {
      "topic": "Wheelchair",
@@ -4748,6 +5476,26 @@
      "count": 4
     },
     {
+     "topic": "Vascular Supply",
+     "count": 3
+    },
+    {
+     "topic": "Consciousness",
+     "count": 3
+    },
+    {
+     "topic": "Posturing",
+     "count": 3
+    },
+    {
+     "topic": "Wheelchair Prescription",
+     "count": 3
+    },
+    {
+     "topic": "Spinal Muscular Atrophy",
+     "count": 3
+    },
+    {
      "topic": "Developmental Milestones",
      "count": 3
     },
@@ -4760,23 +5508,11 @@
      "count": 3
     },
     {
-     "topic": "Aphasia",
-     "count": 3
-    },
-    {
      "topic": "Myasthenia Gravis",
      "count": 3
     },
     {
      "topic": "SCI C6",
-     "count": 3
-    },
-    {
-     "topic": "Muscular Dystrophy",
-     "count": 3
-    },
-    {
-     "topic": "Epilepsy",
      "count": 3
     },
     {
@@ -4786,6 +5522,30 @@
     {
      "topic": "Assessment",
      "count": 3
+    },
+    {
+     "topic": "Speech Areas",
+     "count": 2
+    },
+    {
+     "topic": "Cerebral Dominance",
+     "count": 2
+    },
+    {
+     "topic": "Meningeal Signs",
+     "count": 2
+    },
+    {
+     "topic": "Stroke Rehabilitation",
+     "count": 2
+    },
+    {
+     "topic": "Facilitation and Inhibition",
+     "count": 2
+    },
+    {
+     "topic": "Postural Reactions",
+     "count": 2
     },
     {
      "topic": "Tetraplegia C7",
@@ -4844,10 +5604,6 @@
      "count": 2
     },
     {
-     "topic": "Motor Neuron Disease",
-     "count": 2
-    },
-    {
      "topic": "Spina Bifida & Hydrocephalus",
      "count": 2
     },
@@ -4856,11 +5612,51 @@
      "count": 2
     },
     {
-     "topic": "Wheelchair Prescription",
+     "topic": "Neuromuscular Disorders",
      "count": 1
     },
     {
-     "topic": "Peripheral Nerve Injury",
+     "topic": "Gait",
+     "count": 1
+    },
+    {
+     "topic": "Spasticity",
+     "count": 1
+    },
+    {
+     "topic": "Investigations",
+     "count": 1
+    },
+    {
+     "topic": "Vestibular Disorders",
+     "count": 1
+    },
+    {
+     "topic": "Neuropathy",
+     "count": 1
+    },
+    {
+     "topic": "Post-Polio Syndrome",
+     "count": 1
+    },
+    {
+     "topic": "Bladder Management",
+     "count": 1
+    },
+    {
+     "topic": "Gait Training",
+     "count": 1
+    },
+    {
+     "topic": "Prematurity",
+     "count": 1
+    },
+    {
+     "topic": "Down Syndrome",
+     "count": 1
+    },
+    {
+     "topic": "Developmental Dysplasia of the Hip",
      "count": 1
     },
     {
@@ -5168,10 +5964,11 @@
   {
    "subject": "Psychiatry",
    "files": [
+    "khayti-py.json",
     "psychiatry.json",
     "psychiatry2.json"
    ],
-   "count": 61,
+   "count": 66,
    "topics": [
     {
      "topic": "Anxiety Disorders",
@@ -5202,6 +5999,10 @@
      "count": 4
     },
     {
+     "topic": "Dementia",
+     "count": 3
+    },
+    {
      "topic": "Phobic Disorders",
      "count": 3
     },
@@ -5220,17 +6021,26 @@
     {
      "topic": "Personality",
      "count": 2
+    },
+    {
+     "topic": "Depression",
+     "count": 1
+    },
+    {
+     "topic": "Psychiatry",
+     "count": 1
     }
    ]
   },
   {
    "subject": "Psychology",
    "files": [
+    "khayti-ps.json",
     "mpt-book-ps.json",
     "psychology.json",
     "psychology2.json"
    ],
-   "count": 66,
+   "count": 68,
    "topics": [
     {
      "topic": "Biology of Behavior",
@@ -5275,6 +6085,10 @@
     {
      "topic": "Social Psychology",
      "count": 3
+    },
+    {
+     "topic": "Developmental Theories",
+     "count": 2
     },
     {
      "topic": "Research",

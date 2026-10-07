@@ -1,0 +1,2016 @@
+{
+ "paperId": "hard-paper-15",
+ "paperName": "Hard Paper 15",
+ "subject": "Mixed (Real Weightage)",
+ "difficulty": "Hard",
+ "description": "100 questions following the real PGP-CET 2025 subject weightage. Mix: 0 easy / 53 medium / 47 hard. Every question cites its source.",
+ "durationMinutes": 90,
+ "scoring": {
+  "correct": 1,
+  "incorrect": 0,
+  "unanswered": 0,
+  "negativeMarkingEnabled": false
+ },
+ "questions": [
+  {
+   "id": 1,
+   "topic": "Ventilation and Perfusion",
+   "subtopic": "Regional Differences",
+   "difficulty": "Hard",
+   "question": "In the upright position, ventilation is greater at the ______ of the lung and perfusion is greater at the ______ of the lung.",
+   "options": {
+    "A": "Apex; base",
+    "B": "Base; base",
+    "C": "Apex; apex",
+    "D": "Base; apex"
+   },
+   "correctAnswer": "B",
+   "explanation": "Gravity favours both ventilation and perfusion at the lung bases, but perfusion more steeply.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Pulmonary Physiotherapy",
+   "sourcePage": 130,
+   "subject": "Physiology",
+   "bankRef": "khayti-ph.json::khph-42"
+  },
+  {
+   "id": 2,
+   "topic": "Hand Conditions",
+   "subtopic": "Gamekeeper Thumb",
+   "difficulty": "Medium",
+   "question": "Gamekeeper's thumb is rupture of the:",
+   "options": {
+    "A": "Extensor pollicis longus",
+    "B": "Radial collateral ligament of the first MCP joint",
+    "C": "Ulnar collateral ligament of the first MCP joint",
+    "D": "Flexor pollicis longus"
+   },
+   "correctAnswer": "C",
+   "explanation": "It follows forced abduction of the thumb MCP joint (e.g. skier's thumb).",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Musculoskeletal Physiotherapy",
+   "sourcePage": 49,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "khayti-ms.json::khms-18"
+  },
+  {
+   "id": 3,
+   "topic": "Cranial Nerve Disorders",
+   "subtopic": "Crocodile Tears",
+   "difficulty": "Hard",
+   "question": "Crocodile tears (lacrimation while eating) are often seen in paralysis of the ______ cranial nerve.",
+   "options": {
+    "A": "Third",
+    "B": "Seventh",
+    "C": "Second",
+    "D": "Sixth"
+   },
+   "correctAnswer": "B",
+   "explanation": "Aberrant regeneration of facial parasympathetic fibres causes crocodile tears.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Neurological Physiotherapy",
+   "sourcePage": 96,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "khayti-ne.json::khne-146"
+  },
+  {
+   "id": 4,
+   "topic": "Endocrinology",
+   "subtopic": "SIADH",
+   "difficulty": "Hard",
+   "question": "SIADH is characterised by:",
+   "options": {
+    "A": "Hypokalaemia",
+    "B": "Hyponatraemia with concentrated urine and euvolaemia",
+    "C": "Hypernatraemia",
+    "D": "Polyuria"
+   },
+   "correctAnswer": "B",
+   "explanation": "Causes include small cell lung cancer.",
+   "sourceBook": "Davidson's Principles and Practice of Medicine; Harrison's Principles of Internal Medicine (chapter-level reference)",
+   "sourceChapter": "Endocrinology",
+   "sourcePage": null,
+   "subject": "Medicine",
+   "bankRef": "medicine4.json::med4-21"
+  },
+  {
+   "id": 5,
+   "topic": "Joint Positions",
+   "subtopic": "Elbow",
+   "difficulty": "Hard",
+   "question": "The loose-packed position of the ulnohumeral joint is:",
+   "options": {
+    "A": "Full flexion with pronation",
+    "B": "70 degrees of flexion with 10 degrees of supination",
+    "C": "90 degrees of flexion with 5 degrees of supination",
+    "D": "Full extension with full supination"
+   },
+   "correctAnswer": "B",
+   "explanation": "The ulnohumeral joint is open-packed in 70 degrees of flexion and 10 degrees of supination.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Musculoskeletal Physiotherapy",
+   "sourcePage": 4,
+   "subject": "Physical Diagnosis & Manipulative Skills",
+   "bankRef": "khayti-pd.json::khpd-9"
+  },
+  {
+   "topic": "Laser Types",
+   "subtopic": "Laser Types",
+   "difficulty": "Medium",
+   "question": "First generation laser refers to:",
+   "options": {
+    "A": "IR laser",
+    "B": "He-Ne laser",
+    "C": "Diode based units",
+    "D": "None of the above"
+   },
+   "correctAnswer": "B",
+   "explanation": "The He-Ne laser is the first-generation therapeutic laser.",
+   "sourceBook": "Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed., Jaypee 2020)",
+   "sourceChapter": "Electro chapter",
+   "sourcePage": null,
+   "id": 6,
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "mpt-book-el.json::mptEL-179"
+  },
+  {
+   "id": 7,
+   "topic": "Biostatistics",
+   "subtopic": "Normal Distribution",
+   "difficulty": "Medium",
+   "question": "In a normal distribution curve, about ______ percent of scores lie between the mean and 1 SD.",
+   "options": {
+    "A": "95",
+    "B": "34",
+    "C": "99",
+    "D": "68"
+   },
+   "correctAnswer": "B",
+   "explanation": "Half of the 68 percent within +/-1 SD is on each side of the mean.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Evidence Based Practice and Research",
+   "sourcePage": 253,
+   "subject": "Physiotherapy in Community Health",
+   "bankRef": "khayti-co.json::khco-50"
+  },
+  {
+   "id": 8,
+   "topic": "Biomolecules",
+   "subtopic": "Haemoglobin Structure",
+   "difficulty": "Medium",
+   "question": "Adult haemoglobin (HbA) consists of:",
+   "options": {
+    "A": "Four beta chains",
+    "B": "Four alpha chains",
+    "C": "Two alpha and two beta chains",
+    "D": "Two alpha and two gamma chains"
+   },
+   "correctAnswer": "C",
+   "explanation": "HbF has two alpha and two gamma chains.",
+   "sourceBook": "U. Satyanarayana, Biochemistry; Harper's Illustrated Biochemistry (chapter-level reference)",
+   "sourceChapter": "Biomolecules",
+   "sourcePage": null,
+   "subject": "Biochemistry",
+   "bankRef": "biochemistry3.json::bio3-3"
+  },
+  {
+   "id": 9,
+   "topic": "Rib Fractures",
+   "subtopic": "Flail Chest",
+   "difficulty": "Medium",
+   "question": "In flail chest (multiple rib fractures), during inspiration the chest wall segment moves ______ and during expiration it moves ______.",
+   "options": {
+    "A": "Outwards; inwards",
+    "B": "Inwards; inwards",
+    "C": "Outwards; outwards",
+    "D": "Inwards; outwards"
+   },
+   "correctAnswer": "D",
+   "explanation": "The flail segment shows paradoxical movement.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Pulmonary Physiotherapy",
+   "sourcePage": 142,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "khayti-gm.json::khgm-90"
+  },
+  {
+   "id": 10,
+   "topic": "Ventricular System",
+   "subtopic": "CSF Pathways",
+   "difficulty": "Hard",
+   "question": "The lateral ventricle communicates with the third ventricle through the:",
+   "options": {
+    "A": "Foramen of Monro",
+    "B": "Cerebral aqueduct",
+    "C": "Foramen of Magendie",
+    "D": "Foramen of Luschka"
+   },
+   "correctAnswer": "A",
+   "explanation": "The interventricular foramen (of Monro) connects the lateral and third ventricles.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Neurological Physiotherapy",
+   "sourcePage": 77,
+   "subject": "Anatomy",
+   "bankRef": "khayti-an.json::khan-25"
+  },
+  {
+   "id": 11,
+   "topic": "Nutrition",
+   "subtopic": "Mineral Toxicity",
+   "difficulty": "Medium",
+   "question": "Cobalt toxicity can lead to an increase in blood volume and:",
+   "options": {
+    "A": "Leukopenia",
+    "B": "Haemophilia",
+    "C": "Polycythaemia",
+    "D": "Anaemia"
+   },
+   "correctAnswer": "C",
+   "explanation": "Cobalt stimulates erythropoietin production.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Other Systems",
+   "sourcePage": 262,
+   "subject": "Medicine",
+   "bankRef": "khayti-me.json::khme-39"
+  },
+  {
+   "topic": "Muscle Blood Flow",
+   "subtopic": "Muscle Blood Flow",
+   "difficulty": "Hard",
+   "question": "During rest the flow of blood to muscle is:",
+   "options": {
+    "A": "3 - 4 mL/100 gm/min",
+    "B": "3 - 4 mL/100 gm/sec",
+    "C": "3 - 4 mL/10 gm/30 sec",
+    "D": "3 - 4 mL/1000 gm/min"
+   },
+   "correctAnswer": "A",
+   "explanation": "Resting muscle blood flow is about 3-4 mL per 100 g per minute.",
+   "sourceBook": "Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed., Jaypee 2020)",
+   "sourceChapter": "Cited reference: Approximately/Macardle/4th Ed./Pg. 316",
+   "sourcePage": null,
+   "id": 12,
+   "subject": "Physiology",
+   "bankRef": "mpt-book-ph.json::mptPH-17"
+  },
+  {
+   "id": 13,
+   "topic": "Brunnstrom Approach",
+   "subtopic": "Stages",
+   "difficulty": "Hard",
+   "question": "Spasticity begins to decline at Brunnstrom stage:",
+   "options": {
+    "A": "4",
+    "B": "5",
+    "C": "6",
+    "D": "3"
+   },
+   "correctAnswer": "A",
+   "explanation": "Stage 3 is peak spasticity; it begins to decrease at stage 4.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Neurological Physiotherapy",
+   "sourcePage": 91,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "khayti-ne.json::khne-116"
+  },
+  {
+   "topic": "Rheumatoid Factor",
+   "subtopic": "Rheumatoid Factor",
+   "difficulty": "Medium",
+   "question": "The rheumatoid factor immunoglobulin is against:",
+   "options": {
+    "A": "Fab portion of immunoglobulin",
+    "B": "Fc portion of immunoglobulin",
+    "C": "Double Strand DNA",
+    "D": "Mitochondria"
+   },
+   "correctAnswer": "B",
+   "explanation": "Rheumatoid factor is an autoantibody (IgM) directed against the Fc portion of IgG.",
+   "sourceBook": "Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed., Jaypee 2020)",
+   "sourceChapter": "Cited reference: Medicine/Davidson/20th Ed./Pg 1105",
+   "sourcePage": null,
+   "id": 14,
+   "subject": "Pathology & Microbiology",
+   "bankRef": "mpt-book-pa.json::mptPA-1"
+  },
+  {
+   "id": 15,
+   "topic": "Pulmonary Function Tests",
+   "subtopic": "Flow-Volume Loop",
+   "difficulty": "Hard",
+   "question": "Flattening of both the inspiratory and expiratory limbs of the flow-volume loop is seen in:",
+   "options": {
+    "A": "Obstructive conditions",
+    "B": "Restrictive conditions",
+    "C": "Fixed airway obstruction (tumour, tracheal stenosis)",
+    "D": "Normal subjects"
+   },
+   "correctAnswer": "C",
+   "explanation": "A fixed large-airway lesion limits flow equally in both phases.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Pulmonary Physiotherapy",
+   "sourcePage": 139,
+   "subject": "Physical Diagnosis & Manipulative Skills",
+   "bankRef": "khayti-pd.json::khpd-263"
+  },
+  {
+   "id": 16,
+   "topic": "Pregnancy",
+   "subtopic": "Weight Gain",
+   "difficulty": "Medium",
+   "question": "The weight gain seen in the first trimester is usually about:",
+   "options": {
+    "A": "15 lb",
+    "B": "5 lb",
+    "C": "0-3 lb",
+    "D": "7 lb"
+   },
+   "correctAnswer": "C",
+   "explanation": "Weight gain is small, about 1-2 kg, in the first trimester.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Physiotherapy in Women's Health",
+   "sourcePage": 183,
+   "subject": "OBGY",
+   "bankRef": "khayti-ob.json::khob-3"
+  },
+  {
+   "topic": "Scaphoid Fracture",
+   "subtopic": "Scaphoid Fracture",
+   "difficulty": "Medium",
+   "question": "Post-traumatic avascular necrosis of scaphoid is most common in:",
+   "options": {
+    "A": "Proximal pole of scaphoid",
+    "B": "Waist of scaphoid",
+    "C": "Distal pole of scaphoid",
+    "D": "None of the above 4"
+   },
+   "correctAnswer": "A",
+   "explanation": "Avascular necrosis most commonly affects the proximal pole of the scaphoid because blood supply enters distally.",
+   "sourceBook": "Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed., Jaypee 2020)",
+   "sourceChapter": "Cited reference: Tidy's Physiotherapy/12th Ed./Pg. 20",
+   "sourcePage": null,
+   "id": 17,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "mpt-book-ms.json::mptMS-26"
+  },
+  {
+   "id": 18,
+   "topic": "Coronary Arteries",
+   "subtopic": "Left Anterior Descending",
+   "difficulty": "Hard",
+   "question": "The left anterior descending artery supplies the:",
+   "options": {
+    "A": "Sinus node only",
+    "B": "Inferior walls of both ventricles",
+    "C": "Right atrium",
+    "D": "Anterior portion of the interventricular septum"
+   },
+   "correctAnswer": "D",
+   "explanation": "The LAD supplies the anterior LV wall and the anterior two-thirds of the septum.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Cardiac Physiotherapy",
+   "sourcePage": 105,
+   "subject": "Anatomy",
+   "bankRef": "khayti-an.json::khan-38"
+  },
+  {
+   "id": 19,
+   "topic": "Joint Mobilisation",
+   "subtopic": "Kaltenborn Grades",
+   "difficulty": "Hard",
+   "question": "In Kaltenborn's traction/glide grading, grade I (a traction force of small amplitude) is used to:",
+   "options": {
+    "A": "Reduce pain",
+    "B": "Stretch tight tissue",
+    "C": "Take up slack",
+    "D": "Perform a thrust manipulation"
+   },
+   "correctAnswer": "A",
+   "explanation": "Grade I (loosen) neutralises joint pressure to relieve pain; II takes up slack; III stretches.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Musculoskeletal Physiotherapy",
+   "sourcePage": 57,
+   "subject": "Physical Diagnosis & Manipulative Skills",
+   "bankRef": "khayti-pd.json::khpd-187"
+  },
+  {
+   "id": 20,
+   "topic": "Organic Psychiatry",
+   "subtopic": "Korsakoff",
+   "difficulty": "Hard",
+   "question": "Korsakoff's syndrome is characterised by:",
+   "options": {
+    "A": "Delusions",
+    "B": "Euphoria",
+    "C": "Anterograde amnesia with confabulation due to thiamine deficiency",
+    "D": "Retrograde amnesia only"
+   },
+   "correctAnswer": "C",
+   "explanation": "Follows untreated Wernicke's encephalopathy.",
+   "sourceBook": "Niraj Ahuja, A Short Textbook of Psychiatry; ICD-10/DSM-5 criteria (chapter-level reference)",
+   "sourceChapter": "Organic Psychiatry",
+   "sourcePage": null,
+   "subject": "Psychiatry",
+   "bankRef": "psychiatry2.json::psyc2-37"
+  },
+  {
+   "id": 21,
+   "topic": "Artificial Airways",
+   "subtopic": "Endotracheal Tube",
+   "difficulty": "Medium",
+   "question": "The usual endotracheal tube size is ______ in women and ______ in men.",
+   "options": {
+    "A": "9 mm; 10 mm",
+    "B": "7-7.5 mm; 8-8.5 mm",
+    "C": "3 mm; 4 mm",
+    "D": "5 mm; 9 mm"
+   },
+   "correctAnswer": "B",
+   "explanation": "Adult female tubes are 7.0-7.5 mm and male tubes 8.0-8.5 mm.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Pulmonary Physiotherapy",
+   "sourcePage": 147,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "khayti-gm.json::khgm-113"
+  },
+  {
+   "id": 22,
+   "topic": "Fracture Classification",
+   "subtopic": "Garden",
+   "difficulty": "Hard",
+   "question": "Garden stage 3 of femoral neck fracture is:",
+   "options": {
+    "A": "Complete and undisplaced",
+    "B": "Complete and partially displaced",
+    "C": "Incomplete and undisplaced",
+    "D": "Complete and completely displaced"
+   },
+   "correctAnswer": "B",
+   "explanation": "Garden III: complete with partial displacement (trabecular malalignment).",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Musculoskeletal Physiotherapy",
+   "sourcePage": 54,
+   "subject": "General Surgery & Orthopedics",
+   "bankRef": "khayti-su.json::khsu-19"
+  },
+  {
+   "id": 23,
+   "topic": "Pulmonary Function Tests",
+   "subtopic": "Flow-Volume Loop",
+   "difficulty": "Hard",
+   "question": "The inspiratory limb of the flow-volume loop is normal or only slightly reduced in ______ condition.",
+   "options": {
+    "A": "Extrathoracic obstruction",
+    "B": "Fixed upper airway obstruction",
+    "C": "Obstructive",
+    "D": "Restrictive"
+   },
+   "correctAnswer": "C",
+   "explanation": "Obstructive disease mainly affects expiratory flow.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Pulmonary Physiotherapy",
+   "sourcePage": 138,
+   "subject": "Physical Diagnosis & Manipulative Skills",
+   "bankRef": "khayti-pd.json::khpd-261"
+  },
+  {
+   "topic": "Trigger Finger",
+   "subtopic": "Trigger Finger",
+   "difficulty": "Medium",
+   "question": "Trigger finger is:",
+   "options": {
+    "A": "A feature at carpal tunnel syndrome",
+    "B": "Injury to fingers while operating a gun",
+    "C": "Stenosis tenovaginitis of flexor tendon or affected finger",
+    "D": "Any of the above"
+   },
+   "correctAnswer": "C",
+   "explanation": "Trigger finger is stenosing tenosynovitis (tenovaginitis) of the flexor tendon sheath.",
+   "sourceBook": "Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed., Jaypee 2020)",
+   "sourceChapter": "Ptm chapter",
+   "sourcePage": null,
+   "id": 24,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "mpt-book-ms.json::mptMS-119"
+  },
+  {
+   "topic": "Frequency",
+   "subtopic": "Frequency",
+   "difficulty": "Medium",
+   "question": "Which of following modality has maximum frequency?",
+   "options": {
+    "A": "Ultrasound waves",
+    "B": "MWD waves",
+    "C": "SWD waves",
+    "D": "Infrared radiation waves"
+   },
+   "correctAnswer": "B",
+   "explanation": "Microwave diathermy has the highest frequency of the options listed.",
+   "sourceBook": "Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed., Jaypee 2020)",
+   "sourceChapter": "Cited reference: Electrotherapy Clayton/9th Ed./Pg. 159",
+   "sourcePage": null,
+   "id": 25,
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "mpt-book-el.json::mptEL-172"
+  },
+  {
+   "id": 26,
+   "topic": "Training Principles",
+   "subtopic": "Periodisation",
+   "difficulty": "Hard",
+   "question": "In the competition phase of periodised training the volume of exercise is ______ and the frequency is ______.",
+   "options": {
+    "A": "High; more",
+    "B": "Low; more",
+    "C": "High; less",
+    "D": "Low; less"
+   },
+   "correctAnswer": "D",
+   "explanation": "Competition: low volume, less frequent sessions, high intensity.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Exercise Principles",
+   "sourcePage": 60,
+   "subject": "Kinesio Therapeutics",
+   "bankRef": "khayti-ki.json::khki-67"
+  },
+  {
+   "id": 27,
+   "topic": "Gastroenterology",
+   "subtopic": "Referred Pain",
+   "difficulty": "Medium",
+   "question": "Which of the following can cause referred pain in the spine?",
+   "options": {
+    "A": "All of these: oesophagus, gallbladder and pancreas, colon and appendix",
+    "B": "Oesophageal pain only",
+    "C": "Gallbladder and pancreatic pain only",
+    "D": "Colon and appendix only"
+   },
+   "correctAnswer": "A",
+   "explanation": "Visceral pain is commonly referred to the back through shared segmental innervation.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Other Systems",
+   "sourcePage": 268,
+   "subject": "Medicine",
+   "bankRef": "khayti-me.json::khme-60"
+  },
+  {
+   "id": 28,
+   "topic": "Artificial Airways",
+   "subtopic": "Tracheostomy",
+   "difficulty": "Medium",
+   "question": "With a tracheostomy tube in place, there is a ______ in dead space.",
+   "options": {
+    "A": "No change",
+    "B": "Doubling",
+    "C": "Decrease",
+    "D": "Increase"
+   },
+   "correctAnswer": "C",
+   "explanation": "Bypassing the upper airway reduces anatomical dead space.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Pulmonary Physiotherapy",
+   "sourcePage": 147,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "khayti-gm.json::khgm-112"
+  },
+  {
+   "topic": "Residual Limb Bandaging",
+   "subtopic": "Residual Limb Bandaging",
+   "difficulty": "Medium",
+   "question": "When wrapping the residual limb of a patient with a transfemoral amputation a therapist should adhere to all of the following except:",
+   "options": {
+    "A": "The bandage should provide increased pressure proximally",
+    "B": "The bandage should be smooth and wrinkle free",
+    "C": "The bandage should be applied using diagonal turns",
+    "D": "The bandage should be applied to encourage proximal joint extension"
+   },
+   "correctAnswer": "A",
+   "explanation": "Pressure should be greatest distally and decrease proximally, never greater proximally.",
+   "sourceBook": "Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed., Jaypee 2020)",
+   "sourceChapter": "Cited reference: Tidy's Physiotherapy/12th Ed./Pg. 264",
+   "sourcePage": null,
+   "id": 29,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "mpt-book-ms.json::mptMS-56"
+  },
+  {
+   "topic": "Crutch Walking",
+   "subtopic": "Crutch Walking",
+   "difficulty": "Hard",
+   "question": "A patient with latissimus dorsi and lower trapezius weakness would have the most difficulty performing which of the following activities?",
+   "options": {
+    "A": "Four-point gait with Lofstrand crutches",
+    "B": "Modified two-point gait with a straight cane",
+    "C": "Swing-through gait with axillary crutches",
+    "D": "Wheelchair propulations"
+   },
+   "correctAnswer": "C",
+   "explanation": "Swing-through gait needs strong shoulder depressors (latissimus dorsi, lower trapezius).",
+   "sourceBook": "Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed., Jaypee 2020)",
+   "sourceChapter": "Cited reference: Physical Rehabilitation/Sullivan/5th Ed./Pg. 545",
+   "sourcePage": null,
+   "id": 30,
+   "subject": "Fundamentals of Exercise Therapy",
+   "bankRef": "mpt-book-ex.json::mptEX-51"
+  },
+  {
+   "id": 31,
+   "topic": "Nutrition",
+   "subtopic": "Calcium Absorption",
+   "difficulty": "Medium",
+   "question": "Calcium absorption in the intestine is promoted by:",
+   "options": {
+    "A": "Oxalates",
+    "B": "High fibre",
+    "C": "Phytates",
+    "D": "Vitamin D (calcitriol)"
+   },
+   "correctAnswer": "D",
+   "explanation": "PTH also increases calcium reabsorption.",
+   "sourceBook": "U. Satyanarayana, Biochemistry; Harper's Illustrated Biochemistry (chapter-level reference)",
+   "sourceChapter": "Nutrition",
+   "sourcePage": null,
+   "subject": "Biochemistry",
+   "bankRef": "biochemistry3.json::bio3-32"
+  },
+  {
+   "topic": "Spinal Injury",
+   "subtopic": "Spinal Injury",
+   "difficulty": "Hard",
+   "question": "Most unstable spinal injury is:",
+   "options": {
+    "A": "Flexion injury",
+    "B": "Flexion rotation injury",
+    "C": "Extension injury",
+    "D": "Flexion distraction injury Others"
+   },
+   "correctAnswer": "B",
+   "explanation": "Flexion-rotation (fracture-dislocation) injuries disrupt all three columns and are the most unstable.",
+   "sourceBook": "Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed., Jaypee 2020)",
+   "sourceChapter": "Cited reference: Essential Orthopedics/Maheshwari/Pg. 144",
+   "sourcePage": null,
+   "id": 32,
+   "subject": "General Surgery & Orthopedics",
+   "bankRef": "mpt-book-su.json::mptSU-110"
+  },
+  {
+   "id": 33,
+   "topic": "Pelvic Floor",
+   "subtopic": "Incontinence",
+   "difficulty": "Medium",
+   "question": "Which of the following is a contributing factor for stress incontinence?",
+   "options": {
+    "A": "High bladder capacity",
+    "B": "Pelvic floor muscle strength",
+    "C": "Pelvic floor muscle weakness, together with coughing and laughing",
+    "D": "Sleep"
+   },
+   "correctAnswer": "C",
+   "explanation": "Raised intra-abdominal pressure leaks urine when the pelvic floor is weak.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Other Systems",
+   "sourcePage": 263,
+   "subject": "OBGY",
+   "bankRef": "khayti-ob.json::khob-29"
+  },
+  {
+   "id": 34,
+   "topic": "Endocrinology",
+   "subtopic": "Adrenal Disorders",
+   "difficulty": "Medium",
+   "question": "Which of the following is NOT a symptom of Cushing syndrome?",
+   "options": {
+    "A": "Central obesity",
+    "B": "Buffalo hump",
+    "C": "Anorexia",
+    "D": "Moon-faced shape"
+   },
+   "correctAnswer": "C",
+   "explanation": "Cushing's causes weight gain, not anorexia.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Other Systems",
+   "sourcePage": 259,
+   "subject": "Medicine",
+   "bankRef": "khayti-me.json::khme-13"
+  },
+  {
+   "id": 35,
+   "topic": "Brunnstrom Approach",
+   "subtopic": "Synergies",
+   "difficulty": "Hard",
+   "question": "Which of the following is NOT a component of the flexor synergy of the lower limb?",
+   "options": {
+    "A": "Hip external rotation",
+    "B": "Hip flexion and abduction",
+    "C": "Knee extension",
+    "D": "Ankle dorsiflexion"
+   },
+   "correctAnswer": "C",
+   "explanation": "The lower limb flexor synergy is hip flexion, abduction, external rotation, knee flexion and ankle dorsiflexion.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Neurological Physiotherapy",
+   "sourcePage": 88,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "khayti-ne.json::khne-79"
+  },
+  {
+   "topic": "Glenohumeral Stability",
+   "subtopic": "Glenohumeral Stability",
+   "difficulty": "Hard",
+   "question": "By which structure we check the downward pull of gravity on arm by the side?",
+   "options": {
+    "A": "Superior joint capsule",
+    "B": "Rotator cuff",
+    "C": "Glenohumeral ligaments",
+    "D": "Deltoid"
+   },
+   "correctAnswer": "A",
+   "explanation": "The superior capsule and coracohumeral ligament resist downward pull of the arm in the resting position.",
+   "sourceBook": "Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed., Jaypee 2020)",
+   "sourceChapter": "Cited reference: Joint Structure and Function/Norkin /4th Ed./Pg. 249",
+   "sourcePage": null,
+   "id": 36,
+   "subject": "Anatomy",
+   "bankRef": "mpt-book-an.json::mptAN-36"
+  },
+  {
+   "id": 37,
+   "topic": "Fracture Classification",
+   "subtopic": "Evans",
+   "difficulty": "Hard",
+   "question": "In Evans' classification, a type 5 intertrochanteric fracture is:",
+   "options": {
+    "A": "A 2-part undisplaced fracture",
+    "B": "A 4-part displaced fracture with comminution of both trochanters",
+    "C": "A 3-part fracture with posterolateral comminution",
+    "D": "A 2-part displaced fracture"
+   },
+   "correctAnswer": "B",
+   "explanation": "Evans type 5 is the most unstable pattern.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Musculoskeletal Physiotherapy",
+   "sourcePage": 55,
+   "subject": "General Surgery & Orthopedics",
+   "bankRef": "khayti-su.json::khsu-26"
+  },
+  {
+   "id": 38,
+   "topic": "Flexibility Training",
+   "subtopic": "Stress-Strain Curve",
+   "difficulty": "Hard",
+   "question": "There is considerable weakening of tissue when it reaches:",
+   "options": {
+    "A": "Necking (beyond ultimate strength)",
+    "B": "Elastic limit",
+    "C": "Linear region",
+    "D": "Toe region"
+   },
+   "correctAnswer": "A",
+   "explanation": "Beyond the ultimate tensile strength the tissue necks and fails.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Exercise Therapy",
+   "sourcePage": 199,
+   "subject": "Fundamentals of Exercise Therapy",
+   "bankRef": "khayti-ex.json::khex-53"
+  },
+  {
+   "topic": "Diaphragmatic Breathing",
+   "subtopic": "Diaphragmatic Breathing",
+   "difficulty": "Medium",
+   "question": "A therapist instructs a patient in diaphragmatic breathing exercises. Which of the following instructions would not be helpful in teaching diaphragmatic breathing?",
+   "options": {
+    "A": "Place your dominant handover your midrectus area",
+    "B": "Place your nondominant handover your midsternal area",
+    "C": "Inspire slowly through your nose",
+    "D": "As you expire watch your lower hand rise"
+   },
+   "correctAnswer": "D",
+   "explanation": "The abdominal (lower) hand should rise on inspiration and fall on expiration.",
+   "sourceBook": "Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed., Jaypee 2020)",
+   "sourceChapter": "Cited reference: Therapeutic Exercise/Kisner/5th Ed./Pg. 863",
+   "sourcePage": null,
+   "id": 39,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "mpt-book-gm.json::mptGM-65"
+  },
+  {
+   "id": 40,
+   "topic": "Spine Biomechanics",
+   "subtopic": "Intervertebral Foramen",
+   "difficulty": "Hard",
+   "question": "Which combined movement DECREASES the size of the intervertebral foramen?",
+   "options": {
+    "A": "Flexion with ipsilateral side flexion",
+    "B": "Extension with contralateral side flexion",
+    "C": "Extension with ipsilateral side flexion",
+    "D": "Flexion with contralateral side flexion"
+   },
+   "correctAnswer": "C",
+   "explanation": "Extension plus ipsilateral side flexion narrows the foramen, which can reproduce radicular symptoms.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Kinesiology",
+   "sourcePage": 22,
+   "subject": "Kinesio Therapeutics",
+   "bankRef": "khayti-ki.json::khki-48"
+  },
+  {
+   "id": 41,
+   "topic": "PNF Patterns",
+   "subtopic": "Lower Limb D2",
+   "difficulty": "Hard",
+   "question": "The D2 extension pattern of the lower limb consists of:",
+   "options": {
+    "A": "Extension, abduction, internal rotation",
+    "B": "Extension, abduction, external rotation",
+    "C": "Extension, adduction, internal rotation",
+    "D": "Extension, adduction, external rotation"
+   },
+   "correctAnswer": "D",
+   "explanation": "D2 lower limb extension is the reverse of D2 flexion (hip extension, adduction, external rotation).",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "PNF",
+   "sourcePage": 100,
+   "subject": "Fundamentals of Exercise Therapy",
+   "bankRef": "khayti-ex.json::khex-6"
+  },
+  {
+   "topic": "Spondylolisthesis",
+   "subtopic": "Spondylolisthesis",
+   "difficulty": "Medium",
+   "question": "Common vertebral level of spondylolisthesis is:",
+   "options": {
+    "A": "L4-L5",
+    "B": "L3-L4",
+    "C": "T12-L1",
+    "D": "L5-S1"
+   },
+   "correctAnswer": "D",
+   "explanation": "Isthmic spondylolisthesis most commonly occurs at L5-S1.",
+   "sourceBook": "Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed., Jaypee 2020)",
+   "sourceChapter": "Cited reference: Bihar 1989",
+   "sourcePage": null,
+   "id": 42,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "mpt-book-ms.json::mptMS-128"
+  },
+  {
+   "id": 43,
+   "topic": "Special Tests",
+   "subtopic": "Wrist and Hand",
+   "difficulty": "Hard",
+   "question": "In Froment's sign (paper test), the patient flexes the thumb interphalangeal joint instead of adducting the thumb to hold the paper, which indicates:",
+   "options": {
+    "A": "Ulnar nerve palsy (adductor pollicis weakness)",
+    "B": "Median nerve palsy",
+    "C": "Radial nerve palsy",
+    "D": "Anterior interosseous nerve palsy"
+   },
+   "correctAnswer": "A",
+   "explanation": "Flexor pollicis longus (median/AIN) substitutes for the paralysed adductor pollicis (ulnar).",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Musculoskeletal Physiotherapy",
+   "sourcePage": 34,
+   "subject": "Physical Diagnosis & Manipulative Skills",
+   "bankRef": "khayti-pd.json::khpd-122"
+  },
+  {
+   "id": 44,
+   "topic": "Biostatistics",
+   "subtopic": "Scales of Measurement",
+   "difficulty": "Medium",
+   "question": "Blood type and type of breath sound are examples of which scale of measurement?",
+   "options": {
+    "A": "Interval",
+    "B": "Nominal",
+    "C": "Ratio",
+    "D": "Ordinal"
+   },
+   "correctAnswer": "B",
+   "explanation": "They are categories without inherent order.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Evidence Based Practice and Research",
+   "sourcePage": 250,
+   "subject": "Physiotherapy in Community Health",
+   "bankRef": "khayti-co.json::khco-26"
+  },
+  {
+   "id": 45,
+   "topic": "Special Tests",
+   "subtopic": "Spine",
+   "difficulty": "Hard",
+   "question": "Hautant's test, in which the arms are held at 90 degrees abduction with eyes closed while the neck is extended and rotated, assesses:",
+   "options": {
+    "A": "Subacromial impingement",
+    "B": "Cervical radiculopathy",
+    "C": "Vertebrobasilar insufficiency",
+    "D": "Brachial plexus tension"
+   },
+   "correctAnswer": "C",
+   "explanation": "Loss of arm position suggests vertebral artery compromise rather than a joint problem.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Musculoskeletal Physiotherapy",
+   "sourcePage": 43,
+   "subject": "Physical Diagnosis & Manipulative Skills",
+   "bankRef": "khayti-pd.json::khpd-155"
+  },
+  {
+   "topic": "Osteoarthritis",
+   "subtopic": "Osteoarthritis",
+   "difficulty": "Medium",
+   "question": "Earliest visible change in osteoarthritis is:",
+   "options": {
+    "A": "Loss of water",
+    "B": "Fibrillation",
+    "C": "Decreased collagen content",
+    "D": "Decreased hyaluronic acid level"
+   },
+   "correctAnswer": "B",
+   "explanation": "Fibrillation of the cartilage surface is the earliest visible change in osteoarthritis.",
+   "sourceBook": "Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed., Jaypee 2020)",
+   "sourceChapter": "Cited reference: Essential Orthopaedics/Maheshwari/3rd Ed./Pg. 252",
+   "sourcePage": null,
+   "id": 46,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "mpt-book-ms.json::mptMS-28"
+  },
+  {
+   "id": 47,
+   "topic": "Spine Biomechanics",
+   "subtopic": "Facet Orientation",
+   "difficulty": "Hard",
+   "question": "The cervical facet joints (C2-C7) are oriented about:",
+   "options": {
+    "A": "45 degrees to the transverse plane and parallel to the frontal plane",
+    "B": "45 degrees to the frontal plane and parallel to the transverse plane",
+    "C": "Vertically in the sagittal plane",
+    "D": "60 degrees to the transverse plane and parallel to the frontal plane"
+   },
+   "correctAnswer": "A",
+   "explanation": "Cervical facets face backwards and upwards at about 45 degrees to the transverse plane.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Kinesiology",
+   "sourcePage": 22,
+   "subject": "Kinesio Therapeutics",
+   "bankRef": "khayti-ki.json::khki-46"
+  },
+  {
+   "id": 48,
+   "topic": "Nephrology",
+   "subtopic": "Electrolytes",
+   "difficulty": "Medium",
+   "question": "The normal serum level of calcium is:",
+   "options": {
+    "A": "135-146 mEq/L",
+    "B": "3.5-5.5 mEq/L",
+    "C": "8.4-10.4 mg/dL",
+    "D": "1.8-2.4 mg/dL"
+   },
+   "correctAnswer": "C",
+   "explanation": "Total serum calcium is about 8.5-10.5 mg/dL.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Other Systems",
+   "sourcePage": 261,
+   "subject": "Medicine",
+   "bankRef": "khayti-me.json::khme-31"
+  },
+  {
+   "id": 49,
+   "topic": "COPD",
+   "subtopic": "GOLD Staging",
+   "difficulty": "Medium",
+   "question": "According to GOLD, COPD with FEV1 below 50% but above 30% predicted is staged as:",
+   "options": {
+    "A": "4 (Very severe)",
+    "B": "1 (Mild)",
+    "C": "2 (Moderate)",
+    "D": "3 (Severe)"
+   },
+   "correctAnswer": "D",
+   "explanation": "GOLD stage 3 is severe airflow limitation.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Pulmonary Physiotherapy",
+   "sourcePage": 140,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "khayti-gm.json::khgm-83"
+  },
+  {
+   "topic": "Sideswipe Injury",
+   "subtopic": "Sideswipe Injury",
+   "difficulty": "Hard",
+   "question": "A side swipe injury is usual at the:",
+   "options": {
+    "A": "Knee",
+    "C": "Wrist",
+    "B": "Elbow",
+    "D": "Spine"
+   },
+   "correctAnswer": "B",
+   "explanation": "A sideswipe injury is a fracture of the elbow from the arm resting on a car window.",
+   "sourceBook": "Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed., Jaypee 2020)",
+   "sourceChapter": "Ptm chapter",
+   "sourcePage": null,
+   "id": 50,
+   "subject": "General Surgery & Orthopedics",
+   "bankRef": "mpt-book-su.json::mptSU-217"
+  },
+  {
+   "id": 51,
+   "topic": "Brunnstrom Approach",
+   "subtopic": "Synergies",
+   "difficulty": "Hard",
+   "question": "Which of the following is NOT a component of the flexor synergy of the upper limb?",
+   "options": {
+    "A": "Scapular protraction",
+    "B": "Shoulder abduction with external rotation",
+    "C": "Forearm supination",
+    "D": "Elbow flexion"
+   },
+   "correctAnswer": "A",
+   "explanation": "The flexor synergy has scapular retraction/elevation, shoulder abduction and external rotation, elbow flexion and forearm supination.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Neurological Physiotherapy",
+   "sourcePage": 87,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "khayti-ne.json::khne-77"
+  },
+  {
+   "id": 52,
+   "topic": "Prosthetics",
+   "subtopic": "Prosthetic Feet",
+   "difficulty": "Medium",
+   "question": "Which prosthetic foot permits triplanar motion?",
+   "options": {
+    "A": "Rigid keel foot",
+    "B": "SAFE foot",
+    "C": "SACH foot",
+    "D": "Single axis foot"
+   },
+   "correctAnswer": "B",
+   "explanation": "The stationary-attachment flexible-endoskeleton foot allows motion in all three planes.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Functional Devices, Aids and Equipment",
+   "sourcePage": 235,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "khayti-ms.json::khms-54"
+  },
+  {
+   "id": 53,
+   "topic": "Scapulohumeral Rhythm",
+   "subtopic": "Inman Phases",
+   "difficulty": "Hard",
+   "question": "In phase 1 of scapulohumeral rhythm the clavicular motion is:",
+   "options": {
+    "A": "90 degrees of abduction",
+    "B": "30 degrees of abduction",
+    "C": "15 degrees of elevation",
+    "D": "0-5 degrees of elevation"
+   },
+   "correctAnswer": "D",
+   "explanation": "In the setting phase the scapula moves 0-5 degrees and the clavicle elevates 0-5 degrees.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Kinesiology",
+   "sourcePage": 19,
+   "subject": "Kinesio Therapeutics",
+   "bankRef": "khayti-ki.json::khki-35"
+  },
+  {
+   "topic": "Postural Drainage",
+   "subtopic": "Postural Drainage",
+   "difficulty": "Medium",
+   "question": "A therapist positions a patient in the Trendelenburg position in preparation for postural drainage. Which of the following is not a relative precaution for the use of the Tre- ndelenburg position?",
+   "options": {
+    "A": "Nausea",
+    "B": "Obesity",
+    "C": "Pulmonary edema",
+    "D": "Secretion retention"
+   },
+   "correctAnswer": "D",
+   "explanation": "Trendelenburg position precautions include nausea, obesity and pulmonary oedema; secretion retention is the indication.",
+   "sourceBook": "Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed., Jaypee 2020)",
+   "sourceChapter": "Cited reference: Physical Rehabilitation/Sullivan/5th Ed./Pg. 580",
+   "sourcePage": null,
+   "id": 54,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "mpt-book-gm.json::mptGM-32"
+  },
+  {
+   "id": 55,
+   "topic": "Learning",
+   "subtopic": "Reinforcement",
+   "difficulty": "Medium",
+   "question": "Taking away an unpleasant stimulus to increase a behaviour is:",
+   "options": {
+    "A": "Positive reinforcement",
+    "B": "Extinction",
+    "C": "Punishment",
+    "D": "Negative reinforcement"
+   },
+   "correctAnswer": "D",
+   "explanation": "Punishment reduces the probability of a behaviour.",
+   "sourceBook": "Morgan & King, Introduction to Psychology (chapter-level reference)",
+   "sourceChapter": "Learning",
+   "sourcePage": null,
+   "subject": "Psychology",
+   "bankRef": "psychology2.json::psych2-9"
+  },
+  {
+   "id": 56,
+   "topic": "COPD",
+   "subtopic": "Pink Puffer",
+   "difficulty": "Medium",
+   "question": "Which of the following is NOT seen in pink puffers (emphysema)?",
+   "options": {
+    "A": "Pink skin",
+    "B": "Barrel chest",
+    "C": "Obesity",
+    "D": "Minimal cough"
+   },
+   "correctAnswer": "C",
+   "explanation": "Emphysematous patients are thin and cachectic with a barrel chest and minimal cough.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Pulmonary Physiotherapy",
+   "sourcePage": 141,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "khayti-gm.json::khgm-86"
+  },
+  {
+   "id": 57,
+   "topic": "Scapulohumeral Rhythm",
+   "subtopic": "Inman Phases",
+   "difficulty": "Hard",
+   "question": "In phase 3 (90-170 degrees) the humeral motion is:",
+   "options": {
+    "A": "60 degrees abduction with 60 degrees medial rotation",
+    "B": "60 degrees abduction with 90 degrees lateral rotation",
+    "C": "45 degrees abduction with 60 degrees medial rotation",
+    "D": "90 degrees abduction with 90 degrees medial rotation"
+   },
+   "correctAnswer": "B",
+   "explanation": "In phase 3 the humerus abducts about 60 degrees and laterally rotates 90 degrees to clear the greater tuberosity.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Kinesiology",
+   "sourcePage": 19,
+   "subject": "Kinesio Therapeutics",
+   "bankRef": "khayti-ki.json::khki-38"
+  },
+  {
+   "topic": "Fluidotherapy",
+   "subtopic": "Fluidotherapy",
+   "difficulty": "Medium",
+   "question": "The temperature of fluidotherapy unit should be:",
+   "options": {
+    "A": "Above 45C",
+    "B": "Between 38 - 45C",
+    "C": "Below 38C",
+    "D": "None of the above"
+   },
+   "correctAnswer": "B",
+   "explanation": "Fluidotherapy units run at about 38 to 45 degrees Celsius.",
+   "sourceBook": "Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed., Jaypee 2020)",
+   "sourceChapter": "Cited reference: Physical Agent in Rehabilitation/Cameron/2nd Ed./Pg. 173",
+   "sourcePage": null,
+   "id": 58,
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "mpt-book-el.json::mptEL-90"
+  },
+  {
+   "id": 59,
+   "topic": "Orthotics",
+   "subtopic": "Forefoot Posts",
+   "difficulty": "Hard",
+   "question": "For forefoot valgus, which wedge proves useful?",
+   "options": {
+    "A": "Heel",
+    "B": "Medial",
+    "C": "Neutral",
+    "D": "Lateral"
+   },
+   "correctAnswer": "D",
+   "explanation": "Forefoot valgus is posted laterally; forefoot varus is posted medially.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Functional Devices, Aids and Equipment",
+   "sourcePage": 232,
+   "subject": "Fundamentals of Exercise Therapy",
+   "bankRef": "khayti-ex.json::khex-96"
+  },
+  {
+   "id": 60,
+   "topic": "Neonatal Reflexes",
+   "subtopic": "Integration",
+   "difficulty": "Hard",
+   "question": "Failure of integration of the plantar grasp reflex interferes with:",
+   "options": {
+    "A": "Ability to stand on a flat surface",
+    "B": "Grasp and release of objects",
+    "C": "Oro-motor development",
+    "D": "Walking only on tiptoe"
+   },
+   "correctAnswer": "A",
+   "explanation": "Retained plantar grasp curls the toes and disturbs standing and walking.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Paediatric Physiotherapy",
+   "sourcePage": 161,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "khayti-ne.json::khne-232"
+  },
+  {
+   "id": 61,
+   "topic": "Spinal Cord Injury",
+   "subtopic": "ASIA Impairment Scale",
+   "difficulty": "Hard",
+   "question": "On the ASIA scale, an incomplete injury with motor function preserved but more than half of key muscles below the level graded less than 3 is:",
+   "options": {
+    "A": "C",
+    "B": "D",
+    "C": "B",
+    "D": "E"
+   },
+   "correctAnswer": "A",
+   "explanation": "ASIA C: motor incomplete with most key muscles below grade 3.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Neurological Physiotherapy",
+   "sourcePage": 92,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "khayti-ne.json::khne-121"
+  },
+  {
+   "id": 62,
+   "topic": "Ultrasound",
+   "subtopic": "Contraindications",
+   "difficulty": "Medium",
+   "question": "The following are contraindications for ultrasound EXCEPT:",
+   "options": {
+    "A": "Over epiphyseal areas in children",
+    "B": "Over a pacemaker",
+    "C": "Acute and chronic conditions (using non-thermal effects of ultrasound)",
+    "D": "Malignancy"
+   },
+   "correctAnswer": "C",
+   "explanation": "Non-thermal ultrasound is used in acute and chronic conditions.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Electrotherapeutics",
+   "sourcePage": 214,
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "khayti-el.json::khel-39"
+  },
+  {
+   "id": 63,
+   "topic": "Orthotics",
+   "subtopic": "Rearfoot Posts",
+   "difficulty": "Hard",
+   "question": "A rearfoot valgus post reduces:",
+   "options": {
+    "A": "Forefoot supination",
+    "B": "Calcaneal eversion and tibial internal rotation",
+    "C": "Calcaneal inversion only",
+    "D": "Hallux flexion"
+   },
+   "correctAnswer": "B",
+   "explanation": "Valgus posting on the lateral rearfoot controls eversion and its associated internal tibial rotation.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Functional Devices, Aids and Equipment",
+   "sourcePage": 232,
+   "subject": "Fundamentals of Exercise Therapy",
+   "bankRef": "khayti-ex.json::khex-95"
+  },
+  {
+   "id": 64,
+   "topic": "Muscle Actions",
+   "subtopic": "TMJ",
+   "difficulty": "Hard",
+   "question": "Which of the following does NOT elevate the mandible?",
+   "options": {
+    "A": "Temporalis",
+    "B": "Masseter",
+    "C": "Medial pterygoid",
+    "D": "Infrahyoid muscles"
+   },
+   "correctAnswer": "D",
+   "explanation": "Elevators are masseter, temporalis and medial pterygoid.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Kinesiology",
+   "sourcePage": 15,
+   "subject": "Kinesio Therapeutics",
+   "bankRef": "khayti-ki.json::khki-11"
+  },
+  {
+   "id": 65,
+   "topic": "Neonatal Reflexes",
+   "subtopic": "STNR",
+   "difficulty": "Hard",
+   "question": "According to the symmetrical tonic neck reflex (STNR), when the head is extended the arms ______ and the legs ______.",
+   "options": {
+    "A": "Flex; flex",
+    "B": "Extend; extend",
+    "C": "Extend; flex",
+    "D": "Flex; extend"
+   },
+   "correctAnswer": "C",
+   "explanation": "Neck extension increases arm extension and leg flexion.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Paediatric Physiotherapy",
+   "sourcePage": 162,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "khayti-ne.json::khne-200"
+  },
+  {
+   "topic": "Diabetes Insipidus",
+   "subtopic": "Diabetes Insipidus",
+   "difficulty": "Medium",
+   "question": "You are studying diabetes mellitus and diabetes insipidus in your clinical pathology course. Which of the following statements is not true about diabetes mellitus, but best describes diabetes insipidus?",
+   "options": {
+    "A": "It is a disorder of carbohydrate metabolism",
+    "B": "It results from insulin deficiency",
+    "C": "It is associated with the pancreas",
+    "D": "It is associated with the pituitary gland"
+   },
+   "correctAnswer": "D",
+   "explanation": "Diabetes insipidus results from ADH deficiency (pituitary), unlike diabetes mellitus, which involves pancreatic insulin.",
+   "sourceBook": "Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed., Jaypee 2020)",
+   "sourceChapter": "Cited reference: Human Physiology/A. K. Jain/1st Ed./Pg. 258",
+   "sourcePage": null,
+   "id": 66,
+   "subject": "Pathology & Microbiology",
+   "bankRef": "mpt-book-pa.json::mptPA-13"
+  },
+  {
+   "id": 67,
+   "topic": "Haematology",
+   "subtopic": "Coagulation",
+   "difficulty": "Medium",
+   "question": "Which of the following can cause a hypocoagulability disorder?",
+   "options": {
+    "A": "Von Willebrand's disease only",
+    "B": "All of these: haemophilia, thrombocytopenia and von Willebrand's disease",
+    "C": "Haemophilia only",
+    "D": "Thrombocytopenia only"
+   },
+   "correctAnswer": "B",
+   "explanation": "These are bleeding disorders.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Other Systems",
+   "sourcePage": 267,
+   "subject": "Pathology & Microbiology",
+   "bankRef": "khayti-pa.json::khpa-33"
+  },
+  {
+   "id": 68,
+   "topic": "Neoplasia",
+   "subtopic": "Teratoma",
+   "difficulty": "Hard",
+   "question": "A teratoma is a tumour that contains:",
+   "options": {
+    "A": "Only bone",
+    "B": "Only epithelial tissue",
+    "C": "Tissues derived from all three germ layers",
+    "D": "Blood"
+   },
+   "correctAnswer": "C",
+   "explanation": "Common in the ovary and testis.",
+   "sourceBook": "Harsh Mohan, Textbook of Pathology; Ananthanarayan & Paniker, Textbook of Microbiology (chapter-level reference)",
+   "sourceChapter": "Neoplasia",
+   "sourcePage": null,
+   "subject": "Pathology & Microbiology",
+   "bankRef": "pathology3.json::path3-17"
+  },
+  {
+   "id": 69,
+   "topic": "Iontophoresis",
+   "subtopic": "Current",
+   "difficulty": "Medium",
+   "question": "For iontophoresis, ______ current of ______ intensity is used.",
+   "options": {
+    "A": "Direct; 10 mA",
+    "B": "Interrupted; 4-5 mA",
+    "C": "Direct; 4-5 mA",
+    "D": "Interrupted; 10 mA"
+   },
+   "correctAnswer": "C",
+   "explanation": "Direct (galvanic) current of low intensity (about 4-5 mA) is used for ion transfer.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Electrotherapeutics",
+   "sourcePage": 219,
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "khayti-el.json::khel-60"
+  },
+  {
+   "id": 70,
+   "topic": "Biofeedback",
+   "subtopic": "Interpretation",
+   "difficulty": "Medium",
+   "question": "When using biofeedback for muscle relaxation, which is a positive sign?",
+   "options": {
+    "A": "Increase in audio/visual feedback",
+    "B": "No change",
+    "C": "Decrease in audio/visual feedback",
+    "D": "Continuous high-pitched tone"
+   },
+   "correctAnswer": "C",
+   "explanation": "Less EMG activity lowers the feedback signal.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Electrotherapeutics",
+   "sourcePage": 224,
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "khayti-el.json::khel-81"
+  },
+  {
+   "id": 71,
+   "topic": "Cryotherapy",
+   "subtopic": "Vapocoolant Spray",
+   "difficulty": "Medium",
+   "question": "The distance from the skin while applying a vapocoolant spray should be about:",
+   "options": {
+    "A": "25-30 inches",
+    "B": "12-18 inches",
+    "C": "5-10 inches",
+    "D": "40 inches"
+   },
+   "correctAnswer": "B",
+   "explanation": "The nozzle is held 12-18 inches from the skin.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Electrotherapeutics",
+   "sourcePage": 212,
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "khayti-el.json::khel-23"
+  },
+  {
+   "id": 72,
+   "topic": "Pregnancy",
+   "subtopic": "Posture",
+   "difficulty": "Medium",
+   "question": "In pregnancy, the centre of gravity shifts:",
+   "options": {
+    "A": "Remains the same",
+    "B": "Posteriorly and inferiorly",
+    "C": "Anteriorly and superiorly",
+    "D": "Posteriorly and superiorly"
+   },
+   "correctAnswer": "C",
+   "explanation": "The growing uterus moves the COG forward and upward.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Physiotherapy in Women's Health",
+   "sourcePage": 186,
+   "subject": "OBGY",
+   "bankRef": "khayti-ob.json::khob-11"
+  },
+  {
+   "id": 73,
+   "topic": "Bladder Management",
+   "subtopic": "Autonomous Bladder",
+   "difficulty": "Hard",
+   "question": "For an autonomous bladder, the Crede manoeuvre is indicated if the residual urine after voiding is:",
+   "options": {
+    "A": "More than 100-120 mL",
+    "B": "Any amount",
+    "C": "Less than 150 mL",
+    "D": "Less than 50-100 mL"
+   },
+   "correctAnswer": "D",
+   "explanation": "Crede (suprapubic pressure) is appropriate when residual urine is low; otherwise catheterisation is needed.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Neurological Physiotherapy",
+   "sourcePage": 102,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "khayti-ne.json::khne-177"
+  },
+  {
+   "id": 74,
+   "topic": "Neonatal Reflexes",
+   "subtopic": "ATNR",
+   "difficulty": "Hard",
+   "question": "According to the asymmetrical tonic neck reflex (ATNR), when the head is turned to one side the face-side extremities ______ and the skull-side extremities ______.",
+   "options": {
+    "A": "Extend; extend",
+    "B": "Flex; flex",
+    "C": "Flex; extend",
+    "D": "Extend; flex"
+   },
+   "correctAnswer": "D",
+   "explanation": "The ATNR gives the 'fencer' posture: face-side extension and skull-side flexion.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Paediatric Physiotherapy",
+   "sourcePage": 162,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "khayti-ne.json::khne-201"
+  },
+  {
+   "topic": "SWD",
+   "subtopic": "SWD",
+   "difficulty": "Medium",
+   "question": "Whenever deeply placed structures are to be treated with the capacitor field method, which of the following technique would be used?",
+   "options": {
+    "A": "Coplanar",
+    "B": "Crossfire",
+    "C": "Contraplanar",
+    "D": "Cable"
+   },
+   "correctAnswer": "C",
+   "explanation": "The contraplanar technique heats deeper structures in the capacitor-field method.",
+   "sourceBook": "Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed., Jaypee 2020)",
+   "sourceChapter": "Cited reference: Electrotherapy/Clayton/9th Ed./Pg. 126",
+   "sourcePage": null,
+   "id": 75,
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "mpt-book-el.json::mptEL-83"
+  },
+  {
+   "id": 76,
+   "topic": "Postural Drainage",
+   "subtopic": "Positions",
+   "difficulty": "Medium",
+   "question": "The postural drainage position for the lingula or right middle lobe is:",
+   "options": {
+    "A": "Supine, quarter-turned with the foot of the bed raised about 15 degrees",
+    "B": "Prone with head down 30 degrees",
+    "C": "Side lying flat",
+    "D": "Sitting upright"
+   },
+   "correctAnswer": "A",
+   "explanation": "The patient lies quarter-turned with the lung to be drained uppermost and head down.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Pulmonary Physiotherapy",
+   "sourcePage": 144,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "khayti-gm.json::khgm-95"
+  },
+  {
+   "id": 77,
+   "topic": "Endocrinology",
+   "subtopic": "Adrenal Medulla",
+   "difficulty": "Medium",
+   "question": "Which hormones are secreted by the adrenal medulla?",
+   "options": {
+    "A": "Aldosterone and cortisol",
+    "B": "Insulin",
+    "C": "DHEA",
+    "D": "Epinephrine and norepinephrine"
+   },
+   "correctAnswer": "D",
+   "explanation": "The adrenal medulla secretes catecholamines.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Other Systems",
+   "sourcePage": 258,
+   "subject": "Medicine",
+   "bankRef": "khayti-me.json::khme-7"
+  },
+  {
+   "id": 78,
+   "topic": "Scapulohumeral Rhythm",
+   "subtopic": "Inman Phases",
+   "difficulty": "Hard",
+   "question": "In phase 2 (30-90 degrees) the scapula rotates about:",
+   "options": {
+    "A": "45 degrees",
+    "B": "20 degrees",
+    "C": "0-5 degrees",
+    "D": "90 degrees"
+   },
+   "correctAnswer": "B",
+   "explanation": "In phase 2 the scapula rotates about 20 degrees and the humerus abducts about 40 degrees.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Kinesiology",
+   "sourcePage": 19,
+   "subject": "Kinesio Therapeutics",
+   "bankRef": "khayti-ki.json::khki-36"
+  },
+  {
+   "topic": "Ozone",
+   "subtopic": "Ozone",
+   "difficulty": "Medium",
+   "question": "UVR reacts with oxygen in air to produce:",
+   "options": {
+    "A": "Neon",
+    "B": "Argon",
+    "C": "Ozone",
+    "D": "Helium"
+   },
+   "correctAnswer": "C",
+   "explanation": "UV radiation reacts with oxygen to produce ozone.",
+   "sourceBook": "Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed., Jaypee 2020)",
+   "sourceChapter": "Cited reference: Electrotherapy Clayton/9th Ed./Pg. 182",
+   "sourcePage": null,
+   "id": 79,
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "mpt-book-el.json::mptEL-146"
+  },
+  {
+   "id": 80,
+   "topic": "Surgical Repairs",
+   "subtopic": "Hip Replacement",
+   "difficulty": "Medium",
+   "question": "After total hip replacement by the anterolateral approach, the movements to be avoided are:",
+   "options": {
+    "A": "Hip flexion beyond 90 degrees, abduction, medial rotation and extension",
+    "B": "Hip flexion beyond 90 degrees, adduction, medial rotation and extension",
+    "C": "Hip flexion beyond 90 degrees, abduction, lateral rotation and extension",
+    "D": "Hip flexion beyond 90 degrees, adduction, lateral rotation and hip extension"
+   },
+   "correctAnswer": "D",
+   "explanation": "The anterior approach risks anterior dislocation with extension, adduction and external rotation.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Musculoskeletal Physiotherapy",
+   "sourcePage": 61,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "khayti-ms.json::khms-41"
+  },
+  {
+   "id": 81,
+   "topic": "Ventilation and Perfusion",
+   "subtopic": "Regional Differences",
+   "difficulty": "Hard",
+   "question": "In the upright position, the ventilation-perfusion ratio is highest (dead-space-like) at the ______ of the lung.",
+   "options": {
+    "A": "Apex",
+    "B": "Hilum",
+    "C": "Middle",
+    "D": "Base"
+   },
+   "correctAnswer": "A",
+   "explanation": "Ventilation exceeds perfusion at the apex.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Pulmonary Physiotherapy",
+   "sourcePage": 131,
+   "subject": "Physiology",
+   "bankRef": "khayti-ph.json::khph-44"
+  },
+  {
+   "topic": "Synovectomy",
+   "subtopic": "Synovectomy",
+   "difficulty": "Hard",
+   "question": "Chemical synovectomy is done by:",
+   "options": {
+    "A": "Osmic acid",
+    "B": "Chymopapain",
+    "C": "Chymotrypsin",
+    "D": "Trypsin"
+   },
+   "correctAnswer": "A",
+   "explanation": "Osmic acid (and radioactive isotopes) are used for chemical synovectomy.",
+   "sourceBook": "Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed., Jaypee 2020)",
+   "sourceChapter": "Cited reference: Essential Orthopedics/Maheshwari/3rd Ed./Pg. 232",
+   "sourcePage": null,
+   "id": 82,
+   "subject": "General Surgery & Orthopedics",
+   "bankRef": "mpt-book-su.json::mptSU-116"
+  },
+  {
+   "id": 83,
+   "topic": "Lymphoedema",
+   "subtopic": "Staging",
+   "difficulty": "Medium",
+   "question": "Extreme swelling with fibrosis and sclerosis (elephantiasis) is stage ______ of lymphoedema.",
+   "options": {
+    "A": "3",
+    "B": "1",
+    "C": "0",
+    "D": "2"
+   },
+   "correctAnswer": "A",
+   "explanation": "Stage 3 (lymphostatic elephantiasis) has skin changes and gross enlargement.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Cardiac Physiotherapy",
+   "sourcePage": 125,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "khayti-gm.json::khgm-68"
+  },
+  {
+   "id": 84,
+   "topic": "Brain Anatomy",
+   "subtopic": "Embryology",
+   "difficulty": "Hard",
+   "question": "The rhombencephalon (hindbrain) consists of the:",
+   "options": {
+    "A": "Cerebrum and diencephalon",
+    "B": "Metencephalon and myelencephalon",
+    "C": "Telencephalon and diencephalon",
+    "D": "Tectum and tegmentum"
+   },
+   "correctAnswer": "B",
+   "explanation": "The hindbrain gives rise to the pons and cerebellum (metencephalon) and the medulla (myelencephalon).",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Neurological Physiotherapy",
+   "sourcePage": 73,
+   "subject": "Anatomy",
+   "bankRef": "khayti-an.json::khan-14"
+  },
+  {
+   "topic": "Hand Splints",
+   "subtopic": "Hand Splints",
+   "difficulty": "Medium",
+   "question": "____splint is prescribed for a case of median nerve injury.",
+   "options": {
+    "A": "Cock-up",
+    "B": "Knuckle bender",
+    "C": "Pan cake",
+    "D": "Short opponens"
+   },
+   "correctAnswer": "D",
+   "explanation": "A short opponens splint holds the thumb in opposition for median nerve palsy.",
+   "sourceBook": "Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed., Jaypee 2020)",
+   "sourceChapter": "Cited reference: Refer to Text",
+   "sourcePage": null,
+   "id": 85,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "mpt-book-ms.json::mptMS-143"
+  },
+  {
+   "id": 86,
+   "topic": "Accessory Motion",
+   "subtopic": "Kaltenborn Grades",
+   "difficulty": "Hard",
+   "question": "In Kaltenborn's grading, grade 0 of accessory joint motion means:",
+   "options": {
+    "A": "Ankylosed joint",
+    "B": "Slight hypomobility",
+    "C": "Considerable hypomobility",
+    "D": "Normal"
+   },
+   "correctAnswer": "A",
+   "explanation": "Grade 0 is no detectable motion (ankylosis).",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Musculoskeletal Physiotherapy",
+   "sourcePage": 18,
+   "subject": "Physical Diagnosis & Manipulative Skills",
+   "bankRef": "khayti-pd.json::khpd-91"
+  },
+  {
+   "id": 87,
+   "topic": "Receptor Pharmacology",
+   "subtopic": "Transmembrane Enzyme-Linked Receptors",
+   "difficulty": "Medium",
+   "question": "Insulin and epidermal growth factor (EGF) act through which type of receptor?",
+   "options": {
+    "A": "G-protein coupled receptors",
+    "B": "Ligand-gated ion channels",
+    "C": "Receptor tyrosine kinases (transmembrane enzyme-linked receptors)",
+    "D": "Cytoplasmic nuclear receptors"
+   },
+   "correctAnswer": "C",
+   "explanation": "Insulin, EGF, and many other growth factors act through receptor tyrosine kinases: hormone binding causes receptor dimerization, activating an intracellular tyrosine kinase domain that autophosphorylates and triggers downstream signalling — a process that plays out over minutes to hours, much slower than ion-channel receptors.",
+   "sourceBook": "KD Tripathi, Essentials of Medical Pharmacology",
+   "sourceChapter": "Mechanism of Drug Action; Receptor Pharmacology",
+   "sourcePage": null,
+   "subject": "Pharmacology",
+   "bankRef": "pharmacology.json::pharm-10"
+  },
+  {
+   "topic": "Prosthetic Training",
+   "subtopic": "Prosthetic Training",
+   "difficulty": "Medium",
+   "question": "A therapist begins prosthetic training activities for a patient with a transtibial amputation. Which of the following is the most appropriate initial activity?",
+   "options": {
+    "A": "Ascending and descending stairs",
+    "B": "Marching in place",
+    "C": "Walking on even ground",
+    "D": "Weight shifting in standing"
+   },
+   "correctAnswer": "D",
+   "explanation": "Weight shifting in standing (to learn loading the prosthesis) is the first step of transtibial prosthetic training.",
+   "sourceBook": "Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed., Jaypee 2020)",
+   "sourceChapter": "Cited reference: Jayant Joshi/Pg. 245",
+   "sourcePage": null,
+   "id": 88,
+   "subject": "Physiotherapy in Musculoskeletal Condition",
+   "bankRef": "mpt-book-ms.json::mptMS-109"
+  },
+  {
+   "topic": "Erythema Grades",
+   "subtopic": "Erythema Grades",
+   "difficulty": "Medium",
+   "question": "A therapist revises the results of ultraviolet testing. Which grade of erythemal dose best describe the time required for mold reddening of the skin?",
+   "options": {
+    "A": "Suberythemal dose",
+    "B": "Minimal erythemal dose",
+    "C": "Second degree erythema",
+    "D": "Third degree erythema Microwave"
+   },
+   "correctAnswer": "B",
+   "explanation": "The minimal erythema dose produces mild reddening.",
+   "sourceBook": "Suraj Kumar, MCQs for MPT Entrance Examination (2nd ed., Jaypee 2020)",
+   "sourceChapter": "Cited reference: Electrotherapy Clayton/9th Ed./Pg. 186",
+   "sourcePage": null,
+   "id": 89,
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "mpt-book-el.json::mptEL-170"
+  },
+  {
+   "id": 90,
+   "topic": "Electrical Currents",
+   "subtopic": "Current Density",
+   "difficulty": "Medium",
+   "question": "If the size of the electrode is small, the current density will be ______ and the perception of the stimulus will be ______.",
+   "options": {
+    "A": "Low; less",
+    "B": "High; more",
+    "C": "High; less",
+    "D": "Low; more"
+   },
+   "correctAnswer": "B",
+   "explanation": "Small electrodes give a high density and a stronger sensation.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Electrotherapeutics",
+   "sourcePage": 219,
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "khayti-el.json::khel-56"
+  },
+  {
+   "id": 91,
+   "topic": "ECG",
+   "subtopic": "Lead Territories",
+   "difficulty": "Medium",
+   "question": "On ECG, leads II, III and aVF correspond to the ______ wall of the heart.",
+   "options": {
+    "A": "Lateral",
+    "B": "Anterior",
+    "C": "Septal",
+    "D": "Inferior"
+   },
+   "correctAnswer": "D",
+   "explanation": "These leads look at the inferior wall (right coronary artery territory).",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Cardiac Physiotherapy",
+   "sourcePage": 111,
+   "subject": "Physiotherapy in General Medical & Surgical Condition",
+   "bankRef": "khayti-gm.json::khgm-11"
+  },
+  {
+   "id": 92,
+   "topic": "EMG",
+   "subtopic": "Spontaneous Activity",
+   "difficulty": "Medium",
+   "question": "Which of the following spontaneous activities is considered normal on EMG?",
+   "options": {
+    "A": "Positive sharp waves",
+    "B": "End-plate spikes",
+    "C": "Fasciculation potentials",
+    "D": "Fibrillation potentials"
+   },
+   "correctAnswer": "B",
+   "explanation": "End-plate noise and spikes are normal findings during needle insertion near the motor point.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Electrotherapeutics",
+   "sourcePage": 226,
+   "subject": "Fundamentals of Electro Therapy",
+   "bankRef": "khayti-el.json::khel-91"
+  },
+  {
+   "id": 93,
+   "topic": "CSF",
+   "subtopic": "Protein",
+   "difficulty": "Hard",
+   "question": "The normal protein content of CSF in an adult is:",
+   "options": {
+    "A": "15-45 mg/dL",
+    "B": "45-60 mg/dL",
+    "C": "75-90 mg/dL",
+    "D": "100-150 mg/dL"
+   },
+   "correctAnswer": "A",
+   "explanation": "CSF protein is normally 15-45 mg/dL; it rises in meningitis and GBS.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Neurological Physiotherapy",
+   "sourcePage": 80,
+   "subject": "Physiology",
+   "bankRef": "khayti-ph.json::khph-16"
+  },
+  {
+   "id": 94,
+   "topic": "Gait Deviations",
+   "subtopic": "Pathological Gait",
+   "difficulty": "Hard",
+   "question": "A hyperextended (recurvatum) knee during stance suggests:",
+   "options": {
+    "A": "Spastic hip flexors",
+    "B": "Spastic adductors",
+    "C": "Weak hip abductors",
+    "D": "Weak knee extensors (quadriceps)"
+   },
+   "correctAnswer": "D",
+   "explanation": "Patients with a weak quadriceps lock the knee back to stand.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Neurological Physiotherapy",
+   "sourcePage": 91,
+   "subject": "Physiotherapy in Neurosciences",
+   "bankRef": "khayti-ne.json::khne-111"
+  },
+  {
+   "id": 95,
+   "topic": "Biostatistics",
+   "subtopic": "Hypothesis Testing",
+   "difficulty": "Medium",
+   "question": "When the p-value is less than the alpha value, the null hypothesis is:",
+   "options": {
+    "A": "Partly rejected",
+    "B": "Ignored",
+    "C": "Accepted",
+    "D": "Rejected"
+   },
+   "correctAnswer": "D",
+   "explanation": "A significant result rejects the null hypothesis.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Evidence Based Practice and Research",
+   "sourcePage": 254,
+   "subject": "Physiotherapy in Community Health",
+   "bankRef": "khayti-co.json::khco-57"
+  },
+  {
+   "id": 96,
+   "topic": "Research",
+   "subtopic": "Reliability",
+   "difficulty": "Medium",
+   "question": "When a test shows consistency by multiple raters, it is ______ reliability.",
+   "options": {
+    "A": "Test-retest",
+    "B": "Inter-rater",
+    "C": "Split-half",
+    "D": "Intra-rater"
+   },
+   "correctAnswer": "B",
+   "explanation": "Inter-rater reliability measures agreement between different examiners.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Evidence Based Practice and Research",
+   "sourcePage": 251,
+   "subject": "Physiotherapy in Community Health",
+   "bankRef": "khayti-co.json::khco-37"
+  },
+  {
+   "id": 97,
+   "topic": "Research",
+   "subtopic": "Study Designs",
+   "difficulty": "Medium",
+   "question": "Which studies are employed to describe the occurrence of an outcome?",
+   "options": {
+    "A": "Descriptive studies",
+    "B": "Analytic studies",
+    "C": "Randomised trials",
+    "D": "Experimental studies"
+   },
+   "correctAnswer": "A",
+   "explanation": "Descriptive studies document who, where and when.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Evidence Based Practice and Research",
+   "sourcePage": 248,
+   "subject": "Physiotherapy in Community Health",
+   "bankRef": "khayti-co.json::khco-10"
+  },
+  {
+   "id": 98,
+   "topic": "Special Tests",
+   "subtopic": "Neurodynamics",
+   "difficulty": "Hard",
+   "question": "In the slump test, adding hip abduction with flexion to 90 degrees places maximum tension on the:",
+   "options": {
+    "A": "Obturator nerve",
+    "B": "Sciatic nerve",
+    "C": "Femoral nerve",
+    "D": "Common peroneal nerve"
+   },
+   "correctAnswer": "A",
+   "explanation": "Hip abduction in the slump test biases the obturator nerve.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Musculoskeletal Physiotherapy",
+   "sourcePage": 47,
+   "subject": "Physical Diagnosis & Manipulative Skills",
+   "bankRef": "khayti-pd.json::khpd-167"
+  },
+  {
+   "id": 99,
+   "topic": "Ligament Injury",
+   "subtopic": "Ankle Sprain Grades",
+   "difficulty": "Hard",
+   "question": "A minimal tear of the anterior talofibular ligament is graded as ankle sprain:",
+   "options": {
+    "A": "Grade 4",
+    "B": "Grade 1",
+    "C": "Grade 3",
+    "D": "Grade 2"
+   },
+   "correctAnswer": "B",
+   "explanation": "Grade 1: stretch or minimal tear of the ATFL with minimal functional loss.",
+   "sourceBook": "Khayti Shah, Question Bank for Physiotherapy Licensure and Entrance Exams",
+   "sourceChapter": "Musculoskeletal Physiotherapy",
+   "sourcePage": 55,
+   "subject": "General Surgery & Orthopedics",
+   "bankRef": "khayti-su.json::khsu-27"
+  },
+  {
+   "id": 100,
+   "topic": "Cardiovascular Drugs",
+   "subtopic": "Statin Myopathy",
+   "difficulty": "Medium",
+   "question": "A recognised adverse effect of statins is:",
+   "options": {
+    "A": "Myopathy and rhabdomyolysis",
+    "B": "Gingival hyperplasia",
+    "C": "Ototoxicity",
+    "D": "Cough"
+   },
+   "correctAnswer": "A",
+   "explanation": "Monitor CK if symptomatic.",
+   "sourceBook": "K.D. Tripathi, Essentials of Medical Pharmacology (chapter-level reference)",
+   "sourceChapter": "Cardiovascular Drugs",
+   "sourcePage": null,
+   "subject": "Pharmacology",
+   "bankRef": "pharmacology3.json::pharm3-21"
+  }
+ ]
+}
