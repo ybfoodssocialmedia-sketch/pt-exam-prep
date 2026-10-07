@@ -8,7 +8,7 @@
     "anatomy3.json",
     "mpt-book-an.json"
    ],
-   "count": 156,
+   "count": 203,
    "topics": [
     {
      "topic": "Upper Limb",
@@ -43,11 +43,35 @@
      "count": 4
     },
     {
+     "topic": "Brachial Plexus",
+     "count": 4
+    },
+    {
      "topic": "Radial Nerve",
+     "count": 4
+    },
+    {
+     "topic": "Cartilage",
      "count": 3
     },
     {
      "topic": "Rotator Cuff",
+     "count": 3
+    },
+    {
+     "topic": "Ulnar Nerve",
+     "count": 3
+    },
+    {
+     "topic": "Median Nerve",
+     "count": 2
+    },
+    {
+     "topic": "Ankle Joint",
+     "count": 2
+    },
+    {
+     "topic": "Ossification",
      "count": 2
     },
     {
@@ -55,19 +79,131 @@
      "count": 2
     },
     {
-     "topic": "Ulnar Nerve",
-     "count": 2
-    },
-    {
      "topic": "Sensory Supply",
      "count": 2
     },
     {
-     "topic": "Spinal Ligaments",
+     "topic": "Cranial Nerves",
      "count": 1
     },
     {
-     "topic": "Cartilage",
+     "topic": "Diaphragm",
+     "count": 1
+    },
+    {
+     "topic": "Foot Bones",
+     "count": 1
+    },
+    {
+     "topic": "Urinary Tract",
+     "count": 1
+    },
+    {
+     "topic": "Mandible Muscles",
+     "count": 1
+    },
+    {
+     "topic": "Peripheral Nerves",
+     "count": 1
+    },
+    {
+     "topic": "Anatomical Snuffbox",
+     "count": 1
+    },
+    {
+     "topic": "Avulsion Fracture",
+     "count": 1
+    },
+    {
+     "topic": "Ligaments",
+     "count": 1
+    },
+    {
+     "topic": "Mediastinum",
+     "count": 1
+    },
+    {
+     "topic": "Shoulder Ligaments",
+     "count": 1
+    },
+    {
+     "topic": "Glenoid Labrum",
+     "count": 1
+    },
+    {
+     "topic": "Elbow Ligaments",
+     "count": 1
+    },
+    {
+     "topic": "Cubital Tunnel Syndrome",
+     "count": 1
+    },
+    {
+     "topic": "Shoulder Anatomy",
+     "count": 1
+    },
+    {
+     "topic": "Glenohumeral Ligaments",
+     "count": 1
+    },
+    {
+     "topic": "Tendon Structure",
+     "count": 1
+    },
+    {
+     "topic": "Posterior Cruciate Ligament",
+     "count": 1
+    },
+    {
+     "topic": "Pelvic Floor",
+     "count": 1
+    },
+    {
+     "topic": "Hip Ligaments",
+     "count": 1
+    },
+    {
+     "topic": "Supraspinatus",
+     "count": 1
+    },
+    {
+     "topic": "Glenohumeral Stability",
+     "count": 1
+    },
+    {
+     "topic": "Hip Joint",
+     "count": 1
+    },
+    {
+     "topic": "Menisci",
+     "count": 1
+    },
+    {
+     "topic": "Pes Anserinus",
+     "count": 1
+    },
+    {
+     "topic": "Shoulder Muscles",
+     "count": 1
+    },
+    {
+     "topic": "Spring Ligament",
+     "count": 1
+    },
+    {
+     "topic": "Peroneal Nerve",
+     "count": 1
+    },
+    {
+     "topic": "Growth Plate",
+     "count": 1
+    },
+    {
+     "topic": "Muscle Terminology",
+     "count": 1
+    },
+    {
+     "topic": "Spinal Ligaments",
      "count": 1
     },
     {
@@ -88,10 +224,6 @@
     },
     {
      "topic": "Wrist Flexors",
-     "count": 1
-    },
-    {
-     "topic": "Brachial Plexus",
      "count": 1
     },
     {
@@ -133,6 +265,18 @@
     {
      "topic": "Subtalar Joint",
      "count": 1
+    },
+    {
+     "topic": "Blood Supply",
+     "count": 1
+    },
+    {
+     "topic": "Bone Growth",
+     "count": 1
+    },
+    {
+     "topic": "Pneumatic Bones",
+     "count": 1
     }
    ]
   },
@@ -141,9 +285,10 @@
    "files": [
     "biochemistry.json",
     "biochemistry2.json",
-    "biochemistry3.json"
+    "biochemistry3.json",
+    "mpt-book-bc.json"
    ],
-   "count": 83,
+   "count": 89,
    "topics": [
     {
      "topic": "Proteins and Amino Acids",
@@ -188,6 +333,30 @@
     {
      "topic": "Clinical Biochemistry",
      "count": 3
+    },
+    {
+     "topic": "Bone Markers",
+     "count": 1
+    },
+    {
+     "topic": "Osteomalacia",
+     "count": 1
+    },
+    {
+     "topic": "Krebs Cycle",
+     "count": 1
+    },
+    {
+     "topic": "Diet Planning",
+     "count": 1
+    },
+    {
+     "topic": "Collagen",
+     "count": 1
+    },
+    {
+     "topic": "Synovial Fluid",
+     "count": 1
     }
    ]
   },
@@ -200,7 +369,7 @@
     "electrotherapy5.json",
     "mpt-book-el.json"
    ],
-   "count": 538,
+   "count": 552,
    "topics": [
     {
      "topic": "Basic Electricity",
@@ -220,11 +389,11 @@
     },
     {
      "topic": "Shortwave Diathermy",
-     "count": 22
+     "count": 24
     },
     {
      "topic": "Electrical Stimulation",
-     "count": 21
+     "count": 22
     },
     {
      "topic": "Cryotherapy",
@@ -267,6 +436,14 @@
      "count": 9
     },
     {
+     "topic": "Iontophoresis",
+     "count": 9
+    },
+    {
+     "topic": "Interferential Therapy",
+     "count": 8
+    },
+    {
      "topic": "Microwave Diathermy",
      "count": 8
     },
@@ -279,10 +456,6 @@
      "count": 8
     },
     {
-     "topic": "Interferential Therapy",
-     "count": 7
-    },
-    {
      "topic": "Thermal Agents",
      "count": 7
     },
@@ -292,10 +465,6 @@
     },
     {
      "topic": "TENS",
-     "count": 5
-    },
-    {
-     "topic": "Iontophoresis",
      "count": 5
     },
     {
@@ -328,6 +497,14 @@
     },
     {
      "topic": "Magnetic Therapy",
+     "count": 2
+    },
+    {
+     "topic": "Eddy Currents",
+     "count": 2
+    },
+    {
+     "topic": "Faradic Current",
      "count": 2
     },
     {
@@ -391,6 +568,22 @@
      "count": 2
     },
     {
+     "topic": "Pain Gate Theory",
+     "count": 1
+    },
+    {
+     "topic": "Therapeutic Ultrasound",
+     "count": 1
+    },
+    {
+     "topic": "Electromyography",
+     "count": 1
+    },
+    {
+     "topic": "Interferential Current",
+     "count": 1
+    },
+    {
      "topic": "Mains Plug",
      "count": 1
     },
@@ -452,10 +645,6 @@
     },
     {
      "topic": "Low Frequency",
-     "count": 1
-    },
-    {
-     "topic": "Faradic Current",
      "count": 1
     },
     {
@@ -568,10 +757,6 @@
     },
     {
      "topic": "Dry vs Moist Heat",
-     "count": 1
-    },
-    {
-     "topic": "Eddy Currents",
      "count": 1
     },
     {
@@ -941,7 +1126,7 @@
     "exercise-therapy4.json",
     "mpt-book-ex.json"
    ],
-   "count": 200,
+   "count": 226,
    "topics": [
     {
      "topic": "Principles of Exercise",
@@ -957,6 +1142,10 @@
     },
     {
      "topic": "Stretching",
+     "count": 12
+    },
+    {
+     "topic": "Massage",
      "count": 11
     },
     {
@@ -965,10 +1154,6 @@
     },
     {
      "topic": "Types of Exercise",
-     "count": 9
-    },
-    {
-     "topic": "Massage",
      "count": 9
     },
     {
@@ -1008,6 +1193,10 @@
      "count": 7
     },
     {
+     "topic": "Gait Pattern",
+     "count": 7
+    },
+    {
      "topic": "Hydrotherapy",
      "count": 6
     },
@@ -1020,6 +1209,10 @@
      "count": 2
     },
     {
+     "topic": "Wheelchair Prescription",
+     "count": 2
+    },
+    {
      "topic": "PNF",
      "count": 2
     },
@@ -1028,11 +1221,35 @@
      "count": 2
     },
     {
+     "topic": "Assistive Device",
+     "count": 2
+    },
+    {
+     "topic": "Crutch Walking",
+     "count": 2
+    },
+    {
      "topic": "Aquatic Therapy",
      "count": 1
     },
     {
      "topic": "Home Programme",
+     "count": 1
+    },
+    {
+     "topic": "Muscle Contraction",
+     "count": 1
+    },
+    {
+     "topic": "Exercise Principles",
+     "count": 1
+    },
+    {
+     "topic": "Maximum Heart Rate",
+     "count": 1
+    },
+    {
+     "topic": "Wheelchair Measurement",
      "count": 1
     },
     {
@@ -1065,6 +1282,10 @@
     },
     {
      "topic": "Assisted Exercise",
+     "count": 1
+    },
+    {
+     "topic": "PNF Techniques",
      "count": 1
     },
     {
@@ -1106,6 +1327,26 @@
     {
      "topic": "Quadriceps Setting",
      "count": 1
+    },
+    {
+     "topic": "Cane Use",
+     "count": 1
+    },
+    {
+     "topic": "Stair Guarding",
+     "count": 1
+    },
+    {
+     "topic": "Cane Length",
+     "count": 1
+    },
+    {
+     "topic": "Walker Fitting",
+     "count": 1
+    },
+    {
+     "topic": "Stair Training",
+     "count": 1
     }
    ]
   },
@@ -1118,7 +1359,7 @@
     "surgery-ortho3.json",
     "surgery-ortho4.json"
    ],
-   "count": 259,
+   "count": 454,
    "topics": [
     {
      "topic": "Orthopaedics - Trauma",
@@ -1149,6 +1390,10 @@
      "count": 7
     },
     {
+     "topic": "Hip Dislocation",
+     "count": 6
+    },
+    {
      "topic": "Orthopaedics - Paediatric",
      "count": 6
     },
@@ -1157,12 +1402,36 @@
      "count": 6
     },
     {
+     "topic": "Bone Tumours",
+     "count": 5
+    },
+    {
+     "topic": "Spinal TB",
+     "count": 5
+    },
+    {
      "topic": "Clubfoot",
+     "count": 5
+    },
+    {
+     "topic": "Shoulder Dislocation",
+     "count": 5
+    },
+    {
+     "topic": "Osteosarcoma",
      "count": 5
     },
     {
      "topic": "Endocrine & Breast Surgery",
      "count": 5
+    },
+    {
+     "topic": "Osteoporosis",
+     "count": 4
+    },
+    {
+     "topic": "Fat Embolism",
+     "count": 4
     },
     {
      "topic": "Vascular Surgery",
@@ -1174,6 +1443,38 @@
     },
     {
      "topic": "Pseudogout",
+     "count": 3
+    },
+    {
+     "topic": "Osteogenesis Imperfecta",
+     "count": 3
+    },
+    {
+     "topic": "Colles Fracture",
+     "count": 3
+    },
+    {
+     "topic": "Avascular Necrosis",
+     "count": 3
+    },
+    {
+     "topic": "Stress Fracture",
+     "count": 3
+    },
+    {
+     "topic": "Pathological Fracture",
+     "count": 3
+    },
+    {
+     "topic": "Bursitis",
+     "count": 3
+    },
+    {
+     "topic": "Club Foot",
+     "count": 3
+    },
+    {
+     "topic": "Dupuytren Contracture",
      "count": 3
     },
     {
@@ -1189,19 +1490,7 @@
      "count": 3
     },
     {
-     "topic": "Hip Dislocation",
-     "count": 2
-    },
-    {
      "topic": "TMJ Dislocation",
-     "count": 2
-    },
-    {
-     "topic": "Bone Tumours",
-     "count": 2
-    },
-    {
-     "topic": "Spinal TB",
      "count": 2
     },
     {
@@ -1209,7 +1498,71 @@
      "count": 2
     },
     {
+     "topic": "Greenstick Fracture",
+     "count": 2
+    },
+    {
+     "topic": "Rocker-bottom Foot",
+     "count": 2
+    },
+    {
+     "topic": "Fracture Signs",
+     "count": 2
+    },
+    {
+     "topic": "Fracture Neck of Femur",
+     "count": 2
+    },
+    {
+     "topic": "Non-union",
+     "count": 2
+    },
+    {
+     "topic": "Bennett Fracture",
+     "count": 2
+    },
+    {
+     "topic": "Supracondylar Fracture",
+     "count": 2
+    },
+    {
+     "topic": "Scaphoid Fracture",
+     "count": 2
+    },
+    {
+     "topic": "Chondroblastoma",
+     "count": 2
+    },
+    {
+     "topic": "Spinal Injury",
+     "count": 2
+    },
+    {
+     "topic": "Volkmann Ischaemia",
+     "count": 2
+    },
+    {
+     "topic": "Accessory Bones",
+     "count": 2
+    },
+    {
+     "topic": "Volkmann Contracture",
+     "count": 2
+    },
+    {
+     "topic": "Osteomyelitis",
+     "count": 2
+    },
+    {
+     "topic": "Bankart Lesion",
+     "count": 2
+    },
+    {
      "topic": "Birth Injuries",
+     "count": 2
+    },
+    {
+     "topic": "Bohler Angle",
      "count": 2
     },
     {
@@ -1249,10 +1602,6 @@
      "count": 1
     },
     {
-     "topic": "Greenstick Fracture",
-     "count": 1
-    },
-    {
      "topic": "Charcot's Joint",
      "count": 1
     },
@@ -1273,10 +1622,6 @@
      "count": 1
     },
     {
-     "topic": "Shoulder Dislocation",
-     "count": 1
-    },
-    {
      "topic": "Neuropathic Joint",
      "count": 1
     },
@@ -1285,19 +1630,459 @@
      "count": 1
     },
     {
-     "topic": "Rocker-bottom Foot",
+     "topic": "Septic Arthritis",
      "count": 1
     },
     {
-     "topic": "Fracture Signs",
+     "topic": "March Fracture",
      "count": 1
     },
     {
-     "topic": "Osteosarcoma",
+     "topic": "Trauma Management",
      "count": 1
     },
     {
-     "topic": "Osteogenesis Imperfecta",
+     "topic": "Open Fractures",
+     "count": 1
+    },
+    {
+     "topic": "Fracture Rehabilitation",
+     "count": 1
+    },
+    {
+     "topic": "Calcaneal Fracture",
+     "count": 1
+    },
+    {
+     "topic": "Proximal Humerus Fracture",
+     "count": 1
+    },
+    {
+     "topic": "Acetabular Fracture",
+     "count": 1
+    },
+    {
+     "topic": "Carpal Fracture",
+     "count": 1
+    },
+    {
+     "topic": "Fracture Healing",
+     "count": 1
+    },
+    {
+     "topic": "Shepherd Crook Deformity",
+     "count": 1
+    },
+    {
+     "topic": "Sunray Appearance",
+     "count": 1
+    },
+    {
+     "topic": "Radiosensitivity",
+     "count": 1
+    },
+    {
+     "topic": "Ankylosis",
+     "count": 1
+    },
+    {
+     "topic": "Onion Peel Appearance",
+     "count": 1
+    },
+    {
+     "topic": "Soap Bubble Appearance",
+     "count": 1
+    },
+    {
+     "topic": "Osteochondritis",
+     "count": 1
+    },
+    {
+     "topic": "Bone Cyst",
+     "count": 1
+    },
+    {
+     "topic": "Osteochondritis Dissecans",
+     "count": 1
+    },
+    {
+     "topic": "Bone Metastases",
+     "count": 1
+    },
+    {
+     "topic": "Sclerosis",
+     "count": 1
+    },
+    {
+     "topic": "Arthroscopy",
+     "count": 1
+    },
+    {
+     "topic": "Osteopetrosis",
+     "count": 1
+    },
+    {
+     "topic": "Carpal Dislocation",
+     "count": 1
+    },
+    {
+     "topic": "Pulled Elbow",
+     "count": 1
+    },
+    {
+     "topic": "Patellar Instability",
+     "count": 1
+    },
+    {
+     "topic": "Tuberculous Arthritis",
+     "count": 1
+    },
+    {
+     "topic": "Sickle Cell Disease",
+     "count": 1
+    },
+    {
+     "topic": "Caisson Disease",
+     "count": 1
+    },
+    {
+     "topic": "Skeletal TB",
+     "count": 1
+    },
+    {
+     "topic": "Spinal Osteomyelitis",
+     "count": 1
+    },
+    {
+     "topic": "Enchondroma",
+     "count": 1
+    },
+    {
+     "topic": "Triple Arthrodesis",
+     "count": 1
+    },
+    {
+     "topic": "Charcot Joint",
+     "count": 1
+    },
+    {
+     "topic": "Knee Injury",
+     "count": 1
+    },
+    {
+     "topic": "Pott Disease",
+     "count": 1
+    },
+    {
+     "topic": "Jefferson Fracture",
+     "count": 1
+    },
+    {
+     "topic": "Vertebral Haemangioma",
+     "count": 1
+    },
+    {
+     "topic": "Schmorl Node",
+     "count": 1
+    },
+    {
+     "topic": "Hyperparathyroidism",
+     "count": 1
+    },
+    {
+     "topic": "Osteoid Osteoma",
+     "count": 1
+    },
+    {
+     "topic": "Disc Prolapse",
+     "count": 1
+    },
+    {
+     "topic": "Synovectomy",
+     "count": 1
+    },
+    {
+     "topic": "Achondroplasia",
+     "count": 1
+    },
+    {
+     "topic": "Trident Hand",
+     "count": 1
+    },
+    {
+     "topic": "Giant Cell Tumour",
+     "count": 1
+    },
+    {
+     "topic": "Osteoporotic Fractures",
+     "count": 1
+    },
+    {
+     "topic": "Fracture Remodelling",
+     "count": 1
+    },
+    {
+     "topic": "Bone Graft",
+     "count": 1
+    },
+    {
+     "topic": "Ivory Osteoma",
+     "count": 1
+    },
+    {
+     "topic": "Multiple Myeloma",
+     "count": 1
+    },
+    {
+     "topic": "Traction",
+     "count": 1
+    },
+    {
+     "topic": "Orthopaedic History",
+     "count": 1
+    },
+    {
+     "topic": "Hill-Sachs Lesion",
+     "count": 1
+    },
+    {
+     "topic": "Splints",
+     "count": 1
+    },
+    {
+     "topic": "Osteotomy",
+     "count": 1
+    },
+    {
+     "topic": "Triple Deformity",
+     "count": 1
+    },
+    {
+     "topic": "Gunstock Deformity",
+     "count": 1
+    },
+    {
+     "topic": "Mallet Finger",
+     "count": 1
+    },
+    {
+     "topic": "Rickets",
+     "count": 1
+    },
+    {
+     "topic": "Cryptorchidism",
+     "count": 1
+    },
+    {
+     "topic": "Renal Stones",
+     "count": 1
+    },
+    {
+     "topic": "Dog Bite",
+     "count": 1
+    },
+    {
+     "topic": "Sprain",
+     "count": 1
+    },
+    {
+     "topic": "Dislocation",
+     "count": 1
+    },
+    {
+     "topic": "Femoral Shaft Fracture",
+     "count": 1
+    },
+    {
+     "topic": "Patellar Dislocation",
+     "count": 1
+    },
+    {
+     "topic": "Ligament Sprain",
+     "count": 1
+    },
+    {
+     "topic": "Hamstring Injury",
+     "count": 1
+    },
+    {
+     "topic": "Coxa Vara",
+     "count": 1
+    },
+    {
+     "topic": "Low Back Pain",
+     "count": 1
+    },
+    {
+     "topic": "Osteopoikilosis",
+     "count": 1
+    },
+    {
+     "topic": "Carrying Angle",
+     "count": 1
+    },
+    {
+     "topic": "Galeazzi Fracture",
+     "count": 1
+    },
+    {
+     "topic": "Fracture Management",
+     "count": 1
+    },
+    {
+     "topic": "Femoral Fracture",
+     "count": 1
+    },
+    {
+     "topic": "Rolando Fracture",
+     "count": 1
+    },
+    {
+     "topic": "Tardy Ulnar Palsy",
+     "count": 1
+    },
+    {
+     "topic": "Pilon Fracture",
+     "count": 1
+    },
+    {
+     "topic": "Essex-Lopresti Injury",
+     "count": 1
+    },
+    {
+     "topic": "Shoulder Reduction",
+     "count": 1
+    },
+    {
+     "topic": "Ankle Fracture",
+     "count": 1
+    },
+    {
+     "topic": "Clutton Joints",
+     "count": 1
+    },
+    {
+     "topic": "Femoral Neck Fracture",
+     "count": 1
+    },
+    {
+     "topic": "Infantile Coxa Vara",
+     "count": 1
+    },
+    {
+     "topic": "Trethowan Sign",
+     "count": 1
+    },
+    {
+     "topic": "Klippel-Feil Syndrome",
+     "count": 1
+    },
+    {
+     "topic": "Genu Varum",
+     "count": 1
+    },
+    {
+     "topic": "Melorheostosis",
+     "count": 1
+    },
+    {
+     "topic": "Torticollis",
+     "count": 1
+    },
+    {
+     "topic": "Lisfranc Injury",
+     "count": 1
+    },
+    {
+     "topic": "Scoliosis Casts",
+     "count": 1
+    },
+    {
+     "topic": "Pseudarthrosis",
+     "count": 1
+    },
+    {
+     "topic": "Clavicle Fracture",
+     "count": 1
+    },
+    {
+     "topic": "Myositis Ossificans",
+     "count": 1
+    },
+    {
+     "topic": "De Quervain Disease",
+     "count": 1
+    },
+    {
+     "topic": "Perthes Disease",
+     "count": 1
+    },
+    {
+     "topic": "Avulsion",
+     "count": 1
+    },
+    {
+     "topic": "Tom Smith Arthritis",
+     "count": 1
+    },
+    {
+     "topic": "Cold Abscess",
+     "count": 1
+    },
+    {
+     "topic": "Medial Epicondyle Fracture",
+     "count": 1
+    },
+    {
+     "topic": "Dashboard Injury",
+     "count": 1
+    },
+    {
+     "topic": "Gamekeeper Thumb",
+     "count": 1
+    },
+    {
+     "topic": "Intramedullary Nailing",
+     "count": 1
+    },
+    {
+     "topic": "Sympathetic Block",
+     "count": 1
+    },
+    {
+     "topic": "Scoliosis",
+     "count": 1
+    },
+    {
+     "topic": "Central Dislocation",
+     "count": 1
+    },
+    {
+     "topic": "Hemiarthroplasty",
+     "count": 1
+    },
+    {
+     "topic": "Monteggia Fracture",
+     "count": 1
+    },
+    {
+     "topic": "Sideswipe Injury",
+     "count": 1
+    },
+    {
+     "topic": "Von Rosen Splint",
+     "count": 1
+    },
+    {
+     "topic": "Paediatric Fractures",
+     "count": 1
+    },
+    {
+     "topic": "Fracture",
+     "count": 1
+    },
+    {
+     "topic": "Axillary Nerve",
      "count": 1
     },
     {
@@ -1333,11 +2118,23 @@
      "count": 1
     },
     {
-     "topic": "Bankart Lesion",
+     "topic": "CDH Splint",
      "count": 1
     },
     {
-     "topic": "CDH Splint",
+     "topic": "Ankle Sprain",
+     "count": 1
+    },
+    {
+     "topic": "Recurrent Dislocation",
+     "count": 1
+    },
+    {
+     "topic": "Meniscus Injury",
+     "count": 1
+    },
+    {
+     "topic": "Fractures",
      "count": 1
     }
    ]
@@ -1351,7 +2148,7 @@
     "kinesio4.json",
     "mpt-book-ki.json"
    ],
-   "count": 234,
+   "count": 280,
    "topics": [
     {
      "topic": "Muscle Mechanics",
@@ -1359,7 +2156,7 @@
     },
     {
      "topic": "Gait Analysis",
-     "count": 19
+     "count": 20
     },
     {
      "topic": "Lower Limb Biomechanics",
@@ -1394,6 +2191,10 @@
      "count": 11
     },
     {
+     "topic": "Levers",
+     "count": 10
+    },
+    {
      "topic": "Kinematics",
      "count": 10
     },
@@ -1410,10 +2211,6 @@
      "count": 7
     },
     {
-     "topic": "Levers",
-     "count": 7
-    },
-    {
      "topic": "Trunk Mechanics",
      "count": 6
     },
@@ -1422,11 +2219,111 @@
      "count": 5
     },
     {
+     "topic": "Gait Parameters",
+     "count": 3
+    },
+    {
+     "topic": "Femoral Torsion",
+     "count": 2
+    },
+    {
+     "topic": "Pelvic Tilt",
+     "count": 2
+    },
+    {
+     "topic": "Gait Phases",
+     "count": 2
+    },
+    {
+     "topic": "Paediatric Gait",
+     "count": 2
+    },
+    {
      "topic": "Centre of Gravity",
      "count": 2
     },
     {
+     "topic": "Wolff Law",
+     "count": 1
+    },
+    {
+     "topic": "Rancho Gait Terms",
+     "count": 1
+    },
+    {
+     "topic": "Joint ROM",
+     "count": 1
+    },
+    {
+     "topic": "Flat Foot",
+     "count": 1
+    },
+    {
+     "topic": "Pelvic Movement",
+     "count": 1
+    },
+    {
+     "topic": "Joint Congruency",
+     "count": 1
+    },
+    {
+     "topic": "Gait",
+     "count": 1
+    },
+    {
+     "topic": "Waddling Gait",
+     "count": 1
+    },
+    {
+     "topic": "Foot Posture",
+     "count": 1
+    },
+    {
+     "topic": "Joint Lubrication",
+     "count": 1
+    },
+    {
+     "topic": "Bone Mechanics",
+     "count": 1
+    },
+    {
+     "topic": "Ground Reaction Force",
+     "count": 1
+    },
+    {
+     "topic": "Body Segments",
+     "count": 1
+    },
+    {
+     "topic": "Creep",
+     "count": 1
+    },
+    {
+     "topic": "Scapular Position",
+     "count": 1
+    },
+    {
      "topic": "Hip Abductors",
+     "count": 1
+    },
+    {
+     "topic": "Stair Climbing",
+     "count": 1
+    },
+    {
+     "topic": "Joint Limitation",
+     "count": 1
+    },
+    {
+     "topic": "Length-Tension",
+     "count": 1
+    },
+    {
+     "topic": "Gait Muscle Action",
+     "count": 1
+    },
+    {
+     "topic": "Subtalar Joint",
      "count": 1
     },
     {
@@ -1463,6 +2360,50 @@
     },
     {
      "topic": "Dorsiflexors",
+     "count": 1
+    },
+    {
+     "topic": "Trendelenburg Gait",
+     "count": 1
+    },
+    {
+     "topic": "Medial Longitudinal Arch",
+     "count": 1
+    },
+    {
+     "topic": "Hip Arthrokinematics",
+     "count": 1
+    },
+    {
+     "topic": "Toe Drag",
+     "count": 1
+    },
+    {
+     "topic": "Gait Muscle Weakness",
+     "count": 1
+    },
+    {
+     "topic": "Gait Cycle",
+     "count": 1
+    },
+    {
+     "topic": "High Steppage Gait",
+     "count": 1
+    },
+    {
+     "topic": "Heel Strike",
+     "count": 1
+    },
+    {
+     "topic": "Gait Speed",
+     "count": 1
+    },
+    {
+     "topic": "Heel Walking",
+     "count": 1
+    },
+    {
+     "topic": "Joint Receptors",
      "count": 1
     }
    ]
@@ -1553,7 +2494,7 @@
     "obgy3.json",
     "obgy4.json"
    ],
-   "count": 120,
+   "count": 125,
    "topics": [
     {
      "topic": "Gynaecology",
@@ -1588,6 +2529,14 @@
      "count": 3
     },
     {
+     "topic": "Caesarean Section",
+     "count": 2
+    },
+    {
+     "topic": "Diastasis Recti",
+     "count": 2
+    },
+    {
      "topic": "Antenatal Care",
      "count": 2
     },
@@ -1596,11 +2545,15 @@
      "count": 2
     },
     {
-     "topic": "Caesarean Section",
+     "topic": "Pregnancy",
      "count": 1
     },
     {
-     "topic": "Diastasis Recti",
+     "topic": "Turner Syndrome",
+     "count": 1
+    },
+    {
+     "topic": "Stress Incontinence",
      "count": 1
     },
     {
@@ -1616,12 +2569,13 @@
   {
    "subject": "Pathology & Microbiology",
    "files": [
+    "mpt-book-pa.json",
     "pathology.json",
     "pathology2.json",
     "pathology3.json",
     "pathology4.json"
    ],
-   "count": 157,
+   "count": 176,
    "topics": [
     {
      "topic": "Microbiology",
@@ -1672,6 +2626,14 @@
      "count": 3
     },
     {
+     "topic": "Multiple Myeloma",
+     "count": 2
+    },
+    {
+     "topic": "Rheumatoid Arthritis",
+     "count": 2
+    },
+    {
      "topic": "Cardiovascular Pathology",
      "count": 2
     },
@@ -1682,6 +2644,66 @@
     {
      "topic": "Bone & Joint Pathology",
      "count": 2
+    },
+    {
+     "topic": "Rheumatoid Factor",
+     "count": 1
+    },
+    {
+     "topic": "Bone Metastases",
+     "count": 1
+    },
+    {
+     "topic": "Blood Groups",
+     "count": 1
+    },
+    {
+     "topic": "Hyperbaric Oxygen",
+     "count": 1
+    },
+    {
+     "topic": "Animal Bites",
+     "count": 1
+    },
+    {
+     "topic": "Poliovirus",
+     "count": 1
+    },
+    {
+     "topic": "Anaemia",
+     "count": 1
+    },
+    {
+     "topic": "HLA-B27",
+     "count": 1
+    },
+    {
+     "topic": "Wilson Disease",
+     "count": 1
+    },
+    {
+     "topic": "Embolism",
+     "count": 1
+    },
+    {
+     "topic": "Diabetes Insipidus",
+     "count": 1
+    },
+    {
+     "topic": "Buerger Disease",
+     "count": 1
+    },
+    {
+     "topic": "Grafts",
+     "count": 1
+    },
+    {
+     "topic": "Gout",
+     "count": 1
+    },
+    {
+     "topic": "Bone Histology",
+     "count": 1
     }
    ]
   },
@@ -1693,7 +2715,7 @@
     "pharmacology2.json",
     "pharmacology3.json"
    ],
-   "count": 90,
+   "count": 104,
    "topics": [
     {
      "topic": "General Pharmacology",
@@ -1736,6 +2758,54 @@
      "count": 4
     },
     {
+     "topic": "NSAIDs",
+     "count": 2
+    },
+    {
+     "topic": "Diuretics",
+     "count": 2
+    },
+    {
+     "topic": "Teratogens",
+     "count": 1
+    },
+    {
+     "topic": "Drug Distribution",
+     "count": 1
+    },
+    {
+     "topic": "Bronchodilators",
+     "count": 1
+    },
+    {
+     "topic": "Beta Blockers",
+     "count": 1
+    },
+    {
+     "topic": "Drug Administration",
+     "count": 1
+    },
+    {
+     "topic": "Paracetamol",
+     "count": 1
+    },
+    {
+     "topic": "Antihypertensives",
+     "count": 1
+    },
+    {
+     "topic": "Muscle Relaxants",
+     "count": 1
+    },
+    {
+     "topic": "Antirheumatic Drugs",
+     "count": 1
+    },
+    {
+     "topic": "Digitalis",
+     "count": 1
+    },
+    {
      "topic": "Corticosteroids",
      "count": 1
     }
@@ -1750,7 +2820,7 @@
     "physical-diagnosis2.json",
     "physical-diagnosis3.json"
    ],
-   "count": 314,
+   "count": 373,
    "topics": [
     {
      "topic": "Special Tests",
@@ -1805,15 +2875,31 @@
      "count": 7
     },
     {
+     "topic": "Thomas Test",
+     "count": 5
+    },
+    {
+     "topic": "Dermatomes",
+     "count": 4
+    },
+    {
+     "topic": "Resting Position",
+     "count": 4
+    },
+    {
      "topic": "MMT Grading",
      "count": 4
     },
     {
-     "topic": "Dermatomes",
+     "topic": "SOAP Notes",
      "count": 3
     },
     {
      "topic": "Bicipital Tendinitis",
+     "count": 2
+    },
+    {
+     "topic": "Lachman Test",
      "count": 2
     },
     {
@@ -1825,11 +2911,31 @@
      "count": 2
     },
     {
+     "topic": "ROM Recording",
+     "count": 2
+    },
+    {
      "topic": "McMurray's Test",
      "count": 2
     },
     {
-     "topic": "Thomas Test",
+     "topic": "Palpation Ankle",
+     "count": 2
+    },
+    {
+     "topic": "TMJ Movements",
+     "count": 2
+    },
+    {
+     "topic": "Ober Test",
+     "count": 2
+    },
+    {
+     "topic": "Cyriax Approach",
+     "count": 2
+    },
+    {
+     "topic": "Sensory Testing",
      "count": 2
     },
     {
@@ -1865,10 +2971,6 @@
      "count": 1
     },
     {
-     "topic": "Lachman Test",
-     "count": 1
-    },
-    {
      "topic": "Ankle Tests",
      "count": 1
     },
@@ -1877,11 +2979,103 @@
      "count": 1
     },
     {
-     "topic": "ROM Recording",
+     "topic": "Bryant's Triangle",
      "count": 1
     },
     {
-     "topic": "Bryant's Triangle",
+     "topic": "Drawer Test",
+     "count": 1
+    },
+    {
+     "topic": "Card Test",
+     "count": 1
+    },
+    {
+     "topic": "Blood Pressure",
+     "count": 1
+    },
+    {
+     "topic": "Diagnostic Imaging",
+     "count": 1
+    },
+    {
+     "topic": "Pulse Assessment",
+     "count": 1
+    },
+    {
+     "topic": "Babinski Sign",
+     "count": 1
+    },
+    {
+     "topic": "Sacral Landmarks",
+     "count": 1
+    },
+    {
+     "topic": "Foot Anatomy",
+     "count": 1
+    },
+    {
+     "topic": "TMJ Capsular Pattern",
+     "count": 1
+    },
+    {
+     "topic": "Finkelstein Test",
+     "count": 1
+    },
+    {
+     "topic": "Phalen Test",
+     "count": 1
+    },
+    {
+     "topic": "Hip Tests",
+     "count": 1
+    },
+    {
+     "topic": "Squat Test",
+     "count": 1
+    },
+    {
+     "topic": "McMurray Test",
+     "count": 1
+    },
+    {
+     "topic": "Cozen Test",
+     "count": 1
+    },
+    {
+     "topic": "Pivot Shift Test",
+     "count": 1
+    },
+    {
+     "topic": "Froment Sign",
+     "count": 1
+    },
+    {
+     "topic": "Frozen Shoulder",
+     "count": 1
+    },
+    {
+     "topic": "Thompson Test",
+     "count": 1
+    },
+    {
+     "topic": "Lift-off Test",
+     "count": 1
+    },
+    {
+     "topic": "Allen Test",
+     "count": 1
+    },
+    {
+     "topic": "Yergason Test",
+     "count": 1
+    },
+    {
+     "topic": "Trendelenburg Sign",
+     "count": 1
+    },
+    {
+     "topic": "Torticollis",
      "count": 1
     },
     {
@@ -1894,6 +3088,26 @@
     },
     {
      "topic": "Resisted Testing",
+     "count": 1
+    },
+    {
+     "topic": "Close-Packed Position",
+     "count": 1
+    },
+    {
+     "topic": "Drop Arm Test",
+     "count": 1
+    },
+    {
+     "topic": "Crossed SLR",
+     "count": 1
+    },
+    {
+     "topic": "Apley Grinding Test",
+     "count": 1
+    },
+    {
+     "topic": "Joint Mobilisation",
      "count": 1
     },
     {
@@ -1914,10 +3128,6 @@
     },
     {
      "topic": "Muscle Testing",
-     "count": 1
-    },
-    {
-     "topic": "Sensory Testing",
      "count": 1
     },
     {
@@ -1969,10 +3179,6 @@
      "count": 1
     },
     {
-     "topic": "Resting Position",
-     "count": 1
-    },
-    {
      "topic": "Lower Trapezius",
      "count": 1
     },
@@ -2002,10 +3208,6 @@
     },
     {
      "topic": "Joint Resting Position",
-     "count": 1
-    },
-    {
-     "topic": "TMJ Movements",
      "count": 1
     },
     {
@@ -2051,6 +3253,46 @@
     {
      "topic": "Trendelenburg",
      "count": 1
+    },
+    {
+     "topic": "Pelvic Obliquity",
+     "count": 1
+    },
+    {
+     "topic": "Q Angle",
+     "count": 1
+    },
+    {
+     "topic": "Capsular Pattern",
+     "count": 1
+    },
+    {
+     "topic": "Silfverskiold Test",
+     "count": 1
+    },
+    {
+     "topic": "End Feel",
+     "count": 1
+    },
+    {
+     "topic": "Passive Insufficiency",
+     "count": 1
+    },
+    {
+     "topic": "Postural Alignment",
+     "count": 1
+    },
+    {
+     "topic": "Chest Expansion",
+     "count": 1
+    },
+    {
+     "topic": "Vital Signs",
+     "count": 1
+    },
+    {
+     "topic": "Pulse Palpation",
+     "count": 1
     }
    ]
   },
@@ -2062,7 +3304,7 @@
     "physiology2.json",
     "physiology3.json"
    ],
-   "count": 134,
+   "count": 158,
    "topics": [
     {
      "topic": "General Physiology",
@@ -2137,12 +3379,60 @@
      "count": 4
     },
     {
+     "topic": "Red Blood Cells",
+     "count": 2
+    },
+    {
+     "topic": "Ageing",
+     "count": 2
+    },
+    {
+     "topic": "Nerve Conduction",
+     "count": 2
+    },
+    {
+     "topic": "ECG",
+     "count": 2
+    },
+    {
      "topic": "Special Senses",
      "count": 2
     },
     {
      "topic": "Exercise Physiology",
      "count": 2
+    },
+    {
+     "topic": "Bone Growth",
+     "count": 1
+    },
+    {
+     "topic": "Neonatal Jaundice",
+     "count": 1
+    },
+    {
+     "topic": "Urine Output",
+     "count": 1
+    },
+    {
+     "topic": "Training Effects",
+     "count": 1
+    },
+    {
+     "topic": "Resting Membrane Potential",
+     "count": 1
+    },
+    {
+     "topic": "Nerve Fibres",
+     "count": 1
+    },
+    {
+     "topic": "Energy Metabolism",
+     "count": 1
+    },
+    {
+     "topic": "Cardiac Conduction",
+     "count": 1
     },
     {
      "topic": "Muscle Potential",
@@ -2163,6 +3453,38 @@
     {
      "topic": "Muscle Blood Flow",
      "count": 1
+    },
+    {
+     "topic": "Cough Reflex",
+     "count": 1
+    },
+    {
+     "topic": "Breath Holding Time",
+     "count": 1
+    },
+    {
+     "topic": "Diaphragm",
+     "count": 1
+    },
+    {
+     "topic": "Lung Volumes",
+     "count": 1
+    },
+    {
+     "topic": "Cardiac Cycle",
+     "count": 1
+    },
+    {
+     "topic": "Rh Factor",
+     "count": 1
+    },
+    {
+     "topic": "Respiratory Muscles",
+     "count": 1
+    },
+    {
+     "topic": "Skeletal Muscle",
+     "count": 1
     }
    ]
   },
@@ -2174,7 +3496,7 @@
     "pt-community2.json",
     "pt-community3.json"
    ],
-   "count": 163,
+   "count": 190,
    "topics": [
     {
      "topic": "Epidemiology",
@@ -2182,7 +3504,7 @@
     },
     {
      "topic": "Biostatistics",
-     "count": 23
+     "count": 26
     },
     {
      "topic": "Nutrition",
@@ -2237,12 +3559,68 @@
      "count": 4
     },
     {
+     "topic": "Research Variables",
+     "count": 3
+    },
+    {
+     "topic": "Dispersion",
+     "count": 3
+    },
+    {
+     "topic": "Normal Distribution",
+     "count": 3
+    },
+    {
      "topic": "Health Programmes",
      "count": 3
     },
     {
      "topic": "Disaster & Injury",
      "count": 3
+    },
+    {
+     "topic": "Infection Control",
+     "count": 2
+    },
+    {
+     "topic": "Levels of Measurement",
+     "count": 2
+    },
+    {
+     "topic": "Sampling",
+     "count": 2
+    },
+    {
+     "topic": "Immunisation",
+     "count": 1
+    },
+    {
+     "topic": "Correlation",
+     "count": 1
+    },
+    {
+     "topic": "Degrees of Freedom",
+     "count": 1
+    },
+    {
+     "topic": "Reliability",
+     "count": 1
+    },
+    {
+     "topic": "Disability",
+     "count": 1
+    },
+    {
+     "topic": "ICIDH",
+     "count": 1
+    },
+    {
+     "topic": "Strict Isolation",
+     "count": 1
+    },
+    {
+     "topic": "Ramps",
+     "count": 1
     },
     {
      "topic": "ORS",
@@ -2254,6 +3632,10 @@
     },
     {
      "topic": "Communication",
+     "count": 1
+    },
+    {
+     "topic": "Regression",
      "count": 1
     },
     {
@@ -2276,7 +3658,7 @@
     "pt-genmed4.json",
     "pt-genmed5.json"
    ],
-   "count": 363,
+   "count": 406,
    "topics": [
     {
      "topic": "Medical Conditions",
@@ -2288,7 +3670,7 @@
     },
     {
      "topic": "Cardiac Rehabilitation",
-     "count": 17
+     "count": 20
     },
     {
      "topic": "Special Populations",
@@ -2343,16 +3725,16 @@
      "count": 9
     },
     {
+     "topic": "Postural Drainage",
+     "count": 8
+    },
+    {
      "topic": "Critical Care",
      "count": 8
     },
     {
      "topic": "Post-operative Care",
      "count": 8
-    },
-    {
-     "topic": "Postural Drainage",
-     "count": 7
     },
     {
      "topic": "Vascular Disorders",
@@ -2387,7 +3769,23 @@
      "count": 4
     },
     {
+     "topic": "Burn Positioning",
+     "count": 3
+    },
+    {
+     "topic": "First Aid",
+     "count": 3
+    },
+    {
+     "topic": "Diaphragmatic Breathing",
+     "count": 3
+    },
+    {
      "topic": "Cystic Fibrosis",
+     "count": 3
+    },
+    {
+     "topic": "Orthostatic Hypotension",
      "count": 3
     },
     {
@@ -2399,7 +3797,19 @@
      "count": 2
     },
     {
+     "topic": "DVT Prevention",
+     "count": 2
+    },
+    {
      "topic": "Pressure Ulcers",
+     "count": 2
+    },
+    {
+     "topic": "Terminology",
+     "count": 2
+    },
+    {
+     "topic": "Heart Failure",
      "count": 2
     },
     {
@@ -2408,10 +3818,6 @@
     },
     {
      "topic": "Lung Volumes",
-     "count": 2
-    },
-    {
-     "topic": "Diaphragmatic Breathing",
      "count": 2
     },
     {
@@ -2427,12 +3833,12 @@
      "count": 2
     },
     {
-     "topic": "Lung Function Testing",
+     "topic": "ECG Heart Rate",
      "count": 2
     },
     {
-     "topic": "DVT Prevention",
-     "count": 1
+     "topic": "Lung Function Testing",
+     "count": 2
     },
     {
      "topic": "Arterial Line",
@@ -2444,10 +3850,6 @@
     },
     {
      "topic": "Burn Contracture",
-     "count": 1
-    },
-    {
-     "topic": "Burn Positioning",
      "count": 1
     },
     {
@@ -2464,6 +3866,94 @@
     },
     {
      "topic": "Skin Graft",
+     "count": 1
+    },
+    {
+     "topic": "Holter Monitor",
+     "count": 1
+    },
+    {
+     "topic": "Arrhythmias",
+     "count": 1
+    },
+    {
+     "topic": "Myocardial Ischaemia",
+     "count": 1
+    },
+    {
+     "topic": "Cardiac Enzymes",
+     "count": 1
+    },
+    {
+     "topic": "Myocardial Infarction",
+     "count": 1
+    },
+    {
+     "topic": "Arterial Insufficiency",
+     "count": 1
+    },
+    {
+     "topic": "Cardiac Monitoring",
+     "count": 1
+    },
+    {
+     "topic": "Radiotherapy",
+     "count": 1
+    },
+    {
+     "topic": "ECG",
+     "count": 1
+    },
+    {
+     "topic": "Deep Vein Thrombosis",
+     "count": 1
+    },
+    {
+     "topic": "Rib Fracture",
+     "count": 1
+    },
+    {
+     "topic": "Enteral Feeding",
+     "count": 1
+    },
+    {
+     "topic": "Cardiac Catheterisation",
+     "count": 1
+    },
+    {
+     "topic": "Diabetes Mellitus",
+     "count": 1
+    },
+    {
+     "topic": "Hypoglycaemia",
+     "count": 1
+    },
+    {
+     "topic": "Cyanosis",
+     "count": 1
+    },
+    {
+     "topic": "Risk Factors",
+     "count": 1
+    },
+    {
+     "topic": "Exercise Response",
+     "count": 1
+    },
+    {
+     "topic": "Angina",
+     "count": 1
+    },
+    {
+     "topic": "Burn Rehabilitation",
+     "count": 1
+    },
+    {
+     "topic": "Pulsus Paradoxus",
+     "count": 1
+    },
+    {
+     "topic": "Croup",
      "count": 1
     },
     {
@@ -2523,10 +4013,6 @@
      "count": 1
     },
     {
-     "topic": "Heart Failure",
-     "count": 1
-    },
-    {
      "topic": "Heat Illness",
      "count": 1
     },
@@ -2579,6 +4065,10 @@
      "count": 1
     },
     {
+     "topic": "Hypertension",
+     "count": 1
+    },
+    {
      "topic": "Ageing",
      "count": 1
     },
@@ -2595,19 +4085,23 @@
      "count": 1
     },
     {
-     "topic": "Orthostatic Hypotension",
-     "count": 1
-    },
-    {
      "topic": "Cardiac Testing",
      "count": 1
     },
     {
-     "topic": "First Aid",
+     "topic": "Cardiac Arrest",
      "count": 1
     },
     {
-     "topic": "Cardiac Arrest",
+     "topic": "Blood Gases",
+     "count": 1
+    },
+    {
+     "topic": "Diabetes Exercise",
+     "count": 1
+    },
+    {
+     "topic": "Target Heart Rate",
      "count": 1
     }
    ]
@@ -2621,7 +4115,7 @@
     "pt-msk3.json",
     "pt-msk4.json"
    ],
-   "count": 413,
+   "count": 458,
    "topics": [
     {
      "topic": "Orthotics",
@@ -2716,12 +4210,20 @@
      "count": 6
     },
     {
+     "topic": "Hip Replacement",
+     "count": 6
+    },
+    {
      "topic": "Arthritis",
      "count": 6
     },
     {
      "topic": "Arthritis Rehab",
      "count": 6
+    },
+    {
+     "topic": "Rheumatoid Arthritis",
+     "count": 5
     },
     {
      "topic": "Cervical Spine",
@@ -2736,20 +4238,32 @@
      "count": 4
     },
     {
-     "topic": "Hip Replacement",
-     "count": 4
-    },
-    {
      "topic": "Median Nerve",
      "count": 4
     },
     {
-     "topic": "Rheumatoid Arthritis",
+     "topic": "Scoliosis",
+     "count": 3
+    },
+    {
+     "topic": "Prosthetic Gait",
+     "count": 3
+    },
+    {
+     "topic": "Trigger Finger",
+     "count": 3
+    },
+    {
+     "topic": "Spondylolisthesis",
      "count": 3
     },
     {
      "topic": "Burns",
      "count": 3
+    },
+    {
+     "topic": "Prosthetics",
+     "count": 2
     },
     {
      "topic": "Carpal Tunnel",
@@ -2764,7 +4278,7 @@
      "count": 2
     },
     {
-     "topic": "Scoliosis",
+     "topic": "Osteoarthritis",
      "count": 2
     },
     {
@@ -2812,6 +4326,22 @@
      "count": 2
     },
     {
+     "topic": "Joint Involvement",
+     "count": 2
+    },
+    {
+     "topic": "Carpal Tunnel Syndrome",
+     "count": 2
+    },
+    {
+     "topic": "Cervical Spondylosis",
+     "count": 2
+    },
+    {
+     "topic": "Hand Splints",
+     "count": 2
+    },
+    {
      "topic": "Forearm Fractures",
      "count": 2
     },
@@ -2820,8 +4350,8 @@
      "count": 2
     },
     {
-     "topic": "Prosthetics",
-     "count": 1
+     "topic": "Spinal Orthoses",
+     "count": 2
     },
     {
      "topic": "Clubfoot",
@@ -2861,10 +4391,6 @@
     },
     {
      "topic": "Shoulder Dislocation",
-     "count": 1
-    },
-    {
-     "topic": "Osteoarthritis",
      "count": 1
     },
     {
@@ -2952,10 +4478,6 @@
      "count": 1
     },
     {
-     "topic": "Prosthetic Gait",
-     "count": 1
-    },
-    {
      "topic": "Rotator Cuff Exercise",
      "count": 1
     },
@@ -2992,11 +4514,87 @@
      "count": 1
     },
     {
-     "topic": "Trigger Finger",
+     "topic": "Clavicle Fracture",
      "count": 1
     },
     {
-     "topic": "Clavicle Fracture",
+     "topic": "Heberden Nodes",
+     "count": 1
+    },
+    {
+     "topic": "Paget Disease",
+     "count": 1
+    },
+    {
+     "topic": "Scottie Dog Sign",
+     "count": 1
+    },
+    {
+     "topic": "Amputee Dressings",
+     "count": 1
+    },
+    {
+     "topic": "Boutonniere Deformity",
+     "count": 1
+    },
+    {
+     "topic": "Piriformis Syndrome",
+     "count": 1
+    },
+    {
+     "topic": "Prosthetic Training",
+     "count": 1
+    },
+    {
+     "topic": "Tennis Elbow",
+     "count": 1
+    },
+    {
+     "topic": "Disc Prolapse",
+     "count": 1
+    },
+    {
+     "topic": "Sciatica",
+     "count": 1
+    },
+    {
+     "topic": "Dowager Hump",
+     "count": 1
+    },
+    {
+     "topic": "Osteophytes",
+     "count": 1
+    },
+    {
+     "topic": "Wartenberg Sign",
+     "count": 1
+    },
+    {
+     "topic": "Cobb Angle",
+     "count": 1
+    },
+    {
+     "topic": "Imaging",
+     "count": 1
+    },
+    {
+     "topic": "Cock-up Splint",
+     "count": 1
+    },
+    {
+     "topic": "Orthoses",
+     "count": 1
+    },
+    {
+     "topic": "Cervical Orthoses",
+     "count": 1
+    },
+    {
+     "topic": "Orthotic Wedges",
+     "count": 1
+    },
+    {
+     "topic": "Spondylosis",
      "count": 1
     },
     {
@@ -3016,6 +4614,10 @@
      "count": 1
     },
     {
+     "topic": "Enthesopathy",
+     "count": 1
+    },
+    {
      "topic": "Supraspinatus Tendinitis",
      "count": 1
     },
@@ -3032,10 +4634,6 @@
      "count": 1
     },
     {
-     "topic": "Spinal Orthoses",
-     "count": 1
-    },
-    {
      "topic": "Elbow Ligaments",
      "count": 1
     },
@@ -3045,6 +4643,10 @@
     },
     {
      "topic": "Hip Stability",
+     "count": 1
+    },
+    {
+     "topic": "Amputee Contracture",
      "count": 1
     }
    ]
@@ -3059,19 +4661,19 @@
     "pt-neuro4.json",
     "pt-neuro5.json"
    ],
-   "count": 366,
+   "count": 412,
    "topics": [
     {
      "topic": "Stroke",
      "count": 57
     },
     {
-     "topic": "Spinal Cord Injury",
+     "topic": "Cerebral Palsy",
      "count": 23
     },
     {
-     "topic": "Cerebral Palsy",
-     "count": 21
+     "topic": "Spinal Cord Injury",
+     "count": 23
     },
     {
      "topic": "Peripheral Neuropathy",
@@ -3138,6 +4740,10 @@
      "count": 4
     },
     {
+     "topic": "Poliomyelitis",
+     "count": 4
+    },
+    {
      "topic": "Spinal Cord Disorders",
      "count": 4
     },
@@ -3147,6 +4753,14 @@
     },
     {
      "topic": "PNF",
+     "count": 3
+    },
+    {
+     "topic": "Nerve Injury",
+     "count": 3
+    },
+    {
+     "topic": "Aphasia",
      "count": 3
     },
     {
@@ -3178,6 +4792,26 @@
      "count": 2
     },
     {
+     "topic": "Autonomic Dysreflexia",
+     "count": 2
+    },
+    {
+     "topic": "Apraxia",
+     "count": 2
+    },
+    {
+     "topic": "Motor Control Stages",
+     "count": 2
+    },
+    {
+     "topic": "Upper Motor Neuron Lesion",
+     "count": 2
+    },
+    {
+     "topic": "AFO Alignment",
+     "count": 2
+    },
+    {
      "topic": "Hemiplegia Positioning",
      "count": 2
     },
@@ -3191,6 +4825,10 @@
     },
     {
      "topic": "Dysdiadochokinesia",
+     "count": 2
+    },
+    {
+     "topic": "Primitive Reflexes",
      "count": 2
     },
     {
@@ -3215,10 +4853,6 @@
     },
     {
      "topic": "Neurogenic Pain",
-     "count": 2
-    },
-    {
-     "topic": "Poliomyelitis",
      "count": 2
     },
     {
@@ -3250,10 +4884,6 @@
      "count": 1
     },
     {
-     "topic": "Autonomic Dysreflexia",
-     "count": 1
-    },
-    {
      "topic": "Paraplegia",
      "count": 1
     },
@@ -3262,7 +4892,79 @@
      "count": 1
     },
     {
-     "topic": "Nerve Injury",
+     "topic": "Kinaesthesia",
+     "count": 1
+    },
+    {
+     "topic": "Sitting Balance",
+     "count": 1
+    },
+    {
+     "topic": "Cerebellar Ataxia",
+     "count": 1
+    },
+    {
+     "topic": "Glasgow Coma Scale",
+     "count": 1
+    },
+    {
+     "topic": "Right Hemisphere Stroke",
+     "count": 1
+    },
+    {
+     "topic": "Rancho Levels",
+     "count": 1
+    },
+    {
+     "topic": "Dysmetria",
+     "count": 1
+    },
+    {
+     "topic": "Tenodesis",
+     "count": 1
+    },
+    {
+     "topic": "Akinetic Mutism",
+     "count": 1
+    },
+    {
+     "topic": "Wernicke Aphasia",
+     "count": 1
+    },
+    {
+     "topic": "UMN Lesion",
+     "count": 1
+    },
+    {
+     "topic": "Cerebellar Gait",
+     "count": 1
+    },
+    {
+     "topic": "Foot Drop",
+     "count": 1
+    },
+    {
+     "topic": "Descending Tracts",
+     "count": 1
+    },
+    {
+     "topic": "Arnold-Chiari Malformation",
+     "count": 1
+    },
+    {
+     "topic": "Dermatomes",
+     "count": 1
+    },
+    {
+     "topic": "Ape Thumb Deformity",
+     "count": 1
+    },
+    {
+     "topic": "Visual Pathway",
+     "count": 1
+    },
+    {
+     "topic": "Demyelination",
      "count": 1
     },
     {
@@ -3358,10 +5060,6 @@
      "count": 1
     },
     {
-     "topic": "Primitive Reflexes",
-     "count": 1
-    },
-    {
      "topic": "Cerebellar Stroke",
      "count": 1
     },
@@ -3375,6 +5073,30 @@
     },
     {
      "topic": "Short-term Goals",
+     "count": 1
+    },
+    {
+     "topic": "Brain Areas",
+     "count": 1
+    },
+    {
+     "topic": "Horner Syndrome",
+     "count": 1
+    },
+    {
+     "topic": "Brain Tumours",
+     "count": 1
+    },
+    {
+     "topic": "Symmetrical Tonic Neck Reflex",
+     "count": 1
+    },
+    {
+     "topic": "Ulnar Nerve",
+     "count": 1
+    },
+    {
+     "topic": "Hemispheric Lesions",
      "count": 1
     },
     {
@@ -3419,6 +5141,14 @@
     },
     {
      "topic": "Hypotonic Arm",
+     "count": 1
+    },
+    {
+     "topic": "Parkinson Gait",
+     "count": 1
+    },
+    {
+     "topic": "Nerve Regeneration",
      "count": 1
     },
     {
@@ -3496,10 +5226,11 @@
   {
    "subject": "Psychology",
    "files": [
+    "mpt-book-ps.json",
     "psychology.json",
     "psychology2.json"
    ],
-   "count": 64,
+   "count": 66,
    "topics": [
     {
      "topic": "Biology of Behavior",
@@ -3552,6 +5283,14 @@
     {
      "topic": "Sensation & Perception",
      "count": 2
+    },
+    {
+     "topic": "Kubler-Ross Stages",
+     "count": 1
+    },
+    {
+     "topic": "Operant Conditioning",
+     "count": 1
     },
     {
      "topic": "Sleep & Consciousness",
