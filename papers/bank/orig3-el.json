@@ -1,0 +1,1391 @@
+{
+  "subject": "Fundamentals of Electro Therapy",
+  "questions": [
+    {
+      "id": "o3el-1",
+      "topic": "Physics",
+      "subtopic": "Electricity Basics",
+      "difficulty": "Easy",
+      "question": "The unit of electric current is the:",
+      "options": {
+        "A": "Ampere",
+        "B": "Volt",
+        "C": "Watt",
+        "D": "Ohm"
+      },
+      "correctAnswer": "A",
+      "explanation": "Current is the flow of charge measured in amperes.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-2",
+      "topic": "Physics",
+      "subtopic": "Electricity Basics",
+      "difficulty": "Easy",
+      "question": "The unit of potential difference is the:",
+      "options": {
+        "A": "Volt",
+        "B": "Ampere",
+        "C": "Hertz",
+        "D": "Ohm"
+      },
+      "correctAnswer": "A",
+      "explanation": "Voltage is the driving force pushing charge.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-3",
+      "topic": "Physics",
+      "subtopic": "Electricity Basics",
+      "difficulty": "Easy",
+      "question": "The unit of frequency is the:",
+      "options": {
+        "A": "Ohm",
+        "B": "Watt",
+        "C": "Hertz",
+        "D": "Joule"
+      },
+      "correctAnswer": "C",
+      "explanation": "One hertz is one cycle per second.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-4",
+      "topic": "Physics",
+      "subtopic": "Electricity Basics",
+      "difficulty": "Medium",
+      "question": "Capacitance is measured in:",
+      "options": {
+        "A": "Siemens",
+        "B": "Henrys",
+        "C": "Coulombs",
+        "D": "Farads"
+      },
+      "correctAnswer": "D",
+      "explanation": "A capacitor stores charge; one farad equals one coulomb per volt.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-5",
+      "topic": "Physics",
+      "subtopic": "Electricity Basics",
+      "difficulty": "Medium",
+      "question": "In a series circuit with several resistors, the total resistance is:",
+      "options": {
+        "A": "The smallest resistance",
+        "B": "The sum of the individual resistances",
+        "C": "The average resistance",
+        "D": "The reciprocal of the sum"
+      },
+      "correctAnswer": "B",
+      "explanation": "Resistances in series add arithmetically.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-6",
+      "topic": "Physics",
+      "subtopic": "Electricity Basics",
+      "difficulty": "Medium",
+      "question": "In a parallel circuit, the total resistance is:",
+      "options": {
+        "A": "Less than the smallest individual resistance",
+        "B": "Equal to the sum",
+        "C": "Greater than the largest resistance",
+        "D": "Always zero"
+      },
+      "correctAnswer": "A",
+      "explanation": "Parallel paths reduce overall resistance.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-7",
+      "topic": "Physics",
+      "subtopic": "Electricity Basics",
+      "difficulty": "Medium",
+      "question": "A transformer changes:",
+      "options": {
+        "A": "Resistance of a conductor",
+        "B": "Charge of an ion",
+        "C": "Frequency of a direct current",
+        "D": "Voltage of an alternating current"
+      },
+      "correctAnswer": "D",
+      "explanation": "Mutual induction between coils steps voltage up or down.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-8",
+      "topic": "Physics",
+      "subtopic": "Currents",
+      "difficulty": "Easy",
+      "question": "A current that flows in only one direction is called:",
+      "options": {
+        "A": "Pulsed bidirectional current",
+        "B": "Alternating current",
+        "C": "Interferential current",
+        "D": "Direct current"
+      },
+      "correctAnswer": "D",
+      "explanation": "Galvanic current is a continuous unidirectional current.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-9",
+      "topic": "Physics",
+      "subtopic": "Currents",
+      "difficulty": "Easy",
+      "question": "Low frequency currents used in electrotherapy have a frequency of:",
+      "options": {
+        "A": "Above 1 MHz",
+        "B": "Above 10000 Hz",
+        "C": "1000-10000 Hz",
+        "D": "Below 1000 Hz"
+      },
+      "correctAnswer": "D",
+      "explanation": "Low frequency is below 1 kHz; medium frequency 1-10 kHz.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-10",
+      "topic": "Physics",
+      "subtopic": "Currents",
+      "difficulty": "Medium",
+      "question": "Medium frequency currents (e.g. interferential) can reduce skin impedance because:",
+      "options": {
+        "A": "They have no net charge",
+        "B": "Skin impedance increases with frequency",
+        "C": "Capacitive reactance is zero",
+        "D": "Skin impedance is inversely related to frequency"
+      },
+      "correctAnswer": "D",
+      "explanation": "Higher frequency gives lower capacitive reactance of the skin.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-11",
+      "topic": "Physics",
+      "subtopic": "Currents",
+      "difficulty": "Medium",
+      "question": "Faradic current is a:",
+      "options": {
+        "A": "High frequency current",
+        "B": "Pure galvanic current",
+        "C": "Medium frequency current",
+        "D": "Short duration interrupted direct (interrupted) current"
+      },
+      "correctAnswer": "D",
+      "explanation": "Faradic-type currents have pulse durations of 0.1 to 1 ms.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-12",
+      "topic": "Physics",
+      "subtopic": "Currents",
+      "difficulty": "Hard",
+      "question": "Skin impedance to a 100 Hz current is greater than to a 4000 Hz current because:",
+      "options": {
+        "A": "Capacitive reactance falls as frequency increases",
+        "B": "Skin has no capacitance",
+        "C": "Resistance rises with frequency",
+        "D": "Higher frequency is blocked"
+      },
+      "correctAnswer": "A",
+      "explanation": "Capacitive reactance = 1/(2 pi f C).",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-13",
+      "topic": "Electrical Stimulation",
+      "subtopic": "Nerve Response",
+      "difficulty": "Easy",
+      "question": "Which fibres have the lowest threshold to electrical stimulation?",
+      "options": {
+        "A": "A-delta fibres",
+        "B": "Large myelinated A-alpha fibres",
+        "C": "B fibres",
+        "D": "Small unmyelinated C fibres"
+      },
+      "correctAnswer": "B",
+      "explanation": "Larger diameter fibres are stimulated first.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-14",
+      "topic": "Electrical Stimulation",
+      "subtopic": "Nerve Response",
+      "difficulty": "Medium",
+      "question": "The all-or-none law of nerve conduction states that:",
+      "options": {
+        "A": "Action potentials summate",
+        "B": "Larger stimuli produce larger action potentials",
+        "C": "Conduction depends on myelin only",
+        "D": "An action potential either occurs fully or not at all"
+      },
+      "correctAnswer": "D",
+      "explanation": "Above threshold a nerve fibre fires with a constant amplitude.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-15",
+      "topic": "Electrical Stimulation",
+      "subtopic": "Accommodation",
+      "difficulty": "Medium",
+      "question": "Accommodation of a nerve to a slowly rising current can be minimised by:",
+      "options": {
+        "A": "Using slow rise galvanic current",
+        "B": "Using very low intensity",
+        "C": "Reducing the pulse width",
+        "D": "Using rapidly rising current pulses"
+      },
+      "correctAnswer": "D",
+      "explanation": "A fast rise time prevents the threshold from adapting.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-16",
+      "topic": "Electrical Stimulation",
+      "subtopic": "Strength-Duration",
+      "difficulty": "Medium",
+      "question": "The rheobase is:",
+      "options": {
+        "A": "Twice the chronaxie",
+        "B": "The maximum tolerated intensity",
+        "C": "The shortest pulse duration that elicits contraction",
+        "D": "The minimum current intensity that produces a response with a long pulse"
+      },
+      "correctAnswer": "D",
+      "explanation": "Rheobase is the threshold intensity at infinite pulse duration.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-17",
+      "topic": "Electrical Stimulation",
+      "subtopic": "Denervated Muscle",
+      "difficulty": "Medium",
+      "question": "In treating denervated muscle, which pulse characteristic is most important?",
+      "options": {
+        "A": "Very high frequency",
+        "B": "High intensity only",
+        "C": "Long pulse duration (10-300 ms)",
+        "D": "Short pulse duration"
+      },
+      "correctAnswer": "C",
+      "explanation": "Denervated muscle responds only to long-duration pulses.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-18",
+      "topic": "Electrical Stimulation",
+      "subtopic": "NMES",
+      "difficulty": "Medium",
+      "question": "In neuromuscular electrical stimulation for strengthening a typical frequency is:",
+      "options": {
+        "A": "1000 Hz",
+        "B": "35-50 Hz",
+        "C": "1-5 Hz",
+        "D": "200 Hz"
+      },
+      "correctAnswer": "B",
+      "explanation": "Fused tetanic contractions occur at around 35-50 Hz.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-19",
+      "topic": "Electrical Stimulation",
+      "subtopic": "NMES",
+      "difficulty": "Easy",
+      "question": "The 'ramp up' time in NMES is provided to:",
+      "options": {
+        "A": "Increase patient comfort and avoid sudden contraction",
+        "B": "Reduce current frequency",
+        "C": "Increase pulse width",
+        "D": "Prevent muscle contraction"
+      },
+      "correctAnswer": "A",
+      "explanation": "A gradual rise makes the contraction smoother.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-20",
+      "topic": "Electrical Stimulation",
+      "subtopic": "Faradism",
+      "difficulty": "Medium",
+      "question": "Faradism under pressure was used to:",
+      "options": {
+        "A": "Stimulate denervated muscle",
+        "B": "Strengthen weak muscles with adhesions via stretching",
+        "C": "Heat deep tissue",
+        "D": "Treat pain by gating"
+      },
+      "correctAnswer": "B",
+      "explanation": "It is an older technique combining stimulation with gentle stretch.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-21",
+      "topic": "TENS",
+      "subtopic": "Mechanism",
+      "difficulty": "Medium",
+      "question": "Conventional TENS is thought to relieve pain mainly by:",
+      "options": {
+        "A": "Heating tissue",
+        "B": "Releasing endogenous opioids at the spinal level only",
+        "C": "Blocking motor nerves",
+        "D": "Activating the gate control mechanism through A-beta fibres"
+      },
+      "correctAnswer": "D",
+      "explanation": "Large diameter afferent activation closes the pain gate.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-22",
+      "topic": "TENS",
+      "subtopic": "Mechanism",
+      "difficulty": "Medium",
+      "question": "Acupuncture-like low frequency TENS is thought to relieve pain mainly by:",
+      "options": {
+        "A": "Blocking sodium channels",
+        "B": "Releasing endogenous opioids (endorphins)",
+        "C": "Reducing muscle tone only",
+        "D": "Causing vasoconstriction"
+      },
+      "correctAnswer": "B",
+      "explanation": "Low frequency motor-level stimulation triggers descending inhibition.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-23",
+      "topic": "TENS",
+      "subtopic": "Safety",
+      "difficulty": "Easy",
+      "question": "TENS is contraindicated in patients with:",
+      "options": {
+        "A": "Demand cardiac pacemakers",
+        "B": "Chronic low back pain",
+        "C": "Osteoarthritis pain",
+        "D": "Post-operative pain"
+      },
+      "correctAnswer": "A",
+      "explanation": "The current may interfere with pacemaker function.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-24",
+      "topic": "TENS",
+      "subtopic": "Safety",
+      "difficulty": "Easy",
+      "question": "TENS electrodes should NOT be placed over the:",
+      "options": {
+        "A": "Shoulder",
+        "B": "Knee",
+        "C": "Lumbar paraspinals",
+        "D": "Carotid sinus"
+      },
+      "correctAnswer": "D",
+      "explanation": "Stimulation over the carotid sinus can cause bradycardia and hypotension.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-25",
+      "topic": "IFT",
+      "subtopic": "Principle",
+      "difficulty": "Medium",
+      "question": "In interferential therapy, the beat frequency equals:",
+      "options": {
+        "A": "The average of the carrier frequencies",
+        "B": "The pulse duration",
+        "C": "The difference between the two carrier frequencies",
+        "D": "The sum of the carrier frequencies"
+      },
+      "correctAnswer": "C",
+      "explanation": "Two currents of slightly different medium frequency interfere in the tissue.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-26",
+      "topic": "IFT",
+      "subtopic": "Principle",
+      "difficulty": "Medium",
+      "question": "Interferential current has the advantage over TENS of:",
+      "options": {
+        "A": "Penetrating deeper with greater comfort",
+        "B": "Needing no electrodes",
+        "C": "Using lower frequency carrier",
+        "D": "Producing heat"
+      },
+      "correctAnswer": "A",
+      "explanation": "Medium frequency carriers meet lower skin resistance.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-27",
+      "topic": "IFT",
+      "subtopic": "Principle",
+      "difficulty": "Hard",
+      "question": "In a four-pole interferential application, the maximal interference occurs at:",
+      "options": {
+        "A": "45 degrees to the electrode axes",
+        "B": "The skin surface only",
+        "C": "Parallel to the electrodes",
+        "D": "The electrodes"
+      },
+      "correctAnswer": "A",
+      "explanation": "Vector scanning rotates the amplitude-modulation effect.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-28",
+      "topic": "Ultrasound",
+      "subtopic": "Physical Principles",
+      "difficulty": "Medium",
+      "question": "Ultrasound beam is attenuated most rapidly in:",
+      "options": {
+        "A": "Muscle",
+        "B": "Water",
+        "C": "Bone",
+        "D": "Fat"
+      },
+      "correctAnswer": "C",
+      "explanation": "Bone absorbs and reflects much of the energy.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-29",
+      "topic": "Ultrasound",
+      "subtopic": "Physical Principles",
+      "difficulty": "Medium",
+      "question": "The standing wave in ultrasound is avoided by:",
+      "options": {
+        "A": "Using no gel",
+        "B": "Increasing the intensity",
+        "C": "Moving the transducer",
+        "D": "Holding it stationary"
+      },
+      "correctAnswer": "C",
+      "explanation": "A standing wave can cause damage to blood cells and periosteum.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-30",
+      "topic": "Ultrasound",
+      "subtopic": "Physical Principles",
+      "difficulty": "Hard",
+      "question": "The effective radiating area (ERA) of a transducer is:",
+      "options": {
+        "A": "The treatment area on skin",
+        "B": "The total head area",
+        "C": "The area of the beam that actually emits ultrasound",
+        "D": "The area of the crystal edge"
+      },
+      "correctAnswer": "C",
+      "explanation": "ERA is smaller than the head and is used to calculate dosage.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-31",
+      "topic": "Ultrasound",
+      "subtopic": "Effects",
+      "difficulty": "Medium",
+      "question": "Non-thermal effects of ultrasound include:",
+      "options": {
+        "A": "Cavitation and acoustic streaming",
+        "B": "Radiation",
+        "C": "Convection",
+        "D": "Conversion"
+      },
+      "correctAnswer": "A",
+      "explanation": "Pulsed ultrasound uses these mechanical effects.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-32",
+      "topic": "Ultrasound",
+      "subtopic": "Clinical Use",
+      "difficulty": "Medium",
+      "question": "Ultrasound is useful in chronic tendinopathy because it:",
+      "options": {
+        "A": "Promotes collagen synthesis and tissue repair",
+        "B": "Eliminates inflammation permanently",
+        "C": "Anaesthetises tissue",
+        "D": "Stimulates denervated muscle"
+      },
+      "correctAnswer": "A",
+      "explanation": "Mechanical and thermal effects influence fibroblast activity.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-33",
+      "topic": "Ultrasound",
+      "subtopic": "Contraindications",
+      "difficulty": "Easy",
+      "question": "Therapeutic ultrasound should not be applied directly over the:",
+      "options": {
+        "A": "Eyes and gonads",
+        "B": "Plantar fascia",
+        "C": "Back muscles",
+        "D": "Healthy knee tendon"
+      },
+      "correctAnswer": "A",
+      "explanation": "Sensitive structures can be damaged.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-34",
+      "topic": "Shortwave Diathermy",
+      "subtopic": "Principle",
+      "difficulty": "Easy",
+      "question": "Shortwave diathermy heats tissue mainly by the ______ effect.",
+      "options": {
+        "A": "Induction (eddy current) or capacitor field",
+        "B": "Piezoelectric",
+        "C": "Evaporative",
+        "D": "Photochemical"
+      },
+      "correctAnswer": "A",
+      "explanation": "Both methods generate heat from oscillating high-frequency fields.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-35",
+      "topic": "Shortwave Diathermy",
+      "subtopic": "Principle",
+      "difficulty": "Medium",
+      "question": "In the capacitor field method of SWD, tissues with ______ are preferentially heated.",
+      "options": {
+        "A": "Bone only",
+        "B": "Very high water content",
+        "C": "High resistance (e.g. fat)",
+        "D": "Low resistance (e.g. muscle)"
+      },
+      "correctAnswer": "C",
+      "explanation": "Capacitor fields heat high-impedance tissue; inductive fields heat low-impedance tissue.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-36",
+      "topic": "Shortwave Diathermy",
+      "subtopic": "Safety",
+      "difficulty": "Easy",
+      "question": "During shortwave diathermy, the patient should be kept on a:",
+      "options": {
+        "A": "Moist wet towel",
+        "B": "Metal couch",
+        "C": "Wooden or non-metallic couch",
+        "D": "Foam covered metal frame"
+      },
+      "correctAnswer": "C",
+      "explanation": "Metal distorts the field and can cause burns.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-37",
+      "topic": "Shortwave Diathermy",
+      "subtopic": "Safety",
+      "difficulty": "Medium",
+      "question": "Which of the following is a contraindication for shortwave diathermy?",
+      "options": {
+        "A": "Metal implants and pacemakers",
+        "B": "Muscle spasm",
+        "C": "Osteoarthritis",
+        "D": "Chronic low back pain"
+      },
+      "correctAnswer": "A",
+      "explanation": "Heating metal can burn adjacent tissue.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-38",
+      "topic": "Microwave",
+      "subtopic": "Principle",
+      "difficulty": "Medium",
+      "question": "Microwave diathermy in physiotherapy operates at:",
+      "options": {
+        "A": "40.68 MHz",
+        "B": "2450 MHz",
+        "C": "27.12 MHz",
+        "D": "1 MHz"
+      },
+      "correctAnswer": "B",
+      "explanation": "This ISM frequency produces heat by dielectric absorption.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-39",
+      "topic": "Infrared",
+      "subtopic": "Physics",
+      "difficulty": "Easy",
+      "question": "Infrared radiation heats tissue by:",
+      "options": {
+        "A": "Convection",
+        "B": "Evaporation",
+        "C": "Radiation",
+        "D": "Conduction"
+      },
+      "correctAnswer": "C",
+      "explanation": "Radiant heat is absorbed in the superficial layers.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-40",
+      "topic": "Infrared",
+      "subtopic": "Physics",
+      "difficulty": "Medium",
+      "question": "The superficial penetration of near infrared radiation is about:",
+      "options": {
+        "A": "20 cm",
+        "B": "10 cm",
+        "C": "1-3 mm to a few mm",
+        "D": "5 cm"
+      },
+      "correctAnswer": "C",
+      "explanation": "Most energy is absorbed in the epidermis and dermis.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-41",
+      "topic": "Infrared",
+      "subtopic": "Safety",
+      "difficulty": "Medium",
+      "question": "The distance of an infrared lamp from the patient should be at least:",
+      "options": {
+        "A": "10 cm",
+        "B": "15 cm",
+        "C": "5 cm",
+        "D": "45-60 cm"
+      },
+      "correctAnswer": "D",
+      "explanation": "Distance reduces intensity according to the inverse square law.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-42",
+      "topic": "Laser",
+      "subtopic": "Physics",
+      "difficulty": "Easy",
+      "question": "The term LASER stands for:",
+      "options": {
+        "A": "Long wave amplified stimulation of radiation",
+        "B": "Light amplification by stimulated emission of radiation",
+        "C": "Low amplitude single energy radiation",
+        "D": "Light absorption by stimulated electron release"
+      },
+      "correctAnswer": "B",
+      "explanation": "Laser light is coherent, monochromatic and collimated.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-43",
+      "topic": "Laser",
+      "subtopic": "Physics",
+      "difficulty": "Medium",
+      "question": "Therapeutic low level laser has which characteristic?",
+      "options": {
+        "A": "Ablation of tissue",
+        "B": "High thermal tissue destruction",
+        "C": "Non-thermal photobiomodulation effect",
+        "D": "Cutting power"
+      },
+      "correctAnswer": "C",
+      "explanation": "Low power densities promote cell metabolism.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-44",
+      "topic": "Laser",
+      "subtopic": "Safety",
+      "difficulty": "Easy",
+      "question": "Which precaution is essential when using laser?",
+      "options": {
+        "A": "Protective eyewear for patient and therapist",
+        "B": "Water immersion",
+        "C": "Wearing rubber gloves only",
+        "D": "Metal couch"
+      },
+      "correctAnswer": "A",
+      "explanation": "Laser can damage the retina.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-45",
+      "topic": "UV",
+      "subtopic": "Physics",
+      "difficulty": "Medium",
+      "question": "The ultraviolet wavelength used for psoriasis phototherapy is mainly:",
+      "options": {
+        "A": "UVB (narrowband 311 nm) or UVA with psoralen",
+        "B": "UVC",
+        "C": "Visible light only",
+        "D": "Infrared"
+      },
+      "correctAnswer": "A",
+      "explanation": "Narrowband UVB reduces epidermal proliferation.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-46",
+      "topic": "UV",
+      "subtopic": "Dosage",
+      "difficulty": "Medium",
+      "question": "The minimal erythema dose (MED) is:",
+      "options": {
+        "A": "Dose giving tanning only",
+        "B": "The smallest UV dose that produces visible erythema 24 hours later",
+        "C": "The dose that causes blistering",
+        "D": "The maximum safe daily dose"
+      },
+      "correctAnswer": "B",
+      "explanation": "Test patches determine individual sensitivity.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-47",
+      "topic": "UV",
+      "subtopic": "Safety",
+      "difficulty": "Medium",
+      "question": "A patient taking photosensitising drugs should be given UV:",
+      "options": {
+        "A": "With caution, reduced dose or avoided",
+        "B": "Daily at maximum",
+        "C": "Without testing",
+        "D": "At higher dose"
+      },
+      "correctAnswer": "A",
+      "explanation": "Photosensitisers lower the erythema threshold.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-48",
+      "topic": "Cryotherapy",
+      "subtopic": "Effects",
+      "difficulty": "Easy",
+      "question": "The first physiological response to cold application is:",
+      "options": {
+        "A": "Vasoconstriction",
+        "B": "Muscle spasm only",
+        "C": "Vasodilatation",
+        "D": "Increased metabolism"
+      },
+      "correctAnswer": "A",
+      "explanation": "Cold reduces local blood flow and metabolism.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-49",
+      "topic": "Cryotherapy",
+      "subtopic": "Effects",
+      "difficulty": "Medium",
+      "question": "Cold application reduces spasticity by:",
+      "options": {
+        "A": "Decreasing muscle spindle activity and nerve conduction velocity",
+        "B": "Increasing blood flow",
+        "C": "Increasing alpha motor neuron firing",
+        "D": "Direct tendon stretch"
+      },
+      "correctAnswer": "A",
+      "explanation": "It reduces the stretch reflex gain temporarily.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-50",
+      "topic": "Cryotherapy",
+      "subtopic": "Contraindications",
+      "difficulty": "Medium",
+      "question": "Cold therapy is contraindicated in:",
+      "options": {
+        "A": "Raynaud's disease and cold hypersensitivity",
+        "B": "Post-exercise soreness",
+        "C": "Acute sprain",
+        "D": "Muscle strain"
+      },
+      "correctAnswer": "A",
+      "explanation": "Vasospastic disease is aggravated by cold.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-51",
+      "topic": "Hydrotherapy",
+      "subtopic": "Principles",
+      "difficulty": "Easy",
+      "question": "Archimedes' principle states that a body immersed in water experiences:",
+      "options": {
+        "A": "A downward force equal to its mass",
+        "B": "An upward force equal to the weight of the water displaced",
+        "C": "No force",
+        "D": "Greater weight"
+      },
+      "correctAnswer": "B",
+      "explanation": "Buoyancy reduces joint loading in aquatic therapy.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-52",
+      "topic": "Hydrotherapy",
+      "subtopic": "Principles",
+      "difficulty": "Medium",
+      "question": "The hydrostatic pressure of water on an immersed limb:",
+      "options": {
+        "A": "Has no physiological effect",
+        "B": "Increases with depth and reduces oedema",
+        "C": "Causes vasodilatation only",
+        "D": "Decreases with depth"
+      },
+      "correctAnswer": "B",
+      "explanation": "Pressure helps venous and lymphatic return.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-53",
+      "topic": "Wax Therapy",
+      "subtopic": "Technique",
+      "difficulty": "Medium",
+      "question": "In the wax bath dipping method the hand is dipped:",
+      "options": {
+        "A": "Only briefly for 5 seconds without a glove",
+        "B": "Continuously held in the bath",
+        "C": "Once for 20 minutes",
+        "D": "About 6-12 times to form a glove, then wrapped"
+      },
+      "correctAnswer": "D",
+      "explanation": "Repeated dipping builds a wax layer that retains heat.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-54",
+      "topic": "Wax Therapy",
+      "subtopic": "Indications",
+      "difficulty": "Easy",
+      "question": "Paraffin wax bath is most suitable for:",
+      "options": {
+        "A": "Lumbar spine",
+        "B": "Small joints of the hand and foot",
+        "C": "Shoulder girdle",
+        "D": "Hip joint"
+      },
+      "correctAnswer": "B",
+      "explanation": "Wax conforms to irregular distal surfaces.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-55",
+      "topic": "Traction",
+      "subtopic": "Lumbar",
+      "difficulty": "Medium",
+      "question": "Lumbar traction force to distract vertebrae is usually at least:",
+      "options": {
+        "A": "2 kg",
+        "B": "5 percent of body weight",
+        "C": "About 25 percent of body weight to overcome friction",
+        "D": "1 percent of body weight"
+      },
+      "correctAnswer": "C",
+      "explanation": "A considerable force is needed to produce separation.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-56",
+      "topic": "Traction",
+      "subtopic": "Contraindications",
+      "difficulty": "Easy",
+      "question": "Traction is contraindicated in:",
+      "options": {
+        "A": "Spondylosis",
+        "B": "Disc prolapse",
+        "C": "Muscle spasm",
+        "D": "Spinal instability and malignancy"
+      },
+      "correctAnswer": "D",
+      "explanation": "Distraction can worsen unstable segments.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-57",
+      "topic": "Electrodiagnosis",
+      "subtopic": "NCV",
+      "difficulty": "Medium",
+      "question": "Nerve conduction velocity in demyelinating neuropathy is:",
+      "options": {
+        "A": "Markedly slowed",
+        "B": "Increased",
+        "C": "Normal",
+        "D": "Unrecordable only"
+      },
+      "correctAnswer": "A",
+      "explanation": "Demyelination slows saltatory conduction.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-58",
+      "topic": "Electrodiagnosis",
+      "subtopic": "NCV",
+      "difficulty": "Medium",
+      "question": "In axonal neuropathy, the characteristic nerve conduction finding is:",
+      "options": {
+        "A": "Increased amplitude",
+        "B": "No change",
+        "C": "Reduced amplitude with near-normal velocity",
+        "D": "Reduced velocity with normal amplitude"
+      },
+      "correctAnswer": "C",
+      "explanation": "Loss of axons lowers the amplitude of the response.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-59",
+      "topic": "Electrodiagnosis",
+      "subtopic": "EMG",
+      "difficulty": "Medium",
+      "question": "Fibrillation potentials on EMG indicate:",
+      "options": {
+        "A": "Denervated muscle fibres",
+        "B": "Normal muscle",
+        "C": "Upper motor neuron lesion",
+        "D": "Fasciculation at rest only"
+      },
+      "correctAnswer": "A",
+      "explanation": "Spontaneous discharges of individual muscle fibres appear after denervation.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-60",
+      "topic": "Electrodiagnosis",
+      "subtopic": "EMG",
+      "difficulty": "Hard",
+      "question": "The recruitment pattern in a neuropathic lesion on EMG is:",
+      "options": {
+        "A": "Full interference pattern",
+        "B": "Reduced, with high-frequency firing of few motor units",
+        "C": "Complete silence only",
+        "D": "Early recruitment of small potentials"
+      },
+      "correctAnswer": "B",
+      "explanation": "Few surviving units fire faster to generate force.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-61",
+      "topic": "Electrodiagnosis",
+      "subtopic": "F Wave",
+      "difficulty": "Medium",
+      "question": "The F wave is useful for assessing conduction in:",
+      "options": {
+        "A": "Distal sensory nerves only",
+        "B": "Autonomic nerves",
+        "C": "Proximal segments of motor nerves",
+        "D": "Muscle fibres"
+      },
+      "correctAnswer": "C",
+      "explanation": "It travels to the anterior horn cell and back.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-62",
+      "topic": "Magnetic Therapy",
+      "subtopic": "PEMF",
+      "difficulty": "Medium",
+      "question": "Pulsed electromagnetic field therapy is used to promote:",
+      "options": {
+        "A": "Burn dressing",
+        "B": "Muscle hypertrophy",
+        "C": "Fracture healing in delayed union",
+        "D": "Cold sores"
+      },
+      "correctAnswer": "C",
+      "explanation": "PEMF may stimulate osteoblastic activity.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-63",
+      "topic": "ESWT",
+      "subtopic": "Shock Wave",
+      "difficulty": "Medium",
+      "question": "Extracorporeal shock wave therapy is commonly used for:",
+      "options": {
+        "A": "Plantar fasciitis and calcific tendinitis",
+        "B": "Acute sprains",
+        "C": "Acute fractures",
+        "D": "Muscle cramps only"
+      },
+      "correctAnswer": "A",
+      "explanation": "High-energy acoustic waves stimulate healing.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-64",
+      "topic": "Biofeedback",
+      "subtopic": "Principle",
+      "difficulty": "Easy",
+      "question": "Biofeedback uses a signal to:",
+      "options": {
+        "A": "Heat the tissue",
+        "B": "Deliver a drug",
+        "C": "Make the patient aware of a physiological process",
+        "D": "Treat infection"
+      },
+      "correctAnswer": "C",
+      "explanation": "Feedback of muscle activity trains control.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-65",
+      "topic": "Safety",
+      "subtopic": "Electrical Safety",
+      "difficulty": "Easy",
+      "question": "The earth wire in an electrical machine is used to:",
+      "options": {
+        "A": "Reduce frequency",
+        "B": "Store charge",
+        "C": "Increase voltage",
+        "D": "Provide a path for leakage current to ground"
+      },
+      "correctAnswer": "D",
+      "explanation": "It prevents the casing becoming live in a fault.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-66",
+      "topic": "Safety",
+      "subtopic": "Electrical Safety",
+      "difficulty": "Medium",
+      "question": "A fuse in a physiotherapy machine protects against:",
+      "options": {
+        "A": "Magnetism",
+        "B": "Excessive current",
+        "C": "High frequency",
+        "D": "Low voltage"
+      },
+      "correctAnswer": "B",
+      "explanation": "The fuse wire melts when current exceeds its rating.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-67",
+      "topic": "Safety",
+      "subtopic": "Electrical Safety",
+      "difficulty": "Hard",
+      "question": "Microshock is a hazard mainly in patients with:",
+      "options": {
+        "A": "Direct cardiac electrical connections such as catheters",
+        "B": "Pacemaker battery changes only",
+        "C": "Intact skin",
+        "D": "Metal dental fillings"
+      },
+      "correctAnswer": "A",
+      "explanation": "Small currents applied directly to the heart can cause fibrillation.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-68",
+      "topic": "Iontophoresis",
+      "subtopic": "Technique",
+      "difficulty": "Medium",
+      "question": "Which statement about iontophoresis is correct?",
+      "options": {
+        "A": "The active electrode must have the same polarity as the ion being delivered",
+        "B": "The active electrode is always the anode",
+        "C": "Alternating current is used",
+        "D": "Polarity does not matter"
+      },
+      "correctAnswer": "A",
+      "explanation": "Like charges repel the ion into the tissue.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-69",
+      "topic": "Iontophoresis",
+      "subtopic": "Technique",
+      "difficulty": "Easy",
+      "question": "Burns under the electrodes in iontophoresis are caused by:",
+      "options": {
+        "A": "Magnetic fields",
+        "B": "Frequency of the current",
+        "C": "Heat from the machine",
+        "D": "Acid or alkaline products of electrolysis"
+      },
+      "correctAnswer": "D",
+      "explanation": "DC produces chemical reactions at the electrodes.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-70",
+      "topic": "Interrupted Galvanic",
+      "subtopic": "Muscle",
+      "difficulty": "Medium",
+      "question": "The galvanic current stimulation of denervated muscle is usually given with:",
+      "options": {
+        "A": "Square wave to stimulate sensory fibres",
+        "B": "Constant current at 1000 Hz",
+        "C": "High frequency bursts",
+        "D": "Triangular (progressive) wave to reduce stimulation of innervated muscle"
+      },
+      "correctAnswer": "D",
+      "explanation": "Slowly rising pulses spare normal muscle through accommodation.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-71",
+      "topic": "Pelvic Floor",
+      "subtopic": "Electrical Stimulation",
+      "difficulty": "Easy",
+      "question": "Electrical stimulation for stress incontinence uses a frequency of about:",
+      "options": {
+        "A": "1 kHz",
+        "B": "35-50 Hz",
+        "C": "1-2 Hz",
+        "D": "200 Hz"
+      },
+      "correctAnswer": "B",
+      "explanation": "This range produces tetanic contraction of the pelvic floor.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-72",
+      "topic": "Pelvic Floor",
+      "subtopic": "Electrical Stimulation",
+      "difficulty": "Medium",
+      "question": "Electrical stimulation of the pelvic floor for urge incontinence generally uses:",
+      "options": {
+        "A": "Continuous DC",
+        "B": "Lower frequency (about 5-10 Hz)",
+        "C": "Ultrasound",
+        "D": "Very high frequency"
+      },
+      "correctAnswer": "B",
+      "explanation": "Low frequency inhibits detrusor overactivity.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Electrotherapy",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-73",
+      "topic": "TENS",
+      "subtopic": "Parameters",
+      "difficulty": "Easy",
+      "question": "The pulse frequency commonly used for conventional TENS is:",
+      "options": {
+        "A": "5 Hz",
+        "B": "80-100 Hz",
+        "C": "1000 Hz",
+        "D": "2 Hz"
+      },
+      "correctAnswer": "B",
+      "explanation": "High frequency, sensory-level stimulation.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Basic Medical Sciences",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-74",
+      "topic": "Ultrasound",
+      "subtopic": "Parameters",
+      "difficulty": "Easy",
+      "question": "The frequency of ultrasound used to treat deep tissues is:",
+      "options": {
+        "A": "3 MHz",
+        "B": "100 Hz",
+        "C": "27 MHz",
+        "D": "1 MHz"
+      },
+      "correctAnswer": "D",
+      "explanation": "1 MHz penetrates up to 5 cm.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Basic Medical Sciences",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-75",
+      "topic": "Cryotherapy",
+      "subtopic": "Effects",
+      "difficulty": "Easy",
+      "question": "Ice application should not exceed about ______ minutes in one session to avoid tissue damage.",
+      "options": {
+        "A": "5",
+        "B": "90",
+        "C": "60",
+        "D": "20"
+      },
+      "correctAnswer": "D",
+      "explanation": "Prolonged ice risks frostbite and nerve injury.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Basic Medical Sciences",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-76",
+      "topic": "Thermotherapy",
+      "subtopic": "Effects",
+      "difficulty": "Easy",
+      "question": "Superficial heat produces which immediate local effect?",
+      "options": {
+        "A": "Increased muscle spasm",
+        "B": "Decreased metabolism",
+        "C": "Vasoconstriction",
+        "D": "Vasodilatation"
+      },
+      "correctAnswer": "D",
+      "explanation": "Raises local blood flow.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Basic Medical Sciences",
+      "sourcePage": null
+    },
+    {
+      "id": "o3el-77",
+      "topic": "SWD",
+      "subtopic": "Dosage",
+      "difficulty": "Medium",
+      "question": "The dosage of shortwave diathermy in the acute stage is usually:",
+      "options": {
+        "A": "Pulsed at maximum",
+        "B": "Painful",
+        "C": "Highly thermal",
+        "D": "Subthermal (athermic)"
+      },
+      "correctAnswer": "D",
+      "explanation": "Avoids increasing inflammation.",
+      "sourceBook": "Original question prepared for this simulator from standard textbook knowledge",
+      "sourceChapter": "Basic Medical Sciences",
+      "sourcePage": null
+    }
+  ]
+}

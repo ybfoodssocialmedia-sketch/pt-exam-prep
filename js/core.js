@@ -49,6 +49,28 @@ const Store = {
   getSeen() { return this._get('mcq_seen_v1', {}); },
   markSeen(keys) { const s = this.getSeen(); keys.forEach(k => { s[k] = 1; }); this._set('mcq_seen_v1', s); },
 
+  // Papers that changed tier were renamed; carry any history / progress stored under the old id over.
+  migrateAliases(aliases) {
+    try {
+      const ids = Object.keys(aliases || {});
+      if (!ids.length) return;
+      const history = this.getHistory();
+      let changed = false;
+      history.forEach(h => { if (aliases[h.paperId]) { h.paperId = aliases[h.paperId]; changed = true; } });
+      if (changed) this._set(this.KEYS.HISTORY, history);
+      const active = this.getActiveExam();
+      if (active && aliases[active.paperId]) { active.paperId = aliases[active.paperId]; this._set(this.KEYS.ACTIVE_EXAM, active); }
+      ids.forEach(oldId => {
+        const oldKey = this.KEYS.PRACTICE_PREFIX + oldId;
+        const raw = localStorage.getItem(oldKey);
+        if (raw === null) return;
+        const newKey = this.KEYS.PRACTICE_PREFIX + aliases[oldId];
+        if (localStorage.getItem(newKey) === null) localStorage.setItem(newKey, raw);
+        localStorage.removeItem(oldKey);
+      });
+    } catch (e) { console.error('Alias migration failed', e); }
+  },
+
   getSettings() { return this._get(this.KEYS.SETTINGS, { negativeMarkingOverride: null }); },
   setSettings(s) { this._set(this.KEYS.SETTINGS, s); }
 };
@@ -64,6 +86,7 @@ const Papers = {
     const res = await fetch('papers/manifest.json', { cache: 'no-store' });
     if (!res.ok) throw new Error('Could not load papers/manifest.json (HTTP ' + res.status + ')');
     const data = await res.json();
+    if (data.aliases) Store.migrateAliases(data.aliases);
     this._manifestCache = data.papers || [];
     return this._manifestCache;
   },
