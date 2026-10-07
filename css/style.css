@@ -332,3 +332,36 @@ table.topic-table th { color: var(--text-muted); font-weight: 600; font-size: 0.
   .nav-links { flex-wrap: nowrap; overflow-x: auto; max-width: 100%; width: 100%; -webkit-overflow-scrolling: touch; }
   .nav-links a { white-space: nowrap; padding: 7px 11px; }
 }
+
+/* ---- Study plan ---- */
+.plan-summary { margin-bottom: 18px; }
+.plan-summary-top { display: flex; justify-content: space-between; align-items: baseline; }
+.plan-tools { display: flex; flex-wrap: wrap; gap: 12px; align-items: flex-end; justify-content: space-between; }
+.plan-start { display: flex; flex-direction: column; font-size: 0.82rem; color: var(--text-muted); gap: 4px; }
+.plan-start input { padding: 7px 10px; border: 1px solid var(--border); border-radius: 7px; font: inherit; color: var(--text); background: var(--surface); }
+.plan-reset { flex: 0 0 auto; }
+.plan-rhythm { margin-top: 14px; font-size: 0.9rem; }
+.plan-rhythm summary { cursor: pointer; font-weight: 600; }
+.plan-rhythm table { margin-top: 8px; border-collapse: collapse; width: 100%; }
+.plan-rhythm td { padding: 5px 8px 5px 0; vertical-align: top; }
+.plan-section-label { margin: 20px 0 8px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; font-size: 0.78rem; letter-spacing: 0.04em; }
+.plan-day { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: 10px; box-shadow: var(--shadow); overflow: hidden; }
+.plan-day.today { border-color: var(--primary); box-shadow: 0 0 0 2px rgba(37,99,235,0.18); }
+.plan-day.complete { background: var(--correct-bg); border-color: #86efac; }
+.plan-day-head { display: flex; align-items: center; gap: 10px; width: 100%; padding: 13px 16px; background: none; border: none; text-align: left; cursor: pointer; font: inherit; color: var(--text); }
+.plan-day-num { font-weight: 700; color: var(--primary); white-space: nowrap; }
+.plan-day-title { flex: 1; font-weight: 600; font-size: 0.93rem; }
+.plan-today-tag { background: var(--primary); color: #fff; font-size: 0.7rem; padding: 2px 8px; border-radius: 999px; }
+.plan-day-count { font-size: 0.82rem; color: var(--text-muted); white-space: nowrap; }
+.plan-day.complete .plan-day-count { color: var(--correct); font-weight: 700; }
+.plan-tasks { padding: 2px 16px 12px; }
+.plan-task { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-top: 1px solid var(--border); cursor: pointer; }
+.plan-task input { width: 22px; height: 22px; margin-top: 2px; flex: 0 0 auto; accent-color: var(--correct); cursor: pointer; }
+.plan-task-body { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+.plan-task-top { display: flex; gap: 8px; align-items: center; }
+.plan-chip { background: var(--bg); border: 1px solid var(--border); border-radius: 999px; font-size: 0.7rem; padding: 1px 8px; color: var(--text-muted); }
+.plan-time { font-size: 0.75rem; color: var(--text-muted); }
+.plan-task-label { font-weight: 600; font-size: 0.95rem; }
+.plan-task-detail { font-size: 0.85rem; color: var(--text-muted); }
+.plan-task.done .plan-task-label { text-decoration: line-through; color: var(--text-muted); }
+@media (max-width: 720px) { .plan-day-head { flex-wrap: wrap; } .plan-day-title { flex-basis: 100%; order: 3; } }

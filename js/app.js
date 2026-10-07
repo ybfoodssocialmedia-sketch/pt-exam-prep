@@ -46,6 +46,7 @@ const App = {
       if (parts[0] === 'exam' && parts[1] === 'results' && parts[2]) return ExamView.renderResults(parts[2]);
       if (parts[0] === 'review' && parts[1]) return ReviewView.render(parts[1], query);
       if (parts[0] === 'history') return this.renderHistory();
+      if (parts[0] === 'plan') return PlanView.render();
       if (parts[0] === 'settings') return this.renderSettings();
       return this.renderDashboard();
     } catch (err) {
