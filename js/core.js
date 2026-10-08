@@ -71,6 +71,42 @@ const Store = {
     } catch (e) { console.error('Alias migration failed', e); }
   },
 
+  // Finished by-subject sessions kept for later revision: [{ id, subject, topic, label, poolIds, wrongIds, score, total, date, attempts }]
+  getSolvedSets() { return this._get('mcq_solved_sets_v1', []); },
+  _setKey(poolIds) { const str = poolIds.slice().sort().join('|'); let h = 5381; for (let i = 0; i < str.length; i++) h = ((h * 33) ^ str.charCodeAt(i)) >>> 0; return 'set' + h.toString(36); },
+  saveSolvedSet(entry) {
+    const sets = this.getSolvedSets();
+    const id = this._setKey(entry.poolIds);
+    const existing = sets.find(x => x.id === id);
+    if (existing) { Object.assign(existing, { score: entry.score, total: entry.total, wrongIds: entry.wrongIds, date: entry.date, attempts: (existing.attempts || 1) + 1 }); }
+    else sets.unshift(Object.assign({ id, attempts: 1 }, entry));
+    this._set('mcq_solved_sets_v1', sets);
+  },
+  removeSolvedSet(id) { this._set('mcq_solved_sets_v1', this.getSolvedSets().filter(x => x.id !== id)); },
+  // One-off: sessions finished before this feature existed are still in the per-subject practice slots.
+  importOldSolvedSets() {
+    try {
+      if (localStorage.getItem('mcq_solved_import_v1')) return;
+      const sets = this.getSolvedSets();
+      for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        if (!key || !key.startsWith(this.KEYS.PRACTICE_PREFIX + 'subject:')) continue;
+        const st = this._get(key, null);
+        if (!st || !st.poolIds || !st.poolIds.length || st.filterMode !== 'all') continue;
+        const answered = Object.keys(st.answers || {}).length;
+        if (answered < st.poolIds.length) continue;
+        const pid = key.slice(this.KEYS.PRACTICE_PREFIX.length);
+        const parsed = Papers.parseSubjectPoolId(pid);
+        const id = this._setKey(st.poolIds);
+        if (sets.find(x => x.id === id)) continue;
+        sets.push({ id, attempts: 1, subject: parsed.subject, topic: parsed.topic, label: parsed.topic ? parsed.subject + ' — ' + parsed.topic : parsed.subject,
+          poolIds: st.poolIds, wrongIds: null, score: null, total: st.poolIds.length, date: st.startedAt || new Date().toISOString(), poolId: pid });
+      }
+      this._set('mcq_solved_sets_v1', sets);
+      localStorage.setItem('mcq_solved_import_v1', '1');
+    } catch (e) { console.error('Import of old sets failed', e); }
+  },
+
   getSettings() { return this._get(this.KEYS.SETTINGS, { negativeMarkingOverride: null }); },
   setSettings(s) { this._set(this.KEYS.SETTINGS, s); }
 };

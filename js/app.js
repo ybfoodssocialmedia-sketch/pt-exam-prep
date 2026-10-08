@@ -119,6 +119,12 @@ const App = {
           </div>
         </div>
 
+        <a class="plan-banner" href="#/plan">
+          <span class="plan-banner-icon">🗓️</span>
+          <span><strong>20-Day Study Plan</strong><br><span class="text-muted">Daily topics to learn and revise, with tick boxes</span></span>
+          <span class="plan-banner-go">Open →</span>
+        </a>
+
         <div class="section-title">Recent Activity</div>
         ${history.length === 0 ? `
           <div class="card empty-state">
@@ -224,10 +230,59 @@ const App = {
       <div class="container">
         <h1>📚 Practice by Subject</h1>
         <p class="text-muted" style="margin-top:-8px;">Each session gives you 20 random questions from the subject (or one topic), preferring questions you haven't seen yet. Start another session any time for a fresh 20. Same Practice Mode, with instant explanations.</p>
+        ${this.solvedSetsHtml()}
+        <div class="section-title">All subjects</div>
         <div class="paper-grid">
           ${summary.map(s => this.subjectCard(s)).join('')}
         </div>
       </div>`;
+    this.bindSolvedSets();
+  },
+
+  // Finished 20-question subject sessions, kept so the same questions can be revised later
+  solvedSetsHtml() {
+    Store.importOldSolvedSets();
+    const sets = Store.getSolvedSets();
+    if (!sets.length) return '';
+    const rows = sets.map(x => `
+      <div class="solved-set" data-set="${x.id}">
+        <div class="solved-set-info">
+          <strong>${Fmt.escapeHtml(x.label)}</strong>
+          <span class="text-muted">${x.score != null ? x.score + '/' + x.total + ' · ' : ''}${Fmt.dateShort(x.date)}${x.attempts > 1 ? ' · done ' + x.attempts + '×' : ''}</span>
+        </div>
+        <div class="solved-set-actions">
+          <button class="btn btn-practice" data-redo="all">Revise all ${x.poolIds.length}</button>
+          ${x.wrongIds && x.wrongIds.length ? `<button class="btn btn-outline" data-redo="wrong">Only the ${x.wrongIds.length} I missed</button>` : ''}
+          <button class="btn btn-outline solved-remove" data-redo="remove" title="Remove from this list">✕</button>
+        </div>
+      </div>`).join('');
+    return `
+      <details class="card solved-sets" open>
+        <summary><strong>✅ Solved sets — for revision later</strong> <span class="text-muted">(${sets.length})</span></summary>
+        <p class="text-muted" style="margin:6px 0 10px;font-size:0.88rem;">The same 20 questions you already solved, saved so you can revise them again.</p>
+        ${rows}
+      </details>`;
+  },
+
+  bindSolvedSets() {
+    this.root.querySelectorAll('.solved-set [data-redo]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const id = btn.closest('.solved-set').dataset.set;
+        const set = Store.getSolvedSets().find(x => x.id === id);
+        if (!set) return;
+        if (btn.dataset.redo === 'remove') {
+          if (confirm('Remove this solved set from the list?')) { Store.removeSolvedSet(id); this.renderSubjectPicker(); }
+          return;
+        }
+        const ids = btn.dataset.redo === 'wrong' && set.wrongIds && set.wrongIds.length ? set.wrongIds : set.poolIds;
+        const poolId = set.poolId || Papers.makeSubjectPoolId(set.subject, set.topic);
+        Store.setPracticeState(poolId, {
+          answers: {}, order: ids.slice(), currentIndex: 0, filterMode: 'all', filterTopic: null,
+          startedAt: new Date().toISOString(), timeSpentSec: 0, poolIds: ids.slice()
+        });
+        this.navigate('#/practice/' + encodeURIComponent(poolId));
+      });
+    });
   },
 
   subjectCard(s) {

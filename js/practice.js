@@ -206,8 +206,8 @@ const PracticeView = {
     const state = Store.getPracticeState(paperId);
     if (!state) { App.navigate('#/practice/' + encodeURIComponent(paperId)); return; }
 
-    const attemptedIds = Object.keys(state.answers).map(Number);
-    const attemptedQuestions = paper.questions.filter(q => attemptedIds.includes(q.id));
+    const attemptedIds = Object.keys(state.answers).map(String);
+    const attemptedQuestions = paper.questions.filter(q => attemptedIds.includes(String(q.id)));
     const totalAttempted = attemptedQuestions.length;
     const correctCount = attemptedQuestions.filter(q => state.answers[q.id] === q.correctAnswer).length;
     const incorrectCount = totalAttempted - correctCount;
@@ -222,6 +222,15 @@ const PracticeView = {
         accuracy, percentage: accuracy, timeTakenSec: 0
       });
       state._recorded = true;
+      if (Papers.isSubjectPoolId(paperId) && state.poolIds) {
+        const parsed = Papers.parseSubjectPoolId(paperId);
+        Store.saveSolvedSet({
+          subject: parsed.subject, topic: parsed.topic, label: parsed.topic ? parsed.subject + ' — ' + parsed.topic : parsed.subject,
+          poolId: paperId, poolIds: state.poolIds,
+          wrongIds: attemptedQuestions.filter(q => state.answers[q.id] !== q.correctAnswer).map(q => q.id),
+          score: correctCount, total: attemptedQuestions.length, date: new Date().toISOString()
+        });
+      }
       Store.setPracticeState(paperId, state);
     }
 
